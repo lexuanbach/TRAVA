@@ -19,8 +19,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1455,
-      "sha256": "09b3c1327916ec63d470603c159b109198645cbf426b23a651fc36b3817160a6"
+      "bytes": 1617,
+      "sha256": "1eb37b252ade0aecaa33ff1241adfe2cbeeac366ad5856edbe5e086120d62bfb"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -39,8 +39,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5594,
-      "sha256": "aef40a69b0a4e8d27ceb28ad66934e376a00f3f68803ed46664ccb4412ce28db"
+      "bytes": 5775,
+      "sha256": "6a7ab94a4bcf3d8b58bb76be72da1a6b4bb2976a5209305203bb3a66c7395190"
     },
     {
       "path": "annotation/GUIDELINES.md",
