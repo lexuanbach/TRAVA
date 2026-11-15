@@ -6,6 +6,7 @@
 *.yml text eol=lf
 *.json text eol=lf
 *.jsonl text eol=lf
-*.csv text eol=lf
+# Frozen annotations preserve their original line endings and file hashes.
+*.csv -text
 *.pdf binary
 *.png binary
