@@ -1,0 +1,59 @@
+{
+  "question": "Is the near-zero Delta_mask an artifact of pooling only the sampled questions' own evidence, or a property of the displaced evidence?",
+  "design": "Answer coverage before and after the per-query mask, split on whether the mask changed the context set, plus what the displaced and substituted passages carried.",
+  "grace_days": 3,
+  "n_questions": 878,
+  "n_context_sets_changed": 334,
+  "displaced_passages": {
+    "n": 569,
+    "n_answer_bearing": 89,
+    "share_answer_bearing": 0.1564
+  },
+  "substituted_passages": {
+    "n": 569,
+    "n_answer_bearing": 66,
+    "share_answer_bearing": 0.116
+  },
+  "coverage_delta_all_questions": {
+    "mean": -0.0052,
+    "ci95": [
+      -0.0101,
+      -0.0007
+    ],
+    "n": 878,
+    "n_quizzes": 199
+  },
+  "coverage_delta_changed_only": {
+    "mean": -0.0138,
+    "ci95": [
+      -0.0263,
+      -0.0018
+    ],
+    "n": 334,
+    "n_quizzes": 162
+  },
+  "per_slice": {
+    "static": {
+      "n": 404,
+      "n_changed": 238,
+      "coverage_unmasked": 0.2421,
+      "coverage_masked": 0.2342
+    },
+    "fresh": {
+      "n": 474,
+      "n_changed": 96,
+      "coverage_unmasked": 0.2814,
+      "coverage_masked": 0.2785
+    }
+  },
+  "index_sizes": {
+    "main": {
+      "n_documents": 6692
+    },
+    "full": {
+      "n_documents": 26611
+    }
+  },
+  "verdict": "INERTNESS: the displaced passages were largely not answer-bearing, so there was little for the mask to remove.",
+  "reading": "15.6% of displaced passages carried the gold span against 11.6% of their substitutes."
+}

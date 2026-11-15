@@ -1,0 +1,351 @@
+{
+  "scope": "Adaptive-retrieval policies computed by selecting between cached closed-book and retrieval-augmented generations per question. No new inference; no new model version. 'temporal' and 'oracle_perq' are oracle policies and are reported as reference points, not as deployable systems.",
+  "boundary": "2025-01-01",
+  "retrieval_condition": "hybrid",
+  "models": {
+    "qwen1_5b": {
+      "name": "Qwen2.5-1.5B",
+      "never": {
+        "f1_all": 16.11,
+        "f1_static": 15.22,
+        "f1_fresh": 16.88,
+        "retrieval_rate": 0.0
+      },
+      "always": {
+        "f1_all": 34.09,
+        "f1_static": 34.78,
+        "f1_fresh": 33.49,
+        "retrieval_rate": 1.0
+      },
+      "temporal": {
+        "f1_all": 25.08,
+        "f1_static": 15.22,
+        "f1_fresh": 33.49,
+        "retrieval_rate": 0.54
+      },
+      "abstain": {
+        "f1_all": 16.11,
+        "f1_static": 15.22,
+        "f1_fresh": 16.88,
+        "retrieval_rate": 0.0
+      },
+      "oracle_perq": {
+        "f1_all": 40.11,
+        "f1_static": 40.29,
+        "f1_fresh": 39.96,
+        "retrieval_rate": 0.298
+      },
+      "deployable_policies": [
+        "never",
+        "always",
+        "abstain"
+      ],
+      "best_deployable": "always",
+      "best_deployable_f1": 34.09,
+      "oracle_headroom_f1": 6.02,
+      "temporal_oracle_gain_f1": -9.01,
+      "n_questions": 878
+    },
+    "qwen3b": {
+      "name": "Qwen2.5-3B",
+      "never": {
+        "f1_all": 14.75,
+        "f1_static": 13.58,
+        "f1_fresh": 15.76,
+        "retrieval_rate": 0.0
+      },
+      "always": {
+        "f1_all": 35.51,
+        "f1_static": 35.87,
+        "f1_fresh": 35.21,
+        "retrieval_rate": 1.0
+      },
+      "temporal": {
+        "f1_all": 25.25,
+        "f1_static": 13.58,
+        "f1_fresh": 35.21,
+        "retrieval_rate": 0.54
+      },
+      "abstain": {
+        "f1_all": 16.88,
+        "f1_static": 15.4,
+        "f1_fresh": 18.15,
+        "retrieval_rate": 0.069
+      },
+      "oracle_perq": {
+        "f1_all": 41.41,
+        "f1_static": 40.24,
+        "f1_fresh": 42.4,
+        "retrieval_rate": 0.337
+      },
+      "deployable_policies": [
+        "never",
+        "always",
+        "abstain"
+      ],
+      "best_deployable": "always",
+      "best_deployable_f1": 35.51,
+      "oracle_headroom_f1": 5.9,
+      "temporal_oracle_gain_f1": -10.26,
+      "n_questions": 878
+    },
+    "qwen7b": {
+      "name": "Qwen2.5-7B",
+      "never": {
+        "f1_all": 21.61,
+        "f1_static": 22.4,
+        "f1_fresh": 20.95,
+        "retrieval_rate": 0.0
+      },
+      "always": {
+        "f1_all": 36.28,
+        "f1_static": 36.71,
+        "f1_fresh": 35.92,
+        "retrieval_rate": 1.0
+      },
+      "temporal": {
+        "f1_all": 29.7,
+        "f1_static": 22.4,
+        "f1_fresh": 35.92,
+        "retrieval_rate": 0.54
+      },
+      "abstain": {
+        "f1_all": 21.8,
+        "f1_static": 22.4,
+        "f1_fresh": 21.3,
+        "retrieval_rate": 0.006
+      },
+      "oracle_perq": {
+        "f1_all": 44.35,
+        "f1_static": 43.89,
+        "f1_fresh": 44.75,
+        "retrieval_rate": 0.295
+      },
+      "deployable_policies": [
+        "never",
+        "always",
+        "abstain"
+      ],
+      "best_deployable": "always",
+      "best_deployable_f1": 36.28,
+      "oracle_headroom_f1": 8.07,
+      "temporal_oracle_gain_f1": -6.58,
+      "n_questions": 878
+    },
+    "qwen32b": {
+      "name": "Qwen2.5-32B",
+      "never": {
+        "f1_all": 27.46,
+        "f1_static": 30.12,
+        "f1_fresh": 25.19,
+        "retrieval_rate": 0.0
+      },
+      "always": {
+        "f1_all": 38.99,
+        "f1_static": 38.84,
+        "f1_fresh": 39.11,
+        "retrieval_rate": 1.0
+      },
+      "temporal": {
+        "f1_all": 34.97,
+        "f1_static": 30.12,
+        "f1_fresh": 39.11,
+        "retrieval_rate": 0.54
+      },
+      "abstain": {
+        "f1_all": 27.85,
+        "f1_static": 30.12,
+        "f1_fresh": 25.92,
+        "retrieval_rate": 0.021
+      },
+      "oracle_perq": {
+        "f1_all": 49.92,
+        "f1_static": 50.24,
+        "f1_fresh": 49.64,
+        "retrieval_rate": 0.298
+      },
+      "deployable_policies": [
+        "never",
+        "always",
+        "abstain"
+      ],
+      "best_deployable": "always",
+      "best_deployable_f1": 38.99,
+      "oracle_headroom_f1": 10.93,
+      "temporal_oracle_gain_f1": -4.02,
+      "n_questions": 878
+    },
+    "qwen72b": {
+      "name": "Qwen2.5-72B",
+      "never": {
+        "f1_all": 32.26,
+        "f1_static": 35.62,
+        "f1_fresh": 29.4,
+        "retrieval_rate": 0.0
+      },
+      "always": {
+        "f1_all": 39.5,
+        "f1_static": 40.15,
+        "f1_fresh": 38.96,
+        "retrieval_rate": 1.0
+      },
+      "temporal": {
+        "f1_all": 37.42,
+        "f1_static": 35.62,
+        "f1_fresh": 38.96,
+        "retrieval_rate": 0.54
+      },
+      "abstain": {
+        "f1_all": 32.26,
+        "f1_static": 35.62,
+        "f1_fresh": 29.4,
+        "retrieval_rate": 0.0
+      },
+      "oracle_perq": {
+        "f1_all": 51.51,
+        "f1_static": 52.59,
+        "f1_fresh": 50.58,
+        "retrieval_rate": 0.261
+      },
+      "deployable_policies": [
+        "never",
+        "always",
+        "abstain"
+      ],
+      "best_deployable": "always",
+      "best_deployable_f1": 39.5,
+      "oracle_headroom_f1": 12.01,
+      "temporal_oracle_gain_f1": -2.08,
+      "n_questions": 878
+    },
+    "mistral_large": {
+      "name": "Mistral-Large-2",
+      "never": {
+        "f1_all": 37.24,
+        "f1_static": 45.87,
+        "f1_fresh": 29.88,
+        "retrieval_rate": 0.0
+      },
+      "always": {
+        "f1_all": 40.79,
+        "f1_static": 41.98,
+        "f1_fresh": 39.77,
+        "retrieval_rate": 1.0
+      },
+      "temporal": {
+        "f1_all": 42.58,
+        "f1_static": 45.87,
+        "f1_fresh": 39.77,
+        "retrieval_rate": 0.54
+      },
+      "abstain": {
+        "f1_all": 37.46,
+        "f1_static": 45.87,
+        "f1_fresh": 30.29,
+        "retrieval_rate": 0.002
+      },
+      "oracle_perq": {
+        "f1_all": 53.95,
+        "f1_static": 57.01,
+        "f1_fresh": 51.35,
+        "retrieval_rate": 0.227
+      },
+      "deployable_policies": [
+        "never",
+        "always",
+        "abstain"
+      ],
+      "best_deployable": "always",
+      "best_deployable_f1": 40.79,
+      "oracle_headroom_f1": 13.16,
+      "temporal_oracle_gain_f1": 1.79,
+      "n_questions": 878
+    },
+    "gpt4omini": {
+      "name": "GPT-4o-mini",
+      "never": {
+        "f1_all": 35.97,
+        "f1_static": 43.27,
+        "f1_fresh": 29.75,
+        "retrieval_rate": 0.0
+      },
+      "always": {
+        "f1_all": 39.35,
+        "f1_static": 39.93,
+        "f1_fresh": 38.84,
+        "retrieval_rate": 1.0
+      },
+      "temporal": {
+        "f1_all": 40.88,
+        "f1_static": 43.27,
+        "f1_fresh": 38.84,
+        "retrieval_rate": 0.54
+      },
+      "abstain": {
+        "f1_all": 36.64,
+        "f1_static": 43.27,
+        "f1_fresh": 31.0,
+        "retrieval_rate": 0.034
+      },
+      "oracle_perq": {
+        "f1_all": 53.26,
+        "f1_static": 56.33,
+        "f1_fresh": 50.64,
+        "retrieval_rate": 0.246
+      },
+      "deployable_policies": [
+        "never",
+        "always",
+        "abstain"
+      ],
+      "best_deployable": "always",
+      "best_deployable_f1": 39.35,
+      "oracle_headroom_f1": 13.91,
+      "temporal_oracle_gain_f1": 1.53,
+      "n_questions": 878
+    },
+    "sonnet": {
+      "name": "Claude-Sonnet",
+      "never": {
+        "f1_all": 25.06,
+        "f1_static": 39.22,
+        "f1_fresh": 13.0,
+        "retrieval_rate": 0.0
+      },
+      "always": {
+        "f1_all": 32.19,
+        "f1_static": 34.25,
+        "f1_fresh": 30.44,
+        "retrieval_rate": 1.0
+      },
+      "temporal": {
+        "f1_all": 34.48,
+        "f1_static": 39.22,
+        "f1_fresh": 30.44,
+        "retrieval_rate": 0.54
+      },
+      "abstain": {
+        "f1_all": 39.52,
+        "f1_static": 45.06,
+        "f1_fresh": 34.8,
+        "retrieval_rate": 0.562
+      },
+      "oracle_perq": {
+        "f1_all": 43.5,
+        "f1_static": 50.92,
+        "f1_fresh": 37.17,
+        "retrieval_rate": 0.301
+      },
+      "deployable_policies": [
+        "never",
+        "always",
+        "abstain"
+      ],
+      "best_deployable": "abstain",
+      "best_deployable_f1": 39.52,
+      "oracle_headroom_f1": 3.98,
+      "temporal_oracle_gain_f1": -5.04,
+      "n_questions": 878
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "scope": "Third-party adjudication of the items three annotators disagreed on, for the fields that passed reliability.",
+  "blind_to_vote_counts": true,
+  "excluded": {
+    "freshness": "alpha 0.47; needs a re-pilot, not a referee"
+  },
+  "fields": {
+    "verdict": {
+      "n_contested": 34,
+      "n_adjudicated": 34,
+      "agreed_with_majority": 16,
+      "departed_from_majority": 18,
+      "departure_rate": 0.5294,
+      "off_ballot": 0,
+      "off_ballot_rate": 0.0,
+      "unjudgeable": 0,
+      "unjudgeable_rate": 0.0,
+      "rows_missing_a_reason": [],
+      "departure_rate_if_choosing_at_random": 0.5,
+      "departure_vs_chance": 0.0294,
+      "switches": {
+        "PARTIAL->CORRECT": 10,
+        "INCORRECT->PARTIAL": 5,
+        "UNCLEAR->INCORRECT": 1,
+        "CORRECT->PARTIAL": 1,
+        "INCORRECT->ABSTAIN": 1
+      },
+      "reading": "Departure 0.529 against a random-choice baseline of 0.500. Indistinguishable from the baseline: on these items the adjudicator's verdict is uncorrelated with the majority, so majority vote was effectively arbitrary here -- which does not by itself mean the population estimates move, because contested items are a small and low-weight slice. The switches are directional (PARTIAL->CORRECT x10), so the adjudicator applied a different threshold rather than choosing noisily."
+    },
+    "supports": {
+      "n_contested": 168,
+      "n_adjudicated": 168,
+      "agreed_with_majority": 107,
+      "departed_from_majority": 61,
+      "departure_rate": 0.3631,
+      "off_ballot": 0,
+      "off_ballot_rate": 0.0,
+      "unjudgeable": 0,
+      "unjudgeable_rate": 0.0,
+      "rows_missing_a_reason": [],
+      "departure_rate_if_choosing_at_random": 0.5079,
+      "departure_vs_chance": -0.1448,
+      "switches": {
+        "PARTIAL->NO": 27,
+        "NO->PARTIAL": 22,
+        "PARTIAL->YES": 8,
+        "NO->YES": 2,
+        "YES->NO": 1,
+        "YES->PARTIAL": 1
+      },
+      "reading": "Departure 0.363 against a random-choice baseline of 0.508. Below the baseline: the adjudicator agreed with the majority more often than chance, so majority vote carried real signal on the contested items. The switches are directional (PARTIAL->NO x27), so the adjudicator applied a different threshold rather than choosing noisily."
+    }
+  }
+}

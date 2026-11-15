@@ -1,0 +1,245 @@
+{
+  "scope": "Slope of the closed-book boundary gap on log10(parameters) across the seven open-weight rungs, with uncertainty from a joint block bootstrap over weekly quizzes. The same resampled quizzes are used for every model on each replicate, so the interval reflects the correlation induced by evaluating all models on the same questions.",
+  "boundary": "2025-01-01",
+  "n_quizzes": 199,
+  "n_questions": 878,
+  "replicates_used": 5000,
+  "models": [
+    {
+      "key": "qwen",
+      "name": "Qwen2.5-0.5B",
+      "params_B": 0.5,
+      "observed_gap_f1": 0.1209,
+      "gap_ci95": [
+        -4.3664,
+        4.6664
+      ]
+    },
+    {
+      "key": "qwen1_5b",
+      "name": "Qwen2.5-1.5B",
+      "params_B": 1.5,
+      "observed_gap_f1": -1.6645,
+      "gap_ci95": [
+        -7.0293,
+        3.7288
+      ]
+    },
+    {
+      "key": "qwen3b",
+      "name": "Qwen2.5-3B",
+      "params_B": 3.0,
+      "observed_gap_f1": -2.1785,
+      "gap_ci95": [
+        -7.9886,
+        3.3851
+      ]
+    },
+    {
+      "key": "qwen7b",
+      "name": "Qwen2.5-7B",
+      "params_B": 7.0,
+      "observed_gap_f1": 1.4505,
+      "gap_ci95": [
+        -6.2496,
+        8.4676
+      ]
+    },
+    {
+      "key": "qwen32b",
+      "name": "Qwen2.5-32B",
+      "params_B": 32.0,
+      "observed_gap_f1": 4.9292,
+      "gap_ci95": [
+        -2.8978,
+        12.096
+      ]
+    },
+    {
+      "key": "qwen72b",
+      "name": "Qwen2.5-72B",
+      "params_B": 72.0,
+      "observed_gap_f1": 6.2162,
+      "gap_ci95": [
+        -1.2243,
+        13.2154
+      ]
+    },
+    {
+      "key": "mistral_large",
+      "name": "Mistral-Large-2",
+      "params_B": 123.0,
+      "observed_gap_f1": 15.9864,
+      "gap_ci95": [
+        8.3727,
+        23.5036
+      ]
+    }
+  ],
+  "slope_f1_per_decade": {
+    "observed": 5.9252,
+    "ci95": [
+      3.1389,
+      8.7312
+    ],
+    "bootstrap_median": 5.9162,
+    "two_sided_p_plus_one": 0.0004,
+    "p_resolution_floor": 0.0004,
+    "p_note": "Reported with the plus-one estimator. We quote the interval as the primary evidence; the p-value cannot resolve below the floor.",
+    "interpretation": "An interval excluding zero indicates the gap increases with scale across this ladder. It does not identify capability as the cause: the ladder changes model family at the top rung, and pretraining cutoffs are undisclosed for several rungs."
+  },
+  "year_pair_sensitivity": {
+    "note": "Slope under every genuine CROSS-BOUNDARY year contrast (one year on each side of the analysis boundary). Same-side pairs are reported separately under `same_side_contrasts`: they measure year-difficulty drift, not the boundary, and pooling them into this range was an error in an earlier version. Reported so the dependence on the 2023-vs-2026 choice is visible.",
+    "pairs": {
+      "2022_vs_2025": {
+        "slope_f1_per_decade": 12.7002,
+        "gaps": {
+          "qwen": 6.897,
+          "qwen1_5b": -1.389,
+          "qwen3b": -1.527,
+          "qwen7b": 10.052,
+          "qwen32b": 14.486,
+          "qwen72b": 22.533,
+          "mistral_large": 35.731
+        },
+        "n_pre": 150,
+        "n_post": 128
+      },
+      "2022_vs_2026": {
+        "slope_f1_per_decade": 11.0251,
+        "gaps": {
+          "qwen": 0.609,
+          "qwen1_5b": -5.806,
+          "qwen3b": -2.958,
+          "qwen7b": 1.989,
+          "qwen32b": 7.287,
+          "qwen72b": 13.071,
+          "mistral_large": 28.438
+        },
+        "n_pre": 150,
+        "n_post": 346
+      },
+      "2023_vs_2025": {
+        "slope_f1_per_decade": 6.692,
+        "gaps": {
+          "qwen": 2.001,
+          "qwen1_5b": 2.338,
+          "qwen3b": -0.132,
+          "qwen7b": 6.165,
+          "qwen32b": 7.38,
+          "qwen72b": 12.318,
+          "mistral_large": 19.247
+        },
+        "n_pre": 131,
+        "n_post": 128
+      },
+      "2023_vs_2026": {
+        "slope_f1_per_decade": 5.0168,
+        "gaps": {
+          "qwen": -4.287,
+          "qwen1_5b": -2.078,
+          "qwen3b": -1.563,
+          "qwen7b": -1.899,
+          "qwen32b": 0.181,
+          "qwen72b": 2.855,
+          "mistral_large": 11.955
+        },
+        "n_pre": 131,
+        "n_post": 346
+      },
+      "2024_vs_2025": {
+        "slope_f1_per_decade": 0.8628,
+        "gaps": {
+          "qwen": 4.931,
+          "qwen1_5b": 4.325,
+          "qwen3b": -1.721,
+          "qwen7b": 5.273,
+          "qwen32b": 7.925,
+          "qwen72b": 2.506,
+          "mistral_large": 5.92
+        },
+        "n_pre": 123,
+        "n_post": 128
+      },
+      "2024_vs_2026": {
+        "slope_f1_per_decade": -0.8124,
+        "gaps": {
+          "qwen": -1.357,
+          "qwen1_5b": -0.091,
+          "qwen3b": -3.152,
+          "qwen7b": -2.79,
+          "qwen32b": 0.726,
+          "qwen72b": -6.957,
+          "mistral_large": -1.373
+        },
+        "n_pre": 123,
+        "n_post": 346
+      }
+    },
+    "same_side_contrasts": {
+      "2022_vs_2023": {
+        "slope_f1_per_decade": 6.0082,
+        "gaps": {
+          "qwen": 4.896,
+          "qwen1_5b": -3.728,
+          "qwen3b": -1.395,
+          "qwen7b": 3.887,
+          "qwen32b": 7.106,
+          "qwen72b": 10.216,
+          "mistral_large": 16.484
+        },
+        "n_pre": 150,
+        "n_post": 131
+      },
+      "2022_vs_2024": {
+        "slope_f1_per_decade": 11.8375,
+        "gaps": {
+          "qwen": 1.966,
+          "qwen1_5b": -5.715,
+          "qwen3b": 0.194,
+          "qwen7b": 4.779,
+          "qwen32b": 6.561,
+          "qwen72b": 20.028,
+          "mistral_large": 29.811
+        },
+        "n_pre": 150,
+        "n_post": 123
+      },
+      "2023_vs_2024": {
+        "slope_f1_per_decade": 5.8292,
+        "gaps": {
+          "qwen": -2.93,
+          "qwen1_5b": -1.987,
+          "qwen3b": 1.589,
+          "qwen7b": 0.892,
+          "qwen32b": -0.545,
+          "qwen72b": 9.812,
+          "mistral_large": 13.328
+        },
+        "n_pre": 131,
+        "n_post": 123
+      },
+      "2025_vs_2026": {
+        "slope_f1_per_decade": -1.6752,
+        "gaps": {
+          "qwen": -6.288,
+          "qwen1_5b": -4.416,
+          "qwen3b": -1.432,
+          "qwen7b": -8.064,
+          "qwen32b": -7.199,
+          "qwen72b": -9.462,
+          "mistral_large": -7.293
+        },
+        "n_pre": 128,
+        "n_post": 346
+      }
+    },
+    "slope_range": [
+      -0.8124,
+      12.7002
+    ],
+    "slope_median": 5.8544,
+    "n_pairs": 6,
+    "sign_agreement": 0.833
+  }
+}

@@ -1,0 +1,7 @@
+# Cached-analysis environment validated on Python 3.14 / macOS arm64.
+# No model libraries, API keys, GPU or network are needed after installation.
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.0.3
+PyYAML==6.0.3
+pytest==9.0.3

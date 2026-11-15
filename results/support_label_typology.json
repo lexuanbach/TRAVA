@@ -1,0 +1,276 @@
+{
+  "scope": "Typology of disagreements between the automatic support labels and human passage labels, broken down by slice and by the generator whose retrieved context the passage came from.",
+  "human_partial_counts_as": "supported",
+  "n_labelled_passages": 900,
+  "why": "L3 is stratified by these labels, so a failure rate that differed by slice would confound the interaction with the boundary. These breakdowns test that directly.",
+  "labels": {
+    "string": {
+      "n_passages": 900,
+      "cells": {
+        "agree_support": 193,
+        "agree_no": 527,
+        "auto_only": 50,
+        "human_only": 130
+      },
+      "disagreement_rate": 0.2,
+      "disagreement_ci95": [
+        0.1744,
+        0.2267
+      ],
+      "by_slice": {
+        "static": {
+          "n": 450,
+          "disagreement_rate": 0.1822,
+          "ci95": [
+            0.1489,
+            0.2178
+          ],
+          "cells": {
+            "agree_support": 99,
+            "agree_no": 269,
+            "human_only": 60,
+            "auto_only": 22
+          }
+        },
+        "fresh": {
+          "n": 450,
+          "disagreement_rate": 0.2178,
+          "ci95": [
+            0.1822,
+            0.2533
+          ],
+          "cells": {
+            "agree_support": 94,
+            "agree_no": 258,
+            "auto_only": 28,
+            "human_only": 70
+          }
+        }
+      },
+      "by_model": {
+        "gpt4omini": {
+          "n": 96,
+          "params_B": null,
+          "disagreement_rate": 0.1354
+        },
+        "llama3_8b": {
+          "n": 111,
+          "params_B": null,
+          "disagreement_rate": 0.2162
+        },
+        "mistral_large": {
+          "n": 75,
+          "params_B": 123.0,
+          "disagreement_rate": 0.24
+        },
+        "qwen1_5b": {
+          "n": 108,
+          "params_B": 1.5,
+          "disagreement_rate": 0.2593
+        },
+        "qwen32b": {
+          "n": 96,
+          "params_B": 32.0,
+          "disagreement_rate": 0.2083
+        },
+        "qwen3b": {
+          "n": 120,
+          "params_B": 3.0,
+          "disagreement_rate": 0.225
+        },
+        "qwen72b": {
+          "n": 102,
+          "params_B": 72.0,
+          "disagreement_rate": 0.1863
+        },
+        "qwen7b": {
+          "n": 108,
+          "params_B": 7.0,
+          "disagreement_rate": 0.1111
+        },
+        "sonnet": {
+          "n": 84,
+          "params_B": null,
+          "disagreement_rate": 0.2262
+        }
+      },
+      "slice_difference_pts": -3.56,
+      "examples": {
+        "auto_only": [
+          {
+            "qid": "20260410_0",
+            "gold": "Emperor penguins",
+            "human": "NO",
+            "excerpt": "Robin Ganzert\n\nOpinion contributor\n\nMay 11, 2019 Updated May 13, 2019, 8:14 p.m. ET\n\nRoughly 1 million plant and animal species are at risk of extinction, according to a recent United Nations assessment. As animals find "
+          },
+          {
+            "qid": "20260206_1",
+            "gold": "Cross-country skiing",
+            "human": "NO",
+            "excerpt": "Nov. 24, 2022 Updated July 25, 2024, 1:19 p.m. ET\n\nThe Summer Olympics are finally here, and we're about to see who from Team USA will add a medal to the total tally.\n\nThe Olympics began in 776 BC, though the modern Olym"
+          },
+          {
+            "qid": "20260206_1",
+            "gold": "Cross-country skiing",
+            "human": "NO",
+            "excerpt": "CNN \u2014\n\nIt\u2019s official. Norway is really good at the Winter Olympics.\n\nWith a population of just over five million people, the European country has continued to punch above its weight at Beijing 2022, finishing way above t"
+          }
+        ],
+        "human_only": [
+          {
+            "qid": "20240906_27",
+            "gold": "Oct. 13, 2024",
+            "human": "PARTIAL",
+            "excerpt": "If all goes according to plan, Target will open a new store in Middletown in the coming years, Middletown Mayor Kenneth Branner Jr. told Delaware Online/The News Journal.\n\n\"It's a done deal from what I understand,\" the 3"
+          },
+          {
+            "qid": "20231103_12",
+            "gold": "\u201cFriends\u201d",
+            "human": "YES",
+            "excerpt": "Matthew Perry's family has spoken out on the death of the 54-year-old \"Friends\" actor over the weekend.\n\n\"We are heartbroken by the tragic loss of our beloved son and brother,\" the family told People in an exclusive stat"
+          },
+          {
+            "qid": "20231103_12",
+            "gold": "\u201cFriends\u201d",
+            "human": "YES",
+            "excerpt": "Matthew Perry was \"Friends\" with all of us.\n\nThat's what it felt like, at least. As one of the six cast members of the iconic NBC sitcom, which ran from 1994 to 2004, Perry's Chandler Bing was an intimate part of million"
+          }
+        ]
+      }
+    },
+    "nli": {
+      "n_passages": 900,
+      "cells": {
+        "agree_support": 246,
+        "human_only": 77,
+        "agree_no": 500,
+        "auto_only": 77
+      },
+      "disagreement_rate": 0.1711,
+      "disagreement_ci95": [
+        0.1467,
+        0.1967
+      ],
+      "by_slice": {
+        "static": {
+          "n": 450,
+          "disagreement_rate": 0.1756,
+          "ci95": [
+            0.1422,
+            0.2111
+          ],
+          "cells": {
+            "agree_support": 115,
+            "agree_no": 256,
+            "human_only": 44,
+            "auto_only": 35
+          }
+        },
+        "fresh": {
+          "n": 450,
+          "disagreement_rate": 0.1667,
+          "ci95": [
+            0.1333,
+            0.2022
+          ],
+          "cells": {
+            "agree_support": 131,
+            "human_only": 33,
+            "agree_no": 244,
+            "auto_only": 42
+          }
+        }
+      },
+      "by_model": {
+        "gpt4omini": {
+          "n": 96,
+          "params_B": null,
+          "disagreement_rate": 0.1458
+        },
+        "llama3_8b": {
+          "n": 111,
+          "params_B": null,
+          "disagreement_rate": 0.1532
+        },
+        "mistral_large": {
+          "n": 75,
+          "params_B": 123.0,
+          "disagreement_rate": 0.16
+        },
+        "qwen1_5b": {
+          "n": 108,
+          "params_B": 1.5,
+          "disagreement_rate": 0.2037
+        },
+        "qwen32b": {
+          "n": 96,
+          "params_B": 32.0,
+          "disagreement_rate": 0.125
+        },
+        "qwen3b": {
+          "n": 120,
+          "params_B": 3.0,
+          "disagreement_rate": 0.225
+        },
+        "qwen72b": {
+          "n": 102,
+          "params_B": 72.0,
+          "disagreement_rate": 0.2451
+        },
+        "qwen7b": {
+          "n": 108,
+          "params_B": 7.0,
+          "disagreement_rate": 0.1296
+        },
+        "sonnet": {
+          "n": 84,
+          "params_B": null,
+          "disagreement_rate": 0.131
+        }
+      },
+      "slice_difference_pts": 0.89,
+      "examples": {
+        "auto_only": [
+          {
+            "qid": "20260410_0",
+            "gold": "Emperor penguins",
+            "human": "NO",
+            "excerpt": "Robin Ganzert\n\nOpinion contributor\n\nMay 11, 2019 Updated May 13, 2019, 8:14 p.m. ET\n\nRoughly 1 million plant and animal species are at risk of extinction, according to a recent United Nations assessment. As animals find "
+          },
+          {
+            "qid": "20250411_0",
+            "gold": "Wolf",
+            "human": "NO",
+            "excerpt": "Tasmanian tigers were hunted to extinction decades ago, but a recent scientific breakthrough has raised hope that the animal and potentially other long-lost species could one day be resurrected.\n\nScientists were recently"
+          },
+          {
+            "qid": "20260313_5",
+            "gold": "40 minutes",
+            "human": "NO",
+            "excerpt": "March 3, 2023 Updated Jan. 24, 2024, 3:43 p.m. ET\n\nSince 1929, the Academy of Motion Picture Arts and Sciences has awarded those in the entertainment industry for their significant achievements. The Academy Awards, or Os"
+          }
+        ],
+        "human_only": [
+          {
+            "qid": "20260612_4",
+            "gold": "Steve Hilton",
+            "human": "PARTIAL",
+            "excerpt": "May 19, 2026, 4:56 p.m. ET\n\nTwo candidates are leading the crowded field of California gubernatorial candidates in a new poll released Tuesday, May 19, mirroring results from other surveys in recent weeks.\n\nRepublican St"
+          },
+          {
+            "qid": "20240906_27",
+            "gold": "Oct. 13, 2024",
+            "human": "PARTIAL",
+            "excerpt": "If all goes according to plan, Target will open a new store in Middletown in the coming years, Middletown Mayor Kenneth Branner Jr. told Delaware Online/The News Journal.\n\n\"It's a done deal from what I understand,\" the 3"
+          },
+          {
+            "qid": "20250815_0",
+            "gold": "Anchorage, Alaska",
+            "human": "YES",
+            "excerpt": "President Donald Trump and Russian President Vladimir Putin met on the tarmac of a U.S. air base in Alaska and began a closed-door meeting over the Ukraine war.\n\nTrump said on Air Force One that he might consider U.S. se"
+          }
+        ]
+      }
+    }
+  }
+}

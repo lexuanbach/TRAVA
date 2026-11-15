@@ -1,0 +1,66 @@
+{
+  "2023": {
+    "closed_book": {
+      "static_f1": 34.4,
+      "fresh_f1": 26.0,
+      "gap": 8.4,
+      "n_static": 150,
+      "n_fresh": 728
+    },
+    "hybrid": {
+      "static_f1": 46.4,
+      "fresh_f1": 37.5,
+      "gap": 8.9,
+      "n_static": 150,
+      "n_fresh": 728
+    }
+  },
+  "2024": {
+    "closed_book": {
+      "static_f1": 31.1,
+      "fresh_f1": 25.7,
+      "gap": 5.4,
+      "n_static": 281,
+      "n_fresh": 597
+    },
+    "hybrid": {
+      "static_f1": 42.7,
+      "fresh_f1": 37.2,
+      "gap": 5.5,
+      "n_static": 281,
+      "n_fresh": 597
+    }
+  },
+  "2025": {
+    "closed_book": {
+      "static_f1": 30.1,
+      "fresh_f1": 25.2,
+      "gap": 4.9,
+      "n_static": 404,
+      "n_fresh": 474
+    },
+    "hybrid": {
+      "static_f1": 38.8,
+      "fresh_f1": 39.1,
+      "gap": -0.3,
+      "n_static": 404,
+      "n_fresh": 474
+    }
+  },
+  "2026": {
+    "closed_book": {
+      "static_f1": 27.7,
+      "fresh_f1": 27.1,
+      "gap": 0.5,
+      "n_static": 532,
+      "n_fresh": 346
+    },
+    "hybrid": {
+      "static_f1": 36.9,
+      "fresh_f1": 42.2,
+      "gap": -5.3,
+      "n_static": 532,
+      "n_fresh": 346
+    }
+  }
+}

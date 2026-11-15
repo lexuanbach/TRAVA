@@ -1,0 +1,300 @@
+{
+  "scope": "Human support labels on MASKED contexts. This is the joint mask + human estimate the paper previously could not make.",
+  "preregistration": "annotation/masked_support_2026-08-04/PREREGISTRATION.md",
+  "support_threshold": "yes",
+  "krippendorff_alpha": 0.933,
+  "n_passages_labelled": 630,
+  "n_questions": 210,
+  "n_adjudicated": 0,
+  "unresolved_rows": 0,
+  "unresolved_policy": "require",
+  "unresolved_share_of_sample": 0.0,
+  "unresolved_note": "Contested rows with no adjudicated label. Under 'drop' they are excluded from every estimate and this count is the exclusion the paper must state. Under 'unclear' they are counted as UNCLEAR, which does not count as supported.",
+  "weighting": "support rate: inverse inclusion probability on 200 stratified questions; interactions: unweighted sample-level on 210 questions",
+  "equivalence_margin_f1": 5.0,
+  "weighted_support_rate": 0.3821,
+  "per_model": {
+    "qwen1_5b": {
+      "static": {
+        "interaction": 45.757,
+        "ci95": [
+          30.579,
+          61.853
+        ],
+        "p_plus_one": 0.0004,
+        "n_supported": 42,
+        "n_unsupported": 61,
+        "n_quizzes": 70,
+        "excludes_zero": true,
+        "within_equivalence_margin": false
+      },
+      "fresh": {
+        "interaction": 46.134,
+        "ci95": [
+          29.172,
+          62.073
+        ],
+        "p_plus_one": 0.0004,
+        "n_supported": 38,
+        "n_unsupported": 69,
+        "n_quizzes": 46,
+        "excludes_zero": true,
+        "within_equivalence_margin": false
+      }
+    },
+    "qwen3b": {
+      "static": {
+        "interaction": 54.579,
+        "ci95": [
+          38.722,
+          70.521
+        ],
+        "p_plus_one": 0.0004,
+        "n_supported": 42,
+        "n_unsupported": 61,
+        "n_quizzes": 70,
+        "excludes_zero": true,
+        "within_equivalence_margin": false
+      },
+      "fresh": {
+        "interaction": 62.329,
+        "ci95": [
+          43.961,
+          79.737
+        ],
+        "p_plus_one": 0.0004,
+        "n_supported": 38,
+        "n_unsupported": 69,
+        "n_quizzes": 46,
+        "excludes_zero": true,
+        "within_equivalence_margin": false
+      }
+    },
+    "qwen7b": {
+      "static": {
+        "interaction": 40.264,
+        "ci95": [
+          24.973,
+          55.946
+        ],
+        "p_plus_one": 0.0004,
+        "n_supported": 42,
+        "n_unsupported": 61,
+        "n_quizzes": 70,
+        "excludes_zero": true,
+        "within_equivalence_margin": false
+      },
+      "fresh": {
+        "interaction": 55.381,
+        "ci95": [
+          38.332,
+          72.791
+        ],
+        "p_plus_one": 0.0004,
+        "n_supported": 38,
+        "n_unsupported": 69,
+        "n_quizzes": 46,
+        "excludes_zero": true,
+        "within_equivalence_margin": false
+      }
+    },
+    "llama3_8b": {
+      "static": {
+        "interaction": 33.521,
+        "ci95": [
+          16.481,
+          52.273
+        ],
+        "p_plus_one": 0.0004,
+        "n_supported": 42,
+        "n_unsupported": 61,
+        "n_quizzes": 70,
+        "excludes_zero": true,
+        "within_equivalence_margin": false
+      },
+      "fresh": {
+        "interaction": 41.806,
+        "ci95": [
+          22.545,
+          60.338
+        ],
+        "p_plus_one": 0.0004,
+        "n_supported": 38,
+        "n_unsupported": 69,
+        "n_quizzes": 46,
+        "excludes_zero": true,
+        "within_equivalence_margin": false
+      }
+    },
+    "qwen32b": {
+      "static": {
+        "interaction": 40.468,
+        "ci95": [
+          24.074,
+          58.185
+        ],
+        "p_plus_one": 0.0004,
+        "n_supported": 42,
+        "n_unsupported": 61,
+        "n_quizzes": 70,
+        "excludes_zero": true,
+        "within_equivalence_margin": false
+      },
+      "fresh": {
+        "interaction": 59.228,
+        "ci95": [
+          37.499,
+          80.721
+        ],
+        "p_plus_one": 0.0004,
+        "n_supported": 38,
+        "n_unsupported": 69,
+        "n_quizzes": 46,
+        "excludes_zero": true,
+        "within_equivalence_margin": false
+      }
+    },
+    "qwen72b": {
+      "static": {
+        "interaction": 32.114,
+        "ci95": [
+          16.458,
+          48.603
+        ],
+        "p_plus_one": 0.0008,
+        "n_supported": 42,
+        "n_unsupported": 61,
+        "n_quizzes": 70,
+        "excludes_zero": true,
+        "within_equivalence_margin": false
+      },
+      "fresh": {
+        "interaction": 47.976,
+        "ci95": [
+          25.289,
+          70.736
+        ],
+        "p_plus_one": 0.0004,
+        "n_supported": 38,
+        "n_unsupported": 69,
+        "n_quizzes": 46,
+        "excludes_zero": true,
+        "within_equivalence_margin": false
+      }
+    },
+    "mistral_large": {
+      "static": {
+        "interaction": 36.272,
+        "ci95": [
+          20.664,
+          53.45
+        ],
+        "p_plus_one": 0.0004,
+        "n_supported": 42,
+        "n_unsupported": 61,
+        "n_quizzes": 70,
+        "excludes_zero": true,
+        "within_equivalence_margin": false
+      },
+      "fresh": {
+        "interaction": 46.465,
+        "ci95": [
+          25.824,
+          66.938
+        ],
+        "p_plus_one": 0.0004,
+        "n_supported": 38,
+        "n_unsupported": 69,
+        "n_quizzes": 46,
+        "excludes_zero": true,
+        "within_equivalence_margin": false
+      }
+    },
+    "haiku": {
+      "static": {
+        "interaction": 36.371,
+        "ci95": [
+          17.278,
+          53.939
+        ],
+        "p_plus_one": 0.0008,
+        "n_supported": 42,
+        "n_unsupported": 61,
+        "n_quizzes": 70,
+        "excludes_zero": true,
+        "within_equivalence_margin": false
+      },
+      "fresh": {
+        "interaction": 56.689,
+        "ci95": [
+          42.672,
+          70.317
+        ],
+        "p_plus_one": 0.0004,
+        "n_supported": 38,
+        "n_unsupported": 69,
+        "n_quizzes": 46,
+        "excludes_zero": true,
+        "within_equivalence_margin": false
+      }
+    },
+    "sonnet": {
+      "static": {
+        "interaction": 40.882,
+        "ci95": [
+          26.396,
+          56.053
+        ],
+        "p_plus_one": 0.0004,
+        "n_supported": 42,
+        "n_unsupported": 61,
+        "n_quizzes": 70,
+        "excludes_zero": true,
+        "within_equivalence_margin": false
+      },
+      "fresh": {
+        "interaction": 65.261,
+        "ci95": [
+          50.957,
+          80.139
+        ],
+        "p_plus_one": 0.0004,
+        "n_supported": 38,
+        "n_unsupported": 69,
+        "n_quizzes": 46,
+        "excludes_zero": true,
+        "within_equivalence_margin": false
+      }
+    },
+    "gpt4omini": {
+      "static": {
+        "interaction": 35.015,
+        "ci95": [
+          17.803,
+          52.758
+        ],
+        "p_plus_one": 0.0004,
+        "n_supported": 42,
+        "n_unsupported": 61,
+        "n_quizzes": 70,
+        "excludes_zero": true,
+        "within_equivalence_margin": false
+      },
+      "fresh": {
+        "interaction": 53.163,
+        "ci95": [
+          33.188,
+          73.57
+        ],
+        "p_plus_one": 0.0004,
+        "n_supported": 38,
+        "n_unsupported": 69,
+        "n_quizzes": 46,
+        "excludes_zero": true,
+        "within_equivalence_margin": false
+      }
+    }
+  },
+  "n_population_questions": 200,
+  "n_consistency_questions": 10
+}

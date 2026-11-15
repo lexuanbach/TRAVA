@@ -1,0 +1,81 @@
+{
+  "scope": "Trend and pairwise tests for the claim that the automatic stale-label's precision is capability-graded.",
+  "n_adjudicated": 90,
+  "per_model": {
+    "qwen3b": {
+      "k": 8,
+      "n": 33,
+      "precision": 0.2424,
+      "wilson95": [
+        0.1283,
+        0.4102
+      ]
+    },
+    "qwen32b": {
+      "k": 8,
+      "n": 27,
+      "precision": 0.2963,
+      "wilson95": [
+        0.1585,
+        0.4848
+      ]
+    },
+    "mistral_large": {
+      "k": 14,
+      "n": 30,
+      "precision": 0.4667,
+      "wilson95": [
+        0.3023,
+        0.6386
+      ]
+    }
+  },
+  "pooled_precision": {
+    "k": 30,
+    "n": 90,
+    "point": 0.3333,
+    "wilson95": [
+      0.2445,
+      0.4358
+    ],
+    "status": "SUPPORTED -- this is the result the paper should lead with"
+  },
+  "cochran_armitage_trend": {
+    "statistic": 1.7719,
+    "n_shuffles": 200000,
+    "n_at_least_as_extreme": 16253,
+    "p_permutation": 0.08127,
+    "significant_at_05": false
+  },
+  "fisher_extreme_pair": {
+    "comparison": "qwen3b vs mistral_large",
+    "table": [
+      [
+        8,
+        25
+      ],
+      [
+        14,
+        16
+      ]
+    ],
+    "p_two_sided": 0.071427,
+    "significant_at_05": false
+  },
+  "power": {
+    "observed_precisions": [
+      0.2424,
+      0.4667
+    ],
+    "n_per_model_for_80pct_power": 71,
+    "n_per_model_actual": [
+      33,
+      30
+    ],
+    "shortfall_factor": 2.4
+  },
+  "verdict": {
+    "capability_graded_precision": "NOT SUPPORTED",
+    "what_to_report": "The pooled precision is the supported result: the automatic grounded_outdated label is right 33% of the time (Wilson [0.2445, 0.4358]), so roughly two thirds of items it flags are not superseded facts. The apparent ordering across model sizes is exploratory: the exact trend test gives p=0.081 and the extreme-pair Fisher test p=0.071, and detecting a difference of the observed size at 80% power would need about 71 adjudicated items per model against the 30 we have."
+  }
+}

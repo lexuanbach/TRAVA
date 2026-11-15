@@ -1,0 +1,11 @@
+# Optional: historical retrieval and generation dependencies.
+# This environment is documented separately from the tested cached replay.
+-r requirements.txt
+rank-bm25==0.2.2
+sentence-transformers==5.5.1
+torch==2.12.0
+transformers==5.11.0
+scikit-learn==1.6.1
+llama-cpp-python==0.3.34
+huggingface_hub==1.19.0
+anthropic==0.112.0

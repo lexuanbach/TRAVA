@@ -1,0 +1,124 @@
+{
+  "qwen": {
+    "closed_book": {
+      "static": 0.0,
+      "fresh": 0.0
+    },
+    "bm25": {
+      "static": 0.0,
+      "fresh": 0.0
+    }
+  },
+  "qwen1_5b": {
+    "closed_book": {
+      "static": 0.0,
+      "fresh": 0.0
+    },
+    "hybrid": {
+      "static": 0.2,
+      "fresh": 0.0
+    }
+  },
+  "qwen3b": {
+    "closed_book": {
+      "static": 6.9,
+      "fresh": 7.0
+    },
+    "hybrid": {
+      "static": 2.7,
+      "fresh": 0.8
+    }
+  },
+  "qwen7b": {
+    "closed_book": {
+      "static": 0.0,
+      "fresh": 1.1
+    },
+    "hybrid": {
+      "static": 7.4,
+      "fresh": 4.4
+    }
+  },
+  "qwen32b": {
+    "closed_book": {
+      "static": 0.2,
+      "fresh": 3.6
+    },
+    "bm25": {
+      "static": 16.6,
+      "fresh": 8.6
+    },
+    "hybrid": {
+      "static": 11.1,
+      "fresh": 8.6
+    },
+    "bge": {
+      "static": 13.9,
+      "fresh": 8.0
+    },
+    "oracle": {
+      "static": 18.1,
+      "fresh": 12.2
+    }
+  },
+  "qwen72b": {
+    "closed_book": {
+      "static": 0.0,
+      "fresh": 0.0
+    },
+    "hybrid": {
+      "static": 14.1,
+      "fresh": 9.3
+    }
+  },
+  "mistral_large": {
+    "closed_book": {
+      "static": 0.0,
+      "fresh": 0.4
+    },
+    "hybrid": {
+      "static": 18.8,
+      "fresh": 10.8
+    }
+  },
+  "haiku": {
+    "closed_book": {
+      "static": 50.2,
+      "fresh": 75.5
+    },
+    "bm25": {
+      "static": 49.5,
+      "fresh": 51.7
+    },
+    "hybrid": {
+      "static": 45.8,
+      "fresh": 45.4
+    },
+    "bge": {
+      "static": 48.0,
+      "fresh": 46.8
+    },
+    "oracle": {
+      "static": 50.7,
+      "fresh": 49.2
+    }
+  },
+  "sonnet": {
+    "closed_book": {
+      "static": 33.7,
+      "fresh": 75.3
+    },
+    "bm25": {
+      "static": 27.5,
+      "fresh": 39.7
+    },
+    "hybrid": {
+      "static": 28.5,
+      "fresh": 34.0
+    },
+    "oracle": {
+      "static": 20.0,
+      "fresh": 19.8
+    }
+  }
+}

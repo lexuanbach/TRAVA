@@ -1,0 +1,17 @@
+# FreshBench-RAG — generator configuration (REAL run)
+#
+generator:
+  provider: anthropic
+  model: claude-haiku-4-5-20251001   # frontier reference; closed-book knee at 2025
+  # 64 for the Anthropic/OpenAI generators; the local llama.cpp and
+  # transformers paths use 32, which is what produced every shipped
+  # cache. Recorded here because the two disagreed silently.
+  max_tokens: 64            # API generators
+  max_tokens_local: 32      # local generators (llama.cpp, transformers)
+  temperature: 0.0                    # deterministic main pass
+  system_prompt: |
+    You are a precise question-answering system. Answer the question with the
+    shortest possible span (a name, number, date, or short phrase). Do not
+    explain. If evidence documents are provided, answer using them.
+  concurrency: 12                      # parallel API calls
+  max_retries: 5

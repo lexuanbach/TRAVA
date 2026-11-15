@@ -1,0 +1,123 @@
+{
+  "question": "Does the Layer-3 support interaction depend on the top-k context budget the paper fixes at 5?",
+  "arms": {
+    "k3": {
+      "ranking": "retrieval_masked_k3.json",
+      "condition": "hybrid_masked_k3"
+    },
+    "k5": {
+      "ranking": "retrieval_masked.json",
+      "condition": "hybrid_masked"
+    }
+  },
+  "caveat": "Hybrid is reciprocal rank fusion over BM25 and BGE, so a deeper candidate list re-fuses rather than merely extending the k=5 list. k=3 is a pure truncation of k=5; k=10 varies retrieval depth and context budget together.",
+  "partition_shift": {
+    "k3": {
+      "n_questions": 878,
+      "support_rate": 0.3679,
+      "moved_arm_vs_k5": 46,
+      "n_shared": 878
+    },
+    "k5": {
+      "n_questions": 878,
+      "support_rate": 0.4203,
+      "moved_arm_vs_k5": 0,
+      "n_shared": 878
+    }
+  },
+  "per_model": {
+    "qwen1_5b": {
+      "k3": {
+        "interaction": 57.39,
+        "ci95": [
+          48.434,
+          65.985
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "gain_supported": 54.942,
+        "gain_unsupported": -2.448,
+        "n_supported": 145,
+        "n_unsupported": 259
+      },
+      "k5": {
+        "interaction": 48.939,
+        "ci95": [
+          39.989,
+          57.609
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "gain_supported": 48.696,
+        "gain_unsupported": -0.244,
+        "n_supported": 162,
+        "n_unsupported": 242
+      }
+    },
+    "qwen3b": {
+      "k3": {
+        "interaction": 56.013,
+        "ci95": [
+          47.227,
+          64.441
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "gain_supported": 56.232,
+        "gain_unsupported": 0.219,
+        "n_supported": 145,
+        "n_unsupported": 259
+      },
+      "k5": {
+        "interaction": 48.973,
+        "ci95": [
+          40.194,
+          57.416
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "gain_supported": 51.325,
+        "gain_unsupported": 2.352,
+        "n_supported": 162,
+        "n_unsupported": 242
+      }
+    },
+    "qwen7b": {
+      "k3": {
+        "interaction": 52.432,
+        "ci95": [
+          44.319,
+          60.283
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "gain_supported": 46.192,
+        "gain_unsupported": -6.24,
+        "n_supported": 145,
+        "n_unsupported": 259
+      },
+      "k5": {
+        "interaction": 48.882,
+        "ci95": [
+          40.37,
+          57.637
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "gain_supported": 42.575,
+        "gain_unsupported": -6.306,
+        "n_supported": 162,
+        "n_unsupported": 242
+      }
+    }
+  },
+  "summary": {
+    "arms_available": [
+      "k3",
+      "k5"
+    ],
+    "n_models_with_all_arms": 3,
+    "n_excluding_zero_in_every_arm": 3,
+    "verdict": "The support interaction holds at every context budget tested"
+  }
+}

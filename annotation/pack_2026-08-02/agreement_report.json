@@ -1,0 +1,89 @@
+{
+  "pack": "pack_2026-08-02",
+  "stage": "agreement",
+  "tasks": {
+    "task_a_correctness:verdict": {
+      "annotators": [
+        "A",
+        "B",
+        "C"
+      ],
+      "n_scored": 355,
+      "n_calibration_excluded": 40,
+      "pairwise_cohens_kappa": {
+        "AB": 0.9248,
+        "AC": 0.8826,
+        "BC": 0.9056
+      },
+      "krippendorff_alpha": 0.9044,
+      "cohens_kappa": 0.8826,
+      "kappa_basis": "minimum pairwise kappa, the conservative summary",
+      "majority_resolved": 355,
+      "n_ties": 0,
+      "unanimous": 321
+    },
+    "task_b_evidence:supports": {
+      "annotators": [
+        "A",
+        "B",
+        "C"
+      ],
+      "n_scored": 900,
+      "n_calibration_excluded": 0,
+      "pairwise_cohens_kappa": {
+        "AB": 0.6984,
+        "AC": 0.8066,
+        "BC": 0.7592
+      },
+      "krippendorff_alpha": 0.7552,
+      "cohens_kappa": 0.6984,
+      "kappa_basis": "minimum pairwise kappa, the conservative summary",
+      "majority_resolved": 892,
+      "n_ties": 8,
+      "unanimous": 732
+    },
+    "task_b_evidence:freshness": {
+      "annotators": [
+        "A",
+        "B",
+        "C"
+      ],
+      "n_scored": 900,
+      "n_calibration_excluded": 0,
+      "pairwise_cohens_kappa": {
+        "AB": 0.3891,
+        "AC": 0.487,
+        "BC": 0.6114
+      },
+      "krippendorff_alpha": 0.4713,
+      "cohens_kappa": 0.3891,
+      "kappa_basis": "minimum pairwise kappa, the conservative summary",
+      "majority_resolved": 871,
+      "n_ties": 29,
+      "unanimous": 447
+    }
+  },
+  "usability": {
+    "task_a_correctness:verdict": {
+      "cohens_kappa": 0.8826,
+      "krippendorff_alpha": 0.9044,
+      "basis": 0.9044,
+      "usable_at_0.6": true,
+      "ruling": "usable"
+    },
+    "task_b_evidence:supports": {
+      "cohens_kappa": 0.6984,
+      "krippendorff_alpha": 0.7552,
+      "basis": 0.7552,
+      "usable_at_0.6": true,
+      "ruling": "usable"
+    },
+    "task_b_evidence:freshness": {
+      "cohens_kappa": 0.3891,
+      "krippendorff_alpha": 0.4713,
+      "basis": 0.4713,
+      "usable_at_0.6": false,
+      "ruling": "DO NOT USE: agreement below the protocol's 0.6 threshold, so this field is not a measurement"
+    }
+  }
+}

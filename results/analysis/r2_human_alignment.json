@@ -1,0 +1,6371 @@
+{
+  "step": "R2(a,b) -- human agreement of 600-char automatic labels; legacy 700-char human window",
+  "meta": {
+    "generated": "2026-11-14T18:32:43+0700",
+    "git_head": "440cb32609d0d337efed939c1dec59c62444c7a0",
+    "git_worktree_note": "working tree has uncommitted edits to other files; pipeline modules used here were imported unmodified and patched in memory only",
+    "python": "3.14.6",
+    "input_sha256": {
+      "data/processed/questions.jsonl": "4190e39f17151d210ffd9247ddb3ad4784c51dd90026a1d76414d2c1515a450e",
+      "data/processed/corpus.jsonl": "9372af0f2833835b0715e9ecd8d6b1d664f7222a3da227d1195fc05bba15c863",
+      "results/analysis/nli_support_labels_600.jsonl": "4c83c9df6cd66f4bcf9e14e87cc8493bad8e247dbb613508153348beb20cd680",
+      "results/analysis/r1_raw/server_out/undated600.jsonl": "9053edd3f112b5baaf7007c868fe88f1d5a3d4875d9da73fe7d2ef7675c19249",
+      "results/analysis/r1_raw/server_out/dated600.jsonl": "a7532a02308934155487bd5261a9cf04ca7ba59a90c8f48271d4b95dc74e89a8",
+      "annotation/pack_2026-08-02/item_metadata.jsonl": "de71489511ae2dac900d9220e84be49c5781d1205001a1c3e666a6d1d184c1a6",
+      "annotation/masked_support_2026-08-04/item_metadata.jsonl": "87732b02df2c6a0e9b9a83964b33a9074b259a24574831d56f8622bbc94a7280",
+      "annotation/pack_2026-08-02/sampling_manifest.json": "e4098b3b21b27234467bdefaeaa6085097715479ef30863cf5d84a3cd33c15dd",
+      "annotation/masked_support_2026-08-04/sampling_manifest.json": "63f2ca12f21d2f0b853bef4ee7ad79b90df163fbea1c6780a800a004c07e9aa8"
+    }
+  },
+  "what_humans_saw": {
+    "task_b": "text.replace('\\n',' ')[:700] (900/900 excerpts verified in e0)",
+    "masked_pack": "' '.join(text.split())[:700] (630/630 excerpts verified in e0)",
+    "generators": "raw text[:600]",
+    "claim_scope": "Agreement with LEGACY 700-character human labels. No human judged the exact 600-character generator input; these numbers do not validate relation support on the exact model input."
+  },
+  "labels": {
+    "string600": "metrics.gold_in_text(gold, text[:600])",
+    "nli600": "DeBERTa-v3-large NLI, premise text[:600], undated hypothesis. Task B: the e0 MPS labels (nli_support_labels_600.jsonl); masked pack: r1_nli_masked_600.jsonl (CUDA). CUDA and MPS agree on 4,390/4,390 unmasked labels (r1_masked_nli.json).",
+    "nli600_dated": "same, hypothesis 'As of <question date>, the answer to ... is ...' (r2_dated_nli.py)",
+    "legacy_string_700_as_shown_to_humans": "gold_in_text on the exact human excerpt window (reference)"
+  },
+  "a_passage_level": {
+    "seeds": {
+      "task_b": 20260803,
+      "masked_pack": 20260804
+    },
+    "B": 5000,
+    "ci": "quiz-clustered percentile bootstrap (support_label_validation.py resampling)",
+    "weighting": "unweighted passage rows (Task B 900 rows incl. 138 repeated passages; masked pack 630)",
+    "exclusion_is_lower_bound": "only rows where the GOLD STRING is visible to humans but not to the generator are excluded; other semantic content in chars 600-700 can also change a human judgement and is not detectable this way",
+    "task_b": {
+      "n_passage_rows": 900,
+      "n_questions": 254,
+      "rows_gold_string_only_in_chars_600_700": {
+        "n_passage_rows": 11,
+        "n_unique_qid_doc": 10,
+        "n_questions": 10,
+        "human_label_distribution": {
+          "YES": 9,
+          "PARTIAL": 1,
+          "NO": 1
+        },
+        "rows": [
+          {
+            "item_id": "Ad335f9576",
+            "qid": "20250411_0",
+            "doc_id": "d003093",
+            "human": "YES",
+            "string600": false,
+            "nli600": true,
+            "nli600_dated": true
+          },
+          {
+            "item_id": "Aefa6a06e2",
+            "qid": "20260306_1",
+            "doc_id": "d001016",
+            "human": "YES",
+            "string600": false,
+            "nli600": true,
+            "nli600_dated": false
+          },
+          {
+            "item_id": "Afd5a0c3d0",
+            "qid": "20260626_11",
+            "doc_id": "d002746",
+            "human": "YES",
+            "string600": false,
+            "nli600": true,
+            "nli600_dated": false
+          },
+          {
+            "item_id": "Aa0c3ca8b1",
+            "qid": "20230602_11",
+            "doc_id": "d002473",
+            "human": "PARTIAL",
+            "string600": false,
+            "nli600": false,
+            "nli600_dated": false
+          },
+          {
+            "item_id": "A3b7dab9ab",
+            "qid": "20250214_14",
+            "doc_id": "d000389",
+            "human": "YES",
+            "string600": false,
+            "nli600": false,
+            "nli600_dated": false
+          },
+          {
+            "item_id": "A169d69a8a",
+            "qid": "20240329_2",
+            "doc_id": "d003885",
+            "human": "YES",
+            "string600": false,
+            "nli600": false,
+            "nli600_dated": false
+          },
+          {
+            "item_id": "A0908dcae1",
+            "qid": "20221118_5",
+            "doc_id": "d004072",
+            "human": "YES",
+            "string600": false,
+            "nli600": false,
+            "nli600_dated": false
+          },
+          {
+            "item_id": "A489cf05ef",
+            "qid": "20260626_11",
+            "doc_id": "d002746",
+            "human": "YES",
+            "string600": false,
+            "nli600": true,
+            "nli600_dated": false
+          },
+          {
+            "item_id": "A3ce243aea",
+            "qid": "20260424_4",
+            "doc_id": "d005241",
+            "human": "YES",
+            "string600": false,
+            "nli600": false,
+            "nli600_dated": false
+          },
+          {
+            "item_id": "A18d49555d",
+            "qid": "20250704_19",
+            "doc_id": "d000539",
+            "human": "NO",
+            "string600": false,
+            "nli600": false,
+            "nli600_dated": false
+          },
+          {
+            "item_id": "A3c341d4a7",
+            "qid": "20220722_11",
+            "doc_id": "d000452",
+            "human": "YES",
+            "string600": false,
+            "nli600": true,
+            "nli600_dated": true
+          }
+        ],
+        "n_rows_gold_in_600_but_not_in_human_excerpt": 0
+      },
+      "by_label": {
+        "string600": {
+          "i_all_rows": {
+            "human_YES_only": {
+              "n_units": 900,
+              "n_clusters": 132,
+              "sum_weights": 900.0,
+              "confusion": {
+                "auto_yes_human_yes": 136.0,
+                "auto_yes_human_no": 30.0,
+                "auto_no_human_yes": 76.0,
+                "auto_no_human_no": 658.0
+              },
+              "agreement": {
+                "estimate": 0.8822,
+                "ci95": [
+                  0.8548,
+                  0.9084
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6464,
+                "ci95": [
+                  0.5545,
+                  0.7281
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8193,
+                "ci95": [
+                  0.7368,
+                  0.8894
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6415,
+                "ci95": [
+                  0.5392,
+                  0.7358
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "human_YES_or_PARTIAL": {
+              "n_units": 900,
+              "n_clusters": 132,
+              "sum_weights": 900.0,
+              "confusion": {
+                "auto_yes_human_yes": 152.0,
+                "auto_yes_human_no": 14.0,
+                "auto_no_human_yes": 167.0,
+                "auto_no_human_no": 567.0
+              },
+              "agreement": {
+                "estimate": 0.7989,
+                "ci95": [
+                  0.7541,
+                  0.8409
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5072,
+                "ci95": [
+                  0.4129,
+                  0.5987
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.9157,
+                "ci95": [
+                  0.8553,
+                  0.9623
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.4765,
+                "ci95": [
+                  0.3899,
+                  0.5668
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "ii_excluding_gold_only_in_600_700": {
+            "human_YES_only": {
+              "n_units": 889,
+              "n_clusters": 132,
+              "sum_weights": 889.0,
+              "confusion": {
+                "auto_yes_human_yes": 136.0,
+                "auto_yes_human_no": 30.0,
+                "auto_no_human_yes": 67.0,
+                "auto_no_human_no": 656.0
+              },
+              "agreement": {
+                "estimate": 0.8909,
+                "ci95": [
+                  0.8632,
+                  0.9179
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6692,
+                "ci95": [
+                  0.5738,
+                  0.7558
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8193,
+                "ci95": [
+                  0.7368,
+                  0.8894
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.67,
+                "ci95": [
+                  0.5598,
+                  0.7729
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "human_YES_or_PARTIAL": {
+              "n_units": 889,
+              "n_clusters": 132,
+              "sum_weights": 889.0,
+              "confusion": {
+                "auto_yes_human_yes": 152.0,
+                "auto_yes_human_no": 14.0,
+                "auto_no_human_yes": 157.0,
+                "auto_no_human_no": 566.0
+              },
+              "agreement": {
+                "estimate": 0.8076,
+                "ci95": [
+                  0.7626,
+                  0.8506
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5245,
+                "ci95": [
+                  0.4263,
+                  0.6212
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.9157,
+                "ci95": [
+                  0.8553,
+                  0.9623
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.4919,
+                "ci95": [
+                  0.4,
+                  0.5861
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        },
+        "nli600": {
+          "i_all_rows": {
+            "human_YES_only": {
+              "n_units": 900,
+              "n_clusters": 132,
+              "sum_weights": 900.0,
+              "confusion": {
+                "auto_yes_human_yes": 181.0,
+                "auto_yes_human_no": 34.0,
+                "auto_no_human_yes": 31.0,
+                "auto_no_human_no": 654.0
+              },
+              "agreement": {
+                "estimate": 0.9278,
+                "ci95": [
+                  0.9068,
+                  0.9473
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.8004,
+                "ci95": [
+                  0.7437,
+                  0.8516
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8419,
+                "ci95": [
+                  0.7801,
+                  0.9005
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.8538,
+                "ci95": [
+                  0.799,
+                  0.906
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "human_YES_or_PARTIAL": {
+              "n_units": 900,
+              "n_clusters": 132,
+              "sum_weights": 900.0,
+              "confusion": {
+                "auto_yes_human_yes": 200.0,
+                "auto_yes_human_no": 15.0,
+                "auto_no_human_yes": 119.0,
+                "auto_no_human_no": 566.0
+              },
+              "agreement": {
+                "estimate": 0.8511,
+                "ci95": [
+                  0.8135,
+                  0.8852
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6488,
+                "ci95": [
+                  0.5748,
+                  0.7197
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.9302,
+                "ci95": [
+                  0.8869,
+                  0.9709
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.627,
+                "ci95": [
+                  0.5585,
+                  0.6931
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "ii_excluding_gold_only_in_600_700": {
+            "human_YES_only": {
+              "n_units": 889,
+              "n_clusters": 132,
+              "sum_weights": 889.0,
+              "confusion": {
+                "auto_yes_human_yes": 176.0,
+                "auto_yes_human_no": 34.0,
+                "auto_no_human_yes": 27.0,
+                "auto_no_human_no": 652.0
+              },
+              "agreement": {
+                "estimate": 0.9314,
+                "ci95": [
+                  0.9114,
+                  0.9502
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.8076,
+                "ci95": [
+                  0.753,
+                  0.858
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8381,
+                "ci95": [
+                  0.7746,
+                  0.8988
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.867,
+                "ci95": [
+                  0.8146,
+                  0.9159
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "human_YES_or_PARTIAL": {
+              "n_units": 889,
+              "n_clusters": 132,
+              "sum_weights": 889.0,
+              "confusion": {
+                "auto_yes_human_yes": 195.0,
+                "auto_yes_human_no": 15.0,
+                "auto_no_human_yes": 114.0,
+                "auto_no_human_no": 565.0
+              },
+              "agreement": {
+                "estimate": 0.8549,
+                "ci95": [
+                  0.8167,
+                  0.889
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6542,
+                "ci95": [
+                  0.578,
+                  0.7254
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.9286,
+                "ci95": [
+                  0.8837,
+                  0.9701
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6311,
+                "ci95": [
+                  0.5623,
+                  0.6981
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        },
+        "nli600_dated": {
+          "i_all_rows": {
+            "human_YES_only": {
+              "n_units": 900,
+              "n_clusters": 132,
+              "sum_weights": 900.0,
+              "confusion": {
+                "auto_yes_human_yes": 103.0,
+                "auto_yes_human_no": 26.0,
+                "auto_no_human_yes": 109.0,
+                "auto_no_human_no": 662.0
+              },
+              "agreement": {
+                "estimate": 0.85,
+                "ci95": [
+                  0.8141,
+                  0.8828
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5182,
+                "ci95": [
+                  0.4197,
+                  0.6082
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7984,
+                "ci95": [
+                  0.7111,
+                  0.875
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.4858,
+                "ci95": [
+                  0.3911,
+                  0.5815
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "human_YES_or_PARTIAL": {
+              "n_units": 900,
+              "n_clusters": 132,
+              "sum_weights": 900.0,
+              "confusion": {
+                "auto_yes_human_yes": 111.0,
+                "auto_yes_human_no": 18.0,
+                "auto_no_human_yes": 208.0,
+                "auto_no_human_no": 563.0
+              },
+              "agreement": {
+                "estimate": 0.7489,
+                "ci95": [
+                  0.7004,
+                  0.7921
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.3662,
+                "ci95": [
+                  0.2815,
+                  0.449
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8605,
+                "ci95": [
+                  0.7788,
+                  0.9302
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.348,
+                "ci95": [
+                  0.2761,
+                  0.4235
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "ii_excluding_gold_only_in_600_700": {
+            "human_YES_only": {
+              "n_units": 889,
+              "n_clusters": 132,
+              "sum_weights": 889.0,
+              "confusion": {
+                "auto_yes_human_yes": 101.0,
+                "auto_yes_human_no": 26.0,
+                "auto_no_human_yes": 102.0,
+                "auto_no_human_no": 660.0
+              },
+              "agreement": {
+                "estimate": 0.856,
+                "ci95": [
+                  0.821,
+                  0.8872
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5294,
+                "ci95": [
+                  0.4317,
+                  0.6167
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7953,
+                "ci95": [
+                  0.7068,
+                  0.8731
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.4975,
+                "ci95": [
+                  0.4023,
+                  0.5917
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "human_YES_or_PARTIAL": {
+              "n_units": 889,
+              "n_clusters": 132,
+              "sum_weights": 889.0,
+              "confusion": {
+                "auto_yes_human_yes": 109.0,
+                "auto_yes_human_no": 18.0,
+                "auto_no_human_yes": 200.0,
+                "auto_no_human_no": 562.0
+              },
+              "agreement": {
+                "estimate": 0.7548,
+                "ci95": [
+                  0.7075,
+                  0.7974
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.373,
+                "ci95": [
+                  0.2878,
+                  0.4549
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8583,
+                "ci95": [
+                  0.7755,
+                  0.9297
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.3528,
+                "ci95": [
+                  0.281,
+                  0.4281
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        },
+        "nli600_cuda_device_check": {
+          "i_all_rows": {
+            "human_YES_only": {
+              "n_units": 900,
+              "n_clusters": 132,
+              "sum_weights": 900.0,
+              "confusion": {
+                "auto_yes_human_yes": 181.0,
+                "auto_yes_human_no": 34.0,
+                "auto_no_human_yes": 31.0,
+                "auto_no_human_no": 654.0
+              },
+              "agreement": {
+                "estimate": 0.9278,
+                "ci95": [
+                  0.9068,
+                  0.9473
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.8004,
+                "ci95": [
+                  0.7437,
+                  0.8516
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8419,
+                "ci95": [
+                  0.7801,
+                  0.9005
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.8538,
+                "ci95": [
+                  0.799,
+                  0.906
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "human_YES_or_PARTIAL": {
+              "n_units": 900,
+              "n_clusters": 132,
+              "sum_weights": 900.0,
+              "confusion": {
+                "auto_yes_human_yes": 200.0,
+                "auto_yes_human_no": 15.0,
+                "auto_no_human_yes": 119.0,
+                "auto_no_human_no": 566.0
+              },
+              "agreement": {
+                "estimate": 0.8511,
+                "ci95": [
+                  0.8135,
+                  0.8852
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6488,
+                "ci95": [
+                  0.5748,
+                  0.7197
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.9302,
+                "ci95": [
+                  0.8869,
+                  0.9709
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.627,
+                "ci95": [
+                  0.5585,
+                  0.6931
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "ii_excluding_gold_only_in_600_700": {
+            "human_YES_only": {
+              "n_units": 889,
+              "n_clusters": 132,
+              "sum_weights": 889.0,
+              "confusion": {
+                "auto_yes_human_yes": 176.0,
+                "auto_yes_human_no": 34.0,
+                "auto_no_human_yes": 27.0,
+                "auto_no_human_no": 652.0
+              },
+              "agreement": {
+                "estimate": 0.9314,
+                "ci95": [
+                  0.9114,
+                  0.9502
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.8076,
+                "ci95": [
+                  0.753,
+                  0.858
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8381,
+                "ci95": [
+                  0.7746,
+                  0.8988
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.867,
+                "ci95": [
+                  0.8146,
+                  0.9159
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "human_YES_or_PARTIAL": {
+              "n_units": 889,
+              "n_clusters": 132,
+              "sum_weights": 889.0,
+              "confusion": {
+                "auto_yes_human_yes": 195.0,
+                "auto_yes_human_no": 15.0,
+                "auto_no_human_yes": 114.0,
+                "auto_no_human_no": 565.0
+              },
+              "agreement": {
+                "estimate": 0.8549,
+                "ci95": [
+                  0.8167,
+                  0.889
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6542,
+                "ci95": [
+                  0.578,
+                  0.7254
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.9286,
+                "ci95": [
+                  0.8837,
+                  0.9701
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6311,
+                "ci95": [
+                  0.5623,
+                  0.6981
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        },
+        "legacy_string_700_as_shown_to_humans": {
+          "i_all_rows": {
+            "human_YES_only": {
+              "n_units": 900,
+              "n_clusters": 132,
+              "sum_weights": 900.0,
+              "confusion": {
+                "auto_yes_human_yes": 145.0,
+                "auto_yes_human_no": 32.0,
+                "auto_no_human_yes": 67.0,
+                "auto_no_human_no": 656.0
+              },
+              "agreement": {
+                "estimate": 0.89,
+                "ci95": [
+                  0.8625,
+                  0.9172
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6761,
+                "ci95": [
+                  0.5806,
+                  0.7602
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8192,
+                "ci95": [
+                  0.7386,
+                  0.8889
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.684,
+                "ci95": [
+                  0.575,
+                  0.7848
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "human_YES_or_PARTIAL": {
+              "n_units": 900,
+              "n_clusters": 132,
+              "sum_weights": 900.0,
+              "confusion": {
+                "auto_yes_human_yes": 162.0,
+                "auto_yes_human_no": 15.0,
+                "auto_no_human_yes": 157.0,
+                "auto_no_human_no": 566.0
+              },
+              "agreement": {
+                "estimate": 0.8089,
+                "ci95": [
+                  0.7646,
+                  0.8512
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5358,
+                "ci95": [
+                  0.4382,
+                  0.6314
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.9153,
+                "ci95": [
+                  0.8521,
+                  0.9635
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.5078,
+                "ci95": [
+                  0.4148,
+                  0.6007
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "ii_excluding_gold_only_in_600_700": {
+            "human_YES_only": {
+              "n_units": 889,
+              "n_clusters": 132,
+              "sum_weights": 889.0,
+              "confusion": {
+                "auto_yes_human_yes": 136.0,
+                "auto_yes_human_no": 30.0,
+                "auto_no_human_yes": 67.0,
+                "auto_no_human_no": 656.0
+              },
+              "agreement": {
+                "estimate": 0.8909,
+                "ci95": [
+                  0.8632,
+                  0.9179
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6692,
+                "ci95": [
+                  0.5738,
+                  0.7558
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8193,
+                "ci95": [
+                  0.7368,
+                  0.8894
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.67,
+                "ci95": [
+                  0.5598,
+                  0.7729
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "human_YES_or_PARTIAL": {
+              "n_units": 889,
+              "n_clusters": 132,
+              "sum_weights": 889.0,
+              "confusion": {
+                "auto_yes_human_yes": 152.0,
+                "auto_yes_human_no": 14.0,
+                "auto_no_human_yes": 157.0,
+                "auto_no_human_no": 566.0
+              },
+              "agreement": {
+                "estimate": 0.8076,
+                "ci95": [
+                  0.7626,
+                  0.8506
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5245,
+                "ci95": [
+                  0.4263,
+                  0.6212
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.9157,
+                "ci95": [
+                  0.8553,
+                  0.9623
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.4919,
+                "ci95": [
+                  0.4,
+                  0.5861
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        }
+      }
+    },
+    "masked_pack": {
+      "n_passage_rows": 630,
+      "n_questions": 210,
+      "rows_gold_string_only_in_chars_600_700": {
+        "n_passage_rows": 6,
+        "n_unique_qid_doc": 6,
+        "n_questions": 5,
+        "human_label_distribution": {
+          "YES": 2,
+          "NO": 3,
+          "PARTIAL": 1
+        },
+        "rows": [
+          {
+            "item_id": "M92273a2da",
+            "qid": "20260424_4",
+            "doc_id": "d005241",
+            "human": "YES",
+            "string600": false,
+            "nli600": false,
+            "nli600_dated": false
+          },
+          {
+            "item_id": "M27b035593",
+            "qid": "20260206_3",
+            "doc_id": "d002606",
+            "human": "NO",
+            "string600": false,
+            "nli600": false,
+            "nli600_dated": false
+          },
+          {
+            "item_id": "M2b1a86f59",
+            "qid": "20250509_8",
+            "doc_id": "d001794",
+            "human": "NO",
+            "string600": false,
+            "nli600": false,
+            "nli600_dated": false
+          },
+          {
+            "item_id": "M4c6bb2c70",
+            "qid": "20250801_2",
+            "doc_id": "d002903",
+            "human": "NO",
+            "string600": false,
+            "nli600": false,
+            "nli600_dated": false
+          },
+          {
+            "item_id": "M0f58400fc",
+            "qid": "20250801_2",
+            "doc_id": "d006297",
+            "human": "PARTIAL",
+            "string600": false,
+            "nli600": false,
+            "nli600_dated": false
+          },
+          {
+            "item_id": "M7ae2193f3",
+            "qid": "20250214_14",
+            "doc_id": "d000389",
+            "human": "YES",
+            "string600": false,
+            "nli600": false,
+            "nli600_dated": false
+          }
+        ],
+        "n_rows_gold_in_600_but_not_in_human_excerpt": 0
+      },
+      "by_label": {
+        "string600": {
+          "i_all_rows": {
+            "human_YES_only": {
+              "n_units": 630,
+              "n_clusters": 116,
+              "sum_weights": 630.0,
+              "confusion": {
+                "auto_yes_human_yes": 96.0,
+                "auto_yes_human_no": 23.0,
+                "auto_no_human_yes": 27.0,
+                "auto_no_human_no": 484.0
+              },
+              "agreement": {
+                "estimate": 0.9206,
+                "ci95": [
+                  0.8973,
+                  0.9432
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.7443,
+                "ci95": [
+                  0.6616,
+                  0.8175
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8067,
+                "ci95": [
+                  0.7255,
+                  0.8784
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7805,
+                "ci95": [
+                  0.6789,
+                  0.8681
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "human_YES_or_PARTIAL": {
+              "n_units": 630,
+              "n_clusters": 116,
+              "sum_weights": 630.0,
+              "confusion": {
+                "auto_yes_human_yes": 109.0,
+                "auto_yes_human_no": 10.0,
+                "auto_no_human_yes": 61.0,
+                "auto_no_human_no": 450.0
+              },
+              "agreement": {
+                "estimate": 0.8873,
+                "ci95": [
+                  0.8538,
+                  0.9187
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6841,
+                "ci95": [
+                  0.5889,
+                  0.7693
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.916,
+                "ci95": [
+                  0.8516,
+                  0.9717
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6412,
+                "ci95": [
+                  0.5348,
+                  0.7384
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "ii_excluding_gold_only_in_600_700": {
+            "human_YES_only": {
+              "n_units": 624,
+              "n_clusters": 116,
+              "sum_weights": 624.0,
+              "confusion": {
+                "auto_yes_human_yes": 96.0,
+                "auto_yes_human_no": 23.0,
+                "auto_no_human_yes": 25.0,
+                "auto_no_human_no": 480.0
+              },
+              "agreement": {
+                "estimate": 0.9231,
+                "ci95": [
+                  0.8991,
+                  0.9457
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.7524,
+                "ci95": [
+                  0.6685,
+                  0.825
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8067,
+                "ci95": [
+                  0.7255,
+                  0.8784
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7934,
+                "ci95": [
+                  0.6931,
+                  0.8807
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "human_YES_or_PARTIAL": {
+              "n_units": 624,
+              "n_clusters": 116,
+              "sum_weights": 624.0,
+              "confusion": {
+                "auto_yes_human_yes": 109.0,
+                "auto_yes_human_no": 10.0,
+                "auto_no_human_yes": 58.0,
+                "auto_no_human_no": 447.0
+              },
+              "agreement": {
+                "estimate": 0.891,
+                "ci95": [
+                  0.8576,
+                  0.922
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6941,
+                "ci95": [
+                  0.5986,
+                  0.7777
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.916,
+                "ci95": [
+                  0.8516,
+                  0.9717
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6527,
+                "ci95": [
+                  0.5434,
+                  0.7515
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        },
+        "nli600": {
+          "i_all_rows": {
+            "human_YES_only": {
+              "n_units": 630,
+              "n_clusters": 116,
+              "sum_weights": 630.0,
+              "confusion": {
+                "auto_yes_human_yes": 107.0,
+                "auto_yes_human_no": 43.0,
+                "auto_no_human_yes": 16.0,
+                "auto_no_human_no": 464.0
+              },
+              "agreement": {
+                "estimate": 0.9063,
+                "ci95": [
+                  0.8764,
+                  0.934
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.7249,
+                "ci95": [
+                  0.6415,
+                  0.8013
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7133,
+                "ci95": [
+                  0.6118,
+                  0.8105
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.8699,
+                "ci95": [
+                  0.81,
+                  0.9279
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "human_YES_or_PARTIAL": {
+              "n_units": 630,
+              "n_clusters": 116,
+              "sum_weights": 630.0,
+              "confusion": {
+                "auto_yes_human_yes": 120.0,
+                "auto_yes_human_no": 30.0,
+                "auto_no_human_yes": 50.0,
+                "auto_no_human_no": 430.0
+              },
+              "agreement": {
+                "estimate": 0.873,
+                "ci95": [
+                  0.8401,
+                  0.9059
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6653,
+                "ci95": [
+                  0.5845,
+                  0.7448
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8,
+                "ci95": [
+                  0.7066,
+                  0.8881
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7059,
+                "ci95": [
+                  0.626,
+                  0.7833
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "ii_excluding_gold_only_in_600_700": {
+            "human_YES_only": {
+              "n_units": 624,
+              "n_clusters": 116,
+              "sum_weights": 624.0,
+              "confusion": {
+                "auto_yes_human_yes": 107.0,
+                "auto_yes_human_no": 43.0,
+                "auto_no_human_yes": 14.0,
+                "auto_no_human_no": 460.0
+              },
+              "agreement": {
+                "estimate": 0.9087,
+                "ci95": [
+                  0.8781,
+                  0.9369
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.7322,
+                "ci95": [
+                  0.6492,
+                  0.8085
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7133,
+                "ci95": [
+                  0.6118,
+                  0.8105
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.8843,
+                "ci95": [
+                  0.8304,
+                  0.9369
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "human_YES_or_PARTIAL": {
+              "n_units": 624,
+              "n_clusters": 116,
+              "sum_weights": 624.0,
+              "confusion": {
+                "auto_yes_human_yes": 120.0,
+                "auto_yes_human_no": 30.0,
+                "auto_no_human_yes": 47.0,
+                "auto_no_human_no": 427.0
+              },
+              "agreement": {
+                "estimate": 0.8766,
+                "ci95": [
+                  0.8438,
+                  0.9091
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6747,
+                "ci95": [
+                  0.5922,
+                  0.7537
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8,
+                "ci95": [
+                  0.7066,
+                  0.8881
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7186,
+                "ci95": [
+                  0.6404,
+                  0.7945
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        },
+        "nli600_dated": {
+          "i_all_rows": {
+            "human_YES_only": {
+              "n_units": 630,
+              "n_clusters": 116,
+              "sum_weights": 630.0,
+              "confusion": {
+                "auto_yes_human_yes": 60.0,
+                "auto_yes_human_no": 28.0,
+                "auto_no_human_yes": 63.0,
+                "auto_no_human_no": 479.0
+              },
+              "agreement": {
+                "estimate": 0.8556,
+                "ci95": [
+                  0.8186,
+                  0.891
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4848,
+                "ci95": [
+                  0.3712,
+                  0.5957
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.6818,
+                "ci95": [
+                  0.5375,
+                  0.8354
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.4878,
+                "ci95": [
+                  0.3841,
+                  0.5938
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "human_YES_or_PARTIAL": {
+              "n_units": 630,
+              "n_clusters": 116,
+              "sum_weights": 630.0,
+              "confusion": {
+                "auto_yes_human_yes": 68.0,
+                "auto_yes_human_no": 20.0,
+                "auto_no_human_yes": 102.0,
+                "auto_no_human_no": 440.0
+              },
+              "agreement": {
+                "estimate": 0.8063,
+                "ci95": [
+                  0.7665,
+                  0.8448
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4204,
+                "ci95": [
+                  0.3237,
+                  0.5157
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7727,
+                "ci95": [
+                  0.641,
+                  0.9054
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.4,
+                "ci95": [
+                  0.3182,
+                  0.485
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "ii_excluding_gold_only_in_600_700": {
+            "human_YES_only": {
+              "n_units": 624,
+              "n_clusters": 116,
+              "sum_weights": 624.0,
+              "confusion": {
+                "auto_yes_human_yes": 60.0,
+                "auto_yes_human_no": 28.0,
+                "auto_no_human_yes": 61.0,
+                "auto_no_human_no": 475.0
+              },
+              "agreement": {
+                "estimate": 0.8574,
+                "ci95": [
+                  0.8204,
+                  0.8925
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4911,
+                "ci95": [
+                  0.3783,
+                  0.6021
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.6818,
+                "ci95": [
+                  0.5375,
+                  0.8354
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.4959,
+                "ci95": [
+                  0.3922,
+                  0.6019
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "human_YES_or_PARTIAL": {
+              "n_units": 624,
+              "n_clusters": 116,
+              "sum_weights": 624.0,
+              "confusion": {
+                "auto_yes_human_yes": 68.0,
+                "auto_yes_human_no": 20.0,
+                "auto_no_human_yes": 99.0,
+                "auto_no_human_no": 437.0
+              },
+              "agreement": {
+                "estimate": 0.8093,
+                "ci95": [
+                  0.7696,
+                  0.8478
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4276,
+                "ci95": [
+                  0.3323,
+                  0.5239
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7727,
+                "ci95": [
+                  0.641,
+                  0.9054
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.4072,
+                "ci95": [
+                  0.3253,
+                  0.4924
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        },
+        "legacy_string_700_as_shown_to_humans": {
+          "i_all_rows": {
+            "human_YES_only": {
+              "n_units": 630,
+              "n_clusters": 116,
+              "sum_weights": 630.0,
+              "confusion": {
+                "auto_yes_human_yes": 98.0,
+                "auto_yes_human_no": 27.0,
+                "auto_no_human_yes": 25.0,
+                "auto_no_human_no": 480.0
+              },
+              "agreement": {
+                "estimate": 0.9175,
+                "ci95": [
+                  0.8937,
+                  0.9406
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.7389,
+                "ci95": [
+                  0.6579,
+                  0.812
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.784,
+                "ci95": [
+                  0.7029,
+                  0.8583
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7967,
+                "ci95": [
+                  0.699,
+                  0.8829
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "human_YES_or_PARTIAL": {
+              "n_units": 630,
+              "n_clusters": 116,
+              "sum_weights": 630.0,
+              "confusion": {
+                "auto_yes_human_yes": 112.0,
+                "auto_yes_human_no": 13.0,
+                "auto_no_human_yes": 58.0,
+                "auto_no_human_no": 447.0
+              },
+              "agreement": {
+                "estimate": 0.8873,
+                "ci95": [
+                  0.8541,
+                  0.9182
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.688,
+                "ci95": [
+                  0.5946,
+                  0.7702
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.896,
+                "ci95": [
+                  0.8333,
+                  0.9528
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6588,
+                "ci95": [
+                  0.5511,
+                  0.7564
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "ii_excluding_gold_only_in_600_700": {
+            "human_YES_only": {
+              "n_units": 624,
+              "n_clusters": 116,
+              "sum_weights": 624.0,
+              "confusion": {
+                "auto_yes_human_yes": 96.0,
+                "auto_yes_human_no": 23.0,
+                "auto_no_human_yes": 25.0,
+                "auto_no_human_no": 480.0
+              },
+              "agreement": {
+                "estimate": 0.9231,
+                "ci95": [
+                  0.8991,
+                  0.9457
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.7524,
+                "ci95": [
+                  0.6685,
+                  0.825
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8067,
+                "ci95": [
+                  0.7255,
+                  0.8784
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7934,
+                "ci95": [
+                  0.6931,
+                  0.8807
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "human_YES_or_PARTIAL": {
+              "n_units": 624,
+              "n_clusters": 116,
+              "sum_weights": 624.0,
+              "confusion": {
+                "auto_yes_human_yes": 109.0,
+                "auto_yes_human_no": 10.0,
+                "auto_no_human_yes": 58.0,
+                "auto_no_human_no": 447.0
+              },
+              "agreement": {
+                "estimate": 0.891,
+                "ci95": [
+                  0.8576,
+                  0.922
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6941,
+                "ci95": [
+                  0.5986,
+                  0.7777
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.916,
+                "ci95": [
+                  0.8516,
+                  0.9717
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6527,
+                "ci95": [
+                  0.5434,
+                  0.7515
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "b_question_level": {
+    "restricted_subset_statement": "Humans labelled 3 passages per question; generators saw 5. '*_shown3' labels are computed on exactly the 3 human-labelled doc ids and form a RESTRICTED ANNOTATION SUBSET. '*_5passages' labels are the analysis labels; comparing them with a 3-passage human label mixes coverage.",
+    "task_b": {
+      "n_questions": 254,
+      "n_items": 300,
+      "passages_per_item": 3,
+      "duplicate_items_show_identical_passages": true,
+      "human_label": "any labelled passage YES (strict) / YES or PARTIAL; majority of 3, adjudicated",
+      "weights": {
+        "fresh|supported=False": 25.2,
+        "fresh|supported=True": 31.68,
+        "static|supported=False": 22.8,
+        "static|supported=True": 25.68
+      },
+      "weighting_note": "design_weighted_items_population_estimate uses the pack's item design (300 items, weight_to_population); hsi_convention_question_weighted gives each distinct question its cell's item weight once, as human_support_interaction.py does",
+      "questions_with_600_700_gold_rows": [
+        "20220722_11",
+        "20221118_5",
+        "20230602_11",
+        "20240329_2",
+        "20250214_14",
+        "20250411_0",
+        "20250704_19",
+        "20260306_1",
+        "20260424_4",
+        "20260626_11"
+      ],
+      "seed": 20260803,
+      "B": 5000,
+      "by_label": {
+        "string600_shown3": {
+          "passages": "the 3 passages humans labelled",
+          "human_YES_only": {
+            "unweighted_sample_questions": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 254.0,
+              "confusion": {
+                "auto_yes_human_yes": 76.0,
+                "auto_yes_human_no": 16.0,
+                "auto_no_human_yes": 30.0,
+                "auto_no_human_no": 132.0
+              },
+              "agreement": {
+                "estimate": 0.8189,
+                "ci95": [
+                  0.7759,
+                  0.861
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6205,
+                "ci95": [
+                  0.526,
+                  0.7091
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8261,
+                "ci95": [
+                  0.7447,
+                  0.899
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.717,
+                "ci95": [
+                  0.6262,
+                  0.8021
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 244,
+              "n_clusters": 130,
+              "sum_weights": 244.0,
+              "confusion": {
+                "auto_yes_human_yes": 67.0,
+                "auto_yes_human_no": 15.0,
+                "auto_no_human_yes": 30.0,
+                "auto_no_human_no": 132.0
+              },
+              "agreement": {
+                "estimate": 0.8156,
+                "ci95": [
+                  0.7729,
+                  0.8588
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6046,
+                "ci95": [
+                  0.5059,
+                  0.6972
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8171,
+                "ci95": [
+                  0.7294,
+                  0.8941
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6907,
+                "ci95": [
+                  0.5955,
+                  0.783
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_items_population_estimate": {
+              "n_units": 300,
+              "n_clusters": 132,
+              "sum_weights": 7902.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 2499.84,
+                "auto_yes_human_no": 502.56,
+                "auto_no_human_yes": 884.88,
+                "auto_no_human_no": 4014.72
+              },
+              "agreement": {
+                "estimate": 0.8244,
+                "ci95": [
+                  0.7805,
+                  0.8658
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6363,
+                "ci95": [
+                  0.5397,
+                  0.7229
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8326,
+                "ci95": [
+                  0.7523,
+                  0.904
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7386,
+                "ci95": [
+                  0.6436,
+                  0.8231
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "hsi_convention_question_weighted": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 6701.52,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 2161.68,
+                "auto_yes_human_no": 470.88,
+                "auto_no_human_yes": 757.2,
+                "auto_no_human_no": 3311.76
+              },
+              "agreement": {
+                "estimate": 0.8167,
+                "ci95": [
+                  0.7744,
+                  0.8583
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6231,
+                "ci95": [
+                  0.5307,
+                  0.7098
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8211,
+                "ci95": [
+                  0.7367,
+                  0.8964
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7406,
+                "ci95": [
+                  0.6525,
+                  0.8204
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "human_YES_or_PARTIAL": {
+            "unweighted_sample_questions": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 254.0,
+              "confusion": {
+                "auto_yes_human_yes": 83.0,
+                "auto_yes_human_no": 9.0,
+                "auto_no_human_yes": 58.0,
+                "auto_no_human_no": 104.0
+              },
+              "agreement": {
+                "estimate": 0.7362,
+                "ci95": [
+                  0.6818,
+                  0.7899
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.488,
+                "ci95": [
+                  0.3886,
+                  0.5869
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.9022,
+                "ci95": [
+                  0.837,
+                  0.9583
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.5887,
+                "ci95": [
+                  0.5069,
+                  0.669
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 244,
+              "n_clusters": 130,
+              "sum_weights": 244.0,
+              "confusion": {
+                "auto_yes_human_yes": 74.0,
+                "auto_yes_human_no": 8.0,
+                "auto_no_human_yes": 58.0,
+                "auto_no_human_no": 104.0
+              },
+              "agreement": {
+                "estimate": 0.7295,
+                "ci95": [
+                  0.6745,
+                  0.7831
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4732,
+                "ci95": [
+                  0.3749,
+                  0.5702
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.9024,
+                "ci95": [
+                  0.8333,
+                  0.962
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.5606,
+                "ci95": [
+                  0.4765,
+                  0.6435
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_items_population_estimate": {
+              "n_units": 300,
+              "n_clusters": 132,
+              "sum_weights": 7902.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 2741.28,
+                "auto_yes_human_no": 261.12,
+                "auto_no_human_yes": 1764.48,
+                "auto_no_human_no": 3135.12
+              },
+              "agreement": {
+                "estimate": 0.7437,
+                "ci95": [
+                  0.6822,
+                  0.8012
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.504,
+                "ci95": [
+                  0.3942,
+                  0.6095
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.913,
+                "ci95": [
+                  0.8507,
+                  0.9648
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6084,
+                "ci95": [
+                  0.5176,
+                  0.6962
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "hsi_convention_question_weighted": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 6701.52,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 2371.44,
+                "auto_yes_human_no": 261.12,
+                "auto_no_human_yes": 1474.08,
+                "auto_no_human_no": 2594.88
+              },
+              "agreement": {
+                "estimate": 0.7411,
+                "ci95": [
+                  0.6856,
+                  0.7951
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.498,
+                "ci95": [
+                  0.3954,
+                  0.5977
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.9008,
+                "ci95": [
+                  0.8344,
+                  0.9579
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6167,
+                "ci95": [
+                  0.535,
+                  0.695
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        },
+        "nli600_shown3": {
+          "passages": "the 3 passages humans labelled",
+          "human_YES_only": {
+            "unweighted_sample_questions": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 254.0,
+              "confusion": {
+                "auto_yes_human_yes": 100.0,
+                "auto_yes_human_no": 13.0,
+                "auto_no_human_yes": 6.0,
+                "auto_no_human_no": 135.0
+              },
+              "agreement": {
+                "estimate": 0.9252,
+                "ci95": [
+                  0.8958,
+                  0.9528
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.8476,
+                "ci95": [
+                  0.7865,
+                  0.9037
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.885,
+                "ci95": [
+                  0.8286,
+                  0.9375
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.9434,
+                "ci95": [
+                  0.8947,
+                  0.9823
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 244,
+              "n_clusters": 130,
+              "sum_weights": 244.0,
+              "confusion": {
+                "auto_yes_human_yes": 92.0,
+                "auto_yes_human_no": 13.0,
+                "auto_no_human_yes": 5.0,
+                "auto_no_human_no": 134.0
+              },
+              "agreement": {
+                "estimate": 0.9262,
+                "ci95": [
+                  0.8975,
+                  0.9558
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.8481,
+                "ci95": [
+                  0.7866,
+                  0.9079
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8762,
+                "ci95": [
+                  0.8165,
+                  0.934
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.9485,
+                "ci95": [
+                  0.899,
+                  0.989
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_items_population_estimate": {
+              "n_units": 300,
+              "n_clusters": 132,
+              "sum_weights": 7902.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 3213.12,
+                "auto_yes_human_no": 394.32,
+                "auto_no_human_yes": 171.6,
+                "auto_no_human_no": 4122.96
+              },
+              "agreement": {
+                "estimate": 0.9284,
+                "ci95": [
+                  0.8987,
+                  0.9565
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.855,
+                "ci95": [
+                  0.794,
+                  0.9118
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8907,
+                "ci95": [
+                  0.8343,
+                  0.9421
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.9493,
+                "ci95": [
+                  0.907,
+                  0.9846
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "hsi_convention_question_weighted": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 6701.52,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 2747.28,
+                "auto_yes_human_no": 362.64,
+                "auto_no_human_yes": 171.6,
+                "auto_no_human_no": 3420.0
+              },
+              "agreement": {
+                "estimate": 0.9203,
+                "ci95": [
+                  0.8894,
+                  0.9499
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.8391,
+                "ci95": [
+                  0.7754,
+                  0.8988
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8834,
+                "ci95": [
+                  0.8271,
+                  0.9366
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.9412,
+                "ci95": [
+                  0.8904,
+                  0.982
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "human_YES_or_PARTIAL": {
+            "unweighted_sample_questions": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 254.0,
+              "confusion": {
+                "auto_yes_human_yes": 107.0,
+                "auto_yes_human_no": 6.0,
+                "auto_no_human_yes": 34.0,
+                "auto_no_human_no": 107.0
+              },
+              "agreement": {
+                "estimate": 0.8425,
+                "ci95": [
+                  0.8,
+                  0.8835
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6888,
+                "ci95": [
+                  0.6061,
+                  0.7677
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.9469,
+                "ci95": [
+                  0.9057,
+                  0.9821
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7589,
+                "ci95": [
+                  0.6923,
+                  0.8239
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 244,
+              "n_clusters": 130,
+              "sum_weights": 244.0,
+              "confusion": {
+                "auto_yes_human_yes": 99.0,
+                "auto_yes_human_no": 6.0,
+                "auto_no_human_yes": 33.0,
+                "auto_no_human_no": 106.0
+              },
+              "agreement": {
+                "estimate": 0.8402,
+                "ci95": [
+                  0.7957,
+                  0.8826
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6839,
+                "ci95": [
+                  0.5993,
+                  0.7657
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.9429,
+                "ci95": [
+                  0.8981,
+                  0.981
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.75,
+                "ci95": [
+                  0.6794,
+                  0.8154
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_items_population_estimate": {
+              "n_units": 300,
+              "n_clusters": 132,
+              "sum_weights": 7902.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 3447.6,
+                "auto_yes_human_no": 159.84,
+                "auto_no_human_yes": 1058.16,
+                "auto_no_human_no": 3236.4
+              },
+              "agreement": {
+                "estimate": 0.8459,
+                "ci95": [
+                  0.7984,
+                  0.8908
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6954,
+                "ci95": [
+                  0.6048,
+                  0.7824
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.9557,
+                "ci95": [
+                  0.9225,
+                  0.9857
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7652,
+                "ci95": [
+                  0.6917,
+                  0.8346
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "hsi_convention_question_weighted": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 6701.52,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 2950.08,
+                "auto_yes_human_no": 159.84,
+                "auto_no_human_yes": 895.44,
+                "auto_no_human_no": 2696.16
+              },
+              "agreement": {
+                "estimate": 0.8425,
+                "ci95": [
+                  0.7991,
+                  0.8842
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6884,
+                "ci95": [
+                  0.6041,
+                  0.7692
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.9486,
+                "ci95": [
+                  0.908,
+                  0.9832
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7671,
+                "ci95": [
+                  0.7027,
+                  0.8313
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        },
+        "nli600_dated_shown3": {
+          "passages": "the 3 passages humans labelled",
+          "human_YES_only": {
+            "unweighted_sample_questions": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 254.0,
+              "confusion": {
+                "auto_yes_human_yes": 70.0,
+                "auto_yes_human_no": 12.0,
+                "auto_no_human_yes": 36.0,
+                "auto_no_human_no": 136.0
+              },
+              "agreement": {
+                "estimate": 0.811,
+                "ci95": [
+                  0.7628,
+                  0.8566
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5985,
+                "ci95": [
+                  0.495,
+                  0.6926
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8537,
+                "ci95": [
+                  0.7792,
+                  0.9221
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6604,
+                "ci95": [
+                  0.5625,
+                  0.75
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 244,
+              "n_clusters": 130,
+              "sum_weights": 244.0,
+              "confusion": {
+                "auto_yes_human_yes": 66.0,
+                "auto_yes_human_no": 12.0,
+                "auto_no_human_yes": 31.0,
+                "auto_no_human_no": 135.0
+              },
+              "agreement": {
+                "estimate": 0.8238,
+                "ci95": [
+                  0.7768,
+                  0.8696
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6194,
+                "ci95": [
+                  0.5145,
+                  0.7174
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8462,
+                "ci95": [
+                  0.7632,
+                  0.9186
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6804,
+                "ci95": [
+                  0.5769,
+                  0.7766
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_items_population_estimate": {
+              "n_units": 300,
+              "n_clusters": 132,
+              "sum_weights": 7902.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 2235.36,
+                "auto_yes_human_no": 324.0,
+                "auto_no_human_yes": 1149.36,
+                "auto_no_human_no": 4193.28
+              },
+              "agreement": {
+                "estimate": 0.8135,
+                "ci95": [
+                  0.7603,
+                  0.8622
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6073,
+                "ci95": [
+                  0.4936,
+                  0.7094
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8734,
+                "ci95": [
+                  0.8034,
+                  0.9341
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6604,
+                "ci95": [
+                  0.5502,
+                  0.7611
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "hsi_convention_question_weighted": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 6701.52,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 1929.36,
+                "auto_yes_human_no": 301.2,
+                "auto_no_human_yes": 989.52,
+                "auto_no_human_no": 3481.44
+              },
+              "agreement": {
+                "estimate": 0.8074,
+                "ci95": [
+                  0.7588,
+                  0.853
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5975,
+                "ci95": [
+                  0.4953,
+                  0.6908
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.865,
+                "ci95": [
+                  0.7967,
+                  0.9279
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.661,
+                "ci95": [
+                  0.562,
+                  0.7501
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "human_YES_or_PARTIAL": {
+            "unweighted_sample_questions": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 254.0,
+              "confusion": {
+                "auto_yes_human_yes": 73.0,
+                "auto_yes_human_no": 9.0,
+                "auto_no_human_yes": 68.0,
+                "auto_no_human_no": 104.0
+              },
+              "agreement": {
+                "estimate": 0.6969,
+                "ci95": [
+                  0.6398,
+                  0.7528
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4165,
+                "ci95": [
+                  0.3184,
+                  0.5149
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8902,
+                "ci95": [
+                  0.8228,
+                  0.9512
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.5177,
+                "ci95": [
+                  0.4296,
+                  0.6065
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 244,
+              "n_clusters": 130,
+              "sum_weights": 244.0,
+              "confusion": {
+                "auto_yes_human_yes": 69.0,
+                "auto_yes_human_no": 9.0,
+                "auto_no_human_yes": 63.0,
+                "auto_no_human_no": 103.0
+              },
+              "agreement": {
+                "estimate": 0.7049,
+                "ci95": [
+                  0.6468,
+                  0.7631
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4268,
+                "ci95": [
+                  0.3239,
+                  0.5315
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8846,
+                "ci95": [
+                  0.8125,
+                  0.9474
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.5227,
+                "ci95": [
+                  0.4286,
+                  0.6172
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_items_population_estimate": {
+              "n_units": 300,
+              "n_clusters": 132,
+              "sum_weights": 7902.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 2311.92,
+                "auto_yes_human_no": 247.44,
+                "auto_no_human_yes": 2193.84,
+                "auto_no_human_no": 3148.8
+              },
+              "agreement": {
+                "estimate": 0.6911,
+                "ci95": [
+                  0.6236,
+                  0.7542
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4112,
+                "ci95": [
+                  0.2999,
+                  0.5199
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.9033,
+                "ci95": [
+                  0.8392,
+                  0.9585
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.5131,
+                "ci95": [
+                  0.4126,
+                  0.6101
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "hsi_convention_question_weighted": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 6701.52,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 2005.92,
+                "auto_yes_human_no": 224.64,
+                "auto_no_human_yes": 1839.6,
+                "auto_no_human_no": 2631.36
+              },
+              "agreement": {
+                "estimate": 0.692,
+                "ci95": [
+                  0.6339,
+                  0.7492
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4129,
+                "ci95": [
+                  0.3158,
+                  0.5127
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8993,
+                "ci95": [
+                  0.8358,
+                  0.9551
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.5216,
+                "ci95": [
+                  0.4309,
+                  0.6094
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        },
+        "string600_5passages": {
+          "passages": "all 5 Hybrid passages shown to the generator (humans labelled only 3)",
+          "human_YES_only": {
+            "unweighted_sample_questions": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 254.0,
+              "confusion": {
+                "auto_yes_human_yes": 78.0,
+                "auto_yes_human_no": 28.0,
+                "auto_no_human_yes": 28.0,
+                "auto_no_human_no": 120.0
+              },
+              "agreement": {
+                "estimate": 0.7795,
+                "ci95": [
+                  0.7306,
+                  0.8287
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5467,
+                "ci95": [
+                  0.4426,
+                  0.6463
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7358,
+                "ci95": [
+                  0.6526,
+                  0.8152
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7358,
+                "ci95": [
+                  0.6465,
+                  0.8222
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 244,
+              "n_clusters": 130,
+              "sum_weights": 244.0,
+              "confusion": {
+                "auto_yes_human_yes": 69.0,
+                "auto_yes_human_no": 27.0,
+                "auto_no_human_yes": 28.0,
+                "auto_no_human_no": 120.0
+              },
+              "agreement": {
+                "estimate": 0.7746,
+                "ci95": [
+                  0.7245,
+                  0.8223
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5286,
+                "ci95": [
+                  0.4199,
+                  0.6289
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7188,
+                "ci95": [
+                  0.6273,
+                  0.8041
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7113,
+                "ci95": [
+                  0.6154,
+                  0.8018
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_items_population_estimate": {
+              "n_units": 300,
+              "n_clusters": 132,
+              "sum_weights": 7902.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 2557.2,
+                "auto_yes_human_no": 866.4,
+                "auto_no_human_yes": 827.52,
+                "auto_no_human_no": 3650.88
+              },
+              "agreement": {
+                "estimate": 0.7856,
+                "ci95": [
+                  0.7352,
+                  0.8337
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5629,
+                "ci95": [
+                  0.4582,
+                  0.6604
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7469,
+                "ci95": [
+                  0.6662,
+                  0.8225
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7555,
+                "ci95": [
+                  0.6624,
+                  0.8384
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "hsi_convention_question_weighted": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 6701.52,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 2219.04,
+                "auto_yes_human_no": 809.04,
+                "auto_no_human_yes": 699.84,
+                "auto_no_human_no": 2973.6
+              },
+              "agreement": {
+                "estimate": 0.7748,
+                "ci95": [
+                  0.7267,
+                  0.8233
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.544,
+                "ci95": [
+                  0.4423,
+                  0.6422
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7328,
+                "ci95": [
+                  0.65,
+                  0.8124
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7602,
+                "ci95": [
+                  0.6752,
+                  0.8398
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "human_YES_or_PARTIAL": {
+            "unweighted_sample_questions": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 254.0,
+              "confusion": {
+                "auto_yes_human_yes": 88.0,
+                "auto_yes_human_no": 18.0,
+                "auto_no_human_yes": 53.0,
+                "auto_no_human_no": 95.0
+              },
+              "agreement": {
+                "estimate": 0.7205,
+                "ci95": [
+                  0.6667,
+                  0.7714
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.451,
+                "ci95": [
+                  0.3499,
+                  0.5472
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8302,
+                "ci95": [
+                  0.7604,
+                  0.8957
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6241,
+                "ci95": [
+                  0.5461,
+                  0.7015
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 244,
+              "n_clusters": 130,
+              "sum_weights": 244.0,
+              "confusion": {
+                "auto_yes_human_yes": 79.0,
+                "auto_yes_human_no": 17.0,
+                "auto_no_human_yes": 53.0,
+                "auto_no_human_no": 95.0
+              },
+              "agreement": {
+                "estimate": 0.7131,
+                "ci95": [
+                  0.6598,
+                  0.7649
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4361,
+                "ci95": [
+                  0.3339,
+                  0.5342
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8229,
+                "ci95": [
+                  0.7473,
+                  0.8913
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.5985,
+                "ci95": [
+                  0.5156,
+                  0.6803
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_items_population_estimate": {
+              "n_units": 300,
+              "n_clusters": 132,
+              "sum_weights": 7902.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 2881.68,
+                "auto_yes_human_no": 541.92,
+                "auto_no_human_yes": 1624.08,
+                "auto_no_human_no": 2854.32
+              },
+              "agreement": {
+                "estimate": 0.7259,
+                "ci95": [
+                  0.6671,
+                  0.7827
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4619,
+                "ci95": [
+                  0.3523,
+                  0.5692
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8417,
+                "ci95": [
+                  0.7751,
+                  0.9013
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6396,
+                "ci95": [
+                  0.5526,
+                  0.7221
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "hsi_convention_question_weighted": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 6701.52,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 2511.84,
+                "auto_yes_human_no": 516.24,
+                "auto_no_human_yes": 1333.68,
+                "auto_no_human_no": 2339.76
+              },
+              "agreement": {
+                "estimate": 0.724,
+                "ci95": [
+                  0.6711,
+                  0.774
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4557,
+                "ci95": [
+                  0.3538,
+                  0.5515
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8295,
+                "ci95": [
+                  0.7604,
+                  0.8942
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6532,
+                "ci95": [
+                  0.5771,
+                  0.7274
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        },
+        "nli600_5passages": {
+          "passages": "all 5 Hybrid passages shown to the generator (humans labelled only 3)",
+          "human_YES_only": {
+            "unweighted_sample_questions": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 254.0,
+              "confusion": {
+                "auto_yes_human_yes": 105.0,
+                "auto_yes_human_no": 28.0,
+                "auto_no_human_yes": 1.0,
+                "auto_no_human_no": 120.0
+              },
+              "agreement": {
+                "estimate": 0.8858,
+                "ci95": [
+                  0.8491,
+                  0.9212
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.7734,
+                "ci95": [
+                  0.7019,
+                  0.8426
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7895,
+                "ci95": [
+                  0.7241,
+                  0.8527
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.9906,
+                "ci95": [
+                  0.9694,
+                  1.0
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 244,
+              "n_clusters": 130,
+              "sum_weights": 244.0,
+              "confusion": {
+                "auto_yes_human_yes": 96.0,
+                "auto_yes_human_no": 28.0,
+                "auto_no_human_yes": 1.0,
+                "auto_no_human_no": 119.0
+              },
+              "agreement": {
+                "estimate": 0.8811,
+                "ci95": [
+                  0.8428,
+                  0.9185
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.7631,
+                "ci95": [
+                  0.6883,
+                  0.835
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7742,
+                "ci95": [
+                  0.7048,
+                  0.8417
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.9897,
+                "ci95": [
+                  0.9655,
+                  1.0
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_items_population_estimate": {
+              "n_units": 300,
+              "n_clusters": 132,
+              "sum_weights": 7902.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 3359.04,
+                "auto_yes_human_no": 858.72,
+                "auto_no_human_yes": 25.68,
+                "auto_no_human_no": 3658.56
+              },
+              "agreement": {
+                "estimate": 0.8881,
+                "ci95": [
+                  0.8503,
+                  0.9246
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.7783,
+                "ci95": [
+                  0.7046,
+                  0.8488
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7964,
+                "ci95": [
+                  0.7326,
+                  0.8605
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.9924,
+                "ci95": [
+                  0.9746,
+                  1.0
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "hsi_convention_question_weighted": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 6701.52,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 2893.2,
+                "auto_yes_human_no": 776.64,
+                "auto_no_human_yes": 25.68,
+                "auto_no_human_no": 3006.0
+              },
+              "agreement": {
+                "estimate": 0.8803,
+                "ci95": [
+                  0.8421,
+                  0.9185
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.7635,
+                "ci95": [
+                  0.6896,
+                  0.8371
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7884,
+                "ci95": [
+                  0.7227,
+                  0.8527
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.9912,
+                "ci95": [
+                  0.9712,
+                  1.0
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "human_YES_or_PARTIAL": {
+            "unweighted_sample_questions": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 254.0,
+              "confusion": {
+                "auto_yes_human_yes": 115.0,
+                "auto_yes_human_no": 18.0,
+                "auto_no_human_yes": 26.0,
+                "auto_no_human_no": 95.0
+              },
+              "agreement": {
+                "estimate": 0.8268,
+                "ci95": [
+                  0.7843,
+                  0.8669
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6517,
+                "ci95": [
+                  0.5654,
+                  0.7323
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8647,
+                "ci95": [
+                  0.8125,
+                  0.9167
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.8156,
+                "ci95": [
+                  0.7519,
+                  0.875
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 244,
+              "n_clusters": 130,
+              "sum_weights": 244.0,
+              "confusion": {
+                "auto_yes_human_yes": 106.0,
+                "auto_yes_human_no": 18.0,
+                "auto_no_human_yes": 26.0,
+                "auto_no_human_no": 94.0
+              },
+              "agreement": {
+                "estimate": 0.8197,
+                "ci95": [
+                  0.7759,
+                  0.8594
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6389,
+                "ci95": [
+                  0.55,
+                  0.718
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8548,
+                "ci95": [
+                  0.8,
+                  0.9074
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.803,
+                "ci95": [
+                  0.7353,
+                  0.8649
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_items_population_estimate": {
+              "n_units": 300,
+              "n_clusters": 132,
+              "sum_weights": 7902.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 3682.56,
+                "auto_yes_human_no": 535.2,
+                "auto_no_human_yes": 823.2,
+                "auto_no_human_no": 2861.04
+              },
+              "agreement": {
+                "estimate": 0.8281,
+                "ci95": [
+                  0.7825,
+                  0.8702
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6529,
+                "ci95": [
+                  0.5578,
+                  0.7389
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8731,
+                "ci95": [
+                  0.8229,
+                  0.9215
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.8173,
+                "ci95": [
+                  0.7466,
+                  0.8845
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "hsi_convention_question_weighted": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 6701.52,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 3185.04,
+                "auto_yes_human_no": 484.8,
+                "auto_no_human_yes": 660.48,
+                "auto_no_human_no": 2371.2
+              },
+              "agreement": {
+                "estimate": 0.8291,
+                "ci95": [
+                  0.7875,
+                  0.8689
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6533,
+                "ci95": [
+                  0.5666,
+                  0.7341
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8679,
+                "ci95": [
+                  0.8166,
+                  0.918
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.8282,
+                "ci95": [
+                  0.7662,
+                  0.8859
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        },
+        "nli600_dated_5passages": {
+          "passages": "all 5 Hybrid passages shown to the generator (humans labelled only 3)",
+          "human_YES_only": {
+            "unweighted_sample_questions": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 254.0,
+              "confusion": {
+                "auto_yes_human_yes": 77.0,
+                "auto_yes_human_no": 23.0,
+                "auto_no_human_yes": 29.0,
+                "auto_no_human_no": 125.0
+              },
+              "agreement": {
+                "estimate": 0.7953,
+                "ci95": [
+                  0.749,
+                  0.8413
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5756,
+                "ci95": [
+                  0.4781,
+                  0.6708
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.77,
+                "ci95": [
+                  0.6933,
+                  0.8452
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7264,
+                "ci95": [
+                  0.6327,
+                  0.8095
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 244,
+              "n_clusters": 130,
+              "sum_weights": 244.0,
+              "confusion": {
+                "auto_yes_human_yes": 72.0,
+                "auto_yes_human_no": 23.0,
+                "auto_no_human_yes": 25.0,
+                "auto_no_human_no": 124.0
+              },
+              "agreement": {
+                "estimate": 0.8033,
+                "ci95": [
+                  0.7564,
+                  0.8487
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5879,
+                "ci95": [
+                  0.4855,
+                  0.682
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7579,
+                "ci95": [
+                  0.6759,
+                  0.8353
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7423,
+                "ci95": [
+                  0.6429,
+                  0.8319
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_items_population_estimate": {
+              "n_units": 300,
+              "n_clusters": 132,
+              "sum_weights": 7902.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 2496.72,
+                "auto_yes_human_no": 694.08,
+                "auto_no_human_yes": 888.0,
+                "auto_no_human_no": 3823.2
+              },
+              "agreement": {
+                "estimate": 0.7998,
+                "ci95": [
+                  0.7496,
+                  0.8467
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5882,
+                "ci95": [
+                  0.4808,
+                  0.6834
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7825,
+                "ci95": [
+                  0.6979,
+                  0.8601
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7376,
+                "ci95": [
+                  0.6452,
+                  0.8218
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "hsi_convention_question_weighted": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 6701.52,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 2136.24,
+                "auto_yes_human_no": 619.92,
+                "auto_no_human_yes": 782.64,
+                "auto_no_human_no": 3162.72
+              },
+              "agreement": {
+                "estimate": 0.7907,
+                "ci95": [
+                  0.7435,
+                  0.8376
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5716,
+                "ci95": [
+                  0.4744,
+                  0.6666
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7751,
+                "ci95": [
+                  0.6994,
+                  0.8499
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7319,
+                "ci95": [
+                  0.6376,
+                  0.8143
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "human_YES_or_PARTIAL": {
+            "unweighted_sample_questions": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 254.0,
+              "confusion": {
+                "auto_yes_human_yes": 85.0,
+                "auto_yes_human_no": 15.0,
+                "auto_no_human_yes": 56.0,
+                "auto_no_human_no": 98.0
+              },
+              "agreement": {
+                "estimate": 0.7205,
+                "ci95": [
+                  0.6636,
+                  0.7753
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4537,
+                "ci95": [
+                  0.3509,
+                  0.5553
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.85,
+                "ci95": [
+                  0.7843,
+                  0.9111
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6028,
+                "ci95": [
+                  0.5118,
+                  0.6897
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 244,
+              "n_clusters": 130,
+              "sum_weights": 244.0,
+              "confusion": {
+                "auto_yes_human_yes": 80.0,
+                "auto_yes_human_no": 15.0,
+                "auto_no_human_yes": 52.0,
+                "auto_no_human_no": 97.0
+              },
+              "agreement": {
+                "estimate": 0.7254,
+                "ci95": [
+                  0.6693,
+                  0.7823
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4606,
+                "ci95": [
+                  0.3567,
+                  0.5661
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8421,
+                "ci95": [
+                  0.7742,
+                  0.9048
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6061,
+                "ci95": [
+                  0.5106,
+                  0.7015
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_items_population_estimate": {
+              "n_units": 300,
+              "n_clusters": 132,
+              "sum_weights": 7902.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 2771.04,
+                "auto_yes_human_no": 419.76,
+                "auto_no_human_yes": 1734.72,
+                "auto_no_human_no": 2976.48
+              },
+              "agreement": {
+                "estimate": 0.7274,
+                "ci95": [
+                  0.665,
+                  0.7853
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.469,
+                "ci95": [
+                  0.3597,
+                  0.5747
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8684,
+                "ci95": [
+                  0.8115,
+                  0.923
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.615,
+                "ci95": [
+                  0.519,
+                  0.7069
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "hsi_convention_question_weighted": {
+              "n_units": 254,
+              "n_clusters": 132,
+              "sum_weights": 6701.52,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 2359.2,
+                "auto_yes_human_no": 396.96,
+                "auto_no_human_yes": 1486.32,
+                "auto_no_human_no": 2459.04
+              },
+              "agreement": {
+                "estimate": 0.719,
+                "ci95": [
+                  0.6624,
+                  0.774
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4523,
+                "ci95": [
+                  0.3505,
+                  0.5539
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.856,
+                "ci95": [
+                  0.7952,
+                  0.9145
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6135,
+                "ci95": [
+                  0.5223,
+                  0.6996
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        }
+      }
+    },
+    "masked_pack": {
+      "n_questions": 210,
+      "n_stratified": 200,
+      "n_consistency_recheck_unweighted_only": 10,
+      "weights": {
+        "fresh_supported": 4.8,
+        "fresh_unsupported": 4.68,
+        "static_supported": 3.82,
+        "static_unsupported": 4.26
+      },
+      "questions_with_600_700_gold_rows": [
+        "20250214_14",
+        "20250509_8",
+        "20250801_2",
+        "20260206_3",
+        "20260424_4"
+      ],
+      "seed": 20260804,
+      "B": 5000,
+      "by_label": {
+        "string600_shown3": {
+          "passages": "the 3 passages humans labelled (masked top-3)",
+          "human_YES_only": {
+            "unweighted_sample_all_210": {
+              "n_units": 210,
+              "n_clusters": 116,
+              "sum_weights": 210.0,
+              "confusion": {
+                "auto_yes_human_yes": 62.0,
+                "auto_yes_human_no": 11.0,
+                "auto_no_human_yes": 18.0,
+                "auto_no_human_no": 119.0
+              },
+              "agreement": {
+                "estimate": 0.8619,
+                "ci95": [
+                  0.81,
+                  0.9113
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.7022,
+                "ci95": [
+                  0.588,
+                  0.806
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8493,
+                "ci95": [
+                  0.7541,
+                  0.9318
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.775,
+                "ci95": [
+                  0.6714,
+                  0.87
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_stratified_200": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 200.0,
+              "confusion": {
+                "auto_yes_human_yes": 60.0,
+                "auto_yes_human_no": 10.0,
+                "auto_no_human_yes": 18.0,
+                "auto_no_human_no": 112.0
+              },
+              "agreement": {
+                "estimate": 0.86,
+                "ci95": [
+                  0.8068,
+                  0.91
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.7002,
+                "ci95": [
+                  0.582,
+                  0.8043
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8571,
+                "ci95": [
+                  0.76,
+                  0.9375
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7692,
+                "ci95": [
+                  0.6622,
+                  0.8689
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 205,
+              "n_clusters": 115,
+              "sum_weights": 205.0,
+              "confusion": {
+                "auto_yes_human_yes": 58.0,
+                "auto_yes_human_no": 11.0,
+                "auto_no_human_yes": 18.0,
+                "auto_no_human_no": 118.0
+              },
+              "agreement": {
+                "estimate": 0.8585,
+                "ci95": [
+                  0.8069,
+                  0.9078
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.691,
+                "ci95": [
+                  0.5736,
+                  0.7982
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8406,
+                "ci95": [
+                  0.7419,
+                  0.9286
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7632,
+                "ci95": [
+                  0.6528,
+                  0.863
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_200_population_estimate": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 878.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 254.68,
+                "auto_yes_human_no": 42.12,
+                "auto_no_human_yes": 80.78,
+                "auto_no_human_no": 500.42
+              },
+              "agreement": {
+                "estimate": 0.86,
+                "ci95": [
+                  0.8068,
+                  0.9102
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6969,
+                "ci95": [
+                  0.5789,
+                  0.8021
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8581,
+                "ci95": [
+                  0.7634,
+                  0.9374
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7592,
+                "ci95": [
+                  0.6496,
+                  0.8641
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "human_YES_or_PARTIAL": {
+            "unweighted_sample_all_210": {
+              "n_units": 210,
+              "n_clusters": 116,
+              "sum_weights": 210.0,
+              "confusion": {
+                "auto_yes_human_yes": 70.0,
+                "auto_yes_human_no": 3.0,
+                "auto_no_human_yes": 32.0,
+                "auto_no_human_no": 105.0
+              },
+              "agreement": {
+                "estimate": 0.8333,
+                "ci95": [
+                  0.7762,
+                  0.8884
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6637,
+                "ci95": [
+                  0.5548,
+                  0.7703
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.9589,
+                "ci95": [
+                  0.8933,
+                  1.0
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6863,
+                "ci95": [
+                  0.5905,
+                  0.78
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_stratified_200": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 200.0,
+              "confusion": {
+                "auto_yes_human_yes": 67.0,
+                "auto_yes_human_no": 3.0,
+                "auto_no_human_yes": 32.0,
+                "auto_no_human_no": 98.0
+              },
+              "agreement": {
+                "estimate": 0.825,
+                "ci95": [
+                  0.7658,
+                  0.8835
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6489,
+                "ci95": [
+                  0.5335,
+                  0.761
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.9571,
+                "ci95": [
+                  0.8889,
+                  1.0
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6768,
+                "ci95": [
+                  0.58,
+                  0.7723
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 205,
+              "n_clusters": 115,
+              "sum_weights": 205.0,
+              "confusion": {
+                "auto_yes_human_yes": 66.0,
+                "auto_yes_human_no": 3.0,
+                "auto_no_human_yes": 32.0,
+                "auto_no_human_no": 104.0
+              },
+              "agreement": {
+                "estimate": 0.8293,
+                "ci95": [
+                  0.7707,
+                  0.884
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6536,
+                "ci95": [
+                  0.5394,
+                  0.7604
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.9565,
+                "ci95": [
+                  0.8871,
+                  1.0
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6735,
+                "ci95": [
+                  0.5728,
+                  0.7684
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_200_population_estimate": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 878.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 284.36,
+                "auto_yes_human_no": 12.44,
+                "auto_no_human_yes": 143.26,
+                "auto_no_human_no": 437.94
+              },
+              "agreement": {
+                "estimate": 0.8227,
+                "ci95": [
+                  0.7627,
+                  0.882
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6423,
+                "ci95": [
+                  0.5259,
+                  0.7552
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.9581,
+                "ci95": [
+                  0.8943,
+                  1.0
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.665,
+                "ci95": [
+                  0.5658,
+                  0.764
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        },
+        "nli600_shown3": {
+          "passages": "the 3 passages humans labelled (masked top-3)",
+          "human_YES_only": {
+            "unweighted_sample_all_210": {
+              "n_units": 210,
+              "n_clusters": 116,
+              "sum_weights": 210.0,
+              "confusion": {
+                "auto_yes_human_yes": 74.0,
+                "auto_yes_human_no": 23.0,
+                "auto_no_human_yes": 6.0,
+                "auto_no_human_no": 107.0
+              },
+              "agreement": {
+                "estimate": 0.8619,
+                "ci95": [
+                  0.8143,
+                  0.9072
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.7187,
+                "ci95": [
+                  0.6218,
+                  0.8087
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7629,
+                "ci95": [
+                  0.6712,
+                  0.8478
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.925,
+                "ci95": [
+                  0.8636,
+                  0.9756
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_stratified_200": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 200.0,
+              "confusion": {
+                "auto_yes_human_yes": 72.0,
+                "auto_yes_human_no": 22.0,
+                "auto_no_human_yes": 6.0,
+                "auto_no_human_no": 100.0
+              },
+              "agreement": {
+                "estimate": 0.86,
+                "ci95": [
+                  0.81,
+                  0.9061
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.7163,
+                "ci95": [
+                  0.6168,
+                  0.8071
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.766,
+                "ci95": [
+                  0.6716,
+                  0.8519
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.9231,
+                "ci95": [
+                  0.859,
+                  0.9756
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 205,
+              "n_clusters": 115,
+              "sum_weights": 205.0,
+              "confusion": {
+                "auto_yes_human_yes": 71.0,
+                "auto_yes_human_no": 23.0,
+                "auto_no_human_yes": 5.0,
+                "auto_no_human_no": 106.0
+              },
+              "agreement": {
+                "estimate": 0.8634,
+                "ci95": [
+                  0.8146,
+                  0.9087
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.7208,
+                "ci95": [
+                  0.6241,
+                  0.8112
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7553,
+                "ci95": [
+                  0.6625,
+                  0.8434
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.9342,
+                "ci95": [
+                  0.8736,
+                  0.9855
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_200_population_estimate": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 878.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 308.86,
+                "auto_yes_human_no": 95.58,
+                "auto_no_human_yes": 26.6,
+                "auto_no_human_no": 446.96
+              },
+              "agreement": {
+                "estimate": 0.8608,
+                "ci95": [
+                  0.8117,
+                  0.9065
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.7164,
+                "ci95": [
+                  0.6178,
+                  0.8059
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7637,
+                "ci95": [
+                  0.6698,
+                  0.8493
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.9207,
+                "ci95": [
+                  0.8535,
+                  0.975
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "human_YES_or_PARTIAL": {
+            "unweighted_sample_all_210": {
+              "n_units": 210,
+              "n_clusters": 116,
+              "sum_weights": 210.0,
+              "confusion": {
+                "auto_yes_human_yes": 85.0,
+                "auto_yes_human_no": 12.0,
+                "auto_no_human_yes": 17.0,
+                "auto_no_human_no": 96.0
+              },
+              "agreement": {
+                "estimate": 0.8619,
+                "ci95": [
+                  0.8169,
+                  0.9045
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.7232,
+                "ci95": [
+                  0.6307,
+                  0.807
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8763,
+                "ci95": [
+                  0.8041,
+                  0.939
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.8333,
+                "ci95": [
+                  0.766,
+                  0.8989
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_stratified_200": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 200.0,
+              "confusion": {
+                "auto_yes_human_yes": 82.0,
+                "auto_yes_human_no": 12.0,
+                "auto_no_human_yes": 17.0,
+                "auto_no_human_no": 89.0
+              },
+              "agreement": {
+                "estimate": 0.855,
+                "ci95": [
+                  0.8058,
+                  0.9015
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.7098,
+                "ci95": [
+                  0.6107,
+                  0.8018
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8723,
+                "ci95": [
+                  0.7955,
+                  0.9388
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.8283,
+                "ci95": [
+                  0.7571,
+                  0.8961
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 205,
+              "n_clusters": 115,
+              "sum_weights": 205.0,
+              "confusion": {
+                "auto_yes_human_yes": 82.0,
+                "auto_yes_human_no": 12.0,
+                "auto_no_human_yes": 16.0,
+                "auto_no_human_no": 95.0
+              },
+              "agreement": {
+                "estimate": 0.8634,
+                "ci95": [
+                  0.8173,
+                  0.9072
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.7258,
+                "ci95": [
+                  0.6314,
+                  0.8126
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8723,
+                "ci95": [
+                  0.7978,
+                  0.9355
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.8367,
+                "ci95": [
+                  0.7653,
+                  0.9
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_200_population_estimate": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 878.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 352.3,
+                "auto_yes_human_no": 52.14,
+                "auto_no_human_yes": 75.32,
+                "auto_no_human_no": 398.24
+              },
+              "agreement": {
+                "estimate": 0.8548,
+                "ci95": [
+                  0.8051,
+                  0.9015
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.7091,
+                "ci95": [
+                  0.6087,
+                  0.8012
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8711,
+                "ci95": [
+                  0.7954,
+                  0.9372
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.8239,
+                "ci95": [
+                  0.7504,
+                  0.893
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        },
+        "nli600_dated_shown3": {
+          "passages": "the 3 passages humans labelled (masked top-3)",
+          "human_YES_only": {
+            "unweighted_sample_all_210": {
+              "n_units": 210,
+              "n_clusters": 116,
+              "sum_weights": 210.0,
+              "confusion": {
+                "auto_yes_human_yes": 51.0,
+                "auto_yes_human_no": 14.0,
+                "auto_no_human_yes": 29.0,
+                "auto_no_human_no": 116.0
+              },
+              "agreement": {
+                "estimate": 0.7952,
+                "ci95": [
+                  0.736,
+                  0.8531
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5496,
+                "ci95": [
+                  0.424,
+                  0.6719
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7846,
+                "ci95": [
+                  0.6719,
+                  0.8955
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6375,
+                "ci95": [
+                  0.5238,
+                  0.7467
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_stratified_200": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 200.0,
+              "confusion": {
+                "auto_yes_human_yes": 49.0,
+                "auto_yes_human_no": 14.0,
+                "auto_no_human_yes": 29.0,
+                "auto_no_human_no": 108.0
+              },
+              "agreement": {
+                "estimate": 0.785,
+                "ci95": [
+                  0.7238,
+                  0.8458
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5319,
+                "ci95": [
+                  0.3993,
+                  0.6538
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7778,
+                "ci95": [
+                  0.6567,
+                  0.8868
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6282,
+                "ci95": [
+                  0.5139,
+                  0.7397
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 205,
+              "n_clusters": 115,
+              "sum_weights": 205.0,
+              "confusion": {
+                "auto_yes_human_yes": 49.0,
+                "auto_yes_human_no": 14.0,
+                "auto_no_human_yes": 27.0,
+                "auto_no_human_no": 115.0
+              },
+              "agreement": {
+                "estimate": 0.8,
+                "ci95": [
+                  0.7404,
+                  0.8578
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5557,
+                "ci95": [
+                  0.4266,
+                  0.6786
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7778,
+                "ci95": [
+                  0.6591,
+                  0.8873
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6447,
+                "ci95": [
+                  0.5294,
+                  0.7564
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_200_population_estimate": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 878.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 214.16,
+                "auto_yes_human_no": 62.72,
+                "auto_no_human_yes": 121.3,
+                "auto_no_human_no": 479.82
+              },
+              "agreement": {
+                "estimate": 0.7904,
+                "ci95": [
+                  0.7295,
+                  0.8507
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5408,
+                "ci95": [
+                  0.4059,
+                  0.6629
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7735,
+                "ci95": [
+                  0.6506,
+                  0.8846
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6384,
+                "ci95": [
+                  0.522,
+                  0.75
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "human_YES_or_PARTIAL": {
+            "unweighted_sample_all_210": {
+              "n_units": 210,
+              "n_clusters": 116,
+              "sum_weights": 210.0,
+              "confusion": {
+                "auto_yes_human_yes": 57.0,
+                "auto_yes_human_no": 8.0,
+                "auto_no_human_yes": 45.0,
+                "auto_no_human_no": 100.0
+              },
+              "agreement": {
+                "estimate": 0.7476,
+                "ci95": [
+                  0.6872,
+                  0.8069
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4897,
+                "ci95": [
+                  0.3815,
+                  0.6005
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8769,
+                "ci95": [
+                  0.8,
+                  0.9492
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.5588,
+                "ci95": [
+                  0.4607,
+                  0.66
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_stratified_200": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 200.0,
+              "confusion": {
+                "auto_yes_human_yes": 55.0,
+                "auto_yes_human_no": 8.0,
+                "auto_no_human_yes": 44.0,
+                "auto_no_human_no": 93.0
+              },
+              "agreement": {
+                "estimate": 0.74,
+                "ci95": [
+                  0.678,
+                  0.8011
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4781,
+                "ci95": [
+                  0.3666,
+                  0.5907
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.873,
+                "ci95": [
+                  0.7885,
+                  0.9452
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.5556,
+                "ci95": [
+                  0.4526,
+                  0.6543
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 205,
+              "n_clusters": 115,
+              "sum_weights": 205.0,
+              "confusion": {
+                "auto_yes_human_yes": 55.0,
+                "auto_yes_human_no": 8.0,
+                "auto_no_human_yes": 43.0,
+                "auto_no_human_no": 99.0
+              },
+              "agreement": {
+                "estimate": 0.7512,
+                "ci95": [
+                  0.6886,
+                  0.81
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4939,
+                "ci95": [
+                  0.3772,
+                  0.6023
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.873,
+                "ci95": [
+                  0.7917,
+                  0.9452
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.5612,
+                "ci95": [
+                  0.4556,
+                  0.6606
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_200_population_estimate": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 878.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 240.46,
+                "auto_yes_human_no": 36.42,
+                "auto_no_human_yes": 187.16,
+                "auto_no_human_no": 413.96
+              },
+              "agreement": {
+                "estimate": 0.7454,
+                "ci95": [
+                  0.6854,
+                  0.8046
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4858,
+                "ci95": [
+                  0.3752,
+                  0.5953
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8685,
+                "ci95": [
+                  0.7835,
+                  0.9428
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.5623,
+                "ci95": [
+                  0.4581,
+                  0.6627
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        },
+        "string600_5passages": {
+          "passages": "all 5 masked Hybrid passages shown to the generator (humans labelled only 3)",
+          "human_YES_only": {
+            "unweighted_sample_all_210": {
+              "n_units": 210,
+              "n_clusters": 116,
+              "sum_weights": 210.0,
+              "confusion": {
+                "auto_yes_human_yes": 63.0,
+                "auto_yes_human_no": 25.0,
+                "auto_no_human_yes": 17.0,
+                "auto_no_human_no": 105.0
+              },
+              "agreement": {
+                "estimate": 0.8,
+                "ci95": [
+                  0.7438,
+                  0.855
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.584,
+                "ci95": [
+                  0.4647,
+                  0.6955
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7159,
+                "ci95": [
+                  0.6162,
+                  0.8133
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7875,
+                "ci95": [
+                  0.6854,
+                  0.8816
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_stratified_200": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 200.0,
+              "confusion": {
+                "auto_yes_human_yes": 61.0,
+                "auto_yes_human_no": 24.0,
+                "auto_no_human_yes": 17.0,
+                "auto_no_human_no": 98.0
+              },
+              "agreement": {
+                "estimate": 0.795,
+                "ci95": [
+                  0.736,
+                  0.8526
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.576,
+                "ci95": [
+                  0.4507,
+                  0.6935
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7176,
+                "ci95": [
+                  0.6129,
+                  0.8148
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7821,
+                "ci95": [
+                  0.6782,
+                  0.8806
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 205,
+              "n_clusters": 115,
+              "sum_weights": 205.0,
+              "confusion": {
+                "auto_yes_human_yes": 59.0,
+                "auto_yes_human_no": 24.0,
+                "auto_no_human_yes": 17.0,
+                "auto_no_human_no": 105.0
+              },
+              "agreement": {
+                "estimate": 0.8,
+                "ci95": [
+                  0.7415,
+                  0.8571
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5793,
+                "ci95": [
+                  0.4531,
+                  0.698
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7108,
+                "ci95": [
+                  0.6024,
+                  0.8182
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7763,
+                "ci95": [
+                  0.6667,
+                  0.875
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_200_population_estimate": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 878.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 259.48,
+                "auto_yes_human_no": 106.78,
+                "auto_no_human_yes": 75.98,
+                "auto_no_human_no": 435.76
+              },
+              "agreement": {
+                "estimate": 0.7918,
+                "ci95": [
+                  0.7321,
+                  0.8502
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5668,
+                "ci95": [
+                  0.4399,
+                  0.6854
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7085,
+                "ci95": [
+                  0.6013,
+                  0.8081
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7735,
+                "ci95": [
+                  0.6663,
+                  0.8765
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "human_YES_or_PARTIAL": {
+            "unweighted_sample_all_210": {
+              "n_units": 210,
+              "n_clusters": 116,
+              "sum_weights": 210.0,
+              "confusion": {
+                "auto_yes_human_yes": 73.0,
+                "auto_yes_human_no": 15.0,
+                "auto_no_human_yes": 29.0,
+                "auto_no_human_no": 93.0
+              },
+              "agreement": {
+                "estimate": 0.7905,
+                "ci95": [
+                  0.7293,
+                  0.8507
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.579,
+                "ci95": [
+                  0.4568,
+                  0.6965
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8295,
+                "ci95": [
+                  0.7442,
+                  0.9059
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7157,
+                "ci95": [
+                  0.6216,
+                  0.8085
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_stratified_200": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 200.0,
+              "confusion": {
+                "auto_yes_human_yes": 70.0,
+                "auto_yes_human_no": 15.0,
+                "auto_no_human_yes": 29.0,
+                "auto_no_human_no": 86.0
+              },
+              "agreement": {
+                "estimate": 0.78,
+                "ci95": [
+                  0.715,
+                  0.8424
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5593,
+                "ci95": [
+                  0.4292,
+                  0.6811
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8235,
+                "ci95": [
+                  0.7349,
+                  0.9054
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7071,
+                "ci95": [
+                  0.61,
+                  0.8
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 205,
+              "n_clusters": 115,
+              "sum_weights": 205.0,
+              "confusion": {
+                "auto_yes_human_yes": 69.0,
+                "auto_yes_human_no": 14.0,
+                "auto_no_human_yes": 29.0,
+                "auto_no_human_no": 93.0
+              },
+              "agreement": {
+                "estimate": 0.7902,
+                "ci95": [
+                  0.7273,
+                  0.85
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.577,
+                "ci95": [
+                  0.4508,
+                  0.6943
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8313,
+                "ci95": [
+                  0.7407,
+                  0.9125
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.7041,
+                "ci95": [
+                  0.6053,
+                  0.8
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_200_population_estimate": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 878.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 298.64,
+                "auto_yes_human_no": 67.62,
+                "auto_no_human_yes": 128.98,
+                "auto_no_human_no": 382.76
+              },
+              "agreement": {
+                "estimate": 0.7761,
+                "ci95": [
+                  0.7093,
+                  0.8398
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5502,
+                "ci95": [
+                  0.4169,
+                  0.6739
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8154,
+                "ci95": [
+                  0.7246,
+                  0.8988
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6984,
+                "ci95": [
+                  0.5987,
+                  0.7955
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        },
+        "nli600_5passages": {
+          "passages": "all 5 masked Hybrid passages shown to the generator (humans labelled only 3)",
+          "human_YES_only": {
+            "unweighted_sample_all_210": {
+              "n_units": 210,
+              "n_clusters": 116,
+              "sum_weights": 210.0,
+              "confusion": {
+                "auto_yes_human_yes": 77.0,
+                "auto_yes_human_no": 34.0,
+                "auto_no_human_yes": 3.0,
+                "auto_no_human_no": 96.0
+              },
+              "agreement": {
+                "estimate": 0.8238,
+                "ci95": [
+                  0.7689,
+                  0.8767
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6523,
+                "ci95": [
+                  0.5504,
+                  0.7527
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.6937,
+                "ci95": [
+                  0.6,
+                  0.7845
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.9625,
+                "ci95": [
+                  0.9178,
+                  1.0
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_stratified_200": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 200.0,
+              "confusion": {
+                "auto_yes_human_yes": 75.0,
+                "auto_yes_human_no": 33.0,
+                "auto_no_human_yes": 3.0,
+                "auto_no_human_no": 89.0
+              },
+              "agreement": {
+                "estimate": 0.82,
+                "ci95": [
+                  0.7615,
+                  0.875
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6462,
+                "ci95": [
+                  0.5379,
+                  0.7504
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.6944,
+                "ci95": [
+                  0.5979,
+                  0.7869
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.9615,
+                "ci95": [
+                  0.9143,
+                  1.0
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 205,
+              "n_clusters": 115,
+              "sum_weights": 205.0,
+              "confusion": {
+                "auto_yes_human_yes": 73.0,
+                "auto_yes_human_no": 34.0,
+                "auto_no_human_yes": 3.0,
+                "auto_no_human_no": 95.0
+              },
+              "agreement": {
+                "estimate": 0.8195,
+                "ci95": [
+                  0.765,
+                  0.8724
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6431,
+                "ci95": [
+                  0.5413,
+                  0.7436
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.6822,
+                "ci95": [
+                  0.5851,
+                  0.7759
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.9605,
+                "ci95": [
+                  0.9118,
+                  1.0
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_200_population_estimate": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 878.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 323.14,
+                "auto_yes_human_no": 146.28,
+                "auto_no_human_yes": 12.32,
+                "auto_no_human_no": 396.26
+              },
+              "agreement": {
+                "estimate": 0.8194,
+                "ci95": [
+                  0.7593,
+                  0.8755
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6445,
+                "ci95": [
+                  0.5353,
+                  0.7503
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.6884,
+                "ci95": [
+                  0.5888,
+                  0.7837
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.9633,
+                "ci95": [
+                  0.9181,
+                  1.0
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "human_YES_or_PARTIAL": {
+            "unweighted_sample_all_210": {
+              "n_units": 210,
+              "n_clusters": 116,
+              "sum_weights": 210.0,
+              "confusion": {
+                "auto_yes_human_yes": 89.0,
+                "auto_yes_human_no": 22.0,
+                "auto_no_human_yes": 13.0,
+                "auto_no_human_no": 86.0
+              },
+              "agreement": {
+                "estimate": 0.8333,
+                "ci95": [
+                  0.7736,
+                  0.8883
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6672,
+                "ci95": [
+                  0.5471,
+                  0.7758
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8018,
+                "ci95": [
+                  0.7174,
+                  0.8776
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.8725,
+                "ci95": [
+                  0.8119,
+                  0.9294
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_stratified_200": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 200.0,
+              "confusion": {
+                "auto_yes_human_yes": 86.0,
+                "auto_yes_human_no": 22.0,
+                "auto_no_human_yes": 13.0,
+                "auto_no_human_no": 79.0
+              },
+              "agreement": {
+                "estimate": 0.825,
+                "ci95": [
+                  0.7612,
+                  0.8838
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6503,
+                "ci95": [
+                  0.5219,
+                  0.7667
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7963,
+                "ci95": [
+                  0.7093,
+                  0.8783
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.8687,
+                "ci95": [
+                  0.8068,
+                  0.9286
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 205,
+              "n_clusters": 115,
+              "sum_weights": 205.0,
+              "confusion": {
+                "auto_yes_human_yes": 85.0,
+                "auto_yes_human_no": 22.0,
+                "auto_no_human_yes": 13.0,
+                "auto_no_human_no": 85.0
+              },
+              "agreement": {
+                "estimate": 0.8293,
+                "ci95": [
+                  0.77,
+                  0.8871
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6592,
+                "ci95": [
+                  0.5402,
+                  0.7731
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7944,
+                "ci95": [
+                  0.7087,
+                  0.8725
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.8673,
+                "ci95": [
+                  0.8023,
+                  0.9255
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_200_population_estimate": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 878.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 371.38,
+                "auto_yes_human_no": 98.04,
+                "auto_no_human_yes": 56.24,
+                "auto_no_human_no": 352.34
+              },
+              "agreement": {
+                "estimate": 0.8243,
+                "ci95": [
+                  0.7592,
+                  0.8854
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.6492,
+                "ci95": [
+                  0.5185,
+                  0.7695
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7911,
+                "ci95": [
+                  0.7034,
+                  0.8747
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.8685,
+                "ci95": [
+                  0.8059,
+                  0.9283
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        },
+        "nli600_dated_5passages": {
+          "passages": "all 5 masked Hybrid passages shown to the generator (humans labelled only 3)",
+          "human_YES_only": {
+            "unweighted_sample_all_210": {
+              "n_units": 210,
+              "n_clusters": 116,
+              "sum_weights": 210.0,
+              "confusion": {
+                "auto_yes_human_yes": 55.0,
+                "auto_yes_human_no": 21.0,
+                "auto_no_human_yes": 25.0,
+                "auto_no_human_no": 109.0
+              },
+              "agreement": {
+                "estimate": 0.781,
+                "ci95": [
+                  0.7183,
+                  0.8409
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5311,
+                "ci95": [
+                  0.3987,
+                  0.6561
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7237,
+                "ci95": [
+                  0.6111,
+                  0.8361
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6875,
+                "ci95": [
+                  0.5732,
+                  0.7957
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_stratified_200": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 200.0,
+              "confusion": {
+                "auto_yes_human_yes": 53.0,
+                "auto_yes_human_no": 21.0,
+                "auto_no_human_yes": 25.0,
+                "auto_no_human_no": 101.0
+              },
+              "agreement": {
+                "estimate": 0.77,
+                "ci95": [
+                  0.707,
+                  0.8324
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5121,
+                "ci95": [
+                  0.3729,
+                  0.6407
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7162,
+                "ci95": [
+                  0.6,
+                  0.8256
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6795,
+                "ci95": [
+                  0.5672,
+                  0.7857
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 205,
+              "n_clusters": 115,
+              "sum_weights": 205.0,
+              "confusion": {
+                "auto_yes_human_yes": 52.0,
+                "auto_yes_human_no": 21.0,
+                "auto_no_human_yes": 24.0,
+                "auto_no_human_no": 108.0
+              },
+              "agreement": {
+                "estimate": 0.7805,
+                "ci95": [
+                  0.7182,
+                  0.8409
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5257,
+                "ci95": [
+                  0.393,
+                  0.6539
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7123,
+                "ci95": [
+                  0.5946,
+                  0.8267
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6842,
+                "ci95": [
+                  0.569,
+                  0.7941
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_200_population_estimate": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 878.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 232.38,
+                "auto_yes_human_no": 93.9,
+                "auto_no_human_yes": 103.08,
+                "auto_no_human_no": 448.64
+              },
+              "agreement": {
+                "estimate": 0.7756,
+                "ci95": [
+                  0.7114,
+                  0.8382
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.5224,
+                "ci95": [
+                  0.3822,
+                  0.6517
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7122,
+                "ci95": [
+                  0.5938,
+                  0.8248
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6927,
+                "ci95": [
+                  0.5791,
+                  0.797
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          },
+          "human_YES_or_PARTIAL": {
+            "unweighted_sample_all_210": {
+              "n_units": 210,
+              "n_clusters": 116,
+              "sum_weights": 210.0,
+              "confusion": {
+                "auto_yes_human_yes": 61.0,
+                "auto_yes_human_no": 15.0,
+                "auto_no_human_yes": 41.0,
+                "auto_no_human_no": 93.0
+              },
+              "agreement": {
+                "estimate": 0.7333,
+                "ci95": [
+                  0.6699,
+                  0.7952
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4624,
+                "ci95": [
+                  0.3408,
+                  0.5823
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.8026,
+                "ci95": [
+                  0.7121,
+                  0.8868
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.598,
+                "ci95": [
+                  0.4953,
+                  0.7009
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_stratified_200": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 200.0,
+              "confusion": {
+                "auto_yes_human_yes": 59.0,
+                "auto_yes_human_no": 15.0,
+                "auto_no_human_yes": 40.0,
+                "auto_no_human_no": 86.0
+              },
+              "agreement": {
+                "estimate": 0.725,
+                "ci95": [
+                  0.661,
+                  0.7913
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4486,
+                "ci95": [
+                  0.3255,
+                  0.5725
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7973,
+                "ci95": [
+                  0.7051,
+                  0.8857
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.596,
+                "ci95": [
+                  0.4937,
+                  0.6977
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "unweighted_excluding_600_700_questions": {
+              "n_units": 205,
+              "n_clusters": 115,
+              "sum_weights": 205.0,
+              "confusion": {
+                "auto_yes_human_yes": 58.0,
+                "auto_yes_human_no": 15.0,
+                "auto_no_human_yes": 40.0,
+                "auto_no_human_no": 92.0
+              },
+              "agreement": {
+                "estimate": 0.7317,
+                "ci95": [
+                  0.6681,
+                  0.794
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4565,
+                "ci95": [
+                  0.3323,
+                  0.5768
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7945,
+                "ci95": [
+                  0.6986,
+                  0.8824
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.5918,
+                "ci95": [
+                  0.4839,
+                  0.6931
+                ],
+                "n_valid_draws": 5000
+              }
+            },
+            "design_weighted_200_population_estimate": {
+              "n_units": 200,
+              "n_clusters": 115,
+              "sum_weights": 878.0,
+              "confusion_weighted": {
+                "auto_yes_human_yes": 258.68,
+                "auto_yes_human_no": 67.6,
+                "auto_no_human_yes": 168.94,
+                "auto_no_human_no": 382.78
+              },
+              "agreement": {
+                "estimate": 0.7306,
+                "ci95": [
+                  0.6673,
+                  0.7956
+                ],
+                "n_valid_draws": 5000
+              },
+              "cohens_kappa": {
+                "estimate": 0.4576,
+                "ci95": [
+                  0.3329,
+                  0.5813
+                ],
+                "n_valid_draws": 5000
+              },
+              "precision": {
+                "estimate": 0.7928,
+                "ci95": [
+                  0.7001,
+                  0.883
+                ],
+                "n_valid_draws": 5000
+              },
+              "recall": {
+                "estimate": 0.6049,
+                "ci95": [
+                  0.5032,
+                  0.7047
+                ],
+                "n_valid_draws": 5000
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "typology_app_typology_rerun": {
+    "script": "pipeline/support_label_typology.py (seed 20260804, B 2000, PARTIAL counts as supported)",
+    "old_fulltext_string_nli1500": {
+      "string": {
+        "disagreement_rate": 0.2,
+        "ci95": [
+          0.1744,
+          0.2267
+        ],
+        "cells": {
+          "agree_support": 193,
+          "agree_no": 527,
+          "auto_only": 50,
+          "human_only": 130
+        },
+        "by_slice": {
+          "static": {
+            "n": 450,
+            "disagreement_rate": 0.1822,
+            "ci95": [
+              0.1489,
+              0.2178
+            ]
+          },
+          "fresh": {
+            "n": 450,
+            "disagreement_rate": 0.2178,
+            "ci95": [
+              0.1822,
+              0.2533
+            ]
+          }
+        },
+        "by_model_range": [
+          0.1111,
+          0.2593
+        ]
+      },
+      "nli": {
+        "disagreement_rate": 0.1711,
+        "ci95": [
+          0.1467,
+          0.1967
+        ],
+        "cells": {
+          "agree_support": 246,
+          "human_only": 77,
+          "agree_no": 500,
+          "auto_only": 77
+        },
+        "by_slice": {
+          "static": {
+            "n": 450,
+            "disagreement_rate": 0.1756,
+            "ci95": [
+              0.1422,
+              0.2111
+            ]
+          },
+          "fresh": {
+            "n": 450,
+            "disagreement_rate": 0.1667,
+            "ci95": [
+              0.1333,
+              0.2022
+            ]
+          }
+        },
+        "by_model_range": [
+          0.125,
+          0.2451
+        ]
+      }
+    },
+    "w600_undated": {
+      "string": {
+        "disagreement_rate": 0.2122,
+        "ci95": [
+          0.1867,
+          0.2389
+        ],
+        "cells": {
+          "agree_support": 149,
+          "agree_no": 560,
+          "human_only": 174,
+          "auto_only": 17
+        },
+        "by_slice": {
+          "static": {
+            "n": 450,
+            "disagreement_rate": 0.18,
+            "ci95": [
+              0.1467,
+              0.2156
+            ]
+          },
+          "fresh": {
+            "n": 450,
+            "disagreement_rate": 0.2444,
+            "ci95": [
+              0.2067,
+              0.2822
+            ]
+          }
+        },
+        "by_model_range": [
+          0.1574,
+          0.2778
+        ]
+      },
+      "nli": {
+        "disagreement_rate": 0.1578,
+        "ci95": [
+          0.1356,
+          0.1833
+        ],
+        "cells": {
+          "agree_support": 198,
+          "human_only": 125,
+          "agree_no": 560,
+          "auto_only": 17
+        },
+        "by_slice": {
+          "static": {
+            "n": 450,
+            "disagreement_rate": 0.1556,
+            "ci95": [
+              0.1244,
+              0.1911
+            ]
+          },
+          "fresh": {
+            "n": 450,
+            "disagreement_rate": 0.16,
+            "ci95": [
+              0.1289,
+              0.1956
+            ]
+          }
+        },
+        "by_model_range": [
+          0.119,
+          0.2083
+        ]
+      }
+    },
+    "w600_dated": {
+      "string": {
+        "disagreement_rate": 0.2122,
+        "ci95": [
+          0.1867,
+          0.2389
+        ],
+        "cells": {
+          "agree_support": 149,
+          "agree_no": 560,
+          "human_only": 174,
+          "auto_only": 17
+        },
+        "by_slice": {
+          "static": {
+            "n": 450,
+            "disagreement_rate": 0.18,
+            "ci95": [
+              0.1467,
+              0.2156
+            ]
+          },
+          "fresh": {
+            "n": 450,
+            "disagreement_rate": 0.2444,
+            "ci95": [
+              0.2067,
+              0.2822
+            ]
+          }
+        },
+        "by_model_range": [
+          0.1574,
+          0.2778
+        ]
+      },
+      "nli": {
+        "disagreement_rate": 0.2578,
+        "ci95": [
+          0.23,
+          0.2867
+        ],
+        "cells": {
+          "agree_support": 110,
+          "agree_no": 558,
+          "human_only": 213,
+          "auto_only": 19
+        },
+        "by_slice": {
+          "static": {
+            "n": 450,
+            "disagreement_rate": 0.28,
+            "ci95": [
+              0.24,
+              0.32
+            ]
+          },
+          "fresh": {
+            "n": 450,
+            "disagreement_rate": 0.2356,
+            "ci95": [
+              0.1978,
+              0.2733
+            ]
+          }
+        },
+        "by_model_range": [
+          0.2037,
+          0.3333
+        ]
+      }
+    },
+    "runtimes_sec": {
+      "stored": 2.2,
+      "w600_undated": 1.8,
+      "w600_dated": 1.8
+    }
+  },
+  "reproduction": {
+    "task_b.string600": {
+      "compared": "e0_human_alignment.json task_b string600 (all rows) vs this script",
+      "reproduced_exactly": true,
+      "n_mismatches": 0,
+      "first_mismatches": []
+    },
+    "task_b.nli600": {
+      "compared": "e0_human_alignment.json task_b nli600 (all rows) vs this script",
+      "reproduced_exactly": true,
+      "n_mismatches": 0,
+      "first_mismatches": []
+    },
+    "masked_pack.string600": {
+      "compared": "e0_human_alignment.json masked_pack string600 (all rows) vs this script",
+      "reproduced_exactly": true,
+      "n_mismatches": 0,
+      "first_mismatches": []
+    },
+    "task_b.question_level.string600_shown3_rate": {
+      "compared": "e0 auto_600_shown3 question-level agreement",
+      "reproduced_exactly": true,
+      "n_mismatches": 0,
+      "first_mismatches": []
+    },
+    "task_b.question_level.string600_5_rate": {
+      "compared": "e0 auto_600_5docs question-level agreement",
+      "reproduced_exactly": true,
+      "n_mismatches": 0,
+      "first_mismatches": []
+    },
+    "masked_pack.question_level.string600_shown3_rate": {
+      "compared": "e0 masked auto_600_shown3 question-level agreement",
+      "reproduced_exactly": true,
+      "n_mismatches": 0,
+      "first_mismatches": []
+    },
+    "support_label_typology.py": {
+      "compared": "entire output JSON",
+      "reproduced_exactly": true,
+      "n_mismatches": 0,
+      "first_mismatches": []
+    }
+  },
+  "runtime_total_sec": 38.7
+}

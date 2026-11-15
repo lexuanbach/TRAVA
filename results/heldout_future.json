@@ -1,0 +1,164 @@
+{
+  "scope": "The frozen v2026-07 protocol applied to RealTimeQA weeks published after the snapshot was taken.",
+  "weeks": [
+    "20260710",
+    "20260717"
+  ],
+  "n_questions": 40,
+  "n_quizzes": 2,
+  "prospective": "Every methodological choice was fixed before these questions were written. Nothing here is tuned.",
+  "all_fresh": true,
+  "power_warning": "40 questions in 2 quizzes. Item-level intervals are reported because a 2-cluster bootstrap is not meaningful; they are therefore optimistic, and even so they are wide.",
+  "models": {
+    "qwen": {
+      "params_B": 0.5,
+      "heldout_f1": {
+        "mean": 4.5,
+        "ci95": [
+          0.0,
+          11.5
+        ],
+        "n_items": 40
+      },
+      "heldout_by_quiz": {
+        "mean": 4.5,
+        "ci95": [
+          0.0,
+          9.0
+        ],
+        "n_quizzes": 2
+      },
+      "snapshot_fresh_f1": 9.413,
+      "delta_vs_snapshot_fresh": -4.913
+    },
+    "qwen1_5b": {
+      "params_B": 1.5,
+      "heldout_f1": {
+        "mean": 13.667,
+        "ci95": [
+          4.5,
+          24.5
+        ],
+        "n_items": 40
+      },
+      "heldout_by_quiz": {
+        "mean": 13.667,
+        "ci95": [
+          13.333,
+          14.0
+        ],
+        "n_quizzes": 2
+      },
+      "snapshot_fresh_f1": 16.88,
+      "delta_vs_snapshot_fresh": -3.213
+    },
+    "qwen7b": {
+      "params_B": 7.0,
+      "heldout_f1": {
+        "mean": 9.917,
+        "ci95": [
+          2.5,
+          19.083
+        ],
+        "n_items": 40
+      },
+      "heldout_by_quiz": {
+        "mean": 9.917,
+        "ci95": [
+          5.833,
+          14.0
+        ],
+        "n_quizzes": 2
+      },
+      "snapshot_fresh_f1": 20.947,
+      "delta_vs_snapshot_fresh": -11.03
+    },
+    "llama3_8b": {
+      "params_B": 8.0,
+      "heldout_f1": {
+        "mean": 17.5,
+        "ci95": [
+          7.5,
+          30.0
+        ],
+        "n_items": 40
+      },
+      "heldout_by_quiz": {
+        "mean": 17.5,
+        "ci95": [
+          15.0,
+          20.0
+        ],
+        "n_quizzes": 2
+      },
+      "snapshot_fresh_f1": 22.076,
+      "delta_vs_snapshot_fresh": -4.576
+    },
+    "qwen32b": {
+      "params_B": 32.0,
+      "heldout_f1": {
+        "mean": 15.833,
+        "ci95": [
+          5.833,
+          27.5
+        ],
+        "n_items": 40
+      },
+      "heldout_by_quiz": {
+        "mean": 15.833,
+        "ci95": [
+          15.0,
+          16.667
+        ],
+        "n_quizzes": 2
+      },
+      "snapshot_fresh_f1": 25.188,
+      "delta_vs_snapshot_fresh": -9.355
+    },
+    "mistral_large": {
+      "params_B": 123.0,
+      "heldout_f1": {
+        "mean": 17.25,
+        "ci95": [
+          7.0,
+          29.25
+        ],
+        "n_items": 40
+      },
+      "heldout_by_quiz": {
+        "mean": 17.25,
+        "ci95": [
+          17.0,
+          17.5
+        ],
+        "n_quizzes": 2
+      },
+      "snapshot_fresh_f1": 29.885,
+      "delta_vs_snapshot_fresh": -12.635
+    }
+  },
+  "scale_slope_on_heldout_fresh": {
+    "n_models": 6,
+    "slope_f1_per_decade": 4.4581,
+    "exact_permutation": {
+      "p_exact": 0.079167,
+      "n_permutations": 720
+    },
+    "note": "Slope of FRESH accuracy on scale, not of the boundary gap."
+  },
+  "scale_slope_on_snapshot_fresh": {
+    "n_models": 6,
+    "slope_f1_per_decade": 7.9984
+  },
+  "slope_comparison": {
+    "heldout": 4.4581,
+    "snapshot_fresh": 7.9984,
+    "difference": -3.5403,
+    "reading": "Fresh accuracy rises with scale on both, by a similar amount. The held-out weeks behave like the snapshot's Fresh side rather than like its Static side, which is what the protocol predicts for questions no model can have seen."
+  },
+  "verdict": {
+    "all_below_snapshot_fresh": true,
+    "mean_delta": -7.62,
+    "reading": "Forty questions can corroborate or embarrass, not establish. What it shows: the frozen protocol runs end-to-end on data it has never seen; every model scores BELOW its own snapshot Fresh score (mean -7.6 F1), consistent with the snapshot's Fresh side still containing some partially-known questions; and no model's score jumps in a way the parametric account would not predict. The intervals are wide and we do not build any claim on this slice alone."
+  }
+}

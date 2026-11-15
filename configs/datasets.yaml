@@ -1,0 +1,59 @@
+# FreshBench-RAG — dataset configuration (REAL run)
+#
+# Source corpus: RealTimeQA (Kasai et al., 2022):
+#   https://github.com/realtimeqa/realtimeqa_public
+#
+# LICENSING. The upstream repository exposes no LICENSE file, so the
+# authoritative statement is the dataset's own NeurIPS 2023 Datasheet, which
+# says verbatim: "REALTIME QA is distributed under the CC BY-SA 4.0 license."
+# That covers the questions and annotations. It does NOT cover the news article
+# text: the same datasheet collects article bodies under a US fair-use rationale
+# (Section 107), which is a defence rather than a licence grant and does not
+# transfer to downstream redistributors.
+# Weekly time-stamped news QA (2022-06 .. 2026-07) with gold answers and
+# Google-Custom-Search evidence documents (each with a publish date).
+#
+# SAMPLING boundary. `fresh_after` below controls only which questions are sampled
+# and what the `split` field in questions.jsonl says; it is 2026-01-01, which is why
+# that field reports 532 static / 346 fresh (the CALENDAR split).
+#
+# ANALYSIS boundary. Every reported result instead uses a shared 2025-01-01 boundary
+# (404 static / 474 fresh), re-derived from question dates by aggregate.py, plus a
+# clean 2023-vs-2026 contrast. Do not read the `split` field as the analysis split.
+#
+# We do NOT anchor on a per-model estimated effective cutoff: that estimator is
+# reported as a negative result (see the paper's Analysis section) because a
+# data-age gradient over pre-cutoff content produces year-over-year drops larger
+# than the cutoff step itself. The 2025 boundary is a fixed, disclosed choice read
+# off Claude Haiku's closed-book knee (F1 25.4 in 2024 -> 8.2 in 2025) and then
+# applied uniformly to all nine generators so that cliffs are comparable.
+name: realtimeqa
+source_repo: realtimeqa/realtimeqa_public
+license: CC BY-SA 4.0 (questions and annotations, per the RealTimeQA datasheet)
+license_source: https://papers.nips.cc/paper_files/paper/2023/file/9941624ef7f867a502732b5154d30cb7-Supplemental-Datasets_and_Benchmarks.pdf
+news_text_basis: upstream fair-use collection (17 USC 107); not relicensed by us
+raw_dir: data/raw
+processed_dir: data/processed
+
+analysis_boundary: "2025-01-01"   # used by aggregate.py for ALL reported results
+fresh_after: "2026-01-01"        # SAMPLING only: the boundary the shipped sample was built with
+# A later question date does not establish whether its answer occurred in training.
+# Question difficulty drifts year to year (2022 and 2026 easy, 2025 hard), which is
+# why results are also reported as a clean 2023-vs-2026 contrast.
+
+# Deterministic sampling (fixed seed) to keep the run reproducible and the
+# API/compute budget bounded. Fresh (2026) is small, so we keep ALL of it.
+sample_seed: 0
+sample:
+  fresh_take_all: true           # keep all 2026 (post-cutoff) questions
+  static_per_year: 160           # sampled per year 2022..2025; 150/131/123/128 survive the evidence filter
+  min_choices: 2
+  require_single_answer: true    # keep questions with exactly one gold index
+
+# Retrieval corpus = pooled, de-duplicated evidence documents from the sampled
+# questions. A question's own evidence docs are its relevance judgements (qrels).
+corpus:
+  dedup: true
+  min_doc_chars: 200
+  max_doc_chars: 3000            # truncate long docs for CPU encoding
+  drop_docs_after_question_date_days: 3   # enforce t_publish <= t_question + 3d

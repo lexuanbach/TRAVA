@@ -1,0 +1,7 @@
+{
+  "definition": "Fresh slice at the 2025 boundary (n=474); closed-book token-F1 < 0.30 and hybrid token-F1 > 0.80",
+  "counts": {
+    "qwen32b": 88,
+    "haiku": 92
+  }
+}

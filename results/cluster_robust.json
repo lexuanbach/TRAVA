@@ -1,0 +1,497 @@
+{
+  "design": {
+    "n_quiz_batches": 199,
+    "median_batch_size": 3,
+    "batches_straddling_boundary": 0,
+    "note": "Batch is nested in slice, so quiz-level variance loads onto the Static/Fresh contrast. i.i.d. resampling understates the SE."
+  },
+  "cliff_boundary_2025": {
+    "qwen": {
+      "diff": 0.12,
+      "se_cluster": 2.24,
+      "ci95_cluster": [
+        -4.29,
+        4.47
+      ],
+      "p_two_sided": 0.93,
+      "p_one_sided": 0.465,
+      "n_clusters": [
+        125,
+        74
+      ],
+      "n_items": [
+        404,
+        474
+      ],
+      "se_iid": 1.71,
+      "p_two_sided_iid": 0.944,
+      "se_inflation": 1.31
+    },
+    "qwen1_5b": {
+      "diff": -1.66,
+      "se_cluster": 2.7,
+      "ci95_cluster": [
+        -7.04,
+        3.63
+      ],
+      "p_two_sided": 0.532,
+      "p_one_sided": 0.734,
+      "n_clusters": [
+        125,
+        74
+      ],
+      "n_items": [
+        404,
+        474
+      ],
+      "se_iid": 2.22,
+      "p_two_sided_iid": 0.44,
+      "se_inflation": 1.216
+    },
+    "qwen3b": {
+      "diff": -2.18,
+      "se_cluster": 2.9,
+      "ci95_cluster": [
+        -8.05,
+        3.34
+      ],
+      "p_two_sided": 0.453,
+      "p_one_sided": 0.7735,
+      "n_clusters": [
+        125,
+        74
+      ],
+      "n_items": [
+        404,
+        474
+      ],
+      "se_iid": 2.22,
+      "p_two_sided_iid": 0.331,
+      "se_inflation": 1.306
+    },
+    "qwen7b": {
+      "diff": 1.45,
+      "se_cluster": 3.72,
+      "ci95_cluster": [
+        -5.98,
+        8.54
+      ],
+      "p_two_sided": 0.6575,
+      "p_one_sided": 0.3287,
+      "n_clusters": [
+        125,
+        74
+      ],
+      "n_items": [
+        404,
+        474
+      ],
+      "se_iid": 2.58,
+      "p_two_sided_iid": 0.579,
+      "se_inflation": 1.442
+    },
+    "qwen32b": {
+      "diff": 4.93,
+      "se_cluster": 3.79,
+      "ci95_cluster": [
+        -2.66,
+        12.06
+      ],
+      "p_two_sided": 0.198,
+      "p_one_sided": 0.099,
+      "n_clusters": [
+        125,
+        74
+      ],
+      "n_items": [
+        404,
+        474
+      ],
+      "se_iid": 2.76,
+      "p_two_sided_iid": 0.075,
+      "se_inflation": 1.373
+    },
+    "qwen72b": {
+      "diff": 6.22,
+      "se_cluster": 3.62,
+      "ci95_cluster": [
+        -0.69,
+        13.32
+      ],
+      "p_two_sided": 0.0765,
+      "p_one_sided": 0.0382,
+      "n_clusters": [
+        125,
+        74
+      ],
+      "n_items": [
+        404,
+        474
+      ],
+      "se_iid": 2.94,
+      "p_two_sided_iid": 0.039,
+      "se_inflation": 1.231
+    },
+    "mistral_large": {
+      "diff": 15.99,
+      "se_cluster": 3.86,
+      "ci95_cluster": [
+        8.25,
+        23.51
+      ],
+      "p_two_sided": 0.0,
+      "p_one_sided": 0.0,
+      "n_clusters": [
+        125,
+        74
+      ],
+      "n_items": [
+        404,
+        474
+      ],
+      "se_iid": 3.0,
+      "p_two_sided_iid": 0.0,
+      "se_inflation": 1.287
+    },
+    "haiku": {
+      "diff": 17.25,
+      "se_cluster": 4.3,
+      "ci95_cluster": [
+        8.6,
+        25.28
+      ],
+      "p_two_sided": 0.0,
+      "p_one_sided": 0.0,
+      "n_clusters": [
+        125,
+        74
+      ],
+      "n_items": [
+        404,
+        474
+      ],
+      "se_iid": 2.72,
+      "p_two_sided_iid": 0.0,
+      "se_inflation": 1.581
+    },
+    "sonnet": {
+      "diff": 26.22,
+      "se_cluster": 3.94,
+      "ci95_cluster": [
+        18.09,
+        33.73
+      ],
+      "p_two_sided": 0.0,
+      "p_one_sided": 0.0,
+      "n_clusters": [
+        125,
+        74
+      ],
+      "n_items": [
+        404,
+        474
+      ],
+      "se_iid": 2.72,
+      "p_two_sided_iid": 0.0,
+      "se_inflation": 1.449
+    }
+  },
+  "clean_contrast": {
+    "qwen": {
+      "diff": -4.29,
+      "se_cluster": 2.75,
+      "ci95_cluster": [
+        -9.68,
+        1.05
+      ],
+      "p_two_sided": 0.1315,
+      "p_one_sided": 0.9343,
+      "n_clusters": [
+        49,
+        26
+      ],
+      "n_items": [
+        131,
+        346
+      ],
+      "se_iid": 2.17,
+      "p_two_sided_iid": 0.0495,
+      "se_inflation": 1.267
+    },
+    "qwen1_5b": {
+      "diff": -2.08,
+      "se_cluster": 4.0,
+      "ci95_cluster": [
+        -9.94,
+        5.82
+      ],
+      "p_two_sided": 0.639,
+      "p_one_sided": 0.6805,
+      "n_clusters": [
+        49,
+        26
+      ],
+      "n_items": [
+        131,
+        346
+      ],
+      "se_iid": 3.48,
+      "p_two_sided_iid": 0.541,
+      "se_inflation": 1.149
+    },
+    "qwen3b": {
+      "diff": -1.56,
+      "se_cluster": 4.36,
+      "ci95_cluster": [
+        -10.07,
+        6.88
+      ],
+      "p_two_sided": 0.7045,
+      "p_one_sided": 0.6478,
+      "n_clusters": [
+        49,
+        26
+      ],
+      "n_items": [
+        131,
+        346
+      ],
+      "se_iid": 3.36,
+      "p_two_sided_iid": 0.6355,
+      "se_inflation": 1.298
+    },
+    "qwen7b": {
+      "diff": -1.9,
+      "se_cluster": 5.25,
+      "ci95_cluster": [
+        -12.62,
+        8.41
+      ],
+      "p_two_sided": 0.7655,
+      "p_one_sided": 0.6172,
+      "n_clusters": [
+        49,
+        26
+      ],
+      "n_items": [
+        131,
+        346
+      ],
+      "se_iid": 3.82,
+      "p_two_sided_iid": 0.6135,
+      "se_inflation": 1.374
+    },
+    "qwen32b": {
+      "diff": 0.18,
+      "se_cluster": 5.68,
+      "ci95_cluster": [
+        -11.05,
+        11.26
+      ],
+      "p_two_sided": 0.998,
+      "p_one_sided": 0.501,
+      "n_clusters": [
+        49,
+        26
+      ],
+      "n_items": [
+        131,
+        346
+      ],
+      "se_iid": 4.18,
+      "p_two_sided_iid": 0.989,
+      "se_inflation": 1.359
+    },
+    "qwen72b": {
+      "diff": 2.86,
+      "se_cluster": 4.99,
+      "ci95_cluster": [
+        -6.86,
+        12.47
+      ],
+      "p_two_sided": 0.5605,
+      "p_one_sided": 0.2802,
+      "n_clusters": [
+        49,
+        26
+      ],
+      "n_items": [
+        131,
+        346
+      ],
+      "se_iid": 4.61,
+      "p_two_sided_iid": 0.5585,
+      "se_inflation": 1.082
+    },
+    "mistral_large": {
+      "diff": 11.95,
+      "se_cluster": 5.59,
+      "ci95_cluster": [
+        0.71,
+        22.56
+      ],
+      "p_two_sided": 0.0355,
+      "p_one_sided": 0.0177,
+      "n_clusters": [
+        49,
+        26
+      ],
+      "n_items": [
+        131,
+        346
+      ],
+      "se_iid": 4.54,
+      "p_two_sided_iid": 0.0065,
+      "se_inflation": 1.231
+    },
+    "haiku": {
+      "diff": 13.83,
+      "se_cluster": 6.11,
+      "ci95_cluster": [
+        1.39,
+        25.12
+      ],
+      "p_two_sided": 0.028,
+      "p_one_sided": 0.014,
+      "n_clusters": [
+        49,
+        26
+      ],
+      "n_items": [
+        131,
+        346
+      ],
+      "se_iid": 4.32,
+      "p_two_sided_iid": 0.0015,
+      "se_inflation": 1.414
+    },
+    "sonnet": {
+      "diff": 19.86,
+      "se_cluster": 5.85,
+      "ci95_cluster": [
+        8.13,
+        31.18
+      ],
+      "p_two_sided": 0.0005,
+      "p_one_sided": 0.0003,
+      "n_clusters": [
+        49,
+        26
+      ],
+      "n_items": [
+        131,
+        346
+      ],
+      "se_iid": 4.19,
+      "p_two_sided_iid": 0.0,
+      "se_inflation": 1.396
+    }
+  },
+  "did": {
+    "qwen32b": {
+      "diff": 5.2,
+      "se_cluster": 4.04,
+      "ci95_cluster": [
+        -2.56,
+        13.07
+      ],
+      "p_two_sided": 0.1915,
+      "p_one_sided": 0.0958,
+      "n_clusters": [
+        74,
+        125
+      ],
+      "n_items": [
+        474,
+        404
+      ],
+      "se_iid": 3.54,
+      "p_two_sided_iid": 0.139,
+      "se_inflation": 1.141
+    },
+    "qwen72b": {
+      "diff": 5.03,
+      "se_cluster": 3.87,
+      "ci95_cluster": [
+        -2.82,
+        12.49
+      ],
+      "p_two_sided": 0.1955,
+      "p_one_sided": 0.0978,
+      "n_clusters": [
+        74,
+        125
+      ],
+      "n_items": [
+        474,
+        404
+      ],
+      "se_iid": 3.52,
+      "p_two_sided_iid": 0.1515,
+      "se_inflation": 1.099
+    },
+    "mistral_large": {
+      "diff": 13.78,
+      "se_cluster": 3.58,
+      "ci95_cluster": [
+        6.78,
+        20.54
+      ],
+      "p_two_sided": 0.0,
+      "p_one_sided": 0.0,
+      "n_clusters": [
+        74,
+        125
+      ],
+      "n_items": [
+        474,
+        404
+      ],
+      "se_iid": 3.39,
+      "p_two_sided_iid": 0.0,
+      "se_inflation": 1.056
+    },
+    "haiku": {
+      "diff": 14.44,
+      "se_cluster": 5.0,
+      "ci95_cluster": [
+        4.37,
+        23.8
+      ],
+      "p_two_sided": 0.006,
+      "p_one_sided": 0.003,
+      "n_clusters": [
+        74,
+        125
+      ],
+      "n_items": [
+        474,
+        404
+      ],
+      "se_iid": 3.5,
+      "p_two_sided_iid": 0.0,
+      "se_inflation": 1.429
+    },
+    "sonnet": {
+      "diff": 22.4,
+      "se_cluster": 4.4,
+      "ci95_cluster": [
+        13.4,
+        30.59
+      ],
+      "p_two_sided": 0.0,
+      "p_one_sided": 0.0,
+      "n_clusters": [
+        74,
+        125
+      ],
+      "n_items": [
+        474,
+        404
+      ],
+      "se_iid": 3.35,
+      "p_two_sided_iid": 0.0,
+      "se_inflation": 1.313
+    }
+  }
+}

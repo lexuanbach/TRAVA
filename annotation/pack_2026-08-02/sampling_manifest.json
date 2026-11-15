@@ -1,0 +1,83 @@
+{
+  "built": "2026-08-02",
+  "seed": 20260802,
+  "blinding": "annotators receive item_id, question, date, reference answer and system answer only; model, condition and every automatic score live in item_metadata.jsonl",
+  "task_a": {
+    "n_items": 395,
+    "strata": {
+      "metric_disagreement": {
+        "population": 761,
+        "sampled": 128,
+        "weight_to_population": 5.945
+      },
+      "alias_or_partial": {
+        "population": 1432,
+        "sampled": 112,
+        "weight_to_population": 12.786
+      },
+      "abstention": {
+        "population": 35,
+        "sampled": 35,
+        "weight_to_population": 1.0
+      },
+      "other": {
+        "population": 444,
+        "sampled": 80,
+        "weight_to_population": 5.55
+      },
+      "calibration_clear_correct": {
+        "population": 3925,
+        "sampled": 20,
+        "weight_to_population": 196.25
+      },
+      "calibration_clear_wrong": {
+        "population": 10085,
+        "sampled": 20,
+        "weight_to_population": 504.25
+      }
+    },
+    "reweighting": "each stratum carries weight_to_population; population estimates must reweight, since the sample deliberately over-represents disagreement cases"
+  },
+  "task_b": {
+    "n_items": 300,
+    "cells": {
+      "fresh|supported=False": {
+        "population": 1890,
+        "sampled": 75,
+        "weight_to_population": 25.2
+      },
+      "fresh|supported=True": {
+        "population": 2376,
+        "sampled": 75,
+        "weight_to_population": 31.68
+      },
+      "static|supported=False": {
+        "population": 1710,
+        "sampled": 75,
+        "weight_to_population": 22.8
+      },
+      "static|supported=True": {
+        "population": 1926,
+        "sampled": 75,
+        "weight_to_population": 25.68
+      }
+    },
+    "max_evidence_docs_shown": 3
+  },
+  "calibration_items": {
+    "task_a": 40,
+    "purpose": "attention check only; excluded from every reported estimate and identified only in the key file"
+  },
+  "models_in_pool": [
+    "gpt4omini",
+    "llama3_8b",
+    "mistral_large",
+    "qwen",
+    "qwen1_5b",
+    "qwen32b",
+    "qwen3b",
+    "qwen72b",
+    "qwen7b",
+    "sonnet"
+  ]
+}

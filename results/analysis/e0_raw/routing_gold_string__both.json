@@ -1,0 +1,474 @@
+{
+  "fulltext": {
+    "gpt4omini": {
+      "reference": "never",
+      "reference_mean": 36.244,
+      "perq_best_mean": 50.45,
+      "gold_string_policy": {
+        "mean": 42.031,
+        "ci95": [
+          37.916,
+          46.307
+        ],
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_vs_reference": {
+        "delta": 5.787,
+        "ci95": [
+          2.296,
+          9.39
+        ],
+        "p_plus_one": 0.0028,
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_retrieve_rate": 0.5444,
+      "gold_string_share_of_ceiling_headroom": 0.407
+    },
+    "llama3_8b": {
+      "reference": "always",
+      "reference_mean": 31.495,
+      "perq_best_mean": 42.333,
+      "gold_string_policy": {
+        "mean": 34.415,
+        "ci95": [
+          30.436,
+          38.377
+        ],
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_vs_reference": {
+        "delta": 2.919,
+        "ci95": [
+          0.745,
+          5.211
+        ],
+        "p_plus_one": 0.0068,
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_retrieve_rate": 0.5444,
+      "gold_string_share_of_ceiling_headroom": 0.269
+    },
+    "mistral_large": {
+      "reference": "always",
+      "reference_mean": 36.513,
+      "perq_best_mean": 51.061,
+      "gold_string_policy": {
+        "mean": 42.978,
+        "ci95": [
+          38.988,
+          46.979
+        ],
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_vs_reference": {
+        "delta": 6.466,
+        "ci95": [
+          4.085,
+          8.995
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_retrieve_rate": 0.5444,
+      "gold_string_share_of_ceiling_headroom": 0.444
+    },
+    "qwen1_5b": {
+      "reference": "always",
+      "reference_mean": 31.034,
+      "perq_best_mean": 37.848,
+      "gold_string_policy": {
+        "mean": 31.839,
+        "ci95": [
+          28.053,
+          35.621
+        ],
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_vs_reference": {
+        "delta": 0.806,
+        "ci95": [
+          -1.238,
+          2.964
+        ],
+        "p_plus_one": 0.46911,
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_retrieve_rate": 0.5444,
+      "gold_string_share_of_ceiling_headroom": 0.118
+    },
+    "qwen32b": {
+      "reference": "always",
+      "reference_mean": 34.757,
+      "perq_best_mean": 45.888,
+      "gold_string_policy": {
+        "mean": 38.69,
+        "ci95": [
+          34.665,
+          42.661
+        ],
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_vs_reference": {
+        "delta": 3.933,
+        "ci95": [
+          1.426,
+          6.643
+        ],
+        "p_plus_one": 0.0028,
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_retrieve_rate": 0.5444,
+      "gold_string_share_of_ceiling_headroom": 0.353
+    },
+    "qwen3b": {
+      "reference": "always",
+      "reference_mean": 32.206,
+      "perq_best_mean": 37.311,
+      "gold_string_policy": {
+        "mean": 31.236,
+        "ci95": [
+          27.143,
+          35.36
+        ],
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_vs_reference": {
+        "delta": -0.97,
+        "ci95": [
+          -2.655,
+          0.796
+        ],
+        "p_plus_one": 0.28874,
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_retrieve_rate": 0.5444,
+      "gold_string_share_of_ceiling_headroom": -0.19
+    },
+    "qwen72b": {
+      "reference": "always",
+      "reference_mean": 35.682,
+      "perq_best_mean": 46.736,
+      "gold_string_policy": {
+        "mean": 39.86,
+        "ci95": [
+          35.629,
+          44.07
+        ],
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_vs_reference": {
+        "delta": 4.178,
+        "ci95": [
+          2.101,
+          6.412
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_retrieve_rate": 0.5444,
+      "gold_string_share_of_ceiling_headroom": 0.378
+    },
+    "qwen7b": {
+      "reference": "always",
+      "reference_mean": 31.991,
+      "perq_best_mean": 40.156,
+      "gold_string_policy": {
+        "mean": 34.125,
+        "ci95": [
+          30.073,
+          38.306
+        ],
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_vs_reference": {
+        "delta": 2.134,
+        "ci95": [
+          0.144,
+          4.301
+        ],
+        "p_plus_one": 0.03199,
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_retrieve_rate": 0.5444,
+      "gold_string_share_of_ceiling_headroom": 0.261
+    },
+    "sonnet": {
+      "reference": "always",
+      "reference_mean": 28.169,
+      "perq_best_mean": 40.769,
+      "gold_string_policy": {
+        "mean": 32.137,
+        "ci95": [
+          28.241,
+          36.136
+        ],
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_vs_reference": {
+        "delta": 3.968,
+        "ci95": [
+          1.442,
+          6.824
+        ],
+        "p_plus_one": 0.0012,
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_retrieve_rate": 0.5444,
+      "gold_string_share_of_ceiling_headroom": 0.315
+    }
+  },
+  "vis600": {
+    "gpt4omini": {
+      "reference": "never",
+      "reference_mean": 36.244,
+      "perq_best_mean": 50.45,
+      "gold_string_policy": {
+        "mean": 44.766,
+        "ci95": [
+          40.631,
+          49.116
+        ],
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_vs_reference": {
+        "delta": 8.522,
+        "ci95": [
+          5.346,
+          11.804
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_retrieve_rate": 0.4271,
+      "gold_string_share_of_ceiling_headroom": 0.6
+    },
+    "llama3_8b": {
+      "reference": "always",
+      "reference_mean": 31.495,
+      "perq_best_mean": 42.333,
+      "gold_string_policy": {
+        "mean": 36.638,
+        "ci95": [
+          32.623,
+          40.749
+        ],
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_vs_reference": {
+        "delta": 5.143,
+        "ci95": [
+          2.472,
+          7.917
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_retrieve_rate": 0.4271,
+      "gold_string_share_of_ceiling_headroom": 0.475
+    },
+    "mistral_large": {
+      "reference": "always",
+      "reference_mean": 36.513,
+      "perq_best_mean": 51.061,
+      "gold_string_policy": {
+        "mean": 46.266,
+        "ci95": [
+          42.236,
+          50.415
+        ],
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_vs_reference": {
+        "delta": 9.753,
+        "ci95": [
+          6.891,
+          12.853
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_retrieve_rate": 0.4271,
+      "gold_string_share_of_ceiling_headroom": 0.67
+    },
+    "qwen1_5b": {
+      "reference": "always",
+      "reference_mean": 31.034,
+      "perq_best_mean": 37.848,
+      "gold_string_policy": {
+        "mean": 32.699,
+        "ci95": [
+          28.959,
+          36.657
+        ],
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_vs_reference": {
+        "delta": 1.666,
+        "ci95": [
+          -0.578,
+          4.027
+        ],
+        "p_plus_one": 0.14757,
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_retrieve_rate": 0.4271,
+      "gold_string_share_of_ceiling_headroom": 0.244
+    },
+    "qwen32b": {
+      "reference": "always",
+      "reference_mean": 34.757,
+      "perq_best_mean": 45.888,
+      "gold_string_policy": {
+        "mean": 40.312,
+        "ci95": [
+          36.291,
+          44.356
+        ],
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_vs_reference": {
+        "delta": 5.555,
+        "ci95": [
+          2.907,
+          8.418
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_retrieve_rate": 0.4271,
+      "gold_string_share_of_ceiling_headroom": 0.499
+    },
+    "qwen3b": {
+      "reference": "always",
+      "reference_mean": 32.206,
+      "perq_best_mean": 37.311,
+      "gold_string_policy": {
+        "mean": 31.58,
+        "ci95": [
+          27.498,
+          35.738
+        ],
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_vs_reference": {
+        "delta": -0.626,
+        "ci95": [
+          -2.417,
+          1.281
+        ],
+        "p_plus_one": 0.5139,
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_retrieve_rate": 0.4271,
+      "gold_string_share_of_ceiling_headroom": -0.123
+    },
+    "qwen72b": {
+      "reference": "always",
+      "reference_mean": 35.682,
+      "perq_best_mean": 46.736,
+      "gold_string_policy": {
+        "mean": 42.245,
+        "ci95": [
+          38.064,
+          46.478
+        ],
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_vs_reference": {
+        "delta": 6.563,
+        "ci95": [
+          4.235,
+          9.115
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_retrieve_rate": 0.4271,
+      "gold_string_share_of_ceiling_headroom": 0.594
+    },
+    "qwen7b": {
+      "reference": "always",
+      "reference_mean": 31.991,
+      "perq_best_mean": 40.156,
+      "gold_string_policy": {
+        "mean": 35.683,
+        "ci95": [
+          31.439,
+          39.946
+        ],
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_vs_reference": {
+        "delta": 3.692,
+        "ci95": [
+          1.558,
+          6.0
+        ],
+        "p_plus_one": 0.0016,
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_retrieve_rate": 0.4271,
+      "gold_string_share_of_ceiling_headroom": 0.452
+    },
+    "sonnet": {
+      "reference": "always",
+      "reference_mean": 28.169,
+      "perq_best_mean": 40.769,
+      "gold_string_policy": {
+        "mean": 34.626,
+        "ci95": [
+          30.638,
+          38.754
+        ],
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_vs_reference": {
+        "delta": 6.457,
+        "ci95": [
+          3.579,
+          9.631
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 199,
+        "n_questions": 878
+      },
+      "gold_string_retrieve_rate": 0.4271,
+      "gold_string_share_of_ceiling_headroom": 0.512
+    }
+  }
+}

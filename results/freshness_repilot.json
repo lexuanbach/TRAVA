@@ -1,0 +1,64 @@
+{
+  "scope": "freshness re-pilot under the v2 operationalised rule",
+  "n_items": 150,
+  "raters": [
+    "A",
+    "B",
+    "C"
+  ],
+  "target_alpha": 0.6,
+  "freshness": {
+    "krippendorff_alpha": 0.6431,
+    "pairwise_kappa": {
+      "AB": 0.9099,
+      "AC": 0.5111,
+      "BC": 0.5202
+    },
+    "distribution": {
+      "NOT_APPLICABLE": 184,
+      "CURRENT": 91,
+      "SUPERSEDED": 81,
+      "NOT_ABOUT_THIS_QUESTION": 80,
+      "ANACHRONISTIC": 14
+    }
+  },
+  "claim_type": {
+    "krippendorff_alpha": 0.843,
+    "pairwise_kappa": {
+      "AB": 0.9071,
+      "AC": 0.5072,
+      "BC": 0.5188
+    },
+    "distribution": {
+      "STATE": 178,
+      "EVENT": 140,
+      "": 79,
+      "TIMELESS": 52,
+      "NOT_ABOUT_THIS_QUESTION": 1
+    }
+  },
+  "scope_disagreement": {
+    "off_topic_calls_per_rater": {
+      "A": 37,
+      "B": 42,
+      "C": 1
+    },
+    "n_rows_all_agree_on_topic": 108,
+    "alpha_excluding_any_off_topic_call": 0.8472,
+    "outlier_rater": "C",
+    "reading": "If alpha rises sharply once rows any rater called off-topic are excluded, the freshness rule itself is fine and the unresolved question is what counts as 'about this question'. Those are different defects with different fixes."
+  },
+  "verdict": {
+    "freshness_alpha": 0.6431,
+    "claim_type_alpha": 0.843,
+    "passes": true,
+    "unconditional_pass": false,
+    "conditional_pass": true,
+    "caution": "Alpha clears the threshold but rater C is an outlier (pairwise kappa 0.51 against 0.91 for the closest pair), and alpha rises to 0.847 once rows any rater called off-topic are dropped. The freshness rule is not what is failing; the off-topic boundary is. Fix that before scaling, or the full run inherits the same split.",
+    "diagnosis": "PASS: the rewritten rule clears the threshold; re-run freshness on the full on-topic set."
+  },
+  "mapping_leaks": {
+    "STATE -> CURRENT/SUPERSEDED": 2,
+    "EVENT -> ANACHRONISTIC/NOT_APPLICABLE": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_date": "2026-07-12",
+  "generators": {
+    "qwen": "Qwen2.5-0.5B",
+    "qwen1_5b": "Qwen2.5-1.5B",
+    "qwen3b": "Qwen2.5-3B",
+    "qwen7b": "Qwen2.5-7B",
+    "qwen32b": "Qwen2.5-32B",
+    "qwen72b": "Qwen2.5-72B",
+    "mistral_large": "Mistral-Large-2 (123B)",
+    "haiku": "Claude Haiku 4.5",
+    "sonnet": "Claude Sonnet 4.5"
+  },
+  "n_questions": 878,
+  "effective_cutoff_anchor": "2025-01-01",
+  "note": "Real run. Nine generators: Qwen2.5 {0.5B,1.5B,3B,7B,32B,72B} and Mistral-Large-2 (123B) run locally; Claude Haiku 4.5 / Sonnet 4.5 via the Anthropic API as a frontier reference. All headline numbers reproduce from the open-weight models with no API key.",
+  "boundary": "2025-01-01 (shared across all generators)",
+  "clean_contrast": "2023 vs 2026 (pre/post cutoff for every generator)",
+  "corpora": {
+    "main": 6692,
+    "full_with_distractors": 26611
+  }
+}

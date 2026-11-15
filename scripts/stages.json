@@ -1,0 +1,250 @@
+[
+  {
+    "id": "visible_support",
+    "title": "Visible-prefix string support",
+    "script": "pipeline/analysis/e0_visible_support.py",
+    "args": [],
+    "results": [
+      "results/analysis/e0_visible_support.json"
+    ],
+    "suites": [
+      "full"
+    ]
+  },
+  {
+    "id": "human_alignment",
+    "title": "Legacy human-window alignment",
+    "script": "pipeline/analysis/e0_human_alignment.py",
+    "args": [],
+    "results": [
+      "results/analysis/e0_human_alignment.json"
+    ],
+    "suites": [
+      "full"
+    ]
+  },
+  {
+    "id": "mention_seeds",
+    "title": "Mention versus support examples",
+    "script": "pipeline/analysis/e0_mention_not_support.py",
+    "args": [],
+    "results": [],
+    "suites": [
+      "full"
+    ]
+  },
+  {
+    "id": "masked_nli",
+    "title": "Masked-context NLI interaction",
+    "script": "pipeline/analysis/r1_masked_nli.py",
+    "args": [],
+    "results": [
+      "results/analysis/r1_masked_nli.json"
+    ],
+    "suites": [
+      "full"
+    ]
+  },
+  {
+    "id": "remaining_support",
+    "title": "Remaining visible-string analyses",
+    "script": "pipeline/analysis/r1_remaining_string_support.py",
+    "args": [],
+    "results": [
+      "results/analysis/r1_remaining_string_support.json"
+    ],
+    "suites": [
+      "full"
+    ]
+  },
+  {
+    "id": "dated_alignment",
+    "title": "Dated NLI and human alignment",
+    "script": "pipeline/analysis/r2_human_alignment.py",
+    "args": [],
+    "results": [
+      "results/analysis/r2_human_alignment.json"
+    ],
+    "suites": [
+      "full"
+    ]
+  },
+  {
+    "id": "stale_index",
+    "title": "Stale-index paired contrasts",
+    "script": "pipeline/analysis/stale_placebo.py",
+    "args": [],
+    "results": [
+      "results/analysis/stale_placebo.json"
+    ],
+    "suites": [
+      "full",
+      "core"
+    ]
+  },
+  {
+    "id": "hidden_answer",
+    "title": "Hidden versus visible answer contrasts",
+    "script": "pipeline/analysis/hidden_answer_contrast.py",
+    "args": [],
+    "results": [
+      "results/analysis/hidden_answer_contrast.json"
+    ],
+    "suites": [
+      "full",
+      "core"
+    ]
+  },
+  {
+    "id": "boundary",
+    "title": "Closed-book boundary contrasts",
+    "script": "pipeline/analysis/l1_gap_differences.py",
+    "args": [],
+    "results": [
+      "results/analysis/l1_gap_differences.json"
+    ],
+    "suites": [
+      "full",
+      "core"
+    ]
+  },
+  {
+    "id": "boundary_checks",
+    "title": "Boundary and resolution checks",
+    "script": "pipeline/analysis/r3_r5_checks.py",
+    "args": [],
+    "results": [
+      "results/analysis/r3_r5_checks.json"
+    ],
+    "suites": [
+      "full"
+    ]
+  },
+  {
+    "id": "context_budget",
+    "title": "Untruncated context-budget analysis",
+    "script": "pipeline/analysis/e6_kablation_analysis.py",
+    "args": [],
+    "results": [
+      "results/analysis/e6_kablation.json"
+    ],
+    "suites": [
+      "full",
+      "core"
+    ]
+  },
+  {
+    "id": "window",
+    "title": "Publication-window sensitivity",
+    "script": "pipeline/analysis/e3_window_analysis.py",
+    "args": [],
+    "results": [
+      "results/analysis/e3_window.json"
+    ],
+    "suites": [
+      "full",
+      "core"
+    ]
+  },
+  {
+    "id": "replication",
+    "title": "Within-source replication",
+    "script": "pipeline/analysis/e2_replication_analysis.py",
+    "args": [],
+    "results": [
+      "results/analysis/e2_replication.json"
+    ],
+    "suites": [
+      "full"
+    ]
+  },
+  {
+    "id": "policy",
+    "title": "Cross-fitted retrieval policy",
+    "script": "pipeline/analysis/e5_decision.py",
+    "args": [],
+    "results": [
+      "results/analysis/e5_decision.json"
+    ],
+    "suites": [
+      "full"
+    ]
+  },
+  {
+    "id": "selection_refit",
+    "title": "Selection-refit policy inference",
+    "script": "pipeline/analysis/r4_e5_outer.py",
+    "args": [],
+    "results": [
+      "results/analysis/r4_e5_outer.json"
+    ],
+    "suites": [
+      "full"
+    ]
+  },
+  {
+    "id": "native_template",
+    "title": "Mistral native-template sensitivity",
+    "script": "pipeline/analysis/r6_mistral_native_analysis.py",
+    "args": [],
+    "results": [
+      "results/analysis/r6_mistral_native.json"
+    ],
+    "suites": [
+      "full"
+    ]
+  },
+  {
+    "id": "judge_validation",
+    "title": "Cached judge versus human validation",
+    "script": "pipeline/analysis/r8_judge_validation.py",
+    "args": [],
+    "results": [
+      "results/analysis/r8_judge_validation.json"
+    ],
+    "suites": [
+      "full"
+    ]
+  },
+  {
+    "id": "judge_interaction",
+    "title": "Cached judge-conditioned interactions",
+    "script": "pipeline/analysis/r8_judge_interaction.py",
+    "args": [],
+    "results": [
+      "results/analysis/r8_judge_interaction.json"
+    ],
+    "suites": [
+      "full"
+    ]
+  },
+  {
+    "id": "metric_errors",
+    "title": "Common-basis adjudicated metric errors",
+    "script": "pipeline/human_metric_audit.py",
+    "args": [],
+    "results": [
+      "results/human_metric_audit.json"
+    ],
+    "suites": [
+      "full",
+      "core"
+    ]
+  },
+  {
+    "id": "masked_human",
+    "title": "Weighted masked human-support estimates",
+    "script": "annotation/masked_support_2026-08-04/score_masked_support.py",
+    "args": [
+      "--stage",
+      "final"
+    ],
+    "results": [
+      "results/masked_human_support.json"
+    ],
+    "suites": [
+      "full",
+      "core"
+    ]
+  }
+]

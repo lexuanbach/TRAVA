@@ -1,0 +1,18 @@
+# FreshBench-RAG — evaluation configuration (REAL run)
+metrics:
+  - exact_match          # normalized EM vs gold answer string
+  - token_f1             # SQuAD-style token F1
+  - retrieval_recall_at_k
+  - answer_coverage      # fraction of in-context docs containing the gold span
+                         # (a retrieval statistic, NOT citation faithfulness)
+temporal_decay:
+  # binned means by question year; the signal is a step, not a slope (R^2 <= 0.01)
+  fit: ols               # reported for completeness only
+bootstrap:
+  n_resamples: 1000
+  ci: 0.95
+  seed: 0
+significance:
+  paired_bootstrap_n: 1000
+  # Static/Fresh are disjoint -> unpaired two-sample bootstrap for cutoff gaps.
+  # Multiplicity: Benjamini-Hochberg within each test family (see honest_stats.py).

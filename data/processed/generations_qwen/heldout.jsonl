@@ -1,0 +1,40 @@
+{"qid": "20260710_0", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Europe", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_1", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Apple", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_2", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Uruguay", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_3", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "New York City", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_4", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Baby Girl", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_5", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Tuna", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_6", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "South Korea", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_7", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Cristiano Ronaldo", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_8", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "New York City", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_9", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Wenchang", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_10", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The White House", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_11", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Jetstream Jetstream", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_12", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Germany", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_13", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "New York", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_14", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "New York City's World Trade Center Building", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_15", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "NATO", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_16", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The New York Times' \"New York\" edition", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_17", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "$1,000", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_18", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Fortnite", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_19", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Isle of Wight", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_0", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Switzerland", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_1", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Twilight Saga", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_2", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The 154th Open Championship is being played at The Players' Club in London.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_3", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Hubble Space Telescope discovered galaxies far away from Earth.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_4", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Mongolia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_5", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Argentina", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_6", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Toxoplasma gondii", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_7", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Elton John", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_8", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Andy Burnham identified 35% of British voters.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_9", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Great Wall of China", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_10", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "House passed permanent ban on plastic bags.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_11", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Lentil pasta", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_12", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2034", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_13", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Apollo 15", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_14", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Trump's impeachment", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_15", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Graham's brother", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_16", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Louisiana", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_17", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Cyanide", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_18", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "disguised as fish", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_19", "condition": "heldout", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The movie is \"Doctor Who\".", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}

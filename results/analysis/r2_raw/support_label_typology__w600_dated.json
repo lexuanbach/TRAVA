@@ -1,0 +1,276 @@
+{
+  "scope": "Typology of disagreements between the automatic support labels and human passage labels, broken down by slice and by the generator whose retrieved context the passage came from.",
+  "human_partial_counts_as": "supported",
+  "n_labelled_passages": 900,
+  "why": "L3 is stratified by these labels, so a failure rate that differed by slice would confound the interaction with the boundary. These breakdowns test that directly.",
+  "labels": {
+    "string": {
+      "n_passages": 900,
+      "cells": {
+        "agree_support": 149,
+        "agree_no": 560,
+        "human_only": 174,
+        "auto_only": 17
+      },
+      "disagreement_rate": 0.2122,
+      "disagreement_ci95": [
+        0.1867,
+        0.2389
+      ],
+      "by_slice": {
+        "static": {
+          "n": 450,
+          "disagreement_rate": 0.18,
+          "ci95": [
+            0.1467,
+            0.2156
+          ],
+          "cells": {
+            "agree_support": 85,
+            "agree_no": 284,
+            "human_only": 74,
+            "auto_only": 7
+          }
+        },
+        "fresh": {
+          "n": 450,
+          "disagreement_rate": 0.2444,
+          "ci95": [
+            0.2067,
+            0.2822
+          ],
+          "cells": {
+            "agree_support": 64,
+            "agree_no": 276,
+            "human_only": 100,
+            "auto_only": 10
+          }
+        }
+      },
+      "by_model": {
+        "gpt4omini": {
+          "n": 96,
+          "params_B": null,
+          "disagreement_rate": 0.1667
+        },
+        "llama3_8b": {
+          "n": 111,
+          "params_B": null,
+          "disagreement_rate": 0.2432
+        },
+        "mistral_large": {
+          "n": 75,
+          "params_B": 123.0,
+          "disagreement_rate": 0.2533
+        },
+        "qwen1_5b": {
+          "n": 108,
+          "params_B": 1.5,
+          "disagreement_rate": 0.2778
+        },
+        "qwen32b": {
+          "n": 96,
+          "params_B": 32.0,
+          "disagreement_rate": 0.2188
+        },
+        "qwen3b": {
+          "n": 120,
+          "params_B": 3.0,
+          "disagreement_rate": 0.2083
+        },
+        "qwen72b": {
+          "n": 102,
+          "params_B": 72.0,
+          "disagreement_rate": 0.1765
+        },
+        "qwen7b": {
+          "n": 108,
+          "params_B": 7.0,
+          "disagreement_rate": 0.1574
+        },
+        "sonnet": {
+          "n": 84,
+          "params_B": null,
+          "disagreement_rate": 0.2143
+        }
+      },
+      "slice_difference_pts": -6.44,
+      "examples": {
+        "auto_only": [
+          {
+            "qid": "20251212_7",
+            "gold": "An interest rate cut",
+            "human": "NO",
+            "excerpt": "Updated July 30, 2025, 6:02 p.m. ET\n\nThe Federal Reserve held interest rates steady Wednesday between 4.25% and 4.5% \u2013 exactly as interest-rate traders' bets had predicted after the policy-making body's meeting in June.\n"
+          },
+          {
+            "qid": "20260227_9",
+            "gold": "Australia",
+            "human": "NO",
+            "excerpt": "Brisbane, Australia CNN \u2014\n\nAustralia\u2019s Great Barrier Reef is suffering its sixth mass bleaching due to heat stress caused by climate change, the reef\u2019s managers confirmed Friday.\n\nThe update comes mid-way through a 10-da"
+          },
+          {
+            "qid": "20221223_9",
+            "gold": "The Bahamas",
+            "human": "NO",
+            "excerpt": "May 26, 2026, 8:38 a.m. ET\n\nDonald Trump Jr. and Bettina Anderson's destination wedding ceremony went off without a hitch over Memorial Day weekend, if Instagram is any indication.\n\nThe couple legally married in Florida "
+          }
+        ],
+        "human_only": [
+          {
+            "qid": "20240906_27",
+            "gold": "Oct. 13, 2024",
+            "human": "PARTIAL",
+            "excerpt": "If all goes according to plan, Target will open a new store in Middletown in the coming years, Middletown Mayor Kenneth Branner Jr. told Delaware Online/The News Journal.\n\n\"It's a done deal from what I understand,\" the 3"
+          },
+          {
+            "qid": "20260130_1",
+            "gold": "Minneapolis",
+            "human": "PARTIAL",
+            "excerpt": "Jan. 12, 2026 Updated Jan. 13, 2026, 10:40 a.m. ET\n\nMinnesota and Illinois, two states targeted by the Trump administration for immigration enforcement, sued Homeland Secretary Kristi Noem on Monday, aiming to curb the a"
+          },
+          {
+            "qid": "20250411_0",
+            "gold": "Wolf",
+            "human": "YES",
+            "excerpt": "Colossal Biosciences caught our imagination \u2013 and elicited memories of \"Jurassic Park\" \u2013 when the Dallas-based biotech company announced back in 2021 it would use cutting-edge genetics editing technology to bring back th"
+          }
+        ]
+      }
+    },
+    "nli": {
+      "n_passages": 900,
+      "cells": {
+        "agree_support": 110,
+        "agree_no": 558,
+        "human_only": 213,
+        "auto_only": 19
+      },
+      "disagreement_rate": 0.2578,
+      "disagreement_ci95": [
+        0.23,
+        0.2867
+      ],
+      "by_slice": {
+        "static": {
+          "n": 450,
+          "disagreement_rate": 0.28,
+          "ci95": [
+            0.24,
+            0.32
+          ],
+          "cells": {
+            "agree_support": 47,
+            "human_only": 112,
+            "agree_no": 277,
+            "auto_only": 14
+          }
+        },
+        "fresh": {
+          "n": 450,
+          "disagreement_rate": 0.2356,
+          "ci95": [
+            0.1978,
+            0.2733
+          ],
+          "cells": {
+            "agree_support": 63,
+            "agree_no": 281,
+            "human_only": 101,
+            "auto_only": 5
+          }
+        }
+      },
+      "by_model": {
+        "gpt4omini": {
+          "n": 96,
+          "params_B": null,
+          "disagreement_rate": 0.2604
+        },
+        "llama3_8b": {
+          "n": 111,
+          "params_B": null,
+          "disagreement_rate": 0.2252
+        },
+        "mistral_large": {
+          "n": 75,
+          "params_B": 123.0,
+          "disagreement_rate": 0.3333
+        },
+        "qwen1_5b": {
+          "n": 108,
+          "params_B": 1.5,
+          "disagreement_rate": 0.2685
+        },
+        "qwen32b": {
+          "n": 96,
+          "params_B": 32.0,
+          "disagreement_rate": 0.2812
+        },
+        "qwen3b": {
+          "n": 120,
+          "params_B": 3.0,
+          "disagreement_rate": 0.2417
+        },
+        "qwen72b": {
+          "n": 102,
+          "params_B": 72.0,
+          "disagreement_rate": 0.2745
+        },
+        "qwen7b": {
+          "n": 108,
+          "params_B": 7.0,
+          "disagreement_rate": 0.2037
+        },
+        "sonnet": {
+          "n": 84,
+          "params_B": null,
+          "disagreement_rate": 0.2619
+        }
+      },
+      "slice_difference_pts": 4.44,
+      "examples": {
+        "auto_only": [
+          {
+            "qid": "20260522_18",
+            "gold": "White",
+            "human": "NO",
+            "excerpt": "Portsmouth Herald\n\nJune 5, 2026, 5:05 a.m. ET\n\nWhen a T-shirt became controversial \u2014 and why that matters\n\nMay 28 \u2212 To the Editor:\n\nA locally owned gym, with no attire policy, began censoring messages on clothing\u2014particu"
+          },
+          {
+            "qid": "20231013_9",
+            "gold": "\"The Reckoning\"",
+            "human": "NO",
+            "excerpt": "Feb. 22, 2026 Updated Feb. 23, 2026, 5:10 p.m. ET\n\nAlan Cumming briefly paused Sunday's BAFTA Film Awards on two separate occasions to address the expletives and racial slur that Tourette's syndrome advocate John Davidso"
+          },
+          {
+            "qid": "20220708_5",
+            "gold": "Sri Lanka",
+            "human": "NO",
+            "excerpt": "Feb. 6, 2025, 5:13 a.m. ET\n\nInclusive Development Partners, a company that supports students with disabilities internationally, faces bankruptcy after losing funding from closure of USAID.\n\nThe company's 14 U.S. employee"
+          }
+        ],
+        "human_only": [
+          {
+            "qid": "20260403_1",
+            "gold": "$4",
+            "human": "YES",
+            "excerpt": "The average price of gas in the U.S. is $4.52 as the all-time record continues to be broken.\n\nThe average price of gas is at least $4 in every state, with Kansas having the cheapest gas.\n\nExperts predict gas prices will "
+          },
+          {
+            "qid": "20260403_1",
+            "gold": "$4",
+            "human": "YES",
+            "excerpt": "May 17, 2022 Updated May 19, 2022, 1:55 p.m. ET\n\nThe average price of gas in the U.S. is $4.52 as the all-time record continues to be broken.\n\nThe average price of gas is at least $4 in every state, with Kansas having th"
+          },
+          {
+            "qid": "20220819_23",
+            "gold": "Harriet Hageman",
+            "human": "YES",
+            "excerpt": "Jackson, Wyoming (CNN) Rep. Liz Cheney's supporters say her reelection hopes were doomed on January 13, 2021, when a week after the insurrection at the Capitol, she and nine other House Republicans voted to impeach forme"
+          }
+        ]
+      }
+    }
+  }
+}

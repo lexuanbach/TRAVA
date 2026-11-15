@@ -1,0 +1,346 @@
+{
+  "scope": "An objective, alias-robust correctness referee built from RealTimeQA's own multiple-choice gold, used to audit the token-F1 metric the paper scores with.",
+  "referee": "a prediction is CORRECT iff the choice it is closest to is the gold choice. A prediction matching NO choice scores 0 rather than being dropped -- on a 4-way item an answer that resembles none of the options is not the gold one, and excluding those would selectively inflate weak models, which produce most of them. Abstentions likewise score 0 (as they do under F1) and are reported separately.",
+  "not_a_human_audit": "This substitutes for the blinded annotator study the review asked for on the CORRECTNESS-METRIC question only. It cannot judge whether a gold answer is itself right, whether a question is ambiguous, or anything about the stale-evidence labels.",
+  "n_questions": 4176,
+  "metric_disagreement": {
+    "n_scored": 7902,
+    "f1_credits_a_wrong_choice": 70,
+    "f1_credits_a_wrong_choice_rate": 0.0089,
+    "correct_but_exact_match_zero": 722,
+    "correct_but_exact_match_zero_rate": 0.0914,
+    "abstentions": 38,
+    "no_match": 4483,
+    "reading": "The first rate is F1's false-credit rate: answers scoring at least 0.5 token-F1 that in fact name a distractor. The second is the alias rate that exact match alone would discard. Both bound how much the headline numbers depend on the scoring function.",
+    "examples": {
+      "f1_credits_wrong_choice": [
+        {
+          "model": "gpt4omini",
+          "qid": "20220819_14",
+          "pred": "Yosemite National Park",
+          "gold": "Great Smoky Mountains National Park",
+          "chose": "Yosemite National Park",
+          "f1": 0.5
+        },
+        {
+          "model": "gpt4omini",
+          "qid": "20241227_4",
+          "pred": "$1.5 million",
+          "gold": "$2.35 million",
+          "chose": "$1.5 million",
+          "f1": 0.5
+        },
+        {
+          "model": "gpt4omini",
+          "qid": "20260109_4",
+          "pred": "3 years",
+          "gold": "5 years",
+          "chose": "3 years",
+          "f1": 0.5
+        },
+        {
+          "model": "gpt4omini",
+          "qid": "20260501_19",
+          "pred": "United Airlines",
+          "gold": "Southwest Airlines",
+          "chose": "United Airlines",
+          "f1": 0.5
+        },
+        {
+          "model": "gpt4omini",
+          "qid": "20260529_5",
+          "pred": "Eid al-Fitr",
+          "gold": "Eid al-Adha",
+          "chose": "Eid al-Fitr",
+          "f1": 0.5
+        },
+        {
+          "model": "mistral_large",
+          "qid": "20230616_4",
+          "pred": "4 million",
+          "gold": "3.9 million",
+          "chose": "2.4 million",
+          "f1": 0.5
+        },
+        {
+          "model": "mistral_large",
+          "qid": "20251212_7",
+          "pred": "Interest rate hike",
+          "gold": "An interest rate cut",
+          "chose": "An interest rate hike",
+          "f1": 0.667
+        },
+        {
+          "model": "mistral_large",
+          "qid": "20220819_14",
+          "pred": "Yosemite National Park",
+          "gold": "Great Smoky Mountains National Park",
+          "chose": "Yosemite National Park",
+          "f1": 0.5
+        }
+      ],
+      "f1_penalises_correct_alias": [
+        {
+          "model": "gpt4omini",
+          "qid": "20240712_19",
+          "pred": "Tijuana, Mexico",
+          "gold": "Mexico",
+          "f1": 0.667
+        },
+        {
+          "model": "gpt4omini",
+          "qid": "20240202_16",
+          "pred": "Alejandro Mayorkas",
+          "gold": "Homeland Security Secretary Alejandro Mayorkas",
+          "f1": 0.571
+        },
+        {
+          "model": "gpt4omini",
+          "qid": "20230623_0",
+          "pred": "Prime Minister Narendra Modi",
+          "gold": "Indian Prime Minister Narendra Modi",
+          "f1": 0.889
+        },
+        {
+          "model": "gpt4omini",
+          "qid": "20260116_9",
+          "pred": "Milan-Cortina, Italy",
+          "gold": "Italy",
+          "f1": 0.667
+        },
+        {
+          "model": "gpt4omini",
+          "qid": "20260417_7",
+          "pred": "$10",
+          "gold": "$100",
+          "f1": 0.0
+        },
+        {
+          "model": "gpt4omini",
+          "qid": "20250613_18",
+          "pred": "Diana, Princess of Wales",
+          "gold": "Princess Diana",
+          "f1": 0.667
+        },
+        {
+          "model": "gpt4omini",
+          "qid": "20250307_1",
+          "pred": "Smack",
+          "gold": "Smack them",
+          "f1": 0.667
+        },
+        {
+          "model": "gpt4omini",
+          "qid": "20260515_15",
+          "pred": "Polycystic ovary syndrome (PCOS)",
+          "gold": "PCOS",
+          "f1": 0.4
+        }
+      ]
+    }
+  },
+  "per_model": {
+    "gpt4omini": {
+      "n_predictions": 878,
+      "abstain_rate": 0.008,
+      "no_match_rate": 0.4453,
+      "choice_accuracy": 39.75,
+      "exact_match": 27.9,
+      "token_f1": 35.97
+    },
+    "mistral_large": {
+      "n_predictions": 878,
+      "abstain_rate": 0.0011,
+      "no_match_rate": 0.4203,
+      "choice_accuracy": 41.57,
+      "exact_match": 28.13,
+      "token_f1": 37.24
+    },
+    "qwen": {
+      "n_predictions": 878,
+      "abstain_rate": 0.0034,
+      "no_match_rate": 0.7244,
+      "choice_accuracy": 10.25,
+      "exact_match": 5.24,
+      "token_f1": 9.47
+    },
+    "qwen1_5b": {
+      "n_predictions": 878,
+      "abstain_rate": 0.0068,
+      "no_match_rate": 0.6686,
+      "choice_accuracy": 16.06,
+      "exact_match": 11.28,
+      "token_f1": 16.11
+    },
+    "qwen32b": {
+      "n_predictions": 878,
+      "abstain_rate": 0.0091,
+      "no_match_rate": 0.5273,
+      "choice_accuracy": 30.07,
+      "exact_match": 20.62,
+      "token_f1": 27.46
+    },
+    "qwen3b": {
+      "n_predictions": 878,
+      "abstain_rate": 0.0034,
+      "no_match_rate": 0.705,
+      "choice_accuracy": 15.6,
+      "exact_match": 10.48,
+      "token_f1": 14.75
+    },
+    "qwen72b": {
+      "n_predictions": 878,
+      "abstain_rate": 0.0034,
+      "no_match_rate": 0.4692,
+      "choice_accuracy": 36.1,
+      "exact_match": 25.51,
+      "token_f1": 32.26
+    },
+    "qwen7b": {
+      "n_predictions": 878,
+      "abstain_rate": 0.0068,
+      "no_match_rate": 0.5786,
+      "choice_accuracy": 23.58,
+      "exact_match": 15.38,
+      "token_f1": 21.61
+    },
+    "sonnet": {
+      "n_predictions": 878,
+      "abstain_rate": 0.0011,
+      "no_match_rate": 0.5672,
+      "choice_accuracy": 33.94,
+      "exact_match": 20.16,
+      "token_f1": 25.06
+    }
+  },
+  "boundary_gap_choice_grounded": {
+    "gpt4omini": {
+      "gap_2023_minus_2026": 11.946,
+      "ci95": [
+        1.048,
+        23.053
+      ],
+      "p_plus_one": 0.03199,
+      "n_quizzes_pre": 49,
+      "n_quizzes_post": 26
+    },
+    "mistral_large": {
+      "gap_2023_minus_2026": 7.683,
+      "ci95": [
+        -4.327,
+        19.9
+      ],
+      "p_plus_one": 0.21996,
+      "n_quizzes_pre": 49,
+      "n_quizzes_post": 26
+    },
+    "qwen": {
+      "gap_2023_minus_2026": 2.118,
+      "ci95": [
+        -5.935,
+        11.289
+      ],
+      "p_plus_one": 0.64747,
+      "n_quizzes_pre": 49,
+      "n_quizzes_post": 26
+    },
+    "qwen1_5b": {
+      "gap_2023_minus_2026": -3.864,
+      "ci95": [
+        -12.254,
+        5.018
+      ],
+      "p_plus_one": 0.37193,
+      "n_quizzes_pre": 49,
+      "n_quizzes_post": 26
+    },
+    "qwen32b": {
+      "gap_2023_minus_2026": -2.746,
+      "ci95": [
+        -13.077,
+        8.155
+      ],
+      "p_plus_one": 0.60508,
+      "n_quizzes_pre": 49,
+      "n_quizzes_post": 26
+    },
+    "qwen3b": {
+      "gap_2023_minus_2026": -2.66,
+      "ci95": [
+        -11.078,
+        5.569
+      ],
+      "p_plus_one": 0.4823,
+      "n_quizzes_pre": 49,
+      "n_quizzes_post": 26
+    },
+    "qwen72b": {
+      "gap_2023_minus_2026": 2.698,
+      "ci95": [
+        -8.424,
+        14.062
+      ],
+      "p_plus_one": 0.64827,
+      "n_quizzes_pre": 49,
+      "n_quizzes_post": 26
+    },
+    "qwen7b": {
+      "gap_2023_minus_2026": -4.822,
+      "ci95": [
+        -14.454,
+        5.35
+      ],
+      "p_plus_one": 0.33993,
+      "n_quizzes_pre": 49,
+      "n_quizzes_post": 26
+    },
+    "sonnet": {
+      "gap_2023_minus_2026": 24.457,
+      "ci95": [
+        12.005,
+        36.32
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes_pre": 49,
+      "n_quizzes_post": 26
+    }
+  },
+  "scale_slope_choice_grounded": {
+    "n_models": 7,
+    "slope_pts_per_decade": 2.4404,
+    "exact_permutation_p": 0.265873,
+    "n_permutations": 5040,
+    "per_model": {
+      "qwen": 2.118,
+      "qwen1_5b": -3.864,
+      "qwen3b": -2.66,
+      "qwen7b": -4.822,
+      "qwen32b": -2.746,
+      "qwen72b": 2.698,
+      "mistral_large": 7.683
+    },
+    "reading": "The scale association is reproduced by a metric that uses no partial token overlap, so it is not an artifact of F1 crediting near-misses."
+  },
+  "metric_sensitivity_of_the_scale_slope": {
+    "slopes": {
+      "token_f1": {
+        "slope": 5.9342,
+        "p_exact": 0.008532
+      },
+      "exact_match": {
+        "slope": 4.0835,
+        "p_exact": 0.014286
+      },
+      "choice_grounded": {
+        "slope": 2.4404,
+        "p_exact": 0.265873
+      }
+    },
+    "all_positive": true,
+    "significant_under": [
+      "token_f1",
+      "exact_match"
+    ],
+    "reading": "The association points the same way under every metric, but it clears significance only under token-F1 and exact match. The choice-grounded slope is attenuated roughly two-fold and its exact permutation p is far from 0.05. Two readings are consistent with this and we cannot separate them at n=7: the choice referee is a coarse 0/1 outcome and simply has less power, or part of the F1 slope reflects large models producing more PARTIALLY correct answers before the boundary rather than more correct ones. Either way the scale claim should be stated as metric-dependent, which the paper now does."
+  }
+}

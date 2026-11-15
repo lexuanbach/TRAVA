@@ -1,0 +1,878 @@
+{"qid": "20260515_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$3 trillion", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260529_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Microsoft", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240105_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "California ($15.50)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260522_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Meta", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260410_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Turkey", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260313_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Jimmy Kimmel", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221216_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Rice.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240712_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tijuana, Mexico", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260116_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "AT&T", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240202_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Biden", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260327_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "The White House.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230526_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "False", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260410_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kansas and North Carolina", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221230_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Dobbs v. Jackson Women's Health Organization (2022)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260403_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1976", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250711_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Vaccination rates.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230811_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Real Estate Agent", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220624_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$4,567,888", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260612_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Martina Navratilova", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230623_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Emmanuel Macron", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260529_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Miami", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260313_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "International Feature Film", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260327_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Artemis 3", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260227_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Italy", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260424_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Lyrids", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260417_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Delta and LATAM", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230317_26", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Sargassum.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260227_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Artemis", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230127_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Liquid iron.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260605_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Juneteenth", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260515_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Toyota", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260116_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Milan-Cortina, Italy", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260313_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Katharine Hepburn", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230113_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "TCU", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220812_22", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Serena Williams", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260508_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "La Gomera", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250718_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Shah Rukh Khan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241227_24", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "None", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250124_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Colombia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260424_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2009", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260206_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "5", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260123_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tornadoes", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240223_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kanye West", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250919_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2022 MTV Video Music Awards", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260417_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$8", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260501_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Nicol\u00e1s Maduro", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250214_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "King", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260508_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Google.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230721_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "82.4 million", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260227_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "82", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250613_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Audrey Hepburn", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221118_23", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ivanka", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260220_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Florida", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260619_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Biarritz", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260529_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Elon Musk", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220722_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Honey bee.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240906_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "China", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240510_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ireland", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220909_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Pennsylvania", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250314_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "France", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220826_23", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2022-08-29", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231110_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Turkey", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_30", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Alan Shepard", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230203_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Nikki Haley", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250926_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Illinois", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250704_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260508_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1980", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231027_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2023-01-01", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260605_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Elon Musk", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260130_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Toyota", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240712_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "NUPES", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260424_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Satya Nadella", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220708_25", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"The Hay Wain\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250307_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Vaccinate\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260612_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Meta AI", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260403_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "4", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250711_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250620_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "AI", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250328_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "WhatsApp", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260508_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "May 5, 2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260515_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Endometriosis", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$1.1 billion", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220729_26", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Hakatajima", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231201_28", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Lack of transparency.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230127_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Poland.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260213_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Papa John's", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260403_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "California", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260522_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Manchester City", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260410_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Masters Tournament", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220923_27", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "41.6%", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260626_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "48%", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230818_22", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Increased lighting.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260320_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Jeff Zients", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20251010_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2020", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_29", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1945", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260508_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Taylor Swift", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240105_26", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Whiz.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260130_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "April 18", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20251114_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tornado outbreak.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230224_20", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Norman.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250214_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Blue", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240816_21", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2024: Not available (as the question is from the future)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240524_20", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "April 1 to October 31.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231201_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Illuminati Mall", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250411_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Washington Capitals", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250725_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ronald Reagan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230526_27", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Media literacy.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240524_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kavanaugh", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250919_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "ABC.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250425_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "HUBO", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220916_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"The Crown\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260327_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Section 230", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260206_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "France", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230505_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Math.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220701_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Elon Musk", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250207_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "China", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260501_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Elon Musk", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220715_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Japanese yen", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260220_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "United Airlines", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260501_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Michelle Wolf", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250718_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Los Angeles", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260508_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Slovakia (2021-03-15)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230303_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "CODA", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260306_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Blood Moon", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230922_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Sergio P\u00e9rez", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221111_28", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "3", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221111_25", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Australia.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221021_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Frontier Airlines.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230811_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "La Palma", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220805_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Cleveland Browns", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260501_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Canada", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260522_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ricky Martin", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250606_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Robinhood.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221216_28", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Croatia and Morocco.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260220_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Rabbit", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260306_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Mondaire Jones", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260612_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Amazon", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241227_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Crash", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260529_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Myanmar", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250704_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "University of Idaho.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240531_26", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2024-07-15", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260410_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "California", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260227_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "The O2 Arena", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260403_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Dhaka", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_33", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Joe Biden", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221230_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tom Brady", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220729_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "August 31, 2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260508_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Black Tie\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240906_24", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Clear Bag Policy", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260515_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Homestead", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220923_21", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Winston Churchill (1965-04-10)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240809_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Google", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260116_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "New York", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230616_21", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tajikistan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230113_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Minnesota Twins", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240726_25", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260612_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Russia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250502_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Walmart.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260529_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Eric Trump", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221223_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Argentina", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260213_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Amedeo Modigliani", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221209_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Respect for Marriage Act", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Nissan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260508_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Metropolitan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240315_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Anne Marie Morris", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20251205_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Texas and Arizona", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260220_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Supermoon", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220826_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Phoenix, AZ (14.1%)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231103_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Philadelphia Phillies", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250131_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kansas City Chiefs and Philadelphia Eagles", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221007_20", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Save the planet, not the party\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260612_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Dicrocoelium dendriticum.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260130_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kansas City Chiefs and San Francisco 49ers", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260123_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Davos", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250704_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Octopus.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230303_26", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Manchester United", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240301_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ford", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220826_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Dr. Strangelove\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260501_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "North Carolina", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250509_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2022-02-14", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260619_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$4.00", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250228_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Chick-fil-A", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221118_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "January 4, 2007", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221104_22", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$8", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230526_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "155 million", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230203_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Laverne & Shirley", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260619_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Disney+", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230224_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Law & Order: SVU", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231006_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "3", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230922_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "New York City", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240405_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "F-35 fighter jets.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_23", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "20", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260522_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Rhode Island", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260522_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Jaws (1975)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240301_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "China", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241108_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "University of California, Irvine", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260605_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kim Jong-un", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20251017_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Space Launch System (SLS)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250117_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Triller.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230303_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "International Space Station (ISS)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "John Adams", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240112_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Plastic bags.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240322_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "World Water Day", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230901_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Nikki Haley", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230428_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Bed Bath & Beyond", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260522_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "None (as of 2023, the contest has not yet taken place)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260626_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Elden Ring", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250228_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Microsoft.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221111_27", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Facebook", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241025_24", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$7.25", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221104_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Hair dye.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260227_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1 hour, 21 minutes, and 37 seconds.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220916_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "California", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250404_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Batman", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220819_23", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Harriet Hageman", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240517_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Alabama", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260313_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "None.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221209_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Volodymyr Zelenskyy", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260501_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "King Charles III", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "John Adams and Thomas Jefferson", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260515_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "U.S. Open", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "A Quiet Place Part II", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230825_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Heptathlon", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221014_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Foo Fighters", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241025_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kelp forests.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20251010_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Gaza border opening.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260529_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Golden State Warriors", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250509_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Prince William", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241115_26", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tappan Zee Fire", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260619_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Moldova", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260130_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Willis Tower (442m)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230609_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Dragonfly", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221125_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Havasupai Lodge Campground.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260508_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Rich Strike", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240614_27", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Picnic tables, grills, restrooms.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220819_26", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Toxic algae.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260619_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kursk", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260220_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1984", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240419_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Saratoga Springs, New York.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250530_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Rock and Roll, Hoochie Koo\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240531_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Phytoplankton blooms.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230616_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "The Road", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250425_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Canada", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230127_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Argentina", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260306_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Water vapor on K2-18b.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260320_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Denmark", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260619_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "145", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260515_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Japan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260109_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "NFL", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230505_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tornado.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230127_21", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Rishi Sunak", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230331_23", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Honduras", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260501_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Britney Spears", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221216_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Washington State", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260213_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Austin", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230310_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "200", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220708_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Drought.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221104_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "New York City.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220708_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "TikTok.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230414_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Max", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231020_24", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$1,433,000", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260626_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Checks and Balances", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240112_28", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Unknown", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250321_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Accelerating.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220624_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Brown University.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230317_29", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Nuclear power plant.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260130_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "78.7", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220708_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Recognizing faces.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260410_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Nicole Scherzinger", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241227_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "0", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260417_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Senegal", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241011_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "US Open", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230512_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "New York", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220909_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1952", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240719_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Texas", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230317_27", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "64", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20251107_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Hinnamnor", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260123_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "LSU", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220624_23", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Auckland", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260417_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "April 15", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230616_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "4 million", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220826_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Germany", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221014_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "27 years", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260306_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Electricity", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230324_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$55 million", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240809_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Erbil", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260515_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$4.33", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231208_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$7.25", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240517_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Multitask Unified Model for Direct Retrieval (MUM)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220708_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Climate change.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241018_22", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Georgia and Louisiana", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240719_26", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250314_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Fruit.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230407_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Caucus switch", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260410_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "J.K. Rowling.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241101_24", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "PSL", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240322_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Defense", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230210_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kareem Abdul-Jabbar", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250725_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$1.5 million", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260626_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"We the People\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221007_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Cybertruck.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220701_22", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\u00a3101.3 million.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221118_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Delta", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220819_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "4", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260605_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Michelle Obama", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221007_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "The Beatles", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240524_25", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$69,900", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221104_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Friends", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260515_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Cannes Film Festival", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220805_28", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "58%", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260612_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "48", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240830_24", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "No data.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240216_21", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "A 12-story wind turbine.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230602_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Sudan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241122_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Oregon", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260410_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Nike", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250926_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Pilot strikes.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260116_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Boeing Starliner spacecraft malfunction.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260619_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Germany", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20251226_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Houston Astros and Philadelphia Phillies", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230210_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Joe Biden", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250711_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Herm\u00e8s", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260109_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "H3N2", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221202_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "TikTok", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220826_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kamala Harris", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220722_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Abortion rights.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240419_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Rhyne Howard", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230317_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "7", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260417_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Mississippi", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250314_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Doping.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260213_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Minnesota", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260109_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Greenland", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241004_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Sri Lanka", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260417_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "William Shakespeare", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260508_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "IPOF", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230224_29", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Toilet handle.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220819_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Velveeta.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260626_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Paul Samuelson (2009-12-13)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260417_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "None", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240927_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Sri Lanka", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20251024_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Brazil (1986)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260206_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Beijing National Stadium", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221104_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Veterans Day", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221202_20", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ed Miliband.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260410_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Spider-Man: No Way Home (2021-12-17)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260522_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "White.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260626_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Bill of Rights", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231208_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tyrrell Hatton", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220923_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Mark Meadows", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240920_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Los Angeles", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220930_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Chess", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230331_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Illinois", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221104_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Hillbilly Elegy.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260417_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Nick Faldo", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260619_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Joe Biden", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260605_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Paul McCartney", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230630_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Sugar Gliders.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260403_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$4.00", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230512_21", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "400,000", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220930_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Italy", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221230_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Singapore", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230707_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Glasgow Pride.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220805_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Uhura", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260605_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Unknown", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250214_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Cauliflower.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260619_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Indiana Jones 5", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231215_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Oklahoma", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250613_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Myles Frost", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230519_22", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "44% (YouGov survey, 2023)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230428_20", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Euro 2024 Draw", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260529_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Novak Djokovic", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241025_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Leslie Wexner", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20251212_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "California", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250328_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Fossilized dinosaur footprint.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220722_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Engagement.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221014_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "New Mexico", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221007_25", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Burning a $1,300 pair of Yeezy sneakers.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230317_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "March Madness", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260109_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "BYD", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260501_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Rockland County, New York", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260619_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "44%", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230804_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Furby.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260508_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Georgia, Indiana, and Ohio.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220909_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "John Deere", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221216_27", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Jin", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220715_28", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Harry Maguire.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250516_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tom Holland", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250718_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Stranger Things", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240614_28", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Promote social equity in the cannabis industry.\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250418_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Flight Risk\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220819_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "California.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250411_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Woolly mammoth.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260220_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "American Peace Institute", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20251128_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$1.99/lb", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260327_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Edinburg", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "France", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220722_27", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Angola", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230127_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ice storm.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220909_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "State dinners.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_32", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "AOL.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220624_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Mudslide.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221014_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Mamma Mia!", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240308_28", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$17.2 million", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230224_28", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Same-sex marriage.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220805_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kansas", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250620_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "None (as of 2025-06-19)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221118_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2022-11-16: Republicans", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220826_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Federal student loans.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250221_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Lobby.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250425_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "25-29", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250502_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2022-04-20", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220624_25", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "18%", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260417_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Dolly Parton", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220715_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$1.45", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260522_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Big Brother 17.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250822_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Obamacare\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260320_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Chicago", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260619_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Michelin stars", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231117_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Jimmy Kimmel", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_28", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1929-10-24", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260501_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Victoria Sponge Cake", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20251212_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "None", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260123_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ethiopia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221209_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "51", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260605_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "UAE", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260306_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Syria", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260109_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Caracas", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220715_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Buck Moon", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260109_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Austria", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240315_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "TikTok", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221230_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Twitter", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241011_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Habitat destruction", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_25", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "France", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260529_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Fallen soldiers.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260220_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Utah", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260123_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Babylon\" (11)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230707_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Chris Pincher", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260619_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Thomas's Battersea", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250214_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Xi Jinping", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20251114_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "John F. Kennedy", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250905_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "A68", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220819_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Yellowstone", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221125_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Student loans.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240524_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Sam Elliott", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241101_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "A 30-foot-tall animatronic dragon.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260403_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "January 15, 2026.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260306_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "iPhone SE (3rd generation)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230721_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Suge Knight's office.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260123_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "I'm not aware of any information about a person named Usha Vance being the second lady.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260612_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Cat.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250207_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Pigs.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241129_27", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1924", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230331_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Elton John", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260612_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "64", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250711_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Egypt", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Out of many, one\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230714_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Yuri Dolgoruky", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Games", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240503_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Jazz", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250131_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Boatman.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260619_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Robin Hood", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260626_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Qatar", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260116_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Mattel", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220715_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Sri Lanka.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230421_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "4:45 a.m. ET", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241227_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$1,495,000", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250523_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "New Orleans", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240510_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Met Gala.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240906_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Zaporizhzhia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220701_28", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ringo Starr", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250711_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2021-07-22", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20251010_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "California", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230428_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2007", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240209_25", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Alkaline hydrolysis.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220909_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Arctic seafloor.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260529_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Taylor Swift", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231013_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Three Girls\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260206_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260619_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Tomorrow, Tomorrow, and Tomorrow\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260605_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Roman Polanski", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20251107_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kinzinger", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220715_20", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tom Tugendhat", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220916_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"The Crown\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260320_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Brazil", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260313_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "10", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260612_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Albania", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240621_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Jaws (1975)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250103_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2022-02-17", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241108_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Purnell v. State of Delaware (1973)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260123_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "New York", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260626_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Taylor Swift", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260501_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Biloxi, Mississippi.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250725_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Vamco", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241108_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Black Panther: Wakanda Forever (2022)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260522_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Rolex", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230421_23", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ethics.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231222_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "30", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230317_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Silicon Valley Bank and Signature Bank.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260605_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Cary Grant", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260410_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Recall", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250627_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "4.5", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260327_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "TikTok", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230303_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Pitch clock.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240329_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "India", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "George III", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220715_22", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ethiopia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220826_27", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Andrew Neil.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260206_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Surfing", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260130_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Chicago", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220708_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Theranos", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230519_21", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Fox News", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220805_24", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "15", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260320_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Romaine lettuce.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260605_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Georgia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260515_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "California", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240216_25", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "The Green Hen", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250321_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "The Crown Jewels.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240726_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "The Last Kingdom", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250905_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Dr. Rachel Levine", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231103_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "3", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260220_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Prince Edward", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220624_28", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "North Macedonia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260206_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Norway", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260605_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Beit Shabab.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260410_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Handmaid's Tale", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220805_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Sandy Hook shooting.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250613_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Jalape\u00f1o Popper", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231201_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Take their business elsewhere.\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240607_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Psilocybin.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220902_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Moon", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250124_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tornadoes", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260213_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260403_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Spain", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220708_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tyrannosaurus.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260626_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Joe Biden", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221223_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Bahamas", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260410_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Seoul", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260320_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Staffing shortages.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260619_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "North Korea", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260529_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tennis", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220722_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Batteries.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "France (2015)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231103_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Friends", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250606_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "National Security", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240308_23", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$15.45", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260522_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Leonardo da Vinci", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231215_26", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "67.9 million", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240607_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Mecca", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260424_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Lord Byron", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260605_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Jacqueline Kennedy Garden", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230106_29", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Wind.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260410_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$1,300", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260626_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Supreme Court", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230922_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Alligator", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220819_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "As the World Turns", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230901_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "November 5, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260306_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Colombia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240913_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Darth Vader", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221202_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2000", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250307_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Iceland", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260522_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Texas State Fair", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260320_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Green Fireball", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220916_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Editable Lock Screen.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230317_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Apple TV+", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250131_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "New York Yankees", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220902_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Pad 39B", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260123_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Concorde", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221111_21", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "David Beckham", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240510_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Russia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250711_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Forward Party", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260522_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Cincinnati", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260327_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Trevor Noah", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250509_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Air Fryer", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240802_24", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Vaccine mandate\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260522_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Poland", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260515_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Lusail Iconic Stadium", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260501_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "The Dallas Cowboys.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240315_22", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Prescribed fire management.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260213_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Norway", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240726_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "12,430 km", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Francis Scott Key", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220902_25", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Nicol\u00e1s Maduro", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260529_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "California, Florida, and New York.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260320_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Drought.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231110_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Pakistan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250627_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Al Nassr", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260501_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$0", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260529_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "BP", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230428_22", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "McVitie's Digestive.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260213_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "OxyContin", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230324_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Los Angeles", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260529_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Pakistan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230818_25", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Early childhood education.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20251219_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "CNN", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221118_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Moon", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220812_21", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Domino's.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260206_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tennis", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260410_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Pikia.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Philadelphia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260116_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Fruit juice.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220708_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Lebanon", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250411_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Michael Jordan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231117_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Federal Trade Commission (FTC)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220819_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Fall 2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230324_27", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "5", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260403_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ariana Grande", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260327_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Quantum Computer.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240223_29", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Puma", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20251031_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Federal Government Employees", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260612_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Britney Spears", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260417_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Yemen", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260417_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Coachella", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220715_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$8.7 billion", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20251212_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Overcrowding.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230915_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "24%", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260515_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ariana Grande and Nicki Minaj.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220729_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Yosemite", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220805_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "None", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20251226_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Japan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220902_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "77.1% (as of August 2022)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230825_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ufa", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230811_29", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2020", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230224_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "New Orleans", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250822_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "According to the poll, 64% of residents are \"very concerned\".", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250228_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Holi", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231117_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Th\u00e9r\u00e8se Coffey", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231215_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Ukraine\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260403_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Shenzhen", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_31", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Challenger", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220624_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Chris Noth", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241206_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Playlist.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221202_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Emmanuel Macron", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260320_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"CODA\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_26", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Phonograph.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260213_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Nova Scotia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260529_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Antarctica", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240419_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Calgary", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240628_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "TUI Airways", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230224_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Nintendo Wii.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260424_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "El Salvador", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260410_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "NBC", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260612_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "A Soldier's Play", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250725_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "7,000", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250509_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Joe Biden", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250704_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Francis Scott Key", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260327_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Teterboro", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260130_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Mexico", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260508_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Norovirus.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240510_23", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2024-05-08", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241206_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "The Little Mermaid (1989)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220909_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "iPhone 14 Pro Max.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260626_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Miroslav Klose", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250509_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Signal", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221230_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$3.45", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250124_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "New Zealand", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221021_29", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Piers Morgan.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260130_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Canada", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230106_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$7,395", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250704_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tonga", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260626_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "13", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221216_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "New Orleans", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250704_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "France", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230602_28", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "KitKat", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260619_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ruby Tuesday", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230929_27", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Shooting.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260123_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2026-01-20: NASA's Perseverance rover discovered evidence of seasonal brine on Mars.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_24", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "7 days", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250221_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Atlanta", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260605_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Dan Rather", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220916_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kherson.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260206_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Cross-country skiing", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260130_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Meta", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260320_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Treasury Department.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231117_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Deepavali\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230217_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "True", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240913_21", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "First openly transgender person in the U.S. Congress.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240802_21", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "ChristianaCare Health System", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231027_28", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Cold weather.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_27", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "19th", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220701_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Alaska Native Language Center Research Paper", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260403_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Romaine lettuce.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260306_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "NATO Summit", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240823_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Jennifer Lopez and Ben Affleck", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230217_25", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Josh Cavallo", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250530_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Benny Gantz", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231103_26", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Wally Lopez.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250801_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Turkey", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221223_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "7", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221104_27", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Nuclear war.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230317_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "UC Santa Barbara", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260424_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$1.2 billion", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260109_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250117_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Bread.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221104_29", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Xi Jinping", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220701_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "American alligator.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260515_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Lincoln Memorial", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221118_21", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Mariah Carey", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260109_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220805_23", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Alina Kabaeva", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240322_28", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$12,500,000", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250711_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Pakistan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240621_21", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Black Widow", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250627_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "None (as of 2025-06-27)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250314_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Smoking.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260410_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Mac Miller", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230310_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "11", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260612_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Paris", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260313_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Wings\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240531_20", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Misdemeanor possession of a firearm by a prohibited person.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240510_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Laurentino Cortizo.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260605_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Chile.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260619_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Golden State Warriors", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260220_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Mark Zuckerberg", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260626_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Thomas Jefferson", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220819_27", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "ID cards.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230908_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Texas", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260116_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "California and New Jersey", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260612_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "34%", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230224_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Joe Montana", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260515_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Forbidden City.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240531_23", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ridgewood Rams", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220923_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"We're not going to be able to get out of this by December.\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250411_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Belarus", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230127_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Annemarie Moser-Pr\u00f6ll (35)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260619_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "72", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231013_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tim Pawlenty", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260109_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "El Paso", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240906_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Airline", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240719_29", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Asheville and Charleston", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220902_20", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kofi Annan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250314_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Smokers.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Crack.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260410_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "34%", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260306_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Type 2 diabetes.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230224_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "0", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240816_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Perseverance rover's discovery of organic molecules.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260605_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Chicago", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221021_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Italy", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250516_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Heels.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230203_20", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Yutiao gunmian.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240419_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Notre Dame Cathedral", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221104_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1956", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260424_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kirstjen Nielsen", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260501_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "North Carolina", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230407_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Sweden", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250404_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "12 hours and 52 minutes.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250815_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Health insurance.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260116_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Grammys", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260227_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Mexico", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220930_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Natural Gas", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260213_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "New York City", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220708_20", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "47", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260508_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Seal.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260529_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Pininfarina.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240524_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "University of Delaware", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220930_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$1.50", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260206_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Quad King\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20251205_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Blizzard", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240223_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Arizona", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260417_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "11 days", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240705_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kenya", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260313_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "88 minutes.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240823_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Hady Amr", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230901_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Simone Biles", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250815_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Larry King Live", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231027_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "45%", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220826_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "17", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241213_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Epic Games.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260619_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Seven-Eleven Japan, FamilyMart, and Lawson.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260508_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Flybe", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220715_25", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Pension reform.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260522_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Coney Island, Brooklyn, New York (1884)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230428_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Headache", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260227_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Blizzard", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260227_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Build Back Better\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221125_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "36 inches", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_34", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2076", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260501_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Apple and Epic Games", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250509_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Hamilton", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260227_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241101_25", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Raven", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250711_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ferrari.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231117_29", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2022 Hurricane Ian", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250404_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Switch OLED.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220819_22", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Sacheen Littlefeather.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250221_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "5.6%", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260417_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "12", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240105_29", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$1.2 billion", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230120_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Illinois and Maryland", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240105_25", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "74-65", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260522_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Death Valley, USA (134\u00b0F / 56.7\u00b0C on July 10, 1913)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250905_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Elon Musk", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260612_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Larry Elder", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260417_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "New York", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240524_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Air India", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260626_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "House and Senate", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240517_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Turkey", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260501_19", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Delta", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260605_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "A Quiet Place Part II (2021)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240301_27", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "March 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240223_22", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Improve student outcomes\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260424_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Hungary", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260417_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Jean-Michel Basquiat", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240209_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "5", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260605_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Security screening.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260626_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "27", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230811_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Double Dating\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260508_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Mexican Army's victory over French forces at the Battle of Puebla.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260626_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Portugal", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240426_20", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ja'Naiah Scott", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240510_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Chimpanzee.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240906_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Sonia Sotomayor", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240816_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "University of Hong Kong", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220701_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "3", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240614_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Colonial Pipeline.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230224_6", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Winter Storm", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240301_22", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Winterthur Museum, Garden & Library", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221118_20", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Sharm el-Sheikh", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260116_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Dilbert", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220916_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Family history.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240503_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Fox News", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240809_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "None", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260515_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Spain", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241108_20", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Never", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220819_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Independence Day (August 15)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250801_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Germany", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260612_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Pennsylvania", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260130_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Eric Trump", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250718_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "SpongeBob SquarePants", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20220902_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Edit Button", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250314_1", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Delta", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221007_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Connecticut", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260522_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "92%", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230331_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Elon Musk", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260626_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1776-07-04", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260529_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Eid al-Fitr.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260619_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Alex", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_20", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Bison.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240726_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1900", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240906_27", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "October 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260123_8", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Australia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260501_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Mount Rushmore", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230120_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "118", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240209_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Valentine's Day", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250328_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Fake news\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240412_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Delta Air Lines", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250110_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Meta", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20221202_11", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1984", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260508_2", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Samuel Beckett", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260327_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "FBI", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260522_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "The Ellen DeGeneres Show", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260313_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1934", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260227_9", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Australia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20240913_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Deshaun Watson", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260417_17", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Xi Jinping", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231208_23", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Dogfish Head Brewery and Fordham & Dominion Brewing Company.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250815_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Helsinki", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230421_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Fox News", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250307_16", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "China", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260410_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Sumatran Rhino", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230609_21", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Reality Pro", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241213_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Zendaya", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260529_18", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Aston Martin.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20251003_3", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Chimpanzees", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260417_5", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "South Africa", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260612_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Prince Andrew", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260703_0", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Jodie Burrage", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20230901_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Walmart Supercenter", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260206_14", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1,159", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20241129_7", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Red Roof Kitchen\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260612_12", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ulm Minster", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20231020_25", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2023-11-05", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260116_4", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Myanmar", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250523_15", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"OK Computer\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20250214_10", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Harriet Tubman", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260612_13", "condition": "closed_book", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ryanair", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}

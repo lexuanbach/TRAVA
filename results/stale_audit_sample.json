@@ -1,0 +1,614 @@
+{
+  "scope": "Random sample of automatically-labelled grounded_outdated items, drawn for manual adjudication because the lexical rule is not validated against judgement.",
+  "rubric": {
+    "superseded": "was a correct answer to this question at an earlier time (supports the paper's claim)",
+    "echo": "drawn from the retrieved text but never a correct answer to this question",
+    "type_error": "not the right kind of thing at all",
+    "non_answer": "narrative or refusal-like, not an answer attempt"
+  },
+  "seed": 20260731,
+  "pool_size": 156,
+  "n_sampled": 60,
+  "items": [
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260501_15",
+      "date": "2026-04-30",
+      "question": "Which comedian does the Trump administration want fired from his job?",
+      "gold_answer": "Jimmy Kimmel",
+      "stale_prediction": "Nick Cannon",
+      "context_head": "The latest celebrity to enter the social discourse surrounding online cancellation: Nick Cannon.\n\nThe comedian\u2019s name trended on Twitter on July 15 after he was fired by ViacomCBS over \u201chateful speech.\u201d The news added fuel to the debate over whether holding celebrities accountable for their opinions has gone too far.\n\nSome argued that the host of \"Wild 'n Out,\" which airs on VH1 and MTV, should be \u201ccanceled,\u201d which often entails boycotting a famous person\u2019s work. Others asked: \u201cWhat happened to freedom of speech?\u201d\n\nTwitter has become a powerful court of public opinion and \"cancel culture\" plays a role. The phenomenon occurs when people get upset about something that a company or person has done or something they have said. It also can be divisive with opposers saying threats of cancellation stifles free speech.\n\nIt's hard to deny that cancel culture has sparked important conversations an"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20260213_6",
+      "date": "2026-02-12",
+      "question": "A landmark trial got underway this week over allegations that which of the following is addictive?",
+      "gold_answer": "Social media",
+      "stale_prediction": "opioid makers",
+      "context_head": "CNN \u2014\n\nMany loyal readers of 5 Things Sunday look forward to the weekly news quiz, so we have prepared a special Halloween quiz for you while you await the roaming hordes of witches, zombies, princesses and superheroes that will arrive at your door tomorrow night. And no tricks here \u2026 you\u2019ll find the weekly news quiz lurking in the shadows below. Here\u2019s what else you need to know to Start Your Week Smart.\n\nHere\u2019s what else you need to know to Start Your Week Smart.\n\nThe weekend that was\n\n\u2022 At least 151 people were killed and dozens more hurt in an apparent crowd surge at packed Halloween festivities in the South Korean capital of Seoul, local officials say.\n\n\u2022 At least 100 people were killed after two car bombs exploded near Somalia\u2019s education ministry in the capital Mogadishu on Saturday.\n\n\u2022 The man who allegedly attacked Paul Pelosi, the husband of House Speaker Nancy Pelosi, in the c"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20260130_9",
+      "date": "2026-01-30",
+      "question": "Which member of the Trump family released a documentary this week?",
+      "gold_answer": "Melania Trump",
+      "stale_prediction": "Ivanka Trump",
+      "context_head": "CNN \u2014\n\nIn a promotional video from a documentary that is of interest to the House select committee investigating January 6, 2021, former President Donald Trump is heard being asked about the day of the attack on the US Capitol.\n\nThe trailer does not include additional footage of the interaction with Trump beyond him saying, \u201cYes.\u201d The trailer will be released by Discovery Plus, which is owned by CNN\u2019s parent company, and is the first video from the documentary released publicly.\n\nThe interview was shot by Alex Holder, a British documentarian subpoenaed by the committee who has turned over raw footage of his interviews with Trump, members of the Trump family and former Vice President Mike Pence, according to a statement he released earlier this week.\n\nThe footage is a new development in the ongoing January 6, 2021, investigation and two criminal probes related to Trump\u2019s efforts to overtu"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260116_6",
+      "date": "2026-01-15",
+      "question": "Which state is investigating an alleged arson at its largest and oldest synagogue?",
+      "gold_answer": "Mississippi",
+      "stale_prediction": "California",
+      "context_head": "Updated Nov. 15, 2021, 10:18 p.m. ET\n\nAUSTIN \u2014 On the day that federal agents say he set fire to the the Congregation Beth Israel synagogue, 18-year-old Franklin Barrett Sechriest logged an entry in his handwritten journal: \u201cScout out a target,\u201d he wrote, according to newly unsealed court documents.\n\nSecurity video later showed his Jeep SUV in the parking lot about 9 p.m. Oct. 31, a federal charging document states. Moments later, footage revealed the orange glow of a fire.\n\nWithin a couple of days, the court documents say, Sechriest scribbled again in his journal: \u201cI set a synagogue on fire. \u2026 Get worried when it mentions they are \u2018hopeful\u2019 a suspect will be caught.\u201d\n\nThe entries fell in a to-do list that also included surfing the dating app Tinder, doing laundry and meditating.\n\nSechriest, a member of the 6th Brigade of the Texas State Guard and a Texas State University student, now fa"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20260522_7",
+      "date": "2026-05-22",
+      "question": "Which watch brand had to close stores because of customer demand for its new model?",
+      "gold_answer": "Swatch",
+      "stale_prediction": "Apple Watch",
+      "context_head": "Roger Yu\n\nUSA TODAY\n\nNov. 6, 2013 Updated Nov. 7, 2013, 9:34 a.m. ET\n\nStores will close by early January next year\n\nMail DVD operation to close by mid-December\n\nParent company Dish Network hopes to %22leverage the brand%22\n\nIt's the last picture show for Blockbuster.\n\nThe retail company that introduced millions of Americans to stay-home movie nights said Wednesday it will close its 300 remaining U.S. stores by early January next year. Its DVD-by-mail business, introduced as a competitor to Netflix, also will be shut down by mid-December.\n\n\"This is not an easy decision, yet consumer demand is clearly moving to digital distribution of video entertainment,\" said Joseph Clayton, CEO of Dish Network, Blockbuster's parent company. \"Despite our closing of the physical distribution elements of the business, we continue to see value in the Blockbuster brand, and we expect to leverage that brand a"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20260529_1",
+      "date": "2026-05-29",
+      "question": "Which high-end carmaker this week revealed the Luce, its first fully electric car?",
+      "gold_answer": "Ferrari",
+      "stale_prediction": "Mercedes-Benz",
+      "context_head": "April 15, 2021, 12:00 p.m. ET\n\nMercedes-Benz is giving up the growl.\n\nThe German luxury automotive brand on Thursday debuted its first-ever electric sedan, the Mercedes-Benz EQS.\n\nThe company is describing the EQS as a sibling of the recently redesigned high-end S-class, which is typically considered the brand's most luxurious ride. But the slightly shorter vehicle, which Mercedes has been teasing in advertisements, has its own electric architecture.\n\nThe EQS is expected to compete directly with electric cars like the Tesla Model S and Porsche Taycan. It will debut as a 2022 model and while a starting price hasn't been announced, car-research site Edmunds recently estimated $110,000.\n\nMissing the trademark engine roar associated with high-performance gas-powered models, the EQS will nonetheless deliver significant power, albeit with a quiet electric motor.\n\nThe first versions sold in the"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20260130_5",
+      "date": "2026-01-30",
+      "question": "Which two NFL teams will face off in the Super Bowl on February 8?",
+      "gold_answer": "New England Patriots and Seattle Seahawks",
+      "stale_prediction": "Kansas City Chiefs and the San Fransisco 49ers",
+      "context_head": "The biggest night in football is just two weeks away. The Kansas City Chiefs and the San Fransisco 49ers are set to face off for the Lombardi Trophy.\n\nDepending on how game plays out, Patrick Mahomes and the Chiefs could bring home their second consecutive Super Bowl win, while Brock Purdy and the 49ers might secure their first title in almost three decades.\n\nThe days are ticking away until kick off, so here's what you may want to know before the big game.\n\nWhen is the Super Bowl 58?\n\nSuper Bowl 58 is Sunday, Feb. 11, 2024.\n\nNFL STATS CENTRAL: The latest NFL scores, schedules, odds, stats and more.\n\nWhat time is the Super Bowl 58?\n\nKickoff is set for 6:30 p.m. EST, 3:30 p.m. MST (local time).\n\nWhere is Super Bowl 58?\n\nThis year's Super Bowl will take place at Allegiant Stadium in Las Vegas, Nevada.\n\nWho is playing in Super Bowl 58?\n\nThe two teams playing in this year's Super Bowl will be"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260213_6",
+      "date": "2026-02-12",
+      "question": "A landmark trial got underway this week over allegations that which of the following is addictive?",
+      "gold_answer": "Social media",
+      "stale_prediction": "Biden\u2019s lawyers",
+      "context_head": "CNN \u2014\n\nMany loyal readers of 5 Things Sunday look forward to the weekly news quiz, so we have prepared a special Halloween quiz for you while you await the roaming hordes of witches, zombies, princesses and superheroes that will arrive at your door tomorrow night. And no tricks here \u2026 you\u2019ll find the weekly news quiz lurking in the shadows below. Here\u2019s what else you need to know to Start Your Week Smart.\n\nHere\u2019s what else you need to know to Start Your Week Smart.\n\nThe weekend that was\n\n\u2022 At least 151 people were killed and dozens more hurt in an apparent crowd surge at packed Halloween festivities in the South Korean capital of Seoul, local officials say.\n\n\u2022 At least 100 people were killed after two car bombs exploded near Somalia\u2019s education ministry in the capital Mogadishu on Saturday.\n\n\u2022 The man who allegedly attacked Paul Pelosi, the husband of House Speaker Nancy Pelosi, in the c"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20260417_2",
+      "date": "2026-04-17",
+      "question": "Which golfer won his second consecutive Masters?",
+      "gold_answer": "Rory McIlroy",
+      "stale_prediction": "Tiger Woods",
+      "context_head": "Editor's note: Here are the latest live updates from Friday's Round 2, including Tiger Woods' tee time and more.\n\nThe 2023 Masters Tournament began with Kevin Na and 2003 champion Mike Weir teeing off first in Thursday's opening round at the famed Augusta National Golf Club in Augusta, Georgia.\n\nBefore play in the 87th Masters officially got underway, the traditional opening ceremony had honorary starters Gary Player, Jack Nicklaus and Tom Watson hitting drives off the first tee.\n\nFive-time champion Tiger Woods came on strong late in the first round but concluded his day with a bogey on No. 18 to finish 2-over par. Last year's winner Scottie Scheffler and three-time champ Phil Mickelson are also among the stars in the field, which includes both PGA Tour and LIV golfers.\n\nFollow along for the latest action, leaderboard updates, highlights and more.\n\nTEE TIMES: Pairings for Thursday's firs"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20260320_5",
+      "date": "2026-03-19",
+      "question": "Which US agency said this week it could run out of cash within a year without help from Congress?",
+      "gold_answer": "US Postal Service",
+      "stale_prediction": "Treasury Department",
+      "context_head": "Deborah Barfield Berry\n\nClarion-Ledger Washington Bureau\n\nDec. 16, 2015, 7:00 p.m. ET\n\nWASHINGTON -- A spending deal that Congress is poised to pass this week will give the Election Assistance Commission $9.6 million next year to help states run elections, including congressional and presidential contests.\n\nThe $1.1 trillion spending bill released Wednesday ends the threat of a year-end government shutdown and will fund federal agencies through the rest of fiscal 2016.\n\nFunding for the Election Assistance Commission (EAC) was included in the bill over objections by Rep. Gregg Harper and other Republicans who complain the commission has outlived its usefulness.\n\nHarper, a member of the House Administration Committee, re-introduced a bill earlier this year to eliminate the agency.\n\n\u201cThey\u2019re trying to justify their own existence and it\u2019s time for them to go,\u2019\u2019 he said Wednesday. \u201cI\u2019m sure t"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260327_3",
+      "date": "2026-03-26",
+      "question": "Which city in Texas is running out of water?",
+      "gold_answer": "Corpus Christi",
+      "stale_prediction": "AUSTIN",
+      "context_head": "Feb. 22, 2021, 11:23 a.m. ET\n\nMany Jackson residents and businesses remain with little to no water Monday as a water shortage for much of the city stretches to its sixth day.\n\nWater customers in the city have been dealing with a water shortage since at least Wednesday, according to city officials. Some are seeing water trickle from their faucets while others have no water at all.\n\nThe crisis is becoming more dire as convenience and grocery stores across the city are also running out of bottled water following a surge in demand.\n\nCity officials are not giving a specific timeline for restoration of the water supply, except to say they are \"continuing to see progress.\"\n\nDue to demand, the city quickly ran out of water at seven distribution sites as soon as the sites opened Friday. City spokeswoman Michelle Atoa said the city handed out over 26,500 bottles of water and nearly 7,000 gallons o"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260501_19",
+      "date": "2026-04-30",
+      "question": "Which airline recently unveiled an \u201cIndependence One\u201d plane in honor of America's 250th anniversary?",
+      "gold_answer": "Southwest Airlines",
+      "stale_prediction": "Delta",
+      "context_head": "From USA TODAY Network and wire reports\n\nAlabama\n\nMontgomery: Delta is now flying bigger airplanes in and out of the capital city, and it will allow even more people aboard beginning in May. The changes are part of a plan to increase airline capacity in Montgomery toward pre-pandemic levels. The airport reported Delta started the month with bigger aircraft making the airline\u2019s four daily flights between Montgomery and Atlanta, meaning more seats for passengers. Capacity will increase again May 1 when Delta starts allowing middle-seat passengers for the first time this year. One pandemic change that\u2019s not going away is Delta\u2019s new cleaning and sanitation procedures. The airline has announced that they\u2019ll become permanent. Federal guidelines require air travelers to continue wearing masks. American Airlines resumed nonstop flights between Montgomery and Washington, D.C., earlier this month"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20251212_3",
+      "date": "2025-12-12",
+      "question": "Which major issue is the Louvre Museum in Paris currently facing?",
+      "gold_answer": "Water leak that damaged hundreds of books",
+      "stale_prediction": "flooding",
+      "context_head": "Jessica Durando\n\nUSA TODAY\n\nUpdated June 8, 2016, 7:23 a.m. ET\n\nThe Mona Lisa is on display to the public again after the Louvre was closed last week due to flooding.\n\nOfficials at the Paris museum moved 35,000 artworks from lower rooms threatened by the rising River Seine that runs next to the building. Leonardo Da Vinci's masterpiece, which can once again be viewed Wednesday, is located on an upper floor and did not have to be moved during the flooding.\n\nThe Muse\u0301e d'Orsay also opened Wednesday after being closed because of the raging river that winds through central Paris.\n\nFrance\u2019s Cabinet formally declared a \u201cnatural disaster\u201d in 782 towns and villages considered to be the most affected by the flooding in an effort to help residents and businesses receive financial assistance quickly, the Associated Press reported.\n\nFloodwaters slowly receded from the streets of Paris on Sunday, a d"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20251219_3",
+      "date": "2025-12-18",
+      "question": "Which broadcaster was sued by President Trump for $10 billion this week?",
+      "gold_answer": "BBC",
+      "stale_prediction": "Fox News",
+      "context_head": "New York CNN Business \u2014\n\nSome of the biggest stars at Fox News have been deposed in recent days as a voting technology company presses forward in its $1.6 billion lawsuit against the right-wing talk channel.\n\nLawyers for Dominion Voting Systems notified Fox News last week that it would be deposing host Tucker Carlson Wednesday, court filings show. They also sought Sean Hannity\u2019s deposition last week, and Fox Business Network host Maria Bartiromo is scheduled to appear for a deposition next week, according to court filings.\n\nEach of the hosts are specifically mentioned in Dominion\u2019s complaint against the network.\n\nThe depositions come as Dominion works to gather evidence that supports its case that the network defamed the company by spreading lies about fraud in the 2020 election that hurt Dominion\u2019s business. It\u2019s unclear what the Fox News personalities who have sat with Dominion lawyers"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20260206_10",
+      "date": "2026-02-04",
+      "question": "What is the only sport set to make its Olympic debut at the 2026 Games?",
+      "gold_answer": "Skimo (Ski Mountaineering)",
+      "stale_prediction": "Cricket",
+      "context_head": "May 23, 2024 Updated July 25, 2024, 4:13 p.m. ET\n\nEvery four years, the Olympic Games spotlight the world's top athletes across under 50 sports.\n\nThe country will send more than 800 athletes to this year's Summer Olympics in Paris. The next Winter Olympics are set for 2026 in Milan and Cortina d'Ampezzo, Italy.\n\nAs the world counts down to the opening ceremony, here's what to know about the Games' official start, events, location and venues.\n\nWhen do the Olympics start?\n\nThe Paris 2024 Olympics begin on Wednesday, July 24. The first two events of the Games are men's soccer and rugby sevens.\n\nSeveral events will take place the following day, including women's soccer, handball and archery. The Games do not officially start until the opening ceremony on Friday, July 26.\n\nTypically, athletes march into a venue during the Olympics' opening ceremony. This year, however, athletes will float dow"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20250228_10",
+      "date": "2025-02-27",
+      "question": "Which American restaurant chain added a surcharge to egg-based meals due to bird flu shortages?",
+      "gold_answer": "Denny's",
+      "stale_prediction": "None of the documents mention a specific American restaurant chain adding a surcharge to egg-based meals due to bird flu shortages.",
+      "context_head": "Margery A. Beck\n\nAssociated Press\n\nOMAHA, Neb. \u2013 Those who like to indulge in a good omelet or quiche at the local cafe should prepare to pay a little more \u2014 if it's even on the menu.\n\nRestaurants are struggling to deal with higher egg prices and an inability to get enough eggs and egg products in the midst of a shortage brought about by a bird flu virus that wiped out millions of chickens on commercial farms this spring. Some restaurants are pulling especially eggy dishes off menus while others are contemplating raising prices until the supply returns to normal.\n\nGetting eggs from a smaller, local producer \u2014 which have largely been spared from the outbreak \u2014 has not protected Omaha restaurant owner Nick Bartholomew and other independently-owned eateries. His supplier's inventory has dwindled to meet demand and production is down because of testing by federal safety officials. And the re"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20260605_19",
+      "date": "2026-06-04",
+      "question": "Which two teams are playing in the 2026 NBA Finals?",
+      "gold_answer": "San Antonio Spurs and New York Knicks",
+      "stale_prediction": "The Cavaliers, the Celtics",
+      "context_head": "Steph Curry and Klay Thompson got the 2024 Emirates NBA Cup started off last week with a playoff-like atmosphere for Thompson's return to the Bay Area with the Dallas Mavericks. This week, the record-setting Cleveland Cavaliers continue to chase history in a matchup against the defending NBA champion Boston Celtics that just so happens to be part of group play for the league's second annual in-season tournament.\n\nThe Cavaliers and their 15-0 record to begin the 2024-25 season will take center stage on TNT against the Celtics, who currently sit in second place in the Eastern Conference standings. But there are five more games on the schedule if that isn't enough. The Oklahoma City Thunder are also in action on TNT, facing Victor Wembanyama and the San Antonio Spurs. Luka Doncic and LeBron James are slated to be in action in conjunction with most teams having played just one NBA Cup game t"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20260123_9",
+      "date": "2026-01-22",
+      "question": "Which university won the college football national championship for the first time in school history?",
+      "gold_answer": "Indiana University",
+      "stale_prediction": "Jackson State",
+      "context_head": "July 2, 2021, 7:02 a.m. ET\n\nWinning national championships is always at the top of the to-do list for Alabama athletics, but a close second is defeating SEC counterparts on the way to a conference championship. The road to an SEC title is always sweeter when those wins include victories over Auburn and Tennessee.\n\nAlabama had a good 2020-21 season versus its in-state rival, going 12-5 against the Tigers. The Crimson Tide handily defeated Auburn 42-13 in the Iron Bowl, and the men's and women's basketball teams went a combined 4-0 vs the Tigers, winning two games apiece. The softball team swept the season series 3-0. Gymnastics came out on top of its lone head-to-head meeting. Baseball broke the hearts of Auburn fans, by winning two of three games via walk-offs.\n\nGIVING BACK: Bo Scarborough excited to run July football clinic with former Alabama players\n\nTennessee proved to be a more diff"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20260109_2",
+      "date": "2026-01-08",
+      "question": "What is the name of the virus strain driving high levels of flu activity across the US?",
+      "gold_answer": "Subclade K",
+      "stale_prediction": "H5N1\u75c5\u6bd2",
+      "context_head": "Trevor Hughes\n\nUSA TODAY\n\nMarch 7, 2015, 6:08 a.m. ET\n\nDENVER \u2014 Flu season is beginning to tail off, but thousands of Americans still are grappling with the illness blamed for killing nearly 100 kids, doctors and federal officials say.\n\nSix states \u2014 including Connecticut, New Jersey and Oklahoma \u2014 still are reporting high flu-like illnesses, down from 11 states the week before. New York City and 30 states now are seeing only minimal activity, the federal Centers for Disease Control and Prevention said.\n\nFlu activity across the country has been at elevated\" levels for 15 consecutive weeks, the CDC reported Friday. A typical flu season lasts 13 weeks.\n\n\"Because this season started relatively early, it is expected to last longer,\" officials said.\n\nA flu virus that hits the elderly and young particularly hard and a vaccine that wasn't a good match for the dominant strain this year, known as "
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20250613_19",
+      "date": "2025-06-12",
+      "question": "Chipotle is launching a new dip next week in which flavor?",
+      "gold_answer": "Adobo Ranch",
+      "stale_prediction": "queso",
+      "context_head": "From 2013-2016, just over 36% of adults consumed fast food on a given day, the Centers for Disease Control and Prevention reported. The rise of \"fast casual,\" however, changed the price tag, style and meaning of \u201cfast food.\u201d\n\nBoasting burritos with swanky names, plant-based options and salad bars, fast casual restaurants doubled in sales and location between 2009 and 2018. Chipotle CEO Steve Ells opened his first location in 1993, a modest burrito shop, but by 2017 the chain had almost 2,300 locations.\n\nThis changing landscape also meant a new scale for \u201chealthy\u201d and \u201cunhealthy\u201d to-go food.\n\nIs Chipotle healthy?\n\nSodium is likely the biggest threat to healthy eating at Chipotle. A flour tortilla itself has about 600 milligrams of sodium, and Chipotle's meat options range from 310-560 milligrams. Your sodium intake can easily add up with just a burrito order, ticking toward the FDA's reco"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260626_7",
+      "date": "2026-06-26",
+      "question": "Which influential American economist died at the age of 100?",
+      "gold_answer": "Alan Greenspan",
+      "stale_prediction": "David Colton",
+      "context_head": "David Colton\n\nSpecial to USA TODAY\n\nDec. 19, 2021 Updated May 24, 2022, 10:02 a.m. ET\n\nSocial influencers, for good or sometimes bad, have been with us long before Instagram and TikTok turned ordinary people into internet superstars. No matter the generation or technology, the impact of influencers can be global and long-lasting or as personal as a parent, teacher, beloved uncle or longtime friend.\n\nIn the case of Passages, USA TODAY\u2019s annual look at those who died in the past year, the focus is necessarily on the famous and the most talented among us \u2013 in other words, the influencers. Regardless of whether they lived beyond 100 or died young, their examples will endure.\n\nInfluencers included the self-effacing and always candid Republican from Kansas, former Sen. Bob Dole, who died at 98 after 27 years in the Senate, eight years in the House and three runs for the presidency. Severely in"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20260626_7",
+      "date": "2026-06-26",
+      "question": "Which influential American economist died at the age of 100?",
+      "gold_answer": "Alan Greenspan",
+      "stale_prediction": "Jimmy Carter",
+      "context_head": "David Colton\n\nSpecial to USA TODAY\n\nDec. 19, 2021 Updated May 24, 2022, 10:02 a.m. ET\n\nSocial influencers, for good or sometimes bad, have been with us long before Instagram and TikTok turned ordinary people into internet superstars. No matter the generation or technology, the impact of influencers can be global and long-lasting or as personal as a parent, teacher, beloved uncle or longtime friend.\n\nIn the case of Passages, USA TODAY\u2019s annual look at those who died in the past year, the focus is necessarily on the famous and the most talented among us \u2013 in other words, the influencers. Regardless of whether they lived beyond 100 or died young, their examples will endure.\n\nInfluencers included the self-effacing and always candid Republican from Kansas, former Sen. Bob Dole, who died at 98 after 27 years in the Senate, eight years in the House and three runs for the presidency. Severely in"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260206_10",
+      "date": "2026-02-04",
+      "question": "What is the only sport set to make its Olympic debut at the 2026 Games?",
+      "gold_answer": "Skimo (Ski Mountaineering)",
+      "stale_prediction": "Cricket",
+      "context_head": "May 23, 2024 Updated July 25, 2024, 4:13 p.m. ET\n\nEvery four years, the Olympic Games spotlight the world's top athletes across under 50 sports.\n\nThe country will send more than 800 athletes to this year's Summer Olympics in Paris. The next Winter Olympics are set for 2026 in Milan and Cortina d'Ampezzo, Italy.\n\nAs the world counts down to the opening ceremony, here's what to know about the Games' official start, events, location and venues.\n\nWhen do the Olympics start?\n\nThe Paris 2024 Olympics begin on Wednesday, July 24. The first two events of the Games are men's soccer and rugby sevens.\n\nSeveral events will take place the following day, including women's soccer, handball and archery. The Games do not officially start until the opening ceremony on Friday, July 26.\n\nTypically, athletes march into a venue during the Olympics' opening ceremony. This year, however, athletes will float dow"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260417_14",
+      "date": "2026-04-16",
+      "question": "Where did the US Navy begin a blockade this week?",
+      "gold_answer": "Strait of Hormuz",
+      "stale_prediction": "New York Harbor",
+      "context_head": "Aug. 9, 2020, 3:19 p.m. ET\n\nThe Navy will pursue a plan allowing for the greatest amount of training and testing activities in the region, according to its record of decision signed at the end of July.\n\n\"The Navy made its decision after considering its strategic and operational needs; the potential impacts training and testing activities may have on human, natural, and cultural environments; and comments from elected officials, government agencies, organizations, and the public on the proposal and environmental analysis,\" Joint Region Marianas stated.\n\nIn response, Sen. Kelly Marsh will introduce a resolution Monday, calling on the military to cease the use of active sonar in the region, a contested component of its plan.\n\n\u201cThis resolution simply asks the (Department of Defense) to have more open dialogue with the government of Guam and provide the same sort of protections here that they"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260109_5",
+      "date": "2026-01-08",
+      "question": "A fire broke out during a New Year\u2019s celebration at a ski resort bar in which country?",
+      "gold_answer": "Switzerland",
+      "stale_prediction": "Cambodia",
+      "context_head": "Updated Jan. 3, 2020, 7:26 p.m. ET\n\nTwo men are suing a ski resort for breach of contract and fraud after it started charging for plum parking. And you may want to get health insurance soon if you don't already have it or face state fines.\n\nIt's Arlene Marti\u0301nez with news to take you into the weekend.\n\nBut first, Rage Against the Machine returns to Coachella, along with allll these acts.\n\nIn California is a roundup of stories from newsrooms across the USA TODAY Network and beyond. Sign up for M-F delivery here!\n\nJustice crusaders or entitled skiers? You decide.\n\nSteven Kroll, 79, and Ronald Code, 77, are big ski enthusiasts. On the slopes, they are 19 again, unburdened by time. They were, like many skiers, unhappy with new parking charges at the most convenient lot at Northstar California Resort. But unlike the others who just muttered or cursed under their breath, they've taken their di"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260320_6",
+      "date": "2026-03-19",
+      "question": "Who is the White House chief of staff?",
+      "gold_answer": "Susie Wiles",
+      "stale_prediction": "Ron Klain",
+      "context_head": "Nov. 11, 2020 Updated Nov. 12, 2020, 4:09 p.m. ET\n\nWASHINGTON \u2013 Ron Klain, a senior campaign adviser for Joe Biden and onetime top aide for the former vice president, is set to become the president-elect's first White House chief of staff, the Biden campaign announced Wednesday night.\n\nKlain was Biden's chief of staff when he was vice president and served as chief of staff to vice president Al Gore. By tapping Klain to lead his White House, Biden has chosen a Washington veteran with experience fighting the Ebola outbreak just as the new president makes ending the COVID-19 pandemic his top priority.\n\nThe hire, the first made by Biden for his new administration, marks another step toward his White House transition as President Donald Trump contests election results with claims of voter fraud.\n\nKlain, 59, a close confidant of Biden, had long been rumored for the post even before the electio"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20250221_0",
+      "date": "2025-02-21",
+      "question": "All 80 people on board survived after a Delta Air Lines plane flipped over after landing in which city?",
+      "gold_answer": "Toronto",
+      "stale_prediction": "Atlanta",
+      "context_head": "Eleven people were hospitalized after a Delta Air Lines flight hit severe turbulence on approach to Atlanta on Tuesday.\n\nA Delta spokesperson told USA TODAY that flight 175 was en route to Atlanta from Milan when it encountered the bumps.\n\n\u201cDelta Care Team members are mobilizing to connect with customers on Delta Flight 175 that experienced severe turbulence before landing safely in Atlanta Tuesday,\u201d the airline\u2019s statement said. \u201cOur priority is taking care of our customers and crew who sustained injuries. We are grateful for the first responders who met the aircraft to provide medical attention and who are transporting the injured to the hospital.\u201d\n\nAccording to Delta, the flight was carrying 151 passengers and 14 crewmembers, and was operated by an Airbus A350 aircraft. Crewmembers and passengers were both among the injured, but the extent of those injuries was not disclosed by the ai"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20260522_3",
+      "date": "2026-05-22",
+      "question": "Which US talk show came to an end this week after an 11-year run?",
+      "gold_answer": "\u201cThe Late Show with Stephen Colbert\u201d",
+      "stale_prediction": "\"Hardball\"",
+      "context_head": "Updated Feb. 25, 2020, 11:03 a.m. ET\n\nESPN is canceling talk show \"High Noon,\" the network announced Monday. The show will run through the end of March before an official final episode.\n\nSports journalists Bomani Jones and Pablo Torre hosted the show, which began as an experimental venture in June 2018, after they thrived in writing and podcast roles for the network. \"High Noon\" was overseen by longtime producer Erik Rydholm, the creator of ESPN's popular sports talk shows \"Pardon the Interruption,\" \"Around the Horn\" and \"Highly Questionable.\"\n\n\u201cCo-hosts Pablo Torre and Bomani Jones are extremely talented, and they helmed what we believe was a smart and nuanced show,\" ESPN said in a statement. \"Unfortunately, not enough people agreed with us. We look forward to discussing with them how to best utilize their talents across a variety of ESPN platforms.\"\n\nNCAA TOURNAMENT: Six bubble teams w"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20250905_4",
+      "date": "2025-09-04",
+      "question": "More than 1,000 current and former employees of the Department of Health and Human Services signed an open letter calling for which of the following?",
+      "gold_answer": "The resignation of Secretary Robert F. Kennedy Jr.",
+      "stale_prediction": "improving on your current step count can make a difference",
+      "context_head": "Ryan J. Foley and Barbara Rodriguez\n\nAssociated Press\n\nPublic employees in Iowa have been fired in recent months for misconduct such as theft, fraud and student mistreatment, according to records obtained under a new law that reveals those details for the first time.\n\nAn officer allegedly submitted fraudulent expense forms seeking reimbursement for 2,200 miles that he didn't drive. A clerk was accused of having 400 work records buried in her desk that she claimed she had completed. And a paraeducator who worked with children with autism allegedly mistreated a student.\n\nDocuments detailing the firings and demotions of public employees have become available under a little-noticed but dramatic change to the Iowa Open Records Act signed by then-Gov. Terry Branstad in February. The Associated Press used the law to obtain records that shed light on an aspect of public sector work that had been"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260130_9",
+      "date": "2026-01-30",
+      "question": "Which member of the Trump family released a documentary this week?",
+      "gold_answer": "Melania Trump",
+      "stale_prediction": "Alex Holder",
+      "context_head": "CNN \u2014\n\nIn a promotional video from a documentary that is of interest to the House select committee investigating January 6, 2021, former President Donald Trump is heard being asked about the day of the attack on the US Capitol.\n\nThe trailer does not include additional footage of the interaction with Trump beyond him saying, \u201cYes.\u201d The trailer will be released by Discovery Plus, which is owned by CNN\u2019s parent company, and is the first video from the documentary released publicly.\n\nThe interview was shot by Alex Holder, a British documentarian subpoenaed by the committee who has turned over raw footage of his interviews with Trump, members of the Trump family and former Vice President Mike Pence, according to a statement he released earlier this week.\n\nThe footage is a new development in the ongoing January 6, 2021, investigation and two criminal probes related to Trump\u2019s efforts to overtu"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260123_9",
+      "date": "2026-01-22",
+      "question": "Which university won the college football national championship for the first time in school history?",
+      "gold_answer": "Indiana University",
+      "stale_prediction": "LSU",
+      "context_head": "July 2, 2021, 7:02 a.m. ET\n\nWinning national championships is always at the top of the to-do list for Alabama athletics, but a close second is defeating SEC counterparts on the way to a conference championship. The road to an SEC title is always sweeter when those wins include victories over Auburn and Tennessee.\n\nAlabama had a good 2020-21 season versus its in-state rival, going 12-5 against the Tigers. The Crimson Tide handily defeated Auburn 42-13 in the Iron Bowl, and the men's and women's basketball teams went a combined 4-0 vs the Tigers, winning two games apiece. The softball team swept the season series 3-0. Gymnastics came out on top of its lone head-to-head meeting. Baseball broke the hearts of Auburn fans, by winning two of three games via walk-offs.\n\nGIVING BACK: Bo Scarborough excited to run July football clinic with former Alabama players\n\nTennessee proved to be a more diff"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20260501_19",
+      "date": "2026-04-30",
+      "question": "Which airline recently unveiled an \u201cIndependence One\u201d plane in honor of America's 250th anniversary?",
+      "gold_answer": "Southwest Airlines",
+      "stale_prediction": "Delta",
+      "context_head": "From USA TODAY Network and wire reports\n\nAlabama\n\nMontgomery: Delta is now flying bigger airplanes in and out of the capital city, and it will allow even more people aboard beginning in May. The changes are part of a plan to increase airline capacity in Montgomery toward pre-pandemic levels. The airport reported Delta started the month with bigger aircraft making the airline\u2019s four daily flights between Montgomery and Atlanta, meaning more seats for passengers. Capacity will increase again May 1 when Delta starts allowing middle-seat passengers for the first time this year. One pandemic change that\u2019s not going away is Delta\u2019s new cleaning and sanitation procedures. The airline has announced that they\u2019ll become permanent. Federal guidelines require air travelers to continue wearing masks. American Airlines resumed nonstop flights between Montgomery and Washington, D.C., earlier this month"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20250328_16",
+      "date": "2025-03-27",
+      "question": "A rock on display for 20 years at an Australian high school hid which secret in plain sight?",
+      "gold_answer": "A cache of fossilized dinosaur footprints",
+      "stale_prediction": "Uluru",
+      "context_head": "Greta Bjornson\n\nUniversity of Vermont\n\nOn Jan. 20, 2006, the world as we knew it forever changed \u2014 well, for Disney Channel fans, that is. That's when Troy Bolton, Gabriella Marquez and the rest of the East High School Wildcats burst onto the small screen in High School Musical .\n\nThe franchise was so successful that it spawned two sequels and became a childhood, pop culture essential for many Millennials. In true high school fashion, (most of) the cast reunited for a highly anticipated, 10-year reunion TV special on Jan. 20, which aired on the Disney Channel.\n\nWhile the lives of Troy and Gabriella will be forever immortalized on TV and on the big screen, the stars who played these high school students have moved beyond East High in the last decade, as to be expected. Here\u2019s an update on what the former Wildcats are up to now. Bonus: Real students weigh in.\n\nZac Efron\n\nThen: Efron was 18"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260515_4",
+      "date": "2026-05-15",
+      "question": "Who did Fifa announce as the featured performers at the men\u2019s football World Cup final\u2019s first-ever half-time show this summer?",
+      "gold_answer": "Madonna, Shakira and BTS",
+      "stale_prediction": "Human rights groups described it as \"crass\" and an \"insult\" to migrant workers.",
+      "context_head": "The largest athletic competition in the world fittingly includes the most popular sport in the world.\n\nWith the exception of one year \u2014 1932, in which no tournament was held \u2014 men\u2019s soccer has been a part of the Summer Olympics since 1900, just four years after the first modern Olympic Games in Athens.\n\nDuring that time, the sport\u2019s most historically accomplished countries have taken part in the event, as well as some of the best players of their respective eras, from Lionel Messi to Neymar to Samuel Eto\u2019o.\n\n2024 PARIS OLYMPICS:Meet all members of Team USA at the Summer Olympics\n\nBut unlike many of the sports that will be contested over the next several weeks at the 2024 Paris Olympics, winning a gold medal at the Games isn\u2019t regarded as the most prestigious, sought-after accomplishment in international soccer.\n\n2024 Olympic medals: Who is leading the medal count? Follow along as we trac"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20250328_10",
+      "date": "2025-03-27",
+      "question": "Top members of President Donald Trump\u2019s Cabinet recently sent detailed operational plans and other likely classified information about US military strikes in Yemen to a group chat that included a journalist. Which app did they use?",
+      "gold_answer": "Signal",
+      "stale_prediction": "Truth Social",
+      "context_head": "WASHINGTON \u2013 President-elect Donald Trump\u2019s first press conference since winning re-election demonstrated once again his ability to dominate a news cycle \u2013 and on a variety of fronts.\n\nTrump had organized Monday's event at Mar-a-Lago to tout a $100 billion investment he negotiated with a major Japanese tech firm. But, by the time it ended more than an hour later, he had stoked a media frenzy with controversial comments on a range of topics \u2013 from the potential ban on the social media platform TikTok to the causes of autism and the origins of drones that have been sighted over New Jersey and elsewhere.\n\nIn many ways, Trump's news conference brought back memories from his first term, when the former Republican president frequently entered the White House briefing room to jostle with reporters and with his responses control the daily headlines.\n\nBut Monday's atmosphere appeared more cordial"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260109_2",
+      "date": "2026-01-08",
+      "question": "What is the name of the virus strain driving high levels of flu activity across the US?",
+      "gold_answer": "Subclade K",
+      "stale_prediction": "H5 influenza A",
+      "context_head": "Trevor Hughes\n\nUSA TODAY\n\nMarch 7, 2015, 6:08 a.m. ET\n\nDENVER \u2014 Flu season is beginning to tail off, but thousands of Americans still are grappling with the illness blamed for killing nearly 100 kids, doctors and federal officials say.\n\nSix states \u2014 including Connecticut, New Jersey and Oklahoma \u2014 still are reporting high flu-like illnesses, down from 11 states the week before. New York City and 30 states now are seeing only minimal activity, the federal Centers for Disease Control and Prevention said.\n\nFlu activity across the country has been at elevated\" levels for 15 consecutive weeks, the CDC reported Friday. A typical flu season lasts 13 weeks.\n\n\"Because this season started relatively early, it is expected to last longer,\" officials said.\n\nA flu virus that hits the elderly and young particularly hard and a vaccine that wasn't a good match for the dominant strain this year, known as "
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20250523_15",
+      "date": "2025-05-22",
+      "question": "Which best-selling album is turning 25 this year?",
+      "gold_answer": "\u201cOops!\u2026 I Did It Again\u201d by Britney Spears",
+      "stale_prediction": "1989",
+      "context_head": "Brian Mansfield\n\nUSA TODAY\n\nUSA TODAY's senior music writer Brian Mansfield picks his five favorites of the year.\n\n1. Taylor Swift, 1989\n\nThe most amazing thing about Swift isn't her global pop dominance, her knack for writing insanely catchy hooks or her ability to still look surprised when she wins an award. It's that she's still developing. She didn't just go pop with her fifth album; she made fundamental changes to the kinds of melodies and songs she writes, while working with people from Swedish megahit producer Max Martin to English singer/songwriter Imogen Heap to her original Nashville producer. Having just turned 25, it's entirely possible her best, most creative years are still ahead of her.\n\n2. Eric Church, The Outsiders\n\nCan someone with one of 2014's top-selling country albums still be an \"outsider\"? He can when he makes albums this startling and ambitious, drawing inspirati"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260508_12",
+      "date": "2026-05-08",
+      "question": "Which virus has been linked to a recent deadly outbreak aboard a cruise ship?",
+      "gold_answer": "Hantavirus",
+      "stale_prediction": "COVID-19",
+      "context_head": "A cruise ship carrying at least 800 passengers infected with COVID-19 has docked in Sydney, Australia, multiple outlets reported.\n\nThe Majestic Princess, which returned from New Zealand, was carrying more than 4,000 people aboard, according to the Australian Broadcasting Corp.\n\nPrincess Cruises, the cruise line, said in a statement that all guests onboard the holiday cruise took a rapid antigen test within less than a day of disembarking and passengers who had tested positive would exit separately and not take public transport, the Washington Post reported Saturday.\n\n\u201cOur onboard medical team will continue to support guests until they disembark,\u201d the cruise line said in a statement.\n\nThe cruise line did not say whether guests who had tested positive could isolate onboard until they recovered, the outlet reported, though the company said it would help guests access accommodation for isola"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20250516_11",
+      "date": "2025-05-15",
+      "question": "Which Marvel star got engaged in Paris this week?",
+      "gold_answer": "Simu Liu",
+      "stale_prediction": "Tana Mongeau",
+      "context_head": "Move over, Marvel: Paris Hilton might have the most ambitious crossover event in history.\n\nAfter the trailer for Marvel's Avengers: Infinity War came out last week, the Internet felt the need to let Marvel know that the upcoming superhero flick was not the best crossover event in recent history.\n\nThe meme attributes the quote to Marvel, although there's no evidence the studio made the claim, and serves up a better example of an ambitious crossover.\n\nHilton, 37, added her own flair to the meme with a major throwback photo.\n\nHer example of the most ambitious crossover? \"The Holy Trinity,\" aka her infamous 2006 girls' night out with Britney Spears and Lindsay Lohan.\n\nNeed a break? Play the USA TODAY Daily Crossword Puzzle.\n\nHilton previously celebrated the 11th anniversary of the first coming of the triple threat back in November on Twitter.\n\nMore: Paris Hilton and boyfriend Chris Zylka are"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20250131_6",
+      "date": "2025-01-31",
+      "question": "The Royal Navy announced a name change for which new submarine, apparently to avoid upsetting the French?",
+      "gold_answer": "HMS Agincourt",
+      "stale_prediction": "Belgorod",
+      "context_head": "Seoul, South Korea CNN \u2014\n\nThe Russian Navy has taken delivery of what is the world\u2019s longest known submarine, one its maker touts as a research vessel \u2013 but what others say is a platform for espionage and possibly nuclear weapons.\n\nThe Belgorod was turned over to the Russian Navy earlier this month in the port of Severodvinsk, according to the country\u2019s largest shipbuilder, Sevmash Shipyard.\n\nExperts say its design is a modified version of Russia\u2019s Oscar II class guided-missile submarines, made longer with the aim to eventually accommodate the world\u2019s first nuclear-armed stealth torpedoes and equipment for intelligence gathering.\n\nIf the Belgorod can successfully add those new capabilities to the Russian fleet, it could in the next decade set the stage for a return to scenes of the Cold War under the ocean, with US and Russian subs tracking and hunting each other in tense face-offs.\n\nAt "
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20260515_12",
+      "date": "2026-05-14",
+      "question": "How much has the war in Iran cost Americans so far?",
+      "gold_answer": "$29 billion",
+      "stale_prediction": "No casualties.\nIt was a warning shot,\nTrump spoke of \"minimal damage\" and \"Iran standing down\" in a relatively restrained retaliation\n\nNone of the provided",
+      "context_head": "John Harrington and Grant Suneson\n\n24/7 Wall Street\n\nWith the recent commemoration of the 75th anniversary of D-Day, we are reminded once again of the human cost of freedom and liberty. While some attempt to rank wars by the number of casualties, others would consider the social, environmental and political upheaval that comes with sustained conflict. And, of course, there is always the financial cost.\n\nMany factors can affect the cost of waging war. To determine the most expensive wars in U.S. history, 24/7 Wall St. used a 2010 report from the Congressional Research Service titled \u201cCosts of Major U.S. Wars.\u201d\n\n13. War of 1812\n\n\u2022 U.S. war spending (2019 dollars): $1.78 billion\n\n\u2022 Duration: 2 years, 8 months\n\n\u2022 U.S. military deaths: 15,000\n\nThe newly created American nation was in dispute with the British Empire in the early 19th century. The United States claimed the British were trying t"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260612_11",
+      "date": "2026-06-11",
+      "question": "What is the name of the flesh-eating parasite that was recently detected in US livestock for the first time in decades?",
+      "gold_answer": "Screwworm",
+      "stale_prediction": "hookworm",
+      "context_head": "From USA TODAY Network and wire reports\n\nAlabama\n\nBirmingham: Researchers are once again trying to determine whether the state\u2019s Black Belt region has a problem with intestinal parasites called hookworm. A study led by University of Alabama at Birmingham is recruiting participants for a program that will screen hundreds of children in Wilcox and Perry counties for signs of hookworm. State health officials took issue with a previous study involving Baylor University that found evidence of hookworm. The parasite was once widespread in the United States and is now a problem mainly in underdeveloped counties. Health officials say poor waste disposal systems and environmental conditions in rural west Alabama put the area at risk for the problem. UAB announced the new program in a statement this week. The work is being funded by the Centers for Disease Control and Prevention.\n\nAlaska\n\nBethel: "
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260327_7",
+      "date": "2026-03-26",
+      "question": "Which New York-area airport was shut down this week after a fatal runway collision?",
+      "gold_answer": "LaGuardia Airport",
+      "stale_prediction": "Dubuque, Iowa",
+      "context_head": "Steve Reilly\n\nUSA TODAY\n\nUpdated Nov. 24, 2014, 6:17 p.m. ET\n\nNear runway collisions involving commercial airplanes climbed two-thirds from 2003 to 2013 at U.S. airports to a rate of nearly one per day, as a shift to major hubs led to increased traffic in most of those cities, according to a USA TODAY review of federal data.\n\nThe most severe incidents, like a 2011 close call at Chicago Midway International Airport where a departing jet narrowly missed a taxiing Boeing 737 by 62 feet, are down and officials say that shows progress.\n\nThere were 341 reported runway incidents \u2013 known in the aviation industry as \"runway incursions\" \u2013 involving at least one foreign or domestic commercial flight last year. In six of those incidents, a plane encountered a severe risk of a crash. In the rest, the incidents were less serious but deemed by federal officials to present a collision hazard.\n\nThe three"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20260501_10",
+      "date": "2026-04-30",
+      "question": "Which royal was welcomed to the US this week for a state visit?",
+      "gold_answer": "Britain\u2019s King Charles III",
+      "stale_prediction": "Princess Elizabeth",
+      "context_head": "A version of this story appeared in the November 25 edition of CNN\u2019s Royal News, a weekly dispatch bringing you the inside track on Britain\u2019s royal family. Sign up here.\n\nLondon \u2014\n\nAnother week, another set of firsts for the new King. This time round, Charles III hosted the first state visit of his reign and welcomed South African President Cyril Ramaphosa to the UK.\n\nIt was a short two-day visit but that didn\u2019t stop the monarch from pulling out the stops for a diplomatic tour de force designed to reinforce the relationship between the two nations.\n\nThe trip had been in the works before Queen Elizabeth II\u2019s death and while state visits generally stick to a time-honored program of events, King Charles still managed to put his own stamp on the occasion.\n\nHe kicked things off with a grand processional welcome teeming with British pomp and pageantry. Charles wasn\u2019t alone as he warmly welcome"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20260612_15",
+      "date": "2026-06-11",
+      "question": "Which public figure testified on Capitol Hill this week about his ties to Jeffrey Epstein?",
+      "gold_answer": "Bill Gates",
+      "stale_prediction": "Prince Charles",
+      "context_head": "'Get this man out of our lives': Uvalde victim's grandmother calls for police chief's resignation\n\n'This turned my life upside down': Former election worker testified in Jan 6 hearing\n\nWandrea \"Shaye\" Moss, a former Georgia election worker, is comforted by her mother Ruby Freeman, right, as the House select committee investigating the Jan. 6 attack on the U.S. Capitol continues to reveal its findings of a year-long investigation, at the Capitol in Washington, Tuesday, June 21, 2022.\n\nVoter on Jan. 6 hearings: They're after Trump, not the truth\n\nEvidence against Trump is growing: An impeachment lawyer's perspective on the Jan. 6 hearings\n\nUS President Donald Trump speaks to supporters from The Ellipse near the White House on January 6, 2021, in Washington, DC. - Thousands of Trump supporters, fueled by his spurious claims of voter fraud, are flooding the nation's capital protesting the ex"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20250411_0",
+      "date": "2025-04-11",
+      "question": "A \"de-extinction\" start-up claims it has revived a prehistoric species of which animal?",
+      "gold_answer": "Wolf",
+      "stale_prediction": "thylacine",
+      "context_head": "Tasmanian tigers were hunted to extinction decades ago, but a recent scientific breakthrough has raised hope that the animal and potentially other long-lost species could one day be resurrected.\n\nScientists were recently able to recover and sequence RNA from a roughly 130-year-old Tasmanian tiger, also known as a thylacine, preserved at a museum in Stockholm. The feat marks the first time RNA molecules have been isolated and decoded from an extinct species, according to a new study published Tuesday in the journal Genome Research.\n\nIt may sound like a plot right out of a Jurassic Park movie, but the implications of the study are no mere fiction: Scientists are now one step closer to reviving not only the Tasmanian tiger, but perhaps other extinct species in the future.\n\nRecord-setting trip to space: Astronaut Frank Rubio spent a record 371 days in space. The trip was planned to be 6 mont"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260522_3",
+      "date": "2026-05-22",
+      "question": "Which US talk show came to an end this week after an 11-year run?",
+      "gold_answer": "\u201cThe Late Show with Stephen Colbert\u201d",
+      "stale_prediction": "Conan",
+      "context_head": "Updated Feb. 25, 2020, 11:03 a.m. ET\n\nESPN is canceling talk show \"High Noon,\" the network announced Monday. The show will run through the end of March before an official final episode.\n\nSports journalists Bomani Jones and Pablo Torre hosted the show, which began as an experimental venture in June 2018, after they thrived in writing and podcast roles for the network. \"High Noon\" was overseen by longtime producer Erik Rydholm, the creator of ESPN's popular sports talk shows \"Pardon the Interruption,\" \"Around the Horn\" and \"Highly Questionable.\"\n\n\u201cCo-hosts Pablo Torre and Bomani Jones are extremely talented, and they helmed what we believe was a smart and nuanced show,\" ESPN said in a statement. \"Unfortunately, not enough people agreed with us. We look forward to discussing with them how to best utilize their talents across a variety of ESPN platforms.\"\n\nNCAA TOURNAMENT: Six bubble teams w"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20260213_3",
+      "date": "2026-02-12",
+      "question": "The FAA announced an unprecedented airspace shutdown this week over which Texas city?",
+      "gold_answer": "El Paso",
+      "stale_prediction": "Dallas-Fort Worth",
+      "context_head": "More than 10,000 flights in the U.S. were delayed or canceled as a technical failure forced the Federal Aviation Administration to pause departures nationwide for about 90 minutes Wednesday morning.\n\nAccording to the agency, an outage affecting the Notice to Air Missions (NOTAM) system, which alerts pilots to safety issues at and around the nation's airports, was behind the disruption.\n\nThe FAA has not yet identified a specific cause of the failure, but experts told USA TODAY that the U.S. air traffic control system often relies on outdated technology to keep things moving, and a computer glitch of some kind probably was responsible.\n\nThe latest: Thousands of flights delayed, canceled across US after FAA computer outage\n\n'A huge vulnerability':Lawmakers vow probe of FAA outage grounding thousands of flights\n\nWith the FAA up for reauthorization in Congress this year, those same experts sa"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260220_2",
+      "date": "2026-02-19",
+      "question": "Andrew Mountbatten-Windsor was arrested on Thursday on suspicion of misconduct in public office. Who is his older brother?",
+      "gold_answer": "King Charles III",
+      "stale_prediction": "Prince Charles",
+      "context_head": "The disgraced duke had faced \u201cincreasing pressure\u201d from the Royal Family to settle and bring the case to an end after it \u201cthreatened to overshadow the Queen\u2019s jubilee celebrations \u201d, according to The Times . Prince Charles, his older brother, is thought to have been a particularly \u201cprominent voice\u201d on the matter.\n\nBut in reaching the settlement he agreed to make a \u201csubstantial donation\u201d to Giuffre\u2019s charity for victims of abuse, pledging to \u201cdemonstrate his regret for his association with Epstein\u201d by supporting the \u201cfight against the evils of sex trafficking and by supporting its victims\u201d.\n\nAndrew has always denied the allegations that he sexually abused Guiffre after she was \u201ctrafficked by his friend and convicted sex offender Jeffrey Epstein\u201d, said The Guardian.\n\n\u201cI am going to take the opportunity to raise this issue in parliament because the issue isn\u2019t going to go away until people "
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260424_0",
+      "date": "2026-04-24",
+      "question": "Which Trump administration official filed a $250 million defamation suit against The Atlantic magazine?",
+      "gold_answer": "Kash Patel",
+      "stale_prediction": "Dominion Voting Systems",
+      "context_head": "In the wake of the 2020 presidential election, once it became clear that then-President Donald Trump had lost the race to Joe Biden, allies of the former president began claiming without evidence that the election had been stolen.\n\nDominion Voting Systems, a private voting machine manufacturer, became central to those claims, which asserted that the company conspired with Democrats to rig the election against Trump.\n\nIn 2021, Dominion filed a series of defamation lawsuits against key election deniers, suggesting their unfounded claims caused \u201csevere damage\u201d to the company.\n\n\u201cThese lies also have threatened the personal safety of our employees and customers,\u201d Dominion CEO John Poulos said after filing one of the lawsuits. \u201cNo amount of money will repair the damage done.\"\n\nHere\u2019s what we know.\n\nStay in the conversation on politics:Sign up for the OnPolitics newsletter\n\nWhat is the backgrou"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20250509_10",
+      "date": "2025-05-08",
+      "question": "Which political figure was recently given the John F. Kennedy Profile in Courage Award?",
+      "gold_answer": "Former Vice President Mike Pence",
+      "stale_prediction": "Jack Schlossberg",
+      "context_head": "Stephanie Cutter, USA TODAY\n\nEleven years ago, I went to work for then-Sen. Barack Obama because I knew he\u2019d always be true to what he believed in and to the people he was fighting for. I saw him in action in the Senate, including working with my personal hero and friend, Sen. Ted Kennedy, who had an extraordinary sense for identifying young senators who, in his words, were \u201cthe real deal.\u201d\n\nOver the course of eight years, I saw Kennedy\u2019s words proved true. Despite raising money from Wall Street for his campaign, President Obama took it on amid the financial crisis and enacted the toughest reforms since Franklin D. Roosevelt\u2019s presidency.\n\nObama was the most transparent president ever, setting historic standards of disclosure, which are being thrown out the window today. After a life in public service, President Obama is now a private citizen, and he\u2019s dedicating his work to elevating a "
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260327_2",
+      "date": "2026-03-26",
+      "question": "Which issue was at the center of a landmark ruling involving Meta and YouTube this week?",
+      "gold_answer": "Social media addiction",
+      "stale_prediction": "Facebook",
+      "context_head": "CNN Business \u2014\n\nFacebook, Twitter and YouTube are all taking tougher stances on content from Russian state media amid intensifying pressure from European officials for the Big Tech platforms to act against pro-Russian propaganda and address the escalating information war in Ukraine and across the internet.\n\nBut there are concerns that cracking down too aggressively could come with unintended consequences, both for the platforms and for Russian citizens who rely on those services.\n\nFacebook (FB)-parent Meta will block access to Russian news outlets RT and Sputnik across the European Union after receiving \u201crequests from a number of Governments and the EU to take further steps in relation to Russian state controlled media,\u201d Nick Clegg, the company\u2019s VP of global affairs, said in a tweet Monday.\n\nNathaniel Gleicher, Meta\u2019s head of security policy, previously told reporters Sunday evening tha"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20230317_1",
+      "date": "2023-03-16",
+      "question": "Many Americans were on edge this week following the collapse of which two banks?",
+      "gold_answer": "Silicon Valley Bank & Signature Bank",
+      "stale_prediction": "First Republic Bank\nSilicon Valley Bank",
+      "context_head": "With the failure of three regional banks since March, and another one teetering on the brink, will America soon see a cascade of bank failures?\n\nBloomberg reported Wednesday that San Francisco-based PacWest Bancorp is mulling a sale.\n\nLast week, First Republic Bank became the third bank to collapse, the second-largest bank failure in U.S. history after Washington Mutual, which collapsed in 2008 amid the financial crisis.\n\nAfter the demise of Silicon Valley Bank and Signature Bank in March, a study on the fragility of the U.S. banking system found that 186 more banks are at risk of failure even if only half of their uninsured depositors (uninsured depositors stand to lose a part of their deposits if the bank fails, potentially giving them incentives to run) decide to withdraw their funds.\n\nUninsured deposits are customer deposits greater than the $250,000 FDIC deposit insurance limit.\n\nLe"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260220_6",
+      "date": "2026-02-19",
+      "question": "What is the name of the organization that President Donald Trump created to resolve global conflicts?",
+      "gold_answer": "Board of Peace",
+      "stale_prediction": "U.N. Security Council",
+      "context_head": "WASHINGTON \u2013 When the head of the United Nations first called for a \u201cglobal cease-fire\u201d on March 23, it seemed like a quixotic quest that would fall on the deaf ears of warring guerrillas, militant terrorists and belligerent governments across the globe.\n\nBut over the past month, fighters from Colombia to Ukraine have signaled a willingness to put down their weapons as the world confronts a deadly pandemic that could devastate civilian populations and armies alike.\n\nThe 15-member U.N. Security Council may vote as early as this week on a resolution that demands an \u201cimmediate cessation of hostilities in all countries on its agenda\u201d and calls for armed groups to engage in a 30-day cease-fire, according to a draft of the measure obtained by USA TODAY.\n\nIts fate is uncertain, and experts say it comes with many caveats and exceptions \u2013 including a loophole that could allow Russia to continue b"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260508_5",
+      "date": "2026-05-08",
+      "question": "Which tech company was sued by a group including five major publishers for copyright infringement?",
+      "gold_answer": "Meta",
+      "stale_prediction": "Google",
+      "context_head": "AP\n\nOct. 4, 2012, 1:37 p.m. ET\n\nSettlement ends lawsuit by publishers filed in 2005\n\nGoogle already has scanned more than 20 million books\n\nA judge had tossed a prior deal following objections\n\nMOUNTAIN VIEW, Calif. (AP) \u2014 Google and U.S. publishers have settled a longstanding dispute over Google's book-scanning project. A lawsuit filed by authors remains, though, leaving the project in question.\n\nThe Association of American Publishers and Google announced their settlement on Thursday to end a lawsuit filed by five publishers in October 2005.\n\nGoogle already has scanned more than 20 million books. Publishers and authors sued, saying the project violated their copyrights. Authors' and publishers' groups had settled with Google before, but a federal judge tossed the deal following objections. One point of contention was the fact that books were included unless Google was informed that an a"
+    },
+    {
+      "model": "qwen32b",
+      "model_name": "Qwen2.5-32B",
+      "qid": "20250516_2",
+      "date": "2025-05-16",
+      "question": "The Cannes Film Festival has banned what from its red carpet?",
+      "gold_answer": "Nudity",
+      "stale_prediction": "self-obsessive snaps",
+      "context_head": "Bryan Alexander\n\nUSA TODAY\n\nCANNES, France \u2014 The Cannes Film Festival is aiming to go anti-Kardashian.\n\nOrganizers for the international film festival, which kicks off Wednesday in France, are seeking to cut down on time-wasting, self-obsessive snaps during the long walk to the famed Palais for nightly premieres.\n\nFestival director Thierry Fre\u0301maux put a shot across the Selfie Nation bow by decrying the practice on the glamorous Cannes red carpet, calling the photos \"ridiculous and grotesque.\"\n\n\"You never look as ugly as you do in a selfie,\" Fremaux told the media during an April press conference announcing the 2015 festival film lineup.\n\nFestival attendees, and even some of the film stars themselves, do slow down the red carpet entrance with selfie-taking.\n\nNeed a break? Play the USA TODAY Daily Crossword Puzzle.\n\n\"Everyone does it. I've seen big stars do it because it's the first time "
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260213_3",
+      "date": "2026-02-12",
+      "question": "The FAA announced an unprecedented airspace shutdown this week over which Texas city?",
+      "gold_answer": "El Paso",
+      "stale_prediction": "Dallas",
+      "context_head": "More than 10,000 flights in the U.S. were delayed or canceled as a technical failure forced the Federal Aviation Administration to pause departures nationwide for about 90 minutes Wednesday morning.\n\nAccording to the agency, an outage affecting the Notice to Air Missions (NOTAM) system, which alerts pilots to safety issues at and around the nation's airports, was behind the disruption.\n\nThe FAA has not yet identified a specific cause of the failure, but experts told USA TODAY that the U.S. air traffic control system often relies on outdated technology to keep things moving, and a computer glitch of some kind probably was responsible.\n\nThe latest: Thousands of flights delayed, canceled across US after FAA computer outage\n\n'A huge vulnerability':Lawmakers vow probe of FAA outage grounding thousands of flights\n\nWith the FAA up for reauthorization in Congress this year, those same experts sa"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20260417_3",
+      "date": "2026-04-17",
+      "question": "The Democrat candidate for governor of which state withdrew from the race amid claims of sexual misconduct?",
+      "gold_answer": "California",
+      "stale_prediction": "Jeremy Durham",
+      "context_head": "Nov. 8, 2022 Updated Nov. 9, 2022, 6:18 a.m. ET\n\nEditor's note: This page recaps the news from Election Day 2022. For updated information about voting results in key races, check out of live updates file for Wednesday, Nov. 9.\n\nDemocrat John Fetterman won the hard-fought U.S. Senate race in Pennsylvania against Republican Mehmet Oz, flipping a seat held by retiring GOP Sen. Pat Toomey.\n\nFetterman's victory reinforced other signs that a \u201cred wave\u201d of Republican strength had not materialized, as Democrats held on to several competitive Senate and governor seats.\n\nWhich party control the House and Senate is still undecided. Republican J.D. Vance bettered Republicans' chances of taking the Senate with his win over Democratic Rep. Tim Ryan. But Democratic Sen. Maggie Hassan defeated a GOP challenger in the competitive New Hampshire race.\n\nA handful of the closely watched Senate races have yet"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20250718_14",
+      "date": "2025-07-18",
+      "question": "President Trump has threatened to revoke which celebrity\u2019s US citizenship?",
+      "gold_answer": "Rosie O\u2019Donnell",
+      "stale_prediction": "14th Amendment",
+      "context_head": "USA TODAY\n\nUpdated Oct. 30, 2018, 10:03 p.m. ET\n\nPresident Donald Trump said in an interview with Axios on HBO that he plans to sign an executive order ending \"birthright citizenship\" for the children of non-American citizens who are born on U.S. soil, a move that would undoubtedly be challenged in courts on its constitutionality.\n\n14th Amendment explained\n\nThe 14th Amendment transformed U.S. citizenship, but it did not settle every question. The year was 1868, and millions of former slaves were now free people. Congress asked: Who should black Americans be going forward in the context of the Constitution?\n\nFormer slaves pressed the nation to include them as full fledged participants in the body politic. The result of this scene was a new provision, the first to define citizenship in the Constitution: Birthright would guarantee to all Americans their place as members of the nation.\n\nNeed"
+    },
+    {
+      "model": "qwen3b",
+      "model_name": "Qwen2.5-3B",
+      "qid": "20250411_0",
+      "date": "2025-04-11",
+      "question": "A \"de-extinction\" start-up claims it has revived a prehistoric species of which animal?",
+      "gold_answer": "Wolf",
+      "stale_prediction": "Tasmanian tiger",
+      "context_head": "Tasmanian tigers were hunted to extinction decades ago, but a recent scientific breakthrough has raised hope that the animal and potentially other long-lost species could one day be resurrected.\n\nScientists were recently able to recover and sequence RNA from a roughly 130-year-old Tasmanian tiger, also known as a thylacine, preserved at a museum in Stockholm. The feat marks the first time RNA molecules have been isolated and decoded from an extinct species, according to a new study published Tuesday in the journal Genome Research.\n\nIt may sound like a plot right out of a Jurassic Park movie, but the implications of the study are no mere fiction: Scientists are now one step closer to reviving not only the Tasmanian tiger, but perhaps other extinct species in the future.\n\nRecord-setting trip to space: Astronaut Frank Rubio spent a record 371 days in space. The trip was planned to be 6 mont"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "n_manifest_jobs": 6351,
+  "n_rows_in": 6351,
+  "n_duplicates_dropped": 0,
+  "n_hash_mismatch_dropped": 0,
+  "n_written": 6351,
+  "n_missing": 0,
+  "missing_job_ids_first20": [],
+  "label_distribution": {
+    "YES": 890,
+    "NO": 4961,
+    "PARTIAL": 500
+  },
+  "label_distribution_by_window": {
+    "w600": {
+      "YES": 643,
+      "NO": 3934,
+      "PARTIAL": 382
+    },
+    "w700nl": {
+      "NO": 555,
+      "YES": 139,
+      "PARTIAL": 68
+    },
+    "w700ws": {
+      "NO": 472,
+      "YES": 108,
+      "PARTIAL": 50
+    }
+  },
+  "n_argmax_outside_label_set": 0,
+  "n_argmax_disagrees_with_constrained": 15,
+  "models": [
+    "Qwen/Qwen2.5-14B-Instruct"
+  ],
+  "output_sha256": "ae4a3e8adec5f76aaf24ed1ddec455944cd464eb6e24ac82f43d44cd4c258e21"
+}

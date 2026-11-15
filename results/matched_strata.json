@@ -1,0 +1,418 @@
+{
+  "scope": "The conservative 2023-vs-2026 contrast under composition controls: residualisation and 1:1 matching.",
+  "composition": {
+    "2023": {
+      "n": 131,
+      "mean_answer_len": 2.63,
+      "mean_question_len": 17.43,
+      "answer_type_share": {
+        "numeric": 0.107,
+        "other": 0.298,
+        "proper_noun": 0.58,
+        "date": 0.015
+      }
+    },
+    "2026": {
+      "n": 346,
+      "mean_answer_len": 1.9,
+      "mean_question_len": 14.7,
+      "answer_type_share": {
+        "proper_noun": 0.743,
+        "other": 0.156,
+        "numeric": 0.09,
+        "date": 0.012
+      }
+    }
+  },
+  "per_model": {
+    "llama3_8b": {
+      "raw": {
+        "gap": 1.206,
+        "ci95": [
+          -7.416,
+          10.049
+        ],
+        "p_plus_one": 0.78184
+      },
+      "residualised": {
+        "gap": 1.493,
+        "ci95": [
+          -6.506,
+          9.985
+        ],
+        "p_plus_one": 0.71786
+      },
+      "matched": {
+        "gap": 0.74,
+        "ci95": [
+          -11.115,
+          11.945
+        ],
+        "p_plus_one": 0.88902,
+        "n_pairs": 131,
+        "n_clusters": 49,
+        "paired": true
+      },
+      "params_B": 8.0
+    },
+    "mistral_large": {
+      "raw": {
+        "gap": 9.687,
+        "ci95": [
+          -0.583,
+          20.049
+        ],
+        "p_plus_one": 0.06159
+      },
+      "residualised": {
+        "gap": 10.493,
+        "ci95": [
+          1.495,
+          19.846
+        ],
+        "p_plus_one": 0.0196
+      },
+      "matched": {
+        "gap": 10.995,
+        "ci95": [
+          -1.549,
+          22.639
+        ],
+        "p_plus_one": 0.08598,
+        "n_pairs": 131,
+        "n_clusters": 49,
+        "paired": true
+      },
+      "params_B": 123.0
+    },
+    "qwen": {
+      "raw": {
+        "gap": -1.143,
+        "ci95": [
+          -6.887,
+          5.223
+        ],
+        "p_plus_one": 0.69266
+      },
+      "residualised": {
+        "gap": -1.12,
+        "ci95": [
+          -6.438,
+          4.944
+        ],
+        "p_plus_one": 0.67866
+      },
+      "matched": {
+        "gap": -2.447,
+        "ci95": [
+          -7.544,
+          2.65
+        ],
+        "p_plus_one": 0.34993,
+        "n_pairs": 131,
+        "n_clusters": 49,
+        "paired": true
+      },
+      "params_B": 0.5
+    },
+    "qwen1_5b": {
+      "raw": {
+        "gap": -2.563,
+        "ci95": [
+          -10.433,
+          5.567
+        ],
+        "p_plus_one": 0.5119
+      },
+      "residualised": {
+        "gap": -0.692,
+        "ci95": [
+          -8.113,
+          7.192
+        ],
+        "p_plus_one": 0.84983
+      },
+      "matched": {
+        "gap": 0.46,
+        "ci95": [
+          -6.639,
+          7.172
+        ],
+        "p_plus_one": 0.89502,
+        "n_pairs": 131,
+        "n_clusters": 49,
+        "paired": true
+      },
+      "params_B": 1.5
+    },
+    "qwen32b": {
+      "raw": {
+        "gap": -1.358,
+        "ci95": [
+          -10.788,
+          8.29
+        ],
+        "p_plus_one": 0.77105
+      },
+      "residualised": {
+        "gap": -0.387,
+        "ci95": [
+          -9.558,
+          8.886
+        ],
+        "p_plus_one": 0.92821
+      },
+      "matched": {
+        "gap": 0.649,
+        "ci95": [
+          -11.353,
+          11.957
+        ],
+        "p_plus_one": 0.91502,
+        "n_pairs": 131,
+        "n_clusters": 49,
+        "paired": true
+      },
+      "params_B": 32.0
+    },
+    "qwen3b": {
+      "raw": {
+        "gap": -2.243,
+        "ci95": [
+          -9.721,
+          5.605
+        ],
+        "p_plus_one": 0.53949
+      },
+      "residualised": {
+        "gap": -0.23,
+        "ci95": [
+          -6.973,
+          6.705
+        ],
+        "p_plus_one": 0.90542
+      },
+      "matched": {
+        "gap": -1.388,
+        "ci95": [
+          -10.571,
+          6.778
+        ],
+        "p_plus_one": 0.74825,
+        "n_pairs": 131,
+        "n_clusters": 49,
+        "paired": true
+      },
+      "params_B": 3.0
+    },
+    "qwen72b": {
+      "raw": {
+        "gap": 1.786,
+        "ci95": [
+          -7.505,
+          11.415
+        ],
+        "p_plus_one": 0.72066
+      },
+      "residualised": {
+        "gap": 3.545,
+        "ci95": [
+          -5.368,
+          12.462
+        ],
+        "p_plus_one": 0.43351
+      },
+      "matched": {
+        "gap": 1.719,
+        "ci95": [
+          -9.579,
+          12.837
+        ],
+        "p_plus_one": 0.75545,
+        "n_pairs": 131,
+        "n_clusters": 49,
+        "paired": true
+      },
+      "params_B": 72.0
+    },
+    "qwen7b": {
+      "raw": {
+        "gap": -2.983,
+        "ci95": [
+          -11.888,
+          5.967
+        ],
+        "p_plus_one": 0.5163
+      },
+      "residualised": {
+        "gap": -3.007,
+        "ci95": [
+          -11.552,
+          5.639
+        ],
+        "p_plus_one": 0.5087
+      },
+      "matched": {
+        "gap": -3.619,
+        "ci95": [
+          -15.734,
+          8.018
+        ],
+        "p_plus_one": 0.55269,
+        "n_pairs": 131,
+        "n_clusters": 49,
+        "paired": true
+      },
+      "params_B": 7.0
+    }
+  },
+  "n_matched_pairs": 131,
+  "scale_slope": {
+    "raw": 3.4469,
+    "residualised": 3.5835,
+    "matched": 3.7674
+  },
+  "scale_slope_inference": {
+    "raw": {
+      "slope": 3.447,
+      "p_exact": 0.04065,
+      "n_permutations": 40320,
+      "n_rungs": 8,
+      "leave_one_out_range": [
+        1.309,
+        4.773
+      ],
+      "rungs": [
+        "llama3_8b",
+        "mistral_large",
+        "qwen",
+        "qwen1_5b",
+        "qwen32b",
+        "qwen3b",
+        "qwen72b",
+        "qwen7b"
+      ]
+    },
+    "residualised": {
+      "slope": 3.583,
+      "p_exact": 0.0347,
+      "n_permutations": 40320,
+      "n_rungs": 8,
+      "leave_one_out_range": [
+        1.569,
+        4.551
+      ],
+      "rungs": [
+        "llama3_8b",
+        "mistral_large",
+        "qwen",
+        "qwen1_5b",
+        "qwen32b",
+        "qwen3b",
+        "qwen72b",
+        "qwen7b"
+      ]
+    },
+    "matched": {
+      "slope": 3.767,
+      "p_exact": 0.03123,
+      "n_permutations": 40320,
+      "n_rungs": 8,
+      "leave_one_out_range": [
+        1.491,
+        4.47
+      ],
+      "rungs": [
+        "llama3_8b",
+        "mistral_large",
+        "qwen",
+        "qwen1_5b",
+        "qwen32b",
+        "qwen3b",
+        "qwen72b",
+        "qwen7b"
+      ]
+    }
+  },
+  "scale_slope_main_ladder": {
+    "raw": {
+      "slope": 3.457,
+      "p_exact": 0.05298,
+      "n_permutations": 5040,
+      "n_rungs": 7,
+      "leave_one_out_range": [
+        1.219,
+        4.921
+      ],
+      "rungs": [
+        "mistral_large",
+        "qwen",
+        "qwen1_5b",
+        "qwen32b",
+        "qwen3b",
+        "qwen72b",
+        "qwen7b"
+      ]
+    },
+    "residualised": {
+      "slope": 3.587,
+      "p_exact": 0.05179,
+      "n_permutations": 5040,
+      "n_rungs": 7,
+      "leave_one_out_range": [
+        1.51,
+        4.626
+      ],
+      "rungs": [
+        "mistral_large",
+        "qwen",
+        "qwen1_5b",
+        "qwen32b",
+        "qwen3b",
+        "qwen72b",
+        "qwen7b"
+      ]
+    },
+    "matched": {
+      "slope": 3.767,
+      "p_exact": 0.04504,
+      "n_permutations": 5040,
+      "n_rungs": 7,
+      "leave_one_out_range": [
+        1.443,
+        4.481
+      ],
+      "rungs": [
+        "mistral_large",
+        "qwen",
+        "qwen1_5b",
+        "qwen32b",
+        "qwen3b",
+        "qwen72b",
+        "qwen7b"
+      ]
+    }
+  },
+  "verdict": {
+    "sign_stable_under_controls": true,
+    "significant_at_model_level": {
+      "raw": false,
+      "residualised": false,
+      "matched": true
+    },
+    "controlled_covariates": [
+      "answer type",
+      "answer length",
+      "question length"
+    ],
+    "uncontrolled": [
+      "topic",
+      "outlet",
+      "event volatility",
+      "ambiguity",
+      "answer popularity"
+    ],
+    "significance_basis": "seven main-ladder rungs; the eight-model figures add an off-ladder 8B control and are not comparable to the headline slope",
+    "reading": "The measured form covariates do not explain the contrast: the per-model gaps and the scale slope keep their sign under residualisation and under 1:1 matching. This is NOT the claim that item composition does not produce the contrast -- topic, outlet, volatility and answer popularity are not measured here. Matching costs sample size, and the matched interval is a paired one clustered on the 2023 quiz. At model level on the seven comparable rungs only the matched slope clears p<0.05; raw and residualised sit just above it, so the controlled evidence is borderline, not confirmatory."
+  }
+}

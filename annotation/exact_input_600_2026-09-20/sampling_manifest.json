@@ -1,0 +1,23 @@
+{
+  "created": "2026-09-20",
+  "doc_chars": 600,
+  "purpose": "exact-input (600-char) re-annotation of the same passages the 700-char packs used; review/rebuttal-review.md R2",
+  "sources": {
+    "pack_2026-08-02": "task_b_evidence.csv",
+    "masked_support_2026-08-04": "task_support_masked.csv"
+  },
+  "rows": {
+    "pack_2026-08-02": {
+      "rows_in": 900,
+      "rows_out": 900,
+      "excerpt_text_differs_from_700_pack": 887,
+      "evidence_ids_missing_from_corpus": 0
+    },
+    "masked_support_2026-08-04": {
+      "rows_in": 630,
+      "rows_out": 630,
+      "excerpt_text_differs_from_700_pack": 622,
+      "evidence_ids_missing_from_corpus": 0
+    }
+  }
+}

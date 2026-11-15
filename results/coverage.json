@@ -1,0 +1,237 @@
+{
+  "scope": "Which model was run in which condition, counted from the cached generations rather than asserted.",
+  "panels": {
+    "main cutoff panel": [
+      "haiku",
+      "mistral_large",
+      "qwen",
+      "qwen1_5b",
+      "qwen32b",
+      "qwen3b",
+      "qwen72b",
+      "qwen7b",
+      "sonnet"
+    ],
+    "aggregate-only reference": [
+      "haiku"
+    ],
+    "Hybrid retrieval panel": [
+      "gpt4omini",
+      "llama3_8b",
+      "mistral_large",
+      "qwen1_5b",
+      "qwen32b",
+      "qwen3b",
+      "qwen72b",
+      "qwen7b",
+      "sonnet"
+    ],
+    "retriever sweep": [
+      "qwen32b"
+    ],
+    "cutoff controls": [
+      "llama31_70b",
+      "llama31_8b",
+      "llama31_8b_q4",
+      "llama32_1b",
+      "llama32_3b",
+      "llama3_8b"
+    ]
+  },
+  "per_model": {
+    "gpt4omini": {
+      "model": "GPT-4o-mini",
+      "params_B": null,
+      "disclosed_cutoff": "2023-10",
+      "closed_book": 878,
+      "bm25": 0,
+      "bge": 0,
+      "dpr": 0,
+      "splade": 0,
+      "colbert": 0,
+      "hybrid": 878
+    },
+    "llama31_70b": {
+      "model": "Llama-3.1-70B",
+      "params_B": 70,
+      "disclosed_cutoff": "2023-12",
+      "closed_book": 878,
+      "bm25": 0,
+      "bge": 0,
+      "dpr": 0,
+      "splade": 0,
+      "colbert": 0,
+      "hybrid": 0
+    },
+    "llama31_8b": {
+      "model": "Llama-3.1-8B",
+      "params_B": 8,
+      "disclosed_cutoff": "2023-12",
+      "closed_book": 878,
+      "bm25": 0,
+      "bge": 0,
+      "dpr": 0,
+      "splade": 0,
+      "colbert": 0,
+      "hybrid": 0
+    },
+    "llama31_8b_q4": {
+      "model": "Llama-3.1-8B (4-bit)",
+      "params_B": 8,
+      "disclosed_cutoff": null,
+      "closed_book": 878,
+      "bm25": 0,
+      "bge": 0,
+      "dpr": 0,
+      "splade": 0,
+      "colbert": 0,
+      "hybrid": 0
+    },
+    "llama32_1b": {
+      "model": "Llama-3.2-1B",
+      "params_B": 1,
+      "disclosed_cutoff": "2023-12",
+      "closed_book": 878,
+      "bm25": 0,
+      "bge": 0,
+      "dpr": 0,
+      "splade": 0,
+      "colbert": 0,
+      "hybrid": 0
+    },
+    "llama32_3b": {
+      "model": "Llama-3.2-3B",
+      "params_B": 3,
+      "disclosed_cutoff": "2023-12",
+      "closed_book": 878,
+      "bm25": 0,
+      "bge": 0,
+      "dpr": 0,
+      "splade": 0,
+      "colbert": 0,
+      "hybrid": 0
+    },
+    "llama3_8b": {
+      "model": "Llama-3-8B",
+      "params_B": 8,
+      "disclosed_cutoff": "2023-03",
+      "closed_book": 878,
+      "bm25": 0,
+      "bge": 0,
+      "dpr": 0,
+      "splade": 0,
+      "colbert": 0,
+      "hybrid": 878
+    },
+    "mistral_large": {
+      "model": "Mistral-Large-2",
+      "params_B": null,
+      "disclosed_cutoff": null,
+      "closed_book": 878,
+      "bm25": 0,
+      "bge": 0,
+      "dpr": 0,
+      "splade": 0,
+      "colbert": 0,
+      "hybrid": 878
+    },
+    "qwen": {
+      "model": "Qwen2.5-0.5B",
+      "params_B": 0.5,
+      "disclosed_cutoff": null,
+      "closed_book": 878,
+      "bm25": 878,
+      "bge": 0,
+      "dpr": 0,
+      "splade": 0,
+      "colbert": 0,
+      "hybrid": 0
+    },
+    "qwen1_5b": {
+      "model": "Qwen2.5-1.5B",
+      "params_B": 1.5,
+      "disclosed_cutoff": null,
+      "closed_book": 878,
+      "bm25": 0,
+      "bge": 0,
+      "dpr": 0,
+      "splade": 0,
+      "colbert": 0,
+      "hybrid": 878
+    },
+    "qwen32b": {
+      "model": "Qwen2.5-32B",
+      "params_B": 32,
+      "disclosed_cutoff": null,
+      "closed_book": 878,
+      "bm25": 878,
+      "bge": 878,
+      "dpr": 878,
+      "splade": 878,
+      "colbert": 878,
+      "hybrid": 878
+    },
+    "qwen3b": {
+      "model": "Qwen2.5-3B",
+      "params_B": 3,
+      "disclosed_cutoff": null,
+      "closed_book": 878,
+      "bm25": 0,
+      "bge": 0,
+      "dpr": 0,
+      "splade": 0,
+      "colbert": 0,
+      "hybrid": 878
+    },
+    "qwen72b": {
+      "model": "Qwen2.5-72B",
+      "params_B": 72,
+      "disclosed_cutoff": null,
+      "closed_book": 878,
+      "bm25": 0,
+      "bge": 0,
+      "dpr": 0,
+      "splade": 0,
+      "colbert": 0,
+      "hybrid": 878
+    },
+    "qwen7b": {
+      "model": "Qwen2.5-7B",
+      "params_B": 7,
+      "disclosed_cutoff": null,
+      "closed_book": 878,
+      "bm25": 0,
+      "bge": 0,
+      "dpr": 0,
+      "splade": 0,
+      "colbert": 0,
+      "hybrid": 878
+    },
+    "sonnet": {
+      "model": "Claude-Sonnet-4.5",
+      "params_B": null,
+      "disclosed_cutoff": "2025-07",
+      "closed_book": 878,
+      "bm25": 878,
+      "bge": 0,
+      "dpr": 0,
+      "splade": 0,
+      "colbert": 0,
+      "hybrid": 878
+    },
+    "haiku": {
+      "model": "Claude-Haiku-4.5",
+      "params_B": null,
+      "disclosed_cutoff": "2025-07",
+      "closed_book": 878,
+      "aggregate_only": true,
+      "bm25": 0,
+      "bge": 0,
+      "dpr": 0,
+      "splade": 0,
+      "colbert": 0,
+      "hybrid": 0
+    }
+  },
+  "note": "a model appears in a panel only if it has cached answers for that panel's conditions"
+}

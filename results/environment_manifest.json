@@ -1,0 +1,35 @@
+{
+  "note": "Machine-readable pin of every external dependency. Cached generations in data/processed/generations_* are the authoritative record of what each provider returned; this file records under what versions.",
+  "python": "3.14.6",
+  "platform": "Darwin 25.5.0 arm64",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "torch": "2.12.0",
+    "transformers": "5.11.0",
+    "tokenizers": "0.22.2",
+    "rank_bm25": "0.2.2",
+    "sentence-transformers": "5.5.1"
+  },
+  "nli_model": {
+    "repo": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "resolved_revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+    "used_by": "pipeline/nli_support.py",
+    "labels": "entailment / neutral / contradiction, argmax",
+    "validated_against_human_judgement": false
+  },
+  "model_config": "# FreshBench-RAG \u2014 generator configuration (REAL run)\n#\ngenerator:\n  provider: anthropic\n  model: claude-haiku-4-5-20251001   # frontier reference; closed-book knee at 2025\n  max_tokens: 64\n  temperature: 0.0                    # deterministic main pass\n  system_prompt: |\n    You are a precise question-answering system. Answer the question with the\n    shortest possible span (a name, number, date, or short phrase). Do not\n    explain. If evidence documents are provided, answer using them.\n  concurrency: 12                      # parallel API calls\n  max_retries: 5\n",
+  "generation_caches": [
+    "generations_gpt4omini",
+    "generations_llama3_8b",
+    "generations_mistral_large",
+    "generations_qwen",
+    "generations_qwen1_5b",
+    "generations_qwen32b",
+    "generations_qwen3b",
+    "generations_qwen72b",
+    "generations_qwen7b",
+    "generations_sonnet"
+  ],
+  "git_commit": "b9269736e85a79b2dc14b1ec4a826061c33232e9"
+}

@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "Please cite the TRAVA paper and the upstream RealTimeQA dataset."
+title: "TRAVA: A Temporal RAG Validity Audit of Knowledge Cutoffs and Evidence Support"
+type: software
+version: "v2026-07-analysis-2026-11-15"
+authors:
+  - family-names: "Le"
+    given-names: "Xuan-Bach"
+    orcid: "https://orcid.org/0009-0003-6848-5403"
+  - family-names: "Tran-Truong"
+    given-names: "Phat T."
+    orcid: "https://orcid.org/0000-0003-3199-6333"
+  - family-names: "Ha"
+    given-names: "Xuan Son"
+    orcid: "https://orcid.org/0000-0002-5336-0566"
+  - family-names: "Le"
+    given-names: "Minh-Hieu"
+    orcid: "https://orcid.org/0009-0003-9199-7677"
+  - family-names: "Nguyen"
+    given-names: "Duy"
+license: MIT
+url: "https://github.com/lexuanbach/TRAVA"
+repository-code: "https://github.com/lexuanbach/TRAVA"
+preferred-citation:
+  type: conference-paper
+  title: "TRAVA: A Temporal RAG Validity Audit of Knowledge Cutoffs and Evidence Support"
+  authors:
+    - family-names: "Le"
+      given-names: "Xuan-Bach"
+    - family-names: "Tran-Truong"
+      given-names: "Phat T."
+    - family-names: "Ha"
+      given-names: "Xuan Son"
+    - family-names: "Le"
+      given-names: "Minh-Hieu"
+    - family-names: "Nguyen"
+      given-names: "Duy"
+  collection-title: "Findings of the Association for Computational Linguistics: EACL 2027"
+  year: 2027
+  notes: "Accepted; proceedings metadata pending. Author order follows the submission record."

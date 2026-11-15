@@ -1,0 +1,17 @@
+{
+  "n_questions": 878,
+  "by_split": {
+    "fresh": 346,
+    "static": 532
+  },
+  "by_year": {
+    "2022": 150,
+    "2023": 131,
+    "2024": 123,
+    "2025": 128,
+    "2026": 346
+  },
+  "corpus_docs": 6692,
+  "avg_gold_docs_per_q": 8.13,
+  "knowledge_cutoff": "2026-01-01"
+}

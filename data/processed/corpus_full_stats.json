@@ -1,0 +1,15 @@
+{
+  "corpus_docs_full": 26611,
+  "corpus_docs_main": 6692,
+  "expansion_factor": 3.98,
+  "gold_docs": 6692,
+  "distractor_docs": 19919,
+  "raw_questions_pooled": 4916,
+  "eval_questions": 878,
+  "gold_links_main": 7137,
+  "gold_links_full": 7137,
+  "questions_with_no_gold": 0,
+  "raw_docs_seen": 34086,
+  "undated_distractors_dropped": 0,
+  "note": "Distractors are real same-period news from unsampled RealTimeQA weeks. qrels are unchanged; only the index grows."
+}

@@ -1,0 +1,328 @@
+{
+  "string_fulltext": {
+    "qwen1_5b": {
+      "gain_supported": 36.764,
+      "gain_unsupported": 0.933,
+      "interaction": 35.83,
+      "n_supported": 208,
+      "n_unsupported": 196,
+      "ci95": [
+        26.987,
+        44.939
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes": 125
+    },
+    "qwen3b": {
+      "gain_supported": 39.71,
+      "gain_unsupported": 3.185,
+      "interaction": 36.525,
+      "n_supported": 208,
+      "n_unsupported": 196,
+      "ci95": [
+        27.452,
+        45.58
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes": 125
+    },
+    "qwen7b": {
+      "gain_supported": 29.1,
+      "gain_unsupported": -3.478,
+      "interaction": 32.578,
+      "n_supported": 208,
+      "n_unsupported": 196,
+      "ci95": [
+        24.442,
+        41.058
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes": 125
+    },
+    "llama3_8b": {
+      "gain_supported": 18.465,
+      "gain_unsupported": -7.776,
+      "interaction": 26.241,
+      "n_supported": 208,
+      "n_unsupported": 196,
+      "ci95": [
+        16.188,
+        36.205
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes": 125
+    },
+    "qwen32b": {
+      "gain_supported": 22.438,
+      "gain_unsupported": -8.504,
+      "interaction": 30.942,
+      "n_supported": 208,
+      "n_unsupported": 196,
+      "ci95": [
+        21.455,
+        40.021
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes": 125
+    },
+    "qwen72b": {
+      "gain_supported": 18.755,
+      "gain_unsupported": -12.057,
+      "interaction": 30.813,
+      "n_supported": 208,
+      "n_unsupported": 196,
+      "ci95": [
+        20.365,
+        41.202
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes": 125
+    },
+    "mistral_large": {
+      "gain_supported": 8.905,
+      "gain_unsupported": -17.537,
+      "interaction": 26.442,
+      "n_supported": 208,
+      "n_unsupported": 196,
+      "ci95": [
+        18.026,
+        35.181
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes": 125
+    },
+    "": {
+      "gain_supported": 12.558,
+      "gain_unsupported": -8.632,
+      "interaction": 21.189,
+      "n_supported": 208,
+      "n_unsupported": 196,
+      "ci95": [
+        11.286,
+        30.797
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes": 125
+    },
+    "sonnet": {
+      "gain_supported": 4.459,
+      "gain_unsupported": -15.218,
+      "interaction": 19.677,
+      "n_supported": 208,
+      "n_unsupported": 196,
+      "ci95": [
+        9.891,
+        29.15
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes": 125
+    },
+    "gpt4omini": {
+      "gain_supported": 9.852,
+      "gain_unsupported": -20.746,
+      "interaction": 30.598,
+      "n_supported": 208,
+      "n_unsupported": 196,
+      "ci95": [
+        20.137,
+        40.707
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes": 125
+    }
+  },
+  "slope_fulltext": {
+    "slope_per_decade": -9.89,
+    "p_exact": 0.00556,
+    "n_rungs": 6,
+    "points": [
+      {
+        "params_B": 1.5,
+        "gain_unsupported": 0.933
+      },
+      {
+        "params_B": 3.0,
+        "gain_unsupported": 3.185
+      },
+      {
+        "params_B": 7.0,
+        "gain_unsupported": -3.478
+      },
+      {
+        "params_B": 32.0,
+        "gain_unsupported": -8.504
+      },
+      {
+        "params_B": 72.0,
+        "gain_unsupported": -12.057
+      },
+      {
+        "params_B": 123.0,
+        "gain_unsupported": -17.537
+      }
+    ]
+  },
+  "string_vis600": {
+    "qwen1_5b": {
+      "gain_supported": 48.696,
+      "gain_unsupported": -0.244,
+      "interaction": 48.939,
+      "n_supported": 162,
+      "n_unsupported": 242,
+      "ci95": [
+        39.816,
+        57.721
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes": 125
+    },
+    "qwen3b": {
+      "gain_supported": 51.325,
+      "gain_unsupported": 2.352,
+      "interaction": 48.973,
+      "n_supported": 162,
+      "n_unsupported": 242,
+      "ci95": [
+        40.393,
+        57.425
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes": 125
+    },
+    "qwen7b": {
+      "gain_supported": 42.575,
+      "gain_unsupported": -6.306,
+      "interaction": 48.882,
+      "n_supported": 162,
+      "n_unsupported": 242,
+      "ci95": [
+        40.004,
+        57.631
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes": 125
+    },
+    "llama3_8b": {
+      "gain_supported": 28.52,
+      "gain_unsupported": -9.519,
+      "interaction": 38.038,
+      "n_supported": 162,
+      "n_unsupported": 242,
+      "ci95": [
+        27.191,
+        48.755
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes": 125
+    },
+    "qwen32b": {
+      "gain_supported": 34.2,
+      "gain_unsupported": -10.497,
+      "interaction": 44.697,
+      "n_supported": 162,
+      "n_unsupported": 242,
+      "ci95": [
+        34.784,
+        54.201
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes": 125
+    },
+    "qwen72b": {
+      "gain_supported": 31.715,
+      "gain_unsupported": -14.876,
+      "interaction": 46.59,
+      "n_supported": 162,
+      "n_unsupported": 242,
+      "ci95": [
+        36.057,
+        56.645
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes": 125
+    },
+    "mistral_large": {
+      "gain_supported": 18.663,
+      "gain_unsupported": -19.043,
+      "interaction": 37.705,
+      "n_supported": 162,
+      "n_unsupported": 242,
+      "ci95": [
+        28.999,
+        47.281
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes": 125
+    },
+    "": {
+      "gain_supported": 23.72,
+      "gain_unsupported": -12.076,
+      "interaction": 35.796,
+      "n_supported": 162,
+      "n_unsupported": 242,
+      "ci95": [
+        24.935,
+        46.566
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes": 125
+    },
+    "sonnet": {
+      "gain_supported": 13.957,
+      "gain_unsupported": -17.836,
+      "interaction": 31.793,
+      "n_supported": 162,
+      "n_unsupported": 242,
+      "ci95": [
+        21.944,
+        41.471
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes": 125
+    },
+    "gpt4omini": {
+      "gain_supported": 18.134,
+      "gain_unsupported": -20.474,
+      "interaction": 38.608,
+      "n_supported": 162,
+      "n_unsupported": 242,
+      "ci95": [
+        27.524,
+        49.399
+      ],
+      "p_plus_one": 0.0004,
+      "n_quizzes": 125
+    }
+  },
+  "slope_vis600": {
+    "slope_per_decade": -10.374,
+    "p_exact": 0.00556,
+    "n_rungs": 6,
+    "points": [
+      {
+        "params_B": 1.5,
+        "gain_unsupported": -0.244
+      },
+      {
+        "params_B": 3.0,
+        "gain_unsupported": 2.352
+      },
+      {
+        "params_B": 7.0,
+        "gain_unsupported": -6.306
+      },
+      {
+        "params_B": 32.0,
+        "gain_unsupported": -10.497
+      },
+      {
+        "params_B": 72.0,
+        "gain_unsupported": -14.876
+      },
+      {
+        "params_B": 123.0,
+        "gain_unsupported": -19.043
+      }
+    ]
+  }
+}

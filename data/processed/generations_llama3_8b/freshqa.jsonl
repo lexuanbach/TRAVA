@@ -1,0 +1,600 @@
+{"qid": "freshqa_0", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Snoopy.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_1", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "None", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_2", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2020", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_3", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Zodiac", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_4", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Turing's Thesis.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_5", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1988", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_6", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "October 2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_7", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1994", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_8", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_9", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "There is no permanent cure for cancer.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_10", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1767", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_11", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "None (as of now)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_12", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_13", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2014", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_14", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2000", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_15", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2001", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_16", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Not adopted.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_17", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "May 12-13, 2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_18", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$68 billion", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_19", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "August 2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_20", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2016, 2017, 2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_21", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2024", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_22", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "None.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_23", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$1 billion", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_24", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "0", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_25", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Unforgiven\" (1992)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_26", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "April 29, 2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_27", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "0", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_28", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_29", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "February 2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_30", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2013", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_31", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2009", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_32", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Not released yet.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_33", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_34", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_35", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2020", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_36", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1937", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_37", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "0", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_38", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "None.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_39", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_40", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Carole Anne-Marie Goodman (1964)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_41", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Never.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_42", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2026", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_43", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "51", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_44", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Peter Parker", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_45", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2024", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_46", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2013-2014", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_47", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1966-1992", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_48", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "None.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_49", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2007-2011", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_50", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "September 2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_51", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2020-present", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_52", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Not independent.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_53", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1984", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_54", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "91", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_55", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Helen Clark, Jim Bolger, Jenny Shipley, John Key, Bill English, Jacinda Ardern", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_56", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tax evasion and obstruction of an official proceeding.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_57", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1649-2023: 374 years", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_58", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2,157,044", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_59", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "April 25, 2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_60", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Lionel Messi", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_61", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "No.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_62", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "714", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_63", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "July 20, 1969", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_64", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "October 1, 1944", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_65", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "0", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_66", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "120", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_67", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "There is no iPhone 9.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_68", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "December 20, 2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_69", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "0", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_70", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Not Rick Riordan.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_71", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1861-1869", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_72", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "May 17, 2009", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_73", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Oseltamivir.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_74", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2028", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_75", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1865", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_76", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2006", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_77", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_78", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1861", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_79", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2.6 million years ago.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_80", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1644", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_81", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1213", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_82", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2014", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_83", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "November 24, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_84", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Grand Canyon", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_85", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Beijing", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_86", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Canada, Mexico, United States", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_87", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$450.3 million", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_88", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "9.5", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_89", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Sulfur.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_90", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Taliban", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_91", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_92", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "July 7, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_93", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "November", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_94", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "16", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_95", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "10:00pm", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_96", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kevin McCarthy", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_97", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2,100", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_98", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "January 14, 2020", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_99", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "The Power of the Dog", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_100", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "September 13, 2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_101", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Quarterfinals", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_102", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "December 10, 2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_103", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "June 16, 2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_104", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Queen's Medical Center.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_105", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "0", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_106", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "November", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_107", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Schmigadoon!\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_108", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "February 1, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_109", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "The Chao Phraya Hotel.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_110", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "6.3%", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_111", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Adidas", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_112", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "6", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_113", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Rafael Nadal.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_114", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "6 minutes 15 seconds", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_115", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "September 22-24, 2022.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_116", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "7 years (2010-2016)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_117", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1729", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_118", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"It's back!\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_119", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "TBD", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_120", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "8 years", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_121", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "75", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_122", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Michael van Gerwen", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_123", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Chief Twit\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_124", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "0", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_125", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "0", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_126", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "10", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_127", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Blake Shelton", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_128", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Sundar Pichai", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_129", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$10", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_130", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Princeton University", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_131", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "3:43.13", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_132", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "22", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_133", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Olaf Scholz", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_134", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Minecraft", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_135", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "California", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_136", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Over 300.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_137", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "7", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_138", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Twista", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_139", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "193", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_140", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Al-Azhar University (970)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_141", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kind of Blue", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_142", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "M. Chandran (35)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_143", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "6", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_144", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Palo Alto, California", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_145", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "18", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_146", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "English", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_147", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Dangal (2016)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_148", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "German", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_149", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "BTS", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_150", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2002", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_151", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Santiago", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_152", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "38 minutes.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_153", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "James Webb", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_154", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "19", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_155", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Slovakia (2009)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_156", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "8", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_157", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "25", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_158", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Dawn FM\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_159", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "7", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_160", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "709", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_161", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "4", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_162", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "36", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_163", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "52", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_164", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$4,087,000", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_165", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Rungrado 1st of May Stadium", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_166", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Folklore\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_167", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Fumio Kishida", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_168", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "K.G.F: Chapter 1 (2018)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_169", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Gerwyn Price (2020)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_170", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2018 Turing Award", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_171", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "December 2017", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_172", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "April 8, 2024", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_173", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Joe Biden", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_174", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "6.0", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_175", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "4", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_176", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Bulgaria (January 1, 2023)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_177", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Anchorite\" (2022)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_178", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Rishi Sunak", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_179", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Rishi Sunak", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_180", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Cristiano Ronaldo (2020)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_181", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "COVID-19 (2020)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_182", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$120", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_183", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Fugaku", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_184", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "April 15, 2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_185", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tokyo", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_186", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_187", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2024", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_188", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_189", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "8", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_190", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Cristiano Ronaldo", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_191", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_192", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kumble R. Subbaswamy", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_193", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Nadine Nassif", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_194", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "When Momen Kasei (2022)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_195", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Manchester United.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_196", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "USA", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_197", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kuna (HRK)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_198", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ayman al-Zawahiri", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_199", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "466", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_200", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "France", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_201", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$1.6 billion", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_202", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "5", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_203", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Mar\u00eda Zavala", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_204", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Russia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_205", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Charles III", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_206", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Bayern Munich", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_207", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Elliott Management Corporation", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_208", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Alex Villanueva", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_209", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "4", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_210", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "700", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_211", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$3.2 million", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_212", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Siberia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_213", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "18 points.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_214", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"The Lord of the Rings: The Rings of Power\" (September 2, 2022)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_215", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Nusantara", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_216", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2023-02-18", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_217", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Deodoro da Fonseca (69 years old)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_218", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Maryam Mirzakhani (2014)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_219", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_220", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "France (2018)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_221", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "828", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_222", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ant\u00f3nio Guterres (Portugal)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_223", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kris Jenner", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_224", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "United Kingdom", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_225", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "82,500", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_226", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "8", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_227", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "5", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_228", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "3", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_229", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_230", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "6", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_231", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Estonia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_232", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "4", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_233", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Jill Biden", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_234", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Dr. Michael K. Young", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_235", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "No", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_236", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Nancy Pelosi - Baltimore", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_237", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ukraine", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_238", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "14", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_239", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kylie Jenner", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_240", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_241", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "6", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_242", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "James Cameron (5)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_243", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Leonardo da Vinci's \"Salvator Mundi\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_244", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1990", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_245", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Laika", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_246", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "175B", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_247", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "China", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_248", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Wuhan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_249", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Moldova", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_250", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Hawaii", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_251", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_252", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Stanford University", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_253", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Blue whale.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_254", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Denali", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_255", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Corgi.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_256", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ale.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_257", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Portugal", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_258", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1971", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_259", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Edward Said", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_260", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Clastic", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_261", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1984", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_262", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Helen", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_263", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Lewis Hamilton", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_264", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ted Kaczynski", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_265", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Turtwig, Chimchar, Piplup", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_266", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Trinity Site.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_267", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "None.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_268", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "November 9, 1989", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_269", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "August 16, 1977", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_270", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Lech Kaczy\u0144ski", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_271", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1941", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_272", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "January 10, 2016", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_273", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Masahiro Sakurai", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_274", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "January 22, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_275", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "South", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_276", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Amherst", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_277", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ta-Nehisi Coates", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_278", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Jeff Bezos", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_279", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Boston", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_280", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Chelsea", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_281", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "August 1968", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_282", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Paris", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_283", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "February 1637", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_284", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Alcibiades.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_285", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "K\u014df\u016b", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_286", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Soviet Union", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_287", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Mary Ann Evans", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_288", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Deer Lodge, Montana", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_289", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tommy Wiseau", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_290", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "116-1453", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_291", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Right", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_292", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "April", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_293", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Iffy Onuora", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_294", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tanjay", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_295", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "11:00 AM", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_296", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ireland", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_297", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Lactobacillus bulgaricus", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_298", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "August 8, 2016", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_299", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Blizzard Entertainment", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_300", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Saltwater Crocodile", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_301", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Louis de Broglie (1924)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_302", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Baden-W\u00fcrttemberg", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_303", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Thelma & Louise (1991)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_304", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "December 5, 1980", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_305", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "USA, Canada, Mexico", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_306", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "20", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_307", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1923", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_308", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "10", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_309", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "China", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_310", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Death and Taxes", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_311", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "907 CE", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_312", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Mount Katahdin", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_313", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Revachol", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_314", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Canada and USA.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_315", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "E\u00e4rendil.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_316", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "July 4, 1776", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_317", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "James K. Polk", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_318", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Penguin Random House.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_319", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Pel\u00e9", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_320", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Hikaru Nakamura", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_321", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1,100", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_322", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "October 27, 2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_323", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tetsuya Yamagami", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_324", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "December 25, 2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_325", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Jill Biden", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_326", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Jane Swift", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_327", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_328", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Benjamin List and David W.C. MacMillan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_329", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "A. T. Greenblatt", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_330", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Zinedine Zidane", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_331", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Miroslav Klose", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_332", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "November 20, 1999", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_333", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Borut Pahor", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_334", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Fewer than 100.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_335", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "New York University.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_336", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Lisa's First Word\" (Season 4, Episode 10)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_337", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Lisa's First Word\" (Season 4, Episode 10)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_338", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Marvel Cinematic Universe (MCU)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_339", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Rosa Parks", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_340", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "8 months", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_341", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "United States", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_342", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Andr\u00e9s Iniesta (2009)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_343", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Hochreiter.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_344", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Juneau", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_345", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Benicia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_346", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ohio", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_347", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Belfast", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_348", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Qianlong", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_349", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1994", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_350", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Freiberg", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_351", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "South American-Antarctic", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_352", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Jiangsu", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_353", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ilya Sutskever", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_354", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Anne Elliot", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_355", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Poland.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_356", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ron Carter (born May 4, 1937)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_357", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "ACM A.M. Turing Award", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_358", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Taylor Swift", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_359", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "5", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_360", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1925", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_361", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "41", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_362", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Herman", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_363", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Edmonton.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_364", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Cristiano Ronaldo", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_365", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "96", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_366", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1982", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_367", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "11 years", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_368", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Wuppertal", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_369", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_370", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Bad Romance\" by Lady Gaga (2010)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_371", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "USA (1,444.4)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_372", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "India", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_373", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Max Verstappen", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_374", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Gryffin.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_375", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "4,105", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_376", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "20", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_377", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Top Gun: Maverick (2022)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_378", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "As of 2023-02-28, 1,144.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_379", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "34,444", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_380", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2023-03-16", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_381", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"The Wonky Donkey\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_382", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Elon Musk\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_383", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$8.99", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_384", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "The Weeknd", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_385", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Everything Everywhere All at Once\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_386", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "83", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_387", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "James Harden (61)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_388", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Gryffin.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_389", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "September 8, 2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_390", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Novak Djokovic", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_391", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "December 15, 2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_392", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ireland", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_393", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Terri Lyne Carrington", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_394", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kansas City Chiefs", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_395", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Sydney", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_396", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "April 15-17 and April 22-24, 2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_397", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "November 27, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_398", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "April 22, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_399", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Emma Raducanu and Leylah Fernandez", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_400", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1,344", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_401", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Second Sunday in May", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_402", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Third Sunday in June.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_403", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Seoul, South Korea", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_404", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "CBS", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_405", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2022: Top Gun: Maverick ($718.7 million)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_406", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_407", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "April 12 - May 11, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_408", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "November 26, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_409", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "September 5, 2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_410", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "SoFi Stadium", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_411", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "February 4, 2020", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_412", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Soul\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_413", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Nomadland\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_414", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Over 60", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_415", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Later\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_416", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Autumn.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_417", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "December 25", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_418", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "November 14, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_419", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Second Tuesday of each month.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_420", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Laine Hardy", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_421", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "29", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_422", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Elijah Mitchell", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_423", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$52,990", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_424", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Android 12", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_425", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Jeff Bezos", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_426", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Manchester City", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_427", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "No", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_428", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Jair Bolsonaro (2022)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_429", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ventura", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_430", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Fabio Quartararo", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_431", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tobias S.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_432", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Novak Djokovic", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_433", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Encanto (2021)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_434", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Encanto (2021)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_435", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Elden Ring", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_436", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "September 10, 2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_437", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1,444", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_438", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Lionel Messi", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_439", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"The Crown\" (2020)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_440", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Stockholm", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_441", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "St. Petersburg, Russia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_442", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2020: \"Wingspan\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_443", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "76", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_444", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Network Effect\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_445", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2022 Golden State Warriors", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_446", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "8", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_447", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "18", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_448", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Laine Hardy (Season 17)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_449", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Emmanuel Macron", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_450", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Break My Soul\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_451", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ashleigh Barty", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_452", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$145.54", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_453", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"The Eye Be Holder\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_454", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$299", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_455", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Virginia (2021)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_456", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "5", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_457", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Hello Neighbor\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_458", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "39", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_459", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "0", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_460", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "65", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_461", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "82%", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_462", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "44%", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_463", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2020-21", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_464", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Yes, 2.93 (as of 2022).", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_465", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2005", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_466", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "130 years", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_467", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Zach King (22)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_468", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1999", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_469", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "October 6, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_470", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "James Patterson", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_471", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kylie Jenner", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_472", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "November 2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_473", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "4", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_474", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ad Astra (2019)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_475", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "38 years", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_476", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_477", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "No", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_478", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "117 years, 260 days (Lucy Hannah, born July 6, 1875)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_479", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "India", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_480", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "5 years", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_481", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "74", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_482", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "United Kingdom", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_483", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1997", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_484", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Poland", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_485", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_486", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "United States", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_487", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_488", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "75", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_489", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "0", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_490", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "10", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_491", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "121", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_492", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "R'Bonney Gabriel (born December 18, 1996)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_493", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Kansas City Chiefs", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_494", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Macau", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_495", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Greta Thunberg, Sweden", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_496", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Yes, approximately 75-76 INR.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_497", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "0.83", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_498", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Charli D'Amelio", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_499", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_500", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Justin Trudeau", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_501", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1996", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_502", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_503", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_504", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Not released.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_505", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "None.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_506", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1971", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_507", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2026", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_508", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "None.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_509", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "ArriveCAN", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_510", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Maryam Mirzakhani", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_511", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1873-1973 (40 years)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_512", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "January 3, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_513", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tokyo", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_514", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Apple M1 GPU", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_515", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2006", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_516", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "0", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_517", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Neptune", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_518", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "None.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_519", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "22", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_520", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Legendaddy (2022)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_521", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "October", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_522", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "May", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_523", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "None.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_524", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "14", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_525", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Los Angeles Lakers", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_526", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Airbus A380-800", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_527", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Mariana Trench", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_528", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "English", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_529", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2015", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_530", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Brazil (2014)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_531", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Microsoft/Type-Changer", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_532", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2020", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_533", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Paris Saint-Germain.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_534", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\u00a5890", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_535", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Ken Jennings", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_536", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Virender Sehwag (219)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_537", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "No.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_538", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$15.00", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_539", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$69 billion", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_540", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Alexander Boris de Pfeffel Johnson (7 July 2019 \u2013 6 September 2019)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_541", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Yugoslav Wars (1991-2001)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_542", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "No", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_543", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "4", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_544", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "3.5 billion years", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_545", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Vicki Barbolak", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_546", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "$400 million", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_547", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Melania Trump", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_548", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Zinedine Zidane (1998)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_549", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "6", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_550", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Cristiano Ronaldo", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_551", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "2", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_552", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"In Nacht und Eis\" (1912)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_553", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "7", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_554", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Jarkko Oikarinen", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_555", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Frank Rosenblatt", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_556", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "San Jos\u00e9", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_557", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "December 2, 1942", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_558", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "William E. Boeing", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_559", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Vincent van Gogh", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_560", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Pip.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_561", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Zamboanga City", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_562", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Harvard", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_563", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Red Garland", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_564", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Sirius", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_565", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Steven Spielberg", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_566", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "155", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_567", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Magnolia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_568", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Yes.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_569", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Louisiana (144.4)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_570", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Cristiano Ronaldo.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_571", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "September 2, 2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_572", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "St. Moritz", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_573", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "8", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_574", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1984", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_575", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "John Lennon (October 9, 1940)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_576", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Qianlong", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_577", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "250", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_578", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "7.92 billion (as of 2021)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_579", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Brazil (12,444)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_580", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"If Anything Happens I Love You\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_581", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "February 12, 2024", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_582", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "September 25-27, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_583", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "The Next Man (1971)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_584", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "March 7, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_585", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "March", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_586", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Polygondwanaland\" (2017)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_587", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Isaias", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_588", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Tsinghua University", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_589", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Brandon Leake", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_590", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "\"Schitt's Creek\" (2020)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_591", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Budapest", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_592", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "Doctor Strange in the Multiverse of Madness (2022)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_593", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "37", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_594", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "New York City: 84\u00b0F (July 22)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_595", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "10", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_596", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "3,555.5 feet", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_597", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "A15 Bionic", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_598", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "1990", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_599", "condition": "freshqa", "model": "NousResearch/Meta-Llama-3-8B-Instruct", "prediction": "37", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}

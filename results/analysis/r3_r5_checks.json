@@ -1,0 +1,3012 @@
+{
+  "seed": 20260918,
+  "B": 5000,
+  "R3": {
+    "order_audit_vs_k5": {
+      "k10refused": {
+        "contains_all_k5_docs": 878,
+        "first_five_positions_equal_k5": 154,
+        "n": 878
+      },
+      "k10prefix": {
+        "contains_all_k5_docs": 878,
+        "first_five_positions_equal_k5": 878,
+        "n": 878
+      }
+    },
+    "qwen1_5b": {
+      "transitions_from_k5": {
+        "k10prefix": {
+          "U->S": 33,
+          "S->U": 0
+        },
+        "k10refused": {
+          "U->S": 33,
+          "S->U": 0
+        }
+      },
+      "question_pooled": {
+        "static": {
+          "k5/own_partition": {
+            "estimate": 47.49,
+            "ci95": [
+              38.0,
+              56.31
+            ],
+            "se_boot": 4.68,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 46.74,
+            "gain_unsupported": -0.75,
+            "n_supported": 162
+          },
+          "k5/k5_partition": {
+            "estimate": 47.49,
+            "ci95": [
+              38.0,
+              56.31
+            ],
+            "se_boot": 4.68,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 46.74,
+            "gain_unsupported": -0.75,
+            "n_supported": 162
+          },
+          "k10prefix/own_partition": {
+            "estimate": 44.52,
+            "ci95": [
+              35.66,
+              53.03
+            ],
+            "se_boot": 4.48,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 44.62,
+            "gain_unsupported": 0.1,
+            "n_supported": 179
+          },
+          "k10prefix/k5_partition": {
+            "estimate": 49.82,
+            "ci95": [
+              40.54,
+              58.58
+            ],
+            "se_boot": 4.64,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 49.67,
+            "gain_unsupported": -0.16,
+            "n_supported": 162
+          },
+          "k10refused/own_partition": {
+            "estimate": 44.15,
+            "ci95": [
+              35.12,
+              52.42
+            ],
+            "se_boot": 4.5,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 43.92,
+            "gain_unsupported": -0.23,
+            "n_supported": 179
+          },
+          "k10refused/k5_partition": {
+            "estimate": 49.36,
+            "ci95": [
+              40.21,
+              58.15
+            ],
+            "se_boot": 4.65,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 48.9,
+            "gain_unsupported": -0.46,
+            "n_supported": 162
+          },
+          "diff_k10prefix_minus_k5/own_partition": {
+            "estimate": -2.97,
+            "ci95": [
+              -8.14,
+              1.98
+            ],
+            "se_boot": 2.64,
+            "p_two_sided_boot": 0.25755,
+            "ci_excludes_zero": false
+          },
+          "diff_k10prefix_minus_k5/k5_partition": {
+            "estimate": 2.34,
+            "ci95": [
+              -1.14,
+              6.1
+            ],
+            "se_boot": 1.88,
+            "p_two_sided_boot": 0.21156,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/own_partition": {
+            "estimate": -3.34,
+            "ci95": [
+              -8.65,
+              1.56
+            ],
+            "se_boot": 2.63,
+            "p_two_sided_boot": 0.19836,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/k5_partition": {
+            "estimate": 1.88,
+            "ci95": [
+              -1.81,
+              5.78
+            ],
+            "se_boot": 1.94,
+            "p_two_sided_boot": 0.32953,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_k10prefix_minus_k5": {
+            "estimate": 1.53,
+            "ci95": [
+              0.01,
+              3.09
+            ],
+            "se_boot": 0.78,
+            "p_two_sided_boot": 0.04879,
+            "ci_excludes_zero": true
+          },
+          "mean_f1_order_k10refused_minus_k10prefix": {
+            "estimate": -0.49,
+            "ci95": [
+              -1.72,
+              0.65
+            ],
+            "se_boot": 0.6,
+            "p_two_sided_boot": 0.41752,
+            "ci_excludes_zero": false
+          }
+        },
+        "fresh": {
+          "k5/own_partition": {
+            "estimate": 44.82,
+            "ci95": [
+              36.83,
+              53.21
+            ],
+            "se_boot": 4.2,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 42.01,
+            "gain_unsupported": -2.81,
+            "n_supported": 207
+          },
+          "k5/k5_partition": {
+            "estimate": 44.82,
+            "ci95": [
+              36.83,
+              53.21
+            ],
+            "se_boot": 4.2,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 42.01,
+            "gain_unsupported": -2.81,
+            "n_supported": 207
+          },
+          "k10prefix/own_partition": {
+            "estimate": 36.91,
+            "ci95": [
+              29.12,
+              44.84
+            ],
+            "se_boot": 4.1,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 36.43,
+            "gain_unsupported": -0.48,
+            "n_supported": 223
+          },
+          "k10prefix/k5_partition": {
+            "estimate": 41.12,
+            "ci95": [
+              32.94,
+              49.68
+            ],
+            "se_boot": 4.29,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 40.05,
+            "gain_unsupported": -1.07,
+            "n_supported": 207
+          },
+          "k10refused/own_partition": {
+            "estimate": 38.5,
+            "ci95": [
+              30.35,
+              46.69
+            ],
+            "se_boot": 4.18,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 37.77,
+            "gain_unsupported": -0.73,
+            "n_supported": 223
+          },
+          "k10refused/k5_partition": {
+            "estimate": 42.81,
+            "ci95": [
+              34.38,
+              51.59
+            ],
+            "se_boot": 4.36,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 41.5,
+            "gain_unsupported": -1.31,
+            "n_supported": 207
+          },
+          "diff_k10prefix_minus_k5/own_partition": {
+            "estimate": -7.92,
+            "ci95": [
+              -13.05,
+              -2.66
+            ],
+            "se_boot": 2.64,
+            "p_two_sided_boot": 0.0036,
+            "ci_excludes_zero": true
+          },
+          "diff_k10prefix_minus_k5/k5_partition": {
+            "estimate": -3.7,
+            "ci95": [
+              -8.22,
+              1.15
+            ],
+            "se_boot": 2.4,
+            "p_two_sided_boot": 0.13317,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/own_partition": {
+            "estimate": -6.32,
+            "ci95": [
+              -11.26,
+              -1.41
+            ],
+            "se_boot": 2.53,
+            "p_two_sided_boot": 0.0136,
+            "ci_excludes_zero": true
+          },
+          "diff_k10refused_minus_k5/k5_partition": {
+            "estimate": -2.01,
+            "ci95": [
+              -6.26,
+              2.55
+            ],
+            "se_boot": 2.26,
+            "p_two_sided_boot": 0.37752,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_k10prefix_minus_k5": {
+            "estimate": 0.12,
+            "ci95": [
+              -1.84,
+              2.27
+            ],
+            "se_boot": 1.05,
+            "p_two_sided_boot": 0.92821,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_order_k10refused_minus_k10prefix": {
+            "estimate": 0.5,
+            "ci95": [
+              -0.94,
+              2.01
+            ],
+            "se_boot": 0.74,
+            "p_two_sided_boot": 0.5115,
+            "ci_excludes_zero": false
+          }
+        },
+        "pooled": {
+          "k5/own_partition": {
+            "estimate": 45.92,
+            "ci95": [
+              39.75,
+              52.06
+            ],
+            "se_boot": 3.14,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 44.09,
+            "gain_unsupported": -1.83,
+            "n_supported": 369
+          },
+          "k5/k5_partition": {
+            "estimate": 45.92,
+            "ci95": [
+              39.75,
+              52.06
+            ],
+            "se_boot": 3.14,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 44.09,
+            "gain_unsupported": -1.83,
+            "n_supported": 369
+          },
+          "k10prefix/own_partition": {
+            "estimate": 40.28,
+            "ci95": [
+              34.45,
+              46.25
+            ],
+            "se_boot": 3.03,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 40.07,
+            "gain_unsupported": -0.2,
+            "n_supported": 402
+          },
+          "k10prefix/k5_partition": {
+            "estimate": 44.91,
+            "ci95": [
+              38.64,
+              51.1
+            ],
+            "se_boot": 3.18,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 44.27,
+            "gain_unsupported": -0.64,
+            "n_supported": 369
+          },
+          "k10refused/own_partition": {
+            "estimate": 41.0,
+            "ci95": [
+              35.0,
+              47.03
+            ],
+            "se_boot": 3.08,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 40.51,
+            "gain_unsupported": -0.49,
+            "n_supported": 402
+          },
+          "k10refused/k5_partition": {
+            "estimate": 45.65,
+            "ci95": [
+              39.26,
+              51.93
+            ],
+            "se_boot": 3.22,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 44.75,
+            "gain_unsupported": -0.91,
+            "n_supported": 369
+          },
+          "diff_k10prefix_minus_k5/own_partition": {
+            "estimate": -5.64,
+            "ci95": [
+              -9.3,
+              -2.05
+            ],
+            "se_boot": 1.85,
+            "p_two_sided_boot": 0.0028,
+            "ci_excludes_zero": true
+          },
+          "diff_k10prefix_minus_k5/k5_partition": {
+            "estimate": -1.01,
+            "ci95": [
+              -4.0,
+              2.24
+            ],
+            "se_boot": 1.57,
+            "p_two_sided_boot": 0.5163,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/own_partition": {
+            "estimate": -4.91,
+            "ci95": [
+              -8.5,
+              -1.4
+            ],
+            "se_boot": 1.81,
+            "p_two_sided_boot": 0.0056,
+            "ci_excludes_zero": true
+          },
+          "diff_k10refused_minus_k5/k5_partition": {
+            "estimate": -0.26,
+            "ci95": [
+              -3.18,
+              2.79
+            ],
+            "se_boot": 1.52,
+            "p_two_sided_boot": 0.86103,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_k10prefix_minus_k5": {
+            "estimate": 0.77,
+            "ci95": [
+              -0.51,
+              2.11
+            ],
+            "se_boot": 0.66,
+            "p_two_sided_boot": 0.24115,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_order_k10refused_minus_k10prefix": {
+            "estimate": 0.04,
+            "ci95": [
+              -0.88,
+              0.98
+            ],
+            "se_boot": 0.48,
+            "p_two_sided_boot": 0.94261,
+            "ci_excludes_zero": false
+          }
+        }
+      },
+      "quiz_weighted": {
+        "static": {
+          "k5/own_partition": {
+            "estimate": 42.17,
+            "ci95": [
+              30.69,
+              53.18
+            ],
+            "se_boot": 5.79,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 41.47,
+            "gain_unsupported": -0.7,
+            "n_supported": 162
+          },
+          "k5/k5_partition": {
+            "estimate": 42.17,
+            "ci95": [
+              30.69,
+              53.18
+            ],
+            "se_boot": 5.79,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 41.47,
+            "gain_unsupported": -0.7,
+            "n_supported": 162
+          },
+          "k10prefix/own_partition": {
+            "estimate": 42.06,
+            "ci95": [
+              30.41,
+              53.04
+            ],
+            "se_boot": 5.83,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 42.3,
+            "gain_unsupported": 0.24,
+            "n_supported": 179
+          },
+          "k10prefix/k5_partition": {
+            "estimate": 45.7,
+            "ci95": [
+              34.0,
+              56.88
+            ],
+            "se_boot": 5.95,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 46.17,
+            "gain_unsupported": 0.47,
+            "n_supported": 162
+          },
+          "k10refused/own_partition": {
+            "estimate": 39.19,
+            "ci95": [
+              27.69,
+              49.87
+            ],
+            "se_boot": 5.74,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 39.26,
+            "gain_unsupported": 0.07,
+            "n_supported": 179
+          },
+          "k10refused/k5_partition": {
+            "estimate": 44.2,
+            "ci95": [
+              32.52,
+              55.36
+            ],
+            "se_boot": 5.84,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 43.9,
+            "gain_unsupported": -0.3,
+            "n_supported": 162
+          },
+          "diff_k10prefix_minus_k5/own_partition": {
+            "estimate": -0.11,
+            "ci95": [
+              -7.42,
+              7.04
+            ],
+            "se_boot": 3.65,
+            "p_two_sided_boot": 0.9754,
+            "ci_excludes_zero": false
+          },
+          "diff_k10prefix_minus_k5/k5_partition": {
+            "estimate": 3.53,
+            "ci95": [
+              -1.23,
+              8.59
+            ],
+            "se_boot": 2.5,
+            "p_two_sided_boot": 0.14957,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/own_partition": {
+            "estimate": -2.98,
+            "ci95": [
+              -10.67,
+              4.14
+            ],
+            "se_boot": 3.8,
+            "p_two_sided_boot": 0.43831,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/k5_partition": {
+            "estimate": 2.03,
+            "ci95": [
+              -3.15,
+              7.22
+            ],
+            "se_boot": 2.69,
+            "p_two_sided_boot": 0.44031,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_k10prefix_minus_k5": {
+            "estimate": 1.61,
+            "ci95": [
+              -0.28,
+              3.87
+            ],
+            "se_boot": 1.07,
+            "p_two_sided_boot": 0.10638,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_order_k10refused_minus_k10prefix": {
+            "estimate": -1.56,
+            "ci95": [
+              -3.74,
+              0.07
+            ],
+            "se_boot": 0.98,
+            "p_two_sided_boot": 0.06599,
+            "ci_excludes_zero": false
+          }
+        },
+        "fresh": {
+          "k5/own_partition": {
+            "estimate": 44.26,
+            "ci95": [
+              32.74,
+              55.58
+            ],
+            "se_boot": 5.8,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 41.62,
+            "gain_unsupported": -2.64,
+            "n_supported": 207
+          },
+          "k5/k5_partition": {
+            "estimate": 44.26,
+            "ci95": [
+              32.74,
+              55.58
+            ],
+            "se_boot": 5.8,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 41.62,
+            "gain_unsupported": -2.64,
+            "n_supported": 207
+          },
+          "k10prefix/own_partition": {
+            "estimate": 37.72,
+            "ci95": [
+              26.28,
+              49.73
+            ],
+            "se_boot": 5.95,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 36.18,
+            "gain_unsupported": -1.54,
+            "n_supported": 223
+          },
+          "k10prefix/k5_partition": {
+            "estimate": 41.43,
+            "ci95": [
+              29.87,
+              53.51
+            ],
+            "se_boot": 5.95,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 38.72,
+            "gain_unsupported": -2.71,
+            "n_supported": 207
+          },
+          "k10refused/own_partition": {
+            "estimate": 40.73,
+            "ci95": [
+              29.1,
+              52.5
+            ],
+            "se_boot": 5.93,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 38.92,
+            "gain_unsupported": -1.81,
+            "n_supported": 223
+          },
+          "k10refused/k5_partition": {
+            "estimate": 44.33,
+            "ci95": [
+              32.68,
+              55.86
+            ],
+            "se_boot": 5.85,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 41.35,
+            "gain_unsupported": -2.98,
+            "n_supported": 207
+          },
+          "diff_k10prefix_minus_k5/own_partition": {
+            "estimate": -6.54,
+            "ci95": [
+              -12.75,
+              -0.31
+            ],
+            "se_boot": 3.19,
+            "p_two_sided_boot": 0.04319,
+            "ci_excludes_zero": true
+          },
+          "diff_k10prefix_minus_k5/k5_partition": {
+            "estimate": -2.83,
+            "ci95": [
+              -9.15,
+              3.38
+            ],
+            "se_boot": 3.16,
+            "p_two_sided_boot": 0.36633,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/own_partition": {
+            "estimate": -3.53,
+            "ci95": [
+              -8.23,
+              1.87
+            ],
+            "se_boot": 2.57,
+            "p_two_sided_boot": 0.18036,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/k5_partition": {
+            "estimate": 0.07,
+            "ci95": [
+              -4.2,
+              4.94
+            ],
+            "se_boot": 2.32,
+            "p_two_sided_boot": 0.9986,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_k10prefix_minus_k5": {
+            "estimate": -0.27,
+            "ci95": [
+              -3.61,
+              3.22
+            ],
+            "se_boot": 1.74,
+            "p_two_sided_boot": 0.86583,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_order_k10refused_minus_k10prefix": {
+            "estimate": 0.83,
+            "ci95": [
+              -1.57,
+              3.41
+            ],
+            "se_boot": 1.28,
+            "p_two_sided_boot": 0.53149,
+            "ci_excludes_zero": false
+          }
+        },
+        "pooled": {
+          "k5/own_partition": {
+            "estimate": 42.94,
+            "ci95": [
+              34.79,
+              51.04
+            ],
+            "se_boot": 4.2,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 41.53,
+            "gain_unsupported": -1.41,
+            "n_supported": 369
+          },
+          "k5/k5_partition": {
+            "estimate": 42.94,
+            "ci95": [
+              34.79,
+              51.04
+            ],
+            "se_boot": 4.2,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 41.53,
+            "gain_unsupported": -1.41,
+            "n_supported": 369
+          },
+          "k10prefix/own_partition": {
+            "estimate": 40.32,
+            "ci95": [
+              31.73,
+              48.49
+            ],
+            "se_boot": 4.26,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 39.9,
+            "gain_unsupported": -0.42,
+            "n_supported": 402
+          },
+          "k10prefix/k5_partition": {
+            "estimate": 43.83,
+            "ci95": [
+              35.22,
+              52.14
+            ],
+            "se_boot": 4.32,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 43.13,
+            "gain_unsupported": -0.69,
+            "n_supported": 369
+          },
+          "k10refused/own_partition": {
+            "estimate": 39.76,
+            "ci95": [
+              31.4,
+              47.75
+            ],
+            "se_boot": 4.21,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 39.13,
+            "gain_unsupported": -0.64,
+            "n_supported": 402
+          },
+          "k10refused/k5_partition": {
+            "estimate": 44.14,
+            "ci95": [
+              35.61,
+              52.37
+            ],
+            "se_boot": 4.24,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 42.86,
+            "gain_unsupported": -1.28,
+            "n_supported": 369
+          },
+          "diff_k10prefix_minus_k5/own_partition": {
+            "estimate": -2.62,
+            "ci95": [
+              -7.65,
+              2.22
+            ],
+            "se_boot": 2.53,
+            "p_two_sided_boot": 0.29554,
+            "ci_excludes_zero": false
+          },
+          "diff_k10prefix_minus_k5/k5_partition": {
+            "estimate": 0.89,
+            "ci95": [
+              -2.81,
+              4.87
+            ],
+            "se_boot": 1.97,
+            "p_two_sided_boot": 0.65827,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/own_partition": {
+            "estimate": -3.18,
+            "ci95": [
+              -8.08,
+              1.64
+            ],
+            "se_boot": 2.49,
+            "p_two_sided_boot": 0.19076,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/k5_partition": {
+            "estimate": 1.2,
+            "ci95": [
+              -2.31,
+              4.93
+            ],
+            "se_boot": 1.85,
+            "p_two_sided_boot": 0.5207,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_k10prefix_minus_k5": {
+            "estimate": 0.91,
+            "ci95": [
+              -0.85,
+              2.79
+            ],
+            "se_boot": 0.92,
+            "p_two_sided_boot": 0.32234,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_order_k10refused_minus_k10prefix": {
+            "estimate": -0.67,
+            "ci95": [
+              -2.28,
+              0.76
+            ],
+            "se_boot": 0.77,
+            "p_two_sided_boot": 0.39312,
+            "ci_excludes_zero": false
+          }
+        }
+      }
+    },
+    "qwen3b": {
+      "transitions_from_k5": {
+        "k10prefix": {
+          "U->S": 33,
+          "S->U": 0
+        },
+        "k10refused": {
+          "U->S": 33,
+          "S->U": 0
+        }
+      },
+      "question_pooled": {
+        "static": {
+          "k5/own_partition": {
+            "estimate": 48.82,
+            "ci95": [
+              39.55,
+              57.5
+            ],
+            "se_boot": 4.58,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 51.08,
+            "gain_unsupported": 2.26,
+            "n_supported": 162
+          },
+          "k5/k5_partition": {
+            "estimate": 48.82,
+            "ci95": [
+              39.55,
+              57.5
+            ],
+            "se_boot": 4.58,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 51.08,
+            "gain_unsupported": 2.26,
+            "n_supported": 162
+          },
+          "k10prefix/own_partition": {
+            "estimate": 44.34,
+            "ci95": [
+              35.73,
+              52.7
+            ],
+            "se_boot": 4.31,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 48.49,
+            "gain_unsupported": 4.15,
+            "n_supported": 179
+          },
+          "k10prefix/k5_partition": {
+            "estimate": 49.51,
+            "ci95": [
+              40.74,
+              57.95
+            ],
+            "se_boot": 4.37,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 53.45,
+            "gain_unsupported": 3.94,
+            "n_supported": 162
+          },
+          "k10refused/own_partition": {
+            "estimate": 44.05,
+            "ci95": [
+              35.48,
+              52.29
+            ],
+            "se_boot": 4.27,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 47.84,
+            "gain_unsupported": 3.79,
+            "n_supported": 179
+          },
+          "k10refused/k5_partition": {
+            "estimate": 49.13,
+            "ci95": [
+              40.29,
+              57.72
+            ],
+            "se_boot": 4.4,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 52.74,
+            "gain_unsupported": 3.61,
+            "n_supported": 162
+          },
+          "diff_k10prefix_minus_k5/own_partition": {
+            "estimate": -4.48,
+            "ci95": [
+              -9.58,
+              0.6
+            ],
+            "se_boot": 2.59,
+            "p_two_sided_boot": 0.08598,
+            "ci_excludes_zero": false
+          },
+          "diff_k10prefix_minus_k5/k5_partition": {
+            "estimate": 0.69,
+            "ci95": [
+              -2.71,
+              4.39
+            ],
+            "se_boot": 1.79,
+            "p_two_sided_boot": 0.71546,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/own_partition": {
+            "estimate": -4.77,
+            "ci95": [
+              -9.84,
+              0.22
+            ],
+            "se_boot": 2.6,
+            "p_two_sided_boot": 0.06199,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/k5_partition": {
+            "estimate": 0.31,
+            "ci95": [
+              -3.59,
+              4.25
+            ],
+            "se_boot": 2.0,
+            "p_two_sided_boot": 0.86823,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_k10prefix_minus_k5": {
+            "estimate": 1.96,
+            "ci95": [
+              0.33,
+              3.81
+            ],
+            "se_boot": 0.89,
+            "p_two_sided_boot": 0.0164,
+            "ci_excludes_zero": true
+          },
+          "mean_f1_order_k10refused_minus_k10prefix": {
+            "estimate": -0.48,
+            "ci95": [
+              -1.43,
+              0.42
+            ],
+            "se_boot": 0.47,
+            "p_two_sided_boot": 0.28274,
+            "ci_excludes_zero": false
+          }
+        },
+        "fresh": {
+          "k5/own_partition": {
+            "estimate": 46.9,
+            "ci95": [
+              37.63,
+              55.94
+            ],
+            "se_boot": 4.68,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 46.57,
+            "gain_unsupported": -0.34,
+            "n_supported": 207
+          },
+          "k5/k5_partition": {
+            "estimate": 46.9,
+            "ci95": [
+              37.63,
+              55.94
+            ],
+            "se_boot": 4.68,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 46.57,
+            "gain_unsupported": -0.34,
+            "n_supported": 207
+          },
+          "k10prefix/own_partition": {
+            "estimate": 43.32,
+            "ci95": [
+              35.42,
+              50.87
+            ],
+            "se_boot": 3.93,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 43.47,
+            "gain_unsupported": 0.15,
+            "n_supported": 223
+          },
+          "k10prefix/k5_partition": {
+            "estimate": 46.69,
+            "ci95": [
+              37.72,
+              55.74
+            ],
+            "se_boot": 4.63,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 46.83,
+            "gain_unsupported": 0.14,
+            "n_supported": 207
+          },
+          "k10refused/own_partition": {
+            "estimate": 42.15,
+            "ci95": [
+              34.57,
+              49.14
+            ],
+            "se_boot": 3.7,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 42.31,
+            "gain_unsupported": 0.15,
+            "n_supported": 223
+          },
+          "k10refused/k5_partition": {
+            "estimate": 45.43,
+            "ci95": [
+              36.94,
+              53.8
+            ],
+            "se_boot": 4.35,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 45.58,
+            "gain_unsupported": 0.14,
+            "n_supported": 207
+          },
+          "diff_k10prefix_minus_k5/own_partition": {
+            "estimate": -3.59,
+            "ci95": [
+              -7.65,
+              0.71
+            ],
+            "se_boot": 2.15,
+            "p_two_sided_boot": 0.09958,
+            "ci_excludes_zero": false
+          },
+          "diff_k10prefix_minus_k5/k5_partition": {
+            "estimate": -0.22,
+            "ci95": [
+              -3.96,
+              3.92
+            ],
+            "se_boot": 2.02,
+            "p_two_sided_boot": 0.91502,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/own_partition": {
+            "estimate": -4.75,
+            "ci95": [
+              -9.42,
+              0.23
+            ],
+            "se_boot": 2.46,
+            "p_two_sided_boot": 0.06079,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/k5_partition": {
+            "estimate": -1.47,
+            "ci95": [
+              -5.78,
+              3.0
+            ],
+            "se_boot": 2.23,
+            "p_two_sided_boot": 0.5099,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_k10prefix_minus_k5": {
+            "estimate": 0.39,
+            "ci95": [
+              -1.52,
+              2.14
+            ],
+            "se_boot": 0.93,
+            "p_two_sided_boot": 0.66827,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_order_k10refused_minus_k10prefix": {
+            "estimate": -0.55,
+            "ci95": [
+              -1.75,
+              0.64
+            ],
+            "se_boot": 0.6,
+            "p_two_sided_boot": 0.37952,
+            "ci_excludes_zero": false
+          }
+        },
+        "pooled": {
+          "k5/own_partition": {
+            "estimate": 47.65,
+            "ci95": [
+              40.98,
+              54.03
+            ],
+            "se_boot": 3.31,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 48.55,
+            "gain_unsupported": 0.9,
+            "n_supported": 369
+          },
+          "k5/k5_partition": {
+            "estimate": 47.65,
+            "ci95": [
+              40.98,
+              54.03
+            ],
+            "se_boot": 3.31,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 48.55,
+            "gain_unsupported": 0.9,
+            "n_supported": 369
+          },
+          "k10prefix/own_partition": {
+            "estimate": 43.66,
+            "ci95": [
+              37.88,
+              49.25
+            ],
+            "se_boot": 2.91,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 45.7,
+            "gain_unsupported": 2.04,
+            "n_supported": 402
+          },
+          "k10prefix/k5_partition": {
+            "estimate": 47.79,
+            "ci95": [
+              41.48,
+              54.09
+            ],
+            "se_boot": 3.22,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 49.74,
+            "gain_unsupported": 1.95,
+            "n_supported": 369
+          },
+          "k10refused/own_partition": {
+            "estimate": 42.9,
+            "ci95": [
+              37.35,
+              48.22
+            ],
+            "se_boot": 2.79,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 44.77,
+            "gain_unsupported": 1.87,
+            "n_supported": 402
+          },
+          "k10refused/k5_partition": {
+            "estimate": 46.93,
+            "ci95": [
+              40.72,
+              52.99
+            ],
+            "se_boot": 3.09,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 48.72,
+            "gain_unsupported": 1.79,
+            "n_supported": 369
+          },
+          "diff_k10prefix_minus_k5/own_partition": {
+            "estimate": -3.99,
+            "ci95": [
+              -7.22,
+              -0.75
+            ],
+            "se_boot": 1.63,
+            "p_two_sided_boot": 0.02,
+            "ci_excludes_zero": true
+          },
+          "diff_k10prefix_minus_k5/k5_partition": {
+            "estimate": 0.14,
+            "ci95": [
+              -2.48,
+              2.93
+            ],
+            "se_boot": 1.37,
+            "p_two_sided_boot": 0.92821,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/own_partition": {
+            "estimate": -4.75,
+            "ci95": [
+              -8.23,
+              -1.31
+            ],
+            "se_boot": 1.77,
+            "p_two_sided_boot": 0.0124,
+            "ci_excludes_zero": true
+          },
+          "diff_k10refused_minus_k5/k5_partition": {
+            "estimate": -0.72,
+            "ci95": [
+              -3.67,
+              2.37
+            ],
+            "se_boot": 1.52,
+            "p_two_sided_boot": 0.64547,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_k10prefix_minus_k5": {
+            "estimate": 1.11,
+            "ci95": [
+              -0.16,
+              2.38
+            ],
+            "se_boot": 0.65,
+            "p_two_sided_boot": 0.08798,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_order_k10refused_minus_k10prefix": {
+            "estimate": -0.52,
+            "ci95": [
+              -1.27,
+              0.23
+            ],
+            "se_boot": 0.38,
+            "p_two_sided_boot": 0.17596,
+            "ci_excludes_zero": false
+          }
+        }
+      },
+      "quiz_weighted": {
+        "static": {
+          "k5/own_partition": {
+            "estimate": 44.57,
+            "ci95": [
+              34.11,
+              54.51
+            ],
+            "se_boot": 5.17,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 46.98,
+            "gain_unsupported": 2.41,
+            "n_supported": 162
+          },
+          "k5/k5_partition": {
+            "estimate": 44.57,
+            "ci95": [
+              34.11,
+              54.51
+            ],
+            "se_boot": 5.17,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 46.98,
+            "gain_unsupported": 2.41,
+            "n_supported": 162
+          },
+          "k10prefix/own_partition": {
+            "estimate": 39.54,
+            "ci95": [
+              29.14,
+              49.5
+            ],
+            "se_boot": 5.24,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 44.51,
+            "gain_unsupported": 4.97,
+            "n_supported": 179
+          },
+          "k10prefix/k5_partition": {
+            "estimate": 44.13,
+            "ci95": [
+              33.58,
+              54.39
+            ],
+            "se_boot": 5.3,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 49.27,
+            "gain_unsupported": 5.13,
+            "n_supported": 162
+          },
+          "k10refused/own_partition": {
+            "estimate": 39.09,
+            "ci95": [
+              28.69,
+              49.05
+            ],
+            "se_boot": 5.24,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 43.76,
+            "gain_unsupported": 4.67,
+            "n_supported": 179
+          },
+          "k10refused/k5_partition": {
+            "estimate": 43.77,
+            "ci95": [
+              33.1,
+              54.0
+            ],
+            "se_boot": 5.32,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 48.62,
+            "gain_unsupported": 4.86,
+            "n_supported": 162
+          },
+          "diff_k10prefix_minus_k5/own_partition": {
+            "estimate": -5.02,
+            "ci95": [
+              -11.47,
+              0.63
+            ],
+            "se_boot": 3.07,
+            "p_two_sided_boot": 0.07838,
+            "ci_excludes_zero": false
+          },
+          "diff_k10prefix_minus_k5/k5_partition": {
+            "estimate": -0.43,
+            "ci95": [
+              -4.07,
+              3.23
+            ],
+            "se_boot": 1.85,
+            "p_two_sided_boot": 0.81504,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/own_partition": {
+            "estimate": -5.48,
+            "ci95": [
+              -11.94,
+              0.17
+            ],
+            "se_boot": 3.11,
+            "p_two_sided_boot": 0.05919,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/k5_partition": {
+            "estimate": -0.8,
+            "ci95": [
+              -4.69,
+              3.18
+            ],
+            "se_boot": 1.97,
+            "p_two_sided_boot": 0.69146,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_k10prefix_minus_k5": {
+            "estimate": 1.95,
+            "ci95": [
+              0.58,
+              3.61
+            ],
+            "se_boot": 0.78,
+            "p_two_sided_boot": 0.0024,
+            "ci_excludes_zero": true
+          },
+          "mean_f1_order_k10refused_minus_k10prefix": {
+            "estimate": -0.64,
+            "ci95": [
+              -1.49,
+              0.04
+            ],
+            "se_boot": 0.4,
+            "p_two_sided_boot": 0.07199,
+            "ci_excludes_zero": false
+          }
+        },
+        "fresh": {
+          "k5/own_partition": {
+            "estimate": 40.13,
+            "ci95": [
+              26.11,
+              53.24
+            ],
+            "se_boot": 6.82,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 39.91,
+            "gain_unsupported": -0.22,
+            "n_supported": 207
+          },
+          "k5/k5_partition": {
+            "estimate": 40.13,
+            "ci95": [
+              26.11,
+              53.24
+            ],
+            "se_boot": 6.82,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 39.91,
+            "gain_unsupported": -0.22,
+            "n_supported": 207
+          },
+          "k10prefix/own_partition": {
+            "estimate": 41.68,
+            "ci95": [
+              29.23,
+              53.5
+            ],
+            "se_boot": 6.14,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 41.44,
+            "gain_unsupported": -0.24,
+            "n_supported": 223
+          },
+          "k10prefix/k5_partition": {
+            "estimate": 44.78,
+            "ci95": [
+              31.93,
+              56.83
+            ],
+            "se_boot": 6.34,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 44.48,
+            "gain_unsupported": -0.29,
+            "n_supported": 207
+          },
+          "k10refused/own_partition": {
+            "estimate": 40.13,
+            "ci95": [
+              27.9,
+              52.01
+            ],
+            "se_boot": 6.07,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 40.03,
+            "gain_unsupported": -0.1,
+            "n_supported": 223
+          },
+          "k10refused/k5_partition": {
+            "estimate": 42.91,
+            "ci95": [
+              30.35,
+              54.9
+            ],
+            "se_boot": 6.21,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 42.75,
+            "gain_unsupported": -0.17,
+            "n_supported": 207
+          },
+          "diff_k10prefix_minus_k5/own_partition": {
+            "estimate": 1.55,
+            "ci95": [
+              -4.34,
+              8.43
+            ],
+            "se_boot": 3.3,
+            "p_two_sided_boot": 0.67946,
+            "ci_excludes_zero": false
+          },
+          "diff_k10prefix_minus_k5/k5_partition": {
+            "estimate": 4.65,
+            "ci95": [
+              -1.14,
+              11.47
+            ],
+            "se_boot": 3.25,
+            "p_two_sided_boot": 0.13037,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/own_partition": {
+            "estimate": 0.01,
+            "ci95": [
+              -6.37,
+              7.2
+            ],
+            "se_boot": 3.45,
+            "p_two_sided_boot": 0.94461,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/k5_partition": {
+            "estimate": 2.79,
+            "ci95": [
+              -3.34,
+              9.79
+            ],
+            "se_boot": 3.34,
+            "p_two_sided_boot": 0.40312,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_k10prefix_minus_k5": {
+            "estimate": 0.99,
+            "ci95": [
+              -1.64,
+              3.77
+            ],
+            "se_boot": 1.39,
+            "p_two_sided_boot": 0.5059,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_order_k10refused_minus_k10prefix": {
+            "estimate": -0.38,
+            "ci95": [
+              -1.87,
+              1.47
+            ],
+            "se_boot": 0.85,
+            "p_two_sided_boot": 0.59388,
+            "ci_excludes_zero": false
+          }
+        },
+        "pooled": {
+          "k5/own_partition": {
+            "estimate": 42.65,
+            "ci95": [
+              34.28,
+              50.66
+            ],
+            "se_boot": 4.16,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 44.1,
+            "gain_unsupported": 1.45,
+            "n_supported": 369
+          },
+          "k5/k5_partition": {
+            "estimate": 42.65,
+            "ci95": [
+              34.28,
+              50.66
+            ],
+            "se_boot": 4.16,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 44.1,
+            "gain_unsupported": 1.45,
+            "n_supported": 369
+          },
+          "k10prefix/own_partition": {
+            "estimate": 40.28,
+            "ci95": [
+              32.22,
+              48.03
+            ],
+            "se_boot": 4.01,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 43.3,
+            "gain_unsupported": 3.02,
+            "n_supported": 402
+          },
+          "k10prefix/k5_partition": {
+            "estimate": 44.17,
+            "ci95": [
+              36.13,
+              52.05
+            ],
+            "se_boot": 4.07,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 47.32,
+            "gain_unsupported": 3.15,
+            "n_supported": 369
+          },
+          "k10refused/own_partition": {
+            "estimate": 39.41,
+            "ci95": [
+              31.42,
+              47.02
+            ],
+            "se_boot": 3.98,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 42.29,
+            "gain_unsupported": 2.88,
+            "n_supported": 402
+          },
+          "k10refused/k5_partition": {
+            "estimate": 43.21,
+            "ci95": [
+              35.2,
+              51.02
+            ],
+            "se_boot": 4.04,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 46.23,
+            "gain_unsupported": 3.02,
+            "n_supported": 369
+          },
+          "diff_k10prefix_minus_k5/own_partition": {
+            "estimate": -2.36,
+            "ci95": [
+              -6.94,
+              2.04
+            ],
+            "se_boot": 2.28,
+            "p_two_sided_boot": 0.29034,
+            "ci_excludes_zero": false
+          },
+          "diff_k10prefix_minus_k5/k5_partition": {
+            "estimate": 1.52,
+            "ci95": [
+              -1.71,
+              5.1
+            ],
+            "se_boot": 1.75,
+            "p_two_sided_boot": 0.39352,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/own_partition": {
+            "estimate": -3.24,
+            "ci95": [
+              -7.88,
+              1.25
+            ],
+            "se_boot": 2.32,
+            "p_two_sided_boot": 0.15837,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/k5_partition": {
+            "estimate": 0.56,
+            "ci95": [
+              -2.8,
+              4.28
+            ],
+            "se_boot": 1.81,
+            "p_two_sided_boot": 0.77864,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_k10prefix_minus_k5": {
+            "estimate": 1.59,
+            "ci95": [
+              0.26,
+              3.01
+            ],
+            "se_boot": 0.7,
+            "p_two_sided_boot": 0.0152,
+            "ci_excludes_zero": true
+          },
+          "mean_f1_order_k10refused_minus_k10prefix": {
+            "estimate": -0.54,
+            "ci95": [
+              -1.33,
+              0.3
+            ],
+            "se_boot": 0.4,
+            "p_two_sided_boot": 0.18276,
+            "ci_excludes_zero": false
+          }
+        }
+      }
+    },
+    "qwen7b": {
+      "transitions_from_k5": {
+        "k10prefix": {
+          "U->S": 33,
+          "S->U": 0
+        },
+        "k10refused": {
+          "U->S": 33,
+          "S->U": 0
+        }
+      },
+      "question_pooled": {
+        "static": {
+          "k5/own_partition": {
+            "estimate": 48.93,
+            "ci95": [
+              40.18,
+              57.79
+            ],
+            "se_boot": 4.52,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 42.64,
+            "gain_unsupported": -6.29,
+            "n_supported": 162
+          },
+          "k5/k5_partition": {
+            "estimate": 48.93,
+            "ci95": [
+              40.18,
+              57.79
+            ],
+            "se_boot": 4.52,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 42.64,
+            "gain_unsupported": -6.29,
+            "n_supported": 162
+          },
+          "k10prefix/own_partition": {
+            "estimate": 40.38,
+            "ci95": [
+              31.43,
+              49.1
+            ],
+            "se_boot": 4.44,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 37.72,
+            "gain_unsupported": -2.66,
+            "n_supported": 179
+          },
+          "k10prefix/k5_partition": {
+            "estimate": 48.85,
+            "ci95": [
+              40.27,
+              57.74
+            ],
+            "se_boot": 4.44,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 44.5,
+            "gain_unsupported": -4.36,
+            "n_supported": 162
+          },
+          "k10refused/own_partition": {
+            "estimate": 40.75,
+            "ci95": [
+              31.81,
+              49.55
+            ],
+            "se_boot": 4.48,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 37.94,
+            "gain_unsupported": -2.81,
+            "n_supported": 179
+          },
+          "k10refused/k5_partition": {
+            "estimate": 49.24,
+            "ci95": [
+              40.42,
+              58.12
+            ],
+            "se_boot": 4.49,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 44.74,
+            "gain_unsupported": -4.5,
+            "n_supported": 162
+          },
+          "diff_k10prefix_minus_k5/own_partition": {
+            "estimate": -8.55,
+            "ci95": [
+              -14.71,
+              -2.76
+            ],
+            "se_boot": 3.09,
+            "p_two_sided_boot": 0.0024,
+            "ci_excludes_zero": true
+          },
+          "diff_k10prefix_minus_k5/k5_partition": {
+            "estimate": -0.07,
+            "ci95": [
+              -3.71,
+              3.67
+            ],
+            "se_boot": 1.89,
+            "p_two_sided_boot": 0.95861,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/own_partition": {
+            "estimate": -8.18,
+            "ci95": [
+              -14.17,
+              -2.67
+            ],
+            "se_boot": 2.97,
+            "p_two_sided_boot": 0.0028,
+            "ci_excludes_zero": true
+          },
+          "diff_k10refused_minus_k5/k5_partition": {
+            "estimate": 0.31,
+            "ci95": [
+              -2.86,
+              3.78
+            ],
+            "se_boot": 1.72,
+            "p_two_sided_boot": 0.86543,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_k10prefix_minus_k5": {
+            "estimate": 1.9,
+            "ci95": [
+              -0.01,
+              3.84
+            ],
+            "se_boot": 0.99,
+            "p_two_sided_boot": 0.05399,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_order_k10refused_minus_k10prefix": {
+            "estimate": 0.01,
+            "ci95": [
+              -1.05,
+              1.12
+            ],
+            "se_boot": 0.55,
+            "p_two_sided_boot": 0.95901,
+            "ci_excludes_zero": false
+          }
+        },
+        "fresh": {
+          "k5/own_partition": {
+            "estimate": 44.35,
+            "ci95": [
+              35.02,
+              53.91
+            ],
+            "se_boot": 4.9,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 41.21,
+            "gain_unsupported": -3.15,
+            "n_supported": 207
+          },
+          "k5/k5_partition": {
+            "estimate": 44.35,
+            "ci95": [
+              35.02,
+              53.91
+            ],
+            "se_boot": 4.9,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 41.21,
+            "gain_unsupported": -3.15,
+            "n_supported": 207
+          },
+          "k10prefix/own_partition": {
+            "estimate": 39.14,
+            "ci95": [
+              29.63,
+              48.59
+            ],
+            "se_boot": 4.87,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 38.24,
+            "gain_unsupported": -0.9,
+            "n_supported": 223
+          },
+          "k10prefix/k5_partition": {
+            "estimate": 42.04,
+            "ci95": [
+              32.21,
+              51.74
+            ],
+            "se_boot": 5.05,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 41.2,
+            "gain_unsupported": -0.84,
+            "n_supported": 207
+          },
+          "k10refused/own_partition": {
+            "estimate": 39.02,
+            "ci95": [
+              29.91,
+              48.05
+            ],
+            "se_boot": 4.68,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 37.55,
+            "gain_unsupported": -1.46,
+            "n_supported": 223
+          },
+          "k10refused/k5_partition": {
+            "estimate": 41.83,
+            "ci95": [
+              32.88,
+              51.22
+            ],
+            "se_boot": 4.71,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 40.46,
+            "gain_unsupported": -1.38,
+            "n_supported": 207
+          },
+          "diff_k10prefix_minus_k5/own_partition": {
+            "estimate": -5.21,
+            "ci95": [
+              -8.57,
+              -1.88
+            ],
+            "se_boot": 1.7,
+            "p_two_sided_boot": 0.002,
+            "ci_excludes_zero": true
+          },
+          "diff_k10prefix_minus_k5/k5_partition": {
+            "estimate": -2.31,
+            "ci95": [
+              -5.58,
+              1.23
+            ],
+            "se_boot": 1.72,
+            "p_two_sided_boot": 0.18156,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/own_partition": {
+            "estimate": -5.34,
+            "ci95": [
+              -9.48,
+              -1.61
+            ],
+            "se_boot": 2.02,
+            "p_two_sided_boot": 0.0012,
+            "ci_excludes_zero": true
+          },
+          "diff_k10refused_minus_k5/k5_partition": {
+            "estimate": -2.52,
+            "ci95": [
+              -5.7,
+              0.37
+            ],
+            "se_boot": 1.56,
+            "p_two_sided_boot": 0.09438,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_k10prefix_minus_k5": {
+            "estimate": 1.29,
+            "ci95": [
+              -0.73,
+              3.34
+            ],
+            "se_boot": 1.03,
+            "p_two_sided_boot": 0.20516,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_order_k10refused_minus_k10prefix": {
+            "estimate": -0.62,
+            "ci95": [
+              -1.97,
+              0.67
+            ],
+            "se_boot": 0.68,
+            "p_two_sided_boot": 0.35673,
+            "ci_excludes_zero": false
+          }
+        },
+        "pooled": {
+          "k5/own_partition": {
+            "estimate": 46.47,
+            "ci95": [
+              40.04,
+              53.28
+            ],
+            "se_boot": 3.37,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 41.84,
+            "gain_unsupported": -4.64,
+            "n_supported": 369
+          },
+          "k5/k5_partition": {
+            "estimate": 46.47,
+            "ci95": [
+              40.04,
+              53.28
+            ],
+            "se_boot": 3.37,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 41.84,
+            "gain_unsupported": -4.64,
+            "n_supported": 369
+          },
+          "k10prefix/own_partition": {
+            "estimate": 39.74,
+            "ci95": [
+              33.4,
+              46.17
+            ],
+            "se_boot": 3.31,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 38.01,
+            "gain_unsupported": -1.73,
+            "n_supported": 402
+          },
+          "k10prefix/k5_partition": {
+            "estimate": 45.16,
+            "ci95": [
+              38.43,
+              51.84
+            ],
+            "se_boot": 3.46,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 42.64,
+            "gain_unsupported": -2.51,
+            "n_supported": 369
+          },
+          "k10refused/own_partition": {
+            "estimate": 39.83,
+            "ci95": [
+              33.55,
+              46.23
+            ],
+            "se_boot": 3.23,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 37.72,
+            "gain_unsupported": -2.1,
+            "n_supported": 402
+          },
+          "k10refused/k5_partition": {
+            "estimate": 45.2,
+            "ci95": [
+              38.81,
+              51.72
+            ],
+            "se_boot": 3.31,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 42.33,
+            "gain_unsupported": -2.86,
+            "n_supported": 369
+          },
+          "diff_k10prefix_minus_k5/own_partition": {
+            "estimate": -6.74,
+            "ci95": [
+              -10.1,
+              -3.56
+            ],
+            "se_boot": 1.68,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true
+          },
+          "diff_k10prefix_minus_k5/k5_partition": {
+            "estimate": -1.32,
+            "ci95": [
+              -3.77,
+              1.19
+            ],
+            "se_boot": 1.26,
+            "p_two_sided_boot": 0.30354,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/own_partition": {
+            "estimate": -6.65,
+            "ci95": [
+              -10.21,
+              -3.42
+            ],
+            "se_boot": 1.75,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true
+          },
+          "diff_k10refused_minus_k5/k5_partition": {
+            "estimate": -1.28,
+            "ci95": [
+              -3.5,
+              0.93
+            ],
+            "se_boot": 1.14,
+            "p_two_sided_boot": 0.27075,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_k10prefix_minus_k5": {
+            "estimate": 1.57,
+            "ci95": [
+              0.19,
+              3.0
+            ],
+            "se_boot": 0.72,
+            "p_two_sided_boot": 0.02959,
+            "ci_excludes_zero": true
+          },
+          "mean_f1_order_k10refused_minus_k10prefix": {
+            "estimate": -0.33,
+            "ci95": [
+              -1.18,
+              0.53
+            ],
+            "se_boot": 0.44,
+            "p_two_sided_boot": 0.46431,
+            "ci_excludes_zero": false
+          }
+        }
+      },
+      "quiz_weighted": {
+        "static": {
+          "k5/own_partition": {
+            "estimate": 43.66,
+            "ci95": [
+              33.32,
+              54.16
+            ],
+            "se_boot": 5.39,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 37.08,
+            "gain_unsupported": -6.57,
+            "n_supported": 162
+          },
+          "k5/k5_partition": {
+            "estimate": 43.66,
+            "ci95": [
+              33.32,
+              54.16
+            ],
+            "se_boot": 5.39,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 37.08,
+            "gain_unsupported": -6.57,
+            "n_supported": 162
+          },
+          "k10prefix/own_partition": {
+            "estimate": 35.75,
+            "ci95": [
+              25.18,
+              46.15
+            ],
+            "se_boot": 5.36,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 33.25,
+            "gain_unsupported": -2.5,
+            "n_supported": 179
+          },
+          "k10prefix/k5_partition": {
+            "estimate": 45.3,
+            "ci95": [
+              35.0,
+              55.58
+            ],
+            "se_boot": 5.23,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 40.37,
+            "gain_unsupported": -4.93,
+            "n_supported": 162
+          },
+          "k10refused/own_partition": {
+            "estimate": 34.98,
+            "ci95": [
+              24.21,
+              45.6
+            ],
+            "se_boot": 5.47,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 32.13,
+            "gain_unsupported": -2.85,
+            "n_supported": 179
+          },
+          "k10refused/k5_partition": {
+            "estimate": 44.64,
+            "ci95": [
+              34.17,
+              55.07
+            ],
+            "se_boot": 5.37,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 39.37,
+            "gain_unsupported": -5.27,
+            "n_supported": 162
+          },
+          "diff_k10prefix_minus_k5/own_partition": {
+            "estimate": -7.9,
+            "ci95": [
+              -15.74,
+              -0.82
+            ],
+            "se_boot": 3.86,
+            "p_two_sided_boot": 0.03319,
+            "ci_excludes_zero": true
+          },
+          "diff_k10prefix_minus_k5/k5_partition": {
+            "estimate": 1.64,
+            "ci95": [
+              -2.5,
+              6.1
+            ],
+            "se_boot": 2.19,
+            "p_two_sided_boot": 0.4783,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/own_partition": {
+            "estimate": -8.68,
+            "ci95": [
+              -16.37,
+              -1.89
+            ],
+            "se_boot": 3.76,
+            "p_two_sided_boot": 0.01,
+            "ci_excludes_zero": true
+          },
+          "diff_k10refused_minus_k5/k5_partition": {
+            "estimate": 0.98,
+            "ci95": [
+              -2.96,
+              5.21
+            ],
+            "se_boot": 2.09,
+            "p_two_sided_boot": 0.65307,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_k10prefix_minus_k5": {
+            "estimate": 1.46,
+            "ci95": [
+              -0.56,
+              3.67
+            ],
+            "se_boot": 1.1,
+            "p_two_sided_boot": 0.16357,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_order_k10refused_minus_k10prefix": {
+            "estimate": -0.92,
+            "ci95": [
+              -2.87,
+              0.76
+            ],
+            "se_boot": 0.94,
+            "p_two_sided_boot": 0.34433,
+            "ci_excludes_zero": false
+          }
+        },
+        "fresh": {
+          "k5/own_partition": {
+            "estimate": 42.85,
+            "ci95": [
+              29.98,
+              55.64
+            ],
+            "se_boot": 6.5,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 40.62,
+            "gain_unsupported": -2.22,
+            "n_supported": 207
+          },
+          "k5/k5_partition": {
+            "estimate": 42.85,
+            "ci95": [
+              29.98,
+              55.64
+            ],
+            "se_boot": 6.5,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 40.62,
+            "gain_unsupported": -2.22,
+            "n_supported": 207
+          },
+          "k10prefix/own_partition": {
+            "estimate": 40.46,
+            "ci95": [
+              28.05,
+              53.15
+            ],
+            "se_boot": 6.38,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 39.21,
+            "gain_unsupported": -1.25,
+            "n_supported": 223
+          },
+          "k10prefix/k5_partition": {
+            "estimate": 43.36,
+            "ci95": [
+              30.32,
+              56.31
+            ],
+            "se_boot": 6.58,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 41.43,
+            "gain_unsupported": -1.93,
+            "n_supported": 207
+          },
+          "k10refused/own_partition": {
+            "estimate": 38.62,
+            "ci95": [
+              26.17,
+              51.39
+            ],
+            "se_boot": 6.39,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 37.89,
+            "gain_unsupported": -0.73,
+            "n_supported": 223
+          },
+          "k10refused/k5_partition": {
+            "estimate": 41.56,
+            "ci95": [
+              28.58,
+              54.41
+            ],
+            "se_boot": 6.58,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 40.11,
+            "gain_unsupported": -1.45,
+            "n_supported": 207
+          },
+          "diff_k10prefix_minus_k5/own_partition": {
+            "estimate": -2.39,
+            "ci95": [
+              -6.56,
+              2.09
+            ],
+            "se_boot": 2.2,
+            "p_two_sided_boot": 0.28074,
+            "ci_excludes_zero": false
+          },
+          "diff_k10prefix_minus_k5/k5_partition": {
+            "estimate": 0.52,
+            "ci95": [
+              -3.07,
+              4.32
+            ],
+            "se_boot": 1.9,
+            "p_two_sided_boot": 0.79664,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/own_partition": {
+            "estimate": -4.22,
+            "ci95": [
+              -8.03,
+              -0.31
+            ],
+            "se_boot": 1.96,
+            "p_two_sided_boot": 0.03719,
+            "ci_excludes_zero": true
+          },
+          "diff_k10refused_minus_k5/k5_partition": {
+            "estimate": -1.29,
+            "ci95": [
+              -4.33,
+              1.88
+            ],
+            "se_boot": 1.57,
+            "p_two_sided_boot": 0.40872,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_k10prefix_minus_k5": {
+            "estimate": 0.52,
+            "ci95": [
+              -1.43,
+              2.68
+            ],
+            "se_boot": 1.04,
+            "p_two_sided_boot": 0.61108,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_order_k10refused_minus_k10prefix": {
+            "estimate": -0.52,
+            "ci95": [
+              -2.37,
+              1.02
+            ],
+            "se_boot": 0.88,
+            "p_two_sided_boot": 0.57469,
+            "ci_excludes_zero": false
+          }
+        },
+        "pooled": {
+          "k5/own_partition": {
+            "estimate": 43.51,
+            "ci95": [
+              35.37,
+              51.59
+            ],
+            "se_boot": 4.15,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 38.52,
+            "gain_unsupported": -4.98,
+            "n_supported": 369
+          },
+          "k5/k5_partition": {
+            "estimate": 43.51,
+            "ci95": [
+              35.37,
+              51.59
+            ],
+            "se_boot": 4.15,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 38.52,
+            "gain_unsupported": -4.98,
+            "n_supported": 369
+          },
+          "k10prefix/own_partition": {
+            "estimate": 37.63,
+            "ci95": [
+              29.65,
+              45.52
+            ],
+            "se_boot": 4.1,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 35.59,
+            "gain_unsupported": -2.03,
+            "n_supported": 402
+          },
+          "k10prefix/k5_partition": {
+            "estimate": 44.64,
+            "ci95": [
+              36.44,
+              52.71
+            ],
+            "se_boot": 4.1,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 40.8,
+            "gain_unsupported": -3.83,
+            "n_supported": 369
+          },
+          "k10refused/own_partition": {
+            "estimate": 36.45,
+            "ci95": [
+              28.4,
+              44.52
+            ],
+            "se_boot": 4.16,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 34.39,
+            "gain_unsupported": -2.06,
+            "n_supported": 402
+          },
+          "k10refused/k5_partition": {
+            "estimate": 43.55,
+            "ci95": [
+              35.27,
+              51.71
+            ],
+            "se_boot": 4.18,
+            "p_two_sided_boot": 0.0004,
+            "ci_excludes_zero": true,
+            "gain_supported": 39.67,
+            "gain_unsupported": -3.87,
+            "n_supported": 369
+          },
+          "diff_k10prefix_minus_k5/own_partition": {
+            "estimate": -5.88,
+            "ci95": [
+              -10.96,
+              -1.22
+            ],
+            "se_boot": 2.52,
+            "p_two_sided_boot": 0.0132,
+            "ci_excludes_zero": true
+          },
+          "diff_k10prefix_minus_k5/k5_partition": {
+            "estimate": 1.13,
+            "ci95": [
+              -1.75,
+              4.08
+            ],
+            "se_boot": 1.49,
+            "p_two_sided_boot": 0.45591,
+            "ci_excludes_zero": false
+          },
+          "diff_k10refused_minus_k5/own_partition": {
+            "estimate": -7.06,
+            "ci95": [
+              -11.96,
+              -2.56
+            ],
+            "se_boot": 2.43,
+            "p_two_sided_boot": 0.0008,
+            "ci_excludes_zero": true
+          },
+          "diff_k10refused_minus_k5/k5_partition": {
+            "estimate": 0.04,
+            "ci95": [
+              -2.64,
+              2.87
+            ],
+            "se_boot": 1.4,
+            "p_two_sided_boot": 0.9766,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_k10prefix_minus_k5": {
+            "estimate": 1.11,
+            "ci95": [
+              -0.36,
+              2.73
+            ],
+            "se_boot": 0.79,
+            "p_two_sided_boot": 0.14677,
+            "ci_excludes_zero": false
+          },
+          "mean_f1_order_k10refused_minus_k10prefix": {
+            "estimate": -0.77,
+            "ci95": [
+              -2.21,
+              0.45
+            ],
+            "se_boot": 0.67,
+            "p_two_sided_boot": 0.25115,
+            "ci_excludes_zero": false
+          }
+        }
+      }
+    }
+  },
+  "R5": {
+    "stale_vs_unmasked_context_change": {
+      "static_changed": 184,
+      "static_n": 404,
+      "fresh_changed": 397,
+      "fresh_n": 474,
+      "static_unmasked_contexts_with_2025plus_doc": 135,
+      "doc_ids_identical_across_generators": true
+    },
+    "same_scale_effects": {
+      "qwen3b": {
+        "question_pooled": {
+          "static": {
+            "stale_minus_unmasked": {
+              "estimate": -0.72,
+              "ci95": [
+                -2.27,
+                0.75
+              ],
+              "se_boot": 0.77,
+              "p_two_sided_boot": 0.35833,
+              "ci_excludes_zero": false
+            },
+            "masked_minus_unmasked": {
+              "estimate": -0.3,
+              "ci95": [
+                -2.1,
+                1.42
+              ],
+              "se_boot": 0.89,
+              "p_two_sided_boot": 0.78584,
+              "ci_excludes_zero": false
+            }
+          },
+          "fresh": {
+            "stale_minus_unmasked": {
+              "estimate": -21.56,
+              "ci95": [
+                -26.07,
+                -17.02
+              ],
+              "se_boot": 2.35,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "masked_minus_unmasked": {
+              "estimate": 0.56,
+              "ci95": [
+                -0.52,
+                1.87
+              ],
+              "se_boot": 0.6,
+              "p_two_sided_boot": 0.33313,
+              "ci_excludes_zero": false
+            }
+          },
+          "pooled": {
+            "stale_minus_unmasked": {
+              "estimate": -11.97,
+              "ci95": [
+                -15.11,
+                -8.71
+              ],
+              "se_boot": 1.67,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "masked_minus_unmasked": {
+              "estimate": 0.17,
+              "ci95": [
+                -0.83,
+                1.2
+              ],
+              "se_boot": 0.52,
+              "p_two_sided_boot": 0.72026,
+              "ci_excludes_zero": false
+            }
+          }
+        },
+        "quiz_weighted": {
+          "static": {
+            "stale_minus_unmasked": {
+              "estimate": -0.61,
+              "ci95": [
+                -2.24,
+                0.92
+              ],
+              "se_boot": 0.81,
+              "p_two_sided_boot": 0.47391,
+              "ci_excludes_zero": false
+            },
+            "masked_minus_unmasked": {
+              "estimate": -0.22,
+              "ci95": [
+                -1.9,
+                1.34
+              ],
+              "se_boot": 0.83,
+              "p_two_sided_boot": 0.83663,
+              "ci_excludes_zero": false
+            }
+          },
+          "fresh": {
+            "stale_minus_unmasked": {
+              "estimate": -17.49,
+              "ci95": [
+                -22.88,
+                -12.21
+              ],
+              "se_boot": 2.76,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "masked_minus_unmasked": {
+              "estimate": 0.72,
+              "ci95": [
+                -0.27,
+                2.0
+              ],
+              "se_boot": 0.58,
+              "p_two_sided_boot": 0.17716,
+              "ci_excludes_zero": false
+            }
+          },
+          "pooled": {
+            "stale_minus_unmasked": {
+              "estimate": -6.89,
+              "ci95": [
+                -9.46,
+                -4.43
+              ],
+              "se_boot": 1.27,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "masked_minus_unmasked": {
+              "estimate": 0.13,
+              "ci95": [
+                -0.97,
+                1.22
+              ],
+              "se_boot": 0.56,
+              "p_two_sided_boot": 0.75665,
+              "ci_excludes_zero": false
+            }
+          }
+        }
+      },
+      "qwen32b": {
+        "question_pooled": {
+          "static": {
+            "stale_minus_unmasked": {
+              "estimate": 0.03,
+              "ci95": [
+                -1.16,
+                1.26
+              ],
+              "se_boot": 0.62,
+              "p_two_sided_boot": 0.94821,
+              "ci_excludes_zero": false
+            },
+            "masked_minus_unmasked": {
+              "estimate": -1.3,
+              "ci95": [
+                -2.73,
+                0.03
+              ],
+              "se_boot": 0.71,
+              "p_two_sided_boot": 0.05919,
+              "ci_excludes_zero": false
+            }
+          },
+          "fresh": {
+            "stale_minus_unmasked": {
+              "estimate": -21.67,
+              "ci95": [
+                -26.27,
+                -16.96
+              ],
+              "se_boot": 2.36,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "masked_minus_unmasked": {
+              "estimate": -0.04,
+              "ci95": [
+                -0.96,
+                0.88
+              ],
+              "se_boot": 0.46,
+              "p_two_sided_boot": 0.94141,
+              "ci_excludes_zero": false
+            }
+          },
+          "pooled": {
+            "stale_minus_unmasked": {
+              "estimate": -11.68,
+              "ci95": [
+                -14.82,
+                -8.49
+              ],
+              "se_boot": 1.63,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "masked_minus_unmasked": {
+              "estimate": -0.62,
+              "ci95": [
+                -1.49,
+                0.16
+              ],
+              "se_boot": 0.42,
+              "p_two_sided_boot": 0.13517,
+              "ci_excludes_zero": false
+            }
+          }
+        },
+        "quiz_weighted": {
+          "static": {
+            "stale_minus_unmasked": {
+              "estimate": 1.09,
+              "ci95": [
+                -0.38,
+                2.92
+              ],
+              "se_boot": 0.85,
+              "p_two_sided_boot": 0.18756,
+              "ci_excludes_zero": false
+            },
+            "masked_minus_unmasked": {
+              "estimate": -0.42,
+              "ci95": [
+                -1.71,
+                0.92
+              ],
+              "se_boot": 0.66,
+              "p_two_sided_boot": 0.5247,
+              "ci_excludes_zero": false
+            }
+          },
+          "fresh": {
+            "stale_minus_unmasked": {
+              "estimate": -20.78,
+              "ci95": [
+                -26.3,
+                -15.63
+              ],
+              "se_boot": 2.77,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "masked_minus_unmasked": {
+              "estimate": -0.69,
+              "ci95": [
+                -2.51,
+                0.63
+              ],
+              "se_boot": 0.81,
+              "p_two_sided_boot": 0.40632,
+              "ci_excludes_zero": false
+            }
+          },
+          "pooled": {
+            "stale_minus_unmasked": {
+              "estimate": -7.04,
+              "ci95": [
+                -9.84,
+                -4.38
+              ],
+              "se_boot": 1.38,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "masked_minus_unmasked": {
+              "estimate": -0.52,
+              "ci95": [
+                -1.54,
+                0.49
+              ],
+              "se_boot": 0.51,
+              "p_two_sided_boot": 0.30594,
+              "ci_excludes_zero": false
+            }
+          }
+        }
+      },
+      "mistral_large": {
+        "question_pooled": {
+          "static": {
+            "stale_minus_unmasked": {
+              "estimate": -0.04,
+              "ci95": [
+                -1.38,
+                1.35
+              ],
+              "se_boot": 0.69,
+              "p_two_sided_boot": 0.96941,
+              "ci_excludes_zero": false
+            },
+            "masked_minus_unmasked": {
+              "estimate": -0.03,
+              "ci95": [
+                -1.45,
+                1.55
+              ],
+              "se_boot": 0.76,
+              "p_two_sided_boot": 0.9878,
+              "ci_excludes_zero": false
+            }
+          },
+          "fresh": {
+            "stale_minus_unmasked": {
+              "estimate": -21.29,
+              "ci95": [
+                -25.64,
+                -16.73
+              ],
+              "se_boot": 2.29,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "masked_minus_unmasked": {
+              "estimate": -0.2,
+              "ci95": [
+                -0.81,
+                0.44
+              ],
+              "se_boot": 0.32,
+              "p_two_sided_boot": 0.5231,
+              "ci_excludes_zero": false
+            }
+          },
+          "pooled": {
+            "stale_minus_unmasked": {
+              "estimate": -11.51,
+              "ci95": [
+                -14.53,
+                -8.17
+              ],
+              "se_boot": 1.63,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "masked_minus_unmasked": {
+              "estimate": -0.12,
+              "ci95": [
+                -0.86,
+                0.67
+              ],
+              "se_boot": 0.39,
+              "p_two_sided_boot": 0.77704,
+              "ci_excludes_zero": false
+            }
+          }
+        },
+        "quiz_weighted": {
+          "static": {
+            "stale_minus_unmasked": {
+              "estimate": -0.09,
+              "ci95": [
+                -1.74,
+                1.54
+              ],
+              "se_boot": 0.83,
+              "p_two_sided_boot": 0.94381,
+              "ci_excludes_zero": false
+            },
+            "masked_minus_unmasked": {
+              "estimate": -0.12,
+              "ci95": [
+                -1.82,
+                1.71
+              ],
+              "se_boot": 0.89,
+              "p_two_sided_boot": 0.91622,
+              "ci_excludes_zero": false
+            }
+          },
+          "fresh": {
+            "stale_minus_unmasked": {
+              "estimate": -19.64,
+              "ci95": [
+                -25.29,
+                -14.24
+              ],
+              "se_boot": 2.83,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "masked_minus_unmasked": {
+              "estimate": 0.15,
+              "ci95": [
+                -0.51,
+                1.17
+              ],
+              "se_boot": 0.44,
+              "p_two_sided_boot": 0.82184,
+              "ci_excludes_zero": false
+            }
+          },
+          "pooled": {
+            "stale_minus_unmasked": {
+              "estimate": -7.36,
+              "ci95": [
+                -10.02,
+                -4.8
+              ],
+              "se_boot": 1.33,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "masked_minus_unmasked": {
+              "estimate": -0.02,
+              "ci95": [
+                -1.12,
+                1.19
+              ],
+              "se_boot": 0.58,
+              "p_two_sided_boot": 0.9986,
+              "ci_excludes_zero": false
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "generator": "Qwen2.5-32B",
+  "boundary": 2025,
+  "closed_book": {
+    "static": 30.12,
+    "fresh": 25.19
+  },
+  "rows": {
+    "Hybrid": {
+      "n": 878,
+      "static": {
+        "main_f1": 38.84,
+        "full_f1": 41.22,
+        "delta_full_minus_main": {
+          "diff": 2.38,
+          "ci95": [
+            -0.67,
+            5.21
+          ],
+          "two_sided_p": 0.111,
+          "n": 404
+        },
+        "full_minus_closedbook": {
+          "diff": 11.1,
+          "ci95": [
+            6.4,
+            16.24
+          ],
+          "two_sided_p": 0.0,
+          "n": 404
+        }
+      },
+      "fresh": {
+        "main_f1": 39.11,
+        "full_f1": 38.77,
+        "delta_full_minus_main": {
+          "diff": -0.34,
+          "ci95": [
+            -3.05,
+            2.54
+          ],
+          "two_sided_p": 0.799,
+          "n": 474
+        },
+        "full_minus_closedbook": {
+          "diff": 13.58,
+          "ci95": [
+            9.02,
+            18.23
+          ],
+          "two_sided_p": 0.0,
+          "n": 474
+        }
+      },
+      "cutoff_gap_full": 2.45,
+      "cutoff_gap_main": -0.27
+    },
+    "BM25": {
+      "n": 878,
+      "static": {
+        "main_f1": 36.29,
+        "full_f1": 38.96,
+        "delta_full_minus_main": {
+          "diff": 2.67,
+          "ci95": [
+            -0.02,
+            5.4
+          ],
+          "two_sided_p": 0.053,
+          "n": 404
+        },
+        "full_minus_closedbook": {
+          "diff": 8.84,
+          "ci95": [
+            4.16,
+            13.52
+          ],
+          "two_sided_p": 0.0,
+          "n": 404
+        }
+      },
+      "fresh": {
+        "main_f1": 35.77,
+        "full_f1": 34.17,
+        "delta_full_minus_main": {
+          "diff": -1.6,
+          "ci95": [
+            -4.17,
+            0.93
+          ],
+          "two_sided_p": 0.211,
+          "n": 474
+        },
+        "full_minus_closedbook": {
+          "diff": 8.98,
+          "ci95": [
+            4.54,
+            13.59
+          ],
+          "two_sided_p": 0.0,
+          "n": 474
+        }
+      },
+      "cutoff_gap_full": 4.79,
+      "cutoff_gap_main": 0.52
+    }
+  },
+  "oracle_real": {
+    "n_answerable": 459,
+    "pct_answerable": 52.3,
+    "f1_on_answerable": 64.02,
+    "closedbook_on_answerable": 34.25,
+    "note": "A real oracle only exists for questions with >=1 answer-bearing gold doc; the rest have no supporting evidence at all."
+  }
+}

@@ -1,0 +1,695 @@
+{"item_id": "Ad441495b5", "task": "A", "qid": "20250718_14", "model": "qwen72b", "condition": "closed_book", "stratum": "calibration_clear_wrong", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A198ca8c6f", "task": "A", "qid": "20260612_16", "model": "qwen1_5b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A28925d992", "task": "A", "qid": "20221202_20", "model": "llama3_8b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "Ad42dbc7eb", "task": "A", "qid": "20250411_0", "model": "qwen32b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "A28bb080a4", "task": "A", "qid": "20230203_4", "model": "sonnet", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A469dcc59e", "task": "A", "qid": "20230324_12", "model": "mistral_large", "condition": "closed_book", "stratum": "calibration_clear_correct", "auto_f1": 1.0, "auto_em": 1.0}
+{"item_id": "Af1495ea6f", "task": "A", "qid": "20260508_13", "model": "sonnet", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Ae9bf8f59a", "task": "A", "qid": "20240628_16", "model": "qwen1_5b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "Ad99bfe9c6", "task": "A", "qid": "20260123_9", "model": "qwen72b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.286, "auto_em": 0.0}
+{"item_id": "Aa0196c7f2", "task": "A", "qid": "20260130_5", "model": "gpt4omini", "condition": "closed_book", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A53d010a7a", "task": "A", "qid": "20230818_25", "model": "llama3_8b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.364, "auto_em": 0.0}
+{"item_id": "A1eb5c3b16", "task": "A", "qid": "20260417_16", "model": "sonnet", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "A8dd60a654", "task": "A", "qid": "20221007_25", "model": "llama3_8b", "condition": "hybrid", "stratum": "calibration_clear_wrong", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A872e4737a", "task": "A", "qid": "20230526_2", "model": "qwen7b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A9f9e71947", "task": "A", "qid": "20260206_10", "model": "sonnet", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.111, "auto_em": 0.0}
+{"item_id": "A022caf2a9", "task": "A", "qid": "20240301_22", "model": "llama3_8b", "condition": "hybrid", "stratum": "calibration_clear_correct", "auto_f1": 1.0, "auto_em": 1.0}
+{"item_id": "A6c6e3af35", "task": "A", "qid": "20250404_15", "model": "qwen32b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A708d34ff6", "task": "A", "qid": "20250418_8", "model": "qwen32b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A0d0851865", "task": "A", "qid": "20260515_15", "model": "gpt4omini", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A5c06e36a6", "task": "A", "qid": "20250328_16", "model": "sonnet", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.182, "auto_em": 0.0}
+{"item_id": "A562444522", "task": "A", "qid": "20260220_6", "model": "qwen3b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.286, "auto_em": 0.0}
+{"item_id": "Af4962e963", "task": "A", "qid": "20240322_28", "model": "qwen1_5b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "Aa88142baa", "task": "A", "qid": "20250131_6", "model": "llama3_8b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "Ad53c9b2eb", "task": "A", "qid": "20240503_1", "model": "sonnet", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.05, "auto_em": 0.0}
+{"item_id": "Aa36bbc6a5", "task": "A", "qid": "20230224_20", "model": "qwen32b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Ae96c20b64", "task": "A", "qid": "20240112_28", "model": "qwen1_5b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.167, "auto_em": 0.0}
+{"item_id": "A965c1511a", "task": "A", "qid": "20260515_6", "model": "sonnet", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.051, "auto_em": 0.0}
+{"item_id": "Ae02fa27c7", "task": "A", "qid": "20260403_1", "model": "qwen72b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A8ac41f9a2", "task": "A", "qid": "20250131_6", "model": "llama3_8b", "condition": "closed_book", "stratum": "calibration_clear_wrong", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A58dec0e1c", "task": "A", "qid": "20260130_1", "model": "gpt4omini", "condition": "closed_book", "stratum": "calibration_clear_wrong", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A9a4fe1119", "task": "A", "qid": "20220923_27", "model": "llama3_8b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Acfb956e26", "task": "A", "qid": "20230120_16", "model": "qwen1_5b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.25, "auto_em": 0.0}
+{"item_id": "A511e1646c", "task": "A", "qid": "20230922_17", "model": "qwen7b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A37a7d554a", "task": "A", "qid": "20240301_22", "model": "qwen", "condition": "closed_book", "stratum": "other", "auto_f1": 0.286, "auto_em": 0.0}
+{"item_id": "A490c2bd3e", "task": "A", "qid": "20240301_22", "model": "qwen3b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.286, "auto_em": 0.0}
+{"item_id": "A0b95c9e8f", "task": "A", "qid": "20260403_5", "model": "sonnet", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "A08d8ec1c9", "task": "A", "qid": "20260130_9", "model": "qwen1_5b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A282c93502", "task": "A", "qid": "20240301_22", "model": "gpt4omini", "condition": "closed_book", "stratum": "other", "auto_f1": 0.222, "auto_em": 0.0}
+{"item_id": "A120c2ce34", "task": "A", "qid": "20240628_16", "model": "gpt4omini", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A85d28215a", "task": "A", "qid": "20240726_25", "model": "gpt4omini", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.286, "auto_em": 0.0}
+{"item_id": "A7a4340a71", "task": "A", "qid": "20231020_25", "model": "sonnet", "condition": "closed_book", "stratum": "other", "auto_f1": 0.222, "auto_em": 0.0}
+{"item_id": "A7797f53d6", "task": "A", "qid": "20230609_6", "model": "qwen7b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "A05dc73648", "task": "A", "qid": "20220819_26", "model": "mistral_large", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.333, "auto_em": 0.0}
+{"item_id": "Ab3da6e50d", "task": "A", "qid": "20260327_7", "model": "gpt4omini", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "Aee655c2b1", "task": "A", "qid": "20260619_15", "model": "qwen3b", "condition": "closed_book", "stratum": "calibration_clear_wrong", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Ab9fe08284", "task": "A", "qid": "20260417_12", "model": "llama3_8b", "condition": "hybrid", "stratum": "other", "auto_f1": 0.444, "auto_em": 0.0}
+{"item_id": "Acf0166472", "task": "A", "qid": "20260206_10", "model": "qwen3b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.8, "auto_em": 0.0}
+{"item_id": "A7078959f4", "task": "A", "qid": "20240614_28", "model": "qwen72b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.216, "auto_em": 0.0}
+{"item_id": "A08a3ab954", "task": "A", "qid": "20260109_1", "model": "sonnet", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.042, "auto_em": 0.0}
+{"item_id": "A2abef901e", "task": "A", "qid": "20250523_15", "model": "gpt4omini", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.133, "auto_em": 0.0}
+{"item_id": "A7c9a35384", "task": "A", "qid": "20260116_0", "model": "qwen7b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.364, "auto_em": 0.0}
+{"item_id": "Ad491f716b", "task": "A", "qid": "20250509_18", "model": "llama3_8b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Ac1a095c9f", "task": "A", "qid": "20260501_1", "model": "qwen32b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A388771ae5", "task": "A", "qid": "20260703_27", "model": "qwen32b", "condition": "closed_book", "stratum": "calibration_clear_correct", "auto_f1": 1.0, "auto_em": 1.0}
+{"item_id": "A39ab709c0", "task": "A", "qid": "20250404_15", "model": "llama3_8b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "Adb7bd5e79", "task": "A", "qid": "20231222_14", "model": "qwen32b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "Afae947cc0", "task": "A", "qid": "20260612_7", "model": "qwen72b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.333, "auto_em": 0.0}
+{"item_id": "Af1219a8a5", "task": "A", "qid": "20230602_11", "model": "qwen1_5b", "condition": "closed_book", "stratum": "calibration_clear_wrong", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Af273fafcb", "task": "A", "qid": "20240802_24", "model": "qwen32b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A5ad8efde1", "task": "A", "qid": "20260403_1", "model": "mistral_large", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A80e9f9edb", "task": "A", "qid": "20260417_18", "model": "mistral_large", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "A66dd52e09", "task": "A", "qid": "20240614_27", "model": "qwen32b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.08, "auto_em": 0.0}
+{"item_id": "Ae2b0e673e", "task": "A", "qid": "20250509_12", "model": "qwen32b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Adffc1f149", "task": "A", "qid": "20221104_22", "model": "qwen32b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Ae31967a1d", "task": "A", "qid": "20221223_10", "model": "sonnet", "condition": "closed_book", "stratum": "calibration_clear_correct", "auto_f1": 1.0, "auto_em": 1.0}
+{"item_id": "Ade80672ba", "task": "A", "qid": "20230901_13", "model": "gpt4omini", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A28e5cba9e", "task": "A", "qid": "20260123_1", "model": "qwen3b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A2cedc86f1", "task": "A", "qid": "20230818_25", "model": "qwen32b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A71cbe90fb", "task": "A", "qid": "20250711_15", "model": "mistral_large", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A611a34551", "task": "A", "qid": "20220819_26", "model": "qwen72b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.333, "auto_em": 0.0}
+{"item_id": "A54b99015b", "task": "A", "qid": "20260116_5", "model": "gpt4omini", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A094d174fc", "task": "A", "qid": "20231208_23", "model": "sonnet", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.04, "auto_em": 0.0}
+{"item_id": "Ad0f0662f1", "task": "A", "qid": "20260501_1", "model": "qwen72b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Abffdec8b9", "task": "A", "qid": "20221230_6", "model": "gpt4omini", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "Ae7ba0ce62", "task": "A", "qid": "20250711_4", "model": "qwen3b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.8, "auto_em": 0.0}
+{"item_id": "Aa80763812", "task": "A", "qid": "20260515_13", "model": "sonnet", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A24405f815", "task": "A", "qid": "20240719_26", "model": "qwen3b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Ae667f3912", "task": "A", "qid": "20260424_9", "model": "gpt4omini", "condition": "hybrid", "stratum": "calibration_clear_wrong", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Afc70cb09a", "task": "A", "qid": "20250103_9", "model": "qwen7b", "condition": "closed_book", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A241c8e228", "task": "A", "qid": "20260410_5", "model": "sonnet", "condition": "closed_book", "stratum": "calibration_clear_wrong", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A06ced0271", "task": "A", "qid": "20260508_13", "model": "gpt4omini", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Ad5757d331", "task": "A", "qid": "20220916_13", "model": "qwen7b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "A4018bbff7", "task": "A", "qid": "20260116_2", "model": "llama3_8b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.286, "auto_em": 0.0}
+{"item_id": "Adb432a6b6", "task": "A", "qid": "20231103_12", "model": "qwen3b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Ac71af9288", "task": "A", "qid": "20250704_3", "model": "qwen7b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "Aa6d9c415a", "task": "A", "qid": "20250411_9", "model": "qwen32b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Af3d495513", "task": "A", "qid": "20231020_25", "model": "gpt4omini", "condition": "closed_book", "stratum": "other", "auto_f1": 0.222, "auto_em": 0.0}
+{"item_id": "Abcdd6f6dc", "task": "A", "qid": "20221202_18", "model": "sonnet", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.047, "auto_em": 0.0}
+{"item_id": "A32d64f2fd", "task": "A", "qid": "20260703_25", "model": "mistral_large", "condition": "closed_book", "stratum": "calibration_clear_correct", "auto_f1": 1.0, "auto_em": 1.0}
+{"item_id": "Aa90f14459", "task": "A", "qid": "20230901_10", "model": "sonnet", "condition": "hybrid", "stratum": "calibration_clear_wrong", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A357b48de1", "task": "A", "qid": "20240524_1", "model": "gpt4omini", "condition": "closed_book", "stratum": "calibration_clear_wrong", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Af5a46d913", "task": "A", "qid": "20260410_2", "model": "qwen32b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "A64386332e", "task": "A", "qid": "20221209_12", "model": "qwen72b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.333, "auto_em": 0.0}
+{"item_id": "A7317d3bb9", "task": "A", "qid": "20260703_17", "model": "mistral_large", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 1.0, "auto_em": 0.0}
+{"item_id": "Aefeb308f4", "task": "A", "qid": "20230609_6", "model": "qwen", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "Aa1b5f96f9", "task": "A", "qid": "20221125_5", "model": "sonnet", "condition": "hybrid", "stratum": "other", "auto_f1": 0.053, "auto_em": 0.0}
+{"item_id": "A86f1acd80", "task": "A", "qid": "20231103_26", "model": "qwen72b", "condition": "hybrid", "stratum": "other", "auto_f1": 0.211, "auto_em": 0.0}
+{"item_id": "Abf5ab789c", "task": "A", "qid": "20240105_29", "model": "qwen", "condition": "closed_book", "stratum": "other", "auto_f1": 0.2, "auto_em": 0.0}
+{"item_id": "A6be71223a", "task": "A", "qid": "20260130_5", "model": "qwen1_5b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.167, "auto_em": 0.0}
+{"item_id": "A1e7acc2eb", "task": "A", "qid": "20251010_1", "model": "qwen32b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.182, "auto_em": 0.0}
+{"item_id": "A6a5870bd6", "task": "A", "qid": "20231208_15", "model": "mistral_large", "condition": "closed_book", "stratum": "calibration_clear_correct", "auto_f1": 1.0, "auto_em": 1.0}
+{"item_id": "A5b85c00a8", "task": "A", "qid": "20240531_20", "model": "mistral_large", "condition": "closed_book", "stratum": "other", "auto_f1": 0.133, "auto_em": 0.0}
+{"item_id": "A53eed2b7c", "task": "A", "qid": "20260116_5", "model": "qwen1_5b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A8f5218f03", "task": "A", "qid": "20250328_16", "model": "qwen3b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "Aa89949363", "task": "A", "qid": "20240726_4", "model": "mistral_large", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Abc48be5ed", "task": "A", "qid": "20260515_1", "model": "sonnet", "condition": "closed_book", "stratum": "other", "auto_f1": 0.04, "auto_em": 0.0}
+{"item_id": "A2e2cb69b6", "task": "A", "qid": "20250530_11", "model": "sonnet", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.056, "auto_em": 0.0}
+{"item_id": "A41203c8cb", "task": "A", "qid": "20220819_26", "model": "qwen3b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.333, "auto_em": 0.0}
+{"item_id": "A179f8ad38", "task": "A", "qid": "20220916_7", "model": "mistral_large", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "A7d8950b73", "task": "A", "qid": "20260508_15", "model": "llama3_8b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A6166b9400", "task": "A", "qid": "20250404_3", "model": "llama3_8b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.333, "auto_em": 0.0}
+{"item_id": "A2752e4be4", "task": "A", "qid": "20251010_1", "model": "sonnet", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.222, "auto_em": 0.0}
+{"item_id": "A4828fe02a", "task": "A", "qid": "20221111_28", "model": "sonnet", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.105, "auto_em": 0.0}
+{"item_id": "A35187b91c", "task": "A", "qid": "20260220_6", "model": "qwen72b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "Ad3c5dd669", "task": "A", "qid": "20220902_17", "model": "mistral_large", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A70d0b0b96", "task": "A", "qid": "20260130_4", "model": "qwen32b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Af4f7d0b5d", "task": "A", "qid": "20221111_25", "model": "mistral_large", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "Adde53fa7d", "task": "A", "qid": "20260522_11", "model": "gpt4omini", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A98795299d", "task": "A", "qid": "20260529_16", "model": "llama3_8b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A28aa07fe9", "task": "A", "qid": "20241018_22", "model": "qwen7b", "condition": "hybrid", "stratum": "other", "auto_f1": 0.286, "auto_em": 0.0}
+{"item_id": "A4d04ff266", "task": "A", "qid": "20250711_1", "model": "qwen32b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A2dc32b436", "task": "A", "qid": "20260403_5", "model": "qwen72b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.8, "auto_em": 0.0}
+{"item_id": "A84d320962", "task": "A", "qid": "20251212_7", "model": "qwen32b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "Aa8c80d55a", "task": "A", "qid": "20260130_7", "model": "qwen7b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A75552cfbe", "task": "A", "qid": "20260612_7", "model": "mistral_large", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A64faf74c2", "task": "A", "qid": "20230224_28", "model": "mistral_large", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.632, "auto_em": 0.0}
+{"item_id": "Ad0abc0214", "task": "A", "qid": "20260417_18", "model": "gpt4omini", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "A06532b4be", "task": "A", "qid": "20250606_10", "model": "mistral_large", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.6, "auto_em": 0.0}
+{"item_id": "A7434ddedb", "task": "A", "qid": "20240809_5", "model": "gpt4omini", "condition": "closed_book", "stratum": "calibration_clear_wrong", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Ad051107ad", "task": "A", "qid": "20240816_12", "model": "llama3_8b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.333, "auto_em": 0.0}
+{"item_id": "A3f4cbaf08", "task": "A", "qid": "20220916_14", "model": "qwen3b", "condition": "hybrid", "stratum": "calibration_clear_correct", "auto_f1": 1.0, "auto_em": 1.0}
+{"item_id": "Ae631cadef", "task": "A", "qid": "20260605_19", "model": "llama3_8b", "condition": "closed_book", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Abc0eb93a6", "task": "A", "qid": "20231103_12", "model": "qwen7b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A2f0037060", "task": "A", "qid": "20260206_10", "model": "llama3_8b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.8, "auto_em": 0.0}
+{"item_id": "A17d82a633", "task": "A", "qid": "20260116_5", "model": "mistral_large", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A163e6b792", "task": "A", "qid": "20230616_4", "model": "qwen1_5b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A3e0ac8ef7", "task": "A", "qid": "20231215_13", "model": "qwen32b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.6, "auto_em": 0.0}
+{"item_id": "Ac372d5974", "task": "A", "qid": "20260605_13", "model": "mistral_large", "condition": "closed_book", "stratum": "calibration_clear_correct", "auto_f1": 1.0, "auto_em": 1.0}
+{"item_id": "Aecb67751e", "task": "A", "qid": "20260320_0", "model": "qwen3b", "condition": "closed_book", "stratum": "calibration_clear_wrong", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A3ca95d68a", "task": "A", "qid": "20241101_15", "model": "qwen32b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A05d752a11", "task": "A", "qid": "20231103_12", "model": "sonnet", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Ab346f73ef", "task": "A", "qid": "20260116_3", "model": "qwen72b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "Ab177d87af", "task": "A", "qid": "20260410_16", "model": "llama3_8b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.222, "auto_em": 0.0}
+{"item_id": "Ae10b39960", "task": "A", "qid": "20230303_10", "model": "qwen7b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.8, "auto_em": 0.0}
+{"item_id": "A441e14952", "task": "A", "qid": "20230217_25", "model": "llama3_8b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.8, "auto_em": 0.0}
+{"item_id": "Ae745fdd71", "task": "A", "qid": "20250509_10", "model": "gpt4omini", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.571, "auto_em": 0.0}
+{"item_id": "A8008e3687", "task": "A", "qid": "20231215_26", "model": "qwen72b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A62313bdba", "task": "A", "qid": "20260522_15", "model": "qwen3b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.333, "auto_em": 0.0}
+{"item_id": "Aa9617349a", "task": "A", "qid": "20260313_5", "model": "qwen1_5b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "Ab0917ab68", "task": "A", "qid": "20250919_7", "model": "qwen1_5b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A4f1faa165", "task": "A", "qid": "20250328_16", "model": "qwen1_5b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.571, "auto_em": 0.0}
+{"item_id": "A115b5eaf0", "task": "A", "qid": "20240524_20", "model": "qwen32b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.143, "auto_em": 0.0}
+{"item_id": "A33423adca", "task": "A", "qid": "20221007_15", "model": "qwen32b", "condition": "hybrid", "stratum": "calibration_clear_correct", "auto_f1": 1.0, "auto_em": 1.0}
+{"item_id": "A615495903", "task": "A", "qid": "20220902_16", "model": "qwen72b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "Aa2407e572", "task": "A", "qid": "20260522_10", "model": "llama3_8b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A2abf7caf0", "task": "A", "qid": "20260130_9", "model": "gpt4omini", "condition": "closed_book", "stratum": "other", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "Abad20b66d", "task": "A", "qid": "20230414_19", "model": "qwen", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "A2cf663c16", "task": "A", "qid": "20220923_2", "model": "qwen", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A726fd8f7f", "task": "A", "qid": "20241115_26", "model": "qwen32b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "Ab270c13d4", "task": "A", "qid": "20260508_13", "model": "qwen72b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A4dcc301b8", "task": "A", "qid": "20250307_16", "model": "qwen3b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 1.0, "auto_em": 0.0}
+{"item_id": "Af3e372d95", "task": "A", "qid": "20260306_6", "model": "sonnet", "condition": "hybrid", "stratum": "other", "auto_f1": 0.098, "auto_em": 0.0}
+{"item_id": "A162a6c313", "task": "A", "qid": "20260220_6", "model": "sonnet", "condition": "hybrid", "stratum": "other", "auto_f1": 0.089, "auto_em": 0.0}
+{"item_id": "Ab7fbc45a0", "task": "A", "qid": "20240816_12", "model": "gpt4omini", "condition": "closed_book", "stratum": "other", "auto_f1": 0.333, "auto_em": 0.0}
+{"item_id": "Ad5ab797cc", "task": "A", "qid": "20231208_15", "model": "qwen", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.2, "auto_em": 0.0}
+{"item_id": "Ae99873483", "task": "A", "qid": "20260522_16", "model": "qwen3b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.8, "auto_em": 0.0}
+{"item_id": "A6098d1b05", "task": "A", "qid": "20220722_3", "model": "sonnet", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.108, "auto_em": 0.0}
+{"item_id": "A6adf86078", "task": "A", "qid": "20220902_8", "model": "gpt4omini", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "Add10836ef", "task": "A", "qid": "20260410_12", "model": "sonnet", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.044, "auto_em": 0.0}
+{"item_id": "A11ceea01f", "task": "A", "qid": "20250131_6", "model": "qwen72b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A7e33e647b", "task": "A", "qid": "20260703_23", "model": "qwen72b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "A1740fdc42", "task": "A", "qid": "20240112_28", "model": "llama3_8b", "condition": "closed_book", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A3a44f1976", "task": "A", "qid": "20230707_7", "model": "qwen3b", "condition": "hybrid", "stratum": "other", "auto_f1": 0.182, "auto_em": 0.0}
+{"item_id": "A8e0ff0cdb", "task": "A", "qid": "20260626_13", "model": "qwen3b", "condition": "closed_book", "stratum": "calibration_clear_correct", "auto_f1": 1.0, "auto_em": 1.0}
+{"item_id": "A6634c3913", "task": "A", "qid": "20220729_1", "model": "qwen3b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A7633462c3", "task": "A", "qid": "20221104_22", "model": "sonnet", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A79ba18a2b", "task": "A", "qid": "20221230_17", "model": "qwen7b", "condition": "hybrid", "stratum": "other", "auto_f1": 0.222, "auto_em": 0.0}
+{"item_id": "A5f6925701", "task": "A", "qid": "20260626_19", "model": "gpt4omini", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.75, "auto_em": 0.0}
+{"item_id": "A55020e88a", "task": "A", "qid": "20230317_27", "model": "qwen72b", "condition": "hybrid", "stratum": "calibration_clear_correct", "auto_f1": 1.0, "auto_em": 1.0}
+{"item_id": "A1f7a27ed0", "task": "A", "qid": "20220930_2", "model": "sonnet", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.043, "auto_em": 0.0}
+{"item_id": "Ad85ddbe25", "task": "A", "qid": "20230901_10", "model": "mistral_large", "condition": "hybrid", "stratum": "calibration_clear_wrong", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A618df7aab", "task": "A", "qid": "20240830_24", "model": "llama3_8b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A94e0bf5a0", "task": "A", "qid": "20260424_3", "model": "qwen7b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A3b332f316", "task": "A", "qid": "20260501_6", "model": "qwen1_5b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A26d1ec298", "task": "A", "qid": "20240315_22", "model": "qwen32b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A7180bdd92", "task": "A", "qid": "20260529_16", "model": "qwen72b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.182, "auto_em": 0.0}
+{"item_id": "Ae90acb300", "task": "A", "qid": "20221118_23", "model": "sonnet", "condition": "hybrid", "stratum": "other", "auto_f1": 0.041, "auto_em": 0.0}
+{"item_id": "A5b10098b4", "task": "A", "qid": "20260529_9", "model": "mistral_large", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "Af915be0d6", "task": "A", "qid": "20260605_19", "model": "qwen1_5b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.923, "auto_em": 0.0}
+{"item_id": "Af66de814d", "task": "A", "qid": "20260703_28", "model": "sonnet", "condition": "hybrid", "stratum": "other", "auto_f1": 0.043, "auto_em": 0.0}
+{"item_id": "A5e5b60006", "task": "A", "qid": "20240301_22", "model": "qwen7b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.25, "auto_em": 0.0}
+{"item_id": "Ada5df841d", "task": "A", "qid": "20221125_9", "model": "qwen72b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A6884e3afe", "task": "A", "qid": "20241018_22", "model": "qwen72b", "condition": "hybrid", "stratum": "other", "auto_f1": 0.286, "auto_em": 0.0}
+{"item_id": "A67793103a", "task": "A", "qid": "20260424_4", "model": "qwen", "condition": "closed_book", "stratum": "other", "auto_f1": 0.2, "auto_em": 0.0}
+{"item_id": "A1b229718b", "task": "A", "qid": "20230317_29", "model": "llama3_8b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "Aeebaab4c6", "task": "A", "qid": "20220805_24", "model": "qwen7b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "A8b1c54741", "task": "A", "qid": "20231117_29", "model": "qwen", "condition": "closed_book", "stratum": "other", "auto_f1": 0.105, "auto_em": 0.0}
+{"item_id": "Aad57612be", "task": "A", "qid": "20260703_19", "model": "mistral_large", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "Ac06247d2d", "task": "A", "qid": "20250606_10", "model": "qwen1_5b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.545, "auto_em": 0.0}
+{"item_id": "Acfdbec64c", "task": "A", "qid": "20231103_26", "model": "qwen", "condition": "closed_book", "stratum": "other", "auto_f1": 0.258, "auto_em": 0.0}
+{"item_id": "A7a22b7c9a", "task": "A", "qid": "20260515_15", "model": "sonnet", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A8d62bec2c", "task": "A", "qid": "20250207_1", "model": "sonnet", "condition": "closed_book", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A615b38877", "task": "A", "qid": "20260116_3", "model": "qwen32b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.571, "auto_em": 0.0}
+{"item_id": "A212607d91", "task": "A", "qid": "20230818_25", "model": "qwen", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.273, "auto_em": 0.0}
+{"item_id": "A255a57fe5", "task": "A", "qid": "20220805_5", "model": "qwen32b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "Aeb765dbcf", "task": "A", "qid": "20230210_5", "model": "gpt4omini", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.8, "auto_em": 0.0}
+{"item_id": "A289f2576a", "task": "A", "qid": "20240322_28", "model": "mistral_large", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A50923177b", "task": "A", "qid": "20260320_5", "model": "sonnet", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A74ed52fb8", "task": "A", "qid": "20231208_15", "model": "qwen32b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "Aa4ad0066e", "task": "A", "qid": "20260501_10", "model": "qwen72b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.857, "auto_em": 0.0}
+{"item_id": "A725c8b996", "task": "A", "qid": "20230127_6", "model": "qwen72b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Acc6500cf8", "task": "A", "qid": "20220708_5", "model": "qwen72b", "condition": "closed_book", "stratum": "calibration_clear_correct", "auto_f1": 1.0, "auto_em": 1.0}
+{"item_id": "Aab5b41a1d", "task": "A", "qid": "20230915_16", "model": "qwen32b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Ae4b1c04a9", "task": "A", "qid": "20260515_4", "model": "llama3_8b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.222, "auto_em": 0.0}
+{"item_id": "A8b15480cf", "task": "A", "qid": "20240906_1", "model": "qwen32b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A93c14ff89", "task": "A", "qid": "20230203_4", "model": "qwen32b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A50e317593", "task": "A", "qid": "20220701_28", "model": "sonnet", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.312, "auto_em": 0.0}
+{"item_id": "A2177d66e9", "task": "A", "qid": "20231117_29", "model": "gpt4omini", "condition": "closed_book", "stratum": "other", "auto_f1": 0.095, "auto_em": 0.0}
+{"item_id": "Ad899952b7", "task": "A", "qid": "20260123_4", "model": "gpt4omini", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.133, "auto_em": 0.0}
+{"item_id": "Ad6155fb6b", "task": "A", "qid": "20260605_19", "model": "qwen", "condition": "closed_book", "stratum": "other", "auto_f1": 0.154, "auto_em": 0.0}
+{"item_id": "A47a0110d4", "task": "A", "qid": "20260206_9", "model": "sonnet", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.105, "auto_em": 0.0}
+{"item_id": "A2e965a739", "task": "A", "qid": "20240823_4", "model": "qwen1_5b", "condition": "closed_book", "stratum": "calibration_clear_wrong", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Aa29e152cf", "task": "A", "qid": "20230505_3", "model": "sonnet", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.148, "auto_em": 0.0}
+{"item_id": "Abb1e569df", "task": "A", "qid": "20220819_14", "model": "sonnet", "condition": "closed_book", "stratum": "other", "auto_f1": 0.083, "auto_em": 0.0}
+{"item_id": "Adb3681b3c", "task": "A", "qid": "20220902_8", "model": "qwen7b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A9c882b05d", "task": "A", "qid": "20250509_5", "model": "qwen3b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.222, "auto_em": 0.0}
+{"item_id": "A30b75bad4", "task": "A", "qid": "20240412_16", "model": "qwen3b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A5ae1be143", "task": "A", "qid": "20250725_12", "model": "qwen72b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "Ac29eb7c3e", "task": "A", "qid": "20240301_27", "model": "qwen7b", "condition": "hybrid", "stratum": "other", "auto_f1": 0.222, "auto_em": 0.0}
+{"item_id": "A67759d7af", "task": "A", "qid": "20260522_7", "model": "qwen32b", "condition": "closed_book", "stratum": "calibration_clear_wrong", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A57a170f32", "task": "A", "qid": "20231117_17", "model": "qwen32b", "condition": "closed_book", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Ac0ceb9a9b", "task": "A", "qid": "20260522_3", "model": "mistral_large", "condition": "closed_book", "stratum": "other", "auto_f1": 0.222, "auto_em": 0.0}
+{"item_id": "A480011a90", "task": "A", "qid": "20250509_10", "model": "qwen3b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.571, "auto_em": 0.0}
+{"item_id": "A124a31c1f", "task": "A", "qid": "20260327_0", "model": "gpt4omini", "condition": "closed_book", "stratum": "other", "auto_f1": 0.286, "auto_em": 0.0}
+{"item_id": "Ae75125dc7", "task": "A", "qid": "20260501_10", "model": "qwen3b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.333, "auto_em": 0.0}
+{"item_id": "Accbfe946f", "task": "A", "qid": "20250919_7", "model": "qwen1_5b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.333, "auto_em": 0.0}
+{"item_id": "A316336f1e", "task": "A", "qid": "20240823_4", "model": "mistral_large", "condition": "closed_book", "stratum": "other", "auto_f1": 0.2, "auto_em": 0.0}
+{"item_id": "A175617f07", "task": "A", "qid": "20260417_19", "model": "mistral_large", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "A8d74131b6", "task": "A", "qid": "20260123_9", "model": "qwen", "condition": "closed_book", "stratum": "other", "auto_f1": 0.286, "auto_em": 0.0}
+{"item_id": "Abdad5f6b3", "task": "A", "qid": "20220729_1", "model": "gpt4omini", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A6b2da8245", "task": "A", "qid": "20240223_22", "model": "qwen3b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.154, "auto_em": 0.0}
+{"item_id": "Ac88d676a7", "task": "A", "qid": "20230224_6", "model": "qwen3b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.182, "auto_em": 0.0}
+{"item_id": "A1f319d4d8", "task": "A", "qid": "20260522_11", "model": "qwen32b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Aa70b86db3", "task": "A", "qid": "20230609_6", "model": "sonnet", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "Aaf8709138", "task": "A", "qid": "20230120_16", "model": "mistral_large", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.857, "auto_em": 0.0}
+{"item_id": "A60f15cf67", "task": "A", "qid": "20240105_26", "model": "qwen3b", "condition": "closed_book", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Ac001c04b4", "task": "A", "qid": "20230407_19", "model": "qwen32b", "condition": "hybrid", "stratum": "other", "auto_f1": 0.118, "auto_em": 0.0}
+{"item_id": "A8600281ea", "task": "A", "qid": "20230224_29", "model": "sonnet", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A777c3402e", "task": "A", "qid": "20260320_2", "model": "llama3_8b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A667ec5507", "task": "A", "qid": "20220902_17", "model": "llama3_8b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A8f230f643", "task": "A", "qid": "20221230_11", "model": "qwen", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A211ec0316", "task": "A", "qid": "20260501_4", "model": "qwen32b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A6fd2a3d93", "task": "A", "qid": "20260626_11", "model": "qwen1_5b", "condition": "closed_book", "stratum": "calibration_clear_correct", "auto_f1": 1.0, "auto_em": 1.0}
+{"item_id": "Aefef97f4e", "task": "A", "qid": "20240906_24", "model": "qwen32b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Afb1204c55", "task": "A", "qid": "20260306_5", "model": "qwen", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.222, "auto_em": 0.0}
+{"item_id": "A722916c99", "task": "A", "qid": "20260313_7", "model": "gpt4omini", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Ae9e8062dc", "task": "A", "qid": "20260515_4", "model": "gpt4omini", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A4b32202e6", "task": "A", "qid": "20241018_22", "model": "qwen32b", "condition": "hybrid", "stratum": "other", "auto_f1": 0.286, "auto_em": 0.0}
+{"item_id": "Abb631b255", "task": "A", "qid": "20230317_27", "model": "sonnet", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "A0d482f565", "task": "A", "qid": "20220722_11", "model": "qwen72b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A3674a7d0c", "task": "A", "qid": "20251212_7", "model": "mistral_large", "condition": "hybrid", "stratum": "other", "auto_f1": 0.222, "auto_em": 0.0}
+{"item_id": "A03e432866", "task": "A", "qid": "20251205_0", "model": "qwen72b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A01e115823", "task": "A", "qid": "20260501_5", "model": "mistral_large", "condition": "hybrid", "stratum": "other", "auto_f1": 0.25, "auto_em": 0.0}
+{"item_id": "Ad311b409c", "task": "A", "qid": "20221104_1", "model": "sonnet", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.8, "auto_em": 0.0}
+{"item_id": "Ae4be7ce39", "task": "A", "qid": "20250131_6", "model": "qwen32b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A54fcb01d3", "task": "A", "qid": "20220902_20", "model": "qwen32b", "condition": "hybrid", "stratum": "calibration_clear_correct", "auto_f1": 1.0, "auto_em": 1.0}
+{"item_id": "A4a7e7f6f4", "task": "A", "qid": "20260508_2", "model": "qwen32b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Ae3034fde7", "task": "A", "qid": "20260703_15", "model": "llama3_8b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.857, "auto_em": 0.0}
+{"item_id": "A60becb8d7", "task": "A", "qid": "20240524_20", "model": "sonnet", "condition": "hybrid", "stratum": "other", "auto_f1": 0.109, "auto_em": 0.0}
+{"item_id": "A652054275", "task": "A", "qid": "20220708_0", "model": "sonnet", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.222, "auto_em": 0.0}
+{"item_id": "A8c1bf5ff9", "task": "A", "qid": "20251226_12", "model": "qwen32b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.182, "auto_em": 0.0}
+{"item_id": "A74a1e1879", "task": "A", "qid": "20240112_28", "model": "mistral_large", "condition": "hybrid", "stratum": "other", "auto_f1": 0.091, "auto_em": 0.0}
+{"item_id": "Ada8794f05", "task": "A", "qid": "20260508_3", "model": "mistral_large", "condition": "closed_book", "stratum": "calibration_clear_correct", "auto_f1": 1.0, "auto_em": 1.0}
+{"item_id": "A904d2b597", "task": "A", "qid": "20240809_5", "model": "qwen72b", "condition": "closed_book", "stratum": "calibration_clear_wrong", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Adc4602e44", "task": "A", "qid": "20250509_5", "model": "sonnet", "condition": "closed_book", "stratum": "other", "auto_f1": 0.05, "auto_em": 0.0}
+{"item_id": "A95f26a46c", "task": "A", "qid": "20260313_1", "model": "qwen72b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A1b267ea85", "task": "A", "qid": "20221007_25", "model": "qwen72b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.2, "auto_em": 0.0}
+{"item_id": "Afa00e65c6", "task": "A", "qid": "20220902_8", "model": "qwen72b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "Ad1271228a", "task": "A", "qid": "20250509_10", "model": "qwen72b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.571, "auto_em": 0.0}
+{"item_id": "Ac206c4b31", "task": "A", "qid": "20230303_14", "model": "qwen7b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A3b43bbb8f", "task": "A", "qid": "20260227_8", "model": "sonnet", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.154, "auto_em": 0.0}
+{"item_id": "A52e2185b5", "task": "A", "qid": "20240913_21", "model": "sonnet", "condition": "hybrid", "stratum": "other", "auto_f1": 0.037, "auto_em": 0.0}
+{"item_id": "A83478e514", "task": "A", "qid": "20231215_26", "model": "sonnet", "condition": "hybrid", "stratum": "other", "auto_f1": 0.05, "auto_em": 0.0}
+{"item_id": "Aa35efa979", "task": "A", "qid": "20260508_14", "model": "qwen32b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "Af96343f45", "task": "A", "qid": "20220826_15", "model": "qwen7b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.8, "auto_em": 0.0}
+{"item_id": "A6c31464b8", "task": "A", "qid": "20221007_14", "model": "sonnet", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.051, "auto_em": 0.0}
+{"item_id": "Aa0f61cba6", "task": "A", "qid": "20220708_13", "model": "sonnet", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.8, "auto_em": 0.0}
+{"item_id": "A77b90e4e2", "task": "A", "qid": "20240531_26", "model": "mistral_large", "condition": "hybrid", "stratum": "other", "auto_f1": 0.125, "auto_em": 0.0}
+{"item_id": "A18646e328", "task": "A", "qid": "20241129_7", "model": "qwen32b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Ad2dc0684b", "task": "A", "qid": "20250131_6", "model": "sonnet", "condition": "hybrid", "stratum": "other", "auto_f1": 0.044, "auto_em": 0.0}
+{"item_id": "A3dec697a5", "task": "A", "qid": "20240223_29", "model": "sonnet", "condition": "closed_book", "stratum": "other", "auto_f1": 0.057, "auto_em": 0.0}
+{"item_id": "Ad7bf5bdf6", "task": "A", "qid": "20241108_3", "model": "qwen32b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "Ae5e4adafd", "task": "A", "qid": "20220916_13", "model": "mistral_large", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "A341dca8de", "task": "A", "qid": "20260508_13", "model": "qwen3b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "A290a1a275", "task": "A", "qid": "20221007_25", "model": "gpt4omini", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.111, "auto_em": 0.0}
+{"item_id": "A18d74e63c", "task": "A", "qid": "20260116_5", "model": "qwen7b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Af288831df", "task": "A", "qid": "20260605_19", "model": "gpt4omini", "condition": "closed_book", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A2a1f3c158", "task": "A", "qid": "20260515_19", "model": "qwen1_5b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "Acc4a942bb", "task": "A", "qid": "20260206_9", "model": "qwen7b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "Ab583092d7", "task": "A", "qid": "20260313_5", "model": "sonnet", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.089, "auto_em": 0.0}
+{"item_id": "A821973c23", "task": "A", "qid": "20260116_5", "model": "qwen32b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Ae8e58b3f2", "task": "A", "qid": "20240802_24", "model": "mistral_large", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.074, "auto_em": 0.0}
+{"item_id": "A4cd5a86cb", "task": "A", "qid": "20240614_28", "model": "mistral_large", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.242, "auto_em": 0.0}
+{"item_id": "A839f4e507", "task": "A", "qid": "20260522_3", "model": "qwen32b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.727, "auto_em": 0.0}
+{"item_id": "A9ece87808", "task": "A", "qid": "20230804_3", "model": "gpt4omini", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A7adaf4ce3", "task": "A", "qid": "20260703_28", "model": "mistral_large", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "A570ef95c0", "task": "A", "qid": "20241025_24", "model": "mistral_large", "condition": "hybrid", "stratum": "calibration_clear_correct", "auto_f1": 1.0, "auto_em": 1.0}
+{"item_id": "A1281b4965", "task": "A", "qid": "20250711_1", "model": "qwen1_5b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A136b85071", "task": "A", "qid": "20251205_0", "model": "qwen3b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A9b6e9e042", "task": "A", "qid": "20221014_19", "model": "mistral_large", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "Ac84fd6d57", "task": "A", "qid": "20251010_1", "model": "qwen72b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.286, "auto_em": 0.0}
+{"item_id": "A93371b210", "task": "A", "qid": "20220624_16", "model": "qwen72b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "Ad64399396", "task": "A", "qid": "20230120_16", "model": "gpt4omini", "condition": "closed_book", "stratum": "other", "auto_f1": 0.286, "auto_em": 0.0}
+{"item_id": "A09b898971", "task": "A", "qid": "20250425_15", "model": "sonnet", "condition": "hybrid", "stratum": "other", "auto_f1": 0.038, "auto_em": 0.0}
+{"item_id": "A1e300efcb", "task": "A", "qid": "20240614_27", "model": "sonnet", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.061, "auto_em": 0.0}
+{"item_id": "A22f3e23e5", "task": "A", "qid": "20240719_29", "model": "qwen7b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.2, "auto_em": 0.0}
+{"item_id": "Ab2dd9a904", "task": "A", "qid": "20260327_7", "model": "qwen", "condition": "closed_book", "stratum": "other", "auto_f1": 0.333, "auto_em": 0.0}
+{"item_id": "A739a34f4b", "task": "A", "qid": "20230804_3", "model": "qwen7b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A72fc33153", "task": "A", "qid": "20231103_12", "model": "mistral_large", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Ab99c7a779", "task": "A", "qid": "20220923_2", "model": "qwen32b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.167, "auto_em": 0.0}
+{"item_id": "A5acc91de4", "task": "A", "qid": "20260306_9", "model": "qwen1_5b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.091, "auto_em": 0.0}
+{"item_id": "Ac54e19c10", "task": "A", "qid": "20240223_22", "model": "mistral_large", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.25, "auto_em": 0.0}
+{"item_id": "A02d6976f5", "task": "A", "qid": "20260515_18", "model": "qwen3b", "condition": "hybrid", "stratum": "calibration_clear_correct", "auto_f1": 1.0, "auto_em": 1.0}
+{"item_id": "A85cc0285a", "task": "A", "qid": "20260612_16", "model": "qwen3b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Aec40b99dd", "task": "A", "qid": "20230210_5", "model": "qwen3b", "condition": "hybrid", "stratum": "calibration_clear_correct", "auto_f1": 1.0, "auto_em": 1.0}
+{"item_id": "A7829e4ee5", "task": "A", "qid": "20260417_1", "model": "qwen1_5b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.286, "auto_em": 0.0}
+{"item_id": "A87ba80993", "task": "A", "qid": "20260626_15", "model": "mistral_large", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.889, "auto_em": 0.0}
+{"item_id": "Af0d43e902", "task": "A", "qid": "20230818_25", "model": "mistral_large", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.148, "auto_em": 0.0}
+{"item_id": "A5bbe40651", "task": "A", "qid": "20230901_10", "model": "qwen32b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A7bdcdc8ff", "task": "A", "qid": "20250328_16", "model": "llama3_8b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A4b180ba86", "task": "A", "qid": "20251010_3", "model": "qwen7b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "Afc9969e9e", "task": "A", "qid": "20230929_27", "model": "qwen32b", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.25, "auto_em": 0.0}
+{"item_id": "A36ae26db1", "task": "A", "qid": "20220902_8", "model": "sonnet", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "Ae58102a31", "task": "A", "qid": "20260508_14", "model": "gpt4omini", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.556, "auto_em": 0.0}
+{"item_id": "A3a5963a80", "task": "A", "qid": "20251024_4", "model": "qwen32b", "condition": "closed_book", "stratum": "calibration_clear_wrong", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Abecb66868", "task": "A", "qid": "20240223_22", "model": "mistral_large", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.273, "auto_em": 0.0}
+{"item_id": "A7ab1954bb", "task": "A", "qid": "20230106_29", "model": "qwen72b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "A760e7c03a", "task": "A", "qid": "20230224_6", "model": "mistral_large", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A24e8c0a96", "task": "A", "qid": "20260515_15", "model": "mistral_large", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A4b10b81d2", "task": "A", "qid": "20250404_3", "model": "gpt4omini", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.333, "auto_em": 0.0}
+{"item_id": "A12516f536", "task": "A", "qid": "20260508_14", "model": "sonnet", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A1a3742421", "task": "A", "qid": "20220909_4", "model": "sonnet", "condition": "closed_book", "stratum": "calibration_clear_correct", "auto_f1": 1.0, "auto_em": 1.0}
+{"item_id": "A2ec52c979", "task": "A", "qid": "20221230_17", "model": "qwen", "condition": "closed_book", "stratum": "other", "auto_f1": 0.222, "auto_em": 0.0}
+{"item_id": "A407b0ef31", "task": "A", "qid": "20260605_4", "model": "qwen3b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A8268d2193", "task": "A", "qid": "20230901_13", "model": "sonnet", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A0eebe00a2", "task": "A", "qid": "20230407_19", "model": "mistral_large", "condition": "closed_book", "stratum": "other", "auto_f1": 0.182, "auto_em": 0.0}
+{"item_id": "A89d53b8a3", "task": "A", "qid": "20260116_5", "model": "llama3_8b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A11f00fac0", "task": "A", "qid": "20230609_6", "model": "qwen32b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.667, "auto_em": 0.0}
+{"item_id": "A306cfadfd", "task": "A", "qid": "20250711_13", "model": "qwen3b", "condition": "hybrid", "stratum": "other", "auto_f1": 0.067, "auto_em": 0.0}
+{"item_id": "A3acef1c3d", "task": "A", "qid": "20220902_8", "model": "qwen3b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A1b5c34098", "task": "A", "qid": "20240322_28", "model": "gpt4omini", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "Af4c15e338", "task": "A", "qid": "20260508_16", "model": "qwen", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A48adcf9c4", "task": "A", "qid": "20220916_16", "model": "gpt4omini", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A9e0e3d36b", "task": "A", "qid": "20230407_19", "model": "qwen1_5b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.182, "auto_em": 0.0}
+{"item_id": "A63dbf6b33", "task": "A", "qid": "20260626_15", "model": "sonnet", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.158, "auto_em": 0.0}
+{"item_id": "A039986636", "task": "A", "qid": "20221007_25", "model": "qwen1_5b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.154, "auto_em": 0.0}
+{"item_id": "A6b4c460c6", "task": "A", "qid": "20260410_16", "model": "qwen7b", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.444, "auto_em": 0.0}
+{"item_id": "A4ab8fbcc6", "task": "A", "qid": "20260417_12", "model": "gpt4omini", "condition": "hybrid", "stratum": "other", "auto_f1": 0.444, "auto_em": 0.0}
+{"item_id": "Af2be700c0", "task": "A", "qid": "20260410_13", "model": "qwen7b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A70f447604", "task": "A", "qid": "20250905_6", "model": "qwen7b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.333, "auto_em": 0.0}
+{"item_id": "A9f9949882", "task": "A", "qid": "20250530_11", "model": "mistral_large", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.074, "auto_em": 0.0}
+{"item_id": "A3d7a5cba5", "task": "A", "qid": "20260522_3", "model": "llama3_8b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.222, "auto_em": 0.0}
+{"item_id": "A2cf9e3b2b", "task": "A", "qid": "20220902_8", "model": "mistral_large", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A3f31fc5a8", "task": "A", "qid": "20260703_19", "model": "qwen72b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A198ddb633", "task": "A", "qid": "20230901_13", "model": "llama3_8b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "Add2fe9747", "task": "A", "qid": "20221104_10", "model": "mistral_large", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A211387e71", "task": "A", "qid": "20221111_27", "model": "mistral_large", "condition": "hybrid", "stratum": "abstention", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Ae2ea46a7d", "task": "A", "qid": "20260626_19", "model": "sonnet", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.244, "auto_em": 0.0}
+{"item_id": "A02f143947", "task": "A", "qid": "20260529_9", "model": "llama3_8b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.6, "auto_em": 0.0}
+{"item_id": "A08e287adb", "task": "A", "qid": "20250725_12", "model": "mistral_large", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A9fb70861c", "task": "A", "qid": "20230303_26", "model": "qwen32b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.5, "auto_em": 0.0}
+{"item_id": "A144b99a5a", "task": "A", "qid": "20231020_25", "model": "qwen1_5b", "condition": "hybrid", "stratum": "other", "auto_f1": 0.25, "auto_em": 0.0}
+{"item_id": "A724cb1d99", "task": "A", "qid": "20230203_4", "model": "qwen32b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A65568970b", "task": "A", "qid": "20241108_6", "model": "sonnet", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.043, "auto_em": 0.0}
+{"item_id": "Ad0ad4c332", "task": "A", "qid": "20220826_27", "model": "sonnet", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.111, "auto_em": 0.0}
+{"item_id": "A71db1b793", "task": "A", "qid": "20240614_15", "model": "llama3_8b", "condition": "hybrid", "stratum": "calibration_clear_wrong", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Af3ecf0ee3", "task": "A", "qid": "20240726_25", "model": "qwen32b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.286, "auto_em": 0.0}
+{"item_id": "A5f8b82384", "task": "A", "qid": "20250704_3", "model": "qwen", "condition": "closed_book", "stratum": "other", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "A37eade4d3", "task": "A", "qid": "20220909_19", "model": "sonnet", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.286, "auto_em": 0.0}
+{"item_id": "A23c9fd71d", "task": "A", "qid": "20240531_20", "model": "gpt4omini", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.154, "auto_em": 0.0}
+{"item_id": "A9eafabdab", "task": "A", "qid": "20260220_9", "model": "sonnet", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.053, "auto_em": 0.0}
+{"item_id": "A9e25ec977", "task": "A", "qid": "20241227_9", "model": "mistral_large", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "Aefe79a15a", "task": "A", "qid": "20230818_25", "model": "sonnet", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.109, "auto_em": 0.0}
+{"item_id": "A64a92f039", "task": "A", "qid": "20251205_1", "model": "qwen32b", "condition": "closed_book", "stratum": "other", "auto_f1": 0.333, "auto_em": 0.0}
+{"item_id": "A56af9c908", "task": "A", "qid": "20251205_1", "model": "gpt4omini", "condition": "closed_book", "stratum": "other", "auto_f1": 0.333, "auto_em": 0.0}
+{"item_id": "A4ce2ebf19", "task": "A", "qid": "20220715_10", "model": "gpt4omini", "condition": "hybrid", "stratum": "other", "auto_f1": 0.4, "auto_em": 0.0}
+{"item_id": "Aa458d1c1c", "task": "A", "qid": "20221007_20", "model": "sonnet", "condition": "closed_book", "stratum": "metric_disagreement", "auto_f1": 0.235, "auto_em": 0.0}
+{"item_id": "Ad5ef1b995", "task": "A", "qid": "20260206_12", "model": "qwen1_5b", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.8, "auto_em": 0.0}
+{"item_id": "A9f8ce0f52", "task": "A", "qid": "20230127_21", "model": "qwen72b", "condition": "closed_book", "stratum": "calibration_clear_wrong", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A3732a39d8", "task": "A", "qid": "20260206_5", "model": "llama3_8b", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "A85dfb2acb", "task": "A", "qid": "20260320_1", "model": "qwen7b", "condition": "hybrid", "stratum": "calibration_clear_wrong", "auto_f1": 0.0, "auto_em": 0.0}
+{"item_id": "Aa2b3f584b", "task": "A", "qid": "20230203_20", "model": "qwen7b", "condition": "hybrid", "stratum": "calibration_clear_correct", "auto_f1": 1.0, "auto_em": 1.0}
+{"item_id": "A31ef17a2c", "task": "A", "qid": "20230127_19", "model": "gpt4omini", "condition": "hybrid", "stratum": "metric_disagreement", "auto_f1": 0.222, "auto_em": 0.0}
+{"item_id": "A7d354326d", "task": "A", "qid": "20240405_3", "model": "llama3_8b", "condition": "closed_book", "stratum": "alias_or_partial", "auto_f1": 0.8, "auto_em": 0.0}
+{"item_id": "Acf71bf8d6", "task": "A", "qid": "20260529_9", "model": "gpt4omini", "condition": "hybrid", "stratum": "alias_or_partial", "auto_f1": 0.8, "auto_em": 0.0}
+{"item_id": "A16739f7ae", "task": "B", "qid": "20260612_4", "model": "mistral_large", "regime": "fresh", "auto_supported": true}
+{"item_id": "Ac1920f536", "task": "B", "qid": "20250509_5", "model": "sonnet", "regime": "fresh", "auto_supported": false}
+{"item_id": "Ac737e398c", "task": "B", "qid": "20260410_0", "model": "qwen1_5b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Afb6f76055", "task": "B", "qid": "20260403_1", "model": "qwen7b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A3ddaf88af", "task": "B", "qid": "20260206_1", "model": "qwen32b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A054c53741", "task": "B", "qid": "20220819_23", "model": "llama3_8b", "regime": "static", "auto_supported": true}
+{"item_id": "A02b18ff57", "task": "B", "qid": "20220812_22", "model": "qwen7b", "regime": "static", "auto_supported": true}
+{"item_id": "Af1ad07aa5", "task": "B", "qid": "20240906_3", "model": "gpt4omini", "regime": "static", "auto_supported": false}
+{"item_id": "Aaa844f409", "task": "B", "qid": "20240517_3", "model": "qwen32b", "regime": "static", "auto_supported": false}
+{"item_id": "A8a36a995c", "task": "B", "qid": "20240906_27", "model": "qwen72b", "regime": "static", "auto_supported": false}
+{"item_id": "Abbc1f894c", "task": "B", "qid": "20260130_2", "model": "qwen3b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A9e19946aa", "task": "B", "qid": "20240112_28", "model": "qwen7b", "regime": "static", "auto_supported": false}
+{"item_id": "Adaf356c82", "task": "B", "qid": "20260130_1", "model": "qwen3b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A7dcc08f8c", "task": "B", "qid": "20260529_18", "model": "qwen32b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A68fdb97aa", "task": "B", "qid": "20240510_4", "model": "gpt4omini", "regime": "static", "auto_supported": false}
+{"item_id": "A4c349424c", "task": "B", "qid": "20260424_0", "model": "llama3_8b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Ad335f9576", "task": "B", "qid": "20250411_0", "model": "qwen1_5b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A1e108524c", "task": "B", "qid": "20260410_16", "model": "gpt4omini", "regime": "fresh", "auto_supported": false}
+{"item_id": "Af6bb8c03f", "task": "B", "qid": "20231103_12", "model": "qwen1_5b", "regime": "static", "auto_supported": false}
+{"item_id": "Ae3580f48b", "task": "B", "qid": "20260116_4", "model": "qwen32b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Ade71c47f7", "task": "B", "qid": "20250815_0", "model": "qwen1_5b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Afd1b6ea1e", "task": "B", "qid": "20260529_17", "model": "qwen3b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Ae735a8275", "task": "B", "qid": "20260313_5", "model": "qwen1_5b", "regime": "fresh", "auto_supported": false}
+{"item_id": "Ad271e1b2c", "task": "B", "qid": "20230203_20", "model": "sonnet", "regime": "static", "auto_supported": true}
+{"item_id": "A817f6ceb7", "task": "B", "qid": "20230224_20", "model": "sonnet", "regime": "static", "auto_supported": false}
+{"item_id": "Acc4234897", "task": "B", "qid": "20260116_2", "model": "sonnet", "regime": "fresh", "auto_supported": true}
+{"item_id": "Aedc1e0e8c", "task": "B", "qid": "20220930_13", "model": "qwen7b", "regime": "static", "auto_supported": true}
+{"item_id": "A45507b780", "task": "B", "qid": "20230217_16", "model": "mistral_large", "regime": "static", "auto_supported": true}
+{"item_id": "A6db659f05", "task": "B", "qid": "20260508_3", "model": "sonnet", "regime": "fresh", "auto_supported": true}
+{"item_id": "A917ad15a6", "task": "B", "qid": "20260605_16", "model": "qwen1_5b", "regime": "fresh", "auto_supported": false}
+{"item_id": "Ad9ebb9a8f", "task": "B", "qid": "20230324_12", "model": "qwen3b", "regime": "static", "auto_supported": true}
+{"item_id": "A7cb28e6b3", "task": "B", "qid": "20260508_6", "model": "sonnet", "regime": "fresh", "auto_supported": false}
+{"item_id": "Ae54c6656b", "task": "B", "qid": "20260123_3", "model": "mistral_large", "regime": "fresh", "auto_supported": false}
+{"item_id": "Ac30087060", "task": "B", "qid": "20260227_7", "model": "qwen32b", "regime": "fresh", "auto_supported": false}
+{"item_id": "Aae90097cd", "task": "B", "qid": "20221202_11", "model": "llama3_8b", "regime": "static", "auto_supported": true}
+{"item_id": "A71fcc92ad", "task": "B", "qid": "20220722_18", "model": "qwen7b", "regime": "static", "auto_supported": true}
+{"item_id": "Ac6f018d07", "task": "B", "qid": "20260605_15", "model": "gpt4omini", "regime": "fresh", "auto_supported": false}
+{"item_id": "A1605dbbb1", "task": "B", "qid": "20250509_18", "model": "qwen7b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A7a0d276d6", "task": "B", "qid": "20251212_7", "model": "qwen3b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Ad8d6b134c", "task": "B", "qid": "20260417_13", "model": "qwen1_5b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A12ddbdaea", "task": "B", "qid": "20260213_9", "model": "qwen7b", "regime": "fresh", "auto_supported": false}
+{"item_id": "Abe4b87f88", "task": "B", "qid": "20260227_9", "model": "qwen1_5b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A7452155b4", "task": "B", "qid": "20260306_2", "model": "gpt4omini", "regime": "fresh", "auto_supported": false}
+{"item_id": "A31afd0011", "task": "B", "qid": "20220715_20", "model": "qwen32b", "regime": "static", "auto_supported": true}
+{"item_id": "A8e89f4b93", "task": "B", "qid": "20260703_26", "model": "qwen7b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A9ee48f931", "task": "B", "qid": "20230602_28", "model": "mistral_large", "regime": "static", "auto_supported": true}
+{"item_id": "A03a60347b", "task": "B", "qid": "20260529_10", "model": "qwen32b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A8b0b0303e", "task": "B", "qid": "20230224_29", "model": "qwen3b", "regime": "static", "auto_supported": true}
+{"item_id": "A0295749d2", "task": "B", "qid": "20260626_17", "model": "gpt4omini", "regime": "fresh", "auto_supported": true}
+{"item_id": "Aefa6a06e2", "task": "B", "qid": "20260306_1", "model": "qwen72b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Aa74f0b227", "task": "B", "qid": "20221104_1", "model": "llama3_8b", "regime": "static", "auto_supported": true}
+{"item_id": "A4f6e39b6a", "task": "B", "qid": "20260522_18", "model": "qwen3b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Afa1b57f0d", "task": "B", "qid": "20250620_11", "model": "qwen32b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Ad0af02764", "task": "B", "qid": "20221202_20", "model": "sonnet", "regime": "static", "auto_supported": false}
+{"item_id": "A127328f2a", "task": "B", "qid": "20260529_5", "model": "qwen72b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A359b9799e", "task": "B", "qid": "20260109_7", "model": "gpt4omini", "regime": "fresh", "auto_supported": true}
+{"item_id": "A7de34e393", "task": "B", "qid": "20240531_26", "model": "qwen7b", "regime": "static", "auto_supported": false}
+{"item_id": "A4f705f222", "task": "B", "qid": "20250704_3", "model": "qwen3b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Afa39f505b", "task": "B", "qid": "20231103_15", "model": "qwen32b", "regime": "static", "auto_supported": true}
+{"item_id": "A8dbc1662b", "task": "B", "qid": "20230210_15", "model": "sonnet", "regime": "static", "auto_supported": false}
+{"item_id": "A33ae51aa0", "task": "B", "qid": "20250711_10", "model": "qwen72b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A83671bca8", "task": "B", "qid": "20260320_0", "model": "gpt4omini", "regime": "fresh", "auto_supported": true}
+{"item_id": "A76880e53f", "task": "B", "qid": "20230127_9", "model": "qwen3b", "regime": "static", "auto_supported": true}
+{"item_id": "A2d87d2a23", "task": "B", "qid": "20250711_2", "model": "llama3_8b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A3abba1b22", "task": "B", "qid": "20230331_16", "model": "qwen32b", "regime": "static", "auto_supported": true}
+{"item_id": "Aad09a04b8", "task": "B", "qid": "20220909_12", "model": "qwen1_5b", "regime": "static", "auto_supported": false}
+{"item_id": "A5484e79ec", "task": "B", "qid": "20231103_12", "model": "sonnet", "regime": "static", "auto_supported": false}
+{"item_id": "A9ef48d89d", "task": "B", "qid": "20230210_15", "model": "qwen32b", "regime": "static", "auto_supported": false}
+{"item_id": "Accd5417f8", "task": "B", "qid": "20231013_9", "model": "gpt4omini", "regime": "static", "auto_supported": false}
+{"item_id": "Af1a1c4843", "task": "B", "qid": "20220708_5", "model": "qwen72b", "regime": "static", "auto_supported": false}
+{"item_id": "A0e9230bd1", "task": "B", "qid": "20260508_2", "model": "qwen32b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A15e3dbc42", "task": "B", "qid": "20221021_29", "model": "qwen3b", "regime": "static", "auto_supported": false}
+{"item_id": "Ad48f1017e", "task": "B", "qid": "20240816_21", "model": "qwen7b", "regime": "static", "auto_supported": false}
+{"item_id": "A0055f2ebf", "task": "B", "qid": "20260327_0", "model": "qwen7b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A16fe850ae", "task": "B", "qid": "20250314_19", "model": "gpt4omini", "regime": "fresh", "auto_supported": false}
+{"item_id": "A2376305d2", "task": "B", "qid": "20240823_0", "model": "llama3_8b", "regime": "static", "auto_supported": true}
+{"item_id": "Acb3d665fb", "task": "B", "qid": "20240726_10", "model": "qwen1_5b", "regime": "static", "auto_supported": true}
+{"item_id": "Ac9a197162", "task": "B", "qid": "20230324_9", "model": "llama3_8b", "regime": "static", "auto_supported": true}
+{"item_id": "Abc2f3c761", "task": "B", "qid": "20230317_6", "model": "gpt4omini", "regime": "static", "auto_supported": true}
+{"item_id": "A01cbaeb13", "task": "B", "qid": "20260703_7", "model": "llama3_8b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Ad8115b98a", "task": "B", "qid": "20240315_6", "model": "llama3_8b", "regime": "static", "auto_supported": false}
+{"item_id": "A6264c3146", "task": "B", "qid": "20240712_19", "model": "qwen72b", "regime": "static", "auto_supported": false}
+{"item_id": "A014b4b2a4", "task": "B", "qid": "20230203_4", "model": "qwen72b", "regime": "static", "auto_supported": false}
+{"item_id": "A1a84fa073", "task": "B", "qid": "20220812_22", "model": "qwen72b", "regime": "static", "auto_supported": true}
+{"item_id": "A499f02897", "task": "B", "qid": "20260109_8", "model": "qwen1_5b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A1b163be06", "task": "B", "qid": "20260612_16", "model": "llama3_8b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Afd5a0c3d0", "task": "B", "qid": "20260626_11", "model": "qwen1_5b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A110698a2d", "task": "B", "qid": "20260515_13", "model": "llama3_8b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A86764a0b3", "task": "B", "qid": "20260703_14", "model": "sonnet", "regime": "fresh", "auto_supported": true}
+{"item_id": "A0a53ed995", "task": "B", "qid": "20250418_8", "model": "qwen72b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A4eedc6af9", "task": "B", "qid": "20240809_5", "model": "qwen1_5b", "regime": "static", "auto_supported": false}
+{"item_id": "A2a61ef6e4", "task": "B", "qid": "20240614_28", "model": "qwen3b", "regime": "static", "auto_supported": false}
+{"item_id": "A2bbcaea8c", "task": "B", "qid": "20221216_27", "model": "gpt4omini", "regime": "static", "auto_supported": true}
+{"item_id": "Ad93bc253b", "task": "B", "qid": "20260605_3", "model": "gpt4omini", "regime": "fresh", "auto_supported": true}
+{"item_id": "Ab603640f8", "task": "B", "qid": "20240802_24", "model": "gpt4omini", "regime": "static", "auto_supported": false}
+{"item_id": "Aa0c3ca8b1", "task": "B", "qid": "20230602_11", "model": "qwen1_5b", "regime": "static", "auto_supported": true}
+{"item_id": "Aea9c4d6eb", "task": "B", "qid": "20250711_2", "model": "qwen1_5b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A6d9afe967", "task": "B", "qid": "20260626_2", "model": "gpt4omini", "regime": "fresh", "auto_supported": false}
+{"item_id": "A3b7dab9ab", "task": "B", "qid": "20250214_14", "model": "mistral_large", "regime": "fresh", "auto_supported": true}
+{"item_id": "A43d5f9aa9", "task": "B", "qid": "20230616_11", "model": "qwen7b", "regime": "static", "auto_supported": true}
+{"item_id": "Af16bd9b51", "task": "B", "qid": "20260508_14", "model": "qwen72b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A081bcb6b3", "task": "B", "qid": "20260213_9", "model": "llama3_8b", "regime": "fresh", "auto_supported": false}
+{"item_id": "Aa69be9e04", "task": "B", "qid": "20240524_10", "model": "llama3_8b", "regime": "static", "auto_supported": true}
+{"item_id": "Aa9651e0dc", "task": "B", "qid": "20260109_4", "model": "qwen1_5b", "regime": "fresh", "auto_supported": false}
+{"item_id": "Ac157552f3", "task": "B", "qid": "20231215_17", "model": "qwen3b", "regime": "static", "auto_supported": true}
+{"item_id": "Ae0ca33821", "task": "B", "qid": "20230224_20", "model": "qwen72b", "regime": "static", "auto_supported": false}
+{"item_id": "A00196e2fa", "task": "B", "qid": "20260213_9", "model": "qwen1_5b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A2fe212b46", "task": "B", "qid": "20230922_2", "model": "mistral_large", "regime": "static", "auto_supported": true}
+{"item_id": "Adf0ae605d", "task": "B", "qid": "20260501_10", "model": "qwen72b", "regime": "fresh", "auto_supported": false}
+{"item_id": "Afa1b9b19d", "task": "B", "qid": "20250627_9", "model": "qwen7b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A407d93902", "task": "B", "qid": "20260116_6", "model": "qwen7b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Af9b2dd73d", "task": "B", "qid": "20250926_3", "model": "llama3_8b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A3c49da89f", "task": "B", "qid": "20250516_11", "model": "qwen3b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A47cb1ab06", "task": "B", "qid": "20220624_6", "model": "qwen72b", "regime": "static", "auto_supported": true}
+{"item_id": "Aae4a04891", "task": "B", "qid": "20260522_3", "model": "qwen1_5b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A2de383d78", "task": "B", "qid": "20220923_14", "model": "sonnet", "regime": "static", "auto_supported": false}
+{"item_id": "A8a4221551", "task": "B", "qid": "20260410_0", "model": "mistral_large", "regime": "fresh", "auto_supported": true}
+{"item_id": "A046e38f9f", "task": "B", "qid": "20220805_2", "model": "qwen72b", "regime": "static", "auto_supported": false}
+{"item_id": "A9b0739ab8", "task": "B", "qid": "20240816_12", "model": "mistral_large", "regime": "static", "auto_supported": true}
+{"item_id": "Aeffc5298c", "task": "B", "qid": "20230421_15", "model": "qwen72b", "regime": "static", "auto_supported": true}
+{"item_id": "Ad99307a4e", "task": "B", "qid": "20240105_26", "model": "sonnet", "regime": "static", "auto_supported": false}
+{"item_id": "A7eef9ecfa", "task": "B", "qid": "20250131_15", "model": "qwen72b", "regime": "fresh", "auto_supported": false}
+{"item_id": "Afbd3bfe24", "task": "B", "qid": "20260130_1", "model": "gpt4omini", "regime": "fresh", "auto_supported": true}
+{"item_id": "Aae2765594", "task": "B", "qid": "20250704_5", "model": "qwen3b", "regime": "fresh", "auto_supported": false}
+{"item_id": "Aa06c33837", "task": "B", "qid": "20250530_11", "model": "llama3_8b", "regime": "fresh", "auto_supported": false}
+{"item_id": "Ae99255def", "task": "B", "qid": "20260605_11", "model": "gpt4omini", "regime": "fresh", "auto_supported": true}
+{"item_id": "Af24360ad9", "task": "B", "qid": "20221223_9", "model": "qwen7b", "regime": "static", "auto_supported": true}
+{"item_id": "Acde8cf24d", "task": "B", "qid": "20260130_9", "model": "qwen1_5b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Aef8eb7c45", "task": "B", "qid": "20230310_4", "model": "qwen3b", "regime": "static", "auto_supported": false}
+{"item_id": "A37a2d3f98", "task": "B", "qid": "20260612_17", "model": "sonnet", "regime": "fresh", "auto_supported": false}
+{"item_id": "A5b9597a98", "task": "B", "qid": "20221014_19", "model": "qwen1_5b", "regime": "static", "auto_supported": true}
+{"item_id": "A8a56c6e4e", "task": "B", "qid": "20230609_6", "model": "qwen32b", "regime": "static", "auto_supported": true}
+{"item_id": "A7c55888cd", "task": "B", "qid": "20250131_6", "model": "qwen1_5b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A747d22371", "task": "B", "qid": "20260515_13", "model": "mistral_large", "regime": "fresh", "auto_supported": true}
+{"item_id": "A8d2d31a40", "task": "B", "qid": "20221007_14", "model": "qwen32b", "regime": "static", "auto_supported": true}
+{"item_id": "A1a470fc95", "task": "B", "qid": "20230825_1", "model": "qwen72b", "regime": "static", "auto_supported": false}
+{"item_id": "Af9ba8841b", "task": "B", "qid": "20221118_20", "model": "llama3_8b", "regime": "static", "auto_supported": false}
+{"item_id": "A33796ce6c", "task": "B", "qid": "20241206_5", "model": "gpt4omini", "regime": "static", "auto_supported": true}
+{"item_id": "A33b1a7a9a", "task": "B", "qid": "20240719_26", "model": "qwen3b", "regime": "static", "auto_supported": false}
+{"item_id": "A69e74ea21", "task": "B", "qid": "20260313_9", "model": "qwen72b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A3be6c8100", "task": "B", "qid": "20250117_1", "model": "qwen1_5b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A0bb5eec15", "task": "B", "qid": "20260703_19", "model": "qwen7b", "regime": "fresh", "auto_supported": false}
+{"item_id": "Aa26cab4bd", "task": "B", "qid": "20260703_9", "model": "qwen1_5b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A9079ffc05", "task": "B", "qid": "20260605_4", "model": "qwen32b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A8ccc81432", "task": "B", "qid": "20260116_1", "model": "gpt4omini", "regime": "fresh", "auto_supported": false}
+{"item_id": "A4a5d2860a", "task": "B", "qid": "20220805_2", "model": "qwen7b", "regime": "static", "auto_supported": false}
+{"item_id": "A997f50114", "task": "B", "qid": "20260605_16", "model": "qwen72b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A5d8f90314", "task": "B", "qid": "20260417_13", "model": "mistral_large", "regime": "fresh", "auto_supported": true}
+{"item_id": "A31247be36", "task": "B", "qid": "20240308_28", "model": "sonnet", "regime": "static", "auto_supported": false}
+{"item_id": "A67e0103cf", "task": "B", "qid": "20240105_26", "model": "llama3_8b", "regime": "static", "auto_supported": false}
+{"item_id": "A242a4fb6e", "task": "B", "qid": "20260123_7", "model": "sonnet", "regime": "fresh", "auto_supported": true}
+{"item_id": "A970f4474a", "task": "B", "qid": "20260626_16", "model": "qwen72b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Aa5cd6efa0", "task": "B", "qid": "20230818_22", "model": "mistral_large", "regime": "static", "auto_supported": false}
+{"item_id": "A40f50838a", "task": "B", "qid": "20230303_14", "model": "qwen32b", "regime": "static", "auto_supported": false}
+{"item_id": "A45b55b862", "task": "B", "qid": "20260320_6", "model": "mistral_large", "regime": "fresh", "auto_supported": true}
+{"item_id": "Ad3fd9fc76", "task": "B", "qid": "20230310_4", "model": "llama3_8b", "regime": "static", "auto_supported": false}
+{"item_id": "A3edd8f8b2", "task": "B", "qid": "20241011_19", "model": "qwen1_5b", "regime": "static", "auto_supported": false}
+{"item_id": "A4f4604271", "task": "B", "qid": "20221104_27", "model": "qwen3b", "regime": "static", "auto_supported": false}
+{"item_id": "A745a76230", "task": "B", "qid": "20240823_0", "model": "qwen32b", "regime": "static", "auto_supported": true}
+{"item_id": "Aec8c2a6f7", "task": "B", "qid": "20231215_17", "model": "sonnet", "regime": "static", "auto_supported": true}
+{"item_id": "A169d69a8a", "task": "B", "qid": "20240329_2", "model": "qwen32b", "regime": "static", "auto_supported": true}
+{"item_id": "Ab58a99d1e", "task": "B", "qid": "20240517_3", "model": "qwen3b", "regime": "static", "auto_supported": false}
+{"item_id": "Aff89e7186", "task": "B", "qid": "20250801_13", "model": "qwen7b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A0908dcae1", "task": "B", "qid": "20221118_5", "model": "qwen7b", "regime": "static", "auto_supported": true}
+{"item_id": "A1a47b187c", "task": "B", "qid": "20260619_0", "model": "qwen3b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Aae43f57bb", "task": "B", "qid": "20260619_12", "model": "llama3_8b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A2989157e2", "task": "B", "qid": "20240322_5", "model": "qwen32b", "regime": "static", "auto_supported": false}
+{"item_id": "Ae20877e2d", "task": "B", "qid": "20260529_10", "model": "qwen7b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A5a4e8eb7c", "task": "B", "qid": "20260619_10", "model": "mistral_large", "regime": "fresh", "auto_supported": true}
+{"item_id": "A44ca338d9", "task": "B", "qid": "20260508_17", "model": "qwen7b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A0c81875a2", "task": "B", "qid": "20260109_7", "model": "qwen7b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A489cf05ef", "task": "B", "qid": "20260626_11", "model": "qwen7b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A054d1dd5b", "task": "B", "qid": "20260522_7", "model": "gpt4omini", "regime": "fresh", "auto_supported": true}
+{"item_id": "Aee13d0a29", "task": "B", "qid": "20260522_5", "model": "qwen72b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Ab314e57eb", "task": "B", "qid": "20250822_1", "model": "qwen32b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A7425c0695", "task": "B", "qid": "20220701_28", "model": "qwen3b", "regime": "static", "auto_supported": false}
+{"item_id": "Acaea0326b", "task": "B", "qid": "20240802_24", "model": "qwen3b", "regime": "static", "auto_supported": false}
+{"item_id": "A1f0ba1301", "task": "B", "qid": "20260619_4", "model": "llama3_8b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A2c656a214", "task": "B", "qid": "20241213_7", "model": "mistral_large", "regime": "static", "auto_supported": true}
+{"item_id": "A8b6613df2", "task": "B", "qid": "20250411_5", "model": "qwen1_5b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A7884699de", "task": "B", "qid": "20221104_5", "model": "gpt4omini", "regime": "static", "auto_supported": false}
+{"item_id": "Ae6db0a29e", "task": "B", "qid": "20240510_7", "model": "llama3_8b", "regime": "static", "auto_supported": false}
+{"item_id": "Ad657a739c", "task": "B", "qid": "20231103_9", "model": "qwen1_5b", "regime": "static", "auto_supported": true}
+{"item_id": "A35aae7be6", "task": "B", "qid": "20260703_15", "model": "qwen7b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Adcc3fc3f0", "task": "B", "qid": "20231208_7", "model": "qwen3b", "regime": "static", "auto_supported": false}
+{"item_id": "A818ee3144", "task": "B", "qid": "20231110_16", "model": "qwen7b", "regime": "static", "auto_supported": false}
+{"item_id": "A0e11b4fd3", "task": "B", "qid": "20260529_16", "model": "qwen1_5b", "regime": "fresh", "auto_supported": false}
+{"item_id": "Ad0d7e2783", "task": "B", "qid": "20231027_28", "model": "llama3_8b", "regime": "static", "auto_supported": false}
+{"item_id": "A081536f5e", "task": "B", "qid": "20260320_8", "model": "qwen72b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A6aa10b659", "task": "B", "qid": "20250509_10", "model": "qwen7b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Af067fd966", "task": "B", "qid": "20220715_2", "model": "qwen1_5b", "regime": "static", "auto_supported": true}
+{"item_id": "A3cb9a9e24", "task": "B", "qid": "20230825_1", "model": "gpt4omini", "regime": "static", "auto_supported": false}
+{"item_id": "A12680b06a", "task": "B", "qid": "20260116_8", "model": "qwen1_5b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A73eec2e2b", "task": "B", "qid": "20260109_0", "model": "gpt4omini", "regime": "fresh", "auto_supported": false}
+{"item_id": "Abf45b4977", "task": "B", "qid": "20260508_14", "model": "qwen3b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A886a0bfd9", "task": "B", "qid": "20260227_0", "model": "llama3_8b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A90da06e4d", "task": "B", "qid": "20260227_3", "model": "gpt4omini", "regime": "fresh", "auto_supported": false}
+{"item_id": "A5995d087c", "task": "B", "qid": "20260109_8", "model": "qwen7b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A432880fb5", "task": "B", "qid": "20260515_16", "model": "mistral_large", "regime": "fresh", "auto_supported": true}
+{"item_id": "A8e13010e1", "task": "B", "qid": "20240726_10", "model": "llama3_8b", "regime": "static", "auto_supported": true}
+{"item_id": "Aaeb50b171", "task": "B", "qid": "20221104_1", "model": "qwen32b", "regime": "static", "auto_supported": true}
+{"item_id": "A05d3f062e", "task": "B", "qid": "20220715_28", "model": "mistral_large", "regime": "static", "auto_supported": false}
+{"item_id": "A3d653e0d8", "task": "B", "qid": "20260213_6", "model": "llama3_8b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Adb2407d3c", "task": "B", "qid": "20241025_24", "model": "llama3_8b", "regime": "static", "auto_supported": true}
+{"item_id": "Abff756f65", "task": "B", "qid": "20220708_20", "model": "sonnet", "regime": "static", "auto_supported": false}
+{"item_id": "A131d374d6", "task": "B", "qid": "20221216_4", "model": "qwen3b", "regime": "static", "auto_supported": false}
+{"item_id": "Ab23ef76be", "task": "B", "qid": "20260123_1", "model": "llama3_8b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A12a373879", "task": "B", "qid": "20260522_4", "model": "qwen72b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A807c21aab", "task": "B", "qid": "20231201_9", "model": "gpt4omini", "regime": "static", "auto_supported": false}
+{"item_id": "A0052ae235", "task": "B", "qid": "20240726_10", "model": "mistral_large", "regime": "static", "auto_supported": true}
+{"item_id": "Aa513e6d5b", "task": "B", "qid": "20231110_15", "model": "qwen7b", "regime": "static", "auto_supported": false}
+{"item_id": "A900cd0e7f", "task": "B", "qid": "20240531_20", "model": "llama3_8b", "regime": "static", "auto_supported": false}
+{"item_id": "Af4084aad9", "task": "B", "qid": "20241011_6", "model": "qwen1_5b", "regime": "static", "auto_supported": true}
+{"item_id": "Af3f968ab0", "task": "B", "qid": "20250718_14", "model": "sonnet", "regime": "fresh", "auto_supported": false}
+{"item_id": "Ac5b1de784", "task": "B", "qid": "20260123_3", "model": "qwen32b", "regime": "fresh", "auto_supported": false}
+{"item_id": "Aabceaf174", "task": "B", "qid": "20230505_3", "model": "qwen1_5b", "regime": "static", "auto_supported": true}
+{"item_id": "A65b752ed5", "task": "B", "qid": "20221111_27", "model": "qwen72b", "regime": "static", "auto_supported": false}
+{"item_id": "A3ce243aea", "task": "B", "qid": "20260424_4", "model": "llama3_8b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A0dbbd2e48", "task": "B", "qid": "20250314_15", "model": "qwen32b", "regime": "fresh", "auto_supported": false}
+{"item_id": "Aa437dbad5", "task": "B", "qid": "20250228_1", "model": "mistral_large", "regime": "fresh", "auto_supported": true}
+{"item_id": "A5c4e370bb", "task": "B", "qid": "20220826_14", "model": "gpt4omini", "regime": "static", "auto_supported": false}
+{"item_id": "A08aa11853", "task": "B", "qid": "20260306_3", "model": "qwen32b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Af050b55bb", "task": "B", "qid": "20260529_9", "model": "qwen3b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A446170588", "task": "B", "qid": "20230421_15", "model": "qwen3b", "regime": "static", "auto_supported": true}
+{"item_id": "A4e16f1d3a", "task": "B", "qid": "20220624_23", "model": "qwen1_5b", "regime": "static", "auto_supported": false}
+{"item_id": "A5ac26a2a6", "task": "B", "qid": "20240301_14", "model": "qwen3b", "regime": "static", "auto_supported": true}
+{"item_id": "A192e5e9c0", "task": "B", "qid": "20221111_28", "model": "qwen3b", "regime": "static", "auto_supported": true}
+{"item_id": "A8c709d423", "task": "B", "qid": "20260417_11", "model": "qwen72b", "regime": "fresh", "auto_supported": false}
+{"item_id": "Ae2189305f", "task": "B", "qid": "20220715_18", "model": "qwen3b", "regime": "static", "auto_supported": true}
+{"item_id": "Aded8c570f", "task": "B", "qid": "20240802_21", "model": "qwen32b", "regime": "static", "auto_supported": false}
+{"item_id": "A21c1227fd", "task": "B", "qid": "20260123_4", "model": "sonnet", "regime": "fresh", "auto_supported": false}
+{"item_id": "Aefafdda7f", "task": "B", "qid": "20240607_8", "model": "qwen72b", "regime": "static", "auto_supported": true}
+{"item_id": "A06085cdb5", "task": "B", "qid": "20221209_11", "model": "qwen72b", "regime": "static", "auto_supported": true}
+{"item_id": "A6c9bb63db", "task": "B", "qid": "20230127_21", "model": "qwen1_5b", "regime": "static", "auto_supported": true}
+{"item_id": "Af3e984a20", "task": "B", "qid": "20260206_10", "model": "llama3_8b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A3dbe39d8a", "task": "B", "qid": "20260220_9", "model": "qwen7b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A8faf34302", "task": "B", "qid": "20250314_6", "model": "qwen3b", "regime": "fresh", "auto_supported": false}
+{"item_id": "Ac0e2b04d6", "task": "B", "qid": "20250704_5", "model": "mistral_large", "regime": "fresh", "auto_supported": false}
+{"item_id": "Ad5a6f568d", "task": "B", "qid": "20220805_2", "model": "llama3_8b", "regime": "static", "auto_supported": false}
+{"item_id": "Aeb6895c19", "task": "B", "qid": "20231201_17", "model": "llama3_8b", "regime": "static", "auto_supported": false}
+{"item_id": "A5f7775577", "task": "B", "qid": "20260515_11", "model": "qwen32b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A5cf8c5f9f", "task": "B", "qid": "20250905_4", "model": "qwen7b", "regime": "fresh", "auto_supported": false}
+{"item_id": "Ace4d22664", "task": "B", "qid": "20220902_20", "model": "sonnet", "regime": "static", "auto_supported": true}
+{"item_id": "A88c844c88", "task": "B", "qid": "20250131_15", "model": "qwen3b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A266881c1f", "task": "B", "qid": "20260508_4", "model": "qwen1_5b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A9ef46ae96", "task": "B", "qid": "20240913_21", "model": "qwen3b", "regime": "static", "auto_supported": false}
+{"item_id": "A20e4c5830", "task": "B", "qid": "20240419_17", "model": "qwen1_5b", "regime": "static", "auto_supported": false}
+{"item_id": "A5c37d6d38", "task": "B", "qid": "20230616_21", "model": "qwen3b", "regime": "static", "auto_supported": true}
+{"item_id": "Aa19a323e3", "task": "B", "qid": "20240322_17", "model": "qwen3b", "regime": "static", "auto_supported": false}
+{"item_id": "Acf802c268", "task": "B", "qid": "20240913_7", "model": "gpt4omini", "regime": "static", "auto_supported": true}
+{"item_id": "Ab1e26c294", "task": "B", "qid": "20260501_17", "model": "qwen72b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A53d84408b", "task": "B", "qid": "20230324_12", "model": "sonnet", "regime": "static", "auto_supported": true}
+{"item_id": "Ab71662422", "task": "B", "qid": "20230922_17", "model": "mistral_large", "regime": "static", "auto_supported": false}
+{"item_id": "Ab849ef758", "task": "B", "qid": "20260227_5", "model": "mistral_large", "regime": "fresh", "auto_supported": false}
+{"item_id": "A9b9341b1a", "task": "B", "qid": "20260410_6", "model": "qwen32b", "regime": "fresh", "auto_supported": false}
+{"item_id": "Ade7a99495", "task": "B", "qid": "20220930_2", "model": "gpt4omini", "regime": "static", "auto_supported": true}
+{"item_id": "A0a1ab98bb", "task": "B", "qid": "20260109_2", "model": "qwen3b", "regime": "fresh", "auto_supported": true}
+{"item_id": "Afc9519430", "task": "B", "qid": "20221007_20", "model": "qwen7b", "regime": "static", "auto_supported": true}
+{"item_id": "A640967c8f", "task": "B", "qid": "20221202_18", "model": "qwen32b", "regime": "static", "auto_supported": true}
+{"item_id": "A7ff292603", "task": "B", "qid": "20221118_21", "model": "qwen72b", "regime": "static", "auto_supported": true}
+{"item_id": "Ac0352c882", "task": "B", "qid": "20240906_24", "model": "qwen72b", "regime": "static", "auto_supported": false}
+{"item_id": "Ad27dface4", "task": "B", "qid": "20260703_14", "model": "qwen32b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A4320ec835", "task": "B", "qid": "20231201_28", "model": "qwen3b", "regime": "static", "auto_supported": false}
+{"item_id": "A3893e49b8", "task": "B", "qid": "20260306_2", "model": "qwen7b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A133ea9a0f", "task": "B", "qid": "20231006_5", "model": "sonnet", "regime": "static", "auto_supported": true}
+{"item_id": "Aad85e5fb7", "task": "B", "qid": "20220916_16", "model": "gpt4omini", "regime": "static", "auto_supported": true}
+{"item_id": "A39a659001", "task": "B", "qid": "20221021_5", "model": "gpt4omini", "regime": "static", "auto_supported": false}
+{"item_id": "A48c8dc446", "task": "B", "qid": "20260522_1", "model": "qwen32b", "regime": "fresh", "auto_supported": false}
+{"item_id": "Ad11c8e1af", "task": "B", "qid": "20250704_5", "model": "gpt4omini", "regime": "fresh", "auto_supported": false}
+{"item_id": "Ab3ed2506b", "task": "B", "qid": "20260626_16", "model": "qwen7b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A38e8591c3", "task": "B", "qid": "20250307_16", "model": "mistral_large", "regime": "fresh", "auto_supported": true}
+{"item_id": "Ab073dfce6", "task": "B", "qid": "20220902_17", "model": "qwen3b", "regime": "static", "auto_supported": false}
+{"item_id": "A625b349dd", "task": "B", "qid": "20230929_27", "model": "qwen72b", "regime": "static", "auto_supported": false}
+{"item_id": "A27d4577ff", "task": "B", "qid": "20220930_13", "model": "qwen32b", "regime": "static", "auto_supported": true}
+{"item_id": "A770203530", "task": "B", "qid": "20240607_1", "model": "llama3_8b", "regime": "static", "auto_supported": true}
+{"item_id": "A78aae2136", "task": "B", "qid": "20231027_28", "model": "sonnet", "regime": "static", "auto_supported": false}
+{"item_id": "Abf11001ef", "task": "B", "qid": "20250411_9", "model": "llama3_8b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A15b5c8354", "task": "B", "qid": "20260109_8", "model": "llama3_8b", "regime": "fresh", "auto_supported": false}
+{"item_id": "Ac277fab9c", "task": "B", "qid": "20260213_6", "model": "sonnet", "regime": "fresh", "auto_supported": true}
+{"item_id": "A18d49555d", "task": "B", "qid": "20250704_19", "model": "qwen1_5b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A7a8e3b57a", "task": "B", "qid": "20260206_6", "model": "gpt4omini", "regime": "fresh", "auto_supported": true}
+{"item_id": "A224624a16", "task": "B", "qid": "20230512_21", "model": "qwen72b", "regime": "static", "auto_supported": false}
+{"item_id": "Af97e1903e", "task": "B", "qid": "20230901_2", "model": "qwen72b", "regime": "static", "auto_supported": true}
+{"item_id": "A9508f7d83", "task": "B", "qid": "20220624_23", "model": "llama3_8b", "regime": "static", "auto_supported": false}
+{"item_id": "A5f76c6f44", "task": "B", "qid": "20260612_16", "model": "qwen3b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A370b977ca", "task": "B", "qid": "20260703_20", "model": "qwen3b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A3c341d4a7", "task": "B", "qid": "20220722_11", "model": "qwen7b", "regime": "static", "auto_supported": true}
+{"item_id": "A7592a94a1", "task": "B", "qid": "20260410_2", "model": "qwen7b", "regime": "fresh", "auto_supported": true}
+{"item_id": "A3cd44da09", "task": "B", "qid": "20220909_9", "model": "sonnet", "regime": "static", "auto_supported": true}
+{"item_id": "Af4b07cd45", "task": "B", "qid": "20230331_16", "model": "sonnet", "regime": "static", "auto_supported": true}
+{"item_id": "A8233fba1e", "task": "B", "qid": "20240223_29", "model": "qwen72b", "regime": "static", "auto_supported": false}
+{"item_id": "A5fbbff61b", "task": "B", "qid": "20241025_24", "model": "mistral_large", "regime": "static", "auto_supported": true}
+{"item_id": "A7b0d67d5c", "task": "B", "qid": "20260410_4", "model": "qwen3b", "regime": "fresh", "auto_supported": false}
+{"item_id": "A413150efa", "task": "B", "qid": "20240524_1", "model": "qwen7b", "regime": "static", "auto_supported": true}
+{"item_id": "A4dbeb1576", "task": "B", "qid": "20250606_10", "model": "mistral_large", "regime": "fresh", "auto_supported": false}
+{"item_id": "Af652d7b05", "task": "B", "qid": "20230127_6", "model": "llama3_8b", "regime": "static", "auto_supported": true}
+{"item_id": "A3eb85548c", "task": "B", "qid": "20220819_14", "model": "mistral_large", "regime": "static", "auto_supported": true}
+{"item_id": "Aa20dbec4b", "task": "B", "qid": "20230421_13", "model": "sonnet", "regime": "static", "auto_supported": false}
+{"item_id": "A64d87e5ad", "task": "B", "qid": "20251226_12", "model": "sonnet", "regime": "fresh", "auto_supported": false}
+{"item_id": "A31c637690", "task": "B", "qid": "20221230_6", "model": "qwen32b", "regime": "static", "auto_supported": true}

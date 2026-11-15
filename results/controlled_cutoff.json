@@ -1,0 +1,459 @@
+{
+  "scope": "One model family with provider-disclosed cutoffs, used to vary cutoff at fixed size and size at fixed cutoff.",
+  "why": "Elsewhere in this paper parameter count is confounded with family, recipe and cutoff. These two arms break that confound apart within a single family.",
+  "cutoffs_are_provider_claims": "Cutoff dates are taken from Meta's model cards. They are claims by the provider, not measurements; our own attempt to estimate an effective cutoff from accuracy curves failed (see the estimator negative result).",
+  "family": {
+    "llama3_8b": {
+      "params_B": 8.0,
+      "cutoff": "2023-03",
+      "release": "Llama 3",
+      "precision": "bfloat16",
+      "hf_repo": "NousResearch/Meta-Llama-3-8B-Instruct",
+      "source": "Meta Llama 3 8B model card, Data Freshness: March 2023"
+    },
+    "llama31_8b": {
+      "params_B": 8.0,
+      "cutoff": "2023-12",
+      "release": "Llama 3.1",
+      "precision": "bfloat16",
+      "hf_repo": "NousResearch/Meta-Llama-3.1-8B-Instruct",
+      "source": "Meta Llama 3.1 model card, Data Freshness: December 2023"
+    },
+    "llama32_1b": {
+      "params_B": 1.0,
+      "cutoff": "2023-12",
+      "release": "Llama 3.2",
+      "precision": "bfloat16",
+      "hf_repo": "unsloth/Llama-3.2-1B-Instruct",
+      "source": "Meta Llama 3.2 model card, Data Freshness: December 2023"
+    },
+    "llama32_3b": {
+      "params_B": 3.0,
+      "cutoff": "2023-12",
+      "release": "Llama 3.2",
+      "precision": "bfloat16",
+      "hf_repo": "unsloth/Llama-3.2-3B-Instruct",
+      "source": "Meta Llama 3.2 model card, Data Freshness: December 2023"
+    },
+    "llama31_8b_q4": {
+      "params_B": 8.0,
+      "cutoff": "2023-12",
+      "release": "Llama 3.1",
+      "precision": "Q4_K_M",
+      "hf_repo": "lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF (Q4_K_M)",
+      "source": "Meta Llama 3.1 model card, Data Freshness: December 2023"
+    },
+    "llama31_70b": {
+      "params_B": 70.0,
+      "cutoff": "2023-12",
+      "release": "Llama 3.1",
+      "precision": "Q4_K_M",
+      "hf_repo": "lmstudio-community/Meta-Llama-3.1-70B-Instruct-GGUF (Q4_K_M)",
+      "source": "Meta Llama 3.1 model card, Data Freshness: December 2023"
+    }
+  },
+  "n_questions": 878,
+  "gap_at_own_cutoff": {
+    "llama3_8b": {
+      "gap": 9.542,
+      "ci95": [
+        0.637,
+        18.574
+      ],
+      "p_plus_one": 0.03719,
+      "n_quiz_static": 22,
+      "n_quiz_fresh": 146,
+      "params_B": 8.0,
+      "cutoff": "2023-03",
+      "n_static": 129,
+      "n_fresh": 649
+    },
+    "llama31_8b": {
+      "gap": 11.613,
+      "ci95": [
+        3.514,
+        19.577
+      ],
+      "p_plus_one": 0.0092,
+      "n_quiz_static": 61,
+      "n_quiz_fresh": 112,
+      "params_B": 8.0,
+      "cutoff": "2023-12",
+      "n_static": 244,
+      "n_fresh": 568
+    },
+    "llama32_1b": {
+      "gap": 1.158,
+      "ci95": [
+        -4.412,
+        6.88
+      ],
+      "p_plus_one": 0.69586,
+      "n_quiz_static": 61,
+      "n_quiz_fresh": 112,
+      "params_B": 1.0,
+      "cutoff": "2023-12",
+      "n_static": 244,
+      "n_fresh": 568
+    },
+    "llama32_3b": {
+      "gap": -0.497,
+      "ci95": [
+        -7.971,
+        6.989
+      ],
+      "p_plus_one": 0.90982,
+      "n_quiz_static": 61,
+      "n_quiz_fresh": 112,
+      "params_B": 3.0,
+      "cutoff": "2023-12",
+      "n_static": 244,
+      "n_fresh": 568
+    },
+    "llama31_8b_q4": {
+      "gap": 14.021,
+      "ci95": [
+        6.449,
+        21.638
+      ],
+      "p_plus_one": 0.0004,
+      "n_quiz_static": 61,
+      "n_quiz_fresh": 112,
+      "params_B": 8.0,
+      "cutoff": "2023-12",
+      "n_static": 244,
+      "n_fresh": 568
+    },
+    "llama31_70b": {
+      "gap": 29.465,
+      "ci95": [
+        20.931,
+        38.249
+      ],
+      "p_plus_one": 0.0004,
+      "n_quiz_static": 61,
+      "n_quiz_fresh": 112,
+      "params_B": 70.0,
+      "cutoff": "2023-12",
+      "n_static": 244,
+      "n_fresh": 568
+    }
+  },
+  "arm_a_cutoff_varies_size_fixed": {
+    "n_in_window": 93,
+    "n_before_both": 178,
+    "n_after_both": 607,
+    "window": "[2023-03, 2023-12)",
+    "size_held_at_B": 8.0,
+    "between_the_cutoffs": {
+      "delta": 1.875,
+      "ci95": [
+        -2.801,
+        6.998
+      ],
+      "p_plus_one": 0.43951,
+      "n_questions": 93,
+      "n_quizzes": 37,
+      "paired": true,
+      "mde": {
+        "mde_f1": 7.698,
+        "n_clusters": 37,
+        "cluster_sd": 16.714,
+        "alpha": 0.05,
+        "power": 0.8,
+        "note": "smallest true effect this contrast would detect 80% of the time; a null larger than nothing but smaller than this is inconclusive, not absent"
+      }
+    },
+    "before_both_cutoffs": {
+      "delta": 2.645,
+      "ci95": [
+        -2.503,
+        8.321
+      ],
+      "p_plus_one": 0.33113,
+      "n_questions": 178,
+      "n_quizzes": 35,
+      "paired": true,
+      "mde": {
+        "mde_f1": 9.026,
+        "n_clusters": 35,
+        "cluster_sd": 19.06,
+        "alpha": 0.05,
+        "power": 0.8,
+        "note": "smallest true effect this contrast would detect 80% of the time; a null larger than nothing but smaller than this is inconclusive, not absent"
+      }
+    },
+    "after_both_cutoffs": {
+      "delta": 0.165,
+      "ci95": [
+        -1.583,
+        1.879
+      ],
+      "p_plus_one": 0.84743,
+      "n_questions": 607,
+      "n_quizzes": 127,
+      "paired": true,
+      "mde": {
+        "mde_f1": 4.318,
+        "n_clusters": 127,
+        "cluster_sd": 17.371,
+        "alpha": 0.05,
+        "power": 0.8,
+        "note": "smallest true effect this contrast would detect 80% of the time; a null larger than nothing but smaller than this is inconclusive, not absent"
+      }
+    },
+    "did_window_minus_before": -0.77,
+    "did_window_minus_after": 1.71,
+    "exceeds_both_controls": false,
+    "controls_reading": "BEFORE both cutoffs both models have the knowledge, so the delta there is release quality. AFTER both cutoffs neither does. The cutoff effect is the window's excess over these; reporting both controls prevents reading a general quality improvement as a cutoff effect.",
+    "gap_change": {
+      "llama3_8b": {
+        "cutoff": "2023-03",
+        "gap_at_own_cutoff": 9.542,
+        "ci95": [
+          0.637,
+          18.574
+        ]
+      },
+      "llama31_8b": {
+        "cutoff": "2023-12",
+        "gap_at_own_cutoff": 11.613,
+        "ci95": [
+          3.514,
+          19.577
+        ]
+      }
+    },
+    "reading": "Same size, same family, 9 months of extra pretraining data. Any difference here is a cutoff effect and cannot be a scale effect."
+  },
+  "arm_b_size_varies_cutoff_fixed": {
+    "shared_cutoff": "2023-12",
+    "rungs": [
+      "llama32_1b",
+      "llama32_3b",
+      "llama31_8b",
+      "llama31_70b"
+    ],
+    "precision_by_rung": {
+      "llama32_1b": "bfloat16",
+      "llama32_3b": "bfloat16",
+      "llama31_8b": "bfloat16",
+      "llama31_70b": "Q4_K_M"
+    },
+    "per_model": {
+      "llama32_1b": {
+        "gap": 1.158,
+        "ci95": [
+          -4.412,
+          6.88
+        ],
+        "p_plus_one": 0.69586,
+        "n_quiz_static": 61,
+        "n_quiz_fresh": 112,
+        "params_B": 1.0
+      },
+      "llama32_3b": {
+        "gap": -0.497,
+        "ci95": [
+          -7.971,
+          6.989
+        ],
+        "p_plus_one": 0.90982,
+        "n_quiz_static": 61,
+        "n_quiz_fresh": 112,
+        "params_B": 3.0
+      },
+      "llama31_8b": {
+        "gap": 11.613,
+        "ci95": [
+          3.514,
+          19.577
+        ],
+        "p_plus_one": 0.0092,
+        "n_quiz_static": 61,
+        "n_quiz_fresh": 112,
+        "params_B": 8.0
+      },
+      "llama31_70b": {
+        "gap": 29.465,
+        "ci95": [
+          20.931,
+          38.249
+        ],
+        "p_plus_one": 0.0004,
+        "n_quiz_static": 61,
+        "n_quiz_fresh": 112,
+        "params_B": 70.0
+      }
+    },
+    "primary_rungs": [
+      "llama32_1b",
+      "llama32_3b",
+      "llama31_8b"
+    ],
+    "primary_is_precision_matched": "The primary slope uses only the bfloat16 rungs. Adding a 4-bit rung would put a precision difference back into the one analysis built to remove nuisance variables, so the quantised extension is reported separately rather than pooled.",
+    "slope_bootstrap": {
+      "slope_per_decade": 11.277,
+      "ci95": [
+        2.732,
+        19.742
+      ],
+      "p_plus_one": 0.0104,
+      "n_quiz_static": 61,
+      "n_quiz_fresh": 112,
+      "rungs": [
+        "llama32_1b",
+        "llama32_3b",
+        "llama31_8b"
+      ],
+      "note": "quiz-clustered bootstrap, conditional on these rungs; the primary inference for this arm because the exact permutation test is resolution-limited at this few rungs"
+    },
+    "slope_permutation": {
+      "slope_per_decade": 11.277,
+      "p_exact": 0.66667,
+      "n_permutations": 6,
+      "n_rungs": 3,
+      "p_resolution_floor": 0.33333,
+      "underpowered_by_construction": true,
+      "points": [
+        {
+          "params_B": 1.0,
+          "gap_f1": 1.158
+        },
+        {
+          "params_B": 3.0,
+          "gap_f1": -0.497
+        },
+        {
+          "params_B": 8.0,
+          "gap_f1": 11.613
+        }
+      ]
+    },
+    "extension_all_rungs_mixed_precision": {
+      "rungs": [
+        "llama32_1b",
+        "llama32_3b",
+        "llama31_8b",
+        "llama31_70b"
+      ],
+      "slope_bootstrap": {
+        "slope_per_decade": 16.764,
+        "ci95": [
+          12.396,
+          21.195
+        ],
+        "p_plus_one": 0.0004,
+        "n_quiz_static": 61,
+        "n_quiz_fresh": 112,
+        "rungs": [
+          "llama32_1b",
+          "llama32_3b",
+          "llama31_8b",
+          "llama31_70b"
+        ],
+        "note": "quiz-clustered bootstrap, conditional on these rungs; the primary inference for this arm because the exact permutation test is resolution-limited at this few rungs"
+      },
+      "slope_permutation": {
+        "slope_per_decade": 16.763,
+        "p_exact": 0.08333,
+        "n_permutations": 24,
+        "n_rungs": 4,
+        "p_resolution_floor": 0.08333,
+        "underpowered_by_construction": true,
+        "points": [
+          {
+            "params_B": 1.0,
+            "gap_f1": 1.158
+          },
+          {
+            "params_B": 3.0,
+            "gap_f1": -0.497
+          },
+          {
+            "params_B": 8.0,
+            "gap_f1": 11.613
+          },
+          {
+            "params_B": 70.0,
+            "gap_f1": 29.465
+          }
+        ]
+      },
+      "caveat": "includes a 4-bit rung; the parameter range widens to 70x but precision is no longer held fixed"
+    },
+    "slope": {
+      "slope_per_decade": 11.277,
+      "ci95": [
+        2.732,
+        19.742
+      ],
+      "p_plus_one": 0.0104,
+      "n_quiz_static": 61,
+      "n_quiz_fresh": 112,
+      "rungs": [
+        "llama32_1b",
+        "llama32_3b",
+        "llama31_8b"
+      ],
+      "note": "quiz-clustered bootstrap, conditional on these rungs; the primary inference for this arm because the exact permutation test is resolution-limited at this few rungs"
+    },
+    "vs_main_ladder": {
+      "main_ladder_slope": 5.9342,
+      "controlled_slope": 11.277,
+      "ratio": 1.9,
+      "reading": "Fraction of the shared-boundary slope that survives holding the cutoff fixed. Well below 1 supports this paper's argument that a shared calendar boundary measures cutoff offset as well as scale; near 1 would mean the confound was not doing the work."
+    },
+    "caveat": "Llama-3.2 1B/3B are distilled from larger Llama-3.1 models rather than independently pretrained, so this arm holds cutoff and family fixed but not training procedure. 4 rungs; the exact permutation test is reported but is resolution-limited at this few rungs, so the quiz bootstrap is the primary inference."
+  },
+  "arm_c_same_release_only_size_differs": {
+    "models": [
+      "llama31_8b_q4",
+      "llama31_70b"
+    ],
+    "shared": {
+      "release": "Llama 3.1",
+      "cutoff": "2023-12",
+      "precision": "Q4_K_M"
+    },
+    "params_B": [
+      8.0,
+      70.0
+    ],
+    "llama31_8b_q4": {
+      "gap": 14.021,
+      "ci95": [
+        6.449,
+        21.638
+      ],
+      "p_plus_one": 0.0004,
+      "n_quiz_static": 61,
+      "n_quiz_fresh": 112,
+      "params_B": 8.0
+    },
+    "llama31_70b": {
+      "gap": 29.465,
+      "ci95": [
+        20.931,
+        38.249
+      ],
+      "p_plus_one": 0.0004,
+      "n_quiz_static": 61,
+      "n_quiz_fresh": 112,
+      "params_B": 70.0
+    },
+    "gap_difference": 15.444,
+    "implied_slope_per_decade": 16.395,
+    "reading": "Two models of one release, same data and recipe, same disclosed cutoff, same quantization; only parameter count differs. This is a two-point contrast, so it carries no slope uncertainty of its own -- each gap's interval is reported and the implied slope is descriptive."
+  },
+  "verdict": {
+    "cutoff_effect_at_fixed_size": -0.77,
+    "scale_slope_at_fixed_cutoff": 11.277,
+    "scale_slope_ci_at_fixed_cutoff": [
+      2.732,
+      19.742
+    ],
+    "scale_slope_excludes_zero_at_fixed_cutoff": true,
+    "reading": "Arm A isolates a cutoff effect with size held fixed; Arm B isolates a scale slope with cutoff held fixed. Reporting both is the identification claim: whatever survives Arm B is scale, not horizon. Neither arm licenses a causal statement about parameter count -- the models still differ in training procedure -- and Arm B has three rungs."
+  }
+}

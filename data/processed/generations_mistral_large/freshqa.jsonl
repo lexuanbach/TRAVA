@@ -1,0 +1,600 @@
+{"qid": "freshqa_0", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Tortoise", "doc_ids": []}
+{"qid": "freshqa_1", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Leonardo DiCaprio does not have a third child.", "doc_ids": []}
+{"qid": "freshqa_2", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "No human has landed on Mars yet.", "doc_ids": []}
+{"qid": "freshqa_3", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Unknown", "doc_ids": []}
+{"qid": "freshqa_4", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "P = NP", "doc_ids": []}
+{"qid": "freshqa_5", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Bodybuilding has never been an Olympic sport.", "doc_ids": []}
+{"qid": "freshqa_6", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Meta has not moved its headquarters to Austin.", "doc_ids": []}
+{"qid": "freshqa_7", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2001", "doc_ids": []}
+{"qid": "freshqa_8", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "February 7, 2022", "doc_ids": []}
+{"qid": "freshqa_9", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "No permanent cure for cancer has been developed.", "doc_ids": []}
+{"qid": "freshqa_10", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Dartmouth does not have a law school.", "doc_ids": []}
+{"qid": "freshqa_11", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "League of Legends 2 has not been released.", "doc_ids": []}
+{"qid": "freshqa_12", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Nakamura has not become the World Chess Champion.", "doc_ids": []}
+{"qid": "freshqa_13", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November 2021", "doc_ids": []}
+{"qid": "freshqa_14", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Element 120 has not been synthesized yet.", "doc_ids": []}
+{"qid": "freshqa_15", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1997", "doc_ids": []}
+{"qid": "freshqa_16", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The UK has not adopted the Euro.", "doc_ids": []}
+{"qid": "freshqa_17", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November 2022", "doc_ids": []}
+{"qid": "freshqa_18", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Elon Musk did not buy Activision Blizzard.", "doc_ids": []}
+{"qid": "freshqa_19", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "As of my last update in October 2023, COVID-19 has not been declared endemic by the World Health Organization.", "doc_ids": []}
+{"qid": "freshqa_20", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2015, 2016, 2017", "doc_ids": []}
+{"qid": "freshqa_21", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Tesla Model Z has not come out.", "doc_ids": []}
+{"qid": "freshqa_22", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "None", "doc_ids": []}
+{"qid": "freshqa_23", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Elon Musk did not acquire Instagram.", "doc_ids": []}
+{"qid": "freshqa_24", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mark Zuckerberg did not acquire Twitter.", "doc_ids": []}
+{"qid": "freshqa_25", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Unforgiven", "doc_ids": []}
+{"qid": "freshqa_26", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Willie Nelson is still alive.", "doc_ids": []}
+{"qid": "freshqa_27", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_28", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Chris Paul has not won an NBA championship.", "doc_ids": []}
+{"qid": "freshqa_29", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2023", "doc_ids": []}
+{"qid": "freshqa_30", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2013", "doc_ids": []}
+{"qid": "freshqa_31", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The series has only five books.", "doc_ids": []}
+{"qid": "freshqa_32", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The PlayStation 6 (PS6) has not been released as of 2023.", "doc_ids": []}
+{"qid": "freshqa_33", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The population of the United States has not reached 8 billion.", "doc_ids": []}
+{"qid": "freshqa_34", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Harry Maguire has not won the Ballon d'Or.", "doc_ids": []}
+{"qid": "freshqa_35", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Papa John's has not gone out of business.", "doc_ids": []}
+{"qid": "freshqa_36", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2010", "doc_ids": []}
+{"qid": "freshqa_37", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_38", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "There has been no female president of the United States.", "doc_ids": []}
+{"qid": "freshqa_39", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2022", "doc_ids": []}
+{"qid": "freshqa_40", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Alexandria Mills", "doc_ids": []}
+{"qid": "freshqa_41", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2022", "doc_ids": []}
+{"qid": "freshqa_42", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Canada, Mexico, USA", "doc_ids": []}
+{"qid": "freshqa_43", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "51", "doc_ids": []}
+{"qid": "freshqa_44", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Linda Yaccarino", "doc_ids": []}
+{"qid": "freshqa_45", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "6 weeks", "doc_ids": []}
+{"qid": "freshqa_46", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "0 years", "doc_ids": []}
+{"qid": "freshqa_47", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kenya has not used a two-party system of government.", "doc_ids": []}
+{"qid": "freshqa_48", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ethereum", "doc_ids": []}
+{"qid": "freshqa_49", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Taylor Swift has not been a UNICEF Goodwill Ambassador.", "doc_ids": []}
+{"qid": "freshqa_50", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2022", "doc_ids": []}
+{"qid": "freshqa_51", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Not married", "doc_ids": []}
+{"qid": "freshqa_52", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Puerto Rico is not an independent country.", "doc_ids": []}
+{"qid": "freshqa_53", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1984", "doc_ids": []}
+{"qid": "freshqa_54", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "87", "doc_ids": []}
+{"qid": "freshqa_55", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "John Key, Bill English, Helen Clark, Jenny Shipley, Jim Bolger, Geoffrey Palmer", "doc_ids": []}
+{"qid": "freshqa_56", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Conspiracy to defraud the United States, False statements.", "doc_ids": []}
+{"qid": "freshqa_57", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "100 years", "doc_ids": []}
+{"qid": "freshqa_58", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1,847,044 votes", "doc_ids": []}
+{"qid": "freshqa_59", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "April 25, 2023", "doc_ids": []}
+{"qid": "freshqa_60", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lionel Messi", "doc_ids": []}
+{"qid": "freshqa_61", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_62", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "714", "doc_ids": []}
+{"qid": "freshqa_63", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lance Armstrong did not land on the moon.", "doc_ids": []}
+{"qid": "freshqa_64", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1944", "doc_ids": []}
+{"qid": "freshqa_65", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_66", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "4.4%", "doc_ids": []}
+{"qid": "freshqa_67", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The iPhone 9 was not released.", "doc_ids": []}
+{"qid": "freshqa_68", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Cannabis is not fully legal in the United States.", "doc_ids": []}
+{"qid": "freshqa_69", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_70", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Rick Riordan did not release the Harry Potter series.", "doc_ids": []}
+{"qid": "freshqa_71", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "California has not seceded from the United States.", "doc_ids": []}
+{"qid": "freshqa_72", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November 18, 2011", "doc_ids": []}
+{"qid": "freshqa_73", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "None", "doc_ids": []}
+{"qid": "freshqa_74", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1993", "doc_ids": []}
+{"qid": "freshqa_75", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1864", "doc_ids": []}
+{"qid": "freshqa_76", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Meta did not buy YouTube.", "doc_ids": []}
+{"qid": "freshqa_77", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Bezos has not sold Amazon.", "doc_ids": []}
+{"qid": "freshqa_78", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "New York did not join the Confederacy.", "doc_ids": []}
+{"qid": "freshqa_79", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2.6 million years ago", "doc_ids": []}
+{"qid": "freshqa_80", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The Great Wall of China has not collapsed.", "doc_ids": []}
+{"qid": "freshqa_81", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The Tenth Crusade did not occur.", "doc_ids": []}
+{"qid": "freshqa_82", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1936", "doc_ids": []}
+{"qid": "freshqa_83", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November 22, 2023", "doc_ids": []}
+{"qid": "freshqa_84", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Grand Canyon", "doc_ids": []}
+{"qid": "freshqa_85", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The 2022 Winter Olympics were not held in Russia.", "doc_ids": []}
+{"qid": "freshqa_86", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Canada, Mexico, USA", "doc_ids": []}
+{"qid": "freshqa_87", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$450.3 million", "doc_ids": []}
+{"qid": "freshqa_88", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lebron James did not play college basketball.", "doc_ids": []}
+{"qid": "freshqa_89", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mercury", "doc_ids": []}
+{"qid": "freshqa_90", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Taliban", "doc_ids": []}
+{"qid": "freshqa_91", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "-1", "doc_ids": []}
+{"qid": "freshqa_92", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "June 10, 2026", "doc_ids": []}
+{"qid": "freshqa_93", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November", "doc_ids": []}
+{"qid": "freshqa_94", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The game did not resume play.", "doc_ids": []}
+{"qid": "freshqa_95", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "10pm", "doc_ids": []}
+{"qid": "freshqa_96", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kevin McCarthy", "doc_ids": []}
+{"qid": "freshqa_97", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1,833", "doc_ids": []}
+{"qid": "freshqa_98", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November 14, 2023", "doc_ids": []}
+{"qid": "freshqa_99", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The Fabelmans", "doc_ids": []}
+{"qid": "freshqa_100", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "September 13, 2023", "doc_ids": []}
+{"qid": "freshqa_101", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Russia did not qualify for the FIFA World Cup 2022.", "doc_ids": []}
+{"qid": "freshqa_102", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "December 11-12, 2021", "doc_ids": []}
+{"qid": "freshqa_103", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "June 2021", "doc_ids": []}
+{"qid": "freshqa_104", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Albert Einstein Israelite Hospital", "doc_ids": []}
+{"qid": "freshqa_105", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_106", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November", "doc_ids": []}
+{"qid": "freshqa_107", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Honor", "doc_ids": []}
+{"qid": "freshqa_108", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Google did not release ChatGPT.", "doc_ids": []}
+{"qid": "freshqa_109", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Grande Centre Point Terminal 21", "doc_ids": []}
+{"qid": "freshqa_110", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "5%", "doc_ids": []}
+{"qid": "freshqa_111", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Adidas", "doc_ids": []}
+{"qid": "freshqa_112", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Quarterfinals", "doc_ids": []}
+{"qid": "freshqa_113", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Daniil Medvedev", "doc_ids": []}
+{"qid": "freshqa_114", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "6 minutes", "doc_ids": []}
+{"qid": "freshqa_115", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November 2023", "doc_ids": []}
+{"qid": "freshqa_116", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "5 years", "doc_ids": []}
+{"qid": "freshqa_117", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1729", "doc_ids": []}
+{"qid": "freshqa_118", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"I'M BACK! #COVFEFE\"", "doc_ids": []}
+{"qid": "freshqa_119", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "45 days", "doc_ids": []}
+{"qid": "freshqa_120", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "9 years", "doc_ids": []}
+{"qid": "freshqa_121", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "75 basis points", "doc_ids": []}
+{"qid": "freshqa_122", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Michael Smith", "doc_ids": []}
+{"qid": "freshqa_123", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Chief Twit", "doc_ids": []}
+{"qid": "freshqa_124", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_125", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_126", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "10", "doc_ids": []}
+{"qid": "freshqa_127", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ariana Grande", "doc_ids": []}
+{"qid": "freshqa_128", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Sundar Pichai", "doc_ids": []}
+{"qid": "freshqa_129", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$10", "doc_ids": []}
+{"qid": "freshqa_130", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Princeton University", "doc_ids": []}
+{"qid": "freshqa_131", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "3:43.13", "doc_ids": []}
+{"qid": "freshqa_132", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "22", "doc_ids": []}
+{"qid": "freshqa_133", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Olaf Scholz", "doc_ids": []}
+{"qid": "freshqa_134", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mario", "doc_ids": []}
+{"qid": "freshqa_135", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "California", "doc_ids": []}
+{"qid": "freshqa_136", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "6", "doc_ids": []}
+{"qid": "freshqa_137", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "3 books", "doc_ids": []}
+{"qid": "freshqa_138", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Twista", "doc_ids": []}
+{"qid": "freshqa_139", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "193", "doc_ids": []}
+{"qid": "freshqa_140", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "University of Bologna", "doc_ids": []}
+{"qid": "freshqa_141", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kind of Blue", "doc_ids": []}
+{"qid": "freshqa_142", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mokhtar Dahari", "doc_ids": []}
+{"qid": "freshqa_143", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "6 games", "doc_ids": []}
+{"qid": "freshqa_144", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Austin, Texas", "doc_ids": []}
+{"qid": "freshqa_145", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "49 matches", "doc_ids": []}
+{"qid": "freshqa_146", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Hindi", "doc_ids": []}
+{"qid": "freshqa_147", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Dangal", "doc_ids": []}
+{"qid": "freshqa_148", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Cebuano", "doc_ids": []}
+{"qid": "freshqa_149", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lisa", "doc_ids": []}
+{"qid": "freshqa_150", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_151", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Santiago", "doc_ids": []}
+{"qid": "freshqa_152", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Anglo-Zanzibar War", "doc_ids": []}
+{"qid": "freshqa_153", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "James Webb Space Telescope", "doc_ids": []}
+{"qid": "freshqa_154", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "20", "doc_ids": []}
+{"qid": "freshqa_155", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Croatia", "doc_ids": []}
+{"qid": "freshqa_156", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "4 models", "doc_ids": []}
+{"qid": "freshqa_157", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "23 books", "doc_ids": []}
+{"qid": "freshqa_158", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Dawn FM", "doc_ids": []}
+{"qid": "freshqa_159", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "10 children", "doc_ids": []}
+{"qid": "freshqa_160", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "735", "doc_ids": []}
+{"qid": "freshqa_161", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "4", "doc_ids": []}
+{"qid": "freshqa_162", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "93", "doc_ids": []}
+{"qid": "freshqa_163", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "53", "doc_ids": []}
+{"qid": "freshqa_164", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Carlos Alcaraz", "doc_ids": []}
+{"qid": "freshqa_165", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Rungrado 1st of May Stadium", "doc_ids": []}
+{"qid": "freshqa_166", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Midnights", "doc_ids": []}
+{"qid": "freshqa_167", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Fumio Kishida", "doc_ids": []}
+{"qid": "freshqa_168", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "K.G.F: Chapter 2", "doc_ids": []}
+{"qid": "freshqa_169", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Luke Humphries", "doc_ids": []}
+{"qid": "freshqa_170", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Turing Award", "doc_ids": []}
+{"qid": "freshqa_171", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November 2021", "doc_ids": []}
+{"qid": "freshqa_172", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_173", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Joe Biden", "doc_ids": []}
+{"qid": "freshqa_174", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": ".NET 8", "doc_ids": []}
+{"qid": "freshqa_175", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2", "doc_ids": []}
+{"qid": "freshqa_176", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Croatia", "doc_ids": []}
+{"qid": "freshqa_177", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The Eternal Flame", "doc_ids": []}
+{"qid": "freshqa_178", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Rishi Sunak", "doc_ids": []}
+{"qid": "freshqa_179", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Liz Truss", "doc_ids": []}
+{"qid": "freshqa_180", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lionel Messi", "doc_ids": []}
+{"qid": "freshqa_181", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "MPX (monkeypox)", "doc_ids": []}
+{"qid": "freshqa_182", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$120", "doc_ids": []}
+{"qid": "freshqa_183", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Frontier", "doc_ids": []}
+{"qid": "freshqa_184", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "May 13, 2022", "doc_ids": []}
+{"qid": "freshqa_185", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Tokyo", "doc_ids": []}
+{"qid": "freshqa_186", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2021", "doc_ids": []}
+{"qid": "freshqa_187", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2024", "doc_ids": []}
+{"qid": "freshqa_188", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mark Cuban has not sold the Mavericks.", "doc_ids": []}
+{"qid": "freshqa_189", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "8", "doc_ids": []}
+{"qid": "freshqa_190", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Elon Musk", "doc_ids": []}
+{"qid": "freshqa_191", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "3 seasons", "doc_ids": []}
+{"qid": "freshqa_192", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kumble Subbaswamy", "doc_ids": []}
+{"qid": "freshqa_193", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Jerrold Nadler", "doc_ids": []}
+{"qid": "freshqa_194", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Earwig and the Witch", "doc_ids": []}
+{"qid": "freshqa_195", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Al Nassr", "doc_ids": []}
+{"qid": "freshqa_196", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "USA", "doc_ids": []}
+{"qid": "freshqa_197", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kuna", "doc_ids": []}
+{"qid": "freshqa_198", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ayman al-Zawahiri", "doc_ids": []}
+{"qid": "freshqa_199", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "485", "doc_ids": []}
+{"qid": "freshqa_200", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "France", "doc_ids": []}
+{"qid": "freshqa_201", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$2.04 billion", "doc_ids": []}
+{"qid": "freshqa_202", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2", "doc_ids": []}
+{"qid": "freshqa_203", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Dina Boluarte", "doc_ids": []}
+{"qid": "freshqa_204", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Russia", "doc_ids": []}
+{"qid": "freshqa_205", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "King Charles III", "doc_ids": []}
+{"qid": "freshqa_206", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Barcelona", "doc_ids": []}
+{"qid": "freshqa_207", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Elon Musk", "doc_ids": []}
+{"qid": "freshqa_208", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Robert Luna", "doc_ids": []}
+{"qid": "freshqa_209", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "5", "doc_ids": []}
+{"qid": "freshqa_210", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "300", "doc_ids": []}
+{"qid": "freshqa_211", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Action Comics #1", "doc_ids": []}
+{"qid": "freshqa_212", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Greenland", "doc_ids": []}
+{"qid": "freshqa_213", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Bills", "doc_ids": []}
+{"qid": "freshqa_214", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"The Lord of the Rings: The Rings of Power\"", "doc_ids": []}
+{"qid": "freshqa_215", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Nusantara", "doc_ids": []}
+{"qid": "freshqa_216", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2023", "doc_ids": []}
+{"qid": "freshqa_217", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Jair Bolsonaro", "doc_ids": []}
+{"qid": "freshqa_218", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Maryam Mirzakhani", "doc_ids": []}
+{"qid": "freshqa_219", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "3", "doc_ids": []}
+{"qid": "freshqa_220", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "France", "doc_ids": []}
+{"qid": "freshqa_221", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "828 meters", "doc_ids": []}
+{"qid": "freshqa_222", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Portugal", "doc_ids": []}
+{"qid": "freshqa_223", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mila Kunis", "doc_ids": []}
+{"qid": "freshqa_224", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ireland", "doc_ids": []}
+{"qid": "freshqa_225", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "114,000", "doc_ids": []}
+{"qid": "freshqa_226", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "10", "doc_ids": []}
+{"qid": "freshqa_227", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_228", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "6", "doc_ids": []}
+{"qid": "freshqa_229", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_230", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "3", "doc_ids": []}
+{"qid": "freshqa_231", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ukraine", "doc_ids": []}
+{"qid": "freshqa_232", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_233", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Jill Biden", "doc_ids": []}
+{"qid": "freshqa_234", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Indira Gandhi National Open University (IGNOU)", "doc_ids": []}
+{"qid": "freshqa_235", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Yes", "doc_ids": []}
+{"qid": "freshqa_236", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "San Francisco", "doc_ids": []}
+{"qid": "freshqa_237", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "United Kingdom", "doc_ids": []}
+{"qid": "freshqa_238", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2 times", "doc_ids": []}
+{"qid": "freshqa_239", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "@world_record_egg", "doc_ids": []}
+{"qid": "freshqa_240", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2022", "doc_ids": []}
+{"qid": "freshqa_241", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "3 players", "doc_ids": []}
+{"qid": "freshqa_242", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "James Cameron", "doc_ids": []}
+{"qid": "freshqa_243", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ken Griffin", "doc_ids": []}
+{"qid": "freshqa_244", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Quarterfinals", "doc_ids": []}
+{"qid": "freshqa_245", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Laika", "doc_ids": []}
+{"qid": "freshqa_246", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "175 billion parameters", "doc_ids": []}
+{"qid": "freshqa_247", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Vietnam", "doc_ids": []}
+{"qid": "freshqa_248", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Wuhan", "doc_ids": []}
+{"qid": "freshqa_249", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Chad", "doc_ids": []}
+{"qid": "freshqa_250", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Hawaii", "doc_ids": []}
+{"qid": "freshqa_251", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2028", "doc_ids": []}
+{"qid": "freshqa_252", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "University of Washington", "doc_ids": []}
+{"qid": "freshqa_253", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Blue whale", "doc_ids": []}
+{"qid": "freshqa_254", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Denali", "doc_ids": []}
+{"qid": "freshqa_255", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Corgi", "doc_ids": []}
+{"qid": "freshqa_256", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ale", "doc_ids": []}
+{"qid": "freshqa_257", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Portugal", "doc_ids": []}
+{"qid": "freshqa_258", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1971", "doc_ids": []}
+{"qid": "freshqa_259", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Edward Said", "doc_ids": []}
+{"qid": "freshqa_260", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Clastic", "doc_ids": []}
+{"qid": "freshqa_261", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_262", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Helen", "doc_ids": []}
+{"qid": "freshqa_263", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lewis Hamilton", "doc_ids": []}
+{"qid": "freshqa_264", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Theodore Kaczynski", "doc_ids": []}
+{"qid": "freshqa_265", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Turtwig, Chimchar, Piplup", "doc_ids": []}
+{"qid": "freshqa_266", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Alamogordo, New Mexico", "doc_ids": []}
+{"qid": "freshqa_267", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1", "doc_ids": []}
+{"qid": "freshqa_268", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November 9, 1989", "doc_ids": []}
+{"qid": "freshqa_269", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "August 16, 1977", "doc_ids": []}
+{"qid": "freshqa_270", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lech Kaczy\u0144ski", "doc_ids": []}
+{"qid": "freshqa_271", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1941", "doc_ids": []}
+{"qid": "freshqa_272", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "January 10, 2016", "doc_ids": []}
+{"qid": "freshqa_273", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Masahiro Sakurai", "doc_ids": []}
+{"qid": "freshqa_274", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "January 22", "doc_ids": []}
+{"qid": "freshqa_275", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "South", "doc_ids": []}
+{"qid": "freshqa_276", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Amherst", "doc_ids": []}
+{"qid": "freshqa_277", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ta-Nehisi Coates", "doc_ids": []}
+{"qid": "freshqa_278", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Jeff Bezos", "doc_ids": []}
+{"qid": "freshqa_279", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Boston", "doc_ids": []}
+{"qid": "freshqa_280", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Chelsea", "doc_ids": []}
+{"qid": "freshqa_281", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The White Album", "doc_ids": []}
+{"qid": "freshqa_282", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Paris", "doc_ids": []}
+{"qid": "freshqa_283", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "February 1637", "doc_ids": []}
+{"qid": "freshqa_284", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Alcibiades", "doc_ids": []}
+{"qid": "freshqa_285", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\u91d1", "doc_ids": []}
+{"qid": "freshqa_286", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Soviet Union", "doc_ids": []}
+{"qid": "freshqa_287", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mary Ann Evans", "doc_ids": []}
+{"qid": "freshqa_288", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Toronto", "doc_ids": []}
+{"qid": "freshqa_289", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Tommy Wiseau", "doc_ids": []}
+{"qid": "freshqa_290", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "116 years", "doc_ids": []}
+{"qid": "freshqa_291", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Left", "doc_ids": []}
+{"qid": "freshqa_292", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "April", "doc_ids": []}
+{"qid": "freshqa_293", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ali Daei", "doc_ids": []}
+{"qid": "freshqa_294", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Guiuan", "doc_ids": []}
+{"qid": "freshqa_295", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Midnight", "doc_ids": []}
+{"qid": "freshqa_296", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "London", "doc_ids": []}
+{"qid": "freshqa_297", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lactobacillus bulgaricus", "doc_ids": []}
+{"qid": "freshqa_298", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "August 8, 2016", "doc_ids": []}
+{"qid": "freshqa_299", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Blizzard Entertainment", "doc_ids": []}
+{"qid": "freshqa_300", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Leatherback sea turtle", "doc_ids": []}
+{"qid": "freshqa_301", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Louis de Broglie", "doc_ids": []}
+{"qid": "freshqa_302", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Baden-W\u00fcrttemberg", "doc_ids": []}
+{"qid": "freshqa_303", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Thelma & Louise", "doc_ids": []}
+{"qid": "freshqa_304", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "July 5, 1980", "doc_ids": []}
+{"qid": "freshqa_305", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Canada, Mexico, USA", "doc_ids": []}
+{"qid": "freshqa_306", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "3", "doc_ids": []}
+{"qid": "freshqa_307", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1938", "doc_ids": []}
+{"qid": "freshqa_308", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "10 players", "doc_ids": []}
+{"qid": "freshqa_309", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "China", "doc_ids": []}
+{"qid": "freshqa_310", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Death and taxes.", "doc_ids": []}
+{"qid": "freshqa_311", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "907", "doc_ids": []}
+{"qid": "freshqa_312", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mount Katahdin", "doc_ids": []}
+{"qid": "freshqa_313", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Revachol", "doc_ids": []}
+{"qid": "freshqa_314", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Russia", "doc_ids": []}
+{"qid": "freshqa_315", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "E\u00e4rendil", "doc_ids": []}
+{"qid": "freshqa_316", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "July 4, 1776", "doc_ids": []}
+{"qid": "freshqa_317", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Benjamin Harrison", "doc_ids": []}
+{"qid": "freshqa_318", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Sir Arthur Conan Doyle Estate", "doc_ids": []}
+{"qid": "freshqa_319", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Pel\u00e9", "doc_ids": []}
+{"qid": "freshqa_320", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Hans Niemann", "doc_ids": []}
+{"qid": "freshqa_321", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "4", "doc_ids": []}
+{"qid": "freshqa_322", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "October 27, 2022", "doc_ids": []}
+{"qid": "freshqa_323", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Tetsuya Yamagami", "doc_ids": []}
+{"qid": "freshqa_324", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "SDSS J1623+2634", "doc_ids": []}
+{"qid": "freshqa_325", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Joe Biden", "doc_ids": []}
+{"qid": "freshqa_326", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Maura Healey", "doc_ids": []}
+{"qid": "freshqa_327", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "8 September 2022", "doc_ids": []}
+{"qid": "freshqa_328", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Morten Meldal", "doc_ids": []}
+{"qid": "freshqa_329", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "P. Dj\u00e8l\u00ed Clark", "doc_ids": []}
+{"qid": "freshqa_330", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Pel\u00e9", "doc_ids": []}
+{"qid": "freshqa_331", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Cristiano Ronaldo", "doc_ids": []}
+{"qid": "freshqa_332", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November 15, 2022", "doc_ids": []}
+{"qid": "freshqa_333", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Nata\u0161a Pirc Musar", "doc_ids": []}
+{"qid": "freshqa_334", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_335", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "New York University", "doc_ids": []}
+{"qid": "freshqa_336", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"Bart the Bad Guy\"", "doc_ids": []}
+{"qid": "freshqa_337", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"Springfield Splendor\"", "doc_ids": []}
+{"qid": "freshqa_338", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Marvel Cinematic Universe", "doc_ids": []}
+{"qid": "freshqa_339", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Maya Angelou", "doc_ids": []}
+{"qid": "freshqa_340", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "9 weeks", "doc_ids": []}
+{"qid": "freshqa_341", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "USA", "doc_ids": []}
+{"qid": "freshqa_342", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kak\u00e1", "doc_ids": []}
+{"qid": "freshqa_343", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Sepp Hochreiter", "doc_ids": []}
+{"qid": "freshqa_344", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Juneau", "doc_ids": []}
+{"qid": "freshqa_345", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "San Jose", "doc_ids": []}
+{"qid": "freshqa_346", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Nashville", "doc_ids": []}
+{"qid": "freshqa_347", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Bayonne, New Jersey", "doc_ids": []}
+{"qid": "freshqa_348", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Qianlong", "doc_ids": []}
+{"qid": "freshqa_349", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1996", "doc_ids": []}
+{"qid": "freshqa_350", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "P\u0159\u00edbor", "doc_ids": []}
+{"qid": "freshqa_351", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "East Pacific Rise", "doc_ids": []}
+{"qid": "freshqa_352", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Jiangsu", "doc_ids": []}
+{"qid": "freshqa_353", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Toronto", "doc_ids": []}
+{"qid": "freshqa_354", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Anne Elliot", "doc_ids": []}
+{"qid": "freshqa_355", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Poland", "doc_ids": []}
+{"qid": "freshqa_356", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Paul Chambers was born on April 22, 1935.", "doc_ids": []}
+{"qid": "freshqa_357", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "ACM", "doc_ids": []}
+{"qid": "freshqa_358", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Taylor Swift", "doc_ids": []}
+{"qid": "freshqa_359", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "3", "doc_ids": []}
+{"qid": "freshqa_360", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_361", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "41", "doc_ids": []}
+{"qid": "freshqa_362", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Fiona", "doc_ids": []}
+{"qid": "freshqa_363", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Baltimore", "doc_ids": []}
+{"qid": "freshqa_364", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "CR7", "doc_ids": []}
+{"qid": "freshqa_365", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "96", "doc_ids": []}
+{"qid": "freshqa_366", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Heart attack", "doc_ids": []}
+{"qid": "freshqa_367", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "12 years", "doc_ids": []}
+{"qid": "freshqa_368", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lower Saxony", "doc_ids": []}
+{"qid": "freshqa_369", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_370", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"BTS 'Butter'\"", "doc_ids": []}
+{"qid": "freshqa_371", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Czechia", "doc_ids": []}
+{"qid": "freshqa_372", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "India", "doc_ids": []}
+{"qid": "freshqa_373", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Max Verstappen", "doc_ids": []}
+{"qid": "freshqa_374", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Gina Miles", "doc_ids": []}
+{"qid": "freshqa_375", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Over 5,000", "doc_ids": []}
+{"qid": "freshqa_376", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "36 goals", "doc_ids": []}
+{"qid": "freshqa_377", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"Barbie\"", "doc_ids": []}
+{"qid": "freshqa_378", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1,200", "doc_ids": []}
+{"qid": "freshqa_379", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "340,000+", "doc_ids": []}
+{"qid": "freshqa_380", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "October 10, 2023", "doc_ids": []}
+{"qid": "freshqa_381", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"The Very Hungry Caterpillar\"", "doc_ids": []}
+{"qid": "freshqa_382", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"Article of the Week\"", "doc_ids": []}
+{"qid": "freshqa_383", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$15.49", "doc_ids": []}
+{"qid": "freshqa_384", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Taylor Swift", "doc_ids": []}
+{"qid": "freshqa_385", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"Barbie\"", "doc_ids": []}
+{"qid": "freshqa_386", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "100", "doc_ids": []}
+{"qid": "freshqa_387", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Damian Lillard", "doc_ids": []}
+{"qid": "freshqa_388", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Gina Miles", "doc_ids": []}
+{"qid": "freshqa_389", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "October 8, 2022", "doc_ids": []}
+{"qid": "freshqa_390", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Novak Djokovic", "doc_ids": []}
+{"qid": "freshqa_391", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "December 11, 2022", "doc_ids": []}
+{"qid": "freshqa_392", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The question implies a second presidency for Donald Trump, which has not occurred as of my last update in October 2023. Therefore, there is", "doc_ids": []}
+{"qid": "freshqa_393", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Robert Glasper", "doc_ids": []}
+{"qid": "freshqa_394", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kansas City Chiefs", "doc_ids": []}
+{"qid": "freshqa_395", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "New Orleans", "doc_ids": []}
+{"qid": "freshqa_396", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "April 14-16 and April 21-23", "doc_ids": []}
+{"qid": "freshqa_397", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November 24", "doc_ids": []}
+{"qid": "freshqa_398", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "April 5", "doc_ids": []}
+{"qid": "freshqa_399", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Iga \u015awi\u0105tek, Ons Jabeur", "doc_ids": []}
+{"qid": "freshqa_400", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "790", "doc_ids": []}
+{"qid": "freshqa_401", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "May 14", "doc_ids": []}
+{"qid": "freshqa_402", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "June 18", "doc_ids": []}
+{"qid": "freshqa_403", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Singapore", "doc_ids": []}
+{"qid": "freshqa_404", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Fox", "doc_ids": []}
+{"qid": "freshqa_405", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"Top Gun: Maverick\"", "doc_ids": []}
+{"qid": "freshqa_406", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2973", "doc_ids": []}
+{"qid": "freshqa_407", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "April 2 - May 1", "doc_ids": []}
+{"qid": "freshqa_408", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November 23", "doc_ids": []}
+{"qid": "freshqa_409", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "September 4", "doc_ids": []}
+{"qid": "freshqa_410", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "State Farm Stadium", "doc_ids": []}
+{"qid": "freshqa_411", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "February 7, 2023", "doc_ids": []}
+{"qid": "freshqa_412", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Guillermo del Toro's Pinocchio", "doc_ids": []}
+{"qid": "freshqa_413", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Everything Everywhere All at Once", "doc_ids": []}
+{"qid": "freshqa_414", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "63", "doc_ids": []}
+{"qid": "freshqa_415", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"Fairy Tale\"", "doc_ids": []}
+{"qid": "freshqa_416", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Fall", "doc_ids": []}
+{"qid": "freshqa_417", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November 11", "doc_ids": []}
+{"qid": "freshqa_418", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November 8, 2023", "doc_ids": []}
+{"qid": "freshqa_419", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November 14, 2023", "doc_ids": []}
+{"qid": "freshqa_420", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ion\u0101 Holoman", "doc_ids": []}
+{"qid": "freshqa_421", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "35", "doc_ids": []}
+{"qid": "freshqa_422", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Christian McCaffrey", "doc_ids": []}
+{"qid": "freshqa_423", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$54,990", "doc_ids": []}
+{"qid": "freshqa_424", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Android 14", "doc_ids": []}
+{"qid": "freshqa_425", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Elon Musk", "doc_ids": []}
+{"qid": "freshqa_426", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Arsenal", "doc_ids": []}
+{"qid": "freshqa_427", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_428", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Donald Trump", "doc_ids": []}
+{"qid": "freshqa_429", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ventura", "doc_ids": []}
+{"qid": "freshqa_430", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Francesco Bagnaia", "doc_ids": []}
+{"qid": "freshqa_431", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Annie Ernaux", "doc_ids": []}
+{"qid": "freshqa_432", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Simone Biles", "doc_ids": []}
+{"qid": "freshqa_433", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Wish", "doc_ids": []}
+{"qid": "freshqa_434", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Wish", "doc_ids": []}
+{"qid": "freshqa_435", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Elden Ring", "doc_ids": []}
+{"qid": "freshqa_436", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "September 8, 2022", "doc_ids": []}
+{"qid": "freshqa_437", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1,483", "doc_ids": []}
+{"qid": "freshqa_438", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lionel Messi", "doc_ids": []}
+{"qid": "freshqa_439", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Succession", "doc_ids": []}
+{"qid": "freshqa_440", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Macao", "doc_ids": []}
+{"qid": "freshqa_441", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Japan", "doc_ids": []}
+{"qid": "freshqa_442", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Cascadia", "doc_ids": []}
+{"qid": "freshqa_443", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "77", "doc_ids": []}
+{"qid": "freshqa_444", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "A Desolation Called Peace", "doc_ids": []}
+{"qid": "freshqa_445", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Golden State Warriors", "doc_ids": []}
+{"qid": "freshqa_446", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "12 goals", "doc_ids": []}
+{"qid": "freshqa_447", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "14 matches", "doc_ids": []}
+{"qid": "freshqa_448", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Iam Tongi", "doc_ids": []}
+{"qid": "freshqa_449", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Emmanuel Macron", "doc_ids": []}
+{"qid": "freshqa_450", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"Scorpion\"", "doc_ids": []}
+{"qid": "freshqa_451", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Iga \u015awi\u0105tek", "doc_ids": []}
+{"qid": "freshqa_452", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Yes", "doc_ids": []}
+{"qid": "freshqa_453", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"The Eye\"", "doc_ids": []}
+{"qid": "freshqa_454", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$299", "doc_ids": []}
+{"qid": "freshqa_455", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "New York", "doc_ids": []}
+{"qid": "freshqa_456", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "6 months", "doc_ids": []}
+{"qid": "freshqa_457", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Murder House", "doc_ids": []}
+{"qid": "freshqa_458", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "52", "doc_ids": []}
+{"qid": "freshqa_459", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_460", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "78 times", "doc_ids": []}
+{"qid": "freshqa_461", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "84%", "doc_ids": []}
+{"qid": "freshqa_462", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "84%", "doc_ids": []}
+{"qid": "freshqa_463", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_464", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_465", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "17 years ago", "doc_ids": []}
+{"qid": "freshqa_466", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "134 years", "doc_ids": []}
+{"qid": "freshqa_467", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "19 years old", "doc_ids": []}
+{"qid": "freshqa_468", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "24", "doc_ids": []}
+{"qid": "freshqa_469", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November 6", "doc_ids": []}
+{"qid": "freshqa_470", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "James Patterson", "doc_ids": []}
+{"qid": "freshqa_471", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lionel Messi", "doc_ids": []}
+{"qid": "freshqa_472", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November 2021", "doc_ids": []}
+{"qid": "freshqa_473", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "63", "doc_ids": []}
+{"qid": "freshqa_474", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Bullet Train", "doc_ids": []}
+{"qid": "freshqa_475", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "38 years", "doc_ids": []}
+{"qid": "freshqa_476", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2", "doc_ids": []}
+{"qid": "freshqa_477", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Yes", "doc_ids": []}
+{"qid": "freshqa_478", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "118 years", "doc_ids": []}
+{"qid": "freshqa_479", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "India", "doc_ids": []}
+{"qid": "freshqa_480", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "4 years", "doc_ids": []}
+{"qid": "freshqa_481", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "77", "doc_ids": []}
+{"qid": "freshqa_482", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kazakhstan", "doc_ids": []}
+{"qid": "freshqa_483", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2027", "doc_ids": []}
+{"qid": "freshqa_484", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "France", "doc_ids": []}
+{"qid": "freshqa_485", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Denver Nuggets, Vegas Golden Knights, Houston Astros", "doc_ids": []}
+{"qid": "freshqa_486", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "South Korea", "doc_ids": []}
+{"qid": "freshqa_487", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "72", "doc_ids": []}
+{"qid": "freshqa_488", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "80", "doc_ids": []}
+{"qid": "freshqa_489", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Top 12", "doc_ids": []}
+{"qid": "freshqa_490", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "21", "doc_ids": []}
+{"qid": "freshqa_491", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "122", "doc_ids": []}
+{"qid": "freshqa_492", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "28", "doc_ids": []}
+{"qid": "freshqa_493", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Colorado Avalanche", "doc_ids": []}
+{"qid": "freshqa_494", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "France", "doc_ids": []}
+{"qid": "freshqa_495", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ukraine", "doc_ids": []}
+{"qid": "freshqa_496", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Yes", "doc_ids": []}
+{"qid": "freshqa_497", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_498", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Khaby Lame", "doc_ids": []}
+{"qid": "freshqa_499", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_500", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Canada has a prime minister, not a president.", "doc_ids": []}
+{"qid": "freshqa_501", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Russia has not finished disposing of all of its nuclear weapons.", "doc_ids": []}
+{"qid": "freshqa_502", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2013", "doc_ids": []}
+{"qid": "freshqa_503", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Denmark has not adopted the euro.", "doc_ids": []}
+{"qid": "freshqa_504", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "OpenAI has not released GPT-5.5.", "doc_ids": []}
+{"qid": "freshqa_505", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Dreamgirls", "doc_ids": []}
+{"qid": "freshqa_506", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Election Day in the United States has not been made into a federal holiday.", "doc_ids": []}
+{"qid": "freshqa_507", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2026", "doc_ids": []}
+{"qid": "freshqa_508", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "St. Peter's Basilica", "doc_ids": []}
+{"qid": "freshqa_509", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "ArriveCAN", "doc_ids": []}
+{"qid": "freshqa_510", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Maryam Mirzakhani", "doc_ids": []}
+{"qid": "freshqa_511", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "49 years", "doc_ids": []}
+{"qid": "freshqa_512", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2 days", "doc_ids": []}
+{"qid": "freshqa_513", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Tokyo", "doc_ids": []}
+{"qid": "freshqa_514", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "None", "doc_ids": []}
+{"qid": "freshqa_515", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Zuckerberg did not graduate from college.", "doc_ids": []}
+{"qid": "freshqa_516", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_517", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Venus has no moons.", "doc_ids": []}
+{"qid": "freshqa_518", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "No one.", "doc_ids": []}
+{"qid": "freshqa_519", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "43 days", "doc_ids": []}
+{"qid": "freshqa_520", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Legendaddy", "doc_ids": []}
+{"qid": "freshqa_521", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "August", "doc_ids": []}
+{"qid": "freshqa_522", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "January", "doc_ids": []}
+{"qid": "freshqa_523", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "48 days", "doc_ids": []}
+{"qid": "freshqa_524", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "5 days", "doc_ids": []}
+{"qid": "freshqa_525", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Los Angeles Lakers", "doc_ids": []}
+{"qid": "freshqa_526", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Airbus A380", "doc_ids": []}
+{"qid": "freshqa_527", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mariana Trench", "doc_ids": []}
+{"qid": "freshqa_528", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Hindi", "doc_ids": []}
+{"qid": "freshqa_529", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2019", "doc_ids": []}
+{"qid": "freshqa_530", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Brazil", "doc_ids": []}
+{"qid": "freshqa_531", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "freeCodeCamp/freeCodeCamp", "doc_ids": []}
+{"qid": "freshqa_532", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2016", "doc_ids": []}
+{"qid": "freshqa_533", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Juventus", "doc_ids": []}
+{"qid": "freshqa_534", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\u00a51,064", "doc_ids": []}
+{"qid": "freshqa_535", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ken Jennings", "doc_ids": []}
+{"qid": "freshqa_536", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Sachin Tendulkar", "doc_ids": []}
+{"qid": "freshqa_537", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_538", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$15.00", "doc_ids": []}
+{"qid": "freshqa_539", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Dell-EMC ($67 billion)", "doc_ids": []}
+{"qid": "freshqa_540", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "George Canning", "doc_ids": []}
+{"qid": "freshqa_541", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Yugoslav Wars", "doc_ids": []}
+{"qid": "freshqa_542", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Unknown", "doc_ids": []}
+{"qid": "freshqa_543", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "4", "doc_ids": []}
+{"qid": "freshqa_544", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "4.54 billion years", "doc_ids": []}
+{"qid": "freshqa_545", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Victoria Stilwell", "doc_ids": []}
+{"qid": "freshqa_546", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$422 million", "doc_ids": []}
+{"qid": "freshqa_547", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Jill Biden", "doc_ids": []}
+{"qid": "freshqa_548", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Karim Benzema", "doc_ids": []}
+{"qid": "freshqa_549", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "7", "doc_ids": []}
+{"qid": "freshqa_550", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kylie Jenner", "doc_ids": []}
+{"qid": "freshqa_551", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1", "doc_ids": []}
+{"qid": "freshqa_552", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Saved from the Titanic", "doc_ids": []}
+{"qid": "freshqa_553", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "7", "doc_ids": []}
+{"qid": "freshqa_554", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Jarkko Oikarinen", "doc_ids": []}
+{"qid": "freshqa_555", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Frank Rosenblatt", "doc_ids": []}
+{"qid": "freshqa_556", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "San Jos\u00e9", "doc_ids": []}
+{"qid": "freshqa_557", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1933", "doc_ids": []}
+{"qid": "freshqa_558", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "William Boeing", "doc_ids": []}
+{"qid": "freshqa_559", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Vincent van Gogh", "doc_ids": []}
+{"qid": "freshqa_560", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Pip", "doc_ids": []}
+{"qid": "freshqa_561", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Yokota Air Base", "doc_ids": []}
+{"qid": "freshqa_562", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Harvard University", "doc_ids": []}
+{"qid": "freshqa_563", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Red Garland", "doc_ids": []}
+{"qid": "freshqa_564", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Sirius", "doc_ids": []}
+{"qid": "freshqa_565", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Steven Spielberg", "doc_ids": []}
+{"qid": "freshqa_566", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "107", "doc_ids": []}
+{"qid": "freshqa_567", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Magnolia", "doc_ids": []}
+{"qid": "freshqa_568", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Yes", "doc_ids": []}
+{"qid": "freshqa_569", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "New Jersey", "doc_ids": []}
+{"qid": "freshqa_570", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Selena Gomez", "doc_ids": []}
+{"qid": "freshqa_571", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "September 1, 2022", "doc_ids": []}
+{"qid": "freshqa_572", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Paris", "doc_ids": []}
+{"qid": "freshqa_573", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "8 episodes", "doc_ids": []}
+{"qid": "freshqa_574", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Boating accident", "doc_ids": []}
+{"qid": "freshqa_575", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ringo Starr", "doc_ids": []}
+{"qid": "freshqa_576", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Emperor Wuzong", "doc_ids": []}
+{"qid": "freshqa_577", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "240", "doc_ids": []}
+{"qid": "freshqa_578", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "8 billion", "doc_ids": []}
+{"qid": "freshqa_579", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Brazil", "doc_ids": []}
+{"qid": "freshqa_580", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"The Boy, the Mole, the Fox and the Horse\"", "doc_ids": []}
+{"qid": "freshqa_581", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "February 10, 2024", "doc_ids": []}
+{"qid": "freshqa_582", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "September 15", "doc_ids": []}
+{"qid": "freshqa_583", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"Spider-Man: Across the Spider-Verse\"", "doc_ids": []}
+{"qid": "freshqa_584", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "December 29, 2023", "doc_ids": []}
+{"qid": "freshqa_585", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "October", "doc_ids": []}
+{"qid": "freshqa_586", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"Changes\"", "doc_ids": []}
+{"qid": "freshqa_587", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ian", "doc_ids": []}
+{"qid": "freshqa_588", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Peking University", "doc_ids": []}
+{"qid": "freshqa_589", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Dustin Tavella", "doc_ids": []}
+{"qid": "freshqa_590", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ted Lasso", "doc_ids": []}
+{"qid": "freshqa_591", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Szeged", "doc_ids": []}
+{"qid": "freshqa_592", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Guardians of the Galaxy Vol. 3", "doc_ids": []}
+{"qid": "freshqa_593", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "148", "doc_ids": []}
+{"qid": "freshqa_594", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "86\u00b0F", "doc_ids": []}
+{"qid": "freshqa_595", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "10 accounts", "doc_ids": []}
+{"qid": "freshqa_596", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_597", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "A16 Bionic", "doc_ids": []}
+{"qid": "freshqa_598", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1999", "doc_ids": []}
+{"qid": "freshqa_599", "condition": "freshqa", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "34", "doc_ids": []}

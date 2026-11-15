@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "n_jobs": 6351,
+  "n_labelled_now": 6351,
+  "seconds": 310.4,
+  "batch": 16,
+  "torch": "2.4.0a0+3bcc3cddb5.nv24.07",
+  "gpu": "NVIDIA H100 80GB HBM3 MIG 3g.40gb",
+  "label_first_token_ids": {
+    "YES": 14004,
+    "PARTIAL": 33490,
+    "NO": 8996
+  },
+  "gen_check_n": 400
+}

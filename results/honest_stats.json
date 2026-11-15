@@ -1,0 +1,683 @@
+{
+  "clean_contrast": {
+    "qwen": {
+      "model": "Qwen2.5-0.5B",
+      "params_B": 0.5,
+      "by_year": {
+        "2022": 11.72,
+        "2023": 6.82,
+        "2024": 9.75,
+        "2025": 4.82,
+        "2026": 11.11
+      },
+      "f1_2023": 6.82,
+      "f1_2026": 11.11,
+      "clean_cliff_2023_minus_2026": -4.29,
+      "ci95": [
+        -8.85,
+        0.21
+      ],
+      "one_sided_p": 0.9675
+    },
+    "qwen1_5b": {
+      "model": "Qwen2.5-1.5B",
+      "params_B": 1.5,
+      "by_year": {
+        "2022": 12.27,
+        "2023": 15.99,
+        "2024": 17.98,
+        "2025": 13.66,
+        "2026": 18.07
+      },
+      "f1_2023": 15.99,
+      "f1_2026": 18.07,
+      "clean_cliff_2023_minus_2026": -2.08,
+      "ci95": [
+        -8.56,
+        4.82
+      ],
+      "one_sided_p": 0.751
+    },
+    "qwen3b": {
+      "model": "Qwen2.5-3B",
+      "params_B": 3.0,
+      "by_year": {
+        "2022": 13.19,
+        "2023": 14.58,
+        "2024": 12.99,
+        "2025": 14.71,
+        "2026": 16.14
+      },
+      "f1_2023": 14.58,
+      "f1_2026": 16.14,
+      "clean_cliff_2023_minus_2026": -1.56,
+      "ci95": [
+        -8.13,
+        4.79
+      ],
+      "one_sided_p": 0.683
+    },
+    "qwen7b": {
+      "model": "Qwen2.5-7B",
+      "params_B": 7.0,
+      "by_year": {
+        "2022": 25.11,
+        "2023": 21.23,
+        "2024": 20.33,
+        "2025": 15.06,
+        "2026": 23.12
+      },
+      "f1_2023": 21.23,
+      "f1_2026": 23.12,
+      "clean_cliff_2023_minus_2026": -1.9,
+      "ci95": [
+        -9.25,
+        5.82
+      ],
+      "one_sided_p": 0.6855
+    },
+    "qwen32b": {
+      "model": "Qwen2.5-32B",
+      "params_B": 32.0,
+      "by_year": {
+        "2022": 34.42,
+        "2023": 27.31,
+        "2024": 27.86,
+        "2025": 19.93,
+        "2026": 27.13
+      },
+      "f1_2023": 27.31,
+      "f1_2026": 27.13,
+      "clean_cliff_2023_minus_2026": 0.18,
+      "ci95": [
+        -8.26,
+        8.77
+      ],
+      "one_sided_p": 0.4865
+    },
+    "qwen72b": {
+      "model": "Qwen2.5-72B",
+      "params_B": 72.0,
+      "by_year": {
+        "2022": 45.03,
+        "2023": 34.81,
+        "2024": 25.0,
+        "2025": 22.49,
+        "2026": 31.95
+      },
+      "f1_2023": 34.81,
+      "f1_2026": 31.95,
+      "clean_cliff_2023_minus_2026": 2.86,
+      "ci95": [
+        -5.85,
+        12.23
+      ],
+      "one_sided_p": 0.263
+    },
+    "mistral_large": {
+      "model": "Mistral-Large-2",
+      "params_B": 123.0,
+      "by_year": {
+        "2022": 60.29,
+        "2023": 43.81,
+        "2024": 30.48,
+        "2025": 24.56,
+        "2026": 31.85
+      },
+      "f1_2023": 43.81,
+      "f1_2026": 31.85,
+      "clean_cliff_2023_minus_2026": 11.95,
+      "ci95": [
+        3.25,
+        21.16
+      ],
+      "one_sided_p": 0.0045
+    },
+    "haiku": {
+      "model": "Claude Haiku 4.5",
+      "params_B": null,
+      "by_year": {
+        "2022": 39.14,
+        "2023": 31.72,
+        "2024": 25.35,
+        "2025": 8.24,
+        "2026": 17.89
+      },
+      "f1_2023": 31.72,
+      "f1_2026": 17.89,
+      "clean_cliff_2023_minus_2026": 13.83,
+      "ci95": [
+        5.6,
+        21.91
+      ],
+      "one_sided_p": 0.0005
+    },
+    "sonnet": {
+      "model": "Claude Sonnet 4.5",
+      "params_B": null,
+      "by_year": {
+        "2022": 43.9,
+        "2023": 35.3,
+        "2024": 37.68,
+        "2025": 6.42,
+        "2026": 15.44
+      },
+      "f1_2023": 35.3,
+      "f1_2026": 15.44,
+      "clean_cliff_2023_minus_2026": 19.86,
+      "ci95": [
+        11.29,
+        27.9
+      ],
+      "one_sided_p": 0.0
+    }
+  },
+  "year_difficulty": {
+    "index": {
+      "qwen32b_hybrid_loo": {
+        "2022": 20.04,
+        "2023": 16.07,
+        "2024": 16.39,
+        "2025": 13.95,
+        "2026": 23.77
+      },
+      "qwen_closed_book": {
+        "2022": 11.72,
+        "2023": 6.82,
+        "2024": 9.75,
+        "2025": 4.82,
+        "2026": 11.11
+      },
+      "qwen1_5b_closed_book": {
+        "2022": 12.27,
+        "2023": 15.99,
+        "2024": 17.98,
+        "2025": 13.66,
+        "2026": 18.07
+      },
+      "qwen3b_closed_book": {
+        "2022": 13.19,
+        "2023": 14.58,
+        "2024": 12.99,
+        "2025": 14.71,
+        "2026": 16.14
+      }
+    },
+    "note": "These conditions cannot answer from memory of the event (sub-3B models have no such parametric knowledge; hybrid_loo has hit@5=0 by construction). Their year profile is a difficulty signal, and it is U-shaped: 2022 and 2026 easy, 2025 hard."
+  },
+  "multiplicity_cliff": {
+    "bonferroni_alpha": 0.00556,
+    "tests": {
+      "qwen": {
+        "p": 0.489,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.0389,
+        "reject": false
+      },
+      "qwen1_5b": {
+        "p": 0.772,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.0444,
+        "reject": false
+      },
+      "qwen3b": {
+        "p": 0.833,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.05,
+        "reject": false
+      },
+      "qwen7b": {
+        "p": 0.281,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.0333,
+        "reject": false
+      },
+      "qwen32b": {
+        "p": 0.049,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.0278,
+        "reject": false
+      },
+      "qwen72b": {
+        "p": 0.015,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.0222,
+        "reject": true
+      },
+      "mistral_large": {
+        "p": 0.0,
+        "bonferroni_reject": true,
+        "bh_threshold": 0.0056,
+        "reject": true
+      },
+      "haiku": {
+        "p": 0.0,
+        "bonferroni_reject": true,
+        "bh_threshold": 0.0111,
+        "reject": true
+      },
+      "sonnet": {
+        "p": 0.0,
+        "bonferroni_reject": true,
+        "bh_threshold": 0.0167,
+        "reject": true
+      }
+    }
+  },
+  "multiplicity_did": {
+    "bonferroni_alpha": 0.00714,
+    "n_tests": 7,
+    "tests": {
+      "bm25": {
+        "p": 0.0965,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.0429,
+        "reject": false
+      },
+      "dpr": {
+        "p": 0.1015,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.05,
+        "reject": false
+      },
+      "splade": {
+        "p": 0.068,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.0214,
+        "reject": false
+      },
+      "colbert": {
+        "p": 0.0895,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.0286,
+        "reject": false
+      },
+      "bge": {
+        "p": 0.015,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.0071,
+        "reject": false
+      },
+      "hybrid": {
+        "p": 0.064,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.0143,
+        "reject": false
+      },
+      "oracle": {
+        "p": 0.093,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.0357,
+        "reject": false
+      }
+    },
+    "n_bh_discoveries": 0
+  },
+  "capability_trend": {
+    "n_models": 7,
+    "slope_f1_per_decade_params": 5.93,
+    "r2": 0.707,
+    "permutation_p": 0.0078,
+    "note": "Open-weight ladder only (params known). Tests the gradient the paper claims but never tested."
+  },
+  "relative_cliff_pct": {
+    "qwen": 1.1,
+    "qwen1_5b": -11.2,
+    "qwen3b": -16.2,
+    "qwen7b": 6.7,
+    "qwen32b": 16.3,
+    "qwen72b": 17.4,
+    "mistral_large": 34.9,
+    "haiku": 53.2,
+    "sonnet": 66.8
+  },
+  "boundary_dependence_primary": {
+    "by_boundary": {
+      "2023": {
+        "closed_book_gap": 8.4,
+        "hybrid_gap": 8.93,
+        "did": -0.53,
+        "n_static": 150,
+        "n_fresh": 728
+      },
+      "2024": {
+        "closed_book_gap": 5.37,
+        "hybrid_gap": 5.51,
+        "did": -0.14,
+        "n_static": 281,
+        "n_fresh": 597
+      },
+      "2025": {
+        "closed_book_gap": 4.93,
+        "hybrid_gap": -0.27,
+        "did": 5.2,
+        "n_static": 404,
+        "n_fresh": 474
+      },
+      "2026": {
+        "closed_book_gap": 0.53,
+        "hybrid_gap": -5.26,
+        "did": 5.79,
+        "n_static": 532,
+        "n_fresh": 346
+      }
+    },
+    "note": "The slice x condition interaction on the primary exists only at the 2025 boundary; it is ~0 at 2023 and 2024."
+  },
+  "interaction_by_model": {
+    "mistral_large": {
+      "boundary_2025": {
+        "cb_gap": 15.99,
+        "hybrid_gap": 2.21,
+        "did_f1": 13.78,
+        "ci95": [
+          7.09,
+          20.27
+        ],
+        "one_sided_p": 0.0,
+        "n_static": 404,
+        "n_fresh": 474
+      },
+      "clean_2023_vs_2026": {
+        "cb_gap": 11.95,
+        "hybrid_gap": -2.15,
+        "did_f1": 14.1,
+        "ci95": [
+          4.06,
+          23.85
+        ],
+        "one_sided_p": 0.001,
+        "n_static": 131,
+        "n_fresh": 346
+      }
+    },
+    "qwen72b": {
+      "boundary_2025": {
+        "cb_gap": 6.22,
+        "hybrid_gap": 1.19,
+        "did_f1": 5.03,
+        "ci95": [
+          -1.97,
+          11.52
+        ],
+        "one_sided_p": 0.0835,
+        "n_static": 404,
+        "n_fresh": 474
+      },
+      "clean_2023_vs_2026": {
+        "cb_gap": 2.86,
+        "hybrid_gap": -2.92,
+        "did_f1": 5.77,
+        "ci95": [
+          -4.61,
+          15.57
+        ],
+        "one_sided_p": 0.1405,
+        "n_static": 131,
+        "n_fresh": 346
+      }
+    },
+    "haiku": {
+      "boundary_2025": {
+        "cb_gap": 17.25,
+        "hybrid_gap": 2.81,
+        "did_f1": 14.44,
+        "ci95": [
+          7.94,
+          21.37
+        ],
+        "one_sided_p": 0.0,
+        "n_static": 404,
+        "n_fresh": 474
+      },
+      "clean_2023_vs_2026": {
+        "cb_gap": 13.83,
+        "hybrid_gap": -0.9,
+        "did_f1": 14.73,
+        "ci95": [
+          4.64,
+          24.88
+        ],
+        "one_sided_p": 0.0035,
+        "n_static": 131,
+        "n_fresh": 346
+      }
+    },
+    "sonnet": {
+      "boundary_2025": {
+        "cb_gap": 26.22,
+        "hybrid_gap": 3.81,
+        "did_f1": 22.4,
+        "ci95": [
+          15.97,
+          28.8
+        ],
+        "one_sided_p": 0.0,
+        "n_static": 404,
+        "n_fresh": 474
+      },
+      "clean_2023_vs_2026": {
+        "cb_gap": 19.86,
+        "hybrid_gap": -1.18,
+        "did_f1": 21.04,
+        "ci95": [
+          11.73,
+          30.83
+        ],
+        "one_sided_p": 0.0,
+        "n_static": 131,
+        "n_fresh": 346
+      }
+    },
+    "qwen32b": {
+      "boundary_2025": {
+        "cb_gap": 4.93,
+        "hybrid_gap": -0.27,
+        "did_f1": 5.2,
+        "ci95": [
+          -1.47,
+          12.45
+        ],
+        "one_sided_p": 0.058,
+        "n_static": 404,
+        "n_fresh": 474
+      },
+      "clean_2023_vs_2026": {
+        "cb_gap": 0.18,
+        "hybrid_gap": -3.63,
+        "did_f1": 3.81,
+        "ci95": [
+          -5.87,
+          13.14
+        ],
+        "one_sided_p": 0.218,
+        "n_static": 131,
+        "n_fresh": 346
+      }
+    }
+  },
+  "cutoff_controls_extra": {
+    "mistral_large": {
+      "permutation_null": {
+        "observed_max_drop": 16.48,
+        "p": 0.005
+      },
+      "crossfit": {
+        "cutoff_estimated_on_odd_weeks": 2024,
+        "gap_measured_on_even_weeks": {
+          "diff": 24.61,
+          "ci95": [
+            15.43,
+            33.79
+          ],
+          "one_sided_p": 0.0,
+          "n_a": 136,
+          "n_b": 268
+        }
+      }
+    },
+    "qwen72b": {
+      "permutation_null": {
+        "observed_max_drop": 10.22,
+        "p": 0.093
+      },
+      "crossfit": {
+        "cutoff_estimated_on_odd_weeks": 2025,
+        "gap_measured_on_even_weeks": {
+          "diff": 6.69,
+          "ci95": [
+            -1.9,
+            15.16
+          ],
+          "one_sided_p": 0.063,
+          "n_a": 192,
+          "n_b": 212
+        }
+      }
+    }
+  },
+  "controls_vs_closedbook": {
+    "hybrid_loo": {
+      "static": {
+        "cond_f1": 17.64,
+        "closed_book_f1": 30.12,
+        "diff": -12.47,
+        "ci95": [
+          -16.83,
+          -8.33
+        ],
+        "two_sided_p": 0.0,
+        "n": 404
+      },
+      "fresh": {
+        "cond_f1": 21.12,
+        "closed_book_f1": 25.19,
+        "diff": -4.07,
+        "ci95": [
+          -7.94,
+          -0.29
+        ],
+        "two_sided_p": 0.034,
+        "n": 474
+      }
+    },
+    "hybrid_stale": {
+      "static": {
+        "cond_f1": 38.87,
+        "closed_book_f1": 30.12,
+        "diff": 8.76,
+        "ci95": [
+          4.1,
+          13.7
+        ],
+        "two_sided_p": 0.0,
+        "n": 404
+      },
+      "fresh": {
+        "cond_f1": 17.44,
+        "closed_book_f1": 25.19,
+        "diff": -7.75,
+        "ci95": [
+          -11.42,
+          -4.07
+        ],
+        "two_sided_p": 0.0,
+        "n": 474
+      }
+    }
+  },
+  "multiplicity_clean": {
+    "bonferroni_alpha": 0.00556,
+    "tests": {
+      "qwen": {
+        "p": 0.9675,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.05,
+        "reject": false
+      },
+      "qwen1_5b": {
+        "p": 0.751,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.0444,
+        "reject": false
+      },
+      "qwen3b": {
+        "p": 0.683,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.0333,
+        "reject": false
+      },
+      "qwen7b": {
+        "p": 0.6855,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.0389,
+        "reject": false
+      },
+      "qwen32b": {
+        "p": 0.4865,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.0278,
+        "reject": false
+      },
+      "qwen72b": {
+        "p": 0.263,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.0222,
+        "reject": false
+      },
+      "mistral_large": {
+        "p": 0.0045,
+        "bonferroni_reject": true,
+        "bh_threshold": 0.0167,
+        "reject": true
+      },
+      "haiku": {
+        "p": 0.0005,
+        "bonferroni_reject": true,
+        "bh_threshold": 0.0111,
+        "reject": true
+      },
+      "sonnet": {
+        "p": 0.0,
+        "bonferroni_reject": true,
+        "bh_threshold": 0.0056,
+        "reject": true
+      }
+    }
+  },
+  "multiplicity_interaction": {
+    "bonferroni_alpha": 0.01,
+    "tests": {
+      "mistral_large": {
+        "p": 0.0,
+        "bonferroni_reject": true,
+        "bh_threshold": 0.01,
+        "reject": true
+      },
+      "qwen72b": {
+        "p": 0.0835,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.05,
+        "reject": false
+      },
+      "haiku": {
+        "p": 0.0,
+        "bonferroni_reject": true,
+        "bh_threshold": 0.02,
+        "reject": true
+      },
+      "sonnet": {
+        "p": 0.0,
+        "bonferroni_reject": true,
+        "bh_threshold": 0.03,
+        "reject": true
+      },
+      "qwen32b": {
+        "p": 0.058,
+        "bonferroni_reject": false,
+        "bh_threshold": 0.04,
+        "reject": false
+      }
+    }
+  }
+}

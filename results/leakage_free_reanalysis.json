@@ -1,0 +1,533 @@
+{
+  "scope": "Retrieval gain by regime, estimated on all cached model-questions and on the subset whose retrieved contexts were all temporally admissible.",
+  "condition": "hybrid",
+  "lag_days": 3,
+  "estimand": "mean token-F1(RAG) - token-F1(closed book), per question, paired within model",
+  "models": {
+    "gpt4omini": {
+      "model": "gpt-4o-mini",
+      "n_questions": 878,
+      "all": {
+        "static": {
+          "n": 404,
+          "mean_gain_f1": -0.033,
+          "ci95": [
+            -0.078,
+            0.014
+          ],
+          "p_paired": 0.1744
+        },
+        "fresh": {
+          "n": 474,
+          "mean_gain_f1": 0.091,
+          "ci95": [
+            0.042,
+            0.137
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh_minus_static": 0.124
+      },
+      "leakage_free": {
+        "static": {
+          "n": 179,
+          "mean_gain_f1": 0.024,
+          "ci95": [
+            -0.048,
+            0.092
+          ],
+          "p_paired": 0.5022
+        },
+        "fresh": {
+          "n": 398,
+          "mean_gain_f1": 0.106,
+          "ci95": [
+            0.055,
+            0.157
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh_minus_static": 0.082
+      },
+      "retention": {
+        "static": {
+          "kept": 179,
+          "of": 404
+        },
+        "fresh": {
+          "kept": 398,
+          "of": 474
+        }
+      }
+    },
+    "llama3_8b": {
+      "model": "NousResearch/Meta-Llama-3-8B-Instruct",
+      "n_questions": 878,
+      "all": {
+        "static": {
+          "n": 404,
+          "mean_gain_f1": 0.07,
+          "ci95": [
+            0.021,
+            0.119
+          ],
+          "p_paired": 0.0055
+        },
+        "fresh": {
+          "n": 474,
+          "mean_gain_f1": 0.143,
+          "ci95": [
+            0.096,
+            0.188
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh_minus_static": 0.073
+      },
+      "leakage_free": {
+        "static": {
+          "n": 179,
+          "mean_gain_f1": 0.082,
+          "ci95": [
+            0.005,
+            0.155
+          ],
+          "p_paired": 0.031
+        },
+        "fresh": {
+          "n": 398,
+          "mean_gain_f1": 0.152,
+          "ci95": [
+            0.101,
+            0.201
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh_minus_static": 0.07
+      },
+      "retention": {
+        "static": {
+          "kept": 179,
+          "of": 404
+        },
+        "fresh": {
+          "kept": 398,
+          "of": 474
+        }
+      }
+    },
+    "mistral_large": {
+      "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF",
+      "n_questions": 878,
+      "all": {
+        "static": {
+          "n": 404,
+          "mean_gain_f1": -0.039,
+          "ci95": [
+            -0.085,
+            0.006
+          ],
+          "p_paired": 0.094
+        },
+        "fresh": {
+          "n": 474,
+          "mean_gain_f1": 0.099,
+          "ci95": [
+            0.051,
+            0.146
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh_minus_static": 0.138
+      },
+      "leakage_free": {
+        "static": {
+          "n": 179,
+          "mean_gain_f1": 0.04,
+          "ci95": [
+            -0.024,
+            0.106
+          ],
+          "p_paired": 0.2499
+        },
+        "fresh": {
+          "n": 398,
+          "mean_gain_f1": 0.112,
+          "ci95": [
+            0.059,
+            0.163
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh_minus_static": 0.072
+      },
+      "retention": {
+        "static": {
+          "kept": 179,
+          "of": 404
+        },
+        "fresh": {
+          "kept": 398,
+          "of": 474
+        }
+      }
+    },
+    "qwen1_5b": {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "n_questions": 878,
+      "all": {
+        "static": {
+          "n": 404,
+          "mean_gain_f1": 0.196,
+          "ci95": [
+            0.149,
+            0.244
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh": {
+          "n": 474,
+          "mean_gain_f1": 0.166,
+          "ci95": [
+            0.123,
+            0.21
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh_minus_static": -0.03
+      },
+      "leakage_free": {
+        "static": {
+          "n": 179,
+          "mean_gain_f1": 0.213,
+          "ci95": [
+            0.142,
+            0.286
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh": {
+          "n": 398,
+          "mean_gain_f1": 0.173,
+          "ci95": [
+            0.124,
+            0.224
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh_minus_static": -0.04
+      },
+      "retention": {
+        "static": {
+          "kept": 179,
+          "of": 404
+        },
+        "fresh": {
+          "kept": 398,
+          "of": 474
+        }
+      }
+    },
+    "qwen32b": {
+      "model": "Qwen/Qwen2.5-32B-Instruct-GGUF",
+      "n_questions": 878,
+      "all": {
+        "static": {
+          "n": 404,
+          "mean_gain_f1": 0.087,
+          "ci95": [
+            0.037,
+            0.138
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh": {
+          "n": 474,
+          "mean_gain_f1": 0.139,
+          "ci95": [
+            0.09,
+            0.187
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh_minus_static": 0.052
+      },
+      "leakage_free": {
+        "static": {
+          "n": 179,
+          "mean_gain_f1": 0.153,
+          "ci95": [
+            0.082,
+            0.23
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh": {
+          "n": 398,
+          "mean_gain_f1": 0.152,
+          "ci95": [
+            0.098,
+            0.202
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh_minus_static": -0.001
+      },
+      "retention": {
+        "static": {
+          "kept": 179,
+          "of": 404
+        },
+        "fresh": {
+          "kept": 398,
+          "of": 474
+        }
+      }
+    },
+    "qwen3b": {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "n_questions": 878,
+      "all": {
+        "static": {
+          "n": 404,
+          "mean_gain_f1": 0.223,
+          "ci95": [
+            0.175,
+            0.271
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh": {
+          "n": 474,
+          "mean_gain_f1": 0.194,
+          "ci95": [
+            0.148,
+            0.24
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh_minus_static": -0.029
+      },
+      "leakage_free": {
+        "static": {
+          "n": 179,
+          "mean_gain_f1": 0.21,
+          "ci95": [
+            0.139,
+            0.28
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh": {
+          "n": 398,
+          "mean_gain_f1": 0.203,
+          "ci95": [
+            0.149,
+            0.253
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh_minus_static": -0.007
+      },
+      "retention": {
+        "static": {
+          "kept": 179,
+          "of": 404
+        },
+        "fresh": {
+          "kept": 398,
+          "of": 474
+        }
+      }
+    },
+    "qwen72b": {
+      "model": "Qwen/Qwen2.5-72B-Instruct-GGUF",
+      "n_questions": 878,
+      "all": {
+        "static": {
+          "n": 404,
+          "mean_gain_f1": 0.045,
+          "ci95": [
+            -0.003,
+            0.095
+          ],
+          "p_paired": 0.0695
+        },
+        "fresh": {
+          "n": 474,
+          "mean_gain_f1": 0.096,
+          "ci95": [
+            0.048,
+            0.143
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh_minus_static": 0.051
+      },
+      "leakage_free": {
+        "static": {
+          "n": 179,
+          "mean_gain_f1": 0.076,
+          "ci95": [
+            0.007,
+            0.146
+          ],
+          "p_paired": 0.0315
+        },
+        "fresh": {
+          "n": 398,
+          "mean_gain_f1": 0.095,
+          "ci95": [
+            0.042,
+            0.15
+          ],
+          "p_paired": 0.001
+        },
+        "fresh_minus_static": 0.019
+      },
+      "retention": {
+        "static": {
+          "kept": 179,
+          "of": 404
+        },
+        "fresh": {
+          "kept": 398,
+          "of": 474
+        }
+      }
+    },
+    "qwen7b": {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "n_questions": 878,
+      "all": {
+        "static": {
+          "n": 404,
+          "mean_gain_f1": 0.143,
+          "ci95": [
+            0.098,
+            0.19
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh": {
+          "n": 474,
+          "mean_gain_f1": 0.15,
+          "ci95": [
+            0.105,
+            0.195
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh_minus_static": 0.007
+      },
+      "leakage_free": {
+        "static": {
+          "n": 179,
+          "mean_gain_f1": 0.141,
+          "ci95": [
+            0.076,
+            0.208
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh": {
+          "n": 398,
+          "mean_gain_f1": 0.153,
+          "ci95": [
+            0.101,
+            0.202
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh_minus_static": 0.012
+      },
+      "retention": {
+        "static": {
+          "kept": 179,
+          "of": 404
+        },
+        "fresh": {
+          "kept": 398,
+          "of": 474
+        }
+      }
+    },
+    "sonnet": {
+      "model": "claude-sonnet-4-5-20250929",
+      "n_questions": 878,
+      "all": {
+        "static": {
+          "n": 404,
+          "mean_gain_f1": -0.05,
+          "ci95": [
+            -0.096,
+            -0.002
+          ],
+          "p_paired": 0.0405
+        },
+        "fresh": {
+          "n": 474,
+          "mean_gain_f1": 0.174,
+          "ci95": [
+            0.131,
+            0.219
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh_minus_static": 0.224
+      },
+      "leakage_free": {
+        "static": {
+          "n": 179,
+          "mean_gain_f1": 0.012,
+          "ci95": [
+            -0.057,
+            0.081
+          ],
+          "p_paired": 0.7246
+        },
+        "fresh": {
+          "n": 398,
+          "mean_gain_f1": 0.177,
+          "ci95": [
+            0.126,
+            0.226
+          ],
+          "p_paired": 0.0005
+        },
+        "fresh_minus_static": 0.165
+      },
+      "retention": {
+        "static": {
+          "kept": 179,
+          "of": 404
+        },
+        "fresh": {
+          "kept": 398,
+          "of": 474
+        }
+      }
+    }
+  },
+  "static_harm_disappears_when_leakage_removed": [
+    "gpt4omini",
+    "mistral_large",
+    "sonnet"
+  ],
+  "direction_of_fresh_minus_static": {
+    "same_sign_after_restriction": [
+      "gpt4omini",
+      "llama3_8b",
+      "mistral_large",
+      "qwen1_5b",
+      "qwen3b",
+      "qwen72b",
+      "qwen7b",
+      "sonnet"
+    ],
+    "sign_flipped_after_restriction": [
+      "qwen32b"
+    ],
+    "n_models": 9
+  }
+}

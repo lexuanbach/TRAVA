@@ -1,0 +1,878 @@
+{"qid": "20260515_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$2 trillion", "doc_ids": []}
+{"qid": "20260529_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Google", "doc_ids": []}
+{"qid": "20240105_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Washington", "doc_ids": []}
+{"qid": "20260522_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Meta", "doc_ids": []}
+{"qid": "20260410_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "France", "doc_ids": []}
+{"qid": "20260313_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Jimmy Kimmel", "doc_ids": []}
+{"qid": "20221216_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Cabbage", "doc_ids": []}
+{"qid": "20240712_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Tijuana, Mexico", "doc_ids": []}
+{"qid": "20260116_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Verizon", "doc_ids": []}
+{"qid": "20240202_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Alejandro Mayorkas", "doc_ids": []}
+{"qid": "20260327_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Alamo", "doc_ids": []}
+{"qid": "20230526_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "False", "doc_ids": []}
+{"qid": "20260410_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kansas Jayhawks, North Carolina Tar Heels", "doc_ids": []}
+{"qid": "20221230_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Dobbs v. Jackson Women's Health Organization", "doc_ids": []}
+{"qid": "20260403_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "40 years", "doc_ids": []}
+{"qid": "20250711_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Low vaccination rates", "doc_ids": []}
+{"qid": "20230811_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Bartending", "doc_ids": []}
+{"qid": "20220624_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$19 million", "doc_ids": []}
+{"qid": "20260612_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kim Clijsters", "doc_ids": []}
+{"qid": "20230623_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Emmanuel Macron", "doc_ids": []}
+{"qid": "20260529_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Miami", "doc_ids": []}
+{"qid": "20260313_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Best Cheer Moment", "doc_ids": []}
+{"qid": "20260327_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Artemis III", "doc_ids": []}
+{"qid": "20260227_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The next Winter Games in 2030 will be hosted by the United States.", "doc_ids": []}
+{"qid": "20260424_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lyrids", "doc_ids": []}
+{"qid": "20260417_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "American Airlines and JetBlue", "doc_ids": []}
+{"qid": "20230317_26", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Sargassum", "doc_ids": []}
+{"qid": "20260227_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Artemis I", "doc_ids": []}
+{"qid": "20230127_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Stopped spinning", "doc_ids": []}
+{"qid": "20260605_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Pride Month", "doc_ids": []}
+{"qid": "20260515_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Toyota", "doc_ids": []}
+{"qid": "20260116_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Milan-Cortina", "doc_ids": []}
+{"qid": "20260313_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Katharine Hepburn", "doc_ids": []}
+{"qid": "20230113_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "TCU", "doc_ids": []}
+{"qid": "20220812_22", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Serena Williams", "doc_ids": []}
+{"qid": "20260508_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Tenerife", "doc_ids": []}
+{"qid": "20250718_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "John Legend", "doc_ids": []}
+{"qid": "20241227_24", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kansas City Chiefs", "doc_ids": []}
+{"qid": "20250124_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Colombia", "doc_ids": []}
+{"qid": "20260424_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2009", "doc_ids": []}
+{"qid": "20260206_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "5", "doc_ids": []}
+{"qid": "20260123_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Winter storm", "doc_ids": []}
+{"qid": "20240223_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kanye West", "doc_ids": []}
+{"qid": "20250919_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Emmys", "doc_ids": []}
+{"qid": "20260417_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$15", "doc_ids": []}
+{"qid": "20260501_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Emmanuel Macron", "doc_ids": []}
+{"qid": "20250214_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Pekingese", "doc_ids": []}
+{"qid": "20260508_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Google", "doc_ids": []}
+{"qid": "20230721_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "103 million", "doc_ids": []}
+{"qid": "20260227_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "83", "doc_ids": []}
+{"qid": "20250613_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Princess Diana", "doc_ids": []}
+{"qid": "20221118_23", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ivanka Trump", "doc_ids": []}
+{"qid": "20260220_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Florida", "doc_ids": []}
+{"qid": "20260619_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Hiroshima", "doc_ids": []}
+{"qid": "20260529_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Henry Kissinger", "doc_ids": []}
+{"qid": "20220722_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Migratory Monarch Butterfly", "doc_ids": []}
+{"qid": "20240906_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "China", "doc_ids": []}
+{"qid": "20240510_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "South Africa", "doc_ids": []}
+{"qid": "20220909_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Pennsylvania", "doc_ids": []}
+{"qid": "20250314_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Turkey", "doc_ids": []}
+{"qid": "20220826_23", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "September 5", "doc_ids": []}
+{"qid": "20231110_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ground beef", "doc_ids": []}
+{"qid": "20260703_30", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Alan Shepard", "doc_ids": []}
+{"qid": "20230203_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Nikki Haley", "doc_ids": []}
+{"qid": "20250926_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Texas", "doc_ids": []}
+{"qid": "20250704_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "3", "doc_ids": []}
+{"qid": "20260508_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1980", "doc_ids": []}
+{"qid": "20231027_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2023", "doc_ids": []}
+{"qid": "20260605_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Elon Musk", "doc_ids": []}
+{"qid": "20260130_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Tesla", "doc_ids": []}
+{"qid": "20240712_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ensemble", "doc_ids": []}
+{"qid": "20260424_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Satya Nadella", "doc_ids": []}
+{"qid": "20220708_25", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The Hay Wain", "doc_ids": []}
+{"qid": "20250307_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Smack", "doc_ids": []}
+{"qid": "20260612_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mistral AI", "doc_ids": []}
+{"qid": "20260403_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "4 astronauts", "doc_ids": []}
+{"qid": "20250711_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lead singer's on-stage proposal.", "doc_ids": []}
+{"qid": "20250620_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Artificial Intelligence", "doc_ids": []}
+{"qid": "20250328_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "WhatsApp", "doc_ids": []}
+{"qid": "20260508_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ted Koppel", "doc_ids": []}
+{"qid": "20260515_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Polycystic ovary syndrome (PCOS)", "doc_ids": []}
+{"qid": "20260703_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$200 million", "doc_ids": []}
+{"qid": "20220729_26", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Sakurajima", "doc_ids": []}
+{"qid": "20231201_28", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Gentrification", "doc_ids": []}
+{"qid": "20230127_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Germany", "doc_ids": []}
+{"qid": "20260213_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Foot Locker", "doc_ids": []}
+{"qid": "20260403_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "California", "doc_ids": []}
+{"qid": "20260522_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Leicester City", "doc_ids": []}
+{"qid": "20260410_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Masters", "doc_ids": []}
+{"qid": "20220923_27", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "45.7%", "doc_ids": []}
+{"qid": "20260626_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "52%", "doc_ids": []}
+{"qid": "20230818_22", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Increased police patrols", "doc_ids": []}
+{"qid": "20260320_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Jeff Zients", "doc_ids": []}
+{"qid": "20251010_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "To quell protests.", "doc_ids": []}
+{"qid": "20260703_29", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1945", "doc_ids": []}
+{"qid": "20260508_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Anitta", "doc_ids": []}
+{"qid": "20240105_26", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "American", "doc_ids": []}
+{"qid": "20260130_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "April 15", "doc_ids": []}
+{"qid": "20251114_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Tornadoes", "doc_ids": []}
+{"qid": "20230224_20", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"Rocky\"", "doc_ids": []}
+{"qid": "20250214_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Orange", "doc_ids": []}
+{"qid": "20240816_21", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Team A", "doc_ids": []}
+{"qid": "20240524_20", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November 15 to March 15", "doc_ids": []}
+{"qid": "20231201_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Bridge", "doc_ids": []}
+{"qid": "20250411_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Washington Capitals", "doc_ids": []}
+{"qid": "20250725_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ronald Reagan", "doc_ids": []}
+{"qid": "20230526_27", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mental health", "doc_ids": []}
+{"qid": "20240524_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Justice Gorsuch", "doc_ids": []}
+{"qid": "20250919_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "ABC", "doc_ids": []}
+{"qid": "20250425_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Athlete", "doc_ids": []}
+{"qid": "20220916_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Succession", "doc_ids": []}
+{"qid": "20260327_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Data privacy", "doc_ids": []}
+{"qid": "20260206_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "France", "doc_ids": []}
+{"qid": "20230505_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Math", "doc_ids": []}
+{"qid": "20220701_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Jennifer Lopez", "doc_ids": []}
+{"qid": "20250207_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "France", "doc_ids": []}
+{"qid": "20260501_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Sam Altman", "doc_ids": []}
+{"qid": "20220715_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Euro", "doc_ids": []}
+{"qid": "20260220_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "United Airlines", "doc_ids": []}
+{"qid": "20260501_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Samantha Bee", "doc_ids": []}
+{"qid": "20250718_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Los Angeles", "doc_ids": []}
+{"qid": "20260508_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Bulgaria", "doc_ids": []}
+{"qid": "20230303_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Everything Everywhere All at Once", "doc_ids": []}
+{"qid": "20260306_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Blood Moon", "doc_ids": []}
+{"qid": "20230922_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Sergio P\u00e9rez", "doc_ids": []}
+{"qid": "20221111_28", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "10 constituencies", "doc_ids": []}
+{"qid": "20221111_25", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Australia", "doc_ids": []}
+{"qid": "20221021_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "JetBlue", "doc_ids": []}
+{"qid": "20230811_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Hawaii", "doc_ids": []}
+{"qid": "20220805_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Cleveland Browns", "doc_ids": []}
+{"qid": "20260501_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ecuador", "doc_ids": []}
+{"qid": "20260522_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Shakira", "doc_ids": []}
+{"qid": "20250606_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Reddit", "doc_ids": []}
+{"qid": "20221216_28", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Croatia vs. Morocco", "doc_ids": []}
+{"qid": "20260220_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Dragon", "doc_ids": []}
+{"qid": "20260306_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Beto O'Rourke", "doc_ids": []}
+{"qid": "20260612_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Apple", "doc_ids": []}
+{"qid": "20241227_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Delabear was struck and killed.", "doc_ids": []}
+{"qid": "20260529_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Myanmar", "doc_ids": []}
+{"qid": "20250704_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "University of Texas", "doc_ids": []}
+{"qid": "20240531_26", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The future plan for the former Brandywine Country Club is to be redeveloped into a residential community.", "doc_ids": []}
+{"qid": "20260410_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "California", "doc_ids": []}
+{"qid": "20260227_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Royal Albert Hall", "doc_ids": []}
+{"qid": "20260403_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lahore", "doc_ids": []}
+{"qid": "20260703_33", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Joe Biden", "doc_ids": []}
+{"qid": "20221230_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Tom Brady", "doc_ids": []}
+{"qid": "20220729_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "August 31, 2022", "doc_ids": []}
+{"qid": "20260508_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Karl Lagerfeld: A Line of Beauty", "doc_ids": []}
+{"qid": "20240906_24", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Bag checks", "doc_ids": []}
+{"qid": "20260515_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Homestead", "doc_ids": []}
+{"qid": "20220923_21", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Winston Churchill", "doc_ids": []}
+{"qid": "20240809_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Google", "doc_ids": []}
+{"qid": "20260116_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Minnesota", "doc_ids": []}
+{"qid": "20230616_21", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Cambodia", "doc_ids": []}
+{"qid": "20230113_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Giants", "doc_ids": []}
+{"qid": "20240726_25", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lack of volunteers", "doc_ids": []}
+{"qid": "20260612_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Japan", "doc_ids": []}
+{"qid": "20250502_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Walmart", "doc_ids": []}
+{"qid": "20260529_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ivanka Trump", "doc_ids": []}
+{"qid": "20221223_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Argentina", "doc_ids": []}
+{"qid": "20260213_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Picasso", "doc_ids": []}
+{"qid": "20221209_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Respect for Marriage Act", "doc_ids": []}
+{"qid": "20260703_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ford", "doc_ids": []}
+{"qid": "20260508_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Metropolitan Museum of Art", "doc_ids": []}
+{"qid": "20240315_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Julian Knight", "doc_ids": []}
+{"qid": "20251205_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "California and Texas", "doc_ids": []}
+{"qid": "20260220_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Aurora", "doc_ids": []}
+{"qid": "20220826_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Miami", "doc_ids": []}
+{"qid": "20231103_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Texas Rangers", "doc_ids": []}
+{"qid": "20250131_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kansas City Chiefs, Philadelphia Eagles", "doc_ids": []}
+{"qid": "20221007_20", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"Who voted for this?\"", "doc_ids": []}
+{"qid": "20260612_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Trichinella", "doc_ids": []}
+{"qid": "20260130_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kansas City Chiefs vs. Philadelphia Eagles", "doc_ids": []}
+{"qid": "20260123_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Davos", "doc_ids": []}
+{"qid": "20250704_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Octopus", "doc_ids": []}
+{"qid": "20230303_26", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Manchester United", "doc_ids": []}
+{"qid": "20240301_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ford", "doc_ids": []}
+{"qid": "20220826_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"The Day After Tomorrow\"", "doc_ids": []}
+{"qid": "20260501_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "North Carolina", "doc_ids": []}
+{"qid": "20250509_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Spying allegations.", "doc_ids": []}
+{"qid": "20260619_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$3.00", "doc_ids": []}
+{"qid": "20250228_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "IHOP", "doc_ids": []}
+{"qid": "20221118_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2007", "doc_ids": []}
+{"qid": "20221104_22", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$8", "doc_ids": []}
+{"qid": "20230526_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "20 billion", "doc_ids": []}
+{"qid": "20230203_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Laverne & Shirley", "doc_ids": []}
+{"qid": "20260619_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Tubi", "doc_ids": []}
+{"qid": "20230224_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Law & Order", "doc_ids": []}
+{"qid": "20231006_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1 tower has been completed.", "doc_ids": []}
+{"qid": "20230922_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "New York", "doc_ids": []}
+{"qid": "20240405_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Refueling planes", "doc_ids": []}
+{"qid": "20260703_23", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "20 years", "doc_ids": []}
+{"qid": "20260522_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Rhode Island", "doc_ids": []}
+{"qid": "20260522_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Jaws", "doc_ids": []}
+{"qid": "20240301_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Russia", "doc_ids": []}
+{"qid": "20241108_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Howard University", "doc_ids": []}
+{"qid": "20260605_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kim Jong-un", "doc_ids": []}
+{"qid": "20251017_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Space Launch System", "doc_ids": []}
+{"qid": "20250117_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lemon8", "doc_ids": []}
+{"qid": "20230303_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "International Space Station", "doc_ids": []}
+{"qid": "20260703_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "John Adams", "doc_ids": []}
+{"qid": "20240112_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Dog meat", "doc_ids": []}
+{"qid": "20240322_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "International Day of Happiness", "doc_ids": []}
+{"qid": "20230901_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ron DeSantis", "doc_ids": []}
+{"qid": "20230428_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Bed Bath & Beyond", "doc_ids": []}
+{"qid": "20260522_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Italy", "doc_ids": []}
+{"qid": "20260626_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Starfield", "doc_ids": []}
+{"qid": "20250228_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Apple", "doc_ids": []}
+{"qid": "20221111_27", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Apple", "doc_ids": []}
+{"qid": "20241025_24", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$7.25", "doc_ids": []}
+{"qid": "20221104_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Sunscreen", "doc_ids": []}
+{"qid": "20260227_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1 hour and 20 minutes", "doc_ids": []}
+{"qid": "20220916_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "California", "doc_ids": []}
+{"qid": "20250404_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Batman", "doc_ids": []}
+{"qid": "20220819_23", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Harriet Hageman", "doc_ids": []}
+{"qid": "20240517_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Utah", "doc_ids": []}
+{"qid": "20260313_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"Demon Slayer\"", "doc_ids": []}
+{"qid": "20221209_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Volodymyr Zelensky", "doc_ids": []}
+{"qid": "20260501_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "King Charles III", "doc_ids": []}
+{"qid": "20260703_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "John Adams and Thomas Jefferson", "doc_ids": []}
+{"qid": "20260515_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "PGA Championship", "doc_ids": []}
+{"qid": "20260703_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Bohemian Rhapsody", "doc_ids": []}
+{"qid": "20230825_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Heptathlon", "doc_ids": []}
+{"qid": "20221014_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The Police", "doc_ids": []}
+{"qid": "20241025_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Antarctica", "doc_ids": []}
+{"qid": "20251010_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Prisoner exchange", "doc_ids": []}
+{"qid": "20260529_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "New York Knicks", "doc_ids": []}
+{"qid": "20250509_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Queen Elizabeth II", "doc_ids": []}
+{"qid": "20241115_26", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Palisades Fire", "doc_ids": []}
+{"qid": "20260619_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Moldova", "doc_ids": []}
+{"qid": "20260130_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "47 stories", "doc_ids": []}
+{"qid": "20230609_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Psyche", "doc_ids": []}
+{"qid": "20221125_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Indian Garden", "doc_ids": []}
+{"qid": "20260508_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mage", "doc_ids": []}
+{"qid": "20240614_27", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Picnic tables, barbecue grills, and shade structures.", "doc_ids": []}
+{"qid": "20220819_26", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Sewage spills", "doc_ids": []}
+{"qid": "20260619_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Tuapse", "doc_ids": []}
+{"qid": "20260220_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "President", "doc_ids": []}
+{"qid": "20240419_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "New York", "doc_ids": []}
+{"qid": "20250530_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Rock and Roll, Hoochie Koo", "doc_ids": []}
+{"qid": "20240531_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Iron-rich sediment.", "doc_ids": []}
+{"qid": "20230616_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The Road", "doc_ids": []}
+{"qid": "20250425_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Canada", "doc_ids": []}
+{"qid": "20230127_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Pakistan", "doc_ids": []}
+{"qid": "20260306_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Exoplanet", "doc_ids": []}
+{"qid": "20260320_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Finland", "doc_ids": []}
+{"qid": "20260619_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "84 goals", "doc_ids": []}
+{"qid": "20260515_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Japan", "doc_ids": []}
+{"qid": "20260109_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "NFL", "doc_ids": []}
+{"qid": "20230505_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Whiteout conditions", "doc_ids": []}
+{"qid": "20230127_21", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Rishi Sunak", "doc_ids": []}
+{"qid": "20230331_23", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "United States", "doc_ids": []}
+{"qid": "20260501_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kylie Minogue", "doc_ids": []}
+{"qid": "20221216_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kentucky", "doc_ids": []}
+{"qid": "20260213_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Austin", "doc_ids": []}
+{"qid": "20230310_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "900", "doc_ids": []}
+{"qid": "20220708_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Wildfire risk", "doc_ids": []}
+{"qid": "20221104_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "New York City", "doc_ids": []}
+{"qid": "20220708_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "China", "doc_ids": []}
+{"qid": "20230414_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Max", "doc_ids": []}
+{"qid": "20231020_24", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$12.5 million", "doc_ids": []}
+{"qid": "20260626_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Checks and balances", "doc_ids": []}
+{"qid": "20240112_28", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Expanding into animation and VR content.", "doc_ids": []}
+{"qid": "20250321_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Strengthening", "doc_ids": []}
+{"qid": "20220624_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Princeton", "doc_ids": []}
+{"qid": "20230317_29", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Nuclear power", "doc_ids": []}
+{"qid": "20260130_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "76.4 years", "doc_ids": []}
+{"qid": "20220708_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "recognizing faces", "doc_ids": []}
+{"qid": "20260410_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Nina Dobrev", "doc_ids": []}
+{"qid": "20241227_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Trump did not win the popular vote over Kamala Harris.", "doc_ids": []}
+{"qid": "20260417_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Democratic Republic of Congo", "doc_ids": []}
+{"qid": "20241011_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Australian Open", "doc_ids": []}
+{"qid": "20230512_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ohio", "doc_ids": []}
+{"qid": "20220909_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1952", "doc_ids": []}
+{"qid": "20240719_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Nevada", "doc_ids": []}
+{"qid": "20230317_27", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "104 matches", "doc_ids": []}
+{"qid": "20251107_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Typhoon Mawar", "doc_ids": []}
+{"qid": "20260123_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Georgia Tech", "doc_ids": []}
+{"qid": "20220624_23", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Vienna", "doc_ids": []}
+{"qid": "20260417_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "April 15", "doc_ids": []}
+{"qid": "20230616_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "4 million", "doc_ids": []}
+{"qid": "20220826_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Germany", "doc_ids": []}
+{"qid": "20221014_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "21 years old", "doc_ids": []}
+{"qid": "20260306_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Energy", "doc_ids": []}
+{"qid": "20230324_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$250,000", "doc_ids": []}
+{"qid": "20240809_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Al Asad Airbase", "doc_ids": []}
+{"qid": "20260515_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$5", "doc_ids": []}
+{"qid": "20231208_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$7.25", "doc_ids": []}
+{"qid": "20240517_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Generative AI", "doc_ids": []}
+{"qid": "20220708_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Climate change", "doc_ids": []}
+{"qid": "20241018_22", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ohio and Georgia", "doc_ids": []}
+{"qid": "20240719_26", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Increased intake and euthanasia rates.", "doc_ids": []}
+{"qid": "20250314_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Sugar", "doc_ids": []}
+{"qid": "20230407_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Protesting for gun control.", "doc_ids": []}
+{"qid": "20260410_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "J.K. Rowling", "doc_ids": []}
+{"qid": "20241101_24", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "PSL", "doc_ids": []}
+{"qid": "20240322_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Treasury Department", "doc_ids": []}
+{"qid": "20230210_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kareem Abdul-Jabbar", "doc_ids": []}
+{"qid": "20250725_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$100 million", "doc_ids": []}
+{"qid": "20260626_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "We the People", "doc_ids": []}
+{"qid": "20221007_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Tesla Bot", "doc_ids": []}
+{"qid": "20220701_22", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\u00a387.5 million", "doc_ids": []}
+{"qid": "20221118_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Frontier Airlines", "doc_ids": []}
+{"qid": "20220819_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "63,000", "doc_ids": []}
+{"qid": "20260605_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Michelle Obama", "doc_ids": []}
+{"qid": "20221007_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The Beatles", "doc_ids": []}
+{"qid": "20240524_25", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$79,990", "doc_ids": []}
+{"qid": "20221104_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Friends", "doc_ids": []}
+{"qid": "20260515_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Cannes Film Festival", "doc_ids": []}
+{"qid": "20220805_28", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "60%", "doc_ids": []}
+{"qid": "20260612_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "48 teams", "doc_ids": []}
+{"qid": "20240830_24", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Delaware State 14, Hawaii 42", "doc_ids": []}
+{"qid": "20240216_21", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "A hotel", "doc_ids": []}
+{"qid": "20230602_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Russia", "doc_ids": []}
+{"qid": "20241122_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "South Carolina", "doc_ids": []}
+{"qid": "20260410_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Adidas", "doc_ids": []}
+{"qid": "20250926_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Technical glitch", "doc_ids": []}
+{"qid": "20260116_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Weather concerns", "doc_ids": []}
+{"qid": "20260619_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Japan", "doc_ids": []}
+{"qid": "20251226_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Dodgers, Rays", "doc_ids": []}
+{"qid": "20230210_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Biden", "doc_ids": []}
+{"qid": "20250711_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Herm\u00e8s", "doc_ids": []}
+{"qid": "20260703_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "3", "doc_ids": []}
+{"qid": "20260109_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "H3N2", "doc_ids": []}
+{"qid": "20221202_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "TikTok", "doc_ids": []}
+{"qid": "20220826_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Anthony Fauci", "doc_ids": []}
+{"qid": "20220722_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Abortion rights", "doc_ids": []}
+{"qid": "20240419_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Aliyah Boston", "doc_ids": []}
+{"qid": "20230317_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Best Actor", "doc_ids": []}
+{"qid": "20260417_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "California", "doc_ids": []}
+{"qid": "20250314_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Doping", "doc_ids": []}
+{"qid": "20260213_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Arizona", "doc_ids": []}
+{"qid": "20260109_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Greenland", "doc_ids": []}
+{"qid": "20241004_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Colombia", "doc_ids": []}
+{"qid": "20260417_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Shakespeare", "doc_ids": []}
+{"qid": "20260508_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Icahn Enterprises", "doc_ids": []}
+{"qid": "20230224_29", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Sink", "doc_ids": []}
+{"qid": "20220819_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Velveeta", "doc_ids": []}
+{"qid": "20260626_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Milton Friedman", "doc_ids": []}
+{"qid": "20260417_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Africa", "doc_ids": []}
+{"qid": "20240927_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Sri Lanka", "doc_ids": []}
+{"qid": "20251024_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Japan", "doc_ids": []}
+{"qid": "20260206_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Beijing National Stadium", "doc_ids": []}
+{"qid": "20221104_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Day of the Dead", "doc_ids": []}
+{"qid": "20221202_20", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Gordon Brown", "doc_ids": []}
+{"qid": "20260410_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"Barbie\"", "doc_ids": []}
+{"qid": "20260522_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "White", "doc_ids": []}
+{"qid": "20260626_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Bill of Rights", "doc_ids": []}
+{"qid": "20231208_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Cameron Smith", "doc_ids": []}
+{"qid": "20220923_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ginni Thomas", "doc_ids": []}
+{"qid": "20240920_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Los Angeles", "doc_ids": []}
+{"qid": "20220930_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Chess", "doc_ids": []}
+{"qid": "20230331_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Illinois", "doc_ids": []}
+{"qid": "20221104_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Hillbilly Elegy", "doc_ids": []}
+{"qid": "20260417_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Tiger Woods", "doc_ids": []}
+{"qid": "20260619_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Barack Obama", "doc_ids": []}
+{"qid": "20260605_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lily Allen", "doc_ids": []}
+{"qid": "20230630_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Snakes", "doc_ids": []}
+{"qid": "20260403_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$4", "doc_ids": []}
+{"qid": "20230512_21", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "300,000", "doc_ids": []}
+{"qid": "20220930_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Italy", "doc_ids": []}
+{"qid": "20221230_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Japan", "doc_ids": []}
+{"qid": "20230707_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "King Charles III's coronation", "doc_ids": []}
+{"qid": "20220805_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lt. Uhura", "doc_ids": []}
+{"qid": "20260605_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "[Evidence not provided]", "doc_ids": []}
+{"qid": "20250214_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Canned corn", "doc_ids": []}
+{"qid": "20260619_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Loosely based on Spielberg's childhood", "doc_ids": []}
+{"qid": "20231215_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kentucky", "doc_ids": []}
+{"qid": "20250613_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Sean Hayes", "doc_ids": []}
+{"qid": "20230519_22", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "42%", "doc_ids": []}
+{"qid": "20230428_20", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "100th anniversary", "doc_ids": []}
+{"qid": "20260529_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Tsitsipas", "doc_ids": []}
+{"qid": "20241025_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "L Brands", "doc_ids": []}
+{"qid": "20251212_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Midwest", "doc_ids": []}
+{"qid": "20250328_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Meteorite", "doc_ids": []}
+{"qid": "20220722_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "They got married.", "doc_ids": []}
+{"qid": "20221014_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Colorado", "doc_ids": []}
+{"qid": "20221007_25", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Wearing a \"White Lives Matter\" shirt.", "doc_ids": []}
+{"qid": "20230317_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "March Madness", "doc_ids": []}
+{"qid": "20260109_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "BYD", "doc_ids": []}
+{"qid": "20260501_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "New York", "doc_ids": []}
+{"qid": "20260619_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "48%", "doc_ids": []}
+{"qid": "20230804_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Disney+ Hotstar", "doc_ids": []}
+{"qid": "20260508_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Pennsylvania", "doc_ids": []}
+{"qid": "20220909_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "UPS", "doc_ids": []}
+{"qid": "20221216_27", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Jin", "doc_ids": []}
+{"qid": "20220715_28", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lionel Messi", "doc_ids": []}
+{"qid": "20250516_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Chris Hemsworth", "doc_ids": []}
+{"qid": "20250718_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Succession", "doc_ids": []}
+{"qid": "20240614_28", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "To promote fairness and inclusion in the cannabis industry.", "doc_ids": []}
+{"qid": "20250418_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Extreme Cutting", "doc_ids": []}
+{"qid": "20220819_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Colorado River region", "doc_ids": []}
+{"qid": "20250411_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Woolly Mammoth", "doc_ids": []}
+{"qid": "20260220_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Trump Organization", "doc_ids": []}
+{"qid": "20251128_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$25.78", "doc_ids": []}
+{"qid": "20260327_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Odessa", "doc_ids": []}
+{"qid": "20260703_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "France", "doc_ids": []}
+{"qid": "20220722_27", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ghana", "doc_ids": []}
+{"qid": "20230127_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Winter storm", "doc_ids": []}
+{"qid": "20220909_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "portrait unveiling", "doc_ids": []}
+{"qid": "20260703_32", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "America Online", "doc_ids": []}
+{"qid": "20220624_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Flooding", "doc_ids": []}
+{"qid": "20221014_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"Murder, She Wrote\"", "doc_ids": []}
+{"qid": "20240308_28", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$3.5 million", "doc_ids": []}
+{"qid": "20230224_28", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Forbes said she would not have voted for same-sex marriage.", "doc_ids": []}
+{"qid": "20220805_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kansas", "doc_ids": []}
+{"qid": "20250620_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Boston Bruins", "doc_ids": []}
+{"qid": "20221118_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Republicans", "doc_ids": []}
+{"qid": "20220826_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Student loans", "doc_ids": []}
+{"qid": "20250221_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Hold second jobs.", "doc_ids": []}
+{"qid": "20250425_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Women aged 30-34", "doc_ids": []}
+{"qid": "20260703_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2 terms", "doc_ids": []}
+{"qid": "20250502_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "DUI", "doc_ids": []}
+{"qid": "20220624_25", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "25%", "doc_ids": []}
+{"qid": "20260417_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kate Bush", "doc_ids": []}
+{"qid": "20220715_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "49.6%", "doc_ids": []}
+{"qid": "20260522_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Survivor", "doc_ids": []}
+{"qid": "20250822_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Tenure", "doc_ids": []}
+{"qid": "20260320_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Chicago", "doc_ids": []}
+{"qid": "20260619_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Michelin stars", "doc_ids": []}
+{"qid": "20231117_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Jimmy Kimmel", "doc_ids": []}
+{"qid": "20260703_28", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Stock Market Crash of 1929", "doc_ids": []}
+{"qid": "20260501_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Battenberg cake", "doc_ids": []}
+{"qid": "20251212_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Interest rate hike", "doc_ids": []}
+{"qid": "20260123_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "India", "doc_ids": []}
+{"qid": "20221209_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "51", "doc_ids": []}
+{"qid": "20260605_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Saudi Arabia", "doc_ids": []}
+{"qid": "20260306_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Syria", "doc_ids": []}
+{"qid": "20260109_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Colombia", "doc_ids": []}
+{"qid": "20220715_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Buck Moon", "doc_ids": []}
+{"qid": "20260109_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Austria", "doc_ids": []}
+{"qid": "20240315_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "TikTok", "doc_ids": []}
+{"qid": "20221230_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Twitter", "doc_ids": []}
+{"qid": "20241011_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Coastal development", "doc_ids": []}
+{"qid": "20260703_25", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "France", "doc_ids": []}
+{"qid": "20260529_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Fallen military personnel", "doc_ids": []}
+{"qid": "20260220_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Colorado", "doc_ids": []}
+{"qid": "20260123_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Oppenheimer", "doc_ids": []}
+{"qid": "20230707_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Boris Johnson", "doc_ids": []}
+{"qid": "20260619_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lambrook School", "doc_ids": []}
+{"qid": "20250214_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Xi Jinping", "doc_ids": []}
+{"qid": "20251114_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "John F. Kennedy", "doc_ids": []}
+{"qid": "20250905_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1,550 square kilometers", "doc_ids": []}
+{"qid": "20220819_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Yosemite National Park", "doc_ids": []}
+{"qid": "20221125_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "student loans", "doc_ids": []}
+{"qid": "20240524_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Morgan Freeman", "doc_ids": []}
+{"qid": "20241101_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Skeleton wedding", "doc_ids": []}
+{"qid": "20260403_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "800,000 federal workers", "doc_ids": []}
+{"qid": "20260306_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "iPhone 15", "doc_ids": []}
+{"qid": "20230721_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Aryan Brotherhood", "doc_ids": []}
+{"qid": "20260123_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Usha Vance announced a new education initiative.", "doc_ids": []}
+{"qid": "20260612_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Goats", "doc_ids": []}
+{"qid": "20250207_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mink", "doc_ids": []}
+{"qid": "20241129_27", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Gimbel Brothers Department Store, Philadelphia", "doc_ids": []}
+{"qid": "20230331_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Elton John", "doc_ids": []}
+{"qid": "20260612_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "64 matches", "doc_ids": []}
+{"qid": "20250711_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Egypt", "doc_ids": []}
+{"qid": "20260703_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Out of many, one", "doc_ids": []}
+{"qid": "20230714_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Communication machines", "doc_ids": []}
+{"qid": "20260703_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Physical game discs", "doc_ids": []}
+{"qid": "20240503_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Jazz", "doc_ids": []}
+{"qid": "20250131_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "HMS Agincourt", "doc_ids": []}
+{"qid": "20260619_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Robin Hood", "doc_ids": []}
+{"qid": "20260626_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Israel", "doc_ids": []}
+{"qid": "20260116_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mattel", "doc_ids": []}
+{"qid": "20220715_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Sri Lanka", "doc_ids": []}
+{"qid": "20230421_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "4:45 a.m. ET", "doc_ids": []}
+{"qid": "20241227_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$1,200,000", "doc_ids": []}
+{"qid": "20250523_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "New Orleans", "doc_ids": []}
+{"qid": "20240510_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Met Gala", "doc_ids": []}
+{"qid": "20240906_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kharkiv", "doc_ids": []}
+{"qid": "20220701_28", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Bruce Springsteen and Dave Grohl", "doc_ids": []}
+{"qid": "20250711_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The Environmental Protection Agency suspended roughly 140 employees this week due to budget cuts.", "doc_ids": []}
+{"qid": "20251010_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Palisades", "doc_ids": []}
+{"qid": "20230428_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2012", "doc_ids": []}
+{"qid": "20240209_25", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Human composting", "doc_ids": []}
+{"qid": "20220909_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Thwaites Glacier", "doc_ids": []}
+{"qid": "20260529_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Taylor Swift", "doc_ids": []}
+{"qid": "20231013_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The Reckoning", "doc_ids": []}
+{"qid": "20260206_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "4 times", "doc_ids": []}
+{"qid": "20260619_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"The Dignity of Work\"", "doc_ids": []}
+{"qid": "20260605_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lars von Trier", "doc_ids": []}
+{"qid": "20251107_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Katie Porter", "doc_ids": []}
+{"qid": "20220715_20", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Penny Mordaunt", "doc_ids": []}
+{"qid": "20220916_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Succession", "doc_ids": []}
+{"qid": "20260320_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Venezuela", "doc_ids": []}
+{"qid": "20260313_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "10 years old", "doc_ids": []}
+{"qid": "20260612_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Turkey", "doc_ids": []}
+{"qid": "20240621_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Jaws", "doc_ids": []}
+{"qid": "20250103_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The new owner of the historic du Pont estate Granogue is not specified in the provided information.", "doc_ids": []}
+{"qid": "20241108_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$19.5 million", "doc_ids": []}
+{"qid": "20260123_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "California", "doc_ids": []}
+{"qid": "20260626_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Beyonc\u00e9", "doc_ids": []}
+{"qid": "20260501_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Chicago", "doc_ids": []}
+{"qid": "20250725_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Typhoon Haiyan", "doc_ids": []}
+{"qid": "20241108_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Black Panther: Wakanda Forever", "doc_ids": []}
+{"qid": "20260522_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Rolex", "doc_ids": []}
+{"qid": "20230421_23", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "AI-generated", "doc_ids": []}
+{"qid": "20231222_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "37 charges", "doc_ids": []}
+{"qid": "20230317_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Silicon Valley Bank, Signature Bank", "doc_ids": []}
+{"qid": "20260605_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Marilyn Monroe", "doc_ids": []}
+{"qid": "20260410_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Newsom is not running for reelection due to term limits.", "doc_ids": []}
+{"qid": "20250627_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "11 years", "doc_ids": []}
+{"qid": "20260327_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Perplexity AI", "doc_ids": []}
+{"qid": "20230303_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Pitch clock", "doc_ids": []}
+{"qid": "20240329_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "India", "doc_ids": []}
+{"qid": "20260703_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "George III", "doc_ids": []}
+{"qid": "20220715_22", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Somalia", "doc_ids": []}
+{"qid": "20220826_27", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Robbie Gibb", "doc_ids": []}
+{"qid": "20260206_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ski Mountaineering", "doc_ids": []}
+{"qid": "20260130_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Chicago", "doc_ids": []}
+{"qid": "20220708_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Theranos", "doc_ids": []}
+{"qid": "20230519_21", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "CNN", "doc_ids": []}
+{"qid": "20220805_24", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "27 years", "doc_ids": []}
+{"qid": "20260320_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Romaine lettuce", "doc_ids": []}
+{"qid": "20260605_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "California", "doc_ids": []}
+{"qid": "20260515_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Texas", "doc_ids": []}
+{"qid": "20240216_25", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The Green Room", "doc_ids": []}
+{"qid": "20250321_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Faberg\u00e9 egg", "doc_ids": []}
+{"qid": "20240726_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Beowulf", "doc_ids": []}
+{"qid": "20250905_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Resignation of the Secretary", "doc_ids": []}
+{"qid": "20231103_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "4", "doc_ids": []}
+{"qid": "20260220_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Prince William", "doc_ids": []}
+{"qid": "20220624_28", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Moldova", "doc_ids": []}
+{"qid": "20260206_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Norway", "doc_ids": []}
+{"qid": "20260605_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Beaufort Castle", "doc_ids": []}
+{"qid": "20260410_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The Handmaid's Tale", "doc_ids": []}
+{"qid": "20220805_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Sandy Hook", "doc_ids": []}
+{"qid": "20250613_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Jalape\u00f1o Cheddar", "doc_ids": []}
+{"qid": "20231201_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"Fuck off\"", "doc_ids": []}
+{"qid": "20240607_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "MDMA", "doc_ids": []}
+{"qid": "20220902_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Moon", "doc_ids": []}
+{"qid": "20250124_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Tornadoes", "doc_ids": []}
+{"qid": "20260213_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kansas City Chiefs", "doc_ids": []}
+{"qid": "20260403_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ireland", "doc_ids": []}
+{"qid": "20220708_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Gorgosaurus", "doc_ids": []}
+{"qid": "20260626_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The President", "doc_ids": []}
+{"qid": "20221223_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The Bahamas", "doc_ids": []}
+{"qid": "20260410_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Seoul", "doc_ids": []}
+{"qid": "20260320_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Staffing shortages.", "doc_ids": []}
+{"qid": "20260619_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "China", "doc_ids": []}
+{"qid": "20260529_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Pickleball", "doc_ids": []}
+{"qid": "20220722_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Baby formula", "doc_ids": []}
+{"qid": "20260703_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "France", "doc_ids": []}
+{"qid": "20231103_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Friends", "doc_ids": []}
+{"qid": "20250606_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "National security", "doc_ids": []}
+{"qid": "20240308_23", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$15.00 per hour", "doc_ids": []}
+{"qid": "20260522_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Pablo Picasso", "doc_ids": []}
+{"qid": "20231215_26", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "112.7 million", "doc_ids": []}
+{"qid": "20240607_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mecca", "doc_ids": []}
+{"qid": "20260424_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "John Keats", "doc_ids": []}
+{"qid": "20260605_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Beast", "doc_ids": []}
+{"qid": "20230106_29", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Wind", "doc_ids": []}
+{"qid": "20260410_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$3,175", "doc_ids": []}
+{"qid": "20260626_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Supreme Court", "doc_ids": []}
+{"qid": "20230922_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Alligator", "doc_ids": []}
+{"qid": "20220819_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Another World", "doc_ids": []}
+{"qid": "20230901_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November 5", "doc_ids": []}
+{"qid": "20260306_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Colombia", "doc_ids": []}
+{"qid": "20240913_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Darth Vader", "doc_ids": []}
+{"qid": "20221202_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "2000", "doc_ids": []}
+{"qid": "20250307_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kosovo", "doc_ids": []}
+{"qid": "20260522_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Iowa State Fair", "doc_ids": []}
+{"qid": "20260320_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Green comet", "doc_ids": []}
+{"qid": "20220916_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lock Screen customization", "doc_ids": []}
+{"qid": "20230317_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Apple TV+", "doc_ids": []}
+{"qid": "20250131_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "New York Mets", "doc_ids": []}
+{"qid": "20220902_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kennedy Space Center", "doc_ids": []}
+{"qid": "20260123_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Concorde", "doc_ids": []}
+{"qid": "20221111_21", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "David Beckham", "doc_ids": []}
+{"qid": "20240510_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Russia", "doc_ids": []}
+{"qid": "20250711_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Optimus Party", "doc_ids": []}
+{"qid": "20260522_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Los Angeles", "doc_ids": []}
+{"qid": "20260327_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Stephen Colbert", "doc_ids": []}
+{"qid": "20250509_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ninja Foodi Pressure Cookers", "doc_ids": []}
+{"qid": "20240802_24", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The main reason ChristianaCare filed a lawsuit against Delaware House Bill 350 is to challenge the constitutionality of the bill.", "doc_ids": []}
+{"qid": "20260522_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Germany", "doc_ids": []}
+{"qid": "20260515_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "MetLife Stadium", "doc_ids": []}
+{"qid": "20260501_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Boston Celtics", "doc_ids": []}
+{"qid": "20240315_22", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "To reduce wildfire risk.", "doc_ids": []}
+{"qid": "20260213_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Germany", "doc_ids": []}
+{"qid": "20240726_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "130,000 miles", "doc_ids": []}
+{"qid": "20260703_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Francis Scott Key", "doc_ids": []}
+{"qid": "20220902_25", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Emmanuel Macron", "doc_ids": []}
+{"qid": "20260529_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "New York and California", "doc_ids": []}
+{"qid": "20260320_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Storms", "doc_ids": []}
+{"qid": "20231110_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Canada", "doc_ids": []}
+{"qid": "20250627_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Al Nassr", "doc_ids": []}
+{"qid": "20260501_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$0", "doc_ids": []}
+{"qid": "20260529_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Shell", "doc_ids": []}
+{"qid": "20230428_22", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Rich Tea", "doc_ids": []}
+{"qid": "20260213_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "TikTok", "doc_ids": []}
+{"qid": "20230324_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Los Angeles", "doc_ids": []}
+{"qid": "20260529_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Thailand", "doc_ids": []}
+{"qid": "20230818_25", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Early childhood education", "doc_ids": []}
+{"qid": "20251219_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "CNN", "doc_ids": []}
+{"qid": "20221118_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Moon", "doc_ids": []}
+{"qid": "20220812_21", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Domino's", "doc_ids": []}
+{"qid": "20260206_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Boxing", "doc_ids": []}
+{"qid": "20260410_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Vampyronassa rhodanica", "doc_ids": []}
+{"qid": "20260703_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Philadelphia", "doc_ids": []}
+{"qid": "20260116_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Flavored milk", "doc_ids": []}
+{"qid": "20220708_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Sri Lanka", "doc_ids": []}
+{"qid": "20250411_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ryan Lochte", "doc_ids": []}
+{"qid": "20231117_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The White House", "doc_ids": []}
+{"qid": "20220819_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Early fall", "doc_ids": []}
+{"qid": "20230324_27", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "5 times", "doc_ids": []}
+{"qid": "20260403_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Adele", "doc_ids": []}
+{"qid": "20260327_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Quantum Internet", "doc_ids": []}
+{"qid": "20240223_29", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Malbon Golf", "doc_ids": []}
+{"qid": "20251031_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Federal workers", "doc_ids": []}
+{"qid": "20260612_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Britney Spears", "doc_ids": []}
+{"qid": "20260417_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Cuba", "doc_ids": []}
+{"qid": "20260417_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Coachella", "doc_ids": []}
+{"qid": "20220715_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$10 billion", "doc_ids": []}
+{"qid": "20251212_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Overcrowding", "doc_ids": []}
+{"qid": "20230915_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "14%", "doc_ids": []}
+{"qid": "20260515_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Shakira, Dua Lipa, and Black Eyed Peas", "doc_ids": []}
+{"qid": "20220729_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Yosemite", "doc_ids": []}
+{"qid": "20220805_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Juan Soto", "doc_ids": []}
+{"qid": "20251226_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Japan", "doc_ids": []}
+{"qid": "20220902_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "67.7%", "doc_ids": []}
+{"qid": "20230825_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Johannesburg", "doc_ids": []}
+{"qid": "20230811_29", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Financial difficulties", "doc_ids": []}
+{"qid": "20230224_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mobile", "doc_ids": []}
+{"qid": "20250822_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Anxious", "doc_ids": []}
+{"qid": "20250228_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Purim", "doc_ids": []}
+{"qid": "20231117_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Steve Barclay", "doc_ids": []}
+{"qid": "20231215_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Hurricane Ian", "doc_ids": []}
+{"qid": "20260403_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Guangzhou", "doc_ids": []}
+{"qid": "20260703_31", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Challenger", "doc_ids": []}
+{"qid": "20220624_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Bill Cosby", "doc_ids": []}
+{"qid": "20241206_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Wrapped Story", "doc_ids": []}
+{"qid": "20221202_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Emmanuel Macron", "doc_ids": []}
+{"qid": "20260320_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Oppenheimer", "doc_ids": []}
+{"qid": "20260703_26", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Phonograph", "doc_ids": []}
+{"qid": "20260213_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ontario", "doc_ids": []}
+{"qid": "20260529_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Europe", "doc_ids": []}
+{"qid": "20240419_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Agoura Hills", "doc_ids": []}
+{"qid": "20240628_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "LATAM", "doc_ids": []}
+{"qid": "20230224_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "iPhone", "doc_ids": []}
+{"qid": "20260424_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "El Salvador", "doc_ids": []}
+{"qid": "20260410_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "NBC", "doc_ids": []}
+{"qid": "20260612_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"A Raisin in the Sun\"", "doc_ids": []}
+{"qid": "20250725_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "7,000 steps", "doc_ids": []}
+{"qid": "20250509_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Volodymyr Zelensky", "doc_ids": []}
+{"qid": "20250704_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Francis Scott Key", "doc_ids": []}
+{"qid": "20260327_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "LaGuardia", "doc_ids": []}
+{"qid": "20260130_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Canada", "doc_ids": []}
+{"qid": "20260508_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Norovirus", "doc_ids": []}
+{"qid": "20240510_23", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The fin whale died.", "doc_ids": []}
+{"qid": "20241206_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Frozen 2", "doc_ids": []}
+{"qid": "20220909_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "AirPods Pro 2", "doc_ids": []}
+{"qid": "20260626_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ronaldo", "doc_ids": []}
+{"qid": "20250509_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Signal", "doc_ids": []}
+{"qid": "20221230_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$4 per gallon", "doc_ids": []}
+{"qid": "20250124_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Thailand", "doc_ids": []}
+{"qid": "20221021_29", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Jon Snow", "doc_ids": []}
+{"qid": "20260130_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Denmark", "doc_ids": []}
+{"qid": "20230106_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$645", "doc_ids": []}
+{"qid": "20250704_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lombok", "doc_ids": []}
+{"qid": "20260626_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "To represent the 13 original colonies.", "doc_ids": []}
+{"qid": "20221216_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Charlottesville", "doc_ids": []}
+{"qid": "20250704_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "France", "doc_ids": []}
+{"qid": "20230602_28", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "KitKat", "doc_ids": []}
+{"qid": "20260619_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Noodles & Company", "doc_ids": []}
+{"qid": "20230929_27", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "A dead body found.", "doc_ids": []}
+{"qid": "20260123_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "No significant space events this week.", "doc_ids": []}
+{"qid": "20260703_24", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "7 days", "doc_ids": []}
+{"qid": "20250221_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "LaGuardia", "doc_ids": []}
+{"qid": "20260605_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "60 Minutes", "doc_ids": []}
+{"qid": "20220916_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kharkiv", "doc_ids": []}
+{"qid": "20260206_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Cross-country skiing", "doc_ids": []}
+{"qid": "20260130_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Microsoft", "doc_ids": []}
+{"qid": "20260320_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Social Security Administration", "doc_ids": []}
+{"qid": "20231117_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Festival of Lights", "doc_ids": []}
+{"qid": "20230217_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "True", "doc_ids": []}
+{"qid": "20240913_21", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "First transgender U.S. senator", "doc_ids": []}
+{"qid": "20240802_21", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "ChristianaCare", "doc_ids": []}
+{"qid": "20231027_28", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "To hibernate.", "doc_ids": []}
+{"qid": "20260703_27", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "19th Amendment", "doc_ids": []}
+{"qid": "20220701_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "prayed on the field", "doc_ids": []}
+{"qid": "20260403_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Romaine lettuce", "doc_ids": []}
+{"qid": "20260306_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "White House Correspondents' Dinner", "doc_ids": []}
+{"qid": "20240823_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Brad Pitt and Angelina Jolie", "doc_ids": []}
+{"qid": "20230217_25", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Jake Daniels", "doc_ids": []}
+{"qid": "20250530_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Yitzhak Rabin", "doc_ids": []}
+{"qid": "20231103_26", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Wally is the Philadelphia Flyers' mascot.", "doc_ids": []}
+{"qid": "20250801_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "France", "doc_ids": []}
+{"qid": "20221223_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "7 days", "doc_ids": []}
+{"qid": "20221104_27", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Blackouts", "doc_ids": []}
+{"qid": "20230317_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Oklahoma State", "doc_ids": []}
+{"qid": "20260424_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$3.5 billion", "doc_ids": []}
+{"qid": "20260109_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "15 years", "doc_ids": []}
+{"qid": "20250117_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Eggs", "doc_ids": []}
+{"qid": "20221104_29", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "King Charles III", "doc_ids": []}
+{"qid": "20220701_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Burmese python", "doc_ids": []}
+{"qid": "20260515_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Black Lives Matter Plaza", "doc_ids": []}
+{"qid": "20221118_21", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mariah Carey", "doc_ids": []}
+{"qid": "20260109_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "COVID-19 vaccination", "doc_ids": []}
+{"qid": "20220805_23", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Alina Kabaeva", "doc_ids": []}
+{"qid": "20240322_28", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$8.9 million", "doc_ids": []}
+{"qid": "20250711_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Pakistan", "doc_ids": []}
+{"qid": "20240621_21", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Copperhead", "doc_ids": []}
+{"qid": "20250627_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Golden State Warriors", "doc_ids": []}
+{"qid": "20250314_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Burning leaves", "doc_ids": []}
+{"qid": "20260410_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mac Miller", "doc_ids": []}
+{"qid": "20230310_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "5", "doc_ids": []}
+{"qid": "20260612_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Cologne", "doc_ids": []}
+{"qid": "20260313_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Wings", "doc_ids": []}
+{"qid": "20240531_20", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "False statements in connection with the purchase of a firearm.", "doc_ids": []}
+{"qid": "20240510_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Laurentino Cortizo", "doc_ids": []}
+{"qid": "20260605_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Colombia", "doc_ids": []}
+{"qid": "20260619_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Golden State Warriors", "doc_ids": []}
+{"qid": "20260220_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Elon Musk", "doc_ids": []}
+{"qid": "20260626_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Thomas Jefferson", "doc_ids": []}
+{"qid": "20220819_27", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Helmets", "doc_ids": []}
+{"qid": "20230908_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Texas", "doc_ids": []}
+{"qid": "20260116_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "California and New York", "doc_ids": []}
+{"qid": "20260612_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "42%", "doc_ids": []}
+{"qid": "20230224_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Patrick Mahomes", "doc_ids": []}
+{"qid": "20260515_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The Forbidden City", "doc_ids": []}
+{"qid": "20240531_23", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Cape Henlopen", "doc_ids": []}
+{"qid": "20220923_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"The pandemic is over.\"", "doc_ids": []}
+{"qid": "20250411_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Chechen", "doc_ids": []}
+{"qid": "20230127_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lindsey Vonn", "doc_ids": []}
+{"qid": "20260619_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "70th", "doc_ids": []}
+{"qid": "20231013_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ken Griffin", "doc_ids": []}
+{"qid": "20260109_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Los Angeles", "doc_ids": []}
+{"qid": "20240906_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Fast food", "doc_ids": []}
+{"qid": "20240719_29", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Seaside, Florida and Beaufort, South Carolina", "doc_ids": []}
+{"qid": "20220902_20", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mikhail Gorbachev", "doc_ids": []}
+{"qid": "20250314_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Married", "doc_ids": []}
+{"qid": "20260703_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Crack", "doc_ids": []}
+{"qid": "20260410_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "17%", "doc_ids": []}
+{"qid": "20260306_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Alzheimer's disease", "doc_ids": []}
+{"qid": "20230224_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "0 times", "doc_ids": []}
+{"qid": "20240816_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Perchlorates", "doc_ids": []}
+{"qid": "20260605_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Chicago", "doc_ids": []}
+{"qid": "20221021_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "United Kingdom", "doc_ids": []}
+{"qid": "20250516_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Selfies", "doc_ids": []}
+{"qid": "20230203_20", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Great white shark", "doc_ids": []}
+{"qid": "20240419_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Notre-Dame Cathedral", "doc_ids": []}
+{"qid": "20221104_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Yankees", "doc_ids": []}
+{"qid": "20260424_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mike Pompeo", "doc_ids": []}
+{"qid": "20260501_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "North Carolina", "doc_ids": []}
+{"qid": "20230407_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Russia", "doc_ids": []}
+{"qid": "20250404_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "10 hours and 25 minutes", "doc_ids": []}
+{"qid": "20250815_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Health insurance", "doc_ids": []}
+{"qid": "20260116_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Golden Globes", "doc_ids": []}
+{"qid": "20260227_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mexico", "doc_ids": []}
+{"qid": "20220930_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Higher energy prices.", "doc_ids": []}
+{"qid": "20260213_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "New York City", "doc_ids": []}
+{"qid": "20220708_20", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "50", "doc_ids": []}
+{"qid": "20260508_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Dolphins", "doc_ids": []}
+{"qid": "20260529_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Maserati", "doc_ids": []}
+{"qid": "20240524_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Howard University", "doc_ids": []}
+{"qid": "20220930_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$1.50", "doc_ids": []}
+{"qid": "20260206_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Quad God", "doc_ids": []}
+{"qid": "20251205_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Winter storm", "doc_ids": []}
+{"qid": "20240223_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Arizona", "doc_ids": []}
+{"qid": "20260417_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "10 days", "doc_ids": []}
+{"qid": "20240705_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Kenya", "doc_ids": []}
+{"qid": "20260313_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "40 minutes", "doc_ids": []}
+{"qid": "20240823_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Blinken", "doc_ids": []}
+{"qid": "20230901_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Simone Biles", "doc_ids": []}
+{"qid": "20250815_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Anderson Cooper 360", "doc_ids": []}
+{"qid": "20231027_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "45%", "doc_ids": []}
+{"qid": "20220826_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "19 years old", "doc_ids": []}
+{"qid": "20241213_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Fortnite", "doc_ids": []}
+{"qid": "20260619_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ramen", "doc_ids": []}
+{"qid": "20260508_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Breeze Airways", "doc_ids": []}
+{"qid": "20220715_25", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Pension reform", "doc_ids": []}
+{"qid": "20260522_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mauch Chunk, Pennsylvania", "doc_ids": []}
+{"qid": "20230428_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Conjunctivitis", "doc_ids": []}
+{"qid": "20260227_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Blizzard", "doc_ids": []}
+{"qid": "20260227_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Social Security", "doc_ids": []}
+{"qid": "20221125_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "77 inches", "doc_ids": []}
+{"qid": "20260703_34", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Sestercentennial", "doc_ids": []}
+{"qid": "20260501_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Apple and Epic Games", "doc_ids": []}
+{"qid": "20250509_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Hamilton", "doc_ids": []}
+{"qid": "20260227_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "5 years", "doc_ids": []}
+{"qid": "20241101_25", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Black cat", "doc_ids": []}
+{"qid": "20250711_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mercedes", "doc_ids": []}
+{"qid": "20231117_29", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Tree supplier issues.", "doc_ids": []}
+{"qid": "20250404_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Nintendo Switch Lite", "doc_ids": []}
+{"qid": "20220819_22", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Will Smith", "doc_ids": []}
+{"qid": "20250221_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "7.1%", "doc_ids": []}
+{"qid": "20260417_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "12 years", "doc_ids": []}
+{"qid": "20240105_29", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$1.5 billion", "doc_ids": []}
+{"qid": "20230120_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Maine and New York", "doc_ids": []}
+{"qid": "20240105_25", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "78-70", "doc_ids": []}
+{"qid": "20260522_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Death Valley", "doc_ids": []}
+{"qid": "20250905_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Simone Biles", "doc_ids": []}
+{"qid": "20260612_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Piers Morgan", "doc_ids": []}
+{"qid": "20260417_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "New York", "doc_ids": []}
+{"qid": "20240524_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Hawaiian Airlines", "doc_ids": []}
+{"qid": "20260626_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Senate, House of Representatives", "doc_ids": []}
+{"qid": "20240517_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Israel", "doc_ids": []}
+{"qid": "20260501_19", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "American Airlines", "doc_ids": []}
+{"qid": "20260605_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "A Quiet Place", "doc_ids": []}
+{"qid": "20240301_27", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Teacher's resignation", "doc_ids": []}
+{"qid": "20240223_22", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Improving educational outcomes for students in Wilmington.", "doc_ids": []}
+{"qid": "20260424_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Serbia", "doc_ids": []}
+{"qid": "20260417_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Banksy", "doc_ids": []}
+{"qid": "20240209_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "5", "doc_ids": []}
+{"qid": "20260605_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Visit gates", "doc_ids": []}
+{"qid": "20260626_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "27", "doc_ids": []}
+{"qid": "20230811_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"Date batching\"", "doc_ids": []}
+{"qid": "20260508_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Mexican victory over the French Empire", "doc_ids": []}
+{"qid": "20260626_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Spain", "doc_ids": []}
+{"qid": "20240426_20", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The victim's name has not been provided in the question or any accompanying documents.", "doc_ids": []}
+{"qid": "20240510_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Chimpanzee", "doc_ids": []}
+{"qid": "20240906_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Justice Sotomayor", "doc_ids": []}
+{"qid": "20240816_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "University of Missouri", "doc_ids": []}
+{"qid": "20220701_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "3", "doc_ids": []}
+{"qid": "20240614_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Colonial Pipeline", "doc_ids": []}
+{"qid": "20230224_6", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Winter storm", "doc_ids": []}
+{"qid": "20240301_22", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Hagley Museum and Library", "doc_ids": []}
+{"qid": "20221118_20", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "UAE", "doc_ids": []}
+{"qid": "20260116_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Dilbert", "doc_ids": []}
+{"qid": "20220916_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "To raise awareness.", "doc_ids": []}
+{"qid": "20240503_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Fox News", "doc_ids": []}
+{"qid": "20240809_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Pete Buttigieg", "doc_ids": []}
+{"qid": "20260515_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Denmark", "doc_ids": []}
+{"qid": "20241108_20", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "January 20, 2025", "doc_ids": []}
+{"qid": "20220819_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Independence Day", "doc_ids": []}
+{"qid": "20250801_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Germany", "doc_ids": []}
+{"qid": "20260612_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ohio", "doc_ids": []}
+{"qid": "20260130_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Donald Trump Jr.", "doc_ids": []}
+{"qid": "20250718_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Bugs Bunny", "doc_ids": []}
+{"qid": "20220902_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Edit Tweet", "doc_ids": []}
+{"qid": "20250314_1", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "United Airlines", "doc_ids": []}
+{"qid": "20221007_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Rhode Island", "doc_ids": []}
+{"qid": "20260522_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "92%", "doc_ids": []}
+{"qid": "20230331_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Starbucks", "doc_ids": []}
+{"qid": "20260626_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "July 4, 1776", "doc_ids": []}
+{"qid": "20260529_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Eid al-Fitr", "doc_ids": []}
+{"qid": "20260619_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Arlene", "doc_ids": []}
+{"qid": "20260703_20", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Bison", "doc_ids": []}
+{"qid": "20240726_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1900", "doc_ids": []}
+{"qid": "20240906_27", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "October 2024", "doc_ids": []}
+{"qid": "20260123_8", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Australia", "doc_ids": []}
+{"qid": "20260501_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "$1000 bill", "doc_ids": []}
+{"qid": "20230120_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "118", "doc_ids": []}
+{"qid": "20240209_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Valentine's Day", "doc_ids": []}
+{"qid": "20250328_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"ugly\"", "doc_ids": []}
+{"qid": "20240412_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "American Airlines", "doc_ids": []}
+{"qid": "20250110_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Meta", "doc_ids": []}
+{"qid": "20221202_11", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "1984", "doc_ids": []}
+{"qid": "20260508_2", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Samuel Beckett", "doc_ids": []}
+{"qid": "20260327_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "100 TSA agents", "doc_ids": []}
+{"qid": "20260522_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The Ellen DeGeneres Show", "doc_ids": []}
+{"qid": "20260313_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "The Silence of the Lambs", "doc_ids": []}
+{"qid": "20260227_9", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Brazil", "doc_ids": []}
+{"qid": "20240913_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Deshaun Watson", "doc_ids": []}
+{"qid": "20260417_17", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Xi Jinping", "doc_ids": []}
+{"qid": "20231208_23", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Dogfish Head Craft Brewery, Iron Hill Brewery & Restaurant", "doc_ids": []}
+{"qid": "20250815_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Helsinki", "doc_ids": []}
+{"qid": "20230421_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Fox News", "doc_ids": []}
+{"qid": "20250307_16", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "China", "doc_ids": []}
+{"qid": "20260410_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Amur Leopard", "doc_ids": []}
+{"qid": "20230609_21", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Vision Pro", "doc_ids": []}
+{"qid": "20241213_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Hilary Duff", "doc_ids": []}
+{"qid": "20260529_18", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Bentley", "doc_ids": []}
+{"qid": "20251003_3", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Chimpanzees", "doc_ids": []}
+{"qid": "20260417_5", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "South Africa", "doc_ids": []}
+{"qid": "20260612_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Alan Dershowitz", "doc_ids": []}
+{"qid": "20260703_0", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Andy Murray", "doc_ids": []}
+{"qid": "20230901_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Royal Farms", "doc_ids": []}
+{"qid": "20260206_14", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "530 medals", "doc_ids": []}
+{"qid": "20241129_7", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Pizza Hut Pizza Co.", "doc_ids": []}
+{"qid": "20260612_12", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Ulm Minster", "doc_ids": []}
+{"qid": "20231020_25", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "November 5", "doc_ids": []}
+{"qid": "20260116_4", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Sudan", "doc_ids": []}
+{"qid": "20250523_15", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "\"Nevermind\"", "doc_ids": []}
+{"qid": "20250214_10", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Penny", "doc_ids": []}
+{"qid": "20260612_13", "condition": "closed_book", "model": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF", "prediction": "Lufthansa", "doc_ids": []}

@@ -1,0 +1,211 @@
+{
+  "scope": "Closed-book accuracy on a cutoff-RELATIVE time axis, so every model is measured at the same distance from its own knowledge horizon rather than at the same calendar date.",
+  "novelty": "Prior temporal QA evaluates all models at a common date; effective-cutoff work infers one model's horizon. Placing several models on a shared relative axis is what separates 'the gap grows with scale' from 'the gap grows with distance past the cutoff'.",
+  "disclosed_cutoffs": {
+    "llama3_8b": {
+      "point": "2023-03",
+      "lo": "2022-12",
+      "hi": "2023-06",
+      "source": "Meta Llama 3 8B model card"
+    },
+    "gpt4omini": {
+      "point": "2023-10",
+      "lo": "2023-07",
+      "hi": "2023-12",
+      "source": "OpenAI model card"
+    },
+    "haiku": {
+      "point": "2025-07",
+      "lo": "2025-02",
+      "hi": "2025-07",
+      "source": "Anthropic docs: public-Internet data through Jul 2025"
+    },
+    "sonnet": {
+      "point": "2025-07",
+      "lo": "2025-02",
+      "hi": "2025-07",
+      "source": "Anthropic docs: public-Internet data through Jul 2025"
+    }
+  },
+  "undisclosed": [
+    "qwen",
+    "qwen1_5b",
+    "qwen3b",
+    "qwen7b",
+    "qwen32b",
+    "qwen72b",
+    "mistral_large"
+  ],
+  "guard_band_months": 3,
+  "per_model": {
+    "llama3_8b": {
+      "cutoff": "2023-03",
+      "cutoff_source": "Meta Llama 3 8B model card",
+      "own_boundary": {
+        "gap": 9.542,
+        "ci95": [
+          0.249,
+          18.149
+        ],
+        "p_plus_one": 0.04639,
+        "n_quizzes": [
+          22,
+          146
+        ]
+      },
+      "shared_2025_boundary": {
+        "gap": 8.031,
+        "ci95": [
+          0.957,
+          14.985
+        ],
+        "p_plus_one": 0.02639,
+        "n_quizzes": [
+          125,
+          69
+        ]
+      },
+      "sensitivity_over_cutoff_interval": {
+        "2022-12": 9.933,
+        "2023-06": 17.39
+      },
+      "curve_by_months_since_cutoff": {
+        "-12": 31.35443722943723,
+        "-6": 41.42100122100123,
+        "0": 25.19771894771895,
+        "6": 11.54040404040404,
+        "12": 28.9934554068541,
+        "18": 25.757094757094755,
+        "24": 15.812665343915343,
+        "30": 22.937835111748154,
+        "36": 21.34543023085042
+      },
+      "params_B": 8.0
+    },
+    "gpt4omini": {
+      "cutoff": "2023-10",
+      "cutoff_source": "OpenAI model card",
+      "own_boundary": {
+        "gap": 22.378,
+        "ci95": [
+          14.445,
+          30.053
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": [
+          54,
+          121
+        ]
+      },
+      "shared_2025_boundary": {
+        "gap": 16.345,
+        "ci95": [
+          8.67,
+          23.784
+        ],
+        "p_plus_one": 0.0008,
+        "n_quizzes": [
+          125,
+          69
+        ]
+      },
+      "sensitivity_over_cutoff_interval": {
+        "2023-07": 23.111,
+        "2023-12": 19.307
+      },
+      "curve_by_months_since_cutoff": {
+        "-18": 49.75330687830687,
+        "-12": 55.842905242905246,
+        "-6": 39.18861693861694,
+        "0": 32.394846827619936,
+        "6": 40.374805998207535,
+        "12": 26.7,
+        "18": 24.164653784219002,
+        "24": 28.40922619047619,
+        "30": 29.728629696392662
+      },
+      "params_B": null
+    },
+    "sonnet": {
+      "cutoff": "2025-07",
+      "cutoff_source": "Anthropic docs: public-Internet data through Jul 2025",
+      "own_boundary": {
+        "gap": 21.775,
+        "ci95": [
+          13.73,
+          29.551
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": [
+          138,
+          33
+        ]
+      },
+      "shared_2025_boundary": {
+        "gap": 28.802,
+        "ci95": [
+          21.554,
+          35.593
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": [
+          125,
+          69
+        ]
+      },
+      "sensitivity_over_cutoff_interval": {
+        "2025-02": 26.515,
+        "2025-07": 21.775
+      },
+      "curve_by_months_since_cutoff": {
+        "-36": 42.17391337918227,
+        "-30": 37.55840954881972,
+        "-24": 26.005835325074347,
+        "-18": 27.33169458283705,
+        "-12": 51.212686699115785,
+        "-6": 4.984534696073158,
+        "0": 8.943971821105324,
+        "6": 14.84171479958138
+      },
+      "params_B": null
+    }
+  },
+  "shared_vs_own_boundary": {
+    "llama3_8b": {
+      "months_cutoff_minus_shared_boundary": -22,
+      "own_gap": 9.542,
+      "shared_gap": 8.031,
+      "difference": 1.511
+    },
+    "gpt4omini": {
+      "months_cutoff_minus_shared_boundary": -15,
+      "own_gap": 22.378,
+      "shared_gap": 16.345,
+      "difference": 6.033
+    },
+    "sonnet": {
+      "months_cutoff_minus_shared_boundary": 6,
+      "own_gap": 21.775,
+      "shared_gap": 28.802,
+      "difference": -7.027
+    }
+  },
+  "misattribution_slope": {
+    "slope_gap_difference_per_month_of_cutoff_offset": 0.5764,
+    "n_models": 3,
+    "reading": "How much the shared-boundary estimate understates a model's own-boundary gap, per month that its cutoff sits away from the shared boundary. A nonzero slope means the shared-boundary design measures cutoff-offset, not just scale."
+  },
+  "scale_within_matched_cutoff": {
+    "note": "Only the two Claude models share a disclosed cutoff, so a scale slope at matched cutoff offset is not estimable on this roster. This is the concrete data requirement for identifying scale: several families, disclosed cutoffs, matched offsets.",
+    "matched_groups": {
+      "2025-07": [
+        "haiku",
+        "sonnet"
+      ]
+    }
+  },
+  "verdict": {
+    "supported": "On a cutoff-relative axis the models with disclosed cutoffs show a pre-minus-post gap at their OWN horizon. A shared 2025 boundary assigns those same models a different, and for the earlier-cutoff models much smaller, gap -- so part of what a shared-boundary design attributes to scale is cutoff offset.",
+    "not_supported": "This does not identify scale either. Four models disclose a cutoff and two of them share it, so no scale contrast at matched cutoff offset exists on this roster. We report the reparameterisation as the identification STRATEGY the field needs, demonstrated on the models that permit it, not as a completed identification."
+  }
+}

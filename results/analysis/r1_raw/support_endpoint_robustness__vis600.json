@@ -1,0 +1,268 @@
+{
+  "scope": "The Layer-3 support interaction recomputed under the strict choice-grounded endpoint alongside token-F1, on masked contexts, Static slice.",
+  "why": "Token-F1 has condition-dependent errors, so the interaction could in principle be a lexical-overlap artifact. The choice-grounded endpoint is binary and cannot be inflated by surface overlap with the retrieved passage.",
+  "endpoints": {
+    "token_f1": "SQuAD-normalised token F1, scaled to 0-100",
+    "choice_grounded": "free-form answer mapped to its nearest RealTimeQA option, scored against the gold option, 0 or 100; ambiguous maps score 0"
+  },
+  "n_questions_with_choices": 878,
+  "per_model": {
+    "qwen1_5b": {
+      "token_f1": {
+        "interaction": 48.939,
+        "ci95": [
+          39.989,
+          57.609
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "n_supported": 162,
+        "n_unsupported": 242
+      },
+      "choice_grounded": {
+        "interaction": 49.776,
+        "ci95": [
+          38.864,
+          60.237
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "n_supported": 162,
+        "n_unsupported": 242
+      },
+      "sign_agrees": true
+    },
+    "qwen3b": {
+      "token_f1": {
+        "interaction": 48.973,
+        "ci95": [
+          40.194,
+          57.416
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "n_supported": 162,
+        "n_unsupported": 242
+      },
+      "choice_grounded": {
+        "interaction": 49.561,
+        "ci95": [
+          39.925,
+          58.831
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "n_supported": 162,
+        "n_unsupported": 242
+      },
+      "sign_agrees": true
+    },
+    "qwen7b": {
+      "token_f1": {
+        "interaction": 48.882,
+        "ci95": [
+          40.37,
+          57.637
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "n_supported": 162,
+        "n_unsupported": 242
+      },
+      "choice_grounded": {
+        "interaction": 50.837,
+        "ci95": [
+          41.143,
+          60.95
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "n_supported": 162,
+        "n_unsupported": 242
+      },
+      "sign_agrees": true
+    },
+    "llama3_8b": {
+      "token_f1": {
+        "interaction": 38.038,
+        "ci95": [
+          27.633,
+          48.596
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "n_supported": 162,
+        "n_unsupported": 242
+      },
+      "choice_grounded": {
+        "interaction": 40.986,
+        "ci95": [
+          29.959,
+          51.76
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "n_supported": 162,
+        "n_unsupported": 242
+      },
+      "sign_agrees": true
+    },
+    "qwen32b": {
+      "token_f1": {
+        "interaction": 44.697,
+        "ci95": [
+          34.928,
+          54.828
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "n_supported": 162,
+        "n_unsupported": 242
+      },
+      "choice_grounded": {
+        "interaction": 46.332,
+        "ci95": [
+          35.272,
+          57.77
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "n_supported": 162,
+        "n_unsupported": 242
+      },
+      "sign_agrees": true
+    },
+    "qwen72b": {
+      "token_f1": {
+        "interaction": 46.59,
+        "ci95": [
+          36.168,
+          56.871
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "n_supported": 162,
+        "n_unsupported": 242
+      },
+      "choice_grounded": {
+        "interaction": 47.587,
+        "ci95": [
+          35.187,
+          59.543
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "n_supported": 162,
+        "n_unsupported": 242
+      },
+      "sign_agrees": true
+    },
+    "mistral_large": {
+      "token_f1": {
+        "interaction": 37.705,
+        "ci95": [
+          28.75,
+          47.287
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "n_supported": 162,
+        "n_unsupported": 242
+      },
+      "choice_grounded": {
+        "interaction": 37.726,
+        "ci95": [
+          27.303,
+          47.939
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "n_supported": 162,
+        "n_unsupported": 242
+      },
+      "sign_agrees": true
+    },
+    "haiku": {
+      "token_f1": {
+        "interaction": 35.796,
+        "ci95": [
+          24.724,
+          46.574
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "n_supported": 162,
+        "n_unsupported": 242
+      },
+      "choice_grounded": {
+        "interaction": 38.103,
+        "ci95": [
+          26.152,
+          49.217
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "n_supported": 162,
+        "n_unsupported": 242
+      },
+      "sign_agrees": true
+    },
+    "sonnet": {
+      "token_f1": {
+        "interaction": 31.793,
+        "ci95": [
+          21.962,
+          41.194
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "n_supported": 162,
+        "n_unsupported": 242
+      },
+      "choice_grounded": {
+        "interaction": 41.246,
+        "ci95": [
+          29.858,
+          52.324
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "n_supported": 162,
+        "n_unsupported": 242
+      },
+      "sign_agrees": true
+    },
+    "gpt4omini": {
+      "token_f1": {
+        "interaction": 38.608,
+        "ci95": [
+          27.815,
+          49.462
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "n_supported": 162,
+        "n_unsupported": 242
+      },
+      "choice_grounded": {
+        "interaction": 41.016,
+        "ci95": [
+          28.553,
+          53.459
+        ],
+        "p_plus_one": 0.0004,
+        "excludes_zero": true,
+        "n_supported": 162,
+        "n_unsupported": 242
+      },
+      "sign_agrees": true
+    }
+  },
+  "summary": {
+    "n_models": 10,
+    "n_excluding_zero_token_f1": 10,
+    "n_excluding_zero_choice_grounded": 10,
+    "n_sign_agrees": 10,
+    "verdict": "The interaction survives the strict endpoint"
+  }
+}

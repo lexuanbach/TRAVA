@@ -1,0 +1,314 @@
+{
+  "scope": "Random sample of automatically-labelled grounded_outdated items, drawn for manual adjudication because the lexical rule is not validated against judgement.",
+  "rubric": {
+    "superseded": "was a correct answer to this question at an earlier time (supports the paper's claim)",
+    "echo": "drawn from the retrieved text but never a correct answer to this question",
+    "type_error": "not the right kind of thing at all",
+    "non_answer": "narrative or refusal-like, not an answer attempt"
+  },
+  "seed": 20260801,
+  "pool_size": 51,
+  "n_sampled": 30,
+  "items": [
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260529_18",
+      "date": "2026-05-28",
+      "question": "Which luxury automaker recently unveiled its first electric car?",
+      "gold_answer": "Ferrari",
+      "stale_prediction": "Mercedes-Benz",
+      "context_head": "Updated Oct. 24, 2019, 9:35 p.m. ET\n\nFord Motor has made it official: it's going to unveil a \"Mustang-inspired\" electric SUV next month.\n\n\"We\u2019ve busted the myth that electric vehicles have to be boring,\" the automaker says in a statement.\n\nIn showing a drawing of the roofline and hints as to the look of the front of the new vehicle \u2013 yeah, it sort of looks like the current Mustang \u2013 Ford appears to be taking direct aim at electric-car leader Tesla. When it made its debut in 2015, the Tesla Model X luxury electric was anything but boring \u2013 especially with its novel gullwing rear doors.\n\nA new Ford electric SUV might help the automaker try to head Tesla off at the pass as it starts production of a new, smaller, lower-priced electric SUV, the Model Y, next year.\n\nYou're bad with money. Now what? How to break your lousy financial habits.\n\nSubaru recall: Carmaker recalls Imprezas and Crosstre"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20240301_27",
+      "date": "2024-03-01",
+      "question": "What recent event at St. Elizabeth Catholic School has caused the community to demand answers?",
+      "gold_answer": "The school president was let go",
+      "stale_prediction": "Rev. Theodore Rothrock suspended.",
+      "context_head": "Update, July 1: Rev. Theodore Rothrock from St. Elizabeth Seton Catholic Church in Carmel has been suspended from public ministry by Bishop Timothy Doherty Wednesday after calling Black Lives Matter organizers \"maggots and parasites.\"\n\n\"The Bishop expresses pastoral concern for the affected communities,\" the Diocese of Lafayette-in-Indiana said in a statement Wednesday. \"The suspension offers the Bishop an opportunity for pastoral discernment for the good of the diocese and for the good of Father Rothrock.\"\n\nRead more here.\n\nOriginal story, June 30: The priest of a Catholic church in Carmel is under fire for comparing the Black Lives Matter movement and its organizers to \"maggots and parasites\" in his weekly message.\n\nThe newly-formed Carmel Against Racial Injustice group wants the Bishop of the Diocese of Lafayette-in-Indiana to remove Rev. Theodore Rothrock of St. Elizabeth Seton Catho"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260619_0",
+      "date": "2026-06-19",
+      "question": "The British royal family announced that Prince George will be attending which school from September?",
+      "gold_answer": "Eton College",
+      "stale_prediction": "Thomas's Battersea",
+      "context_head": "London \u2014\n\nPrince George and Princess Charlotte played a special role at the state funeral of their late great-grandmother, Queen Elizabeth II, on Monday.\n\nThe two eldest children of the Prince and Princess of Wales formed part of a procession with the royal family, following the coffin as it entered London\u2019s Westminster Abbey.\n\nTheir attendance was confirmed by Buckingham Palace Sunday night with the release of the order of service for the event. The program listed the two Cambridge children, who are second and third in line to the British throne, among the royal procession behind the Queen\u2019s coffin.\n\nVideo Ad Feedback Royal family join procession bringing Queen's coffin to funeral 6:14 \u2022 Source: CNN Royal family join procession bringing Queen's coffin to funeral 6:14\n\nGeorge, aged 9, and Charlotte, 7, along with their parents, Prince William and Catherine, Princess of Wales, are joining"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260213_6",
+      "date": "2026-02-12",
+      "question": "A landmark trial got underway this week over allegations that which of the following is addictive?",
+      "gold_answer": "Social media",
+      "stale_prediction": "Opioids",
+      "context_head": "CNN \u2014\n\nMany loyal readers of 5 Things Sunday look forward to the weekly news quiz, so we have prepared a special Halloween quiz for you while you await the roaming hordes of witches, zombies, princesses and superheroes that will arrive at your door tomorrow night. And no tricks here \u2026 you\u2019ll find the weekly news quiz lurking in the shadows below. Here\u2019s what else you need to know to Start Your Week Smart.\n\nHere\u2019s what else you need to know to Start Your Week Smart.\n\nThe weekend that was\n\n\u2022 At least 151 people were killed and dozens more hurt in an apparent crowd surge at packed Halloween festivities in the South Korean capital of Seoul, local officials say.\n\n\u2022 At least 100 people were killed after two car bombs exploded near Somalia\u2019s education ministry in the capital Mogadishu on Saturday.\n\n\u2022 The man who allegedly attacked Paul Pelosi, the husband of House Speaker Nancy Pelosi, in the c"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260403_8",
+      "date": "2026-04-02",
+      "question": "Golfer Tiger Woods was involved in a rollover crash in which state?",
+      "gold_answer": "Florida",
+      "stale_prediction": "California",
+      "context_head": "Tiger Woods teed off in the first round of the Masters on Thursday as he embarked on a remarkable comeback following a car crash in February 2021 in which he sustained serious leg injuries.\n\nFive-time Masters champion Woods played in Group 14, alongside South African Louis Oosthuizen and Chilean Joaquin Niemann, after the first round of the 2022 Masters at Augusta National Golf Club tournament was delayed due to inclement weather in Augusta, Georgia.\n\nWearing a pink shirt, Woods was given a resounding round of applause from the crowd as his name was announced. After hitting his opening drive, Woods received more cheers from fans.\n\nThe group of Tiger Woods, Joaquin Niemann and Louis Oosthuizen meet at the first tee ahead of the first round of the Masters. Jamie Squire/Getty Images North America/Getty Images\n\nHis drive wasn\u2019t perfect, though the 46-year-old ended up making par on the first"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20251212_3",
+      "date": "2025-12-12",
+      "question": "Which major issue is the Louvre Museum in Paris currently facing?",
+      "gold_answer": "Water leak that damaged hundreds of books",
+      "stale_prediction": "Flooding",
+      "context_head": "Jessica Durando\n\nUSA TODAY\n\nUpdated June 8, 2016, 7:23 a.m. ET\n\nThe Mona Lisa is on display to the public again after the Louvre was closed last week due to flooding.\n\nOfficials at the Paris museum moved 35,000 artworks from lower rooms threatened by the rising River Seine that runs next to the building. Leonardo Da Vinci's masterpiece, which can once again be viewed Wednesday, is located on an upper floor and did not have to be moved during the flooding.\n\nThe Muse\u0301e d'Orsay also opened Wednesday after being closed because of the raging river that winds through central Paris.\n\nFrance\u2019s Cabinet formally declared a \u201cnatural disaster\u201d in 782 towns and villages considered to be the most affected by the flooding in an effort to help residents and businesses receive financial assistance quickly, the Associated Press reported.\n\nFloodwaters slowly receded from the streets of Paris on Sunday, a d"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260612_10",
+      "date": "2026-06-11",
+      "question": "The 2026 World Cup kicked off this week. How many matches are in the tournament?",
+      "gold_answer": "104",
+      "stale_prediction": "80 matches",
+      "context_head": "AP\n\nFIFA is preparing to decide Tuesday on adding 16 more teams to the 2026 World Cup for a 48-team tournament.\n\nPresident Gianni Infantino's favored format would break with soccer tradition to play in groups of only three teams. Two would advance from each group to a Round of 32 knockout bracket.\n\nIf agreed by the Infantino-chaired FIFA Council in Zurich, the 2026 hosting contest could formally open in weeks. A co-hosted North American bid is widely seen as the best option.\n\nHere are some things to know about overhauling the greatest competition in the world's most popular sport:\n\n___\n\nWHY EXPAND?\n\nA bigger World Cup was an Infantino campaign promise before his election last February, when his plan was 40 teams.\n\nIt might have been key. Infantino's momentum for victory in a second-round poll was a three-vote lead over Sheik Salman of Bahrain in the first. Sheik Salman had promised only "
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260116_6",
+      "date": "2026-01-15",
+      "question": "Which state is investigating an alleged arson at its largest and oldest synagogue?",
+      "gold_answer": "Mississippi",
+      "stale_prediction": "Texas",
+      "context_head": "Updated Nov. 15, 2021, 10:18 p.m. ET\n\nAUSTIN \u2014 On the day that federal agents say he set fire to the the Congregation Beth Israel synagogue, 18-year-old Franklin Barrett Sechriest logged an entry in his handwritten journal: \u201cScout out a target,\u201d he wrote, according to newly unsealed court documents.\n\nSecurity video later showed his Jeep SUV in the parking lot about 9 p.m. Oct. 31, a federal charging document states. Moments later, footage revealed the orange glow of a fire.\n\nWithin a couple of days, the court documents say, Sechriest scribbled again in his journal: \u201cI set a synagogue on fire. \u2026 Get worried when it mentions they are \u2018hopeful\u2019 a suspect will be caught.\u201d\n\nThe entries fell in a to-do list that also included surfing the dating app Tinder, doing laundry and meditating.\n\nSechriest, a member of the 6th Brigade of the Texas State Guard and a Texas State University student, now fa"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260417_3",
+      "date": "2026-04-17",
+      "question": "The Democrat candidate for governor of which state withdrew from the race amid claims of sexual misconduct?",
+      "gold_answer": "California",
+      "stale_prediction": "Alabama",
+      "context_head": "Nov. 8, 2022 Updated Nov. 9, 2022, 6:18 a.m. ET\n\nEditor's note: This page recaps the news from Election Day 2022. For updated information about voting results in key races, check out of live updates file for Wednesday, Nov. 9.\n\nDemocrat John Fetterman won the hard-fought U.S. Senate race in Pennsylvania against Republican Mehmet Oz, flipping a seat held by retiring GOP Sen. Pat Toomey.\n\nFetterman's victory reinforced other signs that a \u201cred wave\u201d of Republican strength had not materialized, as Democrats held on to several competitive Senate and governor seats.\n\nWhich party control the House and Senate is still undecided. Republican J.D. Vance bettered Republicans' chances of taking the Senate with his win over Democratic Rep. Tim Ryan. But Democratic Sen. Maggie Hassan defeated a GOP challenger in the competitive New Hampshire race.\n\nA handful of the closely watched Senate races have yet"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260417_2",
+      "date": "2026-04-17",
+      "question": "Which golfer won his second consecutive Masters?",
+      "gold_answer": "Rory McIlroy",
+      "stale_prediction": "None",
+      "context_head": "Editor's note: Here are the latest live updates from Friday's Round 2, including Tiger Woods' tee time and more.\n\nThe 2023 Masters Tournament began with Kevin Na and 2003 champion Mike Weir teeing off first in Thursday's opening round at the famed Augusta National Golf Club in Augusta, Georgia.\n\nBefore play in the 87th Masters officially got underway, the traditional opening ceremony had honorary starters Gary Player, Jack Nicklaus and Tom Watson hitting drives off the first tee.\n\nFive-time champion Tiger Woods came on strong late in the first round but concluded his day with a bogey on No. 18 to finish 2-over par. Last year's winner Scottie Scheffler and three-time champ Phil Mickelson are also among the stars in the field, which includes both PGA Tour and LIV golfers.\n\nFollow along for the latest action, leaderboard updates, highlights and more.\n\nTEE TIMES: Pairings for Thursday's firs"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260410_7",
+      "date": "2026-04-10",
+      "question": "Which bestselling author revealed the true identity behind her pen name?",
+      "gold_answer": "Freida McFadden",
+      "stale_prediction": "J.K. Rowling",
+      "context_head": "Michelle Monkou\n\nSpecial for USA TODAY\n\nJoin me every week as I share a few shout-outs on romance author goings-on, related events and recommended reads.\n\nSPOTLIGHT ON \u2026\n\nDangerous Secrets Boxed Set by L.L. Bartlett, Kelly McClymer, Shirley Hailstock, C.B. Pratt\n\n\"Four bestselling novelists \u2014 Four full-length novels packed full of juicy secrets!\"\n\nRoom at the Inn by L.L. Bartlett\n\nAbout L.L. Bartlett (courtesy of the author):The immensely popular Booktown Mystery series is what put Lorraine Bartlett's pen name Lorna Barrett on the New York Times bestseller list, but it's her talent \u2014 whether writing as Lorna, or L.L. Bartlett, or Lorraine Bartlett \u2014 that keeps her there. This multipublished, Agatha-nominated author pens the exciting Jeff Resnick Mysteries as well as the acclaimed Victoria Square Mystery series, and now the Tales of Telenia fantasy saga, and has many short stories and nov"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260508_5",
+      "date": "2026-05-08",
+      "question": "Which tech company was sued by a group including five major publishers for copyright infringement?",
+      "gold_answer": "Meta",
+      "stale_prediction": "Google",
+      "context_head": "AP\n\nOct. 4, 2012, 1:37 p.m. ET\n\nSettlement ends lawsuit by publishers filed in 2005\n\nGoogle already has scanned more than 20 million books\n\nA judge had tossed a prior deal following objections\n\nMOUNTAIN VIEW, Calif. (AP) \u2014 Google and U.S. publishers have settled a longstanding dispute over Google's book-scanning project. A lawsuit filed by authors remains, though, leaving the project in question.\n\nThe Association of American Publishers and Google announced their settlement on Thursday to end a lawsuit filed by five publishers in October 2005.\n\nGoogle already has scanned more than 20 million books. Publishers and authors sued, saying the project violated their copyrights. Authors' and publishers' groups had settled with Google before, but a federal judge tossed the deal following objections. One point of contention was the fact that books were included unless Google was informed that an a"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260626_4",
+      "date": "2026-06-26",
+      "question": "Which pop star announced an all-female music festival?",
+      "gold_answer": "Olivia Rodrigo",
+      "stale_prediction": "None",
+      "context_head": "May 10, 2022, 1:00 p.m. ET\n\nAustin City Limits Music Festival on Tuesday announced the lineup for this year\u2019s event, which is Oct. 7-9 and Oct. 14-16 in Texas' Zilker Park, and it\u2019s another great year for fans of female talent.\n\nThough 1990s rock bros the Red Hot Chili Peppers top the lineup, five of the top eight artists on the bill are female-fronted acts. Pop superstar P!nk will make her ACL Fest debut. Grammy-winning R&B star SZA and former Austinite/country music phenom Kacey Musgraves are set to perform this year. Texas country trio The Chicks and alt-rockers Paramore are also rocking the top of the bill, with America\u2019s favorite gay cowboy/boundary-pushing rapper Lil Nas X and electronic artist Flume rounding out the headliners.\n\nOther powerful women on the bill include \u201cHeaux Tales\u201d singer Jazmine Sullivan, Canadian pop star Carly Rae Jepsen, rock act Japanese Breakfast and Britis"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260220_2",
+      "date": "2026-02-19",
+      "question": "Andrew Mountbatten-Windsor was arrested on Thursday on suspicion of misconduct in public office. Who is his older brother?",
+      "gold_answer": "King Charles III",
+      "stale_prediction": "Prince Charles",
+      "context_head": "The disgraced duke had faced \u201cincreasing pressure\u201d from the Royal Family to settle and bring the case to an end after it \u201cthreatened to overshadow the Queen\u2019s jubilee celebrations \u201d, according to The Times . Prince Charles, his older brother, is thought to have been a particularly \u201cprominent voice\u201d on the matter.\n\nBut in reaching the settlement he agreed to make a \u201csubstantial donation\u201d to Giuffre\u2019s charity for victims of abuse, pledging to \u201cdemonstrate his regret for his association with Epstein\u201d by supporting the \u201cfight against the evils of sex trafficking and by supporting its victims\u201d.\n\nAndrew has always denied the allegations that he sexually abused Guiffre after she was \u201ctrafficked by his friend and convicted sex offender Jeffrey Epstein\u201d, said The Guardian.\n\n\u201cI am going to take the opportunity to raise this issue in parliament because the issue isn\u2019t going to go away until people "
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260605_10",
+      "date": "2026-06-04",
+      "question": "Which former first lady released a memoir this week?",
+      "gold_answer": "Jill Biden",
+      "stale_prediction": "Melania Trump",
+      "context_head": "Nov. 8, 2018 Updated Nov. 9, 2018, 2:44 p.m. ET\n\nFormer first lady Michelle Obama writes about her accomplished life and her marriage to former President Barack Obama in her new memoir, but early attention likely will focus on some heavy criticism of the man who succeeded him, President Donald Trump.\n\nIn her much-anticipated memoir, \"Becoming,\" Obama says she reacted in shock to Trump's 2016 election and tried to \"block it all out.\"\n\n\"Becoming\" will be released Tuesday, but the Associated Press purchased an early copy. The former first lady will kick off a 10-city book tour the day of the memoir's release, opening in her hometown of Chicago at the United Center in an event moderated by Oprah Winfrey.\n\nObama specifically rips Trump for his behavior toward women. She denounces him over the infamous 2005 \"Access Hollywood\" tape, which was released weeks before the 2016 election, in which he"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260327_2",
+      "date": "2026-03-26",
+      "question": "Which issue was at the center of a landmark ruling involving Meta and YouTube this week?",
+      "gold_answer": "Social media addiction",
+      "stale_prediction": "Russian state media",
+      "context_head": "CNN Business \u2014\n\nFacebook, Twitter and YouTube are all taking tougher stances on content from Russian state media amid intensifying pressure from European officials for the Big Tech platforms to act against pro-Russian propaganda and address the escalating information war in Ukraine and across the internet.\n\nBut there are concerns that cracking down too aggressively could come with unintended consequences, both for the platforms and for Russian citizens who rely on those services.\n\nFacebook (FB)-parent Meta will block access to Russian news outlets RT and Sputnik across the European Union after receiving \u201crequests from a number of Governments and the EU to take further steps in relation to Russian state controlled media,\u201d Nick Clegg, the company\u2019s VP of global affairs, said in a tweet Monday.\n\nNathaniel Gleicher, Meta\u2019s head of security policy, previously told reporters Sunday evening tha"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20250214_11",
+      "date": "2025-02-13",
+      "question": "Which food was recalled at major US retailers this week due to botulism risk?",
+      "gold_answer": "Canned tuna",
+      "stale_prediction": "None",
+      "context_head": "A recall of cucumbers related to a salmonella outbreak that has left 68 people sickened has expanded to include produce sold by two additional companies in 25 states.\n\nThe expanded recall comes just days after the U.S. Food and Drug Administration issued a recall of cucumbers sold at major retailers including Walmart, Costco, Wegmans and Albertsons.\n\nThe FDA updated the recall on Monday to include cucumbers sold by Baloian Farms and distributed by Russ Davis Wholesale.\n\nAs with the earlier recall of SunFed Produce products, the Baloian Farms cucumbers were sold Oct. 12-Nov. 26. The recalled Baloian Farms cucumbers were distributed to food service and retailers in 18 states, while the Russ Davis recall impacts the same customers in 11 states. According to the FDA, the cucumbers may have also reached consumers through foodservice and retail outlets in states that have not yet been reported"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260501_7",
+      "date": "2026-05-01",
+      "question": "Which state\u2019s voting map was struck down by the US Supreme Court as an \u201cunconstitutional gerrymander\u201d?",
+      "gold_answer": "Louisiana",
+      "stale_prediction": "New York",
+      "context_head": "CNN \u2014\n\nNew York\u2019s highest court blocked the state\u2019s Democratic-drawn congressional map Wednesday, concluding that the new boundaries represented a partisan gerrymander that violates the state constitution.\n\nThe court ruled that a new map must be created for the 2022 election. New York\u2019s primary election is scheduled for June 28, but the judges wrote it will \u201clikely be necessary\u201d to move the congressional elections to August.\n\nThe ruling is a blow to Democrats, as they had viewed redistricting in New York as one of their best chances to shape district lines in their favor. New York lost a congressional seat after the 2020 census, and the blocked map would have given Democrats an advantage in 22 of the state\u2019s 26 congressional districts.\n\nTwo lower courts had already ruled that the map, which was drawn and passed by Democrats in the New York legislature and signed by Democratic Gov. Kathy "
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260206_10",
+      "date": "2026-02-04",
+      "question": "What is the only sport set to make its Olympic debut at the 2026 Games?",
+      "gold_answer": "Skimo (Ski Mountaineering)",
+      "stale_prediction": "Cricket",
+      "context_head": "May 23, 2024 Updated July 25, 2024, 4:13 p.m. ET\n\nEvery four years, the Olympic Games spotlight the world's top athletes across under 50 sports.\n\nThe country will send more than 800 athletes to this year's Summer Olympics in Paris. The next Winter Olympics are set for 2026 in Milan and Cortina d'Ampezzo, Italy.\n\nAs the world counts down to the opening ceremony, here's what to know about the Games' official start, events, location and venues.\n\nWhen do the Olympics start?\n\nThe Paris 2024 Olympics begin on Wednesday, July 24. The first two events of the Games are men's soccer and rugby sevens.\n\nSeveral events will take place the following day, including women's soccer, handball and archery. The Games do not officially start until the opening ceremony on Friday, July 26.\n\nTypically, athletes march into a venue during the Olympics' opening ceremony. This year, however, athletes will float dow"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20230317_27",
+      "date": "2023-03-17",
+      "question": "The newly revealed format for the 2026 World Cup features a total of how many matches?",
+      "gold_answer": "104",
+      "stale_prediction": "80 matches",
+      "context_head": "AP\n\nFIFA is preparing to decide Tuesday on adding 16 more teams to the 2026 World Cup for a 48-team tournament.\n\nPresident Gianni Infantino's favored format would break with soccer tradition to play in groups of only three teams. Two would advance from each group to a Round of 32 knockout bracket.\n\nIf agreed by the Infantino-chaired FIFA Council in Zurich, the 2026 hosting contest could formally open in weeks. A co-hosted North American bid is widely seen as the best option.\n\nHere are some things to know about overhauling the greatest competition in the world's most popular sport:\n\n___\n\nWHY EXPAND?\n\nA bigger World Cup was an Infantino campaign promise before his election last February, when his plan was 40 teams.\n\nIt might have been key. Infantino's momentum for victory in a second-round poll was a three-vote lead over Sheik Salman of Bahrain in the first. Sheik Salman had promised only "
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20250516_2",
+      "date": "2025-05-16",
+      "question": "The Cannes Film Festival has banned what from its red carpet?",
+      "gold_answer": "Nudity",
+      "stale_prediction": "Selfies",
+      "context_head": "Bryan Alexander\n\nUSA TODAY\n\nCANNES, France \u2014 The Cannes Film Festival is aiming to go anti-Kardashian.\n\nOrganizers for the international film festival, which kicks off Wednesday in France, are seeking to cut down on time-wasting, self-obsessive snaps during the long walk to the famed Palais for nightly premieres.\n\nFestival director Thierry Fre\u0301maux put a shot across the Selfie Nation bow by decrying the practice on the glamorous Cannes red carpet, calling the photos \"ridiculous and grotesque.\"\n\n\"You never look as ugly as you do in a selfie,\" Fremaux told the media during an April press conference announcing the 2015 festival film lineup.\n\nFestival attendees, and even some of the film stars themselves, do slow down the red carpet entrance with selfie-taking.\n\nNeed a break? Play the USA TODAY Daily Crossword Puzzle.\n\n\"Everyone does it. I've seen big stars do it because it's the first time "
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20250411_0",
+      "date": "2025-04-11",
+      "question": "A \"de-extinction\" start-up claims it has revived a prehistoric species of which animal?",
+      "gold_answer": "Wolf",
+      "stale_prediction": "Tasmanian tiger",
+      "context_head": "Tasmanian tigers were hunted to extinction decades ago, but a recent scientific breakthrough has raised hope that the animal and potentially other long-lost species could one day be resurrected.\n\nScientists were recently able to recover and sequence RNA from a roughly 130-year-old Tasmanian tiger, also known as a thylacine, preserved at a museum in Stockholm. The feat marks the first time RNA molecules have been isolated and decoded from an extinct species, according to a new study published Tuesday in the journal Genome Research.\n\nIt may sound like a plot right out of a Jurassic Park movie, but the implications of the study are no mere fiction: Scientists are now one step closer to reviving not only the Tasmanian tiger, but perhaps other extinct species in the future.\n\nRecord-setting trip to space: Astronaut Frank Rubio spent a record 371 days in space. The trip was planned to be 6 mont"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260109_5",
+      "date": "2026-01-08",
+      "question": "A fire broke out during a New Year\u2019s celebration at a ski resort bar in which country?",
+      "gold_answer": "Switzerland",
+      "stale_prediction": "Cambodia",
+      "context_head": "Updated Jan. 3, 2020, 7:26 p.m. ET\n\nTwo men are suing a ski resort for breach of contract and fraud after it started charging for plum parking. And you may want to get health insurance soon if you don't already have it or face state fines.\n\nIt's Arlene Marti\u0301nez with news to take you into the weekend.\n\nBut first, Rage Against the Machine returns to Coachella, along with allll these acts.\n\nIn California is a roundup of stories from newsrooms across the USA TODAY Network and beyond. Sign up for M-F delivery here!\n\nJustice crusaders or entitled skiers? You decide.\n\nSteven Kroll, 79, and Ronald Code, 77, are big ski enthusiasts. On the slopes, they are 19 again, unburdened by time. They were, like many skiers, unhappy with new parking charges at the most convenient lot at Northstar California Resort. But unlike the others who just muttered or cursed under their breath, they've taken their di"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260508_16",
+      "date": "2026-05-08",
+      "question": "Which airline recently shut down operations and canceled all flights?",
+      "gold_answer": "Spirit Airlines",
+      "stale_prediction": "Southwest",
+      "context_head": "New York CNN Business \u2014\n\nUS airlines have canceled thousands of flights for Wednesday and Thursday as a powerful winter storm packing ice, rain, sleet and snow is stretching from the Midwest to the South.\n\nFor Wednesday, Chicago O\u2019Hare, a United and American Airlines hub, is the most affected airport with 364 cancellations, according to flight tracking site FlightAware. St. Louis, Denver and Detroit airports are also accumulating cancellations with 352 as of Wednesday night. In total, airlines have canceled 2,350 US flights Wednesday.\n\nThursday appears to be even worse, with FlightAware data showing US airlines have canceled at least 3,563 flights within, into, or out of the United States for that day. Nearly 90% of scheduled flights from Dallas Love Field, a Southwest hub, have already been canceled. The airline has already cut 26% of its schedule for Thursday. Dallas Fort Worth, anothe"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260522_3",
+      "date": "2026-05-22",
+      "question": "Which US talk show came to an end this week after an 11-year run?",
+      "gold_answer": "\u201cThe Late Show with Stephen Colbert\u201d",
+      "stale_prediction": "Conan",
+      "context_head": "Updated Feb. 25, 2020, 11:03 a.m. ET\n\nESPN is canceling talk show \"High Noon,\" the network announced Monday. The show will run through the end of March before an official final episode.\n\nSports journalists Bomani Jones and Pablo Torre hosted the show, which began as an experimental venture in June 2018, after they thrived in writing and podcast roles for the network. \"High Noon\" was overseen by longtime producer Erik Rydholm, the creator of ESPN's popular sports talk shows \"Pardon the Interruption,\" \"Around the Horn\" and \"Highly Questionable.\"\n\n\u201cCo-hosts Pablo Torre and Bomani Jones are extremely talented, and they helmed what we believe was a smart and nuanced show,\" ESPN said in a statement. \"Unfortunately, not enough people agreed with us. We look forward to discussing with them how to best utilize their talents across a variety of ESPN platforms.\"\n\nNCAA TOURNAMENT: Six bubble teams w"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260612_15",
+      "date": "2026-06-11",
+      "question": "Which public figure testified on Capitol Hill this week about his ties to Jeffrey Epstein?",
+      "gold_answer": "Bill Gates",
+      "stale_prediction": "No public figure testified on Capitol Hill this week about his ties to Jeffrey Epstein.",
+      "context_head": "'Get this man out of our lives': Uvalde victim's grandmother calls for police chief's resignation\n\n'This turned my life upside down': Former election worker testified in Jan 6 hearing\n\nWandrea \"Shaye\" Moss, a former Georgia election worker, is comforted by her mother Ruby Freeman, right, as the House select committee investigating the Jan. 6 attack on the U.S. Capitol continues to reveal its findings of a year-long investigation, at the Capitol in Washington, Tuesday, June 21, 2022.\n\nVoter on Jan. 6 hearings: They're after Trump, not the truth\n\nEvidence against Trump is growing: An impeachment lawyer's perspective on the Jan. 6 hearings\n\nUS President Donald Trump speaks to supporters from The Ellipse near the White House on January 6, 2021, in Washington, DC. - Thousands of Trump supporters, fueled by his spurious claims of voter fraud, are flooding the nation's capital protesting the ex"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260612_18",
+      "date": "2026-06-11",
+      "question": "Which AI company may be headed for one of the most anticipated stock market debuts in recent history?",
+      "gold_answer": "OpenAI",
+      "stale_prediction": "Trump Media & Technology Group",
+      "context_head": "Updated July 5, 2017, 1:14 p.m. ET\n\nThere's a big new player in the competition to infiltrate homes with smart speakers: Chinese online sales giant Alibaba.\n\nThe e-commerce company unveiled its Tmall Genie speaker Wednesday in Beijing. Like Amazon's Echo, the speaker has an AI personal assistant and answers voice commands. A trial sale of the speakers begins today with the first 1,000 shoppers able to get one for $73. The speakers will be available to the general public on August 8. For now, Alibaba's Tmall Genie speaks Mandarin and will only be available only in China.\n\nIn a demonstration Wednesday, Alibaba engineers used the Genie to order Coca Cola, play music, add credit to a phone and activate a smart humidifier and TV, according to Reuters. For a video, visit Tmall on the social media network Weibo.\n\nAlibaba is just the latest player to enter the smart speaker competition and it ma"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260424_4",
+      "date": "2026-04-24",
+      "question": "How much will the US government begin paying to businesses this week as refunds for illegal tariffs?",
+      "gold_answer": "$166 billion",
+      "stale_prediction": "$3.5 billion",
+      "context_head": "WASHINGTON \u2013 China said Monday it will slap tariffs on more than 5,000 U.S. products in retaliation for President Donald Trump\u2019s decision to raise duties on Chinese goods amid trade talks between the world\u2019s two largest economies.\n\nChina\u2019s Ministry of Finance said the new tariffs would impact $60 billion in U.S. imports and would range from 5% to 25%. The tariffs will take effect June 1, which would give the two sides time to resume trade negotiations that broke off last week without reaching a new deal.\n\nAt the White House, Trump told reporters he was fine with China taking some retaliatory action as long as it doesn't breach an unspecified level. Trump insisted the U.S. will be taking in \"tens of billions of dollars\" from tariffs, although economists say the costs will be passed onto consumers in the form of higher prices.\n\n\u201cI love the position we\u2019re in,\u201d Trump said from the Oval Offic"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260605_13",
+      "date": "2026-06-04",
+      "question": "Voters in which state cast their ballots this week in a high-profile contest to select two candidates for governor?",
+      "gold_answer": "California",
+      "stale_prediction": "Georgia",
+      "context_head": "Andy Sullivan\n\nReuters\n\nVoters in Georgia turned out in record numbers as the battleground state opened early voting for the Nov. 5 presidential election between Democrat Kamala Harris and Republican Donald Trump, state officials said on Tuesday.\n\nAt least 252,000 voters had cast ballots at early-voting sites as of 4 p.m. EDT, nearly double the 136,000 who participated in the first day of early voting in the 2020 election, said Gabriel Sterling, Georgia's No. 2 election official. \"Spectacular turnout,\" he wrote on social media.\n\nEarly voting, either in person or by mail, has become increasingly popular with U.S. voters. Nearly 1 in 7 voters cast their ballots ahead of Election Day in 2020, according to the University of Florida's Election Lab. However, many Republicans opposed the dramatic expansion of mail voting that year, saying it was less secure than in-person voting, and Trump cite"
+    },
+    {
+      "model": "mistral_large",
+      "model_name": "Mistral-Large-2",
+      "qid": "20260424_0",
+      "date": "2026-04-24",
+      "question": "Which Trump administration official filed a $250 million defamation suit against The Atlantic magazine?",
+      "gold_answer": "Kash Patel",
+      "stale_prediction": "None of the provided documents mention a $250 million defamation suit against The Atlantic magazine by a Trump administration official.",
+      "context_head": "In the wake of the 2020 presidential election, once it became clear that then-President Donald Trump had lost the race to Joe Biden, allies of the former president began claiming without evidence that the election had been stolen.\n\nDominion Voting Systems, a private voting machine manufacturer, became central to those claims, which asserted that the company conspired with Democrats to rig the election against Trump.\n\nIn 2021, Dominion filed a series of defamation lawsuits against key election deniers, suggesting their unfounded claims caused \u201csevere damage\u201d to the company.\n\n\u201cThese lies also have threatened the personal safety of our employees and customers,\u201d Dominion CEO John Poulos said after filing one of the lawsuits. \u201cNo amount of money will repair the damage done.\"\n\nHere\u2019s what we know.\n\nStay in the conversation on politics:Sign up for the OnPolitics newsletter\n\nWhat is the backgrou"
+    }
+  ]
+}

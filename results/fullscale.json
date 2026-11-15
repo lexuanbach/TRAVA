@@ -1,0 +1,193 @@
+{
+  "n_questions_full": 4176,
+  "n_questions_sampled": 878,
+  "qwen32b": {
+    "n_scored": 4176,
+    "boundary_2025": {
+      "diff": 2.13,
+      "se": 2.13,
+      "ci95": [
+        -2.16,
+        6.18
+      ],
+      "p_two_sided": 0.3175,
+      "n": [
+        3150,
+        1026
+      ],
+      "n_clusters": [
+        131,
+        78
+      ],
+      "largest_cliff_not_excluded": 6.18
+    },
+    "clean_2023_vs_2026": {
+      "diff": -1.81,
+      "se": 4.23,
+      "ci95": [
+        -10.29,
+        5.89
+      ],
+      "p_two_sided": 0.7475,
+      "n": [
+        1224,
+        346
+      ],
+      "n_clusters": [
+        52,
+        26
+      ],
+      "largest_cliff_not_excluded": 5.89
+    },
+    "sampled_subset_only": {
+      "diff": 4.93,
+      "se": 3.69,
+      "ci95": [
+        -2.46,
+        11.67
+      ],
+      "p_two_sided": 0.178,
+      "n": [
+        404,
+        474
+      ],
+      "n_clusters": [
+        125,
+        74
+      ]
+    },
+    "by_year": {
+      "2022": 32.58,
+      "2023": 25.32,
+      "2024": 20.03,
+      "2025": 20.57,
+      "2026": 27.13
+    }
+  },
+  "qwen72b": {
+    "n_scored": 4176,
+    "boundary_2025": {
+      "diff": 4.87,
+      "se": 2.17,
+      "ci95": [
+        0.53,
+        9.13
+      ],
+      "p_two_sided": 0.027,
+      "n": [
+        3150,
+        1026
+      ],
+      "n_clusters": [
+        131,
+        78
+      ],
+      "largest_cliff_not_excluded": 9.13
+    },
+    "clean_2023_vs_2026": {
+      "diff": 0.33,
+      "se": 4.0,
+      "ci95": [
+        -7.66,
+        7.62
+      ],
+      "p_two_sided": 0.905,
+      "n": [
+        1224,
+        346
+      ],
+      "n_clusters": [
+        52,
+        26
+      ],
+      "largest_cliff_not_excluded": 7.62
+    },
+    "sampled_subset_only": {
+      "diff": 6.22,
+      "se": 3.71,
+      "ci95": [
+        -1.33,
+        12.99
+      ],
+      "p_two_sided": 0.109,
+      "n": [
+        404,
+        474
+      ],
+      "n_clusters": [
+        125,
+        74
+      ]
+    },
+    "by_year": {
+      "2022": 44.19,
+      "2023": 32.28,
+      "2024": 22.82,
+      "2025": 23.62,
+      "2026": 31.95
+    }
+  },
+  "gpt4omini": {
+    "n_scored": 4176,
+    "boundary_2025": {
+      "diff": 14.16,
+      "se": 2.36,
+      "ci95": [
+        9.54,
+        18.8
+      ],
+      "p_two_sided": 0.0,
+      "n": [
+        3150,
+        1026
+      ],
+      "n_clusters": [
+        131,
+        78
+      ],
+      "largest_cliff_not_excluded": 18.8
+    },
+    "clean_2023_vs_2026": {
+      "diff": 15.15,
+      "se": 4.15,
+      "ci95": [
+        6.69,
+        22.82
+      ],
+      "p_two_sided": 0.0015,
+      "n": [
+        1224,
+        346
+      ],
+      "n_clusters": [
+        52,
+        26
+      ],
+      "largest_cliff_not_excluded": 22.82
+    },
+    "sampled_subset_only": {
+      "diff": 14.1,
+      "se": 3.8,
+      "ci95": [
+        6.85,
+        21.63
+      ],
+      "p_two_sided": 0.0,
+      "n": [
+        404,
+        474
+      ],
+      "n_clusters": [
+        125,
+        74
+      ]
+    },
+    "by_year": {
+      "2022": 53.52,
+      "2023": 46.76,
+      "2024": 27.38,
+      "2025": 24.08,
+      "2026": 31.61
+    }
+  }
+}

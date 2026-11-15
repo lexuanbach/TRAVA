@@ -1,0 +1,122 @@
+{
+  "bm25": {
+    "fresh": {
+      "recall@k": 0.2998,
+      "hit@k": 0.8439,
+      "n": 346
+    },
+    "all": {
+      "recall@k": 0.305,
+      "hit@k": 0.8166,
+      "n": 878
+    },
+    "static": {
+      "recall@k": 0.3083,
+      "hit@k": 0.7989,
+      "n": 532
+    }
+  },
+  "dpr": {
+    "fresh": {
+      "recall@k": 0.1917,
+      "hit@k": 0.6676,
+      "n": 346
+    },
+    "all": {
+      "recall@k": 0.2039,
+      "hit@k": 0.6617,
+      "n": 878
+    },
+    "static": {
+      "recall@k": 0.2119,
+      "hit@k": 0.6579,
+      "n": 532
+    }
+  },
+  "bge": {
+    "fresh": {
+      "recall@k": 0.271,
+      "hit@k": 0.7977,
+      "n": 346
+    },
+    "all": {
+      "recall@k": 0.2849,
+      "hit@k": 0.7882,
+      "n": 878
+    },
+    "static": {
+      "recall@k": 0.294,
+      "hit@k": 0.782,
+      "n": 532
+    }
+  },
+  "splade": {
+    "fresh": {
+      "recall@k": 0.2879,
+      "hit@k": 0.8121,
+      "n": 346
+    },
+    "all": {
+      "recall@k": 0.2997,
+      "hit@k": 0.7984,
+      "n": 878
+    },
+    "static": {
+      "recall@k": 0.3074,
+      "hit@k": 0.7895,
+      "n": 532
+    }
+  },
+  "colbert": {
+    "fresh": {
+      "recall@k": 0.277,
+      "hit@k": 0.7861,
+      "n": 346
+    },
+    "all": {
+      "recall@k": 0.292,
+      "hit@k": 0.8007,
+      "n": 878
+    },
+    "static": {
+      "recall@k": 0.3018,
+      "hit@k": 0.8102,
+      "n": 532
+    }
+  },
+  "hybrid": {
+    "fresh": {
+      "recall@k": 0.2965,
+      "hit@k": 0.8266,
+      "n": 346
+    },
+    "all": {
+      "recall@k": 0.3033,
+      "hit@k": 0.8212,
+      "n": 878
+    },
+    "static": {
+      "recall@k": 0.3077,
+      "hit@k": 0.8177,
+      "n": 532
+    }
+  },
+  "oracle": {
+    "fresh": {
+      "recall@k": 0.5938,
+      "hit@k": 1.0,
+      "n": 346
+    },
+    "all": {
+      "recall@k": 0.6229,
+      "hit@k": 1.0,
+      "n": 878
+    },
+    "static": {
+      "recall@k": 0.6419,
+      "hit@k": 1.0,
+      "n": 532
+    }
+  },
+  "_skipped": {}
+}

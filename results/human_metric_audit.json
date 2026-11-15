@@ -1,0 +1,271 @@
+{
+  "scope": "Thresholded token-F1 errors against adjudicated human correctness labels.",
+  "analysis_version": "writing-revision-2026-11-15",
+  "n_items": 395,
+  "n_adjudication_overrides": 34,
+  "threshold": 0.5,
+  "bootstrap": {
+    "replicates": 5000,
+    "seed": 20260802,
+    "unit": "answer item, sampled within original strata",
+    "interval": "percentile 95%",
+    "shared_draws": true
+  },
+  "weighting": "sampling_manifest.task_a.strata.weight_to_population; calibration included",
+  "consistent_summaries": {
+    "overall": {
+      "human_correct_rate": {
+        "estimate": 0.3911305076755822,
+        "ci95": [
+          0.32701130656338884,
+          0.48219217465156444
+        ],
+        "valid_draws": 5000
+      },
+      "miss_prevalence": {
+        "estimate": 0.09376398214313976,
+        "ci95": [
+          0.03152770964043144,
+          0.18444559858319082
+        ],
+        "valid_draws": 5000
+      },
+      "conditional_miss_rate": {
+        "estimate": 0.23972556551612945,
+        "ci95": [
+          0.09576674393070636,
+          0.38323812372043187
+        ],
+        "valid_draws": 5000
+      },
+      "false_credit_rate": {
+        "estimate": 0.039023325033109665,
+        "ci95": [
+          0.02763273666694612,
+          0.052656870694862884
+        ],
+        "valid_draws": 5000
+      },
+      "agreement": {
+        "estimate": 0.88247590575514,
+        "ci95": [
+          0.7914142387791577,
+          0.9461203434218167
+        ],
+        "valid_draws": 5000
+      }
+    },
+    "Static": {
+      "human_correct_rate": {
+        "estimate": 0.48391734467819025,
+        "ci95": [
+          0.3364460272994203,
+          0.6693318433865938
+        ],
+        "valid_draws": 5000
+      },
+      "miss_prevalence": {
+        "estimate": 0.14428003615662163,
+        "ci95": [
+          0.028125463014436802,
+          0.30180282944776277
+        ],
+        "valid_draws": 5000
+      },
+      "conditional_miss_rate": {
+        "estimate": 0.2981501649885463,
+        "ci95": [
+          0.07122405642754627,
+          0.4949529074852313
+        ],
+        "valid_draws": 5000
+      },
+      "false_credit_rate": {
+        "estimate": 0.044516534196669524,
+        "ci95": [
+          0.02266095652861652,
+          0.09100497193097788
+        ],
+        "valid_draws": 5000
+      },
+      "agreement": {
+        "estimate": 0.832745752669437,
+        "ci95": [
+          0.6746983364379633,
+          0.9509443872075342
+        ],
+        "valid_draws": 5000
+      }
+    },
+    "Fresh": {
+      "human_correct_rate": {
+        "estimate": 0.2848958887154947,
+        "ci95": [
+          0.18438622709474592,
+          0.4175542386414178
+        ],
+        "valid_draws": 5000
+      },
+      "miss_prevalence": {
+        "estimate": 0.035926535336556605,
+        "ci95": [
+          0.02499908640048298,
+          0.05385001068315158
+        ],
+        "valid_draws": 5000
+      },
+      "conditional_miss_rate": {
+        "estimate": 0.12610408489409228,
+        "ci95": [
+          0.08468105029646265,
+          0.20222206159354045
+        ],
+        "valid_draws": 5000
+      },
+      "false_credit_rate": {
+        "estimate": 0.03448437064540199,
+        "ci95": [
+          0.018170526683786506,
+          0.06374967695543413
+        ],
+        "valid_draws": 5000
+      },
+      "agreement": {
+        "estimate": 0.9394135494398577,
+        "ci95": [
+          0.9072830248085223,
+          0.9578157198001519
+        ],
+        "valid_draws": 5000
+      }
+    },
+    "Static_minus_Fresh": {
+      "human_correct_rate": {
+        "estimate": 0.19902145596269555,
+        "ci95": [
+          -0.045597564385723266,
+          0.4411674213572665
+        ],
+        "valid_draws": 5000
+      },
+      "miss_prevalence": {
+        "estimate": 0.10835350082006504,
+        "ci95": [
+          -0.010529544540283098,
+          0.26447703466994854
+        ],
+        "valid_draws": 5000
+      },
+      "conditional_miss_rate": {
+        "estimate": 0.17204608009445402,
+        "ci95": [
+          -0.084493460453664,
+          0.390800170753688
+        ],
+        "valid_draws": 5000
+      },
+      "false_credit_rate": {
+        "estimate": 0.010032163551267535,
+        "ci95": [
+          -0.035345757504817846,
+          0.06600290614698696
+        ],
+        "valid_draws": 5000
+      },
+      "agreement": {
+        "estimate": -0.10666779677042071,
+        "ci95": [
+          -0.26428788284439597,
+          0.015973601404663085
+        ],
+        "valid_draws": 5000
+      }
+    }
+  },
+  "provisional": false,
+  "label_basis": "majority of 3 with 34 adjudication overrides",
+  "n_disagreements_dropped": 0,
+  "why_provisional": null,
+  "does_metric_error_cancel_across_the_boundary": {
+    "estimand": "Static minus Fresh difference in the population-weighted proportion of ALL outputs that are human-correct but scored below 0.5 (not a conditional miss rate)",
+    "static_false_negative_rate": 0.1443,
+    "fresh_false_negative_rate": 0.0359,
+    "difference_pts": 10.84,
+    "ci95_pts": [
+      -1.05,
+      26.45
+    ],
+    "p_plus_one": 0.1304,
+    "excludes_zero": false,
+    "reading": "A positive difference would mean token-F1 under-credits Static answers more than Fresh ones, which would bias the measured Static-Fresh gap DOWNWARD. The point estimate points that way, but the interval includes zero: this is a caution about the endpoint, not a demonstrated bias, and it is leveraged by 40 calibration items carrying weights of 196 and 504."
+  },
+  "abstention_detector": {
+    "human_labelled_abstentions": 71,
+    "detected_by_our_rule": 35,
+    "recall": 0.493,
+    "reading": "Our is_abstention() rule matches only known prefixes, so refusals phrased mid-sentence ('Based on the documents provided, I cannot answer...') are scored as wrong answers. Reported rates are detector-defined; recall alone does not establish a lower bound without false-positive control."
+  },
+  "freshness_construct_reliability": {
+    "as_collected_5_labels": 0.4713,
+    "anachronistic_vs_rest": 0.8928,
+    "superseded_vs_rest": 0.3809,
+    "n_rows": 900,
+    "n_raters": 3,
+    "raters": [
+      "A",
+      "B",
+      "C"
+    ],
+    "statistic": "Krippendorff alpha (nominal) across all raters",
+    "threshold": 0.6,
+    "reading": "Temporal admissibility is measurable (kappa 0.8928) and independently corroborates the mechanical leakage audit. Staleness is not (kappa 0.3809): the annotators diverge on whether a fact COULD have changed, which is the SUPERSEDED/NOT_APPLICABLE boundary. No human-judged staleness claim is supportable, and that is itself evidence about the construct our stale-evidence taxonomy depends on.",
+    "usable_at_threshold": {
+      "as_collected_5_labels": false,
+      "anachronistic_vs_rest": true,
+      "superseded_vs_rest": false,
+      "threshold": true
+    }
+  },
+  "false_negative_classes": {
+    "other_paraphrase_or_alias": 38,
+    "unicode_punctuation": 26,
+    "number_or_currency_format": 17,
+    "hyphenation": 10,
+    "plural_or_case": 5
+  },
+  "n_false_negatives": 96,
+  "examples": [
+    {
+      "gold": "Wearing a shirt with the slogan \u2018White Lives Matter\u2019",
+      "system": "dressing in \"White Lives Matter\" shirts"
+    },
+    {
+      "gold": "Winter storms",
+      "system": "A major winter storm"
+    },
+    {
+      "gold": "\u201cFriends\u201d",
+      "system": "Friends"
+    },
+    {
+      "gold": "Water companies dumped sewage in the sea",
+      "system": "Raw sewage was released into the sea."
+    },
+    {
+      "gold": "Dolphin",
+      "system": "Dolphins"
+    },
+    {
+      "gold": "PCOS",
+      "system": "Polycystic ovary syndrome (PCOS)"
+    },
+    {
+      "gold": "Leading protests in favor of gun reform",
+      "system": "Protesting for gun control."
+    },
+    {
+      "gold": "Winter storms",
+      "system": "Winter storm warnings"
+    }
+  ]
+}

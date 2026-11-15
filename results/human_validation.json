@@ -1,0 +1,119 @@
+{
+  "scope": "Human correctness against the automatic metrics, reweighted to the population using the stratum weights.",
+  "label_provenance": "majority_of_3_with_34_adjudicated",
+  "annotators": [
+    "A",
+    "B",
+    "C"
+  ],
+  "is_adjudicated": true,
+  "provisional": false,
+  "consensus_rule": "majority_of_3_with_34_adjudicated",
+  "caveat": "Majority vote over three independent passes, with every contested item replaced by a blind third-party adjudicator's label. Full coverage and the hard cases examined.",
+  "n_adjudicated": 395,
+  "reweighting_note": "the sample deliberately over-represents disagreement strata; every rate below is population-weighted, so it is NOT the raw rate in the annotated file",
+  "population_weighted": {
+    "n_items": 395,
+    "population_covered": 1.0,
+    "human_correct_rate": 0.3911,
+    "token_f1_correct_rate": 0.3211,
+    "exact_match_correct_rate": 0.2353,
+    "f1_agrees_with_human": 0.8825,
+    "em_agrees_with_human": 0.8442,
+    "f1_credits_a_non_correct": 0.0238,
+    "conditional_miss_rate_given_human_correct": 0.2397,
+    "conditional_false_credit_given_human_not_correct": 0.039,
+    "conditional_miss_rate_ci95": [
+      0.0966,
+      0.3839
+    ],
+    "f1_agrees_with_human_ci95": [
+      0.7907,
+      0.946
+    ],
+    "human_correct_rate_ci95": [
+      0.3275,
+      0.4829
+    ],
+    "f1_credits_a_strictly_incorrect": 0.0199,
+    "f1_misses_a_human_right": 0.0938
+  },
+  "hard_subset_only": {
+    "n_items": 355,
+    "population_covered": 0.1602,
+    "human_correct_rate": 0.5956,
+    "token_f1_correct_rate": 0.5359,
+    "exact_match_correct_rate": 0.0,
+    "f1_agrees_with_human": 0.6437,
+    "em_agrees_with_human": 0.4044,
+    "f1_credits_a_non_correct": 0.1483,
+    "conditional_miss_rate_given_human_correct": 0.3492,
+    "conditional_false_credit_given_human_not_correct": 0.3668,
+    "conditional_miss_rate_ci95": [
+      0.3114,
+      0.3884
+    ],
+    "f1_agrees_with_human_ci95": [
+      0.5925,
+      0.6939
+    ],
+    "human_correct_rate_ci95": [
+      0.5435,
+      0.6459
+    ],
+    "f1_credits_a_strictly_incorrect": 0.1244,
+    "f1_misses_a_human_right": 0.208,
+    "what_this_is": "the disagreement/alias/abstention/other strata only -- the cases the sample deliberately over-represents. Informative about WHERE the metric fails, but it is NOT a population rate."
+  },
+  "endpoint_audited": "This audit evaluates the THRESHOLDED decision 1[token-F1 >= 0.5], not continuous token-F1. Agreement of a thresholded decision does not validate the continuous score or the mean contrasts the paper reports.",
+  "reliability_vs_validity": "Krippendorff alpha 0.904 is inter-ANNOTATOR reliability. Agreement between the metric and the human label is a different quantity and is much lower (kappa 0.36). Do not quote the first as evidence for the second.",
+  "exact_match_caveat": "Within the hard subset exact match is 0 by construction: the stratum where EM succeeds (calibration_clear_correct) is defined by EM==1 and is excluded there. Only the full-population block says anything meaningful about EM.",
+  "unweighted_kappa_vs_human": {
+    "token_f1": 0.3564,
+    "exact_match": 0.1018
+  },
+  "human_label_distribution": {
+    "INCORRECT": 105,
+    "CORRECT": 197,
+    "PARTIAL": 22,
+    "ABSTAIN": 71
+  },
+  "by_stratum": {
+    "abstention": {
+      "n": 35,
+      "weight": 1.0,
+      "human_correct_rate_in_stratum": 0.0,
+      "f1_agrees": 1.0
+    },
+    "alias_or_partial": {
+      "n": 112,
+      "weight": 12.786,
+      "human_correct_rate_in_stratum": 0.7232,
+      "f1_agrees": 0.7232
+    },
+    "calibration_clear_correct": {
+      "n": 20,
+      "weight": 196.25,
+      "human_correct_rate_in_stratum": 1.0,
+      "f1_agrees": 1.0
+    },
+    "calibration_clear_wrong": {
+      "n": 20,
+      "weight": 504.25,
+      "human_correct_rate_in_stratum": 0.1,
+      "f1_agrees": 0.9
+    },
+    "metric_disagreement": {
+      "n": 128,
+      "weight": 5.945,
+      "human_correct_rate_in_stratum": 0.6719,
+      "f1_agrees": 0.3281
+    },
+    "other": {
+      "n": 80,
+      "weight": 5.55,
+      "human_correct_rate_in_stratum": 0.1,
+      "f1_agrees": 0.9
+    }
+  }
+}

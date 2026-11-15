@@ -1,0 +1,600 @@
+{"qid": "freshqa_0", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Apollo 11's lunar module pilot, Buzz Aldrin, became the first person to walk on the Moon on July 20, 196", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_1", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Joaquin", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_2", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1976", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_3", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Harvey Milk", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_4", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "algorithms", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_5", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1984", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_6", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2016", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_7", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1920", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_8", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2011", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_9", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1976", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_10", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1780", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_11", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2013", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_12", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2016", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_13", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1987", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_14", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2016", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_15", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2005", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_16", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2002", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_17", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2013", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_18", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "68.7 billion dollars", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_19", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_20", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2016, 2017, 2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_21", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2016", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_22", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "none", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_23", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2 billion USD", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_24", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2013", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_25", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Unforgiven", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_26", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1996", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_27", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_28", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_29", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_30", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2014", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_31", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2013", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_32", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "November", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_33", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2011", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_34", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_35", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_36", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1973", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_37", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "105", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_38", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Rosalynn Carter", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_39", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1978", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_40", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Nancy Arden", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_41", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_42", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Russia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_43", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "50", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_44", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "John Smith", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_45", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2004-present", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_46", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "5", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_47", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1964", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_48", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Ethereum", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_49", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2014", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_50", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_51", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2013", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_52", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1898", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_53", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1932", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_54", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Fernando Henrique Cardoso", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_55", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Jacques Hamilton", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_56", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Obstruction of Congress", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_57", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "30 years", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_58", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2.14 million", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_59", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "January 15, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_60", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Zinedine Zidane", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_61", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Yes", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_62", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "245", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_63", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1969", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_64", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "September 23, 1944", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_65", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "12", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_66", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "105", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_67", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_68", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_69", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "945", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_70", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1997", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_71", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1846", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_72", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2009", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_73", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "oseltamivir", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_74", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_75", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1865", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_76", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2006", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_77", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_78", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1861", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_79", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2045", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_80", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1368", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_81", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1217", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_82", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2014", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_83", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "June 19, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_84", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Grand Canyon", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_85", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Saratov", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_86", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "USA, Canada, Mexico", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_87", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "450 million euros", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_88", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "24.8 rebounds per game", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_89", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "mercury", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_90", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Taliban", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_91", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_92", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "September 28, 2026", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_93", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "September", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_94", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "180", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_95", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "10:00pm", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_96", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Kevin McCarthy", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_97", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "4,098", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_98", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "October 2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_99", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Coco", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_100", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "October 30, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_101", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "44 wins", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_102", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "October 7, 2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_103", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "February 5\u20136, 2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_104", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "City of Hope", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_105", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "250", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_106", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "November", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_107", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "\"Get Out There\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_108", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_109", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Siam Paragon Hotel", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_110", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "14%", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_111", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Adidas", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_112", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Round of 16", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_113", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Roger Federer", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_114", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "12 minutes 30 seconds", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_115", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_116", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "4 years", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_117", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1729", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_118", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "The tweet read \"Sorry for the confusion. I am now back on Twitter.\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_119", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "26", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_120", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "4 years", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_121", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "50", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_122", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Chris Meldrum", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_123", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "co-founder", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_124", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "3", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_125", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_126", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "115", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_127", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Ronnie O'Sullivan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_128", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Larry Page", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_129", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "$10 per day", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_130", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Harvard University", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_131", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "3 minutes 46 seconds", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_132", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "20", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_133", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Angela Merkel", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_134", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Call of Duty", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_135", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "California", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_136", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "52", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_137", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_138", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Drake", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_139", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "193", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_140", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Cambridge University", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_141", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Thriller", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_142", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Yahya Mohd Yusof", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_143", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "42", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_144", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Tesla, Inc. headquarters is located in Palo Alto, California.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_145", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "94", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_146", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Chinese", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_147", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Slumdog Millionaire", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_148", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Chinese", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_149", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "SUGA", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_150", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "yes", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_151", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Santiago", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_152", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Papua New Guinea War", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_153", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "James Webb Telescope", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_154", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "19", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_155", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Denmark", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_156", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "13", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_157", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "25", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_158", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "After Hours", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_159", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_160", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "709", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_161", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "10", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_162", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "74", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_163", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "12", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_164", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Rafael Nadal", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_165", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Azteca Stadium", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_166", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1989", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_167", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Fumio Kishida", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_168", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Suryavamsi", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_169", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Chris Wood", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_170", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2018 Turing Award", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_171", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2013", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_172", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Yes", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_173", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Donald Trump", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_174", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "4.8", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_175", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "500", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_176", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Poland", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_177", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Dust", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_178", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Rishi Sunak", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_179", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Rishi Sunak", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_180", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "LeBron James", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_181", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2014 Ebola virus disease outbreak", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_182", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "$109.00", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_183", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Summit (US Department of Energy)", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_184", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "May 20, 2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_185", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Rio de Janeiro, Brazil", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_186", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2016", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_187", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "February 29, 2024", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_188", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2013", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_189", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "14", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_190", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Jack Dorsey", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_191", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "6", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_192", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Robert A. Brown", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_193", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Nancy Pelosi", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_194", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Spirited Away", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_195", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Real Madrid", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_196", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "United States", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_197", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Kuna", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_198", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Ayman al-Zawahri", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_199", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "925", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_200", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "France", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_201", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "$610 million", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_202", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "4", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_203", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Katherine Forrestal", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_204", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Russia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_205", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Queen Elizabeth II", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_206", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Bayern Munich", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_207", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Jack Dorsey", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_208", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Daryl F. Davis", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_209", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_210", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "800", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_211", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "$10. 5 million", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_212", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Swedish peat bog", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_213", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "seahawks", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_214", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "\"Avengers: Endgame\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_215", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Jakarta", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_216", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2024", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_217", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Jo\u00e3o Goulart", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_218", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Maryam Mirzakhani", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_219", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_220", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Brazil 2014", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_221", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "492 meters", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_222", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "United States", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_223", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Tom Cruise", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_224", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "USA", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_225", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "56,000", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_226", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "4", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_227", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "125", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_228", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_229", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "5", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_230", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "14", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_231", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Russia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_232", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "8", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_233", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Michelle Obama", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_234", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Rochester Institute of Technology", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_235", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Elon Musk", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_236", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "New York City", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_237", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Guinea", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_238", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "10", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_239", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Kylie Jenner", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_240", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_241", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "12", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_242", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Steven Spielberg", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_243", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Barney Stern", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_244", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Nigeria 3\u20132 Croatia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_245", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Sputnik 1", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_246", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1750M", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_247", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Iran", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_248", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Shanghai", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_249", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Belarus", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_250", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Hawaii", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_251", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_252", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Stanford University", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_253", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Blue whale", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_254", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Mount McKinley", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_255", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Dachshund", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_256", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Ale", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_257", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Belgium", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_258", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1972", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_259", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Edward W. Said", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_260", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "clastic", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_261", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "yes", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_262", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Cleopatra", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_263", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Lance Stroll", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_264", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Ted Kaczynski", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_265", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Pikachu, Eevee", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_266", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "New Mexico", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_267", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_268", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "November 9, 1989", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_269", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "January 15, 1977", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_270", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Lech Wa\u0142\u0119sa", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_271", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1941", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_272", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "January 10, 2016", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_273", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Nintendo", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_274", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "February 12, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_275", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "north", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_276", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Amherst, Massachusetts", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_277", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Ta-Nehisi Coates", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_278", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1994", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_279", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Boston", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_280", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Tokyo Sagan Tosu", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_281", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Let It Be", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_282", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Paris", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_283", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1720", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_284", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Pausanias", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_285", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "\u5e74", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_286", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Russia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_287", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Mary Ann Evans", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_288", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "New York City", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_289", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Jim Wynorski", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_290", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "87", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_291", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Japanese side", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_292", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "September", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_293", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "captain harry redknapp", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_294", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Philippines", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_295", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "5:30 AM", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_296", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "London, England", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_297", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "lactobacillus bulgaricus", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_298", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2016", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_299", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Blizzard Entertainment", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_300", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "giant tortoise", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_301", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "De Broglie", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_302", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Baden-W\u00fcrttemberg", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_303", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Fight Club", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_304", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1975", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_305", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "United States, Canada, Mexico", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_306", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "12", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_307", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1920", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_308", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "5", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_309", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "New Zealand", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_310", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "politics and morality", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_311", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "907 AD", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_312", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Mount Katahdin", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_313", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Oakland", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_314", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Canada and United States", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_315", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Aldarion", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_316", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "July 4, 1776", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_317", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Rutherford B. Hayes", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_318", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Arthur Conan Doyle", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_319", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Pel\u00e9", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_320", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Magnus Carlsen accused Fabiano Chiarimonica of cheating in chess in 2022.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_321", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "10,000", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_322", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_323", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Tetsuya Takahashi", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_324", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2019-03-18", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_325", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Bill Nye", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_326", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Margaret Chase Smith", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_327", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "September 8, 2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_328", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Koch\u0e34hiro Nakanishi", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_329", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "James S. A. Corey", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_330", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Zinedine Zidane", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_331", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Pele", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_332", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1987", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_333", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Irena Grubec", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_334", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "600", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_335", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "University of Missouri-St Louis", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_336", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "The 20th episode", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_337", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "\"The Wizard of West Springfield\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_338", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "The Godfather", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_339", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Irene Pace", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_340", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "19 years old", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_341", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "USA", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_342", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Zinedine Zidane", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_343", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Hinton", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_344", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Alaska", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_345", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Sacramento", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_346", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Gravesite at Mount Vernon", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_347", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "King's Landing", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_348", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Qianlong", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_349", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1996", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_350", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Vienna", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_351", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "African Rift Valley", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_352", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Jiangsu", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_353", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Alex Krizhevsky", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_354", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Elizabeth Bennet", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_355", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Poland", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_356", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1934", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_357", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "ACM", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_358", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Taylor Swift", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_359", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "45", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_360", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Toadstools", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_361", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "36", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_362", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Ike", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_363", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "san francisco", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_364", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "David Beckham", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_365", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "92", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_366", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "SARS", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_367", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "13 years", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_368", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Montreal", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_369", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_370", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "\"Clueless\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_371", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "China", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_372", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "China", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_373", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Lewis Hamilton", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_374", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Jordyn Brown", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_375", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "4,006", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_376", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "45", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_377", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Joker", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_378", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "56", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_379", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2856", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_380", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_381", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "\"Harry Potter and the Sorcerer's Stone\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_382", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "See also: https://en.wikipedia.org/wiki/Special:PopularPages", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_383", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "14.99", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_384", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Billie Eilish", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_385", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "The Shawshank Redemption", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_386", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "12", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_387", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "LeBron James", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_388", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Jordyn Wise", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_389", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_390", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Rafael Nadal", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_391", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "December 29, 2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_392", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "France", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_393", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Denis Yallop", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_394", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Chiefs", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_395", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Montr\u00e9al, Canada", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_396", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "April 10 - April 12", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_397", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "November 27, 2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_398", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "April 15, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_399", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Agnieszka Radwa\u0144ska, Dominika Cibulkov\u00e1", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_400", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "576", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_401", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "May 14", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_402", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "June 18", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_403", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Austin, Texas", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_404", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "CBS", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_405", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Avengers: Endgame", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_406", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "705", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_407", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_408", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Thursday, November 24, 2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_409", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "September 7, 2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_410", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Foxborough Rancho Field", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_411", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "January 20, 2017", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_412", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Coco", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_413", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Moonlight", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_414", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "52", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_415", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "The Shining III", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_416", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Spring", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_417", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "New Year's Day", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_418", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2019-03-05", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_419", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "October 6, 2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_420", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Jordyn Woodson", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_421", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "52", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_422", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Marlon Mack", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_423", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "$49,900", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_424", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "10.0.2", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_425", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Bill Gates", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_426", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Manchester City", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_427", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Yes", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_428", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Barack Obama", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_429", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Big Sur", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_430", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Marc Marquez", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_431", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Svetlana Alexievich", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_432", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Usain Bolt", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_433", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Frozen II", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_434", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Frozen II", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_435", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "GTA V", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_436", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_437", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2016-2017", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_438", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Fernando Alonso", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_439", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "\"Breaking Bad\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_440", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_441", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Seoul, South Korea", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_442", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_443", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "73", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_444", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "\"Never Let Me Go\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_445", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Golden State Warriors", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_446", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "42", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_447", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "38", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_448", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Jordyn Woodson", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_449", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Barack Obama", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_450", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "The Eminem album \"8 Mile\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_451", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Simona Halep", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_452", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Yes", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_453", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Season 3, Episode 1", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_454", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "$399", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_455", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Connecticut", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_456", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "16 years old", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_457", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Puppet Quest 2", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_458", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "10", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_459", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_460", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1254", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_461", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "84%", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_462", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "82%", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_463", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2019-2020", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_464", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "yes", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_465", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2005", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_466", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "126 years", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_467", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "105 million followers", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_468", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "30", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_469", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "August 25", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_470", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Stephen King", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_471", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Kylie Jenner", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_472", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "December 2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_473", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "52", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_474", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Fight Club", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_475", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "230 years", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_476", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "10", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_477", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Yes", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_478", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "115 years old", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_479", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Cameroon", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_480", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "52", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_481", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "92", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_482", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "England", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_483", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2053", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_484", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Sweden", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_485", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "NBA - Golden State Warriors, NHL - Toronto Maple Leafs, MLB - New York Yankees", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_486", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "United States", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_487", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1987", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_488", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "91", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_489", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "100 miles", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_490", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "20 years old", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_491", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "246", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_492", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_493", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "New England Patriots", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_494", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Belarus", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_495", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "United States", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_496", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "yes", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_497", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_498", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "TikTok", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_499", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "3", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_500", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Justin Trudeau", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_501", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1996", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_502", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2014", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_503", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2007", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_504", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_505", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Dreamgirls", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_506", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1974", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_507", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_508", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Rome", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_509", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Canva", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_510", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Maryam Mirzakhani", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_511", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1973", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_512", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "145", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_513", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Rome", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_514", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Apple M1 GPU", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_515", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Stanford University", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_516", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "65 million", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_517", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Pavonis Mons", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_518", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Mike Brown", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_519", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "365", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_520", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Daddy Yankee's next studio album is \"El Rey\" released in 2018.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_521", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "January 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_522", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "January", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_523", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "90", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_524", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "14", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_525", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Cleveland Cavaliers", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_526", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Airbus A380", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_527", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Mariana Trench", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_528", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Chinese", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_529", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2015", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_530", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Brazil", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_531", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "github.com/trending", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_532", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2016", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_533", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Paris Saint-Germain", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_534", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "10800 yen", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_535", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Ken Jennings", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_536", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "don bradman", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_537", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "No.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_538", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "$10.50", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_539", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Microsoft's purchase of Nokia's mobile phone business in 2014 for $7. 2 billion.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_540", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Ramsay MacDonald", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_541", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Cold War", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_542", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_543", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "4", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_544", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "4.5 billion years old", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_545", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Katie Holmes", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_546", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "240 million dollars", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_547", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Michelle Obama", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_548", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Neymar Jr.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_549", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "14", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_550", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Instagram team", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_551", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_552", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "A Night to Remember", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_553", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "7", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_554", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Richard Bartle", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_555", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Frank Rosenblatt", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_556", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "San Jos\u00e9", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_557", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1934", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_558", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "William Boeing", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_559", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Vincent van Gogh", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_560", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Estella", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_561", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Kawaguchi Air Base", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_562", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Stanford University", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_563", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Red Garland", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_564", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Sirius", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_565", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Steven Spielberg", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_566", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "145", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_567", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Peony", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_568", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "yes", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_569", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "New York", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_570", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Kim Kardashian West", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_571", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_572", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Vancouver", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_573", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "7", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_574", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Kenneth O'Hara", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_575", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "John Lennon", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_576", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Emperor Wu of Han", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_577", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "246", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_578", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "7 billion", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_579", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Italy", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_580", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Coco", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_581", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2024", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_582", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "September 18", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_583", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Captain Phillips", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_584", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Next full moon on April 19, 2023.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_585", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "January", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_586", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "\"King Gizzard & The Lizard Wizard\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_587", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Dorian", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_588", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "China Telecom Team", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_589", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Jenna Ortega", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_590", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "The Office", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_591", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Changsha", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_592", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Avengers: Endgame", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_593", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "456", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_594", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "90\u00b0F", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_595", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "25", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_596", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Yes", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_597", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "A12 Bionic", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_598", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "1986", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_599", "condition": "freshqa", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "38", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}

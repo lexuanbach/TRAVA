@@ -1,0 +1,30 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "max_length": 4096,
+  "arms": {
+    "k3": {
+      "n": 878,
+      "max": 697,
+      "median": 557,
+      "n_over_limit": 0
+    },
+    "k5": {
+      "n": 878,
+      "max": 1050,
+      "median": 853,
+      "n_over_limit": 0
+    },
+    "k10refused": {
+      "n": 878,
+      "max": 1968,
+      "median": 1594,
+      "n_over_limit": 0
+    },
+    "k10prefix": {
+      "n": 878,
+      "max": 1968,
+      "median": 1594,
+      "n_over_limit": 0
+    }
+  }
+}

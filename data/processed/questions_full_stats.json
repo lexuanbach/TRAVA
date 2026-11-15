@@ -1,0 +1,29 @@
+{
+  "n_questions_full": 4176,
+  "n_questions_sampled": 878,
+  "expansion": 4.76,
+  "by_year": {
+    "2022": 708,
+    "2023": 1224,
+    "2024": 1218,
+    "2025": 680,
+    "2026": 346
+  },
+  "boundary_2025": {
+    "static": 3150,
+    "fresh": 1026
+  },
+  "is_superset_of_sampled": true,
+  "mean_gold_docs": 8.09,
+  "note": "Same filters as questions.jsonl; the per-year sampling cap is removed. The `split` field here IS the 2025 analysis boundary (unlike questions.jsonl, whose split field is the 2026 calendar boundary).",
+  "n_question_rows": 4176,
+  "n_unique_questions": 4176,
+  "n_duplicate_ids": 0,
+  "count_provenance": {
+    "source": "data/processed/questions_full.jsonl",
+    "sha256": "cb3b993534957a578e82b65540e05ee27780c7fae13c131667c0bd9313531fc9",
+    "recount_date": "2026-11-14",
+    "previous_metadata_count": 4182,
+    "explanation": "Current file has 4176 rows and 4176 distinct IDs, no duplicates. The old metadata overcounts 2023 by six; the removed-record history is not established by this recount."
+  }
+}

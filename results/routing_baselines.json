@@ -1,0 +1,3541 @@
+{
+  "scope": "Per-question routing policies scored on cached closed-book and RAG outputs; no new generation.",
+  "inference": "Every policy is compared against the better fixed policy (always- or never-retrieve) by a PAIRED quiz-clustered bootstrap of the per-question difference, Holm-corrected across the nine generators.",
+  "gold_conditioned_are_not_policies": "GOLD_STRING and GOLD_NLI use the gold answer. They are diagnostics, not deployable rules, and neither is an upper bound: GOLD_STRING is below always-retrieve for one generator and below the lexical gate for two.",
+  "ceiling": "PERQ_BEST -- retrieve iff that raises this question's score -- is the per-question upper bound over all deterministic gates, so recovered fractions are at most 1 and are defined for every generator.",
+  "cross_fitting": "20 repeated two-fold splits over the 199 quizzes; each fold's threshold is tuned on the complementary fold, so every question is scored under a threshold that never saw it.",
+  "models": {
+    "gpt4omini": {
+      "n_questions": 878,
+      "n_quizzes": 199,
+      "cross_fit": {
+        "overlap": {
+          "thresholds": [
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.8
+            ],
+            [
+              0.7,
+              0.8
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.8
+            ],
+            [
+              0.7,
+              0.8
+            ],
+            [
+              0.7,
+              0.8
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.65,
+              0.8
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ]
+          ],
+          "threshold_min": 0.65,
+          "threshold_max": 0.8,
+          "retrieve_rate_mean": 0.748,
+          "retrieve_rate_range": [
+            0.617,
+            0.83
+          ],
+          "score_mean": 42.17,
+          "score_range": [
+            41.287,
+            42.693
+          ]
+        },
+        "consensus": {
+          "thresholds": [
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.0,
+              0.35
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.35,
+              0.55
+            ]
+          ],
+          "threshold_min": 0.0,
+          "threshold_max": 0.55,
+          "retrieve_rate_mean": 0.635,
+          "retrieve_rate_range": [
+            0.54,
+            0.861
+          ],
+          "score_mean": 41.712,
+          "score_range": [
+            39.091,
+            42.291
+          ]
+        }
+      },
+      "policies": {
+        "never": {
+          "mean": 36.244,
+          "ci95": [
+            32.33,
+            40.412
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.0
+        },
+        "always": {
+          "mean": 34.526,
+          "ci95": [
+            30.537,
+            38.591
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 1.0
+        },
+        "recency": {
+          "mean": 32.939,
+          "ci95": [
+            29.138,
+            37.001
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "self_knowledge": {
+          "mean": 36.317,
+          "ci95": [
+            32.412,
+            40.491
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_string": {
+          "mean": 42.031,
+          "ci95": [
+            37.916,
+            46.307
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "perq_best": {
+          "mean": 50.45,
+          "ci95": [
+            46.235,
+            54.765
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "overlap": {
+          "mean": 38.443,
+          "ci95": [
+            34.478,
+            42.327
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.748
+        },
+        "consensus": {
+          "mean": 39.285,
+          "ci95": [
+            35.432,
+            43.258
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.635
+        },
+        "cutoff": {
+          "mean": 36.76,
+          "ci95": [
+            32.745,
+            40.824
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_nli": {
+          "mean": 41.154,
+          "ci95": [
+            37.055,
+            45.206
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        }
+      },
+      "vs_reference": {
+        "always": {
+          "delta": -1.719,
+          "ci95": [
+            -6.282,
+            2.81
+          ],
+          "p_plus_one": 0.46711,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "recency": {
+          "delta": -3.305,
+          "ci95": [
+            -6.145,
+            -0.655
+          ],
+          "p_plus_one": 0.0144,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "self_knowledge": {
+          "delta": 0.073,
+          "ci95": [
+            0.0,
+            0.192
+          ],
+          "p_plus_one": 0.26675,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_string": {
+          "delta": 5.787,
+          "ci95": [
+            2.296,
+            9.39
+          ],
+          "p_plus_one": 0.0028,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "perq_best": {
+          "delta": 14.205,
+          "ci95": [
+            11.456,
+            17.132
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "overlap": {
+          "delta": 2.199,
+          "ci95": [
+            -1.417,
+            5.791
+          ],
+          "p_plus_one": 0.25915,
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "p_holm": 0.9646
+        },
+        "consensus": {
+          "delta": 3.041,
+          "ci95": [
+            -0.156,
+            6.319
+          ],
+          "p_plus_one": 0.06439,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "cutoff": {
+          "delta": 0.516,
+          "ci95": [
+            -3.485,
+            4.663
+          ],
+          "p_plus_one": 0.78504,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_nli": {
+          "delta": 4.91,
+          "ci95": [
+            0.939,
+            8.732
+          ],
+          "p_plus_one": 0.0156,
+          "n_quizzes": 199,
+          "n_questions": 878
+        }
+      },
+      "reference": "never"
+    },
+    "llama3_8b": {
+      "n_questions": 878,
+      "n_quizzes": 199,
+      "cross_fit": {
+        "overlap": {
+          "thresholds": [
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.55,
+              0.65
+            ],
+            [
+              0.55,
+              0.65
+            ],
+            [
+              0.55,
+              0.75
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.55,
+              0.65
+            ],
+            [
+              0.6,
+              0.65
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.55,
+              0.65
+            ],
+            [
+              0.55,
+              0.75
+            ],
+            [
+              0.55,
+              0.65
+            ],
+            [
+              0.65,
+              0.75
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.5,
+              0.65
+            ],
+            [
+              0.55,
+              0.65
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.65,
+              0.75
+            ]
+          ],
+          "threshold_min": 0.5,
+          "threshold_max": 0.75,
+          "retrieve_rate_mean": 0.841,
+          "retrieve_rate_range": [
+            0.716,
+            0.916
+          ],
+          "score_mean": 36.334,
+          "score_range": [
+            35.107,
+            36.948
+          ]
+        },
+        "consensus": {
+          "thresholds": [
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.0,
+              0.35
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.0,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.0,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.0,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.0,
+              0.35
+            ],
+            [
+              0.0,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.0,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ]
+          ],
+          "threshold_min": 0.0,
+          "threshold_max": 0.35,
+          "retrieve_rate_mean": 0.829,
+          "retrieve_rate_range": [
+            0.7,
+            0.869
+          ],
+          "score_mean": 35.571,
+          "score_range": [
+            34.888,
+            35.958
+          ]
+        }
+      },
+      "policies": {
+        "never": {
+          "mean": 24.817,
+          "ci95": [
+            21.236,
+            28.567
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.0
+        },
+        "always": {
+          "mean": 31.495,
+          "ci95": [
+            27.731,
+            35.265
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 1.0
+        },
+        "recency": {
+          "mean": 26.947,
+          "ci95": [
+            23.44,
+            30.719
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "self_knowledge": {
+          "mean": 24.84,
+          "ci95": [
+            21.268,
+            28.59
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_string": {
+          "mean": 34.415,
+          "ci95": [
+            30.436,
+            38.377
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "perq_best": {
+          "mean": 42.333,
+          "ci95": [
+            38.378,
+            46.246
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "overlap": {
+          "mean": 33.087,
+          "ci95": [
+            29.399,
+            36.79
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.841
+        },
+        "consensus": {
+          "mean": 32.151,
+          "ci95": [
+            28.456,
+            35.755
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.829
+        },
+        "cutoff": {
+          "mean": 30.446,
+          "ci95": [
+            26.767,
+            34.281
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_nli": {
+          "mean": 35.029,
+          "ci95": [
+            31.17,
+            38.829
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        }
+      },
+      "vs_reference": {
+        "never": {
+          "delta": -6.678,
+          "ci95": [
+            -10.859,
+            -2.571
+          ],
+          "p_plus_one": 0.0012,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "recency": {
+          "delta": -4.548,
+          "ci95": [
+            -7.7,
+            -1.557
+          ],
+          "p_plus_one": 0.004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "self_knowledge": {
+          "delta": -6.655,
+          "ci95": [
+            -10.826,
+            -2.531
+          ],
+          "p_plus_one": 0.0012,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_string": {
+          "delta": 2.919,
+          "ci95": [
+            0.745,
+            5.211
+          ],
+          "p_plus_one": 0.0068,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "perq_best": {
+          "delta": 10.837,
+          "ci95": [
+            8.381,
+            13.402
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "overlap": {
+          "delta": 1.592,
+          "ci95": [
+            0.179,
+            3.195
+          ],
+          "p_plus_one": 0.02839,
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "p_holm": 0.17034
+        },
+        "consensus": {
+          "delta": 0.655,
+          "ci95": [
+            -0.918,
+            2.225
+          ],
+          "p_plus_one": 0.42112,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "cutoff": {
+          "delta": -1.049,
+          "ci95": [
+            -2.585,
+            0.419
+          ],
+          "p_plus_one": 0.16757,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_nli": {
+          "delta": 3.533,
+          "ci95": [
+            1.693,
+            5.597
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        }
+      },
+      "reference": "always"
+    },
+    "mistral_large": {
+      "n_questions": 878,
+      "n_quizzes": 199,
+      "cross_fit": {
+        "overlap": {
+          "thresholds": [
+            [
+              0.7,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.75
+            ],
+            [
+              0.7,
+              0.7
+            ],
+            [
+              0.7,
+              0.8
+            ],
+            [
+              0.65,
+              0.8
+            ],
+            [
+              0.7,
+              0.8
+            ],
+            [
+              0.7,
+              0.7
+            ],
+            [
+              0.7,
+              0.8
+            ],
+            [
+              0.65,
+              0.8
+            ],
+            [
+              0.7,
+              0.8
+            ],
+            [
+              0.7,
+              0.8
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.7,
+              0.8
+            ],
+            [
+              0.7,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.7,
+              0.7
+            ],
+            [
+              0.7,
+              0.75
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ]
+          ],
+          "threshold_min": 0.65,
+          "threshold_max": 0.8,
+          "retrieve_rate_mean": 0.707,
+          "retrieve_rate_range": [
+            0.614,
+            0.794
+          ],
+          "score_mean": 43.32,
+          "score_range": [
+            42.343,
+            44.038
+          ]
+        },
+        "consensus": {
+          "thresholds": [
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.35,
+              0.55
+            ]
+          ],
+          "threshold_min": 0.35,
+          "threshold_max": 0.55,
+          "retrieve_rate_mean": 0.592,
+          "retrieve_rate_range": [
+            0.536,
+            0.7
+          ],
+          "score_mean": 43.24,
+          "score_range": [
+            42.563,
+            43.791
+          ]
+        }
+      },
+      "policies": {
+        "never": {
+          "mean": 36.21,
+          "ci95": [
+            32.407,
+            40.219
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.0
+        },
+        "always": {
+          "mean": 36.513,
+          "ci95": [
+            32.576,
+            40.557
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 1.0
+        },
+        "recency": {
+          "mean": 33.325,
+          "ci95": [
+            29.365,
+            37.228
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "self_knowledge": {
+          "mean": 36.21,
+          "ci95": [
+            32.407,
+            40.219
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_string": {
+          "mean": 42.978,
+          "ci95": [
+            38.988,
+            46.979
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "perq_best": {
+          "mean": 51.061,
+          "ci95": [
+            47.224,
+            54.994
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "overlap": {
+          "mean": 39.962,
+          "ci95": [
+            36.202,
+            43.625
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.707
+        },
+        "consensus": {
+          "mean": 40.585,
+          "ci95": [
+            36.793,
+            44.411
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.592
+        },
+        "gold_nli": {
+          "mean": 41.436,
+          "ci95": [
+            37.457,
+            45.308
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        }
+      },
+      "vs_reference": {
+        "never": {
+          "delta": -0.303,
+          "ci95": [
+            -4.839,
+            4.204
+          ],
+          "p_plus_one": 0.90382,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "recency": {
+          "delta": -3.188,
+          "ci95": [
+            -6.807,
+            0.113
+          ],
+          "p_plus_one": 0.05839,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "self_knowledge": {
+          "delta": -0.303,
+          "ci95": [
+            -4.839,
+            4.204
+          ],
+          "p_plus_one": 0.90382,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_string": {
+          "delta": 6.466,
+          "ci95": [
+            4.085,
+            8.995
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "perq_best": {
+          "delta": 14.549,
+          "ci95": [
+            11.729,
+            17.402
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "overlap": {
+          "delta": 3.45,
+          "ci95": [
+            1.224,
+            5.756
+          ],
+          "p_plus_one": 0.0048,
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "p_holm": 0.0336
+        },
+        "consensus": {
+          "delta": 4.072,
+          "ci95": [
+            1.291,
+            6.954
+          ],
+          "p_plus_one": 0.0044,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_nli": {
+          "delta": 4.923,
+          "ci95": [
+            2.931,
+            7.086
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        }
+      },
+      "reference": "always"
+    },
+    "qwen1_5b": {
+      "n_questions": 878,
+      "n_quizzes": 199,
+      "cross_fit": {
+        "overlap": {
+          "thresholds": [
+            [
+              0.45,
+              0.55
+            ],
+            [
+              0.45,
+              0.5
+            ],
+            [
+              0.45,
+              0.5
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              0.45
+            ],
+            [
+              0.45,
+              0.5
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              0.65
+            ],
+            [
+              0.0,
+              0.45
+            ],
+            [
+              0.45,
+              0.55
+            ],
+            [
+              0.0,
+              0.45
+            ],
+            [
+              0.5,
+              0.65
+            ],
+            [
+              0.45,
+              0.5
+            ],
+            [
+              0.0,
+              0.55
+            ],
+            [
+              0.0,
+              0.65
+            ],
+            [
+              0.0,
+              0.65
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.45,
+              0.5
+            ]
+          ],
+          "threshold_min": 0.0,
+          "threshold_max": 0.65,
+          "retrieve_rate_mean": 0.976,
+          "retrieve_rate_range": [
+            0.907,
+            0.999
+          ],
+          "score_mean": 33.811,
+          "score_range": [
+            32.938,
+            34.099
+          ]
+        },
+        "consensus": {
+          "thresholds": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.2
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.2
+            ]
+          ],
+          "threshold_min": 0.0,
+          "threshold_max": 0.2,
+          "retrieve_rate_mean": 0.997,
+          "retrieve_rate_range": [
+            0.969,
+            1.0
+          ],
+          "score_mean": 34.035,
+          "score_range": [
+            33.56,
+            34.085
+          ]
+        }
+      },
+      "policies": {
+        "never": {
+          "mean": 16.158,
+          "ci95": [
+            13.104,
+            19.456
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.0
+        },
+        "always": {
+          "mean": 31.034,
+          "ci95": [
+            27.196,
+            34.999
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 1.0
+        },
+        "recency": {
+          "mean": 21.859,
+          "ci95": [
+            18.46,
+            25.398
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "self_knowledge": {
+          "mean": 16.158,
+          "ci95": [
+            13.104,
+            19.456
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_string": {
+          "mean": 31.839,
+          "ci95": [
+            28.053,
+            35.621
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "perq_best": {
+          "mean": 37.848,
+          "ci95": [
+            33.969,
+            41.954
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "overlap": {
+          "mean": 30.934,
+          "ci95": [
+            27.134,
+            34.853
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.976
+        },
+        "consensus": {
+          "mean": 30.983,
+          "ci95": [
+            27.148,
+            34.931
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.997
+        },
+        "gold_nli": {
+          "mean": 33.905,
+          "ci95": [
+            29.945,
+            37.858
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        }
+      },
+      "vs_reference": {
+        "never": {
+          "delta": -14.876,
+          "ci95": [
+            -19.272,
+            -10.46
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "recency": {
+          "delta": -9.175,
+          "ci95": [
+            -12.713,
+            -5.847
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "self_knowledge": {
+          "delta": -14.876,
+          "ci95": [
+            -19.272,
+            -10.46
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_string": {
+          "delta": 0.806,
+          "ci95": [
+            -1.238,
+            2.964
+          ],
+          "p_plus_one": 0.46911,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "perq_best": {
+          "delta": 6.815,
+          "ci95": [
+            4.727,
+            9.237
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "overlap": {
+          "delta": -0.099,
+          "ci95": [
+            -0.281,
+            0.063
+          ],
+          "p_plus_one": 0.24115,
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "p_holm": 0.9646
+        },
+        "consensus": {
+          "delta": -0.05,
+          "ci95": [
+            -0.106,
+            -0.009
+          ],
+          "p_plus_one": 0.0088,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_nli": {
+          "delta": 2.872,
+          "ci95": [
+            1.092,
+            4.909
+          ],
+          "p_plus_one": 0.0012,
+          "n_quizzes": 199,
+          "n_questions": 878
+        }
+      },
+      "reference": "always"
+    },
+    "qwen32b": {
+      "n_questions": 878,
+      "n_quizzes": 199,
+      "cross_fit": {
+        "overlap": {
+          "thresholds": [
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.5,
+              0.65
+            ],
+            [
+              0.5,
+              0.7
+            ],
+            [
+              0.55,
+              0.75
+            ],
+            [
+              0.65,
+              0.8
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.55,
+              0.65
+            ],
+            [
+              0.6,
+              0.75
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.55,
+              0.65
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.65,
+              0.7
+            ]
+          ],
+          "threshold_min": 0.5,
+          "threshold_max": 0.8,
+          "retrieve_rate_mean": 0.808,
+          "retrieve_rate_range": [
+            0.672,
+            0.915
+          ],
+          "score_mean": 39.417,
+          "score_range": [
+            37.475,
+            40.082
+          ]
+        },
+        "consensus": {
+          "thresholds": [
+            [
+              0.2,
+              0.2
+            ],
+            [
+              0.0,
+              0.2
+            ],
+            [
+              0.2,
+              0.2
+            ],
+            [
+              0.2,
+              0.2
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.0,
+              0.35
+            ],
+            [
+              0.2,
+              0.2
+            ],
+            [
+              0.2,
+              0.2
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.0,
+              0.2
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.2,
+              0.2
+            ],
+            [
+              0.0,
+              0.2
+            ],
+            [
+              0.2,
+              0.2
+            ],
+            [
+              0.0,
+              0.2
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.0,
+              0.2
+            ],
+            [
+              0.0,
+              0.35
+            ],
+            [
+              0.2,
+              0.2
+            ],
+            [
+              0.2,
+              0.35
+            ]
+          ],
+          "threshold_min": 0.0,
+          "threshold_max": 0.35,
+          "retrieve_rate_mean": 0.911,
+          "retrieve_rate_range": [
+            0.793,
+            0.978
+          ],
+          "score_mean": 38.623,
+          "score_range": [
+            37.695,
+            39.105
+          ]
+        }
+      },
+      "policies": {
+        "never": {
+          "mean": 26.171,
+          "ci95": [
+            22.571,
+            29.885
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.0
+        },
+        "always": {
+          "mean": 34.757,
+          "ci95": [
+            30.941,
+            38.65
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 1.0
+        },
+        "recency": {
+          "mean": 27.937,
+          "ci95": [
+            24.358,
+            31.685
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "self_knowledge": {
+          "mean": 26.464,
+          "ci95": [
+            22.923,
+            30.19
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_string": {
+          "mean": 38.69,
+          "ci95": [
+            34.665,
+            42.661
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "perq_best": {
+          "mean": 45.888,
+          "ci95": [
+            41.942,
+            49.87
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "overlap": {
+          "mean": 35.774,
+          "ci95": [
+            32.032,
+            39.533
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.808
+        },
+        "consensus": {
+          "mean": 34.789,
+          "ci95": [
+            31.038,
+            38.603
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.911
+        },
+        "gold_nli": {
+          "mean": 38.341,
+          "ci95": [
+            34.388,
+            42.209
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        }
+      },
+      "vs_reference": {
+        "never": {
+          "delta": -8.586,
+          "ci95": [
+            -13.001,
+            -4.322
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "recency": {
+          "delta": -6.82,
+          "ci95": [
+            -10.477,
+            -3.313
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "self_knowledge": {
+          "delta": -8.293,
+          "ci95": [
+            -12.714,
+            -4.004
+          ],
+          "p_plus_one": 0.0008,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_string": {
+          "delta": 3.933,
+          "ci95": [
+            1.426,
+            6.643
+          ],
+          "p_plus_one": 0.0028,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "perq_best": {
+          "delta": 11.131,
+          "ci95": [
+            8.757,
+            13.748
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "overlap": {
+          "delta": 1.016,
+          "ci95": [
+            -0.213,
+            2.325
+          ],
+          "p_plus_one": 0.10598,
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "p_holm": 0.5299
+        },
+        "consensus": {
+          "delta": 0.031,
+          "ci95": [
+            -0.97,
+            1.129
+          ],
+          "p_plus_one": 0.9822,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_nli": {
+          "delta": 3.584,
+          "ci95": [
+            1.915,
+            5.41
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        }
+      },
+      "reference": "always"
+    },
+    "qwen3b": {
+      "n_questions": 878,
+      "n_quizzes": 199,
+      "cross_fit": {
+        "overlap": {
+          "thresholds": [
+            [
+              0.5,
+              0.55
+            ],
+            [
+              0.55,
+              0.6
+            ],
+            [
+              0.45,
+              0.5
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.5,
+              0.65
+            ],
+            [
+              0.5,
+              0.55
+            ],
+            [
+              0.45,
+              0.5
+            ],
+            [
+              0.0,
+              0.55
+            ],
+            [
+              0.45,
+              0.5
+            ],
+            [
+              0.0,
+              0.55
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.45,
+              0.5
+            ],
+            [
+              0.0,
+              0.55
+            ],
+            [
+              0.5,
+              0.55
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              0.65
+            ],
+            [
+              0.45,
+              0.5
+            ],
+            [
+              0.0,
+              0.65
+            ],
+            [
+              0.5,
+              0.55
+            ],
+            [
+              0.55,
+              0.65
+            ]
+          ],
+          "threshold_min": 0.0,
+          "threshold_max": 0.65,
+          "retrieve_rate_mean": 0.97,
+          "retrieve_rate_range": [
+            0.894,
+            0.998
+          ],
+          "score_mean": 35.327,
+          "score_range": [
+            34.611,
+            35.544
+          ]
+        },
+        "consensus": {
+          "thresholds": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.2
+            ],
+            [
+              0.0,
+              0.2
+            ],
+            [
+              0.0,
+              0.2
+            ],
+            [
+              0.0,
+              0.2
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.2
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.2
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.2
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.2
+            ]
+          ],
+          "threshold_min": 0.0,
+          "threshold_max": 0.2,
+          "retrieve_rate_mean": 0.99,
+          "retrieve_rate_range": [
+            0.969,
+            1.0
+          ],
+          "score_mean": 35.396,
+          "score_range": [
+            35.151,
+            35.511
+          ]
+        }
+      },
+      "policies": {
+        "never": {
+          "mean": 13.613,
+          "ci95": [
+            10.938,
+            16.515
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.0
+        },
+        "always": {
+          "mean": 32.206,
+          "ci95": [
+            28.36,
+            36.128
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 1.0
+        },
+        "recency": {
+          "mean": 22.703,
+          "ci95": [
+            19.269,
+            26.243
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "self_knowledge": {
+          "mean": 13.613,
+          "ci95": [
+            10.938,
+            16.515
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_string": {
+          "mean": 31.236,
+          "ci95": [
+            27.143,
+            35.36
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "perq_best": {
+          "mean": 37.311,
+          "ci95": [
+            33.363,
+            41.39
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "overlap": {
+          "mean": 32.135,
+          "ci95": [
+            28.304,
+            36.066
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.97
+        },
+        "consensus": {
+          "mean": 32.114,
+          "ci95": [
+            28.285,
+            36.033
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.99
+        },
+        "gold_nli": {
+          "mean": 32.934,
+          "ci95": [
+            28.946,
+            36.936
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        }
+      },
+      "vs_reference": {
+        "never": {
+          "delta": -18.593,
+          "ci95": [
+            -22.799,
+            -14.58
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "recency": {
+          "delta": -9.502,
+          "ci95": [
+            -12.719,
+            -6.579
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "self_knowledge": {
+          "delta": -18.593,
+          "ci95": [
+            -22.799,
+            -14.58
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_string": {
+          "delta": -0.97,
+          "ci95": [
+            -2.655,
+            0.796
+          ],
+          "p_plus_one": 0.28874,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "perq_best": {
+          "delta": 5.105,
+          "ci95": [
+            3.63,
+            6.866
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "overlap": {
+          "delta": -0.071,
+          "ci95": [
+            -0.209,
+            0.068
+          ],
+          "p_plus_one": 0.30634,
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "p_holm": 0.9646
+        },
+        "consensus": {
+          "delta": -0.091,
+          "ci95": [
+            -0.205,
+            -0.004
+          ],
+          "p_plus_one": 0.03439,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_nli": {
+          "delta": 0.728,
+          "ci95": [
+            -0.564,
+            2.076
+          ],
+          "p_plus_one": 0.25715,
+          "n_quizzes": 199,
+          "n_questions": 878
+        }
+      },
+      "reference": "always"
+    },
+    "qwen72b": {
+      "n_questions": 878,
+      "n_quizzes": 199,
+      "cross_fit": {
+        "overlap": {
+          "thresholds": [
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.65,
+              0.8
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.65,
+              0.8
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.65
+            ]
+          ],
+          "threshold_min": 0.65,
+          "threshold_max": 0.8,
+          "retrieve_rate_mean": 0.799,
+          "retrieve_rate_range": [
+            0.672,
+            0.83
+          ],
+          "score_mean": 41.475,
+          "score_range": [
+            39.099,
+            41.874
+          ]
+        },
+        "consensus": {
+          "thresholds": [
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.0,
+              0.55
+            ],
+            [
+              0.2,
+              0.55
+            ],
+            [
+              0.2,
+              0.55
+            ],
+            [
+              0.2,
+              0.55
+            ],
+            [
+              0.0,
+              0.55
+            ],
+            [
+              0.2,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.2,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.0,
+              0.35
+            ],
+            [
+              0.0,
+              0.35
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.2,
+              0.55
+            ],
+            [
+              0.2,
+              0.55
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ]
+          ],
+          "threshold_min": 0.0,
+          "threshold_max": 0.55,
+          "retrieve_rate_mean": 0.671,
+          "retrieve_rate_range": [
+            0.557,
+            0.858
+          ],
+          "score_mean": 39.102,
+          "score_range": [
+            38.375,
+            39.617
+          ]
+        }
+      },
+      "policies": {
+        "never": {
+          "mean": 29.659,
+          "ci95": [
+            26.034,
+            33.434
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.0
+        },
+        "always": {
+          "mean": 35.682,
+          "ci95": [
+            31.58,
+            39.773
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 1.0
+        },
+        "recency": {
+          "mean": 31.564,
+          "ci95": [
+            27.785,
+            35.45
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "self_knowledge": {
+          "mean": 29.659,
+          "ci95": [
+            26.034,
+            33.434
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_string": {
+          "mean": 39.86,
+          "ci95": [
+            35.629,
+            44.07
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "perq_best": {
+          "mean": 46.736,
+          "ci95": [
+            42.733,
+            50.891
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "overlap": {
+          "mean": 38.338,
+          "ci95": [
+            34.334,
+            42.383
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.799
+        },
+        "consensus": {
+          "mean": 35.706,
+          "ci95": [
+            31.968,
+            39.428
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.671
+        },
+        "gold_nli": {
+          "mean": 39.085,
+          "ci95": [
+            34.956,
+            43.221
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        }
+      },
+      "vs_reference": {
+        "never": {
+          "delta": -6.022,
+          "ci95": [
+            -10.134,
+            -1.858
+          ],
+          "p_plus_one": 0.008,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "recency": {
+          "delta": -4.118,
+          "ci95": [
+            -7.442,
+            -1.062
+          ],
+          "p_plus_one": 0.008,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "self_knowledge": {
+          "delta": -6.022,
+          "ci95": [
+            -10.134,
+            -1.858
+          ],
+          "p_plus_one": 0.008,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_string": {
+          "delta": 4.178,
+          "ci95": [
+            2.101,
+            6.412
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "perq_best": {
+          "delta": 11.055,
+          "ci95": [
+            8.803,
+            13.511
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "overlap": {
+          "delta": 2.657,
+          "ci95": [
+            1.134,
+            4.348
+          ],
+          "p_plus_one": 0.0008,
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "p_holm": 0.0072
+        },
+        "consensus": {
+          "delta": 0.024,
+          "ci95": [
+            -1.772,
+            1.812
+          ],
+          "p_plus_one": 0.9902,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_nli": {
+          "delta": 3.404,
+          "ci95": [
+            1.656,
+            5.285
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        }
+      },
+      "reference": "always"
+    },
+    "qwen7b": {
+      "n_questions": 878,
+      "n_quizzes": 199,
+      "cross_fit": {
+        "overlap": {
+          "thresholds": [
+            [
+              0.5,
+              0.55
+            ],
+            [
+              0.5,
+              0.6
+            ],
+            [
+              0.5,
+              0.65
+            ],
+            [
+              0.5,
+              0.55
+            ],
+            [
+              0.55,
+              0.65
+            ],
+            [
+              0.5,
+              0.55
+            ],
+            [
+              0.5,
+              0.55
+            ],
+            [
+              0.5,
+              0.7
+            ],
+            [
+              0.55,
+              0.55
+            ],
+            [
+              0.5,
+              0.65
+            ],
+            [
+              0.5,
+              0.55
+            ],
+            [
+              0.55,
+              0.7
+            ],
+            [
+              0.5,
+              0.55
+            ],
+            [
+              0.5,
+              0.55
+            ],
+            [
+              0.55,
+              0.55
+            ],
+            [
+              0.5,
+              0.7
+            ],
+            [
+              0.5,
+              0.65
+            ],
+            [
+              0.5,
+              0.55
+            ],
+            [
+              0.55,
+              0.55
+            ],
+            [
+              0.55,
+              0.65
+            ]
+          ],
+          "threshold_min": 0.5,
+          "threshold_max": 0.7,
+          "retrieve_rate_mean": 0.939,
+          "retrieve_rate_range": [
+            0.854,
+            0.982
+          ],
+          "score_mean": 36.412,
+          "score_range": [
+            35.334,
+            36.846
+          ]
+        },
+        "consensus": {
+          "thresholds": [
+            [
+              0.2,
+              0.2
+            ],
+            [
+              0.0,
+              0.2
+            ],
+            [
+              0.2,
+              0.2
+            ],
+            [
+              0.0,
+              0.2
+            ],
+            [
+              0.2,
+              0.2
+            ],
+            [
+              0.2,
+              0.2
+            ],
+            [
+              0.0,
+              0.2
+            ],
+            [
+              0.2,
+              0.2
+            ],
+            [
+              0.2,
+              0.2
+            ],
+            [
+              0.2,
+              0.2
+            ],
+            [
+              0.0,
+              0.2
+            ],
+            [
+              0.2,
+              0.2
+            ],
+            [
+              0.2,
+              0.2
+            ],
+            [
+              0.2,
+              0.2
+            ],
+            [
+              0.2,
+              0.2
+            ],
+            [
+              0.2,
+              0.2
+            ],
+            [
+              0.0,
+              0.2
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.0,
+              0.2
+            ],
+            [
+              0.2,
+              0.2
+            ]
+          ],
+          "threshold_min": 0.0,
+          "threshold_max": 0.35,
+          "retrieve_rate_mean": 0.95,
+          "retrieve_rate_range": [
+            0.82,
+            0.985
+          ],
+          "score_mean": 36.472,
+          "score_range": [
+            35.227,
+            36.696
+          ]
+        }
+      },
+      "policies": {
+        "never": {
+          "mean": 20.897,
+          "ci95": [
+            17.348,
+            24.653
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.0
+        },
+        "always": {
+          "mean": 31.991,
+          "ci95": [
+            28.186,
+            36.02
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 1.0
+        },
+        "recency": {
+          "mean": 25.257,
+          "ci95": [
+            21.699,
+            28.993
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "self_knowledge": {
+          "mean": 21.4,
+          "ci95": [
+            17.782,
+            25.231
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_string": {
+          "mean": 34.125,
+          "ci95": [
+            30.073,
+            38.306
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "perq_best": {
+          "mean": 40.156,
+          "ci95": [
+            36.036,
+            44.464
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "overlap": {
+          "mean": 32.132,
+          "ci95": [
+            28.351,
+            36.115
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.939
+        },
+        "consensus": {
+          "mean": 32.385,
+          "ci95": [
+            28.567,
+            36.465
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.95
+        },
+        "gold_nli": {
+          "mean": 34.773,
+          "ci95": [
+            30.801,
+            38.855
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        }
+      },
+      "vs_reference": {
+        "never": {
+          "delta": -11.094,
+          "ci95": [
+            -15.334,
+            -6.974
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "recency": {
+          "delta": -6.734,
+          "ci95": [
+            -10.166,
+            -3.385
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "self_knowledge": {
+          "delta": -10.591,
+          "ci95": [
+            -14.717,
+            -6.485
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_string": {
+          "delta": 2.134,
+          "ci95": [
+            0.144,
+            4.301
+          ],
+          "p_plus_one": 0.03199,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "perq_best": {
+          "delta": 8.165,
+          "ci95": [
+            5.977,
+            10.519
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "overlap": {
+          "delta": 0.141,
+          "ci95": [
+            -0.332,
+            0.616
+          ],
+          "p_plus_one": 0.55069,
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "p_holm": 0.9646
+        },
+        "consensus": {
+          "delta": 0.394,
+          "ci95": [
+            -0.281,
+            1.288
+          ],
+          "p_plus_one": 0.35313,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_nli": {
+          "delta": 2.782,
+          "ci95": [
+            1.255,
+            4.576
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        }
+      },
+      "reference": "always"
+    },
+    "sonnet": {
+      "n_questions": 878,
+      "n_quizzes": 199,
+      "cross_fit": {
+        "overlap": {
+          "thresholds": [
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.8
+            ],
+            [
+              0.7,
+              0.7
+            ],
+            [
+              0.7,
+              0.75
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.7,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.7,
+              0.75
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.6,
+              0.65
+            ],
+            [
+              0.7,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.65,
+              0.75
+            ]
+          ],
+          "threshold_min": 0.6,
+          "threshold_max": 0.8,
+          "retrieve_rate_mean": 0.763,
+          "retrieve_rate_range": [
+            0.673,
+            0.878
+          ],
+          "score_mean": 33.58,
+          "score_range": [
+            31.947,
+            34.043
+          ]
+        },
+        "consensus": {
+          "thresholds": [
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.2,
+              0.55
+            ],
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.2,
+              0.35
+            ]
+          ],
+          "threshold_min": 0.2,
+          "threshold_max": 0.55,
+          "retrieve_rate_mean": 0.754,
+          "retrieve_rate_range": [
+            0.54,
+            0.85
+          ],
+          "score_mean": 32.731,
+          "score_range": [
+            29.984,
+            33.441
+          ]
+        }
+      },
+      "policies": {
+        "never": {
+          "mean": 27.078,
+          "ci95": [
+            23.076,
+            31.336
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.0
+        },
+        "always": {
+          "mean": 28.169,
+          "ci95": [
+            24.547,
+            31.922
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 1.0
+        },
+        "recency": {
+          "mean": 24.328,
+          "ci95": [
+            20.709,
+            28.179
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "self_knowledge": {
+          "mean": 30.272,
+          "ci95": [
+            26.314,
+            34.46
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_string": {
+          "mean": 32.137,
+          "ci95": [
+            28.241,
+            36.136
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "perq_best": {
+          "mean": 40.769,
+          "ci95": [
+            36.768,
+            44.929
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "overlap": {
+          "mean": 31.217,
+          "ci95": [
+            27.511,
+            35.02
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.763
+        },
+        "consensus": {
+          "mean": 30.108,
+          "ci95": [
+            26.416,
+            33.872
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "retrieve_rate": 0.754
+        },
+        "cutoff": {
+          "mean": 31.102,
+          "ci95": [
+            27.005,
+            35.338
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_nli": {
+          "mean": 33.093,
+          "ci95": [
+            29.185,
+            37.012
+          ],
+          "n_quizzes": 199,
+          "n_questions": 878
+        }
+      },
+      "vs_reference": {
+        "never": {
+          "delta": -1.091,
+          "ci95": [
+            -5.46,
+            3.381
+          ],
+          "p_plus_one": 0.62867,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "recency": {
+          "delta": -3.841,
+          "ci95": [
+            -6.901,
+            -0.807
+          ],
+          "p_plus_one": 0.0144,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "self_knowledge": {
+          "delta": 2.103,
+          "ci95": [
+            -1.981,
+            6.376
+          ],
+          "p_plus_one": 0.31674,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_string": {
+          "delta": 3.968,
+          "ci95": [
+            1.442,
+            6.824
+          ],
+          "p_plus_one": 0.0012,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "perq_best": {
+          "delta": 12.6,
+          "ci95": [
+            9.658,
+            15.807
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "overlap": {
+          "delta": 3.048,
+          "ci95": [
+            1.228,
+            5.124
+          ],
+          "p_plus_one": 0.0008,
+          "n_quizzes": 199,
+          "n_questions": 878,
+          "p_holm": 0.0072
+        },
+        "consensus": {
+          "delta": 1.939,
+          "ci95": [
+            -0.078,
+            4.124
+          ],
+          "p_plus_one": 0.05959,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "cutoff": {
+          "delta": 2.933,
+          "ci95": [
+            -1.009,
+            7.087
+          ],
+          "p_plus_one": 0.15117,
+          "n_quizzes": 199,
+          "n_questions": 878
+        },
+        "gold_nli": {
+          "delta": 4.924,
+          "ci95": [
+            2.641,
+            7.483
+          ],
+          "p_plus_one": 0.0004,
+          "n_quizzes": 199,
+          "n_questions": 878
+        }
+      },
+      "reference": "always"
+    }
+  },
+  "ceiling_recovery": {
+    "per_model": [
+      {
+        "model": "gpt4omini",
+        "reference": "never",
+        "reference_score": 36.244,
+        "ceiling": 50.45,
+        "best_deployable": "consensus",
+        "best_value": 39.285,
+        "recovered": 0.214,
+        "overlap_delta": 2.199,
+        "overlap_ci95": [
+          -1.417,
+          5.791
+        ],
+        "overlap_p_holm": 0.9646
+      },
+      {
+        "model": "llama3_8b",
+        "reference": "always",
+        "reference_score": 31.495,
+        "ceiling": 42.333,
+        "best_deployable": "overlap",
+        "best_value": 33.087,
+        "recovered": 0.147,
+        "overlap_delta": 1.592,
+        "overlap_ci95": [
+          0.179,
+          3.195
+        ],
+        "overlap_p_holm": 0.17034
+      },
+      {
+        "model": "mistral_large",
+        "reference": "always",
+        "reference_score": 36.513,
+        "ceiling": 51.061,
+        "best_deployable": "consensus",
+        "best_value": 40.585,
+        "recovered": 0.28,
+        "overlap_delta": 3.45,
+        "overlap_ci95": [
+          1.224,
+          5.756
+        ],
+        "overlap_p_holm": 0.0336
+      },
+      {
+        "model": "qwen1_5b",
+        "reference": "always",
+        "reference_score": 31.034,
+        "ceiling": 37.848,
+        "best_deployable": "consensus",
+        "best_value": 30.983,
+        "recovered": -0.007,
+        "overlap_delta": -0.099,
+        "overlap_ci95": [
+          -0.281,
+          0.063
+        ],
+        "overlap_p_holm": 0.9646
+      },
+      {
+        "model": "qwen32b",
+        "reference": "always",
+        "reference_score": 34.757,
+        "ceiling": 45.888,
+        "best_deployable": "overlap",
+        "best_value": 35.774,
+        "recovered": 0.091,
+        "overlap_delta": 1.016,
+        "overlap_ci95": [
+          -0.213,
+          2.325
+        ],
+        "overlap_p_holm": 0.5299
+      },
+      {
+        "model": "qwen3b",
+        "reference": "always",
+        "reference_score": 32.206,
+        "ceiling": 37.311,
+        "best_deployable": "overlap",
+        "best_value": 32.135,
+        "recovered": -0.014,
+        "overlap_delta": -0.071,
+        "overlap_ci95": [
+          -0.209,
+          0.068
+        ],
+        "overlap_p_holm": 0.9646
+      },
+      {
+        "model": "qwen72b",
+        "reference": "always",
+        "reference_score": 35.682,
+        "ceiling": 46.736,
+        "best_deployable": "overlap",
+        "best_value": 38.338,
+        "recovered": 0.24,
+        "overlap_delta": 2.657,
+        "overlap_ci95": [
+          1.134,
+          4.348
+        ],
+        "overlap_p_holm": 0.0072
+      },
+      {
+        "model": "qwen7b",
+        "reference": "always",
+        "reference_score": 31.991,
+        "ceiling": 40.156,
+        "best_deployable": "consensus",
+        "best_value": 32.385,
+        "recovered": 0.048,
+        "overlap_delta": 0.141,
+        "overlap_ci95": [
+          -0.332,
+          0.616
+        ],
+        "overlap_p_holm": 0.9646
+      },
+      {
+        "model": "sonnet",
+        "reference": "always",
+        "reference_score": 28.169,
+        "ceiling": 40.769,
+        "best_deployable": "overlap",
+        "best_value": 31.217,
+        "recovered": 0.242,
+        "overlap_delta": 3.048,
+        "overlap_ci95": [
+          1.228,
+          5.124
+        ],
+        "overlap_p_holm": 0.0072
+      }
+    ],
+    "definition": "(best deployable gate - better fixed policy) / (per-question best - better fixed policy); every generator is included and the ratio cannot exceed 1",
+    "median_recovered": 0.147
+  },
+  "overlap_summary": {
+    "n_generators": 9,
+    "n_positive_point_estimate": 7,
+    "n_significant_after_holm": 3,
+    "significant_models": [
+      "mistral_large",
+      "qwen72b",
+      "sonnet"
+    ],
+    "worst_model": "qwen1_5b",
+    "worst_delta": -0.099,
+    "statement": "The lexical-overlap gate does NOT improve every generator: report the number with intervals excluding zero after Holm correction, and report the generators where it does not."
+  }
+}

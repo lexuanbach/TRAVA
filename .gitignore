@@ -1,0 +1,42 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+# Reproduction runs and downloaded model assets
+outputs/
+logs/
+data/raw/
+data/hf_cache/
+*.gguf
+*.safetensors
+*.bin
+# Local credentials and editor files
+.env
+.env.*
+.DS_Store
+.vscode/
+.idea/
+
+# Paper sources and internal revision material are never published here
+manuscript/
+camera-ready/
+appendix/
+*.tex
+*.bib
+*.sty
+*.bst
+*.cls
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+map.*
+PLAN.md
+REVISION-REPORT.md

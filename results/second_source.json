@@ -1,0 +1,395 @@
+{
+  "scope": "Replication of the closed-book boundary contrast on FreshQA, a temporal QA source that defines freshness by answer volatility and effective year rather than by publication date.",
+  "source": "FreshQA (Vu et al. 2024), CSV export shipped as data/raw/freshqa_v2024-04-26.csv",
+  "boundary_year": 2025,
+  "scoring": "max token-F1 over all acceptable answers per question",
+  "excluded": "false-premise questions (a different failure mode)",
+  "n_questions_total": 600,
+  "n_questions_used": 451,
+  "models": {
+    "qwen": {
+      "diff": 8.887,
+      "static_mean": 14.338,
+      "fresh_mean": 5.451,
+      "ci95": [
+        4.523,
+        13.17
+      ],
+      "p_plus_one": 0.0004,
+      "n": [
+        278,
+        173
+      ],
+      "params_B": 0.5
+    },
+    "qwen1_5b": {
+      "diff": 14.066,
+      "static_mean": 23.282,
+      "fresh_mean": 9.216,
+      "ci95": [
+        8.141,
+        20.036
+      ],
+      "p_plus_one": 0.0004,
+      "n": [
+        278,
+        173
+      ],
+      "params_B": 1.5
+    },
+    "qwen7b": {
+      "diff": 27.497,
+      "static_mean": 37.406,
+      "fresh_mean": 9.909,
+      "ci95": [
+        21.135,
+        33.944
+      ],
+      "p_plus_one": 0.0004,
+      "n": [
+        278,
+        173
+      ],
+      "params_B": 7.0
+    },
+    "llama3_8b": {
+      "diff": 30.57,
+      "static_mean": 39.596,
+      "fresh_mean": 9.027,
+      "ci95": [
+        24.213,
+        36.994
+      ],
+      "p_plus_one": 0.0004,
+      "n": [
+        278,
+        173
+      ],
+      "params_B": 8.0
+    },
+    "qwen32b": {
+      "diff": 34.189,
+      "static_mean": 45.657,
+      "fresh_mean": 11.467,
+      "ci95": [
+        27.094,
+        40.948
+      ],
+      "p_plus_one": 0.0004,
+      "n": [
+        278,
+        173
+      ],
+      "params_B": 32.0
+    },
+    "mistral_large": {
+      "diff": 44.797,
+      "static_mean": 60.463,
+      "fresh_mean": 15.666,
+      "ci95": [
+        37.77,
+        51.763
+      ],
+      "p_plus_one": 0.0004,
+      "n": [
+        278,
+        173
+      ],
+      "params_B": 123.0
+    }
+  },
+  "scale_slope": {
+    "n_models": 6,
+    "slope_f1_per_decade": 15.1004,
+    "exact_permutation": {
+      "p_exact": 0.001389,
+      "n_permutations": 720,
+      "n_at_least_as_extreme": 1
+    },
+    "per_model_gap": {
+      "qwen": 8.887,
+      "qwen1_5b": 14.066,
+      "qwen7b": 27.497,
+      "llama3_8b": 30.57,
+      "qwen32b": 34.189,
+      "mistral_large": 44.797
+    }
+  },
+  "by_volatility": {
+    "qwen": {
+      "slow-changing": {
+        "diff": 5.703,
+        "static_mean": 9.947,
+        "fresh_mean": 4.244,
+        "ci95": [
+          -0.214,
+          11.51
+        ],
+        "p_plus_one": 0.06359,
+        "n": [
+          112,
+          36
+        ]
+      },
+      "fast-changing": {
+        "diff": 7.625,
+        "static_mean": 13.393,
+        "fresh_mean": 5.768,
+        "ci95": [
+          -5.893,
+          26.167
+        ],
+        "p_plus_one": 0.35473,
+        "n": [
+          16,
+          137
+        ]
+      }
+    },
+    "qwen1_5b": {
+      "slow-changing": {
+        "diff": 7.53,
+        "static_mean": 12.53,
+        "fresh_mean": 5.0,
+        "ci95": [
+          -1.159,
+          15.156
+        ],
+        "p_plus_one": 0.08158,
+        "n": [
+          112,
+          36
+        ]
+      },
+      "fast-changing": {
+        "diff": 8.426,
+        "static_mean": 18.75,
+        "fresh_mean": 10.324,
+        "ci95": [
+          -9.278,
+          29.349
+        ],
+        "p_plus_one": 0.40512,
+        "n": [
+          16,
+          137
+        ]
+      }
+    },
+    "qwen7b": {
+      "slow-changing": {
+        "diff": 14.911,
+        "static_mean": 26.717,
+        "fresh_mean": 11.806,
+        "ci95": [
+          2.066,
+          26.849
+        ],
+        "p_plus_one": 0.0216,
+        "n": [
+          112,
+          36
+        ]
+      },
+      "fast-changing": {
+        "diff": 3.089,
+        "static_mean": 12.5,
+        "fresh_mean": 9.411,
+        "ci95": [
+          -10.93,
+          21.766
+        ],
+        "p_plus_one": 0.79704,
+        "n": [
+          16,
+          137
+        ]
+      }
+    },
+    "llama3_8b": {
+      "slow-changing": {
+        "diff": 20.734,
+        "static_mean": 27.183,
+        "fresh_mean": 6.448,
+        "ci95": [
+          10.04,
+          30.863
+        ],
+        "p_plus_one": 0.0004,
+        "n": [
+          112,
+          36
+        ]
+      },
+      "fast-changing": {
+        "diff": -0.954,
+        "static_mean": 8.75,
+        "fresh_mean": 9.704,
+        "ci95": [
+          -11.238,
+          13.438
+        ],
+        "p_plus_one": 0.81264,
+        "n": [
+          16,
+          137
+        ]
+      }
+    },
+    "qwen32b": {
+      "slow-changing": {
+        "diff": 16.829,
+        "static_mean": 32.292,
+        "fresh_mean": 15.463,
+        "ci95": [
+          2.94,
+          30.357
+        ],
+        "p_plus_one": 0.0144,
+        "n": [
+          112,
+          36
+        ]
+      },
+      "fast-changing": {
+        "diff": 8.332,
+        "static_mean": 18.75,
+        "fresh_mean": 10.418,
+        "ci95": [
+          -9.312,
+          29.001
+        ],
+        "p_plus_one": 0.42472,
+        "n": [
+          16,
+          137
+        ]
+      }
+    },
+    "mistral_large": {
+      "slow-changing": {
+        "diff": 31.165,
+        "static_mean": 46.674,
+        "fresh_mean": 15.509,
+        "ci95": [
+          17.738,
+          43.98
+        ],
+        "p_plus_one": 0.0004,
+        "n": [
+          112,
+          36
+        ]
+      },
+      "fast-changing": {
+        "diff": 15.543,
+        "static_mean": 31.25,
+        "fresh_mean": 15.707,
+        "ci95": [
+          -4.4,
+          37.865
+        ],
+        "p_plus_one": 0.14357,
+        "n": [
+          16,
+          137
+        ]
+      }
+    }
+  },
+  "volatility_crosstab": {
+    "note": "never-changing facts are ALL Static by construction, so their boundary gap is undefined rather than zero; the cells for the other two classes are unbalanced.",
+    "counts": {
+      "never-changing": {
+        "static": 150,
+        "fresh": 0
+      },
+      "slow-changing": {
+        "static": 112,
+        "fresh": 36
+      },
+      "fast-changing": {
+        "static": 16,
+        "fresh": 137
+      }
+    }
+  },
+  "never_changing_control": {
+    "why": "A never-changing fact cannot be stale, so accuracy here is the model's baseline on this source. If Fresh-side accuracy were low simply because FreshQA is hard, this would be low too.",
+    "per_model": {
+      "qwen": {
+        "mean_f1": 17.717,
+        "n": 150,
+        "params_B": 0.5
+      },
+      "qwen1_5b": {
+        "mean_f1": 31.794,
+        "n": 150,
+        "params_B": 1.5
+      },
+      "qwen7b": {
+        "mean_f1": 48.044,
+        "n": 150,
+        "params_B": 7.0
+      },
+      "llama3_8b": {
+        "mean_f1": 52.156,
+        "n": 150,
+        "params_B": 8.0
+      },
+      "qwen32b": {
+        "mean_f1": 58.506,
+        "n": 150,
+        "params_B": 32.0
+      },
+      "mistral_large": {
+        "mean_f1": 73.875,
+        "n": 150,
+        "params_B": 123.0
+      }
+    }
+  },
+  "false_premise_questions": {
+    "note": "excluded from every contrast above; recognising a false premise is a different capability from recalling a fact",
+    "per_model": {
+      "qwen": {
+        "mean_f1": 4.171,
+        "n": 149
+      },
+      "qwen1_5b": {
+        "mean_f1": 1.503,
+        "n": 149
+      },
+      "qwen7b": {
+        "mean_f1": 4.491,
+        "n": 149
+      },
+      "llama3_8b": {
+        "mean_f1": 4.247,
+        "n": 149
+      },
+      "qwen32b": {
+        "mean_f1": 6.395,
+        "n": 149
+      },
+      "mistral_large": {
+        "mean_f1": 21.519,
+        "n": 149
+      }
+    }
+  },
+  "verdict": {
+    "models_with_a_positive_gap": [
+      "qwen",
+      "qwen1_5b",
+      "qwen7b",
+      "llama3_8b",
+      "qwen32b",
+      "mistral_large"
+    ],
+    "models_with_a_negative_gap": [],
+    "n_models": 6,
+    "replicates_the_direction": true,
+    "reading": "FreshQA shares no questions, no answer format, no notion of freshness and no evidence corpus with our benchmark. Whatever agrees across the two is unlikely to be an artifact of either."
+  }
+}

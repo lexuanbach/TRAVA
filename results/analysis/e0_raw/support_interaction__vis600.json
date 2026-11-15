@@ -1,0 +1,715 @@
+{
+  "scope": "Difference-in-differences: the retrieval gain among automatically supported questions minus the gain among unsupported ones, per generator and temporal regime.",
+  "estimand": "gain(supported) - gain(unsupported), token F1 points",
+  "not_causal": "Support is not randomised and both labels use the gold answer. A positive interaction says the retrieval gain differs by automatically labelled support status; it does not say that supplying support would cause that gain, and it is not a deployable rule.",
+  "nli_caveat": "NLI labels are DeBERTa predictions on truncated news passages and generated hypotheses, not verified semantics; they are unvalidated against human judgement.",
+  "labels": {
+    "string": {
+      "gpt4omini": {
+        "static": {
+          "interaction": 35.812,
+          "ci95": [
+            25.78,
+            45.835
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 17.671,
+          "gain_unsupported": -18.141,
+          "n_supported": 167,
+          "n_unsupported": 237,
+          "n_quizzes": 125,
+          "n_draws_skipped": 0
+        },
+        "fresh": {
+          "interaction": 43.031,
+          "ci95": [
+            32.805,
+            52.709
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 33.239,
+          "gain_unsupported": -9.792,
+          "n_supported": 208,
+          "n_unsupported": 266,
+          "n_quizzes": 74,
+          "n_draws_skipped": 0
+        }
+      },
+      "llama3_8b": {
+        "static": {
+          "interaction": 38.273,
+          "ci95": [
+            28.075,
+            48.277
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 29.436,
+          "gain_unsupported": -8.836,
+          "n_supported": 167,
+          "n_unsupported": 237,
+          "n_quizzes": 125,
+          "n_draws_skipped": 0
+        },
+        "fresh": {
+          "interaction": 42.692,
+          "ci95": [
+            31.154,
+            53.844
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 38.226,
+          "gain_unsupported": -4.465,
+          "n_supported": 208,
+          "n_unsupported": 266,
+          "n_quizzes": 74,
+          "n_draws_skipped": 0
+        }
+      },
+      "mistral_large": {
+        "static": {
+          "interaction": 36.37,
+          "ci95": [
+            27.46,
+            45.478
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 17.445,
+          "gain_unsupported": -18.925,
+          "n_supported": 167,
+          "n_unsupported": 237,
+          "n_quizzes": 125,
+          "n_draws_skipped": 0
+        },
+        "fresh": {
+          "interaction": 42.751,
+          "ci95": [
+            32.166,
+            54.283
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 33.876,
+          "gain_unsupported": -8.874,
+          "n_supported": 208,
+          "n_unsupported": 266,
+          "n_quizzes": 74,
+          "n_draws_skipped": 0
+        }
+      },
+      "qwen1_5b": {
+        "static": {
+          "interaction": 51.063,
+          "ci95": [
+            42.756,
+            58.819
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 49.523,
+          "gain_unsupported": -1.54,
+          "n_supported": 167,
+          "n_unsupported": 237,
+          "n_quizzes": 125,
+          "n_draws_skipped": 0
+        },
+        "fresh": {
+          "interaction": 42.765,
+          "ci95": [
+            34.107,
+            51.407
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 40.61,
+          "gain_unsupported": -2.156,
+          "n_supported": 208,
+          "n_unsupported": 266,
+          "n_quizzes": 74,
+          "n_draws_skipped": 0
+        }
+      },
+      "qwen32b": {
+        "static": {
+          "interaction": 42.524,
+          "ci95": [
+            32.773,
+            52.426
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 33.67,
+          "gain_unsupported": -8.854,
+          "n_supported": 167,
+          "n_unsupported": 237,
+          "n_quizzes": 125,
+          "n_draws_skipped": 0
+        },
+        "fresh": {
+          "interaction": 49.202,
+          "ci95": [
+            39.507,
+            58.797
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 41.532,
+          "gain_unsupported": -7.67,
+          "n_supported": 208,
+          "n_unsupported": 266,
+          "n_quizzes": 74,
+          "n_draws_skipped": 0
+        }
+      },
+      "qwen3b": {
+        "static": {
+          "interaction": 49.715,
+          "ci95": [
+            41.221,
+            57.643
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 51.454,
+          "gain_unsupported": 1.739,
+          "n_supported": 167,
+          "n_unsupported": 237,
+          "n_quizzes": 125,
+          "n_draws_skipped": 0
+        },
+        "fresh": {
+          "interaction": 46.321,
+          "ci95": [
+            36.3,
+            55.905
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 45.444,
+          "gain_unsupported": -0.876,
+          "n_supported": 208,
+          "n_unsupported": 266,
+          "n_quizzes": 74,
+          "n_draws_skipped": 0
+        }
+      },
+      "qwen72b": {
+        "static": {
+          "interaction": 46.557,
+          "ci95": [
+            36.351,
+            56.326
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 31.843,
+          "gain_unsupported": -14.714,
+          "n_supported": 167,
+          "n_unsupported": 237,
+          "n_quizzes": 125,
+          "n_draws_skipped": 0
+        },
+        "fresh": {
+          "interaction": 42.893,
+          "ci95": [
+            32.493,
+            52.984
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 33.629,
+          "gain_unsupported": -9.264,
+          "n_supported": 208,
+          "n_unsupported": 266,
+          "n_quizzes": 74,
+          "n_draws_skipped": 0
+        }
+      },
+      "qwen7b": {
+        "static": {
+          "interaction": 48.711,
+          "ci95": [
+            40.767,
+            56.677
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 42.887,
+          "gain_unsupported": -5.824,
+          "n_supported": 167,
+          "n_unsupported": 237,
+          "n_quizzes": 125,
+          "n_draws_skipped": 0
+        },
+        "fresh": {
+          "interaction": 45.808,
+          "ci95": [
+            36.234,
+            54.96
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 40.677,
+          "gain_unsupported": -5.132,
+          "n_supported": 208,
+          "n_unsupported": 266,
+          "n_quizzes": 74,
+          "n_draws_skipped": 0
+        }
+      },
+      "sonnet": {
+        "static": {
+          "interaction": 29.564,
+          "ci95": [
+            19.301,
+            39.792
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 12.374,
+          "gain_unsupported": -17.189,
+          "n_supported": 167,
+          "n_unsupported": 237,
+          "n_quizzes": 125,
+          "n_draws_skipped": 0
+        },
+        "fresh": {
+          "interaction": 44.071,
+          "ci95": [
+            35.463,
+            53.262
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 42.168,
+          "gain_unsupported": -1.903,
+          "n_supported": 208,
+          "n_unsupported": 266,
+          "n_quizzes": 74,
+          "n_draws_skipped": 0
+        }
+      }
+    },
+    "nli": {
+      "gpt4omini": {
+        "static": {
+          "interaction": 26.187,
+          "ci95": [
+            17.072,
+            35.674
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 4.117,
+          "gain_unsupported": -22.07,
+          "n_supported": 289,
+          "n_unsupported": 115,
+          "n_quizzes": 125,
+          "n_draws_skipped": 0
+        },
+        "fresh": {
+          "interaction": 28.882,
+          "ci95": [
+            20.366,
+            38.413
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 16.768,
+          "gain_unsupported": -12.114,
+          "n_supported": 348,
+          "n_unsupported": 126,
+          "n_quizzes": 74,
+          "n_draws_skipped": 0
+        }
+      },
+      "llama3_8b": {
+        "static": {
+          "interaction": 24.77,
+          "ci95": [
+            15.741,
+            34.194
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 14.035,
+          "gain_unsupported": -10.735,
+          "n_supported": 289,
+          "n_unsupported": 115,
+          "n_quizzes": 125,
+          "n_draws_skipped": 0
+        },
+        "fresh": {
+          "interaction": 30.175,
+          "ci95": [
+            23.372,
+            37.487
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 22.29,
+          "gain_unsupported": -7.885,
+          "n_supported": 348,
+          "n_unsupported": 126,
+          "n_quizzes": 74,
+          "n_draws_skipped": 0
+        }
+      },
+      "mistral_large": {
+        "static": {
+          "interaction": 19.404,
+          "ci95": [
+            11.427,
+            27.212
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 1.633,
+          "gain_unsupported": -17.772,
+          "n_supported": 289,
+          "n_unsupported": 115,
+          "n_quizzes": 125,
+          "n_draws_skipped": 0
+        },
+        "fresh": {
+          "interaction": 28.63,
+          "ci95": [
+            19.035,
+            39.264
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 17.496,
+          "gain_unsupported": -11.134,
+          "n_supported": 348,
+          "n_unsupported": 126,
+          "n_quizzes": 74,
+          "n_draws_skipped": 0
+        }
+      },
+      "qwen1_5b": {
+        "static": {
+          "interaction": 34.558,
+          "ci95": [
+            26.432,
+            42.955
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 29.405,
+          "gain_unsupported": -5.153,
+          "n_supported": 289,
+          "n_unsupported": 115,
+          "n_quizzes": 125,
+          "n_draws_skipped": 0
+        },
+        "fresh": {
+          "interaction": 26.976,
+          "ci95": [
+            17.451,
+            36.075
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 23.781,
+          "gain_unsupported": -3.195,
+          "n_supported": 348,
+          "n_unsupported": 126,
+          "n_quizzes": 74,
+          "n_draws_skipped": 0
+        }
+      },
+      "qwen32b": {
+        "static": {
+          "interaction": 25.552,
+          "ci95": [
+            16.986,
+            34.506
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 15.997,
+          "gain_unsupported": -9.555,
+          "n_supported": 289,
+          "n_unsupported": 115,
+          "n_quizzes": 125,
+          "n_draws_skipped": 0
+        },
+        "fresh": {
+          "interaction": 34.739,
+          "ci95": [
+            24.995,
+            45.059
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 23.155,
+          "gain_unsupported": -11.584,
+          "n_supported": 348,
+          "n_unsupported": 126,
+          "n_quizzes": 74,
+          "n_draws_skipped": 0
+        }
+      },
+      "qwen3b": {
+        "static": {
+          "interaction": 33.03,
+          "ci95": [
+            25.734,
+            40.158
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 31.692,
+          "gain_unsupported": -1.338,
+          "n_supported": 289,
+          "n_unsupported": 115,
+          "n_quizzes": 125,
+          "n_draws_skipped": 0
+        },
+        "fresh": {
+          "interaction": 31.258,
+          "ci95": [
+            21.453,
+            41.253
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 27.759,
+          "gain_unsupported": -3.499,
+          "n_supported": 348,
+          "n_unsupported": 126,
+          "n_quizzes": 74,
+          "n_draws_skipped": 0
+        }
+      },
+      "qwen72b": {
+        "static": {
+          "interaction": 23.706,
+          "ci95": [
+            14.196,
+            33.356
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 11.279,
+          "gain_unsupported": -12.427,
+          "n_supported": 289,
+          "n_unsupported": 115,
+          "n_quizzes": 125,
+          "n_draws_skipped": 0
+        },
+        "fresh": {
+          "interaction": 28.712,
+          "ci95": [
+            19.789,
+            38.355
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 17.19,
+          "gain_unsupported": -11.522,
+          "n_supported": 348,
+          "n_unsupported": 126,
+          "n_quizzes": 74,
+          "n_draws_skipped": 0
+        }
+      },
+      "qwen7b": {
+        "static": {
+          "interaction": 26.518,
+          "ci95": [
+            19.113,
+            34.534
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 21.86,
+          "gain_unsupported": -4.658,
+          "n_supported": 289,
+          "n_unsupported": 115,
+          "n_quizzes": 125,
+          "n_draws_skipped": 0
+        },
+        "fresh": {
+          "interaction": 34.592,
+          "ci95": [
+            23.636,
+            45.175
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 24.165,
+          "gain_unsupported": -10.427,
+          "n_supported": 348,
+          "n_unsupported": 126,
+          "n_quizzes": 74,
+          "n_draws_skipped": 0
+        }
+      },
+      "sonnet": {
+        "static": {
+          "interaction": 22.6,
+          "ci95": [
+            13.659,
+            31.512
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 1.464,
+          "gain_unsupported": -21.136,
+          "n_supported": 289,
+          "n_unsupported": 115,
+          "n_quizzes": 125,
+          "n_draws_skipped": 0
+        },
+        "fresh": {
+          "interaction": 26.252,
+          "ci95": [
+            15.65,
+            36.148
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 24.414,
+          "gain_unsupported": -1.837,
+          "n_supported": 348,
+          "n_unsupported": 126,
+          "n_quizzes": 74,
+          "n_draws_skipped": 0
+        }
+      }
+    }
+  },
+  "unsupported_cost_vs_scale": {
+    "string": {
+      "slope_per_decade": -9.598,
+      "p_exact": 0.00694,
+      "n_permutations": 720,
+      "n_rungs": 6,
+      "points": [
+        {
+          "params_B": 1.5,
+          "gain_unsupported": -1.54
+        },
+        {
+          "params_B": 3.0,
+          "gain_unsupported": 1.739
+        },
+        {
+          "params_B": 7.0,
+          "gain_unsupported": -5.824
+        },
+        {
+          "params_B": 32.0,
+          "gain_unsupported": -8.854
+        },
+        {
+          "params_B": 72.0,
+          "gain_unsupported": -14.714
+        },
+        {
+          "params_B": 123.0,
+          "gain_unsupported": -18.925
+        }
+      ],
+      "reading": "Static-regime retrieval gain among automatically UNSUPPORTED questions, regressed on log10 parameters over the published-count ladder. A negative slope means unsupported evidence costs more the more capable the generator -- the cost is borne by models with parametric knowledge to overwrite. Roster-confounded like every other scale statement in this paper."
+    },
+    "nli": {
+      "slope_per_decade": -7.031,
+      "p_exact": 0.01806,
+      "n_permutations": 720,
+      "n_rungs": 6,
+      "points": [
+        {
+          "params_B": 1.5,
+          "gain_unsupported": -5.153
+        },
+        {
+          "params_B": 3.0,
+          "gain_unsupported": -1.338
+        },
+        {
+          "params_B": 7.0,
+          "gain_unsupported": -4.658
+        },
+        {
+          "params_B": 32.0,
+          "gain_unsupported": -9.555
+        },
+        {
+          "params_B": 72.0,
+          "gain_unsupported": -12.427
+        },
+        {
+          "params_B": 123.0,
+          "gain_unsupported": -17.772
+        }
+      ],
+      "reading": "Static-regime retrieval gain among automatically UNSUPPORTED questions, regressed on log10 parameters over the published-count ladder. A negative slope means unsupported evidence costs more the more capable the generator -- the cost is borne by models with parametric knowledge to overwrite. Roster-confounded like every other scale statement in this paper."
+    }
+  },
+  "summary": {
+    "string": {
+      "n_models_static": 9,
+      "n_static_interaction_excludes_zero": 9,
+      "models_static_interaction_excludes_zero": [
+        "gpt4omini",
+        "llama3_8b",
+        "mistral_large",
+        "qwen1_5b",
+        "qwen32b",
+        "qwen3b",
+        "qwen72b",
+        "qwen7b",
+        "sonnet"
+      ],
+      "strong_models": {
+        "gpt4omini": {
+          "interaction": 35.812,
+          "ci95": [
+            25.78,
+            45.835
+          ],
+          "gain_unsupported": -18.141,
+          "gain_supported": 17.671
+        },
+        "mistral_large": {
+          "interaction": 36.37,
+          "ci95": [
+            27.46,
+            45.478
+          ],
+          "gain_unsupported": -18.925,
+          "gain_supported": 17.445
+        },
+        "sonnet": {
+          "interaction": 29.564,
+          "ci95": [
+            19.301,
+            39.792
+          ],
+          "gain_unsupported": -17.189,
+          "gain_supported": 12.374
+        }
+      },
+      "strong_unsupported_all_negative": true
+    },
+    "nli": {
+      "n_models_static": 9,
+      "n_static_interaction_excludes_zero": 9,
+      "models_static_interaction_excludes_zero": [
+        "gpt4omini",
+        "llama3_8b",
+        "mistral_large",
+        "qwen1_5b",
+        "qwen32b",
+        "qwen3b",
+        "qwen72b",
+        "qwen7b",
+        "sonnet"
+      ],
+      "strong_models": {
+        "gpt4omini": {
+          "interaction": 26.187,
+          "ci95": [
+            17.072,
+            35.674
+          ],
+          "gain_unsupported": -22.07,
+          "gain_supported": 4.117
+        },
+        "mistral_large": {
+          "interaction": 19.404,
+          "ci95": [
+            11.427,
+            27.212
+          ],
+          "gain_unsupported": -17.772,
+          "gain_supported": 1.633
+        },
+        "sonnet": {
+          "interaction": 22.6,
+          "ci95": [
+            13.659,
+            31.512
+          ],
+          "gain_unsupported": -21.136,
+          "gain_supported": 1.464
+        }
+      },
+      "strong_unsupported_all_negative": true
+    }
+  },
+  "verdict": {
+    "reading": "The claim the paper may make is that on Static questions the retrieval gain is higher among automatically supported items than among unsupported ones, for the generators whose interaction interval excludes zero, and that the unsupported-subset gain is where the negative sign sits. It may not claim that unsupported evidence CAUSES the harm, nor that harm VANISHES under support."
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "qwen": {
+    "model": "Qwen2.5-0.5B",
+    "params_B": 0.5,
+    "closed_book_by_year": {
+      "2022": {
+        "n": 150,
+        "f1": 11.72
+      },
+      "2023": {
+        "n": 131,
+        "f1": 6.82
+      },
+      "2024": {
+        "n": 123,
+        "f1": 9.75
+      },
+      "2025": {
+        "n": 128,
+        "f1": 4.82
+      },
+      "2026": {
+        "n": 346,
+        "f1": 11.11
+      }
+    },
+    "estimated_cutoff": null,
+    "max_year_drop": 4.9,
+    "cliff": {
+      "boundary": 2025,
+      "static_f1": 9.5,
+      "fresh_f1": 9.4,
+      "gap": 0.1,
+      "one_sided_p": 0.489
+    },
+    "retriever": "bm25",
+    "retrieval_minus_closedbook": {
+      "static": 16.0,
+      "fresh": 15.3
+    }
+  },
+  "qwen1_5b": {
+    "model": "Qwen2.5-1.5B",
+    "params_B": 1.5,
+    "closed_book_by_year": {
+      "2022": {
+        "n": 150,
+        "f1": 12.27
+      },
+      "2023": {
+        "n": 131,
+        "f1": 15.99
+      },
+      "2024": {
+        "n": 123,
+        "f1": 17.98
+      },
+      "2025": {
+        "n": 128,
+        "f1": 13.66
+      },
+      "2026": {
+        "n": 346,
+        "f1": 18.07
+      }
+    },
+    "estimated_cutoff": null,
+    "max_year_drop": 4.3,
+    "cliff": {
+      "boundary": 2025,
+      "static_f1": 15.2,
+      "fresh_f1": 16.9,
+      "gap": -1.7,
+      "one_sided_p": 0.772
+    },
+    "retriever": "hybrid",
+    "retrieval_minus_closedbook": {
+      "static": 19.6,
+      "fresh": 16.6
+    }
+  },
+  "qwen3b": {
+    "model": "Qwen2.5-3B",
+    "params_B": 3.0,
+    "closed_book_by_year": {
+      "2022": {
+        "n": 150,
+        "f1": 13.19
+      },
+      "2023": {
+        "n": 131,
+        "f1": 14.58
+      },
+      "2024": {
+        "n": 123,
+        "f1": 12.99
+      },
+      "2025": {
+        "n": 128,
+        "f1": 14.71
+      },
+      "2026": {
+        "n": 346,
+        "f1": 16.14
+      }
+    },
+    "estimated_cutoff": null,
+    "max_year_drop": 1.6,
+    "cliff": {
+      "boundary": 2025,
+      "static_f1": 13.6,
+      "fresh_f1": 15.8,
+      "gap": -2.2,
+      "one_sided_p": 0.833
+    },
+    "retriever": "hybrid",
+    "retrieval_minus_closedbook": {
+      "static": 22.3,
+      "fresh": 19.4
+    }
+  },
+  "qwen7b": {
+    "model": "Qwen2.5-7B",
+    "params_B": 7.0,
+    "closed_book_by_year": {
+      "2022": {
+        "n": 150,
+        "f1": 25.11
+      },
+      "2023": {
+        "n": 131,
+        "f1": 21.23
+      },
+      "2024": {
+        "n": 123,
+        "f1": 20.33
+      },
+      "2025": {
+        "n": 128,
+        "f1": 15.06
+      },
+      "2026": {
+        "n": 346,
+        "f1": 23.12
+      }
+    },
+    "estimated_cutoff": null,
+    "max_year_drop": 5.3,
+    "cliff": {
+      "boundary": 2025,
+      "static_f1": 22.4,
+      "fresh_f1": 20.9,
+      "gap": 1.5,
+      "one_sided_p": 0.281
+    },
+    "retriever": "hybrid",
+    "retrieval_minus_closedbook": {
+      "static": 14.3,
+      "fresh": 15.0
+    }
+  },
+  "qwen32b": {
+    "model": "Qwen2.5-32B",
+    "params_B": 32.0,
+    "closed_book_by_year": {
+      "2022": {
+        "n": 150,
+        "f1": 34.42
+      },
+      "2023": {
+        "n": 131,
+        "f1": 27.31
+      },
+      "2024": {
+        "n": 123,
+        "f1": 27.86
+      },
+      "2025": {
+        "n": 128,
+        "f1": 19.93
+      },
+      "2026": {
+        "n": 346,
+        "f1": 27.13
+      }
+    },
+    "estimated_cutoff": null,
+    "max_year_drop": 7.9,
+    "cliff": {
+      "boundary": 2025,
+      "static_f1": 30.1,
+      "fresh_f1": 25.2,
+      "gap": 4.9,
+      "one_sided_p": 0.049
+    },
+    "retriever": "hybrid",
+    "retrieval_minus_closedbook": {
+      "static": 8.7,
+      "fresh": 13.9
+    }
+  },
+  "qwen72b": {
+    "model": "Qwen2.5-72B",
+    "params_B": 72.0,
+    "closed_book_by_year": {
+      "2022": {
+        "n": 150,
+        "f1": 45.03
+      },
+      "2023": {
+        "n": 131,
+        "f1": 34.81
+      },
+      "2024": {
+        "n": 123,
+        "f1": 25.0
+      },
+      "2025": {
+        "n": 128,
+        "f1": 22.49
+      },
+      "2026": {
+        "n": 346,
+        "f1": 31.95
+      }
+    },
+    "estimated_cutoff": 2023,
+    "max_year_drop": 10.2,
+    "cliff": {
+      "boundary": 2025,
+      "static_f1": 35.6,
+      "fresh_f1": 29.4,
+      "gap": 6.2,
+      "one_sided_p": 0.015
+    },
+    "retriever": "hybrid",
+    "retrieval_minus_closedbook": {
+      "static": 4.5,
+      "fresh": 9.6
+    }
+  },
+  "mistral_large": {
+    "model": "Mistral-Large-2 (123B)",
+    "params_B": 123.0,
+    "closed_book_by_year": {
+      "2022": {
+        "n": 150,
+        "f1": 60.29
+      },
+      "2023": {
+        "n": 131,
+        "f1": 43.81
+      },
+      "2024": {
+        "n": 123,
+        "f1": 30.48
+      },
+      "2025": {
+        "n": 128,
+        "f1": 24.56
+      },
+      "2026": {
+        "n": 346,
+        "f1": 31.85
+      }
+    },
+    "estimated_cutoff": 2023,
+    "max_year_drop": 16.5,
+    "cliff": {
+      "boundary": 2025,
+      "static_f1": 45.9,
+      "fresh_f1": 29.9,
+      "gap": 16.0,
+      "one_sided_p": 0.0
+    },
+    "retriever": "hybrid",
+    "retrieval_minus_closedbook": {
+      "static": -3.9,
+      "fresh": 9.9
+    }
+  },
+  "haiku": {
+    "model": "Claude Haiku 4.5",
+    "params_B": null,
+    "closed_book_by_year": {
+      "2022": {
+        "n": 150,
+        "f1": 39.14
+      },
+      "2023": {
+        "n": 131,
+        "f1": 31.72
+      },
+      "2024": {
+        "n": 123,
+        "f1": 25.35
+      },
+      "2025": {
+        "n": 128,
+        "f1": 8.24
+      },
+      "2026": {
+        "n": 346,
+        "f1": 17.89
+      }
+    },
+    "estimated_cutoff": 2025,
+    "max_year_drop": 17.1,
+    "cliff": {
+      "boundary": 2025,
+      "static_f1": 32.5,
+      "fresh_f1": 15.3,
+      "gap": 17.3,
+      "one_sided_p": 0.0
+    },
+    "retriever": "hybrid",
+    "retrieval_minus_closedbook": {
+      "static": 2.4,
+      "fresh": 16.9
+    }
+  },
+  "sonnet": {
+    "model": "Claude Sonnet 4.5",
+    "params_B": null,
+    "closed_book_by_year": {
+      "2022": {
+        "n": 150,
+        "f1": 43.9
+      },
+      "2023": {
+        "n": 131,
+        "f1": 35.3
+      },
+      "2024": {
+        "n": 123,
+        "f1": 37.68
+      },
+      "2025": {
+        "n": 128,
+        "f1": 6.42
+      },
+      "2026": {
+        "n": 346,
+        "f1": 15.44
+      }
+    },
+    "estimated_cutoff": 2025,
+    "max_year_drop": 31.3,
+    "cliff": {
+      "boundary": 2025,
+      "static_f1": 39.2,
+      "fresh_f1": 13.0,
+      "gap": 26.2,
+      "one_sided_p": 0.0
+    },
+    "retriever": "hybrid",
+    "retrieval_minus_closedbook": {
+      "static": -5.0,
+      "fresh": 17.4
+    }
+  }
+}

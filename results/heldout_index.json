@@ -1,0 +1,56 @@
+{
+  "cutoff": "2025-01-01",
+  "generator": "qwen3b",
+  "note": "Stale index = docs published before the cutoff; Fresh questions lose contemporaneous evidence. Same local generator on both.",
+  "closed_book_fresh_f1": 15.76,
+  "conditions": {
+    "hybrid": {
+      "stale_index_hit@5": {
+        "fresh": 0.608,
+        "static": 0.834
+      },
+      "full_index": {
+        "static": {
+          "n": 404,
+          "f1": 35.87,
+          "f1_ci95": [
+            31.61,
+            40.44
+          ]
+        },
+        "fresh": {
+          "n": 474,
+          "f1": 35.21,
+          "f1_ci95": [
+            30.89,
+            39.64
+          ]
+        }
+      },
+      "stale_index": {
+        "static": {
+          "n": 404,
+          "f1": 35.15,
+          "f1_ci95": [
+            30.95,
+            39.43
+          ]
+        },
+        "fresh": {
+          "n": 474,
+          "f1": 13.65,
+          "f1_ci95": [
+            10.91,
+            16.73
+          ]
+        }
+      },
+      "fresh_drop_full_minus_stale": {
+        "diff_f1": 21.56,
+        "one_sided_p": 0.0,
+        "n": 474,
+        "test": "paired bootstrap over the same Fresh questions"
+      }
+    }
+  }
+}

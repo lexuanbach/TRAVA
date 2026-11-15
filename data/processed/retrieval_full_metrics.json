@@ -1,0 +1,92 @@
+{
+  "bm25": {
+    "all": {
+      "recall@k": 0.2406,
+      "hit@k": 0.746,
+      "n": 878
+    },
+    "static": {
+      "recall@k": 0.2521,
+      "hit@k": 0.7368,
+      "n": 532
+    },
+    "fresh": {
+      "recall@k": 0.2228,
+      "hit@k": 0.7601,
+      "n": 346
+    }
+  },
+  "bge": {
+    "all": {
+      "recall@k": 0.225,
+      "hit@k": 0.7107,
+      "n": 878
+    },
+    "static": {
+      "recall@k": 0.2415,
+      "hit@k": 0.7199,
+      "n": 532
+    },
+    "fresh": {
+      "recall@k": 0.1996,
+      "hit@k": 0.6965,
+      "n": 346
+    }
+  },
+  "hybrid": {
+    "all": {
+      "recall@k": 0.2542,
+      "hit@k": 0.7631,
+      "n": 878
+    },
+    "static": {
+      "recall@k": 0.2643,
+      "hit@k": 0.7538,
+      "n": 532
+    },
+    "fresh": {
+      "recall@k": 0.2386,
+      "hit@k": 0.7775,
+      "n": 346
+    }
+  },
+  "oracle": {
+    "all": {
+      "recall@k": 0.6229,
+      "hit@k": 1.0,
+      "n": 878
+    },
+    "static": {
+      "recall@k": 0.6419,
+      "hit@k": 1.0,
+      "n": 532
+    },
+    "fresh": {
+      "recall@k": 0.5938,
+      "hit@k": 1.0,
+      "n": 346
+    }
+  },
+  "oracle_real": {
+    "all": {
+      "recall@k": 0.1784,
+      "hit@k": 0.5228,
+      "n": 878
+    },
+    "static": {
+      "recall@k": 0.169,
+      "hit@k": 0.4868,
+      "n": 532
+    },
+    "fresh": {
+      "recall@k": 0.1928,
+      "hit@k": 0.578,
+      "n": 346
+    }
+  },
+  "_corpus": {
+    "docs": 26611,
+    "mean_admissible_per_q": 22368.47949886105,
+    "oracle_real_empty": 419
+  }
+}

@@ -1,0 +1,40 @@
+{"qid": "20260710_0", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Belgium", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_1", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Amazon", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_2", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Brazil", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_3", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "New York City", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_4", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Olivia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_5", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "cod", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_6", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Malaysia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_7", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Adele", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_8", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "New York City", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_9", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Mangkhut", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_10", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Waldorf Astoria Hotel", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_11", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "FAR 231 drone", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_12", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Canada", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_13", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Stockholm", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_14", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Hurricane Sandy", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_15", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Belgium", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_16", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "\"Schitt's Creek\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_17", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "$1,000", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_18", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Civilization IV", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260710_19", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Hawaii", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_0", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Luxembourg", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_1", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "The Shining", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_2", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Royal Birkdale", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_3", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "quasar", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_4", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Iranian naval vessels", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_5", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Lionel Messi", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_6", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "parasite: Cyclospora", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_7", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Elvis Presley", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_8", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "35%", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_9", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "lot 49: \"The Starry Night\" by Vincent van Gogh", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_10", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "SB 14", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_11", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "undercooked pork", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_12", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "2028", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_13", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "dolphins", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_14", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "cancer", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_15", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Lindsey Graham's brother, John.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_16", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Maryland", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_17", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "red", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_18", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "property of the restaurant", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "20260717_19", "condition": "heldout", "model": "Qwen/Qwen2.5-1.5B-Instruct", "prediction": "Jurassic Park", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}

@@ -1,0 +1,171 @@
+{
+  "scope": "The scale slope under two separate inferential targets, kept apart because they answer different questions and the paper previously reported only the first.",
+  "rungs": [
+    {
+      "model": "qwen",
+      "params_B": 0.5,
+      "gap_f1": 0.1
+    },
+    {
+      "model": "qwen1_5b",
+      "params_B": 1.5,
+      "gap_f1": -1.7
+    },
+    {
+      "model": "qwen3b",
+      "params_B": 3.0,
+      "gap_f1": -2.2
+    },
+    {
+      "model": "qwen7b",
+      "params_B": 7.0,
+      "gap_f1": 1.5
+    },
+    {
+      "model": "qwen32b",
+      "params_B": 32.0,
+      "gap_f1": 4.9
+    },
+    {
+      "model": "qwen72b",
+      "params_B": 72.0,
+      "gap_f1": 6.2
+    },
+    {
+      "model": "mistral_large",
+      "params_B": 123.0,
+      "gap_f1": 16.0
+    }
+  ],
+  "target_a_conditional_on_ladder": {
+    "population": "weekly quizzes; the seven models are FIXED",
+    "answers": "how much of this ladder's slope is quiz-sampling noise",
+    "slope_f1_per_decade": 5.9252,
+    "ci95": [
+      3.1389,
+      8.7312
+    ],
+    "p_plus_one": 0.0004,
+    "n_quizzes": 199,
+    "source": "results/joint_slope.json",
+    "does_not_answer": "whether a different draw of seven models would show the same association -- that is Target B."
+  },
+  "target_b_over_model_rungs": {
+    "f1_all_7": {
+      "n_models": 7,
+      "slope_f1_per_decade": 5.9342,
+      "r2": 0.7069,
+      "ols_se": 1.7088,
+      "residual_df": 5,
+      "ols_ci95_t": [
+        1.5409,
+        10.3275
+      ],
+      "permutation": {
+        "observed_slope": 5.9342,
+        "n_permutations": 5040,
+        "n_at_least_as_extreme": 43,
+        "p_exact": 0.008532,
+        "p_resolution_floor": 0.000198,
+        "note": "Exhaustive enumeration, not a sample; the p-value has no Monte-Carlo error."
+      },
+      "leave_one_out_slope": {
+        "qwen": 7.8684,
+        "qwen1_5b": 5.792,
+        "qwen3b": 5.5796,
+        "qwen7b": 5.8981,
+        "qwen32b": 6.2149,
+        "qwen72b": 6.6805,
+        "mistral_large": 3.6493
+      },
+      "loo_range": [
+        3.6493,
+        7.8684
+      ],
+      "loo_sign_stable": true,
+      "population": "model rungs; quiz noise is not the uncertainty here"
+    },
+    "f1_qwen_only_6": {
+      "n_models": 6,
+      "slope_f1_per_decade": 3.6493,
+      "r2": 0.7412,
+      "ols_se": 1.0782,
+      "residual_df": 4,
+      "ols_ci95_t": [
+        0.6562,
+        6.6424
+      ],
+      "permutation": {
+        "observed_slope": 3.6493,
+        "n_permutations": 720,
+        "n_at_least_as_extreme": 27,
+        "p_exact": 0.0375,
+        "p_resolution_floor": 0.001389,
+        "note": "Exhaustive enumeration, not a sample; the p-value has no Monte-Carlo error."
+      },
+      "leave_one_out_slope": {
+        "qwen": 5.2746,
+        "qwen1_5b": 3.3994,
+        "qwen3b": 3.3714,
+        "qwen7b": 3.6579,
+        "qwen32b": 3.4081,
+        "qwen72b": 3.1357
+      },
+      "loo_range": [
+        3.1357,
+        5.2746
+      ],
+      "loo_sign_stable": true,
+      "why": "Mistral-Large-2 is the only non-Qwen rung and the largest, so it is simultaneously the family change and the scale extreme. This refit removes it."
+    },
+    "em_all": {
+      "n_models": 7,
+      "slope_f1_per_decade": 4.0835,
+      "r2": 0.6047,
+      "ols_se": 1.4765,
+      "residual_df": 5,
+      "ols_ci95_t": [
+        0.2875,
+        7.8796
+      ],
+      "permutation": {
+        "observed_slope": 4.0835,
+        "n_permutations": 5040,
+        "n_at_least_as_extreme": 72,
+        "p_exact": 0.014286,
+        "p_resolution_floor": 0.000198,
+        "note": "Exhaustive enumeration, not a sample; the p-value has no Monte-Carlo error."
+      },
+      "leave_one_out_slope": {
+        "qwen": 4.5698,
+        "qwen1_5b": 4.4256,
+        "qwen3b": 4.1366,
+        "qwen7b": 4.0067,
+        "qwen32b": 4.5572,
+        "qwen72b": 4.5763,
+        "mistral_large": 2.0404
+      },
+      "loo_range": [
+        2.0404,
+        4.5763
+      ],
+      "loo_sign_stable": true,
+      "metric": "exact match, 2023 minus 2026, recomputed from raw predictions",
+      "per_model_gap_em": {
+        "qwen": -5.1207,
+        "qwen1_5b": -2.6078,
+        "qwen3b": -2.5041,
+        "qwen7b": -4.4676,
+        "qwen32b": -2.0143,
+        "qwen72b": 0.8913,
+        "mistral_large": 8.7323
+      }
+    }
+  },
+  "verdict": {
+    "conditional_on_ladder": "the slope is not quiz-sampling noise (CI [3.1389, 8.7312])",
+    "over_model_rungs": "exact permutation p=0.008532 on n=7 with the leave-one-out slope keeping its sign across every rung",
+    "supported_claim": "The boundary gap is positively associated with scale ACROSS THE SEVEN EVALUATED RUNGS. Both targets agree, so this is not an artifact of quiz sampling or of one rung. It is still an association in one ladder, not a capability effect: parameters, family, training corpus and cutoff all move together, and with n=7 the OLS interval is wide.",
+    "not_supported": "any statement of the form 'more capable models have a larger knowledge cliff' as a general property of LLMs."
+  }
+}

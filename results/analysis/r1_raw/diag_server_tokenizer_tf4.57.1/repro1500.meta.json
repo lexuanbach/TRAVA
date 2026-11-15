@@ -1,0 +1,25 @@
+[
+ {
+  "job": "repro1500",
+  "n_todo": 300,
+  "n_already_done": 0,
+  "model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+  "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+  "max_length": 384,
+  "id2label": {
+   "0": "entailment",
+   "1": "neutral",
+   "2": "contradiction"
+  },
+  "device": "cuda",
+  "cuda_device_name": "NVIDIA H100 80GB HBM3 MIG 2g.20gb",
+  "torch": "2.4.0a0+3bcc3cddb5.nv24.07",
+  "transformers": "4.57.1",
+  "python": "3.10.12",
+  "dtype": "torch.float32",
+  "tokenizer_class": "DebertaV2TokenizerFast",
+  "model_load_seconds": 45.1,
+  "label_seconds": 13.9,
+  "seconds_per_pair": 0.0462
+ }
+]

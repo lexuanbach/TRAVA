@@ -1,0 +1,600 @@
+{"qid": "freshqa_0", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Luna 2", "doc_ids": []}
+{"qid": "freshqa_1", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Willo Holloway DiCaprio", "doc_ids": []}
+{"qid": "freshqa_2", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Not yet occurred.", "doc_ids": []}
+{"qid": "freshqa_3", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Unsolved", "doc_ids": []}
+{"qid": "freshqa_4", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "P=NP", "doc_ids": []}
+{"qid": "freshqa_5", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1900", "doc_ids": []}
+{"qid": "freshqa_6", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2023", "doc_ids": []}
+{"qid": "freshqa_7", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2019", "doc_ids": []}
+{"qid": "freshqa_8", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2023", "doc_ids": []}
+{"qid": "freshqa_9", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Not provided", "doc_ids": []}
+{"qid": "freshqa_10", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1899", "doc_ids": []}
+{"qid": "freshqa_11", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2023", "doc_ids": []}
+{"qid": "freshqa_12", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2023", "doc_ids": []}
+{"qid": "freshqa_13", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2017", "doc_ids": []}
+{"qid": "freshqa_14", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2010", "doc_ids": []}
+{"qid": "freshqa_15", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1999", "doc_ids": []}
+{"qid": "freshqa_16", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Never", "doc_ids": []}
+{"qid": "freshqa_17", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "March 2023", "doc_ids": []}
+{"qid": "freshqa_18", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "68.7 billion dollars", "doc_ids": []}
+{"qid": "freshqa_19", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Not declared as of 2023-12-04", "doc_ids": []}
+{"qid": "freshqa_20", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2019, 2020, 2021", "doc_ids": []}
+{"qid": "freshqa_21", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Not released yet", "doc_ids": []}
+{"qid": "freshqa_22", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "No vaccine has completely eradicated COVID-19 worldwide.", "doc_ids": []}
+{"qid": "freshqa_23", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "$1 billion", "doc_ids": []}
+{"qid": "freshqa_24", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "44 billion dollars", "doc_ids": []}
+{"qid": "freshqa_25", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Unforgiven", "doc_ids": []}
+{"qid": "freshqa_26", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "February 7, 2023", "doc_ids": []}
+{"qid": "freshqa_27", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_28", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2021", "doc_ids": []}
+{"qid": "freshqa_29", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2020", "doc_ids": []}
+{"qid": "freshqa_30", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2013", "doc_ids": []}
+{"qid": "freshqa_31", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "January 7, 2014", "doc_ids": []}
+{"qid": "freshqa_32", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Not released", "doc_ids": []}
+{"qid": "freshqa_33", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Never", "doc_ids": []}
+{"qid": "freshqa_34", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "N/A", "doc_ids": []}
+{"qid": "freshqa_35", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Never", "doc_ids": []}
+{"qid": "freshqa_36", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1960", "doc_ids": []}
+{"qid": "freshqa_37", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_38", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "None to date", "doc_ids": []}
+{"qid": "freshqa_39", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2022", "doc_ids": []}
+{"qid": "freshqa_40", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Desiree Navarro", "doc_ids": []}
+{"qid": "freshqa_41", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2022", "doc_ids": []}
+{"qid": "freshqa_42", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Qatar", "doc_ids": []}
+{"qid": "freshqa_43", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "51-49", "doc_ids": []}
+{"qid": "freshqa_44", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Not provided in the given text.", "doc_ids": []}
+{"qid": "freshqa_45", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Not provided", "doc_ids": []}
+{"qid": "freshqa_46", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "4", "doc_ids": []}
+{"qid": "freshqa_47", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1991-present", "doc_ids": []}
+{"qid": "freshqa_48", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "None", "doc_ids": []}
+{"qid": "freshqa_49", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "since 2014", "doc_ids": []}
+{"qid": "freshqa_50", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1 year", "doc_ids": []}
+{"qid": "freshqa_51", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2010-present", "doc_ids": []}
+{"qid": "freshqa_52", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "not independent", "doc_ids": []}
+{"qid": "freshqa_53", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1996", "doc_ids": []}
+{"qid": "freshqa_54", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "86", "doc_ids": []}
+{"qid": "freshqa_55", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Helen Clark, Jim Bolger, Mike Moore, David Lange, Geoffrey Palmer, Bill English", "doc_ids": []}
+{"qid": "freshqa_56", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "fraud and conspiracy", "doc_ids": []}
+{"qid": "freshqa_57", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "50 years", "doc_ids": []}
+{"qid": "freshqa_58", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "38,581,004 to 32,865,920", "doc_ids": []}
+{"qid": "freshqa_59", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "January 5, 2023", "doc_ids": []}
+{"qid": "freshqa_60", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Karim Benzema", "doc_ids": []}
+{"qid": "freshqa_61", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_62", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "714", "doc_ids": []}
+{"qid": "freshqa_63", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Never", "doc_ids": []}
+{"qid": "freshqa_64", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1 September 1944", "doc_ids": []}
+{"qid": "freshqa_65", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_66", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Not provided in the given text.", "doc_ids": []}
+{"qid": "freshqa_67", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2020-03-18", "doc_ids": []}
+{"qid": "freshqa_68", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2012", "doc_ids": []}
+{"qid": "freshqa_69", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_70", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Never", "doc_ids": []}
+{"qid": "freshqa_71", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Never", "doc_ids": []}
+{"qid": "freshqa_72", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2011", "doc_ids": []}
+{"qid": "freshqa_73", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "None", "doc_ids": []}
+{"qid": "freshqa_74", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2023", "doc_ids": []}
+{"qid": "freshqa_75", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1865", "doc_ids": []}
+{"qid": "freshqa_76", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Never", "doc_ids": []}
+{"qid": "freshqa_77", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Never", "doc_ids": []}
+{"qid": "freshqa_78", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Never", "doc_ids": []}
+{"qid": "freshqa_79", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2.6 million years ago", "doc_ids": []}
+{"qid": "freshqa_80", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Never", "doc_ids": []}
+{"qid": "freshqa_81", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1202", "doc_ids": []}
+{"qid": "freshqa_82", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2022", "doc_ids": []}
+{"qid": "freshqa_83", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "May 26, 2023", "doc_ids": []}
+{"qid": "freshqa_84", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Grand Canyon", "doc_ids": []}
+{"qid": "freshqa_85", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Sochi", "doc_ids": []}
+{"qid": "freshqa_86", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Canada, Mexico, United States", "doc_ids": []}
+{"qid": "freshqa_87", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "450.3 million", "doc_ids": []}
+{"qid": "freshqa_88", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "8.0", "doc_ids": []}
+{"qid": "freshqa_89", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "oxygen", "doc_ids": []}
+{"qid": "freshqa_90", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Taliban", "doc_ids": []}
+{"qid": "freshqa_91", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "-1", "doc_ids": []}
+{"qid": "freshqa_92", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "April 10, 2026", "doc_ids": []}
+{"qid": "freshqa_93", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "April", "doc_ids": []}
+{"qid": "freshqa_94", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "18 minutes", "doc_ids": []}
+{"qid": "freshqa_95", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "10:30pm", "doc_ids": []}
+{"qid": "freshqa_96", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Kevin McCarthy", "doc_ids": []}
+{"qid": "freshqa_97", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1,833", "doc_ids": []}
+{"qid": "freshqa_98", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "March 14, 2023", "doc_ids": []}
+{"qid": "freshqa_99", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Everything Everywhere All at Once", "doc_ids": []}
+{"qid": "freshqa_100", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "September 5, 2023", "doc_ids": []}
+{"qid": "freshqa_101", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Round of 16", "doc_ids": []}
+{"qid": "freshqa_102", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "June 15, 2021", "doc_ids": []}
+{"qid": "freshqa_103", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "July 6, 2009", "doc_ids": []}
+{"qid": "freshqa_104", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Albert Einstein Hospital", "doc_ids": []}
+{"qid": "freshqa_105", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_106", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "December", "doc_ids": []}
+{"qid": "freshqa_107", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Bros", "doc_ids": []}
+{"qid": "freshqa_108", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Not Applicable", "doc_ids": []}
+{"qid": "freshqa_109", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Okura Hotel", "doc_ids": []}
+{"qid": "freshqa_110", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "8.6%", "doc_ids": []}
+{"qid": "freshqa_111", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Adidas", "doc_ids": []}
+{"qid": "freshqa_112", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Fourth Round", "doc_ids": []}
+{"qid": "freshqa_113", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Carlos Alcaraz", "doc_ids": []}
+{"qid": "freshqa_114", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "6 minutes", "doc_ids": []}
+{"qid": "freshqa_115", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "September 19, 2022", "doc_ids": []}
+{"qid": "freshqa_116", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2010-2016", "doc_ids": []}
+{"qid": "freshqa_117", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1729", "doc_ids": []}
+{"qid": "freshqa_118", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Back by popular demand!", "doc_ids": []}
+{"qid": "freshqa_119", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Unknown", "doc_ids": []}
+{"qid": "freshqa_120", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Not provided in the given evidence documents.", "doc_ids": []}
+{"qid": "freshqa_121", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "500", "doc_ids": []}
+{"qid": "freshqa_122", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Van Gerwen", "doc_ids": []}
+{"qid": "freshqa_123", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "@theboringco CEO & Tesla CEO", "doc_ids": []}
+{"qid": "freshqa_124", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "3", "doc_ids": []}
+{"qid": "freshqa_125", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_126", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "10", "doc_ids": []}
+{"qid": "freshqa_127", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Pharrell Williams", "doc_ids": []}
+{"qid": "freshqa_128", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Sundar Pichai", "doc_ids": []}
+{"qid": "freshqa_129", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "$20", "doc_ids": []}
+{"qid": "freshqa_130", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Princeton University", "doc_ids": []}
+{"qid": "freshqa_131", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "3:43.13", "doc_ids": []}
+{"qid": "freshqa_132", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "22", "doc_ids": []}
+{"qid": "freshqa_133", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Olaf Scholz", "doc_ids": []}
+{"qid": "freshqa_134", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Mario", "doc_ids": []}
+{"qid": "freshqa_135", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "California", "doc_ids": []}
+{"qid": "freshqa_136", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "many", "doc_ids": []}
+{"qid": "freshqa_137", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "3", "doc_ids": []}
+{"qid": "freshqa_138", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "21 Savage", "doc_ids": []}
+{"qid": "freshqa_139", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "193", "doc_ids": []}
+{"qid": "freshqa_140", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Al-Qarawiyyin", "doc_ids": []}
+{"qid": "freshqa_141", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "\"Kind of Blue\"", "doc_ids": []}
+{"qid": "freshqa_142", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Razman Hashim", "doc_ids": []}
+{"qid": "freshqa_143", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "5", "doc_ids": []}
+{"qid": "freshqa_144", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Palo Alto, California", "doc_ids": []}
+{"qid": "freshqa_145", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "29", "doc_ids": []}
+{"qid": "freshqa_146", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "English", "doc_ids": []}
+{"qid": "freshqa_147", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Dangal", "doc_ids": []}
+{"qid": "freshqa_148", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "German Wikipedia", "doc_ids": []}
+{"qid": "freshqa_149", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "BTS", "doc_ids": []}
+{"qid": "freshqa_150", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "yes", "doc_ids": []}
+{"qid": "freshqa_151", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Santiago", "doc_ids": []}
+{"qid": "freshqa_152", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Anglo-Zanzibar War", "doc_ids": []}
+{"qid": "freshqa_153", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "James Webb Space Telescope", "doc_ids": []}
+{"qid": "freshqa_154", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "19", "doc_ids": []}
+{"qid": "freshqa_155", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Cyprus", "doc_ids": []}
+{"qid": "freshqa_156", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "5", "doc_ids": []}
+{"qid": "freshqa_157", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "14", "doc_ids": []}
+{"qid": "freshqa_158", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Dawn FM", "doc_ids": []}
+{"qid": "freshqa_159", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "6", "doc_ids": []}
+{"qid": "freshqa_160", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "709", "doc_ids": []}
+{"qid": "freshqa_161", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "5", "doc_ids": []}
+{"qid": "freshqa_162", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "87", "doc_ids": []}
+{"qid": "freshqa_163", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "53", "doc_ids": []}
+{"qid": "freshqa_164", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Novak Djokovic", "doc_ids": []}
+{"qid": "freshqa_165", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Rungrutthawiri Stadium", "doc_ids": []}
+{"qid": "freshqa_166", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Midnights", "doc_ids": []}
+{"qid": "freshqa_167", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Fumio Kishida", "doc_ids": []}
+{"qid": "freshqa_168", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "KGF: Chapter 1", "doc_ids": []}
+{"qid": "freshqa_169", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Michael van Gerwen", "doc_ids": []}
+{"qid": "freshqa_170", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Turing Award", "doc_ids": []}
+{"qid": "freshqa_171", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "December 2017", "doc_ids": []}
+{"qid": "freshqa_172", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_173", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Joe Biden", "doc_ids": []}
+{"qid": "freshqa_174", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "7.0", "doc_ids": []}
+{"qid": "freshqa_175", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "15", "doc_ids": []}
+{"qid": "freshqa_176", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Greece", "doc_ids": []}
+{"qid": "freshqa_177", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "\"Orthogonal\"", "doc_ids": []}
+{"qid": "freshqa_178", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Rishi Sunak", "doc_ids": []}
+{"qid": "freshqa_179", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Boris Johnson", "doc_ids": []}
+{"qid": "freshqa_180", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Cristiano Ronaldo", "doc_ids": []}
+{"qid": "freshqa_181", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "COVID-19", "doc_ids": []}
+{"qid": "freshqa_182", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "$60", "doc_ids": []}
+{"qid": "freshqa_183", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Fugaku", "doc_ids": []}
+{"qid": "freshqa_184", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "March 26, 2021", "doc_ids": []}
+{"qid": "freshqa_185", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Tokyo", "doc_ids": []}
+{"qid": "freshqa_186", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2020", "doc_ids": []}
+{"qid": "freshqa_187", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2024", "doc_ids": []}
+{"qid": "freshqa_188", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2010", "doc_ids": []}
+{"qid": "freshqa_189", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "8", "doc_ids": []}
+{"qid": "freshqa_190", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Elon Musk", "doc_ids": []}
+{"qid": "freshqa_191", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "3", "doc_ids": []}
+{"qid": "freshqa_192", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Martin T. Meehan", "doc_ids": []}
+{"qid": "freshqa_193", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Adriano Espaillat", "doc_ids": []}
+{"qid": "freshqa_194", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Earwig and the Witch", "doc_ids": []}
+{"qid": "freshqa_195", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Manchester United", "doc_ids": []}
+{"qid": "freshqa_196", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Serbia", "doc_ids": []}
+{"qid": "freshqa_197", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "kuna", "doc_ids": []}
+{"qid": "freshqa_198", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Ayman al-Zawahiri", "doc_ids": []}
+{"qid": "freshqa_199", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "450", "doc_ids": []}
+{"qid": "freshqa_200", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "France", "doc_ids": []}
+{"qid": "freshqa_201", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1.6 billion", "doc_ids": []}
+{"qid": "freshqa_202", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2", "doc_ids": []}
+{"qid": "freshqa_203", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Dina Boluarte", "doc_ids": []}
+{"qid": "freshqa_204", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Russia", "doc_ids": []}
+{"qid": "freshqa_205", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Charles III", "doc_ids": []}
+{"qid": "freshqa_206", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Bayern Munich", "doc_ids": []}
+{"qid": "freshqa_207", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Elon Musk", "doc_ids": []}
+{"qid": "freshqa_208", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Alex Villanueva", "doc_ids": []}
+{"qid": "freshqa_209", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "4", "doc_ids": []}
+{"qid": "freshqa_210", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "70\nNote: This number can vary based on the most recent discoveries and definitions of what constitutes a geoglyph. Always refer to the most current archaeological", "doc_ids": []}
+{"qid": "freshqa_211", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Action Comics #1, page 1", "doc_ids": []}
+{"qid": "freshqa_212", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Greenland", "doc_ids": []}
+{"qid": "freshqa_213", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "New England Patriots", "doc_ids": []}
+{"qid": "freshqa_214", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "The Boys", "doc_ids": []}
+{"qid": "freshqa_215", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Nusantara", "doc_ids": []}
+{"qid": "freshqa_216", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2025", "doc_ids": []}
+{"qid": "freshqa_217", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Jair Bolsonaro", "doc_ids": []}
+{"qid": "freshqa_218", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Maryam Mirzakhani", "doc_ids": []}
+{"qid": "freshqa_219", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "3", "doc_ids": []}
+{"qid": "freshqa_220", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "France", "doc_ids": []}
+{"qid": "freshqa_221", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "828 meters", "doc_ids": []}
+{"qid": "freshqa_222", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Antigua and Barbuda", "doc_ids": []}
+{"qid": "freshqa_223", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Julie Robert's husband, Todd Hockenberry, is a partial owner of Mint Mobile. \nShortest span: Todd Hockenberry", "doc_ids": []}
+{"qid": "freshqa_224", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Canada", "doc_ids": []}
+{"qid": "freshqa_225", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "82,000", "doc_ids": []}
+{"qid": "freshqa_226", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "9", "doc_ids": []}
+{"qid": "freshqa_227", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Two", "doc_ids": []}
+{"qid": "freshqa_228", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "5", "doc_ids": []}
+{"qid": "freshqa_229", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1", "doc_ids": []}
+{"qid": "freshqa_230", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "5", "doc_ids": []}
+{"qid": "freshqa_231", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Latvia", "doc_ids": []}
+{"qid": "freshqa_232", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_233", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Kamala Harris", "doc_ids": []}
+{"qid": "freshqa_234", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Yong Zhao", "doc_ids": []}
+{"qid": "freshqa_235", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_236", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Atlanta, Georgia", "doc_ids": []}
+{"qid": "freshqa_237", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "United Kingdom", "doc_ids": []}
+{"qid": "freshqa_238", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "3", "doc_ids": []}
+{"qid": "freshqa_239", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Lil Nas X", "doc_ids": []}
+{"qid": "freshqa_240", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1984", "doc_ids": []}
+{"qid": "freshqa_241", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2", "doc_ids": []}
+{"qid": "freshqa_242", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "James Cameron", "doc_ids": []}
+{"qid": "freshqa_243", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Leone Leoni Foundation", "doc_ids": []}
+{"qid": "freshqa_244", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Third place", "doc_ids": []}
+{"qid": "freshqa_245", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Sputnik 2 (containing Laika)", "doc_ids": []}
+{"qid": "freshqa_246", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "175 billion parameters", "doc_ids": []}
+{"qid": "freshqa_247", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "China", "doc_ids": []}
+{"qid": "freshqa_248", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Wuhan", "doc_ids": []}
+{"qid": "freshqa_249", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Chile", "doc_ids": []}
+{"qid": "freshqa_250", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Hawaii", "doc_ids": []}
+{"qid": "freshqa_251", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2029", "doc_ids": []}
+{"qid": "freshqa_252", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Stanford University", "doc_ids": []}
+{"qid": "freshqa_253", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Blue whale", "doc_ids": []}
+{"qid": "freshqa_254", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Denali", "doc_ids": []}
+{"qid": "freshqa_255", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Corgis", "doc_ids": []}
+{"qid": "freshqa_256", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Ale", "doc_ids": []}
+{"qid": "freshqa_257", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Portugal", "doc_ids": []}
+{"qid": "freshqa_258", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1971", "doc_ids": []}
+{"qid": "freshqa_259", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Edward Said", "doc_ids": []}
+{"qid": "freshqa_260", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "clastic", "doc_ids": []}
+{"qid": "freshqa_261", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_262", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Helen", "doc_ids": []}
+{"qid": "freshqa_263", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Lewis Hamilton", "doc_ids": []}
+{"qid": "freshqa_264", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Ted Kaczynski", "doc_ids": []}
+{"qid": "freshqa_265", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Turtwig, Chimchar, Piplup", "doc_ids": []}
+{"qid": "freshqa_266", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Trinity Site", "doc_ids": []}
+{"qid": "freshqa_267", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "None", "doc_ids": []}
+{"qid": "freshqa_268", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "November 9, 1989", "doc_ids": []}
+{"qid": "freshqa_269", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "August 16, 1977", "doc_ids": []}
+{"qid": "freshqa_270", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Lech Kaczy\u0144ski", "doc_ids": []}
+{"qid": "freshqa_271", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1941", "doc_ids": []}
+{"qid": "freshqa_272", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2016-01-10", "doc_ids": []}
+{"qid": "freshqa_273", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Masahiro Sakurai", "doc_ids": []}
+{"qid": "freshqa_274", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "January 22, 2023", "doc_ids": []}
+{"qid": "freshqa_275", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "north", "doc_ids": []}
+{"qid": "freshqa_276", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Amherst", "doc_ids": []}
+{"qid": "freshqa_277", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Ta-Nehisi Coates", "doc_ids": []}
+{"qid": "freshqa_278", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Jeff Bezos", "doc_ids": []}
+{"qid": "freshqa_279", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Boston", "doc_ids": []}
+{"qid": "freshqa_280", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Chelsea", "doc_ids": []}
+{"qid": "freshqa_281", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Abbey Road", "doc_ids": []}
+{"qid": "freshqa_282", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Paris", "doc_ids": []}
+{"qid": "freshqa_283", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "May 1637", "doc_ids": []}
+{"qid": "freshqa_284", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Aristodemus", "doc_ids": []}
+{"qid": "freshqa_285", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "\u548c", "doc_ids": []}
+{"qid": "freshqa_286", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Soviet Union", "doc_ids": []}
+{"qid": "freshqa_287", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Mary Ann Evans", "doc_ids": []}
+{"qid": "freshqa_288", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Canada", "doc_ids": []}
+{"qid": "freshqa_289", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Tommy Wiseau", "doc_ids": []}
+{"qid": "freshqa_290", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "116 years", "doc_ids": []}
+{"qid": "freshqa_291", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "left", "doc_ids": []}
+{"qid": "freshqa_292", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "April", "doc_ids": []}
+{"qid": "freshqa_293", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Pel\u00e9", "doc_ids": []}
+{"qid": "freshqa_294", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Hemoro", "doc_ids": []}
+{"qid": "freshqa_295", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "12:00 midnight", "doc_ids": []}
+{"qid": "freshqa_296", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "London", "doc_ids": []}
+{"qid": "freshqa_297", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Lactobacillus delbrueckii subsp. bulgaricus", "doc_ids": []}
+{"qid": "freshqa_298", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "August 8, 2016", "doc_ids": []}
+{"qid": "freshqa_299", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Blizzard Entertainment", "doc_ids": []}
+{"qid": "freshqa_300", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Saltwater crocodile", "doc_ids": []}
+{"qid": "freshqa_301", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Louis de Broglie", "doc_ids": []}
+{"qid": "freshqa_302", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Baden-W\u00fcrttemberg", "doc_ids": []}
+{"qid": "freshqa_303", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Thelma & Louise", "doc_ids": []}
+{"qid": "freshqa_304", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "December 12, 2007", "doc_ids": []}
+{"qid": "freshqa_305", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "United States, Canada, Mexico", "doc_ids": []}
+{"qid": "freshqa_306", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "3", "doc_ids": []}
+{"qid": "freshqa_307", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1924", "doc_ids": []}
+{"qid": "freshqa_308", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "10", "doc_ids": []}
+{"qid": "freshqa_309", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "China", "doc_ids": []}
+{"qid": "freshqa_310", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "death and taxes", "doc_ids": []}
+{"qid": "freshqa_311", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "907 AD", "doc_ids": []}
+{"qid": "freshqa_312", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Mount Katahdin", "doc_ids": []}
+{"qid": "freshqa_313", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Revachol", "doc_ids": []}
+{"qid": "freshqa_314", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Russia, Kazakhstan", "doc_ids": []}
+{"qid": "freshqa_315", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "E\u00e4rendil", "doc_ids": []}
+{"qid": "freshqa_316", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "July 4, 1776", "doc_ids": []}
+{"qid": "freshqa_317", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Andrew Jackson", "doc_ids": []}
+{"qid": "freshqa_318", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Public domain", "doc_ids": []}
+{"qid": "freshqa_319", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Pel\u00e9", "doc_ids": []}
+{"qid": "freshqa_320", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Andrey Esipenko", "doc_ids": []}
+{"qid": "freshqa_321", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "389", "doc_ids": []}
+{"qid": "freshqa_322", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "October 27, 2022", "doc_ids": []}
+{"qid": "freshqa_323", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Tetsuya Kazuya", "doc_ids": []}
+{"qid": "freshqa_324", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "SMACS 0723", "doc_ids": []}
+{"qid": "freshqa_325", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Katie Bouman", "doc_ids": []}
+{"qid": "freshqa_326", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Mitt Romney's wife, Ann Romney, is not the correct answer. The first and, as of 2023, the only woman elected as", "doc_ids": []}
+{"qid": "freshqa_327", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "9 September 2022", "doc_ids": []}
+{"qid": "freshqa_328", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Mohamed Abdelfattah Abdelrazek Sayed Sayed Abdel Hamid, better known as Moungi G. Bawendi", "doc_ids": []}
+{"qid": "freshqa_329", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Amal El-Mohtar and Max Gladstone", "doc_ids": []}
+{"qid": "freshqa_330", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Zinedine Zidane", "doc_ids": []}
+{"qid": "freshqa_331", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Miroslav Klose", "doc_ids": []}
+{"qid": "freshqa_332", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "November 15, 2022", "doc_ids": []}
+{"qid": "freshqa_333", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Danica \u0160arovi\u0107", "doc_ids": []}
+{"qid": "freshqa_334", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_335", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Berklee College of Music", "doc_ids": []}
+{"qid": "freshqa_336", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "\"Red Planet Simpson\"", "doc_ids": []}
+{"qid": "freshqa_337", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "\"Basic Berry\"", "doc_ids": []}
+{"qid": "freshqa_338", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Marvel Cinematic Universe", "doc_ids": []}
+{"qid": "freshqa_339", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Sara Lucy Thompson", "doc_ids": []}
+{"qid": "freshqa_340", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2 months", "doc_ids": []}
+{"qid": "freshqa_341", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "United States", "doc_ids": []}
+{"qid": "freshqa_342", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Zinedine Zidane", "doc_ids": []}
+{"qid": "freshqa_343", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Sepp Hochreiter", "doc_ids": []}
+{"qid": "freshqa_344", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Juneau", "doc_ids": []}
+{"qid": "freshqa_345", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "San Jose", "doc_ids": []}
+{"qid": "freshqa_346", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Lexington, Kentucky", "doc_ids": []}
+{"qid": "freshqa_347", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "New York City", "doc_ids": []}
+{"qid": "freshqa_348", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Qianlong Emperor", "doc_ids": []}
+{"qid": "freshqa_349", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1994", "doc_ids": []}
+{"qid": "freshqa_350", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Freiburg", "doc_ids": []}
+{"qid": "freshqa_351", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "East Pacific Rise", "doc_ids": []}
+{"qid": "freshqa_352", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Jiangsu Province", "doc_ids": []}
+{"qid": "freshqa_353", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Canada", "doc_ids": []}
+{"qid": "freshqa_354", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Emma Woodhouse", "doc_ids": []}
+{"qid": "freshqa_355", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Poland", "doc_ids": []}
+{"qid": "freshqa_356", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "August 29, 1930", "doc_ids": []}
+{"qid": "freshqa_357", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "ACM", "doc_ids": []}
+{"qid": "freshqa_358", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Ariana Grande", "doc_ids": []}
+{"qid": "freshqa_359", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "3", "doc_ids": []}
+{"qid": "freshqa_360", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Yes", "doc_ids": []}
+{"qid": "freshqa_361", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "41", "doc_ids": []}
+{"qid": "freshqa_362", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Ian", "doc_ids": []}
+{"qid": "freshqa_363", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Baltimore", "doc_ids": []}
+{"qid": "freshqa_364", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "RBG", "doc_ids": []}
+{"qid": "freshqa_365", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "96", "doc_ids": []}
+{"qid": "freshqa_366", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "heart failure", "doc_ids": []}
+{"qid": "freshqa_367", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "12 years", "doc_ids": []}
+{"qid": "freshqa_368", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Alstom", "doc_ids": []}
+{"qid": "freshqa_369", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_370", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "\"Baby\" by Justin Bieber", "doc_ids": []}
+{"qid": "freshqa_371", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "India", "doc_ids": []}
+{"qid": "freshqa_372", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "India", "doc_ids": []}
+{"qid": "freshqa_373", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Max Verstappen", "doc_ids": []}
+{"qid": "freshqa_374", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Grace VanderWaal", "doc_ids": []}
+{"qid": "freshqa_375", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "4500+\");\nNote: The number is approximate and will vary based on the latest discoveries. As of the last update, over 4500", "doc_ids": []}
+{"qid": "freshqa_376", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "33", "doc_ids": []}
+{"qid": "freshqa_377", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Avatar: The Way of Water", "doc_ids": []}
+{"qid": "freshqa_378", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Not provided in the given text.", "doc_ids": []}
+{"qid": "freshqa_379", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "533000", "doc_ids": []}
+{"qid": "freshqa_380", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Cannot provide without current data.", "doc_ids": []}
+{"qid": "freshqa_381", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "\"Diary of a Wimpy Kid\"", "doc_ids": []}
+{"qid": "freshqa_382", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "The Great Gatsby", "doc_ids": []}
+{"qid": "freshqa_383", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "$15.49", "doc_ids": []}
+{"qid": "freshqa_384", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "BTS", "doc_ids": []}
+{"qid": "freshqa_385", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "\"Everything Everywhere All at Once\"", "doc_ids": []}
+{"qid": "freshqa_386", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "157", "doc_ids": []}
+{"qid": "freshqa_387", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "DeMar DeRozan", "doc_ids": []}
+{"qid": "freshqa_388", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Jake Hoot", "doc_ids": []}
+{"qid": "freshqa_389", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2023-04-30", "doc_ids": []}
+{"qid": "freshqa_390", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Novak Djokovic", "doc_ids": []}
+{"qid": "freshqa_391", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "September 11, 2022", "doc_ids": []}
+{"qid": "freshqa_392", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Wales", "doc_ids": []}
+{"qid": "freshqa_393", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Terri Lyne Carrington", "doc_ids": []}
+{"qid": "freshqa_394", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Kansas City Chiefs", "doc_ids": []}
+{"qid": "freshqa_395", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "New Orleans, LA, USA", "doc_ids": []}
+{"qid": "freshqa_396", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "April 13-15, 2023 and April 20-22, 2023", "doc_ids": []}
+{"qid": "freshqa_397", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "November 24, 2023", "doc_ids": []}
+{"qid": "freshqa_398", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "April 5, 2023", "doc_ids": []}
+{"qid": "freshqa_399", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Iga \u015awi\u0105tek, Jessica Pegula", "doc_ids": []}
+{"qid": "freshqa_400", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "196", "doc_ids": []}
+{"qid": "freshqa_401", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Second Sunday in May", "doc_ids": []}
+{"qid": "freshqa_402", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Third Sunday in June", "doc_ids": []}
+{"qid": "freshqa_403", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Frankfurt, Germany", "doc_ids": []}
+{"qid": "freshqa_404", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "NBC", "doc_ids": []}
+{"qid": "freshqa_405", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Avatar", "doc_ids": []}
+{"qid": "freshqa_406", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2971", "doc_ids": []}
+{"qid": "freshqa_407", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "April 2 to May 2", "doc_ids": []}
+{"qid": "freshqa_408", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "November 23, 2023", "doc_ids": []}
+{"qid": "freshqa_409", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "September 4, 2023", "doc_ids": []}
+{"qid": "freshqa_410", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "SoFi Stadium", "doc_ids": []}
+{"qid": "freshqa_411", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "January 30, 2022", "doc_ids": []}
+{"qid": "freshqa_412", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "\"Turning Red\"", "doc_ids": []}
+{"qid": "freshqa_413", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Everything Everywhere All at Once", "doc_ids": []}
+{"qid": "freshqa_414", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Over 60", "doc_ids": []}
+{"qid": "freshqa_415", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "The Institute", "doc_ids": []}
+{"qid": "freshqa_416", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Summer", "doc_ids": []}
+{"qid": "freshqa_417", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "July 4, 2023", "doc_ids": []}
+{"qid": "freshqa_418", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "April 13, 2021", "doc_ids": []}
+{"qid": "freshqa_419", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "April 11, 2023", "doc_ids": []}
+{"qid": "freshqa_420", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Laine Hardy", "doc_ids": []}
+{"qid": "freshqa_421", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "29", "doc_ids": []}
+{"qid": "freshqa_422", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Jeff Wilson Jr.", "doc_ids": []}
+{"qid": "freshqa_423", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "$59,990", "doc_ids": []}
+{"qid": "freshqa_424", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "13", "doc_ids": []}
+{"qid": "freshqa_425", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Elon Musk", "doc_ids": []}
+{"qid": "freshqa_426", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Manchester City", "doc_ids": []}
+{"qid": "freshqa_427", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_428", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Donald Trump", "doc_ids": []}
+{"qid": "freshqa_429", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Sonoma", "doc_ids": []}
+{"qid": "freshqa_430", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Franco Morbidelli", "doc_ids": []}
+{"qid": "freshqa_431", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Annie Ernaux", "doc_ids": []}
+{"qid": "freshqa_432", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Cristiano Ronaldo", "doc_ids": []}
+{"qid": "freshqa_433", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "\"Elemental\"", "doc_ids": []}
+{"qid": "freshqa_434", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Encanto", "doc_ids": []}
+{"qid": "freshqa_435", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Elden Ring", "doc_ids": []}
+{"qid": "freshqa_436", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "September 6, 2023", "doc_ids": []}
+{"qid": "freshqa_437", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1429", "doc_ids": []}
+{"qid": "freshqa_438", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Karim Benzema", "doc_ids": []}
+{"qid": "freshqa_439", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Succession", "doc_ids": []}
+{"qid": "freshqa_440", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Montreal, Canada", "doc_ids": []}
+{"qid": "freshqa_441", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Chiang Mai, Thailand", "doc_ids": []}
+{"qid": "freshqa_442", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Splendor", "doc_ids": []}
+{"qid": "freshqa_443", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "74", "doc_ids": []}
+{"qid": "freshqa_444", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "\"The Return of the King\"", "doc_ids": []}
+{"qid": "freshqa_445", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Golden State Warriors", "doc_ids": []}
+{"qid": "freshqa_446", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "5", "doc_ids": []}
+{"qid": "freshqa_447", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "14", "doc_ids": []}
+{"qid": "freshqa_448", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Laine Hardy", "doc_ids": []}
+{"qid": "freshqa_449", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Not specified in provided evidence.", "doc_ids": []}
+{"qid": "freshqa_450", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Spotify Wrapped 2022", "doc_ids": []}
+{"qid": "freshqa_451", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Iga \u015awi\u0105tek", "doc_ids": []}
+{"qid": "freshqa_452", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Yes", "doc_ids": []}
+{"qid": "freshqa_453", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "\"Morrows of the West\"", "doc_ids": []}
+{"qid": "freshqa_454", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "$99", "doc_ids": []}
+{"qid": "freshqa_455", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Mississippi", "doc_ids": []}
+{"qid": "freshqa_456", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "6 months", "doc_ids": []}
+{"qid": "freshqa_457", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "The Unspoken", "doc_ids": []}
+{"qid": "freshqa_458", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "36", "doc_ids": []}
+{"qid": "freshqa_459", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1", "doc_ids": []}
+{"qid": "freshqa_460", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "11", "doc_ids": []}
+{"qid": "freshqa_461", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "45%", "doc_ids": []}
+{"qid": "freshqa_462", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "55%", "doc_ids": []}
+{"qid": "freshqa_463", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_464", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_465", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "12", "doc_ids": []}
+{"qid": "freshqa_466", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "130 years", "doc_ids": []}
+{"qid": "freshqa_467", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "20", "doc_ids": []}
+{"qid": "freshqa_468", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "19", "doc_ids": []}
+{"qid": "freshqa_469", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Not provided in the given text.", "doc_ids": []}
+{"qid": "freshqa_470", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "James Patterson", "doc_ids": []}
+{"qid": "freshqa_471", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Evidence documents are required to answer this question precisely. Without them, an accurate short response cannot be provided.", "doc_ids": []}
+{"qid": "freshqa_472", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "November 2021", "doc_ids": []}
+{"qid": "freshqa_473", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "69", "doc_ids": []}
+{"qid": "freshqa_474", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Babylon", "doc_ids": []}
+{"qid": "freshqa_475", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1984-2023", "doc_ids": []}
+{"qid": "freshqa_476", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "3", "doc_ids": []}
+{"qid": "freshqa_477", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Yes", "doc_ids": []}
+{"qid": "freshqa_478", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "119 years", "doc_ids": []}
+{"qid": "freshqa_479", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "South Africa", "doc_ids": []}
+{"qid": "freshqa_480", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "3", "doc_ids": []}
+{"qid": "freshqa_481", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "75", "doc_ids": []}
+{"qid": "freshqa_482", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "United Kingdom", "doc_ids": []}
+{"qid": "freshqa_483", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "10", "doc_ids": []}
+{"qid": "freshqa_484", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Ghana", "doc_ids": []}
+{"qid": "freshqa_485", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Golden State Warriors, Edmonton Oilers, Los Angeles Dodgers", "doc_ids": []}
+{"qid": "freshqa_486", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "United States", "doc_ids": []}
+{"qid": "freshqa_487", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "44", "doc_ids": []}
+{"qid": "freshqa_488", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "82", "doc_ids": []}
+{"qid": "freshqa_489", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "10th", "doc_ids": []}
+{"qid": "freshqa_490", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "19", "doc_ids": []}
+{"qid": "freshqa_491", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "137", "doc_ids": []}
+{"qid": "freshqa_492", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "26", "doc_ids": []}
+{"qid": "freshqa_493", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Montreal Canadiens", "doc_ids": []}
+{"qid": "freshqa_494", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "France", "doc_ids": []}
+{"qid": "freshqa_495", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "United States", "doc_ids": []}
+{"qid": "freshqa_496", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_497", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_498", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Evidence documents are required to provide an answer. Without them, an accurate short span cannot be given.", "doc_ids": []}
+{"qid": "freshqa_499", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2", "doc_ids": []}
+{"qid": "freshqa_500", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Canada does not have a president.", "doc_ids": []}
+{"qid": "freshqa_501", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2010", "doc_ids": []}
+{"qid": "freshqa_502", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2010", "doc_ids": []}
+{"qid": "freshqa_503", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Denmark has not adopted the euro as its currency.", "doc_ids": []}
+{"qid": "freshqa_504", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Not provided", "doc_ids": []}
+{"qid": "freshqa_505", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Best Supporting Actor", "doc_ids": []}
+{"qid": "freshqa_506", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1845", "doc_ids": []}
+{"qid": "freshqa_507", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2021", "doc_ids": []}
+{"qid": "freshqa_508", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "St. Peter's Basilica", "doc_ids": []}
+{"qid": "freshqa_509", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "ArriveCAN", "doc_ids": []}
+{"qid": "freshqa_510", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Maryam Mirzakhani", "doc_ids": []}
+{"qid": "freshqa_511", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "It has not been entirely illegal; laws vary by state.", "doc_ids": []}
+{"qid": "freshqa_512", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "45 days", "doc_ids": []}
+{"qid": "freshqa_513", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Tokyo", "doc_ids": []}
+{"qid": "freshqa_514", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "M1 chip", "doc_ids": []}
+{"qid": "freshqa_515", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2006", "doc_ids": []}
+{"qid": "freshqa_516", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "0", "doc_ids": []}
+{"qid": "freshqa_517", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "None, Venus has no moons.", "doc_ids": []}
+{"qid": "freshqa_518", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "No astronomer successfully lobbied the IAU to change Pluto's classification back to \"planet\" in 2021.", "doc_ids": []}
+{"qid": "freshqa_519", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "182", "doc_ids": []}
+{"qid": "freshqa_520", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "No specific album title provided.", "doc_ids": []}
+{"qid": "freshqa_521", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "February", "doc_ids": []}
+{"qid": "freshqa_522", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "January", "doc_ids": []}
+{"qid": "freshqa_523", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "66", "doc_ids": []}
+{"qid": "freshqa_524", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "3", "doc_ids": []}
+{"qid": "freshqa_525", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Los Angeles Lakers", "doc_ids": []}
+{"qid": "freshqa_526", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "A380", "doc_ids": []}
+{"qid": "freshqa_527", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Mariana Trench", "doc_ids": []}
+{"qid": "freshqa_528", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "English", "doc_ids": []}
+{"qid": "freshqa_529", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2019", "doc_ids": []}
+{"qid": "freshqa_530", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "France", "doc_ids": []}
+{"qid": "freshqa_531", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "tensorflow/tensorflow", "doc_ids": []}
+{"qid": "freshqa_532", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "2016", "doc_ids": []}
+{"qid": "freshqa_533", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Paris Saint-Germain", "doc_ids": []}
+{"qid": "freshqa_534", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "930 yen", "doc_ids": []}
+{"qid": "freshqa_535", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Trevor Noah", "doc_ids": []}
+{"qid": "freshqa_536", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Sachin Tendulkar", "doc_ids": []}
+{"qid": "freshqa_537", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_538", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "14.25", "doc_ids": []}
+{"qid": "freshqa_539", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Facebook's acquisition of WhatsApp", "doc_ids": []}
+{"qid": "freshqa_540", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Aneurin Bevan", "doc_ids": []}
+{"qid": "freshqa_541", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Russian invasion of Ukraine", "doc_ids": []}
+{"qid": "freshqa_542", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Unknown", "doc_ids": []}
+{"qid": "freshqa_543", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "14", "doc_ids": []}
+{"qid": "freshqa_544", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "4.54 billion years", "doc_ids": []}
+{"qid": "freshqa_545", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Victoria Coren Mitchell", "doc_ids": []}
+{"qid": "freshqa_546", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "$478 million", "doc_ids": []}
+{"qid": "freshqa_547", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Jill Biden", "doc_ids": []}
+{"qid": "freshqa_548", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Kylian Mbapp\u00e9", "doc_ids": []}
+{"qid": "freshqa_549", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "6", "doc_ids": []}
+{"qid": "freshqa_550", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Evidence needed to provide an answer.", "doc_ids": []}
+{"qid": "freshqa_551", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1", "doc_ids": []}
+{"qid": "freshqa_552", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "\"Saved from the Titanic\"", "doc_ids": []}
+{"qid": "freshqa_553", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "7", "doc_ids": []}
+{"qid": "freshqa_554", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Jarkko Oikarinen", "doc_ids": []}
+{"qid": "freshqa_555", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Frank Rosenblatt", "doc_ids": []}
+{"qid": "freshqa_556", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "San Jos\u00e9", "doc_ids": []}
+{"qid": "freshqa_557", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1933", "doc_ids": []}
+{"qid": "freshqa_558", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "William E. Boeing", "doc_ids": []}
+{"qid": "freshqa_559", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Vincent van Gogh", "doc_ids": []}
+{"qid": "freshqa_560", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Pip", "doc_ids": []}
+{"qid": "freshqa_561", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Yokota Air Base", "doc_ids": []}
+{"qid": "freshqa_562", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Stanford University", "doc_ids": []}
+{"qid": "freshqa_563", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Red Garland", "doc_ids": []}
+{"qid": "freshqa_564", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Sirius", "doc_ids": []}
+{"qid": "freshqa_565", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Steven Spielberg", "doc_ids": []}
+{"qid": "freshqa_566", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "56", "doc_ids": []}
+{"qid": "freshqa_567", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Yulan Magnolia", "doc_ids": []}
+{"qid": "freshqa_568", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_569", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "New York", "doc_ids": []}
+{"qid": "freshqa_570", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Lele Pons", "doc_ids": []}
+{"qid": "freshqa_571", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "September 2, 2022", "doc_ids": []}
+{"qid": "freshqa_572", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Squaw Valley, California", "doc_ids": []}
+{"qid": "freshqa_573", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "9", "doc_ids": []}
+{"qid": "freshqa_574", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "car accident", "doc_ids": []}
+{"qid": "freshqa_575", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Ringo Starr", "doc_ids": []}
+{"qid": "freshqa_576", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Jiaqing", "doc_ids": []}
+{"qid": "freshqa_577", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "240", "doc_ids": []}
+{"qid": "freshqa_578", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "8 billion", "doc_ids": []}
+{"qid": "freshqa_579", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Brazil", "doc_ids": []}
+{"qid": "freshqa_580", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "\"Armor\"", "doc_ids": []}
+{"qid": "freshqa_581", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "February 10, 2024", "doc_ids": []}
+{"qid": "freshqa_582", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "cannot answer without current year or calendar reference", "doc_ids": []}
+{"qid": "freshqa_583", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Unknown", "doc_ids": []}
+{"qid": "freshqa_584", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "December 12, 2023", "doc_ids": []}
+{"qid": "freshqa_585", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "It cannot be determined from the provided information.", "doc_ids": []}
+{"qid": "freshqa_586", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "\"Self Balloons\"", "doc_ids": []}
+{"qid": "freshqa_587", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Ida", "doc_ids": []}
+{"qid": "freshqa_588", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Zhejiang University", "doc_ids": []}
+{"qid": "freshqa_589", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Grace VanderWaal", "doc_ids": []}
+{"qid": "freshqa_590", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "\"Barry\"", "doc_ids": []}
+{"qid": "freshqa_591", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Not provided in the given evidence documents.", "doc_ids": []}
+{"qid": "freshqa_592", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "Ant-Man and the Wasp: Quantumania", "doc_ids": []}
+{"qid": "freshqa_593", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "26", "doc_ids": []}
+{"qid": "freshqa_594", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "89\u00b0F", "doc_ids": []}
+{"qid": "freshqa_595", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "3", "doc_ids": []}
+{"qid": "freshqa_596", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "No", "doc_ids": []}
+{"qid": "freshqa_597", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "A14 Bionic", "doc_ids": []}
+{"qid": "freshqa_598", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "1994-02-20", "doc_ids": []}
+{"qid": "freshqa_599", "condition": "freshqa", "model": "Qwen/Qwen2.5-32B-Instruct-GGUF", "prediction": "36", "doc_ids": []}

@@ -1,0 +1,36 @@
+{
+  "purpose": "Human support labels on MASKED retrieval contexts, so the Layer-3 interaction can be estimated jointly under the temporal mask and human labels.",
+  "built_by": "annotation/build_masked_pack.py",
+  "seed": 20260804,
+  "ranked_file": "retrieval_masked.json",
+  "retriever": "hybrid",
+  "passages_per_question": 3,
+  "excerpt_chars": 700,
+  "n_questions": 210,
+  "n_rows": 630,
+  "strata": {
+    "fresh_supported": {
+      "population_questions": 240,
+      "sampled_questions": 50,
+      "weight": 4.8
+    },
+    "fresh_unsupported": {
+      "population_questions": 234,
+      "sampled_questions": 50,
+      "weight": 4.68
+    },
+    "static_supported": {
+      "population_questions": 191,
+      "sampled_questions": 50,
+      "weight": 3.82
+    },
+    "static_unsupported": {
+      "population_questions": 213,
+      "sampled_questions": 50,
+      "weight": 4.26
+    }
+  },
+  "consistency_recheck_questions": 10,
+  "weighting_note": "Strata are sampled equally, NOT proportionally, so every population estimate must be weighted by strata[*].weight. An unweighted mean over this pack is not a population quantity.",
+  "blinding": "Annotators receive no model, condition, automatic label or stratum. The key is in item_metadata.jsonl."
+}

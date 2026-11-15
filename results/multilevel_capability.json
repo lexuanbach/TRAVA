@@ -1,0 +1,134 @@
+{
+  "scope": "Item-level test of whether the closed-book boundary gap widens with capability. The random intercept is on the QUESTION (`qid`), not the weekly quiz batch: it accounts for repeated measurement of the same question across generators. It does NOT absorb systematic differences between the Static and Fresh question sets, because every question is deterministically in one set or the other, so the fixed `fresh` coefficient still rests on the random-effects independence assumption.",
+  "boundary": "2025-01-01",
+  "capability_proxy": "mean token-F1 on the Fresh slice under hybrid retrieval; Fresh post-dates every model's pretraining, so this measures use of supplied evidence and not parametric recall",
+  "capability_by_model": {
+    "qwen1_5b": 33.4903,
+    "qwen3b": 35.2068,
+    "qwen7b": 35.9171,
+    "qwen32b": 39.1081,
+    "qwen72b": 38.9577,
+    "mistral_large": 39.7699,
+    "gpt4omini": 38.8449,
+    "sonnet": 30.4368
+  },
+  "capability_mean": 36.4664,
+  "fits": {
+    "capability_proxy_open": {
+      "label": "Fresh x capability (RAG-F1 proxy), open-weight rungs",
+      "formula": "f1 ~ fresh * capability_c",
+      "n_obs": 5268,
+      "n_groups_question": 878,
+      "n_models": 6,
+      "interaction_term": "fresh:capability_c",
+      "coef": -2.2427837604649903,
+      "se": 0.3278997414739255,
+      "z": -6.839846077290476,
+      "p": 7.927831537195195e-12,
+      "ci95": [
+        -2.885455444293879,
+        -1.6001120766361017
+      ],
+      "fresh_main": -2.758406437121823,
+      "fresh_main_p": 0.1748309024078284
+    },
+    "log_params_open": {
+      "label": "Fresh x log10(parameters), open-weight rungs",
+      "formula": "f1 ~ fresh * log_params_c",
+      "n_obs": 5268,
+      "n_groups_question": 878,
+      "n_models": 6,
+      "interaction_term": "fresh:log_params_c",
+      "coef": -7.859983146691508,
+      "se": 1.0743343326432262,
+      "z": -7.316142571142904,
+      "p": 2.552005255516852e-13,
+      "ci95": [
+        -9.965639746027106,
+        -5.754326547355911
+      ],
+      "fresh_main": -4.123209063754632,
+      "fresh_main_p": 0.041544672816648295
+    },
+    "capability_proxy_all_models_INVALID": {
+      "label": "All 8 models (proxy invalid for abstainers -- documentation only)",
+      "formula": "f1 ~ fresh * capability_c",
+      "n_obs": 7024,
+      "n_groups_question": 878,
+      "n_models": 8,
+      "interaction_term": "fresh:capability_c",
+      "coef": 0.490610469049775,
+      "se": 0.22573103901827554,
+      "z": 2.173429366131852,
+      "p": 0.02974801662496117,
+      "ci95": [
+        0.048185762381149244,
+        0.9330351757184008
+      ],
+      "fresh_main": -8.058719566328184,
+      "fresh_main_p": 5.608166576369999e-05
+    }
+  },
+  "proxy_failure_note": "Claude-Sonnet-4.5's Fresh RAG-F1 (30.44) is the lowest of the eight, below Qwen2.5-3B (35.21), because it abstains on roughly half of Fresh questions. The proxy measures answered-question accuracy and so mis-ranks heavy abstainers; the interaction is therefore estimated on the open-weight rungs, where abstention is under 7%.",
+  "leave_one_model_out": {
+    "note": "Refit dropping each open-weight rung in turn. Read the SIGN pattern, not the intervals: capability varies only between models, so every interval here is pseudoreplicated at the item level and is far too narrow for a model-level claim. What the refits establish is that the direction does not depend on any one rung; they establish nothing about significance.",
+    "intervals_are_pseudoreplicated": true,
+    "fits": {
+      "qwen1_5b": {
+        "dropped": "Qwen2.5-1.5B",
+        "coef": -2.805951155779968,
+        "ci95": [
+          -3.680237082002194,
+          -1.931665229557742
+        ]
+      },
+      "qwen3b": {
+        "dropped": "Qwen2.5-3B",
+        "coef": -2.0762827500351606,
+        "ci95": [
+          -2.7655582539519843,
+          -1.3870072461183371
+        ]
+      },
+      "qwen7b": {
+        "dropped": "Qwen2.5-7B",
+        "coef": -2.2393902557542513,
+        "ci95": [
+          -2.911215942895638,
+          -1.5675645686128648
+        ]
+      },
+      "qwen32b": {
+        "dropped": "Qwen2.5-32B",
+        "coef": -2.573889651743436,
+        "ci95": [
+          -3.282012698402192,
+          -1.8657666050846797
+        ]
+      },
+      "qwen72b": {
+        "dropped": "Qwen2.5-72B",
+        "coef": -2.412392636025279,
+        "ci95": [
+          -3.1015852490615634,
+          -1.723200022988995
+        ]
+      },
+      "mistral_large": {
+        "dropped": "Mistral-Large-2",
+        "coef": -1.4556377384145067,
+        "ci95": [
+          -2.18534758791523,
+          -0.7259278889137835
+        ]
+      }
+    },
+    "coef_range": [
+      -2.805951155779968,
+      -1.4556377384145067
+    ],
+    "all_same_sign": true
+  },
+  "interpretation": "At centered capability c the Static-minus-Fresh contrast is -(beta_fresh + beta_interaction*c). Centering uses the recorded eight-model mean before selecting the six open-weight models. The random intercept accounts for repeated questions across models, not between-slice difficulty. The year-pair analysis is a sensitivity check, not a difficulty control. Model-level information comes from six models; the fit is a descriptive association.",
+  "centering_scope": "eight-model capability mean before six-model open-weight fit"
+}

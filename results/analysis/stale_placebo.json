@@ -1,0 +1,896 @@
+{
+  "scope": "Date-defined negative control for the stale index and the leave-one-out index: retrieval-condition drop on Static vs Fresh questions and their difference (DiD).",
+  "boundary": "Static = date year < 2025; Fresh = date year >= 2025 (from `date`)",
+  "bootstrap": {
+    "B": 5000,
+    "seed": 20260917,
+    "unit": "weekly quiz id (clusters.quiz_id); one resample of the full quiz set per draw, shared by both regimes, both contrasts and all three models",
+    "ci": "percentile 2.5/97.5",
+    "p": "two-sided, 2*min(#<=0+1, #>=0+1)/(B+1)"
+  },
+  "weightings": {
+    "question_pooled": "mean over questions",
+    "quiz_weighted": "mean over quizzes of within-quiz means; a quiz enters a regime's denominator only if it has questions in that regime (Static and Fresh quizzes are disjoint)"
+  },
+  "n": {
+    "common_questions": 878,
+    "static": {
+      "n_questions": 404,
+      "n_quizzes": 125
+    },
+    "fresh": {
+      "n_questions": 474,
+      "n_quizzes": 74
+    },
+    "all": {
+      "n_questions": 878,
+      "n_quizzes": 199
+    }
+  },
+  "reproduction_of_stale_replication_json": {
+    "B": 5000,
+    "seed": 20260801,
+    "estimator": "question-pooled means; paired weekly-quiz block bootstrap over Fresh questions only (stale_replication.paired_block_bootstrap, python `random`)",
+    "models": {
+      "qwen3b": {
+        "n_common": 878,
+        "n_fresh": 474,
+        "contrasts": {
+          "hybrid_minus_stale": {
+            "recomputed": {
+              "diff_f1": 21.56,
+              "ci95": [
+                16.96,
+                26.0
+              ],
+              "p": 0.0004
+            },
+            "stored": {
+              "diff_f1": 21.56,
+              "ci95": [
+                16.96,
+                26.0
+              ],
+              "p": 0.0004
+            },
+            "exact_match": true
+          },
+          "hybrid_minus_loo": {
+            "recomputed": {
+              "diff_f1": 21.07,
+              "ci95": [
+                17.36,
+                24.89
+              ],
+              "p": 0.0004
+            },
+            "stored": {
+              "diff_f1": 21.07,
+              "ci95": [
+                17.36,
+                24.89
+              ],
+              "p": 0.0004
+            },
+            "exact_match": true
+          },
+          "stale_minus_closedbook": {
+            "recomputed": {
+              "diff_f1": -2.11,
+              "ci95": [
+                -5.77,
+                1.27
+              ],
+              "p": 0.2368
+            },
+            "stored": {
+              "diff_f1": -2.11,
+              "ci95": [
+                -5.77,
+                1.27
+              ],
+              "p": 0.2368
+            },
+            "exact_match": true
+          }
+        },
+        "f1_means_match": true
+      },
+      "qwen32b": {
+        "n_common": 878,
+        "n_fresh": 474,
+        "contrasts": {
+          "hybrid_minus_stale": {
+            "recomputed": {
+              "diff_f1": 21.67,
+              "ci95": [
+                17.0,
+                26.32
+              ],
+              "p": 0.0004
+            },
+            "stored": {
+              "diff_f1": 21.67,
+              "ci95": [
+                17.0,
+                26.32
+              ],
+              "p": 0.0004
+            },
+            "exact_match": true
+          },
+          "hybrid_minus_loo": {
+            "recomputed": {
+              "diff_f1": 17.99,
+              "ci95": [
+                13.66,
+                22.34
+              ],
+              "p": 0.0004
+            },
+            "stored": {
+              "diff_f1": 17.99,
+              "ci95": [
+                13.66,
+                22.34
+              ],
+              "p": 0.0004
+            },
+            "exact_match": true
+          },
+          "stale_minus_closedbook": {
+            "recomputed": {
+              "diff_f1": -7.75,
+              "ci95": [
+                -11.26,
+                -3.95
+              ],
+              "p": 0.0004
+            },
+            "stored": {
+              "diff_f1": -7.75,
+              "ci95": [
+                -11.26,
+                -3.95
+              ],
+              "p": 0.0004
+            },
+            "exact_match": true
+          }
+        },
+        "f1_means_match": true
+      },
+      "mistral_large": {
+        "n_common": 878,
+        "n_fresh": 474,
+        "contrasts": {
+          "hybrid_minus_stale": {
+            "recomputed": {
+              "diff_f1": 21.29,
+              "ci95": [
+                16.91,
+                25.79
+              ],
+              "p": 0.0004
+            },
+            "stored": {
+              "diff_f1": 21.29,
+              "ci95": [
+                16.91,
+                25.79
+              ],
+              "p": 0.0004
+            },
+            "exact_match": true
+          },
+          "hybrid_minus_loo": {
+            "recomputed": {
+              "diff_f1": 17.96,
+              "ci95": [
+                13.77,
+                22.2
+              ],
+              "p": 0.0004
+            },
+            "stored": {
+              "diff_f1": 17.96,
+              "ci95": [
+                13.77,
+                22.2
+              ],
+              "p": 0.0004
+            },
+            "exact_match": true
+          },
+          "stale_minus_closedbook": {
+            "recomputed": {
+              "diff_f1": -11.4,
+              "ci95": [
+                -14.91,
+                -8.07
+              ],
+              "p": 0.0004
+            },
+            "stored": {
+              "diff_f1": -11.4,
+              "ci95": [
+                -14.91,
+                -8.07
+              ],
+              "p": 0.0004
+            },
+            "exact_match": true
+          }
+        },
+        "f1_means_match": true
+      }
+    },
+    "all_exact_match": true
+  },
+  "models": {
+    "qwen3b": {
+      "name": "Qwen2.5-3B",
+      "condition_means": {
+        "question_pooled": {
+          "closed_book": {
+            "static": 13.58,
+            "fresh": 15.76
+          },
+          "hybrid": {
+            "static": 35.87,
+            "fresh": 35.21
+          },
+          "hybrid_stale": {
+            "static": 35.15,
+            "fresh": 13.65
+          },
+          "hybrid_loo": {
+            "static": 13.49,
+            "fresh": 14.14
+          }
+        },
+        "quiz_weighted": {
+          "closed_book": {
+            "static": 13.22,
+            "fresh": 14.28
+          },
+          "hybrid": {
+            "static": 33.29,
+            "fresh": 30.38
+          },
+          "hybrid_stale": {
+            "static": 32.68,
+            "fresh": 12.89
+          },
+          "hybrid_loo": {
+            "static": 13.21,
+            "fresh": 11.77
+          }
+        }
+      },
+      "contrasts": {
+        "hybrid_minus_stale": {
+          "question_pooled": {
+            "drop_static": {
+              "estimate": 0.72,
+              "ci95": [
+                -0.75,
+                2.31
+              ],
+              "se_boot": 0.78,
+              "p_two_sided_boot": 0.35073,
+              "ci_excludes_zero": false
+            },
+            "drop_fresh": {
+              "estimate": 21.56,
+              "ci95": [
+                16.87,
+                26.16
+              ],
+              "se_boot": 2.34,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "did_fresh_minus_static": {
+              "estimate": 20.84,
+              "ci95": [
+                15.86,
+                25.73
+              ],
+              "se_boot": 2.45,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            }
+          },
+          "quiz_weighted": {
+            "drop_static": {
+              "estimate": 0.61,
+              "ci95": [
+                -0.9,
+                2.31
+              ],
+              "se_boot": 0.81,
+              "p_two_sided_boot": 0.45191,
+              "ci_excludes_zero": false
+            },
+            "drop_fresh": {
+              "estimate": 17.49,
+              "ci95": [
+                12.03,
+                23.12
+              ],
+              "se_boot": 2.83,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "did_fresh_minus_static": {
+              "estimate": 16.88,
+              "ci95": [
+                11.27,
+                22.78
+              ],
+              "se_boot": 2.94,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            }
+          }
+        },
+        "hybrid_minus_loo": {
+          "question_pooled": {
+            "drop_static": {
+              "estimate": 22.38,
+              "ci95": [
+                18.57,
+                26.2
+              ],
+              "se_boot": 1.95,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "drop_fresh": {
+              "estimate": 21.07,
+              "ci95": [
+                17.29,
+                24.83
+              ],
+              "se_boot": 1.94,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "did_fresh_minus_static": {
+              "estimate": -1.31,
+              "ci95": [
+                -6.76,
+                3.97
+              ],
+              "se_boot": 2.76,
+              "p_two_sided_boot": 0.63067,
+              "ci_excludes_zero": false
+            }
+          },
+          "quiz_weighted": {
+            "drop_static": {
+              "estimate": 20.08,
+              "ci95": [
+                15.84,
+                24.34
+              ],
+              "se_boot": 2.19,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "drop_fresh": {
+              "estimate": 18.61,
+              "ci95": [
+                11.03,
+                26.21
+              ],
+              "se_boot": 3.84,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "did_fresh_minus_static": {
+              "estimate": -1.47,
+              "ci95": [
+                -10.34,
+                7.31
+              ],
+              "se_boot": 4.44,
+              "p_two_sided_boot": 0.72705,
+              "ci_excludes_zero": false
+            }
+          }
+        }
+      }
+    },
+    "qwen32b": {
+      "name": "Qwen2.5-32B",
+      "condition_means": {
+        "question_pooled": {
+          "closed_book": {
+            "static": 30.12,
+            "fresh": 25.19
+          },
+          "hybrid": {
+            "static": 38.84,
+            "fresh": 39.11
+          },
+          "hybrid_stale": {
+            "static": 38.87,
+            "fresh": 17.44
+          },
+          "hybrid_loo": {
+            "static": 17.64,
+            "fresh": 21.12
+          }
+        },
+        "quiz_weighted": {
+          "closed_book": {
+            "static": 28.73,
+            "fresh": 21.85
+          },
+          "hybrid": {
+            "static": 33.97,
+            "fresh": 36.09
+          },
+          "hybrid_stale": {
+            "static": 35.06,
+            "fresh": 15.31
+          },
+          "hybrid_loo": {
+            "static": 17.95,
+            "fresh": 16.88
+          }
+        }
+      },
+      "contrasts": {
+        "hybrid_minus_stale": {
+          "question_pooled": {
+            "drop_static": {
+              "estimate": -0.03,
+              "ci95": [
+                -1.28,
+                1.18
+              ],
+              "se_boot": 0.62,
+              "p_two_sided_boot": 0.95741,
+              "ci_excludes_zero": false
+            },
+            "drop_fresh": {
+              "estimate": 21.67,
+              "ci95": [
+                17.08,
+                26.24
+              ],
+              "se_boot": 2.36,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "did_fresh_minus_static": {
+              "estimate": 21.7,
+              "ci95": [
+                16.93,
+                26.56
+              ],
+              "se_boot": 2.43,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            }
+          },
+          "quiz_weighted": {
+            "drop_static": {
+              "estimate": -1.09,
+              "ci95": [
+                -2.95,
+                0.33
+              ],
+              "se_boot": 0.85,
+              "p_two_sided_boot": 0.17437,
+              "ci_excludes_zero": false
+            },
+            "drop_fresh": {
+              "estimate": 20.78,
+              "ci95": [
+                15.65,
+                26.48
+              ],
+              "se_boot": 2.79,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "did_fresh_minus_static": {
+              "estimate": 21.87,
+              "ci95": [
+                16.48,
+                27.93
+              ],
+              "se_boot": 2.91,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            }
+          }
+        },
+        "hybrid_minus_loo": {
+          "question_pooled": {
+            "drop_static": {
+              "estimate": 21.2,
+              "ci95": [
+                16.59,
+                25.57
+              ],
+              "se_boot": 2.3,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "drop_fresh": {
+              "estimate": 17.99,
+              "ci95": [
+                13.5,
+                22.39
+              ],
+              "se_boot": 2.23,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "did_fresh_minus_static": {
+              "estimate": -3.21,
+              "ci95": [
+                -9.51,
+                3.29
+              ],
+              "se_boot": 3.22,
+              "p_two_sided_boot": 0.32434,
+              "ci_excludes_zero": false
+            }
+          },
+          "quiz_weighted": {
+            "drop_static": {
+              "estimate": 16.02,
+              "ci95": [
+                11.43,
+                20.6
+              ],
+              "se_boot": 2.37,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "drop_fresh": {
+              "estimate": 19.2,
+              "ci95": [
+                12.45,
+                26.49
+              ],
+              "se_boot": 3.57,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "did_fresh_minus_static": {
+              "estimate": 3.18,
+              "ci95": [
+                -4.9,
+                11.9
+              ],
+              "se_boot": 4.26,
+              "p_two_sided_boot": 0.47111,
+              "ci_excludes_zero": false
+            }
+          }
+        }
+      }
+    },
+    "mistral_large": {
+      "name": "Mistral-Large-2",
+      "condition_means": {
+        "question_pooled": {
+          "closed_book": {
+            "static": 45.87,
+            "fresh": 29.88
+          },
+          "hybrid": {
+            "static": 41.98,
+            "fresh": 39.77
+          },
+          "hybrid_stale": {
+            "static": 41.94,
+            "fresh": 18.48
+          },
+          "hybrid_loo": {
+            "static": 22.22,
+            "fresh": 21.81
+          }
+        },
+        "quiz_weighted": {
+          "closed_book": {
+            "static": 42.11,
+            "fresh": 26.24
+          },
+          "hybrid": {
+            "static": 37.09,
+            "fresh": 35.54
+          },
+          "hybrid_stale": {
+            "static": 36.99,
+            "fresh": 15.9
+          },
+          "hybrid_loo": {
+            "static": 20.7,
+            "fresh": 17.73
+          }
+        }
+      },
+      "contrasts": {
+        "hybrid_minus_stale": {
+          "question_pooled": {
+            "drop_static": {
+              "estimate": 0.04,
+              "ci95": [
+                -1.28,
+                1.4
+              ],
+              "se_boot": 0.69,
+              "p_two_sided_boot": 0.94701,
+              "ci_excludes_zero": false
+            },
+            "drop_fresh": {
+              "estimate": 21.29,
+              "ci95": [
+                16.61,
+                25.74
+              ],
+              "se_boot": 2.31,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "did_fresh_minus_static": {
+              "estimate": 21.24,
+              "ci95": [
+                16.36,
+                25.84
+              ],
+              "se_boot": 2.41,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            }
+          },
+          "quiz_weighted": {
+            "drop_static": {
+              "estimate": 0.09,
+              "ci95": [
+                -1.43,
+                1.72
+              ],
+              "se_boot": 0.82,
+              "p_two_sided_boot": 0.91582,
+              "ci_excludes_zero": false
+            },
+            "drop_fresh": {
+              "estimate": 19.64,
+              "ci95": [
+                14.24,
+                25.56
+              ],
+              "se_boot": 2.87,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "did_fresh_minus_static": {
+              "estimate": 19.55,
+              "ci95": [
+                13.81,
+                25.57
+              ],
+              "se_boot": 3.0,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            }
+          }
+        },
+        "hybrid_minus_loo": {
+          "question_pooled": {
+            "drop_static": {
+              "estimate": 19.76,
+              "ci95": [
+                15.73,
+                23.84
+              ],
+              "se_boot": 2.09,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "drop_fresh": {
+              "estimate": 17.96,
+              "ci95": [
+                13.61,
+                22.17
+              ],
+              "se_boot": 2.21,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "did_fresh_minus_static": {
+              "estimate": -1.8,
+              "ci95": [
+                -7.97,
+                4.04
+              ],
+              "se_boot": 3.05,
+              "p_two_sided_boot": 0.54549,
+              "ci_excludes_zero": false
+            }
+          },
+          "quiz_weighted": {
+            "drop_static": {
+              "estimate": 16.39,
+              "ci95": [
+                12.51,
+                20.46
+              ],
+              "se_boot": 2.04,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "drop_fresh": {
+              "estimate": 17.81,
+              "ci95": [
+                11.55,
+                24.85
+              ],
+              "se_boot": 3.42,
+              "p_two_sided_boot": 0.0004,
+              "ci_excludes_zero": true
+            },
+            "did_fresh_minus_static": {
+              "estimate": 1.42,
+              "ci95": [
+                -6.23,
+                9.55
+              ],
+              "se_boot": 3.97,
+              "p_two_sided_boot": 0.75945,
+              "ci_excludes_zero": false
+            }
+          }
+        }
+      }
+    }
+  },
+  "three_model_average": {
+    "hybrid_minus_stale": {
+      "question_pooled": {
+        "drop_static": {
+          "estimate": 0.24,
+          "ci95": [
+            -0.82,
+            1.34
+          ],
+          "se_boot": 0.55,
+          "p_two_sided_boot": 0.65547,
+          "ci_excludes_zero": false
+        },
+        "drop_fresh": {
+          "estimate": 21.5,
+          "ci95": [
+            17.17,
+            25.73
+          ],
+          "se_boot": 2.2,
+          "p_two_sided_boot": 0.0004,
+          "ci_excludes_zero": true
+        },
+        "did_fresh_minus_static": {
+          "estimate": 21.26,
+          "ci95": [
+            16.79,
+            25.73
+          ],
+          "se_boot": 2.26,
+          "p_two_sided_boot": 0.0004,
+          "ci_excludes_zero": true
+        },
+        "note": "unweighted average over Qwen2.5-3B, Qwen2.5-32B, Mistral-Large-2 of the per-model quantity, same quiz draws"
+      },
+      "quiz_weighted": {
+        "drop_static": {
+          "estimate": -0.13,
+          "ci95": [
+            -1.25,
+            1.06
+          ],
+          "se_boot": 0.58,
+          "p_two_sided_boot": 0.82583,
+          "ci_excludes_zero": false
+        },
+        "drop_fresh": {
+          "estimate": 19.3,
+          "ci95": [
+            14.41,
+            24.67
+          ],
+          "se_boot": 2.63,
+          "p_two_sided_boot": 0.0004,
+          "ci_excludes_zero": true
+        },
+        "did_fresh_minus_static": {
+          "estimate": 19.43,
+          "ci95": [
+            14.38,
+            24.87
+          ],
+          "se_boot": 2.69,
+          "p_two_sided_boot": 0.0004,
+          "ci_excludes_zero": true
+        },
+        "note": "unweighted average over Qwen2.5-3B, Qwen2.5-32B, Mistral-Large-2 of the per-model quantity, same quiz draws"
+      }
+    },
+    "hybrid_minus_loo": {
+      "question_pooled": {
+        "drop_static": {
+          "estimate": 21.11,
+          "ci95": [
+            17.51,
+            24.75
+          ],
+          "se_boot": 1.85,
+          "p_two_sided_boot": 0.0004,
+          "ci_excludes_zero": true
+        },
+        "drop_fresh": {
+          "estimate": 19.01,
+          "ci95": [
+            15.12,
+            22.71
+          ],
+          "se_boot": 1.95,
+          "p_two_sided_boot": 0.0004,
+          "ci_excludes_zero": true
+        },
+        "did_fresh_minus_static": {
+          "estimate": -2.11,
+          "ci95": [
+            -7.5,
+            3.18
+          ],
+          "se_boot": 2.7,
+          "p_two_sided_boot": 0.43791,
+          "ci_excludes_zero": false
+        },
+        "note": "unweighted average over Qwen2.5-3B, Qwen2.5-32B, Mistral-Large-2 of the per-model quantity, same quiz draws"
+      },
+      "quiz_weighted": {
+        "drop_static": {
+          "estimate": 17.5,
+          "ci95": [
+            13.98,
+            21.23
+          ],
+          "se_boot": 1.87,
+          "p_two_sided_boot": 0.0004,
+          "ci_excludes_zero": true
+        },
+        "drop_fresh": {
+          "estimate": 18.54,
+          "ci95": [
+            12.21,
+            25.6
+          ],
+          "se_boot": 3.37,
+          "p_two_sided_boot": 0.0004,
+          "ci_excludes_zero": true
+        },
+        "did_fresh_minus_static": {
+          "estimate": 1.04,
+          "ci95": [
+            -6.44,
+            8.9
+          ],
+          "se_boot": 3.85,
+          "p_two_sided_boot": 0.81544,
+          "ci_excludes_zero": false
+        },
+        "note": "unweighted average over Qwen2.5-3B, Qwen2.5-32B, Mistral-Large-2 of the per-model quantity, same quiz draws"
+      }
+    }
+  },
+  "reading": "The stale index is a date-defined intervention. drop_static is the placebo arm (removed documents post-date the question). A DiD interval excluding zero says the stale-index cost is larger on Fresh than on Static questions. A Static interval that includes zero is NOT an equivalence result; read its width as the size of Static effect the data cannot exclude. The LOO index removes annotated gold documents in both regimes, so both drops are expected to be positive; its DiD is reported for comparison, not as a placebo."
+}

@@ -1,0 +1,1679 @@
+{
+  "step": "R1 -- masked NLI support interaction on the masked contexts actually shown",
+  "meta": {
+    "generated": "2026-11-14T18:31:21+0700",
+    "git_head": "440cb32609d0d337efed939c1dec59c62444c7a0",
+    "git_worktree_note": "working tree has uncommitted edits to other files; pipeline modules used here were imported unmodified and patched in memory only",
+    "python": "3.14.6",
+    "input_sha256": {
+      "data/processed/questions.jsonl": "4190e39f17151d210ffd9247ddb3ad4784c51dd90026a1d76414d2c1515a450e",
+      "data/processed/corpus.jsonl": "9372af0f2833835b0715e9ecd8d6b1d664f7222a3da227d1195fc05bba15c863",
+      "results/analysis/r1_raw/bundle_manifest.json": "8a56269fc0c793a06af595114ff8b417cf1666e850f29d4cd25bc20da2f4bd52",
+      "results/analysis/r1_nli_masked_600.jsonl": "9dcdc439e7451b275bec6d1bc3c69cefd98f45186e90f602eb36b288e94f9ba6",
+      "results/nli_support_labels.jsonl": "bc7905d31a14fdb438d31f0d2655d862ae666a85471896f152bfea6b3e6fd988",
+      "results/analysis/nli_support_labels_600.jsonl": "4c83c9df6cd66f4bcf9e14e87cc8493bad8e247dbb613508153348beb20cd680",
+      "results/analysis/r1_raw/server_out/undated600.jsonl": "9053edd3f112b5baaf7007c868fe88f1d5a3d4875d9da73fe7d2ef7675c19249",
+      "data/processed/retrieval_masked.json": "7b119a2e61e542683b4181e42f8aea1f6656b3845a8054d151f80644caa6cd2d",
+      "results/masked_counterfactual.json": "840c9952254bef0db8e7aa2fc2157ba4e42348031ed782de613b5d49966b7a09"
+    }
+  },
+  "tuple_construction": {
+    "masked_contexts": "retrieval_masked.json['hybrid'][qid][:5]",
+    "verified_equal_to_generation_doc_ids": {
+      "unmasked_retrieval_top5_equals_qwen32b_hybrid_doc_ids": "878/878",
+      "unmasked_hybrid_doc_ids_equal_retrieval_top5_per_generator": {
+        "qwen1_5b": "878/878",
+        "qwen3b": "878/878",
+        "qwen7b": "878/878",
+        "llama3_8b": "878/878",
+        "qwen32b": "878/878",
+        "qwen72b": "878/878",
+        "mistral_large": "878/878",
+        "haiku": "878/878",
+        "sonnet": "878/878",
+        "gpt4omini": "878/878"
+      },
+      "masked_hybrid_doc_ids_equal_retrieval_masked_top5_per_generator": {
+        "qwen1_5b": "878/878 (rows 878)",
+        "qwen3b": "878/878 (rows 878)",
+        "qwen7b": "878/878 (rows 878)",
+        "llama3_8b": "878/878 (rows 878)",
+        "qwen32b": "878/878 (rows 878)",
+        "qwen72b": "878/878 (rows 878)",
+        "mistral_large": "878/878 (rows 878)",
+        "haiku": "878/878 (rows 878)",
+        "sonnet": "878/878 (rows 878)",
+        "gpt4omini": "878/878 (rows 878)"
+      }
+    },
+    "rendered_text": "corpus text[:600] (generator DOC_CHARS)",
+    "hypothesis": "The answer to \"<question>\" is <gold>.  (undated; as e0_nli_visible.py)",
+    "question_label": "supported iff any of the 5 masked passages is labelled entailment",
+    "n_masked_tuples_labelled": 4390,
+    "n_masked_tuples_also_in_unmasked_top5": 3821,
+    "masked_label_file": "results/analysis/r1_nli_masked_600.jsonl",
+    "bundle_jobs_file_sha256": "779656eddf5f93501d75b172ef9e02b23575f406518d37363c67deb0343cdd61",
+    "tokenizer": {
+      "class": "DebertaV2Tokenizer",
+      "transformers": "5.11.0",
+      "tokenizers": "0.22.2",
+      "call": "tok(premise, hypothesis, truncation=True, max_length=384)"
+    }
+  },
+  "reproduction_and_device_checks": {
+    "server_label_file_validation": {
+      "job": "undated600",
+      "n_rows": 4959,
+      "n_unique": 4959,
+      "n_duplicates": 0,
+      "n_manifest_tuples": 4959,
+      "all_manifest_tuples_labelled": true,
+      "premise_sha_mismatches": 0,
+      "hypothesis_sha_mismatches": 0
+    },
+    "server_runs": {
+      "repro1500": [
+        {
+          "job": "repro1500",
+          "n_todo": 300,
+          "n_already_done": 0,
+          "model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+          "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+          "max_length": 384,
+          "id2label": {
+            "0": "entailment",
+            "1": "neutral",
+            "2": "contradiction"
+          },
+          "device": "cuda",
+          "cuda_device_name": "NVIDIA H100 80GB HBM3 MIG 2g.20gb",
+          "torch": "2.4.0a0+3bcc3cddb5.nv24.07",
+          "transformers": "4.57.1",
+          "python": "3.10.12",
+          "dtype": "torch.float32",
+          "server_tokenizer_class_not_used_for_ids": "DebertaV2TokenizerFast",
+          "ids_source": "shipped token ids (local tokenizer)",
+          "max_shipped_id": 123638,
+          "model_vocab_size": 128100,
+          "model_load_seconds": 26.5,
+          "label_seconds": 13.4,
+          "seconds_per_pair": 0.0446
+        }
+      ],
+      "undated600": [
+        {
+          "job": "undated600",
+          "n_todo": 4959,
+          "n_already_done": 0,
+          "model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+          "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+          "max_length": 384,
+          "id2label": {
+            "0": "entailment",
+            "1": "neutral",
+            "2": "contradiction"
+          },
+          "device": "cuda",
+          "cuda_device_name": "NVIDIA H100 80GB HBM3 MIG 2g.20gb",
+          "torch": "2.4.0a0+3bcc3cddb5.nv24.07",
+          "transformers": "4.57.1",
+          "python": "3.10.12",
+          "dtype": "torch.float32",
+          "server_tokenizer_class_not_used_for_ids": "DebertaV2TokenizerFast",
+          "ids_source": "shipped token ids (local tokenizer)",
+          "max_shipped_id": 127938,
+          "model_vocab_size": 128100,
+          "model_load_seconds": 24.6,
+          "label_seconds": 121.9,
+          "seconds_per_pair": 0.0246
+        }
+      ],
+      "dated600": [
+        {
+          "job": "dated600",
+          "n_todo": 4959,
+          "n_already_done": 0,
+          "model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+          "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+          "max_length": 384,
+          "id2label": {
+            "0": "entailment",
+            "1": "neutral",
+            "2": "contradiction"
+          },
+          "device": "cuda",
+          "cuda_device_name": "NVIDIA H100 80GB HBM3 MIG 2g.20gb",
+          "torch": "2.4.0a0+3bcc3cddb5.nv24.07",
+          "transformers": "4.57.1",
+          "python": "3.10.12",
+          "dtype": "torch.float32",
+          "server_tokenizer_class_not_used_for_ids": "DebertaV2TokenizerFast",
+          "ids_source": "shipped token ids (local tokenizer)",
+          "max_shipped_id": 127938,
+          "model_vocab_size": 128100,
+          "model_load_seconds": 25.4,
+          "label_seconds": 122.2,
+          "seconds_per_pair": 0.0246
+        }
+      ]
+    },
+    "cuda_premise1500_vs_stored_mps_labels (300 random stored pairs)": {
+      "n": 300,
+      "label_agreement": 299,
+      "label_agreement_rate": 0.99667,
+      "max_abs_prob_diff": 0.0043,
+      "n_prob_diff_over_0.001": 54,
+      "n_prob_diff_over_0.01": 0,
+      "label_flips": [
+        {
+          "qid": "20251017_1",
+          "doc_id": "d000230",
+          "old": "entailment",
+          "new": "neutral",
+          "old_probs": {
+            "entailment": 0.4233,
+            "neutral": 0.4192,
+            "contradiction": 0.1576
+          },
+          "new_probs": {
+            "entailment": 0.4209,
+            "neutral": 0.4233,
+            "contradiction": 0.1558
+          }
+        }
+      ]
+    },
+    "cuda_premise600_vs_e0_mps_labels (all 4,390 unmasked pairs)": {
+      "n": 4390,
+      "label_agreement": 4390,
+      "label_agreement_rate": 1.0,
+      "max_abs_prob_diff": 0.0076,
+      "n_prob_diff_over_0.001": 772,
+      "n_prob_diff_over_0.01": 0,
+      "label_flips": []
+    },
+    "tokenizer_note": "Token ids were produced locally (transformers 5.11.0 DebertaV2Tokenizer), the tokenizer that reproduces the stored labels exactly; the server only ran the forward pass. A first server run that tokenized with the server's transformers 4.57.1 fast tokenizer is kept in r1_raw/diag_server_tokenizer_tf4.57.1 as a sensitivity record.",
+    "tokenizer_sensitivity_server_tf4.57.1_tokenizer": {
+      "premise1500_vs_stored": {
+        "n": 300,
+        "label_agreement": 299,
+        "label_agreement_rate": 0.99667,
+        "max_abs_prob_diff": 0.1414,
+        "n_prob_diff_over_0.001": 60,
+        "n_prob_diff_over_0.01": 6
+      },
+      "premise600_vs_local_tokenizer_cuda": {
+        "n": 4959,
+        "label_agreement": 4956,
+        "label_agreement_rate": 0.9994,
+        "max_abs_prob_diff": 0.172,
+        "n_prob_diff_over_0.001": 54,
+        "n_prob_diff_over_0.01": 33
+      }
+    },
+    "stored_masked_counterfactual_blocks": {
+      "string_fulltext": {
+        "compared": "masked_counterfactual.json support_interaction_masked['string'] + slope",
+        "reproduced_exactly": true,
+        "n_mismatches": 0,
+        "first_mismatches": []
+      },
+      "nli_stored_labels": {
+        "compared": "masked_counterfactual.json support_interaction_masked['nli'] + slope",
+        "reproduced_exactly": true,
+        "n_mismatches": 0,
+        "first_mismatches": []
+      }
+    },
+    "string600_masked_equals_e0_visible_support": true,
+    "routing_gold_nli_stored": {
+      "compared": "routing_baselines.json policies.gold_nli, vs_reference.gold_nli, reference",
+      "reproduced_exactly": true,
+      "n_mismatches": 0,
+      "first_mismatches": []
+    }
+  },
+  "support_interaction_masked_nli": {
+    "script_estimator": "masked_counterfactual.py support-interaction block (verbatim), Static only",
+    "seed": 20260803,
+    "B": 5000,
+    "weighting": "QUESTION-POOLED arm means (gain = 100*(F1 masked RAG - F1 closed-book), token F1); quiz-cluster bootstrap CI (interaction_ci). Not quiz-weighted.",
+    "n_generators": 10,
+    "n_static_questions": 404,
+    "per_model": {
+      "qwen1_5b": {
+        "old_stored_unmasked_contexts_premise1500": {
+          "interaction": 35.203,
+          "ci95": [
+            26.858,
+            43.906
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 29.401,
+          "gain_unsupported": -5.802,
+          "n_supported": 289,
+          "n_unsupported": 115,
+          "n_quizzes": 125
+        },
+        "e0_unmasked_contexts_premise600_still_cross_context": {
+          "interaction": 51.018,
+          "ci95": [
+            44.332,
+            58.08
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 44.258,
+          "gain_unsupported": -6.76,
+          "n_supported": 207,
+          "n_unsupported": 197,
+          "n_quizzes": 125
+        },
+        "new_masked_contexts_premise600": {
+          "interaction": 49.739,
+          "ci95": [
+            43.221,
+            56.708
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 43.265,
+          "gain_unsupported": -6.474,
+          "n_supported": 210,
+          "n_unsupported": 194,
+          "n_quizzes": 125
+        },
+        "change_new_minus_old": 14.536,
+        "ci_excludes_zero": {
+          "old": true,
+          "new": true
+        },
+        "string600_masked_reference": {
+          "interaction": 48.939,
+          "ci95": [
+            39.816,
+            57.721
+          ],
+          "n_supported": 162
+        },
+        "cuda_unmasked600_cross_context_device_check": {
+          "interaction": 51.018,
+          "ci95": [
+            44.332,
+            58.08
+          ],
+          "n_supported": 207
+        }
+      },
+      "qwen3b": {
+        "old_stored_unmasked_contexts_premise1500": {
+          "interaction": 31.844,
+          "ci95": [
+            24.202,
+            39.413
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 31.054,
+          "gain_unsupported": -0.79,
+          "n_supported": 289,
+          "n_unsupported": 115,
+          "n_quizzes": 125
+        },
+        "e0_unmasked_contexts_premise600_still_cross_context": {
+          "interaction": 43.652,
+          "ci95": [
+            35.635,
+            51.601
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 43.275,
+          "gain_unsupported": -0.377,
+          "n_supported": 207,
+          "n_unsupported": 197,
+          "n_quizzes": 125
+        },
+        "new_masked_contexts_premise600": {
+          "interaction": 43.536,
+          "ci95": [
+            35.521,
+            51.362
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 42.895,
+          "gain_unsupported": -0.64,
+          "n_supported": 210,
+          "n_unsupported": 194,
+          "n_quizzes": 125
+        },
+        "change_new_minus_old": 11.692,
+        "ci_excludes_zero": {
+          "old": true,
+          "new": true
+        },
+        "string600_masked_reference": {
+          "interaction": 48.973,
+          "ci95": [
+            40.393,
+            57.425
+          ],
+          "n_supported": 162
+        },
+        "cuda_unmasked600_cross_context_device_check": {
+          "interaction": 43.652,
+          "ci95": [
+            35.635,
+            51.601
+          ],
+          "n_supported": 207
+        }
+      },
+      "qwen7b": {
+        "old_stored_unmasked_contexts_premise1500": {
+          "interaction": 24.804,
+          "ci95": [
+            16.786,
+            33.018
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 20.355,
+          "gain_unsupported": -4.449,
+          "n_supported": 289,
+          "n_unsupported": 115,
+          "n_quizzes": 125
+        },
+        "e0_unmasked_contexts_premise600_still_cross_context": {
+          "interaction": 37.44,
+          "ci95": [
+            28.004,
+            46.994
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 31.551,
+          "gain_unsupported": -5.888,
+          "n_supported": 207,
+          "n_unsupported": 197,
+          "n_quizzes": 125
+        },
+        "new_masked_contexts_premise600": {
+          "interaction": 38.121,
+          "ci95": [
+            28.767,
+            47.739
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 31.6,
+          "gain_unsupported": -6.521,
+          "n_supported": 210,
+          "n_unsupported": 194,
+          "n_quizzes": 125
+        },
+        "change_new_minus_old": 13.317,
+        "ci_excludes_zero": {
+          "old": true,
+          "new": true
+        },
+        "string600_masked_reference": {
+          "interaction": 48.882,
+          "ci95": [
+            40.004,
+            57.631
+          ],
+          "n_supported": 162
+        },
+        "cuda_unmasked600_cross_context_device_check": {
+          "interaction": 37.44,
+          "ci95": [
+            28.004,
+            46.994
+          ],
+          "n_supported": 207
+        }
+      },
+      "llama3_8b": {
+        "old_stored_unmasked_contexts_premise1500": {
+          "interaction": 25.075,
+          "ci95": [
+            16.04,
+            34.786
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 12.872,
+          "gain_unsupported": -12.203,
+          "n_supported": 289,
+          "n_unsupported": 115,
+          "n_quizzes": 125
+        },
+        "e0_unmasked_contexts_premise600_still_cross_context": {
+          "interaction": 35.972,
+          "ci95": [
+            27.044,
+            45.086
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 23.275,
+          "gain_unsupported": -12.697,
+          "n_supported": 207,
+          "n_unsupported": 197,
+          "n_quizzes": 125
+        },
+        "new_masked_contexts_premise600": {
+          "interaction": 36.194,
+          "ci95": [
+            26.91,
+            45.556
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 23.115,
+          "gain_unsupported": -13.079,
+          "n_supported": 210,
+          "n_unsupported": 194,
+          "n_quizzes": 125
+        },
+        "change_new_minus_old": 11.119,
+        "ci_excludes_zero": {
+          "old": true,
+          "new": true
+        },
+        "string600_masked_reference": {
+          "interaction": 38.038,
+          "ci95": [
+            27.191,
+            48.755
+          ],
+          "n_supported": 162
+        },
+        "cuda_unmasked600_cross_context_device_check": {
+          "interaction": 35.972,
+          "ci95": [
+            27.044,
+            45.086
+          ],
+          "n_supported": 207
+        }
+      },
+      "qwen32b": {
+        "old_stored_unmasked_contexts_premise1500": {
+          "interaction": 23.949,
+          "ci95": [
+            14.819,
+            33.185
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 14.244,
+          "gain_unsupported": -9.706,
+          "n_supported": 289,
+          "n_unsupported": 115,
+          "n_quizzes": 125
+        },
+        "e0_unmasked_contexts_premise600_still_cross_context": {
+          "interaction": 37.475,
+          "ci95": [
+            27.261,
+            47.598
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 25.7,
+          "gain_unsupported": -11.775,
+          "n_supported": 207,
+          "n_unsupported": 197,
+          "n_quizzes": 125
+        },
+        "new_masked_contexts_premise600": {
+          "interaction": 37.836,
+          "ci95": [
+            27.958,
+            47.796
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 25.595,
+          "gain_unsupported": -12.241,
+          "n_supported": 210,
+          "n_unsupported": 194,
+          "n_quizzes": 125
+        },
+        "change_new_minus_old": 13.887,
+        "ci_excludes_zero": {
+          "old": true,
+          "new": true
+        },
+        "string600_masked_reference": {
+          "interaction": 44.697,
+          "ci95": [
+            34.784,
+            54.201
+          ],
+          "n_supported": 162
+        },
+        "cuda_unmasked600_cross_context_device_check": {
+          "interaction": 37.475,
+          "ci95": [
+            27.261,
+            47.598
+          ],
+          "n_supported": 207
+        }
+      },
+      "qwen72b": {
+        "old_stored_unmasked_contexts_premise1500": {
+          "interaction": 23.575,
+          "ci95": [
+            14.635,
+            33.053
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 10.517,
+          "gain_unsupported": -13.058,
+          "n_supported": 289,
+          "n_unsupported": 115,
+          "n_quizzes": 125
+        },
+        "e0_unmasked_contexts_premise600_still_cross_context": {
+          "interaction": 34.776,
+          "ci95": [
+            26.709,
+            42.648
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 20.764,
+          "gain_unsupported": -14.012,
+          "n_supported": 207,
+          "n_unsupported": 197,
+          "n_quizzes": 125
+        },
+        "new_masked_contexts_premise600": {
+          "interaction": 34.232,
+          "ci95": [
+            26.218,
+            42.328
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 20.245,
+          "gain_unsupported": -13.987,
+          "n_supported": 210,
+          "n_unsupported": 194,
+          "n_quizzes": 125
+        },
+        "change_new_minus_old": 10.657,
+        "ci_excludes_zero": {
+          "old": true,
+          "new": true
+        },
+        "string600_masked_reference": {
+          "interaction": 46.59,
+          "ci95": [
+            36.057,
+            56.645
+          ],
+          "n_supported": 162
+        },
+        "cuda_unmasked600_cross_context_device_check": {
+          "interaction": 34.776,
+          "ci95": [
+            26.709,
+            42.648
+          ],
+          "n_supported": 207
+        }
+      },
+      "mistral_large": {
+        "old_stored_unmasked_contexts_premise1500": {
+          "interaction": 20.712,
+          "ci95": [
+            13.033,
+            28.682
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 1.972,
+          "gain_unsupported": -18.74,
+          "n_supported": 289,
+          "n_unsupported": 115,
+          "n_quizzes": 125
+        },
+        "e0_unmasked_contexts_premise600_still_cross_context": {
+          "interaction": 34.01,
+          "ci95": [
+            25.325,
+            43.011
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 12.661,
+          "gain_unsupported": -21.349,
+          "n_supported": 207,
+          "n_unsupported": 197,
+          "n_quizzes": 125
+        },
+        "new_masked_contexts_premise600": {
+          "interaction": 33.52,
+          "ci95": [
+            24.956,
+            42.412
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 12.173,
+          "gain_unsupported": -21.347,
+          "n_supported": 210,
+          "n_unsupported": 194,
+          "n_quizzes": 125
+        },
+        "change_new_minus_old": 12.808,
+        "ci_excludes_zero": {
+          "old": true,
+          "new": true
+        },
+        "string600_masked_reference": {
+          "interaction": 37.705,
+          "ci95": [
+            28.999,
+            47.281
+          ],
+          "n_supported": 162
+        },
+        "cuda_unmasked600_cross_context_device_check": {
+          "interaction": 34.01,
+          "ci95": [
+            25.325,
+            43.011
+          ],
+          "n_supported": 207
+        }
+      },
+      "haiku": {
+        "old_stored_unmasked_contexts_premise1500": {
+          "interaction": 22.493,
+          "ci95": [
+            12.343,
+            33.157
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 8.68,
+          "gain_unsupported": -13.813,
+          "n_supported": 289,
+          "n_unsupported": 115,
+          "n_quizzes": 125
+        },
+        "e0_unmasked_contexts_premise600_still_cross_context": {
+          "interaction": 28.409,
+          "ci95": [
+            17.199,
+            40.034
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 16.13,
+          "gain_unsupported": -12.278,
+          "n_supported": 207,
+          "n_unsupported": 197,
+          "n_quizzes": 125
+        },
+        "new_masked_contexts_premise600": {
+          "interaction": 28.411,
+          "ci95": [
+            17.217,
+            40.279
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 15.921,
+          "gain_unsupported": -12.491,
+          "n_supported": 210,
+          "n_unsupported": 194,
+          "n_quizzes": 125
+        },
+        "change_new_minus_old": 5.918,
+        "ci_excludes_zero": {
+          "old": true,
+          "new": true
+        },
+        "string600_masked_reference": {
+          "interaction": 35.796,
+          "ci95": [
+            24.935,
+            46.566
+          ],
+          "n_supported": 162
+        },
+        "cuda_unmasked600_cross_context_device_check": {
+          "interaction": 28.409,
+          "ci95": [
+            17.199,
+            40.034
+          ],
+          "n_supported": 207
+        }
+      },
+      "sonnet": {
+        "old_stored_unmasked_contexts_premise1500": {
+          "interaction": 22.854,
+          "ci95": [
+            14.078,
+            31.846
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 1.418,
+          "gain_unsupported": -21.436,
+          "n_supported": 289,
+          "n_unsupported": 115,
+          "n_quizzes": 125
+        },
+        "e0_unmasked_contexts_premise600_still_cross_context": {
+          "interaction": 34.996,
+          "ci95": [
+            25.682,
+            43.66
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 11.977,
+          "gain_unsupported": -23.018,
+          "n_supported": 207,
+          "n_unsupported": 197,
+          "n_quizzes": 125
+        },
+        "new_masked_contexts_premise600": {
+          "interaction": 34.39,
+          "ci95": [
+            25.363,
+            43.423
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 11.426,
+          "gain_unsupported": -22.963,
+          "n_supported": 210,
+          "n_unsupported": 194,
+          "n_quizzes": 125
+        },
+        "change_new_minus_old": 11.536,
+        "ci_excludes_zero": {
+          "old": true,
+          "new": true
+        },
+        "string600_masked_reference": {
+          "interaction": 31.793,
+          "ci95": [
+            21.944,
+            41.471
+          ],
+          "n_supported": 162
+        },
+        "cuda_unmasked600_cross_context_device_check": {
+          "interaction": 34.996,
+          "ci95": [
+            25.682,
+            43.66
+          ],
+          "n_supported": 207
+        }
+      },
+      "gpt4omini": {
+        "old_stored_unmasked_contexts_premise1500": {
+          "interaction": 26.333,
+          "ci95": [
+            16.886,
+            36.487
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 2.503,
+          "gain_unsupported": -23.83,
+          "n_supported": 289,
+          "n_unsupported": 115,
+          "n_quizzes": 125
+        },
+        "e0_unmasked_contexts_premise600_still_cross_context": {
+          "interaction": 32.436,
+          "ci95": [
+            22.895,
+            42.217
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 10.824,
+          "gain_unsupported": -21.612,
+          "n_supported": 207,
+          "n_unsupported": 197,
+          "n_quizzes": 125
+        },
+        "new_masked_contexts_premise600": {
+          "interaction": 33.896,
+          "ci95": [
+            24.188,
+            43.98
+          ],
+          "p_plus_one": 0.0004,
+          "gain_supported": 11.284,
+          "gain_unsupported": -22.612,
+          "n_supported": 210,
+          "n_unsupported": 194,
+          "n_quizzes": 125
+        },
+        "change_new_minus_old": 7.563,
+        "ci_excludes_zero": {
+          "old": true,
+          "new": true
+        },
+        "string600_masked_reference": {
+          "interaction": 38.608,
+          "ci95": [
+            27.524,
+            49.399
+          ],
+          "n_supported": 162
+        },
+        "cuda_unmasked600_cross_context_device_check": {
+          "interaction": 32.436,
+          "ci95": [
+            22.895,
+            42.217
+          ],
+          "n_supported": 207
+        }
+      }
+    },
+    "unsupported_cost_vs_scale_masked_nli": {
+      "old_stored": {
+        "slope_per_decade": -7.429,
+        "p_exact": 0.02222,
+        "n_rungs": 6,
+        "points": [
+          {
+            "params_B": 1.5,
+            "gain_unsupported": -5.802
+          },
+          {
+            "params_B": 3.0,
+            "gain_unsupported": -0.79
+          },
+          {
+            "params_B": 7.0,
+            "gain_unsupported": -4.449
+          },
+          {
+            "params_B": 32.0,
+            "gain_unsupported": -9.706
+          },
+          {
+            "params_B": 72.0,
+            "gain_unsupported": -13.058
+          },
+          {
+            "params_B": 123.0,
+            "gain_unsupported": -18.74
+          }
+        ]
+      },
+      "e0_unmasked600_cross_context": {
+        "slope_per_decade": -8.329,
+        "p_exact": 0.02222,
+        "n_rungs": 6,
+        "points": [
+          {
+            "params_B": 1.5,
+            "gain_unsupported": -6.76
+          },
+          {
+            "params_B": 3.0,
+            "gain_unsupported": -0.377
+          },
+          {
+            "params_B": 7.0,
+            "gain_unsupported": -5.888
+          },
+          {
+            "params_B": 32.0,
+            "gain_unsupported": -11.775
+          },
+          {
+            "params_B": 72.0,
+            "gain_unsupported": -14.012
+          },
+          {
+            "params_B": 123.0,
+            "gain_unsupported": -21.349
+          }
+        ]
+      },
+      "new_masked600": {
+        "slope_per_decade": -8.344,
+        "p_exact": 0.01806,
+        "n_rungs": 6,
+        "points": [
+          {
+            "params_B": 1.5,
+            "gain_unsupported": -6.474
+          },
+          {
+            "params_B": 3.0,
+            "gain_unsupported": -0.64
+          },
+          {
+            "params_B": 7.0,
+            "gain_unsupported": -6.521
+          },
+          {
+            "params_B": 32.0,
+            "gain_unsupported": -12.241
+          },
+          {
+            "params_B": 72.0,
+            "gain_unsupported": -13.987
+          },
+          {
+            "params_B": 123.0,
+            "gain_unsupported": -21.347
+          }
+        ]
+      }
+    },
+    "string_reference": {
+      "fulltext_stored": {
+        "slope_per_decade": -9.89,
+        "p_exact": 0.00556,
+        "n_rungs": 6,
+        "points": [
+          {
+            "params_B": 1.5,
+            "gain_unsupported": 0.933
+          },
+          {
+            "params_B": 3.0,
+            "gain_unsupported": 3.185
+          },
+          {
+            "params_B": 7.0,
+            "gain_unsupported": -3.478
+          },
+          {
+            "params_B": 32.0,
+            "gain_unsupported": -8.504
+          },
+          {
+            "params_B": 72.0,
+            "gain_unsupported": -12.057
+          },
+          {
+            "params_B": 123.0,
+            "gain_unsupported": -17.537
+          }
+        ]
+      },
+      "visible600": {
+        "slope_per_decade": -10.374,
+        "p_exact": 0.00556,
+        "n_rungs": 6,
+        "points": [
+          {
+            "params_B": 1.5,
+            "gain_unsupported": -0.244
+          },
+          {
+            "params_B": 3.0,
+            "gain_unsupported": 2.352
+          },
+          {
+            "params_B": 7.0,
+            "gain_unsupported": -6.306
+          },
+          {
+            "params_B": 32.0,
+            "gain_unsupported": -10.497
+          },
+          {
+            "params_B": 72.0,
+            "gain_unsupported": -14.876
+          },
+          {
+            "params_B": 123.0,
+            "gain_unsupported": -19.043
+          }
+        ]
+      }
+    },
+    "n_generators_ci_excludes_zero": {
+      "old": 10,
+      "new": 10
+    },
+    "range_interaction": {
+      "old": [
+        20.712,
+        35.203
+      ],
+      "new": [
+        28.411,
+        49.739
+      ]
+    }
+  },
+  "question_level_support_transitions_stored_to_masked600": {
+    "static": {
+      "E->N": 87,
+      "N->N": 107,
+      "E->E": 202,
+      "N->E": 8,
+      "n_supported_old": 289,
+      "n_supported_new": 210
+    },
+    "fresh": {
+      "N->N": 115,
+      "E->N": 94,
+      "E->E": 254,
+      "N->E": 11,
+      "n_supported_old": 348,
+      "n_supported_new": 265
+    }
+  },
+  "masked_vs_unmasked_labels": {
+    "n_questions_masked_label_equals_e0_unmasked600_label": 862,
+    "n_questions": 878,
+    "n_questions_context_set_differs": 334,
+    "n_questions_context_SET_differs_ignoring_order": 328
+  },
+  "masked_context_label_distribution": {
+    "entailment": 984,
+    "neutral": 2263,
+    "contradiction": 1143
+  },
+  "masked_context_agreement_string600_vs_nli600": {
+    "both_support": 579,
+    "string_only": 184,
+    "nli_only": 405,
+    "neither": 3222,
+    "raw_agreement": 0.8658
+  },
+  "consumers_of_nli_labels": [
+    {
+      "consumer": "pipeline/masked_counterfactual.py -> results/masked_counterfactual.json support_interaction_masked['nli'], unsupported_cost_vs_scale_masked['nli']",
+      "labels_used": "results/nli_support_labels.jsonl (qwen32b UNMASKED Hybrid top-5, text[:1500]) per question",
+      "analysed_contexts": "MASKED Hybrid top-5 (retrieval_masked.json)",
+      "cross_context": true,
+      "status": "RECOMPUTED here on masked text[:600] (support_interaction_masked_nli)"
+    },
+    {
+      "consumer": "appendix/auto_masked_macros.tex MaskInterNli{Min,Max,N,AllSig}, MaskSlopeNli{,P,Rungs} (scripts/make_masked_table.py); sections/05_results.tex:244 cites MaskSlopeNli/P",
+      "labels_used": "via masked_counterfactual.json",
+      "cross_context": true,
+      "status": "values recomputed below (paper_macros); file NOT regenerated (no existing file modified)"
+    },
+    {
+      "consumer": "appendix/auto_support_table.tex tab:support 'Masked (auto) Entail.' column; figures/real_support_scale.pdf (scripts/make_support_table.py)",
+      "labels_used": "via masked_counterfactual.json",
+      "cross_context": true,
+      "status": "per-model cells and slope recomputed below; files NOT regenerated"
+    },
+    {
+      "consumer": "appendix/auto_fig_supportscale.tex + figures/data/support_scale.dat, support_fit.dat (scripts/make_tikz_figures.py emit_support_scale)",
+      "labels_used": "via masked_counterfactual.json unsupported_cost_vs_scale_masked['nli'].points",
+      "cross_context": true,
+      "status": "points and slope recomputed below; files NOT regenerated"
+    },
+    {
+      "consumer": "results/claim_ledger.csv row unsupported_cost_slope_masked_nli (pipeline/rebuild_ledger.py)",
+      "labels_used": "via masked_counterfactual.json",
+      "cross_context": true,
+      "status": "new value below; ledger NOT regenerated"
+    },
+    {
+      "consumer": "pipeline/support_interaction.py labels['nli'] (unmasked Hybrid, Static+Fresh) and unsupported_cost_vs_scale['nli']",
+      "labels_used": "qwen32b unmasked Hybrid top-5; generator doc_ids identical for all generators (verified)",
+      "cross_context": false,
+      "status": "window corrected (600) in e0_nli_visible.json; dated sensitivity in r2_dated_nli.json"
+    },
+    {
+      "consumer": "pipeline/routing_baselines.py GOLD_NLI diagnostic policy",
+      "labels_used": "per-question entail-any on retrieval.json hybrid top-5 == generation doc_ids (verified)",
+      "cross_context": false,
+      "status": "window NOT corrected in e0; RECOMPUTED here with the e0 600-char labels (routing_gold_nli). Not printed in any paper table (make_routing_table.py does not read it)"
+    },
+    {
+      "consumer": "pipeline/support_label_validation.py (Task B passage-level NLI vs human)",
+      "labels_used": "(qid, doc_id) pair labels; every Task B pair is in the unmasked set",
+      "cross_context": false,
+      "status": "window corrected in e0_human_alignment.json; 700-vs-600 restriction in r2_human_alignment.json"
+    },
+    {
+      "consumer": "pipeline/support_label_typology.py (appendix app:typology entailment disagreement rates)",
+      "labels_used": "(qid, doc_id) pair labels, text[:1500]",
+      "cross_context": false,
+      "status": "window NOT corrected in e0; rerun at 600 in r2_human_alignment.json (typology_600)"
+    },
+    {
+      "consumer": "pipeline/nli_support.py (results/nli_support.json: context agreement 77.6%, contradiction-inside-string 11.8%, gain_given_support_by_label)",
+      "labels_used": "its own cache on unmasked contexts, text[:1500]",
+      "cross_context": false,
+      "status": "window NOT fully corrected in e0; rerun at 600 (agreement, contradiction-inside-string, gain_given_support_by_label) in r1_remaining_string_support.json"
+    },
+    {
+      "consumer": "pipeline/human_support_interaction.py; annotation/.../score_masked_support.py; support_conditioned.py; k_ablation.py; rebuttal e2/e3/e5/e6/hidden_answer/stale scripts",
+      "labels_used": "none (string or human labels only; checked by grep)",
+      "cross_context": false,
+      "status": "not applicable to NLI"
+    }
+  ],
+  "consumer_grep_evidence": {
+    "nli_support_labels": [
+      "pipeline/masked_counterfactual.py:260:    f = RES / \"nli_support_labels.jsonl\"",
+      "pipeline/nli_support.py:48:CACHE = RES / \"nli_support_labels.jsonl\"",
+      "pipeline/analysis/e0_human_alignment.py:49:NLI600 = OUT / \"nli_support_labels_600.jsonl\"",
+      "pipeline/analysis/e0_human_alignment.py:229:        raise SystemExit(\"run e0_nli_visible.py first (needs nli_support_labels_600.jsonl)\")",
+      "pipeline/analysis/e0_human_alignment.py:256:    nli_old, nli_new = nli_map(RES / \"nli_support_labels.jsonl\"), nli_map(NLI600)",
+      "pipeline/analysis/e0_nli_visible.py:17:  3. writes results/analysis/nli_support_labels_600.jsonl (resumable);",
+      "pipeline/analysis/e0_nli_visible.py:44:OLD_LABELS = RES / \"nli_support_labels.jsonl\"",
+      "pipeline/analysis/e0_nli_visible.py:45:NEW_LABELS = OUT / \"nli_support_labels_600.jsonl\"",
+      "pipeline/analysis/e0_nli_visible.py:227:    link = resdir / \"nli_support_labels.jsonl\"",
+      "pipeline/analysis/r8_judge_interaction.py:113:    for r in read_jsonl(OUT / \"nli_support_labels_600.jsonl\"):",
+      "pipeline/analysis/r8_judge_interaction.py:413:                      OUT / \"nli_support_labels_600.jsonl\", OUT / \"r1_nli_masked_600.jsonl\"]),",
+      "pipeline/analysis/r8_judge_interaction.py:425:                      \"nli_support_labels_600.jsonl; masked: r1_nli_masked_600.jsonl)\",",
+      "pipeline/analysis/replay_all.sh:62:    list(root.glob('results/nli_support_labels.jsonl'))))",
+      "pipeline/routing_baselines.py:183:    f = RES / \"nli_support_labels.jsonl\"",
+      "pipeline/support_interaction.py:144:    f = RES / \"nli_support_labels.jsonl\"",
+      "pipeline/support_label_typology.py:94:    f = RES / \"nli_support_labels.jsonl\"",
+      "pipeline/support_label_validation.py:69:    f = RES / \"nli_support_labels.jsonl\""
+    ],
+    "support_interaction_masked": [
+      "pipeline/masked_counterfactual.py:303:    out[\"support_interaction_masked\"] = inter",
+      "pipeline/analysis/e0_visible_support.py:274:        {\"support_interaction_masked.string\": stored_mc[\"support_interaction_masked\"][\"string\"],",
+      "pipeline/analysis/e0_visible_support.py:278:        {\"support_interaction_masked.string\": m_old,",
+      "pipeline/analysis/e0_visible_support.py:280:        \"support_interaction_masked['string'] and its unsupported-cost slope \"",
+      "pipeline/analysis/manuscript/build_corrected_masked_counterfactual.py:11:  support_interaction_masked.string      <- e0_raw/masked_support_interaction__both.json  [string_vis600]",
+      "pipeline/analysis/manuscript/build_corrected_masked_counterfactual.py:12:  support_interaction_masked.nli         <- r1_masked_nli.json  [support_interaction_masked_nli.per_model.*.new_masked_contexts",
+      "pipeline/analysis/manuscript/build_corrected_masked_counterfactual.py:45:    old_inter = d[\"support_interaction_masked\"]",
+      "pipeline/analysis/manuscript/build_corrected_masked_counterfactual.py:48:    # ---- support_interaction_masked -------------------------------------",
+      "pipeline/analysis/manuscript/build_corrected_masked_counterfactual.py:50:    nli_block = nl[\"support_interaction_masked_nli\"]",
+      "pipeline/analysis/manuscript/build_corrected_masked_counterfactual.py:84:    out[\"support_interaction_masked\"] = {\"string\": string_new, \"nli\": nli_new}",
+      "pipeline/analysis/manuscript/build_corrected_masked_counterfactual.py:92:            \"support_interaction_masked.string\": f\"{rel(SRC_STRING)}#string_vis600\",",
+      "pipeline/analysis/manuscript/build_corrected_masked_counterfactual.py:93:            \"support_interaction_masked.nli\": f\"{rel(SRC_NLI)}#support_interaction_masked_nli.per_model.*.new_masked_contexts_p",
+      "pipeline/analysis/manuscript/build_corrected_masked_counterfactual.py:95:            \"unsupported_cost_vs_scale_masked.nli\": f\"{rel(SRC_NLI)}#support_interaction_masked_nli.unsupported_cost_vs_scale_m",
+      "pipeline/analysis/manuscript/build_corrected_masked_counterfactual.py:115:        vals = [v[\"interaction\"] for v in out[\"support_interaction_masked\"][label].values()]",
+      "pipeline/analysis/manuscript/make_masked_table.py:145:        si = (d.get(\"support_interaction_masked\") or {}).get(label) or {}",
+      "pipeline/analysis/manuscript/make_rebuttal_macros.py:200:    mn = d[\"masked\"][\"support_interaction_masked_nli\"]",
+      "pipeline/analysis/manuscript/make_rebuttal_macros.py:204:        \"r1_masked_nli.json#support_interaction_masked_nli.range_interaction.old[0]\")",
+      "pipeline/analysis/manuscript/make_rebuttal_macros.py:206:        \"r1_masked_nli.json#support_interaction_masked_nli.range_interaction.old[1]\")",
+      "pipeline/analysis/manuscript/make_rebuttal_macros.py:208:        \"r1_masked_nli.json#support_interaction_masked_nli.range_interaction.new[0]\")",
+      "pipeline/analysis/manuscript/make_rebuttal_macros.py:210:        \"r1_masked_nli.json#support_interaction_masked_nli.range_interaction.new[1]\")",
+      "pipeline/analysis/manuscript/make_support_table.py:42:    masked = mc.get(\"support_interaction_masked\") or {}",
+      "pipeline/analysis/r8_judge_interaction.py:305:                  for m, v in r1[\"support_interaction_masked_nli\"][\"per_model\"].items()}",
+      "pipeline/analysis/r8_judge_interaction.py:309:        \"r1_masked_nli.json support_interaction_masked_nli per_model \"",
+      "scripts/make_masked_table.py:165:        si = (d.get(\"support_interaction_masked\") or {}).get(label) or {}",
+      "scripts/make_support_table.py:60:    masked = mc.get(\"support_interaction_masked\") or {}"
+    ],
+    "unsupported_cost_vs_scale_masked": [
+      "pipeline/masked_counterfactual.py:360:    out[\"unsupported_cost_vs_scale_masked\"] = slopes",
+      "pipeline/rebuild_ledger.py:610:        for label, t in (d.get(\"unsupported_cost_vs_scale_masked\") or {}).items():",
+      "pipeline/rebuild_ledger.py:615:                f\"results/masked_counterfactual.json:unsupported_cost_vs_scale_masked.{label}\")",
+      "pipeline/analysis/e0_visible_support.py:275:         \"unsupported_cost_vs_scale_masked.string\": {",
+      "pipeline/analysis/e0_visible_support.py:276:             k: stored_mc[\"unsupported_cost_vs_scale_masked\"][\"string\"][k]",
+      "pipeline/analysis/e0_visible_support.py:279:         \"unsupported_cost_vs_scale_masked.string\": s_old},",
+      "pipeline/analysis/e0_visible_support.py:296:          \"unsupported_cost_vs_scale_masked\": {\"old_fulltext\": s_old, \"new_visible600\": s_new},",
+      "pipeline/analysis/manuscript/build_corrected_masked_counterfactual.py:13:  unsupported_cost_vs_scale_masked.string<- e0_raw/masked_support_interaction__both.json  [slope_vis600]",
+      "pipeline/analysis/manuscript/build_corrected_masked_counterfactual.py:14:  unsupported_cost_vs_scale_masked.nli   <- r1_masked_nli.json  [...unsupported_cost_vs_scale_masked_nli.new_masked600]",
+      "pipeline/analysis/manuscript/build_corrected_masked_counterfactual.py:46:    old_slope = d[\"unsupported_cost_vs_scale_masked\"]",
+      "pipeline/analysis/manuscript/build_corrected_masked_counterfactual.py:58:    # ---- unsupported_cost_vs_scale_masked --------------------------------",
+      "pipeline/analysis/manuscript/build_corrected_masked_counterfactual.py:60:    slope_nli = dict(nli_block[\"unsupported_cost_vs_scale_masked_nli\"][\"new_masked600\"])",
+      "pipeline/analysis/manuscript/build_corrected_masked_counterfactual.py:85:    out[\"unsupported_cost_vs_scale_masked\"] = {\"string\": slope_string, \"nli\": slope_nli}",
+      "pipeline/analysis/manuscript/build_corrected_masked_counterfactual.py:94:            \"unsupported_cost_vs_scale_masked.string\": f\"{rel(SRC_STRING)}#slope_vis600\",",
+      "pipeline/analysis/manuscript/build_corrected_masked_counterfactual.py:95:            \"unsupported_cost_vs_scale_masked.nli\": f\"{rel(SRC_NLI)}#support_interaction_masked_nli.unsupported_cost_vs_scale_m",
+      "pipeline/analysis/manuscript/build_corrected_masked_counterfactual.py:119:              f\"slope {out['unsupported_cost_vs_scale_masked'][label]['slope_per_decade']:+.2f}\")",
+      "pipeline/analysis/manuscript/make_masked_table.py:156:        sl = (d.get(\"unsupported_cost_vs_scale_masked\") or {}).get(label)",
+      "pipeline/analysis/manuscript/make_support_table.py:93:    slopes = mc.get(\"unsupported_cost_vs_scale_masked\") or {}",
+      "pipeline/analysis/manuscript/make_tikz_figures.py:27:    slopes = d.get(\"unsupported_cost_vs_scale_masked\") or {}",
+      "scripts/make_masked_table.py:175:        sl = (d.get(\"unsupported_cost_vs_scale_masked\") or {}).get(label)",
+      "scripts/make_support_table.py:107:    slopes = mc.get(\"unsupported_cost_vs_scale_masked\") or {}",
+      "scripts/make_tikz_figures.py:132:    slopes = d.get(\"unsupported_cost_vs_scale_masked\") or {}"
+    ],
+    "MaskSlopeNli": [
+      "appendix/auto_masked_macros.tex:42:\\newcommand{\\MaskSlopeNli}{-7.4}",
+      "appendix/auto_masked_macros.tex:43:\\newcommand{\\MaskSlopeNliP}{0.022}",
+      "appendix/auto_masked_macros.tex:44:\\newcommand{\\MaskSlopeNliRungs}{6}",
+      "sections/05_results.tex:244:entailment gives $\\MaskSlopeNli$ with $p{=}\\MaskSlopeNliP$. This"
+    ],
+    "MaskInterNli": [
+      "appendix/auto_masked_macros.tex:38:\\newcommand{\\MaskInterNliMin}{+20.7}",
+      "appendix/auto_masked_macros.tex:39:\\newcommand{\\MaskInterNliMax}{+35.2}",
+      "appendix/auto_masked_macros.tex:40:\\newcommand{\\MaskInterNliN}{10}",
+      "appendix/auto_masked_macros.tex:41:\\newcommand{\\MaskInterNliAllSig}{all}"
+    ],
+    "gold_nli": [
+      "pipeline/analysis/manuscript/make_routing_table.py:13:      r1_masked_nli.json#routing_gold_nli [new_premise600]. The frozen",
+      "pipeline/analysis/manuscript/make_routing_table.py:80:    n600 = gn[\"routing_gold_nli\"][\"per_model\"]",
+      "pipeline/routing_baselines.py:210:                    \"gold_nli\": nli.get(qid)}",
+      "pipeline/routing_baselines.py:303:        if any(sig[q][\"gold_nli\"] is not None for q in common):",
+      "pipeline/routing_baselines.py:304:            policies[\"gold_nli\"] = {q: score(q, bool(sig[q][\"gold_nli\"]))"
+    ]
+  },
+  "paper_macros_from_masked_counterfactual": {
+    "MaskInterNliMin": {
+      "current_file_value": "+20.7",
+      "value_reproduced_from_stored_labels": "+20.7",
+      "value_with_masked600_labels": "+28.4"
+    },
+    "MaskInterNliMax": {
+      "current_file_value": "+35.2",
+      "value_reproduced_from_stored_labels": "+35.2",
+      "value_with_masked600_labels": "+49.7"
+    },
+    "MaskInterNliN": {
+      "current_file_value": "10",
+      "value_reproduced_from_stored_labels": "10",
+      "value_with_masked600_labels": "10"
+    },
+    "MaskInterNliAllSig": {
+      "current_file_value": "all",
+      "value_reproduced_from_stored_labels": "all",
+      "value_with_masked600_labels": "all"
+    },
+    "MaskSlopeNli": {
+      "current_file_value": "-7.4",
+      "value_reproduced_from_stored_labels": "-7.4",
+      "value_with_masked600_labels": "-8.3"
+    },
+    "MaskSlopeNliP": {
+      "current_file_value": "0.022",
+      "value_reproduced_from_stored_labels": "0.022",
+      "value_with_masked600_labels": "0.018"
+    },
+    "MaskSlopeNliRungs": {
+      "current_file_value": "6",
+      "value_reproduced_from_stored_labels": "6",
+      "value_with_masked600_labels": "6"
+    }
+  },
+  "paper_table_tab_support_entail_column": {
+    "per_model": {
+      "qwen1_5b": {
+        "current_cell": "$+35.2$",
+        "cell_with_masked600_labels": "$+49.7$",
+        "excludes_zero_new": true
+      },
+      "qwen3b": {
+        "current_cell": "$+31.8$",
+        "cell_with_masked600_labels": "$+43.5$",
+        "excludes_zero_new": true
+      },
+      "qwen7b": {
+        "current_cell": "$+24.8$",
+        "cell_with_masked600_labels": "$+38.1$",
+        "excludes_zero_new": true
+      },
+      "llama3_8b": {
+        "current_cell": "$+25.1$",
+        "cell_with_masked600_labels": "$+36.2$",
+        "excludes_zero_new": true
+      },
+      "qwen32b": {
+        "current_cell": "$+23.9$",
+        "cell_with_masked600_labels": "$+37.8$",
+        "excludes_zero_new": true
+      },
+      "qwen72b": {
+        "current_cell": "$+23.6$",
+        "cell_with_masked600_labels": "$+34.2$",
+        "excludes_zero_new": true
+      },
+      "mistral_large": {
+        "current_cell": "$+20.7$",
+        "cell_with_masked600_labels": "$+33.5$",
+        "excludes_zero_new": true
+      },
+      "haiku": {
+        "current_cell": "$+22.5$",
+        "cell_with_masked600_labels": "$+28.4$",
+        "excludes_zero_new": true
+      },
+      "sonnet": {
+        "current_cell": "$+22.9$",
+        "cell_with_masked600_labels": "$+34.4$",
+        "excludes_zero_new": true
+      },
+      "gpt4omini": {
+        "current_cell": "$+26.3$",
+        "cell_with_masked600_labels": "$+33.9$",
+        "excludes_zero_new": true
+      }
+    },
+    "caption_every_interval_excludes_zero_still_true": true,
+    "note": "the string column also changes under the 600-char window (e0_visible_support.json)"
+  },
+  "paper_figure_support_scale_nli_points": {
+    "old": [
+      {
+        "params_B": 1.5,
+        "gain_unsupported": -5.802
+      },
+      {
+        "params_B": 3.0,
+        "gain_unsupported": -0.79
+      },
+      {
+        "params_B": 7.0,
+        "gain_unsupported": -4.449
+      },
+      {
+        "params_B": 32.0,
+        "gain_unsupported": -9.706
+      },
+      {
+        "params_B": 72.0,
+        "gain_unsupported": -13.058
+      },
+      {
+        "params_B": 123.0,
+        "gain_unsupported": -18.74
+      }
+    ],
+    "new": [
+      {
+        "params_B": 1.5,
+        "gain_unsupported": -6.474
+      },
+      {
+        "params_B": 3.0,
+        "gain_unsupported": -0.64
+      },
+      {
+        "params_B": 7.0,
+        "gain_unsupported": -6.521
+      },
+      {
+        "params_B": 32.0,
+        "gain_unsupported": -12.241
+      },
+      {
+        "params_B": 72.0,
+        "gain_unsupported": -13.987
+      },
+      {
+        "params_B": 123.0,
+        "gain_unsupported": -21.347
+      }
+    ],
+    "legend_old": "Entailment (-7.4/decade)",
+    "legend_new": "Entailment (-8.3/decade)"
+  },
+  "claim_ledger_row": {
+    "current": "unsupported_cost_slope_masked_nli,-7.429,\"exact permutation p=0.02222, 6 rungs, computed on MASKED contexts\",sec:mechanism,results/masked_counterfactual.json:unsupported_cost_vs_scale_masked.nli,real",
+    "value_with_masked600_labels": -8.344,
+    "p_exact": 0.01806
+  },
+  "routing_gold_nli": {
+    "script": "pipeline/routing_baselines.py GOLD_NLI (gold-conditioned diagnostic, unmasked Hybrid)",
+    "seed": 20260802,
+    "B": 5000,
+    "weighting": "QUIZ-WEIGHTED policy means and paired delta vs better fixed policy; quiz bootstrap",
+    "per_model": {
+      "gpt4omini": {
+        "reference": "never",
+        "old_premise1500": {
+          "policy_mean": 41.154,
+          "vs_reference": {
+            "delta": 4.91,
+            "ci95": [
+              0.939,
+              8.732
+            ],
+            "p_plus_one": 0.0156,
+            "n_quizzes": 199,
+            "n_questions": 878
+          },
+          "retrieve_rate": 0.7255
+        },
+        "new_premise600": {
+          "policy_mean": 44.075,
+          "vs_reference": {
+            "delta": 7.831,
+            "ci95": [
+              4.23,
+              11.359
+            ],
+            "p_plus_one": 0.0004,
+            "n_quizzes": 199,
+            "n_questions": 878
+          },
+          "retrieve_rate": 0.5387
+        }
+      },
+      "llama3_8b": {
+        "reference": "always",
+        "old_premise1500": {
+          "policy_mean": 35.029,
+          "vs_reference": {
+            "delta": 3.533,
+            "ci95": [
+              1.693,
+              5.597
+            ],
+            "p_plus_one": 0.0004,
+            "n_quizzes": 199,
+            "n_questions": 878
+          },
+          "retrieve_rate": 0.7255
+        },
+        "new_premise600": {
+          "policy_mean": 36.629,
+          "vs_reference": {
+            "delta": 5.133,
+            "ci95": [
+              2.928,
+              7.477
+            ],
+            "p_plus_one": 0.0004,
+            "n_quizzes": 199,
+            "n_questions": 878
+          },
+          "retrieve_rate": 0.5387
+        }
+      },
+      "mistral_large": {
+        "reference": "always",
+        "old_premise1500": {
+          "policy_mean": 41.436,
+          "vs_reference": {
+            "delta": 4.923,
+            "ci95": [
+              2.931,
+              7.086
+            ],
+            "p_plus_one": 0.0004,
+            "n_quizzes": 199,
+            "n_questions": 878
+          },
+          "retrieve_rate": 0.7255
+        },
+        "new_premise600": {
+          "policy_mean": 45.097,
+          "vs_reference": {
+            "delta": 8.584,
+            "ci95": [
+              6.127,
+              11.183
+            ],
+            "p_plus_one": 0.0004,
+            "n_quizzes": 199,
+            "n_questions": 878
+          },
+          "retrieve_rate": 0.5387
+        }
+      },
+      "qwen1_5b": {
+        "reference": "always",
+        "old_premise1500": {
+          "policy_mean": 33.905,
+          "vs_reference": {
+            "delta": 2.872,
+            "ci95": [
+              1.092,
+              4.909
+            ],
+            "p_plus_one": 0.0012,
+            "n_quizzes": 199,
+            "n_questions": 878
+          },
+          "retrieve_rate": 0.7255
+        },
+        "new_premise600": {
+          "policy_mean": 35.014,
+          "vs_reference": {
+            "delta": 3.98,
+            "ci95": [
+              1.778,
+              6.455
+            ],
+            "p_plus_one": 0.0004,
+            "n_quizzes": 199,
+            "n_questions": 878
+          },
+          "retrieve_rate": 0.5387
+        }
+      },
+      "qwen32b": {
+        "reference": "always",
+        "old_premise1500": {
+          "policy_mean": 38.341,
+          "vs_reference": {
+            "delta": 3.584,
+            "ci95": [
+              1.915,
+              5.41
+            ],
+            "p_plus_one": 0.0004,
+            "n_quizzes": 199,
+            "n_questions": 878
+          },
+          "retrieve_rate": 0.7255
+        },
+        "new_premise600": {
+          "policy_mean": 41.243,
+          "vs_reference": {
+            "delta": 6.485,
+            "ci95": [
+              4.243,
+              9.057
+            ],
+            "p_plus_one": 0.0004,
+            "n_quizzes": 199,
+            "n_questions": 878
+          },
+          "retrieve_rate": 0.5387
+        }
+      },
+      "qwen3b": {
+        "reference": "always",
+        "old_premise1500": {
+          "policy_mean": 32.934,
+          "vs_reference": {
+            "delta": 0.728,
+            "ci95": [
+              -0.564,
+              2.076
+            ],
+            "p_plus_one": 0.25715,
+            "n_quizzes": 199,
+            "n_questions": 878
+          },
+          "retrieve_rate": 0.7255
+        },
+        "new_premise600": {
+          "policy_mean": 33.309,
+          "vs_reference": {
+            "delta": 1.104,
+            "ci95": [
+              -0.236,
+              2.47
+            ],
+            "p_plus_one": 0.10998,
+            "n_quizzes": 199,
+            "n_questions": 878
+          },
+          "retrieve_rate": 0.5387
+        }
+      },
+      "qwen72b": {
+        "reference": "always",
+        "old_premise1500": {
+          "policy_mean": 39.085,
+          "vs_reference": {
+            "delta": 3.404,
+            "ci95": [
+              1.656,
+              5.285
+            ],
+            "p_plus_one": 0.0004,
+            "n_quizzes": 199,
+            "n_questions": 878
+          },
+          "retrieve_rate": 0.7255
+        },
+        "new_premise600": {
+          "policy_mean": 41.605,
+          "vs_reference": {
+            "delta": 5.924,
+            "ci95": [
+              3.632,
+              8.344
+            ],
+            "p_plus_one": 0.0004,
+            "n_quizzes": 199,
+            "n_questions": 878
+          },
+          "retrieve_rate": 0.5387
+        }
+      },
+      "qwen7b": {
+        "reference": "always",
+        "old_premise1500": {
+          "policy_mean": 34.773,
+          "vs_reference": {
+            "delta": 2.782,
+            "ci95": [
+              1.255,
+              4.576
+            ],
+            "p_plus_one": 0.0004,
+            "n_quizzes": 199,
+            "n_questions": 878
+          },
+          "retrieve_rate": 0.7255
+        },
+        "new_premise600": {
+          "policy_mean": 35.459,
+          "vs_reference": {
+            "delta": 3.468,
+            "ci95": [
+              1.905,
+              5.191
+            ],
+            "p_plus_one": 0.0004,
+            "n_quizzes": 199,
+            "n_questions": 878
+          },
+          "retrieve_rate": 0.5387
+        }
+      },
+      "sonnet": {
+        "reference": "always",
+        "old_premise1500": {
+          "policy_mean": 33.093,
+          "vs_reference": {
+            "delta": 4.924,
+            "ci95": [
+              2.641,
+              7.483
+            ],
+            "p_plus_one": 0.0004,
+            "n_quizzes": 199,
+            "n_questions": 878
+          },
+          "retrieve_rate": 0.7255
+        },
+        "new_premise600": {
+          "policy_mean": 36.708,
+          "vs_reference": {
+            "delta": 8.539,
+            "ci95": [
+              5.876,
+              11.577
+            ],
+            "p_plus_one": 0.0004,
+            "n_quizzes": 199,
+            "n_questions": 878
+          },
+          "retrieve_rate": 0.5387
+        }
+      }
+    },
+    "runtime_sec": 13.9
+  },
+  "not_causal": "Support is a gold-conditioned, non-randomised partition; descriptive associations only.",
+  "runtime_total_sec": 28.9
+}

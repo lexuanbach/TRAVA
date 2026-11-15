@@ -1,0 +1,70 @@
+{
+  "generator": "Qwen2.5-32B",
+  "note": "Leave-one-out of each question own gold docs (32B primary, hybrid). hit@5=0 by construction; tests rescue from the rest of the corpus.",
+  "full_index": {
+    "static": {
+      "n": 404,
+      "f1": 38.84,
+      "f1_ci95": [
+        34.51,
+        43.11
+      ]
+    },
+    "fresh": {
+      "n": 474,
+      "f1": 39.11,
+      "f1_ci95": [
+        34.97,
+        43.27
+      ]
+    }
+  },
+  "loo_index": {
+    "static": {
+      "n": 404,
+      "f1": 17.64,
+      "f1_ci95": [
+        14.23,
+        21.06
+      ]
+    },
+    "fresh": {
+      "n": 474,
+      "f1": 21.12,
+      "f1_ci95": [
+        17.65,
+        24.66
+      ]
+    }
+  },
+  "closed_book": {
+    "static": {
+      "n": 404,
+      "f1": 30.12,
+      "f1_ci95": [
+        26.1,
+        34.08
+      ]
+    },
+    "fresh": {
+      "n": 474,
+      "f1": 25.19,
+      "f1_ci95": [
+        21.65,
+        28.74
+      ]
+    }
+  },
+  "full_minus_loo": {
+    "static": {
+      "diff_f1": 21.2,
+      "p": 0.0,
+      "n": 404
+    },
+    "fresh": {
+      "diff_f1": 17.99,
+      "p": 0.0,
+      "n": 474
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "max_length": 4096,
+  "arms": {
+    "closed_book": {
+      "n": 878,
+      "max": 160,
+      "median": 96,
+      "n_over_limit": 0
+    },
+    "hybrid_w0": {
+      "n": 878,
+      "max": 1050,
+      "median": 853,
+      "n_over_limit": 0
+    },
+    "hybrid_w1": {
+      "n": 878,
+      "max": 1050,
+      "median": 853,
+      "n_over_limit": 0
+    },
+    "hybrid_w3": {
+      "n": 878,
+      "max": 1050,
+      "median": 853,
+      "n_over_limit": 0
+    },
+    "hybrid_w7": {
+      "n": 878,
+      "max": 1050,
+      "median": 853,
+      "n_over_limit": 0
+    },
+    "hybrid_unmasked": {
+      "n": 878,
+      "max": 1050,
+      "median": 857,
+      "n_over_limit": 0
+    }
+  }
+}

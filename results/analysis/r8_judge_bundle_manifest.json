@@ -1,0 +1,110 @@
+{
+  "step": "R8 build -- judge prompts on the exact generator-visible text",
+  "generated": "2026-09-20T08:57:33+0700",
+  "judge_model_requested": "Qwen/Qwen2.5-14B-Instruct",
+  "fallback_model": "Qwen/Qwen2.5-7B-Instruct",
+  "doc_chars": 600,
+  "prompt": {
+    "system": "You are an expert annotator labelling retrieved evidence for a news question-answering audit. You follow the annotation guidelines exactly and reply with one label and nothing else.",
+    "user_template": "Task B - evidence support.\n\nEach row is one retrieved document for a question. Decide whether this document contains the answer.\n\n`supports` - does this document contain the answer?\n\nYES      The excerpt states the reference answer, or states it plainly enough that a careful reader would extract it.\nPARTIAL  The excerpt is about the right event and narrows it down, but does not state the answer.\nNO       The excerpt does not contain the answer.\n\nJudge the excerpt shown, not the document it came from. Excerpts are truncated at {ncut} characters; if the answer is plausibly just past the cut, that is still NO - we are measuring what the model was shown.\n\nDo not look anything up. Judge only from what is on this row.\n\nQuestion ({qdate}): {question}\nReference answer: {gold}\n\nEvidence excerpt:\n{passage}\n\nReply with exactly one of: YES, PARTIAL, NO.",
+    "passage_render": "f'[1] ({publish_date}) {window(text)}'  (i=1 form of gen_gguf_notrunc.build)",
+    "rubric_source": "annotation/GUIDELINES.md, Task B, `supports`"
+  },
+  "windows": {
+    "w600": {
+      "chars": 600,
+      "note": "raw text[:600] - exactly what the generator was shown"
+    },
+    "w700nl": {
+      "chars": 700,
+      "note": "Task B pack human excerpt (build_annotation_pack.py)"
+    },
+    "w700ws": {
+      "chars": 700,
+      "note": "masked pack human excerpt (build_masked_pack.py)"
+    }
+  },
+  "n_jobs": 6351,
+  "n_by_window": {
+    "w600": 4959,
+    "w700nl": 762,
+    "w700ws": 630
+  },
+  "n_unique_qid_doc": 4959,
+  "n_questions": 878,
+  "context_membership_counts": {
+    "masked_top5|unmasked_top5": 2743,
+    "masked_top5": 513,
+    "unmasked_top5": 483,
+    "taskb_pack|unmasked_top5": 86,
+    "masked_top5|taskb_pack|unmasked_top5": 504,
+    "masked_pack|masked_top5|taskb_pack|unmasked_top5": 172,
+    "masked_pack|masked_top5": 56,
+    "masked_pack|masked_top5|unmasked_top5": 402
+  },
+  "dedupe_note": "the rendered passage text does not depend on the masked/unmasked condition, so one (qid, doc_id, window) label serves every context set that contains the pair; `condition` lists the memberships",
+  "pairs_per_context": {
+    "unmasked_top5": 4390,
+    "masked_top5": 4390,
+    "taskb_pack": 762,
+    "masked_pack": 630,
+    "unmasked_and_masked_top5": 3821
+  },
+  "annotated_pairs_inside_shown_top5": {
+    "taskb_in_unmasked_top5": 762,
+    "taskb_total": 762,
+    "masked_pack_in_masked_top5": 630,
+    "masked_pack_total": 630
+  },
+  "human_pack_excerpt_reproduction": {
+    "task_b": {
+      "window": "w700nl",
+      "n_unique_pairs": 762,
+      "n_excerpt_matches_rendering": 762
+    },
+    "masked_pack": {
+      "window": "w700ws",
+      "n_unique_pairs": 630,
+      "n_excerpt_matches_rendering": 630
+    }
+  },
+  "doc_ids_verification": {
+    "unmasked_top5_equals_generation_doc_ids": {
+      "haiku": "878/878",
+      "gpt4omini": "878/878",
+      "llama3_8b": "878/878",
+      "mistral_large": "878/878",
+      "qwen1_5b": "878/878",
+      "qwen32b": "878/878",
+      "qwen3b": "878/878",
+      "qwen72b": "878/878",
+      "qwen7b": "878/878",
+      "sonnet": "878/878"
+    },
+    "masked_top5_equals_generation_doc_ids": {
+      "haiku": "878/878",
+      "gpt4omini": "878/878",
+      "llama3_8b": "878/878",
+      "mistral_large": "878/878",
+      "qwen1_5b": "878/878",
+      "qwen32b": "878/878",
+      "qwen3b": "878/878",
+      "qwen72b": "878/878",
+      "qwen7b": "878/878",
+      "sonnet": "878/878"
+    }
+  },
+  "input_sha256": {
+    "data/processed/questions.jsonl": "4190e39f17151d210ffd9247ddb3ad4784c51dd90026a1d76414d2c1515a450e",
+    "data/processed/corpus.jsonl": "9372af0f2833835b0715e9ecd8d6b1d664f7222a3da227d1195fc05bba15c863",
+    "data/processed/retrieval.json": "5414dee5b1c40527c1ad1589c4263cd695d3d7489cb81a83b14e785784b5540a",
+    "data/processed/retrieval_masked.json": "7b119a2e61e542683b4181e42f8aea1f6656b3845a8054d151f80644caa6cd2d",
+    "annotation/pack_2026-08-02/item_metadata.jsonl": "de71489511ae2dac900d9220e84be49c5781d1205001a1c3e666a6d1d184c1a6",
+    "annotation/masked_support_2026-08-04/item_metadata.jsonl": "87732b02df2c6a0e9b9a83964b33a9074b259a24574831d56f8622bbc94a7280",
+    "annotation/pack_2026-08-02/task_b_evidence.csv": "825ca961c97290978ffa675e4e4190851b9787f4929ba0367cc51e0721360575",
+    "annotation/masked_support_2026-08-04/task_support_masked.csv": "5f777f3c0ff8d8c4d97a6ac17f638cd7032edfb004664d1a96e83501079e968c"
+  },
+  "bundle_sha256": "4c7ab14bd2ab2683f48b210909e84fa810c16188330d1bc0301b9b1dcbd8e791",
+  "job_ids_sha256": "3c725461fd231ce03ca82ffca7068420e6731be8c7dea7baa2a184875992bc85",
+  "build_seconds": 0.5
+}

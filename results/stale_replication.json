@@ -1,0 +1,189 @@
+{
+  "scope": "Stale-index and leave-one-out controls replicated across every generator with all four conditions cached, so the 'bad evidence is worse than none' claim no longer rests on one mid-ladder model.",
+  "boundary": "2025-01-01",
+  "bootstrap": {
+    "B": 5000,
+    "unit": "weekly quiz id",
+    "seed": 20260801
+  },
+  "models": {
+    "qwen3b": {
+      "name": "Qwen2.5-3B",
+      "params_B": 3.0,
+      "n_common": 878,
+      "n_fresh": 474,
+      "f1": {
+        "closed_book": {
+          "static": 13.58,
+          "fresh": 15.76
+        },
+        "hybrid": {
+          "static": 35.87,
+          "fresh": 35.21
+        },
+        "hybrid_stale": {
+          "static": 35.15,
+          "fresh": 13.65
+        },
+        "hybrid_loo": {
+          "static": 13.49,
+          "fresh": 14.14
+        }
+      },
+      "abstention_pct": {
+        "closed_book": 6.9,
+        "hybrid": 1.7,
+        "hybrid_stale": 2.1,
+        "hybrid_loo": 3.9
+      },
+      "fresh_contrasts": {
+        "hybrid_minus_stale": {
+          "diff_f1": 21.56,
+          "ci95": [
+            16.96,
+            26.0
+          ],
+          "two_sided_p_plus_one": 0.0004,
+          "excludes_zero": true
+        },
+        "hybrid_minus_loo": {
+          "diff_f1": 21.07,
+          "ci95": [
+            17.36,
+            24.89
+          ],
+          "two_sided_p_plus_one": 0.0004,
+          "excludes_zero": true
+        },
+        "stale_minus_closedbook": {
+          "diff_f1": -2.11,
+          "ci95": [
+            -5.77,
+            1.27
+          ],
+          "two_sided_p_plus_one": 0.2368,
+          "excludes_zero": false
+        }
+      }
+    },
+    "qwen32b": {
+      "name": "Qwen2.5-32B",
+      "params_B": 32.0,
+      "n_common": 878,
+      "n_fresh": 474,
+      "f1": {
+        "closed_book": {
+          "static": 30.12,
+          "fresh": 25.19
+        },
+        "hybrid": {
+          "static": 38.84,
+          "fresh": 39.11
+        },
+        "hybrid_stale": {
+          "static": 38.87,
+          "fresh": 17.44
+        },
+        "hybrid_loo": {
+          "static": 17.64,
+          "fresh": 21.12
+        }
+      },
+      "abstention_pct": {
+        "closed_book": 2.1,
+        "hybrid": 9.8,
+        "hybrid_stale": 12.4,
+        "hybrid_loo": 22.1
+      },
+      "fresh_contrasts": {
+        "hybrid_minus_stale": {
+          "diff_f1": 21.67,
+          "ci95": [
+            17.0,
+            26.32
+          ],
+          "two_sided_p_plus_one": 0.0004,
+          "excludes_zero": true
+        },
+        "hybrid_minus_loo": {
+          "diff_f1": 17.99,
+          "ci95": [
+            13.66,
+            22.34
+          ],
+          "two_sided_p_plus_one": 0.0004,
+          "excludes_zero": true
+        },
+        "stale_minus_closedbook": {
+          "diff_f1": -7.75,
+          "ci95": [
+            -11.26,
+            -3.95
+          ],
+          "two_sided_p_plus_one": 0.0004,
+          "excludes_zero": true
+        }
+      }
+    },
+    "mistral_large": {
+      "name": "Mistral-Large-2",
+      "params_B": 123.0,
+      "n_common": 878,
+      "n_fresh": 474,
+      "f1": {
+        "closed_book": {
+          "static": 45.87,
+          "fresh": 29.88
+        },
+        "hybrid": {
+          "static": 41.98,
+          "fresh": 39.77
+        },
+        "hybrid_stale": {
+          "static": 41.94,
+          "fresh": 18.48
+        },
+        "hybrid_loo": {
+          "static": 22.22,
+          "fresh": 21.81
+        }
+      },
+      "abstention_pct": {
+        "closed_book": 0.2,
+        "hybrid": 14.5,
+        "hybrid_stale": 21.4,
+        "hybrid_loo": 32.5
+      },
+      "fresh_contrasts": {
+        "hybrid_minus_stale": {
+          "diff_f1": 21.29,
+          "ci95": [
+            16.91,
+            25.79
+          ],
+          "two_sided_p_plus_one": 0.0004,
+          "excludes_zero": true
+        },
+        "hybrid_minus_loo": {
+          "diff_f1": 17.96,
+          "ci95": [
+            13.77,
+            22.2
+          ],
+          "two_sided_p_plus_one": 0.0004,
+          "excludes_zero": true
+        },
+        "stale_minus_closedbook": {
+          "diff_f1": -11.4,
+          "ci95": [
+            -14.91,
+            -8.07
+          ],
+          "two_sided_p_plus_one": 0.0004,
+          "excludes_zero": true
+        }
+      }
+    }
+  },
+  "summary": "Stale evidence leaves Fresh F1 significantly BELOW closed-book on 2 of 3 generators, spanning 3B--123B, including the open-weight rung that carries the capability association."
+}

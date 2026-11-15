@@ -1,0 +1,19 @@
+{
+  "why": "freshness scored alpha 0.471 in the first pass; this pilot tests a rewritten decision rule before any re-run",
+  "scope": "on-topic evidence only (supports majority YES or PARTIAL)",
+  "diagnostic_alphas_from_pass_1": {
+    "all_rows": 0.471,
+    "on_topic_only": 0.569,
+    "off_topic_only": 0.293
+  },
+  "n_items": 150,
+  "composition": {
+    "previously_contested": 90,
+    "previously_unanimous": 60
+  },
+  "sampling_note": "contested rows are oversampled, so the pilot alpha is a LOWER bound on what the rule would score on a straight sample -- that is the point, but do not quote it as a population figure",
+  "seed": 20260803,
+  "excerpt_handling": "trimmed to the last COMPLETE sentence within the original 700-character window. The source pack cut 98.4% of excerpts at the cap and 77.3% mid-word, which a sentence-aspect rule cannot be applied to. Trimming keeps the excerpt a subset of what the generator saw; median cost 65 characters, no row left without a complete sentence.",
+  "new_column": "claim_type is collected as a check on the rule: if two raters agree on claim_type but differ on freshness, the labels are wrong; if they differ on claim_type, the rule itself is still ambiguous",
+  "target": "Krippendorff alpha >= 0.6 on freshness before any re-run"
+}

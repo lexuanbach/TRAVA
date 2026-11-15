@@ -1,0 +1,89 @@
+{
+  "scope": "Automatic support labels against human ones, at the passage level where both describe the same text.",
+  "n_passages": 900,
+  "n_questions": 254,
+  "human_label_source": "majority of 3 annotators, 168 contested passages replaced by the blind adjudicator",
+  "caveat": "Task B showed up to three of the top five passages, so this validates the labels on the passages a human saw, not the question-level support variable used in the analysis.",
+  "labels": {
+    "string": {
+      "human_YES_only": {
+        "n": 900,
+        "agreement": {
+          "rate": 0.8822,
+          "ci95": [
+            0.8548,
+            0.9084
+          ]
+        },
+        "cohens_kappa": 0.6464,
+        "precision": 0.8193,
+        "recall": 0.6415,
+        "confusion": {
+          "auto_yes_human_yes": 136,
+          "auto_yes_human_no": 30,
+          "auto_no_human_yes": 76,
+          "auto_no_human_no": 658
+        }
+      },
+      "human_YES_or_PARTIAL": {
+        "n": 900,
+        "agreement": {
+          "rate": 0.7989,
+          "ci95": [
+            0.7541,
+            0.8409
+          ]
+        },
+        "cohens_kappa": 0.5072,
+        "precision": 0.9157,
+        "recall": 0.4765,
+        "confusion": {
+          "auto_yes_human_yes": 152,
+          "auto_yes_human_no": 14,
+          "auto_no_human_yes": 167,
+          "auto_no_human_no": 567
+        }
+      }
+    },
+    "nli": {
+      "human_YES_only": {
+        "n": 900,
+        "agreement": {
+          "rate": 0.9278,
+          "ci95": [
+            0.9068,
+            0.9473
+          ]
+        },
+        "cohens_kappa": 0.8004,
+        "precision": 0.8419,
+        "recall": 0.8538,
+        "confusion": {
+          "auto_yes_human_yes": 181,
+          "auto_yes_human_no": 34,
+          "auto_no_human_yes": 31,
+          "auto_no_human_no": 654
+        }
+      },
+      "human_YES_or_PARTIAL": {
+        "n": 900,
+        "agreement": {
+          "rate": 0.8511,
+          "ci95": [
+            0.8135,
+            0.8852
+          ]
+        },
+        "cohens_kappa": 0.6488,
+        "precision": 0.9302,
+        "recall": 0.627,
+        "confusion": {
+          "auto_yes_human_yes": 200,
+          "auto_yes_human_no": 15,
+          "auto_no_human_yes": 119,
+          "auto_no_human_no": 566
+        }
+      }
+    }
+  }
+}

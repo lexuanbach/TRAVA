@@ -1,0 +1,276 @@
+{
+  "scope": "Typology of disagreements between the automatic support labels and human passage labels, broken down by slice and by the generator whose retrieved context the passage came from.",
+  "human_partial_counts_as": "supported",
+  "n_labelled_passages": 900,
+  "why": "L3 is stratified by these labels, so a failure rate that differed by slice would confound the interaction with the boundary. These breakdowns test that directly.",
+  "labels": {
+    "string": {
+      "n_passages": 900,
+      "cells": {
+        "agree_support": 149,
+        "agree_no": 560,
+        "human_only": 174,
+        "auto_only": 17
+      },
+      "disagreement_rate": 0.2122,
+      "disagreement_ci95": [
+        0.1867,
+        0.2389
+      ],
+      "by_slice": {
+        "static": {
+          "n": 450,
+          "disagreement_rate": 0.18,
+          "ci95": [
+            0.1467,
+            0.2156
+          ],
+          "cells": {
+            "agree_support": 85,
+            "agree_no": 284,
+            "human_only": 74,
+            "auto_only": 7
+          }
+        },
+        "fresh": {
+          "n": 450,
+          "disagreement_rate": 0.2444,
+          "ci95": [
+            0.2067,
+            0.2822
+          ],
+          "cells": {
+            "agree_support": 64,
+            "agree_no": 276,
+            "human_only": 100,
+            "auto_only": 10
+          }
+        }
+      },
+      "by_model": {
+        "gpt4omini": {
+          "n": 96,
+          "params_B": null,
+          "disagreement_rate": 0.1667
+        },
+        "llama3_8b": {
+          "n": 111,
+          "params_B": null,
+          "disagreement_rate": 0.2432
+        },
+        "mistral_large": {
+          "n": 75,
+          "params_B": 123.0,
+          "disagreement_rate": 0.2533
+        },
+        "qwen1_5b": {
+          "n": 108,
+          "params_B": 1.5,
+          "disagreement_rate": 0.2778
+        },
+        "qwen32b": {
+          "n": 96,
+          "params_B": 32.0,
+          "disagreement_rate": 0.2188
+        },
+        "qwen3b": {
+          "n": 120,
+          "params_B": 3.0,
+          "disagreement_rate": 0.2083
+        },
+        "qwen72b": {
+          "n": 102,
+          "params_B": 72.0,
+          "disagreement_rate": 0.1765
+        },
+        "qwen7b": {
+          "n": 108,
+          "params_B": 7.0,
+          "disagreement_rate": 0.1574
+        },
+        "sonnet": {
+          "n": 84,
+          "params_B": null,
+          "disagreement_rate": 0.2143
+        }
+      },
+      "slice_difference_pts": -6.44,
+      "examples": {
+        "auto_only": [
+          {
+            "qid": "20251212_7",
+            "gold": "An interest rate cut",
+            "human": "NO",
+            "excerpt": "Updated July 30, 2025, 6:02 p.m. ET\n\nThe Federal Reserve held interest rates steady Wednesday between 4.25% and 4.5% \u2013 exactly as interest-rate traders' bets had predicted after the policy-making body's meeting in June.\n"
+          },
+          {
+            "qid": "20260227_9",
+            "gold": "Australia",
+            "human": "NO",
+            "excerpt": "Brisbane, Australia CNN \u2014\n\nAustralia\u2019s Great Barrier Reef is suffering its sixth mass bleaching due to heat stress caused by climate change, the reef\u2019s managers confirmed Friday.\n\nThe update comes mid-way through a 10-da"
+          },
+          {
+            "qid": "20221223_9",
+            "gold": "The Bahamas",
+            "human": "NO",
+            "excerpt": "May 26, 2026, 8:38 a.m. ET\n\nDonald Trump Jr. and Bettina Anderson's destination wedding ceremony went off without a hitch over Memorial Day weekend, if Instagram is any indication.\n\nThe couple legally married in Florida "
+          }
+        ],
+        "human_only": [
+          {
+            "qid": "20240906_27",
+            "gold": "Oct. 13, 2024",
+            "human": "PARTIAL",
+            "excerpt": "If all goes according to plan, Target will open a new store in Middletown in the coming years, Middletown Mayor Kenneth Branner Jr. told Delaware Online/The News Journal.\n\n\"It's a done deal from what I understand,\" the 3"
+          },
+          {
+            "qid": "20260130_1",
+            "gold": "Minneapolis",
+            "human": "PARTIAL",
+            "excerpt": "Jan. 12, 2026 Updated Jan. 13, 2026, 10:40 a.m. ET\n\nMinnesota and Illinois, two states targeted by the Trump administration for immigration enforcement, sued Homeland Secretary Kristi Noem on Monday, aiming to curb the a"
+          },
+          {
+            "qid": "20250411_0",
+            "gold": "Wolf",
+            "human": "YES",
+            "excerpt": "Colossal Biosciences caught our imagination \u2013 and elicited memories of \"Jurassic Park\" \u2013 when the Dallas-based biotech company announced back in 2021 it would use cutting-edge genetics editing technology to bring back th"
+          }
+        ]
+      }
+    },
+    "nli": {
+      "n_passages": 900,
+      "cells": {
+        "agree_support": 198,
+        "human_only": 125,
+        "agree_no": 560,
+        "auto_only": 17
+      },
+      "disagreement_rate": 0.1578,
+      "disagreement_ci95": [
+        0.1356,
+        0.1833
+      ],
+      "by_slice": {
+        "static": {
+          "n": 450,
+          "disagreement_rate": 0.1556,
+          "ci95": [
+            0.1244,
+            0.1911
+          ],
+          "cells": {
+            "agree_support": 96,
+            "human_only": 63,
+            "agree_no": 284,
+            "auto_only": 7
+          }
+        },
+        "fresh": {
+          "n": 450,
+          "disagreement_rate": 0.16,
+          "ci95": [
+            0.1289,
+            0.1956
+          ],
+          "cells": {
+            "agree_support": 102,
+            "human_only": 62,
+            "agree_no": 276,
+            "auto_only": 10
+          }
+        }
+      },
+      "by_model": {
+        "gpt4omini": {
+          "n": 96,
+          "params_B": null,
+          "disagreement_rate": 0.125
+        },
+        "llama3_8b": {
+          "n": 111,
+          "params_B": null,
+          "disagreement_rate": 0.1622
+        },
+        "mistral_large": {
+          "n": 75,
+          "params_B": 123.0,
+          "disagreement_rate": 0.2
+        },
+        "qwen1_5b": {
+          "n": 108,
+          "params_B": 1.5,
+          "disagreement_rate": 0.1574
+        },
+        "qwen32b": {
+          "n": 96,
+          "params_B": 32.0,
+          "disagreement_rate": 0.2083
+        },
+        "qwen3b": {
+          "n": 120,
+          "params_B": 3.0,
+          "disagreement_rate": 0.175
+        },
+        "qwen72b": {
+          "n": 102,
+          "params_B": 72.0,
+          "disagreement_rate": 0.1569
+        },
+        "qwen7b": {
+          "n": 108,
+          "params_B": 7.0,
+          "disagreement_rate": 0.1204
+        },
+        "sonnet": {
+          "n": 84,
+          "params_B": null,
+          "disagreement_rate": 0.119
+        }
+      },
+      "slice_difference_pts": -0.44,
+      "examples": {
+        "auto_only": [
+          {
+            "qid": "20260227_9",
+            "gold": "Australia",
+            "human": "NO",
+            "excerpt": "Brisbane, Australia CNN \u2014\n\nAustralia\u2019s Great Barrier Reef is suffering its sixth mass bleaching due to heat stress caused by climate change, the reef\u2019s managers confirmed Friday.\n\nThe update comes mid-way through a 10-da"
+          },
+          {
+            "qid": "20260522_18",
+            "gold": "White",
+            "human": "NO",
+            "excerpt": "Although many of us have packed up our summer gear, and celebrated Labor Day weekend as the unofficial end of summer, the season is with us for just a few more days before we transition to fall.\n\nWith autumn arriving soo"
+          },
+          {
+            "qid": "20260522_18",
+            "gold": "White",
+            "human": "NO",
+            "excerpt": "Portsmouth Herald\n\nJune 5, 2026, 5:05 a.m. ET\n\nWhen a T-shirt became controversial \u2014 and why that matters\n\nMay 28 \u2212 To the Editor:\n\nA locally owned gym, with no attire policy, began censoring messages on clothing\u2014particu"
+          }
+        ],
+        "human_only": [
+          {
+            "qid": "20260612_4",
+            "gold": "Steve Hilton",
+            "human": "PARTIAL",
+            "excerpt": "May 19, 2026, 4:56 p.m. ET\n\nTwo candidates are leading the crowded field of California gubernatorial candidates in a new poll released Tuesday, May 19, mirroring results from other surveys in recent weeks.\n\nRepublican St"
+          },
+          {
+            "qid": "20260403_1",
+            "gold": "$4",
+            "human": "YES",
+            "excerpt": "The average price of gas in the U.S. is $4.52 as the all-time record continues to be broken.\n\nThe average price of gas is at least $4 in every state, with Kansas having the cheapest gas.\n\nExperts predict gas prices will "
+          },
+          {
+            "qid": "20220812_22",
+            "gold": "Serena Williams",
+            "human": "YES",
+            "excerpt": "Serena Williams returned to the tennis court on Tuesday after almost four years away from the sport.\n\nShe teamed up with Victoria Mboko to win a doubles match at the Queen's Club Championships in London.\n\nWilliams, 44, l"
+          }
+        ]
+      }
+    }
+  }
+}

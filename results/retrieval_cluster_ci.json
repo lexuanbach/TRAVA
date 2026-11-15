@@ -1,0 +1,351 @@
+{
+  "scope": "Paired retrieval gains over closed-book with the weekly quiz as the resampling unit, reported separately for Static (year < 2025) and Fresh (year >= 2025) questions.",
+  "why": "Questions inside a quiz share a news cycle and a retrieval pool, so per-question intervals understate uncertainty; and a gain pooled over both regimes hides that retrieval can only help where the answer post-dates the model's knowledge.",
+  "retrieval_condition": "hybrid",
+  "boundary_year": 2025,
+  "models": {
+    "gpt4omini": {
+      "all": {
+        "gain_f1": -1.719,
+        "ci95": [
+          -6.281,
+          2.771
+        ],
+        "p_plus_one": 0.42112,
+        "n_quizzes": 199,
+        "n_questions": 878,
+        "significant": false
+      },
+      "static": {
+        "gain_f1": -7.364,
+        "ci95": [
+          -12.604,
+          -2.425
+        ],
+        "p_plus_one": 0.0052,
+        "n_quizzes": 125,
+        "n_questions": 404,
+        "significant": true
+      },
+      "fresh": {
+        "gain_f1": 7.817,
+        "ci95": [
+          0.219,
+          15.812
+        ],
+        "p_plus_one": 0.04439,
+        "n_quizzes": 74,
+        "n_questions": 474,
+        "significant": true
+      }
+    },
+    "llama3_8b": {
+      "all": {
+        "gain_f1": 6.678,
+        "ci95": [
+          2.512,
+          10.707
+        ],
+        "p_plus_one": 0.0032,
+        "n_quizzes": 199,
+        "n_questions": 878,
+        "significant": true
+      },
+      "static": {
+        "gain_f1": 3.651,
+        "ci95": [
+          -1.351,
+          8.646
+        ],
+        "p_plus_one": 0.14917,
+        "n_quizzes": 125,
+        "n_questions": 404,
+        "significant": false
+      },
+      "fresh": {
+        "gain_f1": 11.791,
+        "ci95": [
+          5.062,
+          18.318
+        ],
+        "p_plus_one": 0.0016,
+        "n_quizzes": 74,
+        "n_questions": 474,
+        "significant": true
+      }
+    },
+    "mistral_large": {
+      "all": {
+        "gain_f1": 0.303,
+        "ci95": [
+          -4.034,
+          4.654
+        ],
+        "p_plus_one": 0.89582,
+        "n_quizzes": 199,
+        "n_questions": 878,
+        "significant": false
+      },
+      "static": {
+        "gain_f1": -5.027,
+        "ci95": [
+          -10.023,
+          -0.254
+        ],
+        "p_plus_one": 0.03999,
+        "n_quizzes": 125,
+        "n_questions": 404,
+        "significant": true
+      },
+      "fresh": {
+        "gain_f1": 9.307,
+        "ci95": [
+          1.207,
+          17.471
+        ],
+        "p_plus_one": 0.024,
+        "n_quizzes": 74,
+        "n_questions": 474,
+        "significant": true
+      }
+    },
+    "qwen1_5b": {
+      "all": {
+        "gain_f1": 14.876,
+        "ci95": [
+          10.592,
+          19.19
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 199,
+        "n_questions": 878,
+        "significant": true
+      },
+      "static": {
+        "gain_f1": 14.119,
+        "ci95": [
+          8.505,
+          19.66
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125,
+        "n_questions": 404,
+        "significant": true
+      },
+      "fresh": {
+        "gain_f1": 16.156,
+        "ci95": [
+          9.083,
+          23.345
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 74,
+        "n_questions": 474,
+        "significant": true
+      }
+    },
+    "qwen32b": {
+      "all": {
+        "gain_f1": 8.586,
+        "ci95": [
+          4.134,
+          12.935
+        ],
+        "p_plus_one": 0.0008,
+        "n_quizzes": 199,
+        "n_questions": 878,
+        "significant": true
+      },
+      "static": {
+        "gain_f1": 5.242,
+        "ci95": [
+          -0.2,
+          10.395
+        ],
+        "p_plus_one": 0.05999,
+        "n_quizzes": 125,
+        "n_questions": 404,
+        "significant": false
+      },
+      "fresh": {
+        "gain_f1": 14.236,
+        "ci95": [
+          6.93,
+          21.781
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 74,
+        "n_questions": 474,
+        "significant": true
+      }
+    },
+    "qwen3b": {
+      "all": {
+        "gain_f1": 18.593,
+        "ci95": [
+          14.585,
+          22.595
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 199,
+        "n_questions": 878,
+        "significant": true
+      },
+      "static": {
+        "gain_f1": 20.067,
+        "ci95": [
+          14.778,
+          25.525
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125,
+        "n_questions": 404,
+        "significant": true
+      },
+      "fresh": {
+        "gain_f1": 16.103,
+        "ci95": [
+          9.98,
+          22.423
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 74,
+        "n_questions": 474,
+        "significant": true
+      }
+    },
+    "qwen72b": {
+      "all": {
+        "gain_f1": 6.022,
+        "ci95": [
+          1.889,
+          10.22
+        ],
+        "p_plus_one": 0.0036,
+        "n_quizzes": 199,
+        "n_questions": 878,
+        "significant": true
+      },
+      "static": {
+        "gain_f1": 3.122,
+        "ci95": [
+          -2.261,
+          8.362
+        ],
+        "p_plus_one": 0.23995,
+        "n_quizzes": 125,
+        "n_questions": 404,
+        "significant": false
+      },
+      "fresh": {
+        "gain_f1": 10.922,
+        "ci95": [
+          4.306,
+          17.622
+        ],
+        "p_plus_one": 0.0028,
+        "n_quizzes": 74,
+        "n_questions": 474,
+        "significant": true
+      }
+    },
+    "qwen7b": {
+      "all": {
+        "gain_f1": 11.094,
+        "ci95": [
+          7.06,
+          15.048
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 199,
+        "n_questions": 878,
+        "significant": true
+      },
+      "static": {
+        "gain_f1": 9.131,
+        "ci95": [
+          4.209,
+          13.723
+        ],
+        "p_plus_one": 0.0008,
+        "n_quizzes": 125,
+        "n_questions": 404,
+        "significant": true
+      },
+      "fresh": {
+        "gain_f1": 14.409,
+        "ci95": [
+          7.04,
+          21.562
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 74,
+        "n_questions": 474,
+        "significant": true
+      }
+    },
+    "sonnet": {
+      "all": {
+        "gain_f1": 1.091,
+        "ci95": [
+          -3.529,
+          5.667
+        ],
+        "p_plus_one": 0.64467,
+        "n_quizzes": 199,
+        "n_questions": 878,
+        "significant": false
+      },
+      "static": {
+        "gain_f1": -7.918,
+        "ci95": [
+          -13.923,
+          -2.267
+        ],
+        "p_plus_one": 0.0024,
+        "n_quizzes": 125,
+        "n_questions": 404,
+        "significant": true
+      },
+      "fresh": {
+        "gain_f1": 16.308,
+        "ci95": [
+          10.985,
+          21.864
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 74,
+        "n_questions": 474,
+        "significant": true
+      }
+    }
+  },
+  "summary": {
+    "significant_harm": [
+      "gpt4omini:static",
+      "mistral_large:static",
+      "sonnet:static"
+    ],
+    "significant_gain": [
+      "gpt4omini:fresh",
+      "llama3_8b:fresh",
+      "mistral_large:fresh",
+      "qwen1_5b:static",
+      "qwen1_5b:fresh",
+      "qwen32b:fresh",
+      "qwen3b:static",
+      "qwen3b:fresh",
+      "qwen72b:fresh",
+      "qwen7b:static",
+      "qwen7b:fresh",
+      "sonnet:fresh"
+    ],
+    "interval_spans_zero": [
+      "llama3_8b:static",
+      "qwen32b:static",
+      "qwen72b:static"
+    ],
+    "n_contrasts": 18,
+    "reading": "Only the contrasts listed under significant_harm may be described as retrieval hurting; a negative point estimate whose interval spans zero is not evidence of harm, and it is easy to describe one that way. Where retrieval does help it is concentrated in the Fresh regime, which is the direction the paper's thesis predicts."
+  }
+}

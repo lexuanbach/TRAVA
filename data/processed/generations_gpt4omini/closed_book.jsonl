@@ -1,0 +1,878 @@
+{"qid": "20260529_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Meta", "doc_ids": []}
+{"qid": "20260522_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Google", "doc_ids": []}
+{"qid": "20260410_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Italy", "doc_ids": []}
+{"qid": "20260313_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Jimmy Kimmel", "doc_ids": []}
+{"qid": "20240105_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Washington", "doc_ids": []}
+{"qid": "20260515_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$8 trillion", "doc_ids": []}
+{"qid": "20221216_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Toilet paper", "doc_ids": []}
+{"qid": "20240712_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Tijuana, Mexico", "doc_ids": []}
+{"qid": "20260116_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "T-Mobile", "doc_ids": []}
+{"qid": "20260327_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Mount Rushmore", "doc_ids": []}
+{"qid": "20240202_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Alejandro Mayorkas", "doc_ids": []}
+{"qid": "20230526_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "True", "doc_ids": []}
+{"qid": "20260410_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "N/A", "doc_ids": []}
+{"qid": "20221230_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Dobbs v. Jackson Women's Health Organization", "doc_ids": []}
+{"qid": "20230811_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Journalism", "doc_ids": []}
+{"qid": "20250711_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Vaccine hesitancy.", "doc_ids": []}
+{"qid": "20260403_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "49 years ago.", "doc_ids": []}
+{"qid": "20220624_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$19 million", "doc_ids": []}
+{"qid": "20260612_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Martina Hingis", "doc_ids": []}
+{"qid": "20230623_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Prime Minister Narendra Modi", "doc_ids": []}
+{"qid": "20260327_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Artemis II", "doc_ids": []}
+{"qid": "20260529_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Miami", "doc_ids": []}
+{"qid": "20260313_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Best Cinematic Experience", "doc_ids": []}
+{"qid": "20260227_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Sapporo, Japan", "doc_ids": []}
+{"qid": "20260424_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Lyrids", "doc_ids": []}
+{"qid": "20260417_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not available.", "doc_ids": []}
+{"qid": "20260227_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Artemis II", "doc_ids": []}
+{"qid": "20260605_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Pride Month", "doc_ids": []}
+{"qid": "20230317_26", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "sargassum", "doc_ids": []}
+{"qid": "20230127_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "started to rotate in the opposite direction.", "doc_ids": []}
+{"qid": "20260515_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Ford", "doc_ids": []}
+{"qid": "20220812_22", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Serena Williams", "doc_ids": []}
+{"qid": "20260116_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Milan-Cortina, Italy", "doc_ids": []}
+{"qid": "20230113_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "TCU", "doc_ids": []}
+{"qid": "20260313_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Katharine Hepburn", "doc_ids": []}
+{"qid": "20260508_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "La Palma", "doc_ids": []}
+{"qid": "20250718_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Ariana Grande", "doc_ids": []}
+{"qid": "20241227_24", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Kansas City Chiefs", "doc_ids": []}
+{"qid": "20260424_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "2009", "doc_ids": []}
+{"qid": "20250124_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Colombia", "doc_ids": []}
+{"qid": "20260123_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Winter storm", "doc_ids": []}
+{"qid": "20260206_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "5", "doc_ids": []}
+{"qid": "20240223_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not available.", "doc_ids": []}
+{"qid": "20260501_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Boris Johnson", "doc_ids": []}
+{"qid": "20260417_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$10", "doc_ids": []}
+{"qid": "20260508_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Google", "doc_ids": []}
+{"qid": "20230721_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Over 100 million", "doc_ids": []}
+{"qid": "20250214_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Golden Retriever", "doc_ids": []}
+{"qid": "20260227_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "83", "doc_ids": []}
+{"qid": "20221118_23", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Donald Trump Jr.", "doc_ids": []}
+{"qid": "20250613_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Diana, Princess of Wales", "doc_ids": []}
+{"qid": "20260220_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Florida", "doc_ids": []}
+{"qid": "20260619_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\u00c9vian-les-Bains", "doc_ids": []}
+{"qid": "20260529_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Antonio Guterres", "doc_ids": []}
+{"qid": "20220722_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Bumblebee", "doc_ids": []}
+{"qid": "20240906_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "China", "doc_ids": []}
+{"qid": "20220909_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Pennsylvania", "doc_ids": []}
+{"qid": "20250314_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Turkey", "doc_ids": []}
+{"qid": "20220826_23", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "30 September 2022", "doc_ids": []}
+{"qid": "20231110_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Ground beef", "doc_ids": []}
+{"qid": "20240510_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Jordan", "doc_ids": []}
+{"qid": "20260703_30", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Alan Shepard", "doc_ids": []}
+{"qid": "20230203_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Nikki Haley", "doc_ids": []}
+{"qid": "20250704_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Two.", "doc_ids": []}
+{"qid": "20250926_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Arizona", "doc_ids": []}
+{"qid": "20260508_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "1980", "doc_ids": []}
+{"qid": "20231027_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "2023", "doc_ids": []}
+{"qid": "20260605_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Elon Musk", "doc_ids": []}
+{"qid": "20260130_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Honda", "doc_ids": []}
+{"qid": "20240712_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "NUPES", "doc_ids": []}
+{"qid": "20250307_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Smack", "doc_ids": []}
+{"qid": "20220708_25", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The Hay Wain", "doc_ids": []}
+{"qid": "20260612_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "C3.ai", "doc_ids": []}
+{"qid": "20260403_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Four", "doc_ids": []}
+{"qid": "20250711_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not available.", "doc_ids": []}
+{"qid": "20250620_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Artificial intelligence", "doc_ids": []}
+{"qid": "20250328_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Signal", "doc_ids": []}
+{"qid": "20250919_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Emmy Awards", "doc_ids": []}
+{"qid": "20260508_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Barbara Walters", "doc_ids": []}
+{"qid": "20260515_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Polycystic ovary syndrome (PCOS)", "doc_ids": []}
+{"qid": "20231201_28", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Lack of communication.", "doc_ids": []}
+{"qid": "20260703_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not applicable (as he did not serve a second term).", "doc_ids": []}
+{"qid": "20220729_26", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Kyushu", "doc_ids": []}
+{"qid": "20230127_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Germany", "doc_ids": []}
+{"qid": "20260213_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Lululemon", "doc_ids": []}
+{"qid": "20260424_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Mark Zuckerberg", "doc_ids": []}
+{"qid": "20260403_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "California", "doc_ids": []}
+{"qid": "20220923_27", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "45%", "doc_ids": []}
+{"qid": "20260522_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Manchester City", "doc_ids": []}
+{"qid": "20260410_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The Masters", "doc_ids": []}
+{"qid": "20260320_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Jeff Zients", "doc_ids": []}
+{"qid": "20260626_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "56%", "doc_ids": []}
+{"qid": "20230818_22", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Increased police presence.", "doc_ids": []}
+{"qid": "20251010_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "To address civil unrest.", "doc_ids": []}
+{"qid": "20260703_29", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "1945", "doc_ids": []}
+{"qid": "20260508_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Taylor Swift", "doc_ids": []}
+{"qid": "20251114_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Severe storms", "doc_ids": []}
+{"qid": "20240105_26", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Provolone", "doc_ids": []}
+{"qid": "20260130_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "April 15", "doc_ids": []}
+{"qid": "20230224_20", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Gatorade", "doc_ids": []}
+{"qid": "20250214_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Green", "doc_ids": []}
+{"qid": "20240816_21", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not available.", "doc_ids": []}
+{"qid": "20231201_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "A factory.", "doc_ids": []}
+{"qid": "20240524_20", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "From October 1 to May 15.", "doc_ids": []}
+{"qid": "20250411_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Washington Capitals", "doc_ids": []}
+{"qid": "20250725_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Maya Angelou", "doc_ids": []}
+{"qid": "20240524_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Justice Samuel Alito", "doc_ids": []}
+{"qid": "20230526_27", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Mental health", "doc_ids": []}
+{"qid": "20250919_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "ABC", "doc_ids": []}
+{"qid": "20250425_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Sofus", "doc_ids": []}
+{"qid": "20220916_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Succession", "doc_ids": []}
+{"qid": "20260327_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Content moderation.", "doc_ids": []}
+{"qid": "20230505_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Math", "doc_ids": []}
+{"qid": "20260206_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "France", "doc_ids": []}
+{"qid": "20220701_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not specified.", "doc_ids": []}
+{"qid": "20220715_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Euro", "doc_ids": []}
+{"qid": "20260501_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Elon Musk", "doc_ids": []}
+{"qid": "20260220_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "United Airlines", "doc_ids": []}
+{"qid": "20260501_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "SNL's Michael Che", "doc_ids": []}
+{"qid": "20230303_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Everything Everywhere All at Once", "doc_ids": []}
+{"qid": "20260508_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Moldova", "doc_ids": []}
+{"qid": "20260306_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Blood Moon", "doc_ids": []}
+{"qid": "20250718_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Los Angeles", "doc_ids": []}
+{"qid": "20230922_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Carlos Sainz", "doc_ids": []}
+{"qid": "20221111_28", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "7 constituencies", "doc_ids": []}
+{"qid": "20250207_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "India", "doc_ids": []}
+{"qid": "20221021_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "JetBlue Airways", "doc_ids": []}
+{"qid": "20221111_25", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Australia", "doc_ids": []}
+{"qid": "20220805_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Cleveland Browns", "doc_ids": []}
+{"qid": "20250606_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Twitter", "doc_ids": []}
+{"qid": "20260522_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Shakira", "doc_ids": []}
+{"qid": "20221216_28", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Croatia and Morocco", "doc_ids": []}
+{"qid": "20260501_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Ecuador", "doc_ids": []}
+{"qid": "20230811_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Maui", "doc_ids": []}
+{"qid": "20260220_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Tiger", "doc_ids": []}
+{"qid": "20260612_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Apple", "doc_ids": []}
+{"qid": "20260306_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not available.", "doc_ids": []}
+{"qid": "20250704_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Florida State University", "doc_ids": []}
+{"qid": "20241227_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Delabear was found dead.", "doc_ids": []}
+{"qid": "20260529_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Myanmar", "doc_ids": []}
+{"qid": "20240531_26", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Residential development.", "doc_ids": []}
+{"qid": "20260227_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "London", "doc_ids": []}
+{"qid": "20260403_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "New Delhi", "doc_ids": []}
+{"qid": "20260703_33", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Joe Biden", "doc_ids": []}
+{"qid": "20221230_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Tom Brady", "doc_ids": []}
+{"qid": "20260508_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"Sleeping Beauties\"", "doc_ids": []}
+{"qid": "20240906_24", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Clear bag policy.", "doc_ids": []}
+{"qid": "20220729_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "August 31, 2022", "doc_ids": []}
+{"qid": "20260410_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "California", "doc_ids": []}
+{"qid": "20260515_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Krome Service Processing Center", "doc_ids": []}
+{"qid": "20220923_21", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Duke of Edinburgh", "doc_ids": []}
+{"qid": "20240809_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Google", "doc_ids": []}
+{"qid": "20230616_21", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Cambodia", "doc_ids": []}
+{"qid": "20260116_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "New York", "doc_ids": []}
+{"qid": "20230113_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "New York Mets", "doc_ids": []}
+{"qid": "20260612_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Japan", "doc_ids": []}
+{"qid": "20250502_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Kraft Heinz", "doc_ids": []}
+{"qid": "20221223_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Argentina", "doc_ids": []}
+{"qid": "20260529_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Tiffany Trump", "doc_ids": []}
+{"qid": "20260213_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Michelangelo", "doc_ids": []}
+{"qid": "20240726_25", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Lack of funding.", "doc_ids": []}
+{"qid": "20221209_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Respect for Marriage Act", "doc_ids": []}
+{"qid": "20260703_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Ford", "doc_ids": []}
+{"qid": "20240315_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Andrew Bridgen", "doc_ids": []}
+{"qid": "20251205_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "California and Illinois.", "doc_ids": []}
+{"qid": "20260508_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Metropolitan Museum of Art", "doc_ids": []}
+{"qid": "20220826_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Miami", "doc_ids": []}
+{"qid": "20260220_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Aurora", "doc_ids": []}
+{"qid": "20231103_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Texas Rangers", "doc_ids": []}
+{"qid": "20250131_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not available.", "doc_ids": []}
+{"qid": "20221007_20", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"Climate action now\"", "doc_ids": []}
+{"qid": "20260612_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Theileria.", "doc_ids": []}
+{"qid": "20260123_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Davos, Switzerland", "doc_ids": []}
+{"qid": "20250704_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Dolphins", "doc_ids": []}
+{"qid": "20260130_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Unknown.", "doc_ids": []}
+{"qid": "20230303_26", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Manchester United", "doc_ids": []}
+{"qid": "20220826_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"Don't Look Up\"", "doc_ids": []}
+{"qid": "20240301_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Ford", "doc_ids": []}
+{"qid": "20260501_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "North Carolina", "doc_ids": []}
+{"qid": "20250509_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "To discuss the US decision to relocate its embassy in Israel to Jerusalem.", "doc_ids": []}
+{"qid": "20221104_22", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$8", "doc_ids": []}
+{"qid": "20260619_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$3.00", "doc_ids": []}
+{"qid": "20230526_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "20 billion", "doc_ids": []}
+{"qid": "20230203_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Laverne & Shirley", "doc_ids": []}
+{"qid": "20221118_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "January 4, 2007", "doc_ids": []}
+{"qid": "20260619_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Hulu", "doc_ids": []}
+{"qid": "20230224_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Law & Order", "doc_ids": []}
+{"qid": "20231006_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Four", "doc_ids": []}
+{"qid": "20230922_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "New York City", "doc_ids": []}
+{"qid": "20240405_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "F-35 fighter jets", "doc_ids": []}
+{"qid": "20250228_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "IHOP", "doc_ids": []}
+{"qid": "20260522_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Jaws", "doc_ids": []}
+{"qid": "20260703_23", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Twenty years.", "doc_ids": []}
+{"qid": "20260522_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Rhode Island", "doc_ids": []}
+{"qid": "20240301_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Russia", "doc_ids": []}
+{"qid": "20260605_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not available.", "doc_ids": []}
+{"qid": "20251017_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Space Launch System (SLS)", "doc_ids": []}
+{"qid": "20241108_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Howard University", "doc_ids": []}
+{"qid": "20250117_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Instagram", "doc_ids": []}
+{"qid": "20230303_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "International Space Station (ISS)", "doc_ids": []}
+{"qid": "20260703_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "John Adams", "doc_ids": []}
+{"qid": "20240112_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Pet dogs", "doc_ids": []}
+{"qid": "20240322_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "World Water Day", "doc_ids": []}
+{"qid": "20230901_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Donald Trump", "doc_ids": []}
+{"qid": "20260522_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not available.", "doc_ids": []}
+{"qid": "20230428_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Bed Bath & Beyond", "doc_ids": []}
+{"qid": "20260626_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Final Fantasy VII Rebirth", "doc_ids": []}
+{"qid": "20250228_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Amazon", "doc_ids": []}
+{"qid": "20221111_27", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Google", "doc_ids": []}
+{"qid": "20221104_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Dryer sheets", "doc_ids": []}
+{"qid": "20241025_24", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$7.25", "doc_ids": []}
+{"qid": "20260227_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "1 hour, 20 minutes", "doc_ids": []}
+{"qid": "20220916_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "California", "doc_ids": []}
+{"qid": "20220819_23", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Harriet Hageman", "doc_ids": []}
+{"qid": "20240517_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Texas", "doc_ids": []}
+{"qid": "20250404_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Batman", "doc_ids": []}
+{"qid": "20260501_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "King Charles III", "doc_ids": []}
+{"qid": "20260313_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"Fight for Your Dreams\"", "doc_ids": []}
+{"qid": "20221209_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Volodymyr Zelenskyy", "doc_ids": []}
+{"qid": "20260515_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "PGA Championship", "doc_ids": []}
+{"qid": "20260703_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"Bohemian Rhapsody\"", "doc_ids": []}
+{"qid": "20260703_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Thomas Jefferson and John Adams (1826)", "doc_ids": []}
+{"qid": "20230825_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Heptathlon", "doc_ids": []}
+{"qid": "20221014_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Panic! At The Disco", "doc_ids": []}
+{"qid": "20241025_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The high seas.", "doc_ids": []}
+{"qid": "20251010_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The release of hostages.", "doc_ids": []}
+{"qid": "20260529_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Miami Heat", "doc_ids": []}
+{"qid": "20250509_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Prince William", "doc_ids": []}
+{"qid": "20241115_26", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The New Jersey Wildfire.", "doc_ids": []}
+{"qid": "20260619_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Moldova", "doc_ids": []}
+{"qid": "20260508_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Mage", "doc_ids": []}
+{"qid": "20221125_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Havasupai Campground", "doc_ids": []}
+{"qid": "20260130_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "61 stories", "doc_ids": []}
+{"qid": "20240614_27", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Picnic tables, BBQ grills, restrooms.", "doc_ids": []}
+{"qid": "20220819_26", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "A sewage spill.", "doc_ids": []}
+{"qid": "20260220_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "President", "doc_ids": []}
+{"qid": "20260619_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Krasnodar", "doc_ids": []}
+{"qid": "20240419_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "New York City", "doc_ids": []}
+{"qid": "20230609_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Psyche", "doc_ids": []}
+{"qid": "20250530_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"Rock and Roll, Hoochie Koo\"", "doc_ids": []}
+{"qid": "20240531_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Iron-rich sediment.", "doc_ids": []}
+{"qid": "20250425_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Canada", "doc_ids": []}
+{"qid": "20230127_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Brazil", "doc_ids": []}
+{"qid": "20230616_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The Road", "doc_ids": []}
+{"qid": "20260320_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Finland", "doc_ids": []}
+{"qid": "20260515_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Japan", "doc_ids": []}
+{"qid": "20230505_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Dust storm", "doc_ids": []}
+{"qid": "20230331_23", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "European Union", "doc_ids": []}
+{"qid": "20260306_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "A distant galaxy.", "doc_ids": []}
+{"qid": "20260619_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "49 goals", "doc_ids": []}
+{"qid": "20260109_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "NFL", "doc_ids": []}
+{"qid": "20230127_21", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Boris Johnson", "doc_ids": []}
+{"qid": "20260501_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Ariana Grande", "doc_ids": []}
+{"qid": "20221216_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "University of Florida", "doc_ids": []}
+{"qid": "20260213_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Dallas", "doc_ids": []}
+{"qid": "20220708_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Fire risk.", "doc_ids": []}
+{"qid": "20230310_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Approximately 900 troops.", "doc_ids": []}
+{"qid": "20220708_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Facebook", "doc_ids": []}
+{"qid": "20230414_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Max", "doc_ids": []}
+{"qid": "20260626_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Checks and balances", "doc_ids": []}
+{"qid": "20231020_24", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$1.5 million", "doc_ids": []}
+{"qid": "20221104_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "New York City", "doc_ids": []}
+{"qid": "20250321_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Accelerating.", "doc_ids": []}
+{"qid": "20240112_28", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Expansion into new markets.", "doc_ids": []}
+{"qid": "20260130_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "76.4 years", "doc_ids": []}
+{"qid": "20230317_29", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Nuclear power system", "doc_ids": []}
+{"qid": "20220624_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Harvard University", "doc_ids": []}
+{"qid": "20220708_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Recognizing faces.", "doc_ids": []}
+{"qid": "20260410_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Shay Mitchell", "doc_ids": []}
+{"qid": "20260417_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Congo", "doc_ids": []}
+{"qid": "20230512_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Florida", "doc_ids": []}
+{"qid": "20241011_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "2024 US Open", "doc_ids": []}
+{"qid": "20241227_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not applicable (as the election has not occurred).", "doc_ids": []}
+{"qid": "20220909_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "February 6, 1952", "doc_ids": []}
+{"qid": "20240719_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Texas", "doc_ids": []}
+{"qid": "20220624_23", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Vienna", "doc_ids": []}
+{"qid": "20260123_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "University of Georgia", "doc_ids": []}
+{"qid": "20230317_27", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "104 matches", "doc_ids": []}
+{"qid": "20251107_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Typhoon Doksuri", "doc_ids": []}
+{"qid": "20230616_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Approximately 4 million.", "doc_ids": []}
+{"qid": "20260417_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "April 15", "doc_ids": []}
+{"qid": "20260306_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Energy", "doc_ids": []}
+{"qid": "20220826_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Germany", "doc_ids": []}
+{"qid": "20230324_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$450,000", "doc_ids": []}
+{"qid": "20240809_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Al Asad Airbase", "doc_ids": []}
+{"qid": "20221014_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "21 years old", "doc_ids": []}
+{"qid": "20231208_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$7.25", "doc_ids": []}
+{"qid": "20220708_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Climate change.", "doc_ids": []}
+{"qid": "20241018_22", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Georgia and North Carolina.", "doc_ids": []}
+{"qid": "20260515_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$5", "doc_ids": []}
+{"qid": "20240719_26", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Increased intake and euthanasia rates.", "doc_ids": []}
+{"qid": "20240517_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Generative AI features", "doc_ids": []}
+{"qid": "20250314_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Fruits and vegetables", "doc_ids": []}
+{"qid": "20260410_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "J.K. Rowling", "doc_ids": []}
+{"qid": "20230407_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Gun control protests.", "doc_ids": []}
+{"qid": "20241101_24", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "PSL", "doc_ids": []}
+{"qid": "20240322_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Department of Defense", "doc_ids": []}
+{"qid": "20230210_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Michael Jordan", "doc_ids": []}
+{"qid": "20250725_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$1.2 million", "doc_ids": []}
+{"qid": "20260626_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "We the People", "doc_ids": []}
+{"qid": "20221007_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Tesla Semi", "doc_ids": []}
+{"qid": "20260605_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Michelle Obama", "doc_ids": []}
+{"qid": "20221118_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "American Airlines", "doc_ids": []}
+{"qid": "20221007_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The Beatles", "doc_ids": []}
+{"qid": "20220819_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Over 100,000", "doc_ids": []}
+{"qid": "20220701_22", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\u00a386.3 million", "doc_ids": []}
+{"qid": "20220805_28", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "60%", "doc_ids": []}
+{"qid": "20221104_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Friends", "doc_ids": []}
+{"qid": "20260612_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "48 teams", "doc_ids": []}
+{"qid": "20240216_21", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "A solar farm.", "doc_ids": []}
+{"qid": "20240524_25", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$99,990", "doc_ids": []}
+{"qid": "20260515_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Cannes Film Festival", "doc_ids": []}
+{"qid": "20240830_24", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Hawaii 42, Delaware State 7", "doc_ids": []}
+{"qid": "20230602_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Turkey", "doc_ids": []}
+{"qid": "20241122_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Texas", "doc_ids": []}
+{"qid": "20260410_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Adidas", "doc_ids": []}
+{"qid": "20250926_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "IT outage", "doc_ids": []}
+{"qid": "20260116_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Due to a leak in their spacecraft.", "doc_ids": []}
+{"qid": "20260619_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Japan", "doc_ids": []}
+{"qid": "20251226_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not available.", "doc_ids": []}
+{"qid": "20230210_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Joe Biden", "doc_ids": []}
+{"qid": "20250711_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Chanel", "doc_ids": []}
+{"qid": "20260109_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "H3N2", "doc_ids": []}
+{"qid": "20260703_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Two", "doc_ids": []}
+{"qid": "20221202_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "TikTok", "doc_ids": []}
+{"qid": "20240419_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Aliyah Boston", "doc_ids": []}
+{"qid": "20220722_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Abortion rights.", "doc_ids": []}
+{"qid": "20220826_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Dr. Anthony Fauci", "doc_ids": []}
+{"qid": "20230317_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Best Original Song", "doc_ids": []}
+{"qid": "20260417_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Florida", "doc_ids": []}
+{"qid": "20260109_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Greenland", "doc_ids": []}
+{"qid": "20260213_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Arizona", "doc_ids": []}
+{"qid": "20260417_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "William Shakespeare", "doc_ids": []}
+{"qid": "20241004_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Tanzania", "doc_ids": []}
+{"qid": "20260508_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "PayPal", "doc_ids": []}
+{"qid": "20220819_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Kraft Singles", "doc_ids": []}
+{"qid": "20230224_29", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Sponge", "doc_ids": []}
+{"qid": "20260626_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Milton Friedman", "doc_ids": []}
+{"qid": "20260417_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not applicable.", "doc_ids": []}
+{"qid": "20240927_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Sri Lanka", "doc_ids": []}
+{"qid": "20251024_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Italy", "doc_ids": []}
+{"qid": "20221104_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Diwali", "doc_ids": []}
+{"qid": "20221202_20", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "David Miliband", "doc_ids": []}
+{"qid": "20260206_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Beijing National Stadium", "doc_ids": []}
+{"qid": "20260410_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"Avatar: The Way of Water\"", "doc_ids": []}
+{"qid": "20260522_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "white", "doc_ids": []}
+{"qid": "20250314_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Doping violations.", "doc_ids": []}
+{"qid": "20231208_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Jason Kokrak", "doc_ids": []}
+{"qid": "20260626_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Bill of Rights", "doc_ids": []}
+{"qid": "20220923_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Donald Trump", "doc_ids": []}
+{"qid": "20240920_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Los Angeles", "doc_ids": []}
+{"qid": "20220930_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Chess", "doc_ids": []}
+{"qid": "20221104_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Hillbilly Elegy", "doc_ids": []}
+{"qid": "20230331_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Kentucky", "doc_ids": []}
+{"qid": "20260417_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Scottie Scheffler", "doc_ids": []}
+{"qid": "20260619_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Joe Biden", "doc_ids": []}
+{"qid": "20260605_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Katy Perry", "doc_ids": []}
+{"qid": "20230630_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Tarantulas", "doc_ids": []}
+{"qid": "20230512_21", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "1.5 million", "doc_ids": []}
+{"qid": "20260403_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$4.00", "doc_ids": []}
+{"qid": "20220930_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Italy", "doc_ids": []}
+{"qid": "20221230_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Japan", "doc_ids": []}
+{"qid": "20230707_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The Edinburgh Festival.", "doc_ids": []}
+{"qid": "20220805_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Uhura", "doc_ids": []}
+{"qid": "20260605_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Unknown", "doc_ids": []}
+{"qid": "20250214_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Canned chili.", "doc_ids": []}
+{"qid": "20231215_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Arkansas", "doc_ids": []}
+{"qid": "20250613_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not available.", "doc_ids": []}
+{"qid": "20230519_22", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "62%", "doc_ids": []}
+{"qid": "20230428_20", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "100th anniversary", "doc_ids": []}
+{"qid": "20260619_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The making of \"Jaws.\"", "doc_ids": []}
+{"qid": "20241025_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Lululemon", "doc_ids": []}
+{"qid": "20260529_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Aryna Sabalenka", "doc_ids": []}
+{"qid": "20251212_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Northeast", "doc_ids": []}
+{"qid": "20220722_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "They got married.", "doc_ids": []}
+{"qid": "20221014_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Colorado", "doc_ids": []}
+{"qid": "20230317_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "March Madness", "doc_ids": []}
+{"qid": "20250328_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "A meteorite.", "doc_ids": []}
+{"qid": "20221007_25", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Wearing a \"White Lives Matter\" shirt.", "doc_ids": []}
+{"qid": "20260109_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "BYD", "doc_ids": []}
+{"qid": "20260501_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "New York", "doc_ids": []}
+{"qid": "20260619_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "61%", "doc_ids": []}
+{"qid": "20230804_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Disney+ subscriptions", "doc_ids": []}
+{"qid": "20220909_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Kellogg's", "doc_ids": []}
+{"qid": "20260508_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not provided.", "doc_ids": []}
+{"qid": "20220715_28", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "David Beckham", "doc_ids": []}
+{"qid": "20221216_27", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Jin", "doc_ids": []}
+{"qid": "20250516_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Sophie Turner", "doc_ids": []}
+{"qid": "20250718_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"Succession\"", "doc_ids": []}
+{"qid": "20250418_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"Airport Challenge\"", "doc_ids": []}
+{"qid": "20250411_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Woolly mammoth", "doc_ids": []}
+{"qid": "20240614_28", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "To provide education and resources for individuals impacted by the War on Drugs.", "doc_ids": []}
+{"qid": "20260220_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Trump Organization", "doc_ids": []}
+{"qid": "20220819_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Colorado River Basin", "doc_ids": []}
+{"qid": "20251128_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$1.99 per pound", "doc_ids": []}
+{"qid": "20260703_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "France", "doc_ids": []}
+{"qid": "20260327_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Austin", "doc_ids": []}
+{"qid": "20230127_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Severe storms", "doc_ids": []}
+{"qid": "20220909_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "a portrait unveiling", "doc_ids": []}
+{"qid": "20220722_27", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Ghana", "doc_ids": []}
+{"qid": "20260703_32", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "AOL", "doc_ids": []}
+{"qid": "20240308_28", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$2.3 million", "doc_ids": []}
+{"qid": "20220624_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Severe flooding.", "doc_ids": []}
+{"qid": "20221014_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Murder, She Wrote", "doc_ids": []}
+{"qid": "20220805_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Kansas", "doc_ids": []}
+{"qid": "20250620_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not available.", "doc_ids": []}
+{"qid": "20230224_28", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "She would not have supported same-sex marriage.", "doc_ids": []}
+{"qid": "20220826_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Federal student loans", "doc_ids": []}
+{"qid": "20221118_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Republican Party", "doc_ids": []}
+{"qid": "20250221_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Accept paid consultancy work.", "doc_ids": []}
+{"qid": "20260703_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Two terms", "doc_ids": []}
+{"qid": "20250425_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Women aged 30-34.", "doc_ids": []}
+{"qid": "20250502_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Sexual assault.", "doc_ids": []}
+{"qid": "20260417_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not specified.", "doc_ids": []}
+{"qid": "20260522_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The Bachelor", "doc_ids": []}
+{"qid": "20220715_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$1.50", "doc_ids": []}
+{"qid": "20250822_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"the deep state\"", "doc_ids": []}
+{"qid": "20260320_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Chicago", "doc_ids": []}
+{"qid": "20260619_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Michelin stars", "doc_ids": []}
+{"qid": "20231117_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Jimmy Kimmel", "doc_ids": []}
+{"qid": "20260501_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Gingerbread man", "doc_ids": []}
+{"qid": "20260703_28", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Stock Market Crash of 1929", "doc_ids": []}
+{"qid": "20251212_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "I cannot provide an answer as I do not have access to real-time information or events occurring after October 2023.", "doc_ids": []}
+{"qid": "20260123_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Greece", "doc_ids": []}
+{"qid": "20221209_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "51 Senate seats.", "doc_ids": []}
+{"qid": "20260306_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Iran", "doc_ids": []}
+{"qid": "20260605_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Iraq", "doc_ids": []}
+{"qid": "20260109_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not applicable.", "doc_ids": []}
+{"qid": "20260109_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Japan", "doc_ids": []}
+{"qid": "20240315_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "TikTok", "doc_ids": []}
+{"qid": "20220715_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "July 13, 2022", "doc_ids": []}
+{"qid": "20221230_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Twitter", "doc_ids": []}
+{"qid": "20241011_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Development.", "doc_ids": []}
+{"qid": "20260703_25", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "France", "doc_ids": []}
+{"qid": "20220624_25", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "25%", "doc_ids": []}
+{"qid": "20260220_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Utah", "doc_ids": []}
+{"qid": "20260529_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Fallen military personnel.", "doc_ids": []}
+{"qid": "20230707_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Ian Paisley", "doc_ids": []}
+{"qid": "20260619_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Eton College", "doc_ids": []}
+{"qid": "20251114_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "John F. Kennedy", "doc_ids": []}
+{"qid": "20250905_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "It is now 1,550 square kilometers.", "doc_ids": []}
+{"qid": "20250214_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Ursula von der Leyen", "doc_ids": []}
+{"qid": "20221125_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Student loans", "doc_ids": []}
+{"qid": "20220819_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Yosemite National Park", "doc_ids": []}
+{"qid": "20241101_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "A giant skeleton.", "doc_ids": []}
+{"qid": "20240524_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "John Legend", "doc_ids": []}
+{"qid": "20260403_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Federal employees", "doc_ids": []}
+{"qid": "20230721_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "A home in Las Vegas.", "doc_ids": []}
+{"qid": "20260612_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Dog", "doc_ids": []}
+{"qid": "20250207_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Sea lions", "doc_ids": []}
+{"qid": "20260123_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not available.", "doc_ids": []}
+{"qid": "20260306_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "No evidence documents provided.", "doc_ids": []}
+{"qid": "20241129_27", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "New York City", "doc_ids": []}
+{"qid": "20250711_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Iraq", "doc_ids": []}
+{"qid": "20260703_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"Out of many, one.\"", "doc_ids": []}
+{"qid": "20230331_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Elton John", "doc_ids": []}
+{"qid": "20260612_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "64 matches", "doc_ids": []}
+{"qid": "20260703_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Physical game discs", "doc_ids": []}
+{"qid": "20230714_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Military machines.", "doc_ids": []}
+{"qid": "20260123_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not available.", "doc_ids": []}
+{"qid": "20240503_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Jazz", "doc_ids": []}
+{"qid": "20250131_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "HMS Agincourt", "doc_ids": []}
+{"qid": "20220715_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Sri Lanka", "doc_ids": []}
+{"qid": "20260626_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Israel", "doc_ids": []}
+{"qid": "20260619_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Robin Hood", "doc_ids": []}
+{"qid": "20230421_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "a tornado warning", "doc_ids": []}
+{"qid": "20240510_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Met Gala", "doc_ids": []}
+{"qid": "20240906_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Kharkiv", "doc_ids": []}
+{"qid": "20250523_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "New Orleans", "doc_ids": []}
+{"qid": "20220701_28", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Bruce Springsteen and Dave Grohl", "doc_ids": []}
+{"qid": "20260116_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Mattel", "doc_ids": []}
+{"qid": "20251010_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Los Angeles County", "doc_ids": []}
+{"qid": "20230428_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "2001", "doc_ids": []}
+{"qid": "20240209_25", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Natural organic reduction", "doc_ids": []}
+{"qid": "20220909_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The Antarctic seafloor.", "doc_ids": []}
+{"qid": "20260529_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Bad Bunny", "doc_ids": []}
+{"qid": "20231013_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"Jimmy Savile: A British Horror Story\"", "doc_ids": []}
+{"qid": "20260206_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "4 times", "doc_ids": []}
+{"qid": "20260605_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Lars von Trier", "doc_ids": []}
+{"qid": "20241227_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$1.5 million", "doc_ids": []}
+{"qid": "20260619_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"Against the Tide\"", "doc_ids": []}
+{"qid": "20251107_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Rep. Elissa Slotkin", "doc_ids": []}
+{"qid": "20220715_20", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Kemi Badenoch", "doc_ids": []}
+{"qid": "20260320_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Brazil", "doc_ids": []}
+{"qid": "20260313_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "10 years old", "doc_ids": []}
+{"qid": "20220916_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Succession", "doc_ids": []}
+{"qid": "20260612_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Turkey", "doc_ids": []}
+{"qid": "20241108_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$1.5 million", "doc_ids": []}
+{"qid": "20250103_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "John du Pont", "doc_ids": []}
+{"qid": "20260123_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "California", "doc_ids": []}
+{"qid": "20240621_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Jaws", "doc_ids": []}
+{"qid": "20260626_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Beyonc\u00e9", "doc_ids": []}
+{"qid": "20250711_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Misconduct", "doc_ids": []}
+{"qid": "20250725_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Typhoon Doksuri", "doc_ids": []}
+{"qid": "20260522_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Tudor", "doc_ids": []}
+{"qid": "20260501_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Birmingham", "doc_ids": []}
+{"qid": "20241108_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"Deadpool 3\"", "doc_ids": []}
+{"qid": "20231222_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "91", "doc_ids": []}
+{"qid": "20230421_23", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "To highlight the role of AI in photography.", "doc_ids": []}
+{"qid": "20260605_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Marilyn Monroe", "doc_ids": []}
+{"qid": "20230317_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Silicon Valley Bank and Signature Bank", "doc_ids": []}
+{"qid": "20260410_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not specified.", "doc_ids": []}
+{"qid": "20250627_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "5.5 years", "doc_ids": []}
+{"qid": "20260327_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Lensa", "doc_ids": []}
+{"qid": "20230303_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Designated hitter rule", "doc_ids": []}
+{"qid": "20240329_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "India", "doc_ids": []}
+{"qid": "20260703_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "King George III", "doc_ids": []}
+{"qid": "20220826_27", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Robbie Gibb", "doc_ids": []}
+{"qid": "20260130_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Chicago", "doc_ids": []}
+{"qid": "20220715_22", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Somalia", "doc_ids": []}
+{"qid": "20260206_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Breaking", "doc_ids": []}
+{"qid": "20230519_21", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "CNN", "doc_ids": []}
+{"qid": "20220805_24", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "13 years", "doc_ids": []}
+{"qid": "20220708_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Theranos", "doc_ids": []}
+{"qid": "20260515_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Texas", "doc_ids": []}
+{"qid": "20260605_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "California", "doc_ids": []}
+{"qid": "20260320_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Leafy greens", "doc_ids": []}
+{"qid": "20240216_25", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The Green Room", "doc_ids": []}
+{"qid": "20240726_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The Iliad", "doc_ids": []}
+{"qid": "20250321_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The Imperial State Crown.", "doc_ids": []}
+{"qid": "20250905_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "the resignation of Secretary Xavier Becerra", "doc_ids": []}
+{"qid": "20260220_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "David Mountbatten-Windsor", "doc_ids": []}
+{"qid": "20260206_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Norway", "doc_ids": []}
+{"qid": "20231103_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "4", "doc_ids": []}
+{"qid": "20220624_28", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Moldova", "doc_ids": []}
+{"qid": "20260605_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The Beaufort Castle", "doc_ids": []}
+{"qid": "20260410_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The Handmaid's Tale", "doc_ids": []}
+{"qid": "20250613_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not available.", "doc_ids": []}
+{"qid": "20240607_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "MDMA", "doc_ids": []}
+{"qid": "20220805_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Sandy Hook shooting", "doc_ids": []}
+{"qid": "20220902_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The Moon.", "doc_ids": []}
+{"qid": "20231201_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"Go f*** themselves\"", "doc_ids": []}
+{"qid": "20250124_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Tornadoes", "doc_ids": []}
+{"qid": "20260403_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Canada", "doc_ids": []}
+{"qid": "20260213_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Kansas City Chiefs", "doc_ids": []}
+{"qid": "20220708_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Tyrannosaurus rex", "doc_ids": []}
+{"qid": "20260626_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "President", "doc_ids": []}
+{"qid": "20221223_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The Bahamas", "doc_ids": []}
+{"qid": "20260410_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Seoul", "doc_ids": []}
+{"qid": "20260320_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Staffing shortages.", "doc_ids": []}
+{"qid": "20260529_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Lacrosse", "doc_ids": []}
+{"qid": "20220722_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Baby formula", "doc_ids": []}
+{"qid": "20260703_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "France", "doc_ids": []}
+{"qid": "20260619_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "North Korea", "doc_ids": []}
+{"qid": "20231103_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Friends", "doc_ids": []}
+{"qid": "20250606_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "National security concerns.", "doc_ids": []}
+{"qid": "20260522_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Leonardo da Vinci", "doc_ids": []}
+{"qid": "20240607_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Mount Sinai", "doc_ids": []}
+{"qid": "20231215_26", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "113 million", "doc_ids": []}
+{"qid": "20260424_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Lord Byron", "doc_ids": []}
+{"qid": "20260605_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Washington Monument", "doc_ids": []}
+{"qid": "20230106_29", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Wind power", "doc_ids": []}
+{"qid": "20260626_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Supreme Court", "doc_ids": []}
+{"qid": "20260410_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$3,200", "doc_ids": []}
+{"qid": "20230922_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Alligator", "doc_ids": []}
+{"qid": "20220819_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Another World", "doc_ids": []}
+{"qid": "20230901_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "November 5, 2023", "doc_ids": []}
+{"qid": "20260306_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Colombia", "doc_ids": []}
+{"qid": "20221202_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "2000", "doc_ids": []}
+{"qid": "20240913_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Darth Vader", "doc_ids": []}
+{"qid": "20250307_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Georgia", "doc_ids": []}
+{"qid": "20260522_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Texas State Fair", "doc_ids": []}
+{"qid": "20260320_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Aurora Borealis", "doc_ids": []}
+{"qid": "20230317_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Apple TV+", "doc_ids": []}
+{"qid": "20220916_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Lock Screen customization", "doc_ids": []}
+{"qid": "20250131_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "New York Mets", "doc_ids": []}
+{"qid": "20220902_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Kennedy Space Center", "doc_ids": []}
+{"qid": "20260123_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Concorde", "doc_ids": []}
+{"qid": "20240510_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "China", "doc_ids": []}
+{"qid": "20221111_21", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "David Beckham", "doc_ids": []}
+{"qid": "20250711_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "X Party", "doc_ids": []}
+{"qid": "20260522_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Los Angeles", "doc_ids": []}
+{"qid": "20250509_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "blenders", "doc_ids": []}
+{"qid": "20260327_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Jimmy Fallon", "doc_ids": []}
+{"qid": "20240802_24", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "To protect its financial interests.", "doc_ids": []}
+{"qid": "20260522_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Poland", "doc_ids": []}
+{"qid": "20260515_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "MetLife Stadium", "doc_ids": []}
+{"qid": "20240308_23", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$15,000", "doc_ids": []}
+{"qid": "20240315_22", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "To reduce invasive species and improve habitat.", "doc_ids": []}
+{"qid": "20260501_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The group was not specified in the provided information.", "doc_ids": []}
+{"qid": "20240726_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "78,000 miles", "doc_ids": []}
+{"qid": "20260703_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Francis Scott Key", "doc_ids": []}
+{"qid": "20260213_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Italy", "doc_ids": []}
+{"qid": "20220902_25", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Vladimir Putin", "doc_ids": []}
+{"qid": "20260320_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Severe winter weather", "doc_ids": []}
+{"qid": "20260529_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "California and New York", "doc_ids": []}
+{"qid": "20231110_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Italy", "doc_ids": []}
+{"qid": "20260529_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Shell", "doc_ids": []}
+{"qid": "20260501_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$200 billion", "doc_ids": []}
+{"qid": "20250627_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Al Nassr", "doc_ids": []}
+{"qid": "20230324_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Los Angeles", "doc_ids": []}
+{"qid": "20260529_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Thailand", "doc_ids": []}
+{"qid": "20230818_25", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Early childhood education.", "doc_ids": []}
+{"qid": "20230428_22", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Bourbon", "doc_ids": []}
+{"qid": "20251219_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "CNN", "doc_ids": []}
+{"qid": "20221118_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Moon", "doc_ids": []}
+{"qid": "20260206_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Boxing", "doc_ids": []}
+{"qid": "20260703_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Philadelphia", "doc_ids": []}
+{"qid": "20220812_21", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Domino's Pizza", "doc_ids": []}
+{"qid": "20260410_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Vampyroteuthis infernalis", "doc_ids": []}
+{"qid": "20260213_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Nicotine", "doc_ids": []}
+{"qid": "20260116_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Chocolate milk", "doc_ids": []}
+{"qid": "20250411_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "David Beckham", "doc_ids": []}
+{"qid": "20220708_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Sri Lanka", "doc_ids": []}
+{"qid": "20230324_27", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Five times.", "doc_ids": []}
+{"qid": "20220819_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "By mid-September.", "doc_ids": []}
+{"qid": "20260327_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "AI-powered robotic assistant", "doc_ids": []}
+{"qid": "20260403_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not available.", "doc_ids": []}
+{"qid": "20240223_29", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "TravisMathew", "doc_ids": []}
+{"qid": "20251031_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "United Auto Workers", "doc_ids": []}
+{"qid": "20260612_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Beyonc\u00e9", "doc_ids": []}
+{"qid": "20260417_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Cuba", "doc_ids": []}
+{"qid": "20260417_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Coachella", "doc_ids": []}
+{"qid": "20220715_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$10 billion", "doc_ids": []}
+{"qid": "20251212_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Visitor overcrowding.", "doc_ids": []}
+{"qid": "20230915_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "25%", "doc_ids": []}
+{"qid": "20260515_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Shakira, Dua Lipa, and J Balvin", "doc_ids": []}
+{"qid": "20220805_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Juan Soto", "doc_ids": []}
+{"qid": "20251226_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Japan", "doc_ids": []}
+{"qid": "20220729_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Yosemite National Park", "doc_ids": []}
+{"qid": "20220902_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Approximately 67%", "doc_ids": []}
+{"qid": "20230811_29", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Financial difficulties.", "doc_ids": []}
+{"qid": "20230825_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Johannesburg", "doc_ids": []}
+{"qid": "20230224_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Mobile, Alabama", "doc_ids": []}
+{"qid": "20250822_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Residents are feeling anxious.", "doc_ids": []}
+{"qid": "20250228_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Maha Shivaratri", "doc_ids": []}
+{"qid": "20231215_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Israel-Hamas War", "doc_ids": []}
+{"qid": "20260703_31", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Challenger", "doc_ids": []}
+{"qid": "20260403_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Beijing", "doc_ids": []}
+{"qid": "20231117_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Steve Barclay", "doc_ids": []}
+{"qid": "20231117_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "U.S. House of Representatives", "doc_ids": []}
+{"qid": "20220624_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Kevin Spacey", "doc_ids": []}
+{"qid": "20241206_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Wrapped summary", "doc_ids": []}
+{"qid": "20221202_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "French President Emmanuel Macron", "doc_ids": []}
+{"qid": "20260703_26", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The phonograph.", "doc_ids": []}
+{"qid": "20260320_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Everything Everywhere All at Once", "doc_ids": []}
+{"qid": "20260213_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Nova Scotia", "doc_ids": []}
+{"qid": "20260529_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Europe", "doc_ids": []}
+{"qid": "20240419_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Los Angeles", "doc_ids": []}
+{"qid": "20230224_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "iPhone", "doc_ids": []}
+{"qid": "20260424_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "El Salvador", "doc_ids": []}
+{"qid": "20240628_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Southwest Airlines", "doc_ids": []}
+{"qid": "20260410_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "NBC", "doc_ids": []}
+{"qid": "20250725_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "8,000 steps", "doc_ids": []}
+{"qid": "20260612_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"Death of a Salesman\"", "doc_ids": []}
+{"qid": "20250704_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Francis Scott Key", "doc_ids": []}
+{"qid": "20250509_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Joe Biden", "doc_ids": []}
+{"qid": "20260327_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "LaGuardia Airport", "doc_ids": []}
+{"qid": "20260130_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Mexico", "doc_ids": []}
+{"qid": "20260508_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Norovirus", "doc_ids": []}
+{"qid": "20241206_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Frozen II", "doc_ids": []}
+{"qid": "20220909_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Apple Watch Series 8", "doc_ids": []}
+{"qid": "20240510_23", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "It was euthanized.", "doc_ids": []}
+{"qid": "20250509_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Signal", "doc_ids": []}
+{"qid": "20221230_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$4.00 per gallon", "doc_ids": []}
+{"qid": "20260626_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Marta", "doc_ids": []}
+{"qid": "20221021_29", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Dan Walker", "doc_ids": []}
+{"qid": "20250124_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Taiwan", "doc_ids": []}
+{"qid": "20260130_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "France", "doc_ids": []}
+{"qid": "20260626_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The original 13 colonies.", "doc_ids": []}
+{"qid": "20250704_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Hawaii", "doc_ids": []}
+{"qid": "20230106_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$500", "doc_ids": []}
+{"qid": "20250704_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "France", "doc_ids": []}
+{"qid": "20221216_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Richmond", "doc_ids": []}
+{"qid": "20230602_28", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Mars Bar", "doc_ids": []}
+{"qid": "20230929_27", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "A shooting.", "doc_ids": []}
+{"qid": "20260619_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Ruby Tuesday", "doc_ids": []}
+{"qid": "20260703_24", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "One week.", "doc_ids": []}
+{"qid": "20260123_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "No information available.", "doc_ids": []}
+{"qid": "20260605_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "PBS NewsHour", "doc_ids": []}
+{"qid": "20250221_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Dallas", "doc_ids": []}
+{"qid": "20220916_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Kharkiv", "doc_ids": []}
+{"qid": "20260206_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Cross-country skiing", "doc_ids": []}
+{"qid": "20260320_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Social Security Administration", "doc_ids": []}
+{"qid": "20231117_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Deepavali", "doc_ids": []}
+{"qid": "20240913_21", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "First openly transgender member of Congress.", "doc_ids": []}
+{"qid": "20260130_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Microsoft", "doc_ids": []}
+{"qid": "20260703_27", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Nineteenth Amendment", "doc_ids": []}
+{"qid": "20230217_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "True", "doc_ids": []}
+{"qid": "20231027_28", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "To seek warmth.", "doc_ids": []}
+{"qid": "20220701_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "prayed on the field after games.", "doc_ids": []}
+{"qid": "20260403_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Leafy greens", "doc_ids": []}
+{"qid": "20260306_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "NASCAR Cup Series race", "doc_ids": []}
+{"qid": "20230217_25", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Josh Cavallo", "doc_ids": []}
+{"qid": "20240823_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Ariana Grande and Dalton Gomez", "doc_ids": []}
+{"qid": "20250530_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Yair Lapid", "doc_ids": []}
+{"qid": "20221104_27", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Energy shortages", "doc_ids": []}
+{"qid": "20250801_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "South Korea", "doc_ids": []}
+{"qid": "20221223_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Seven days.", "doc_ids": []}
+{"qid": "20231103_26", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Wally is a 10-year-old boy who attended the game to fulfill his wish through the Make-A-Wish Foundation.", "doc_ids": []}
+{"qid": "20260424_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$600 million", "doc_ids": []}
+{"qid": "20260109_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "3 years", "doc_ids": []}
+{"qid": "20250117_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Eggs", "doc_ids": []}
+{"qid": "20230317_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Oregon", "doc_ids": []}
+{"qid": "20221104_29", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Joe Biden", "doc_ids": []}
+{"qid": "20220701_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Alligator", "doc_ids": []}
+{"qid": "20260515_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The White House", "doc_ids": []}
+{"qid": "20221118_21", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Mariah Carey", "doc_ids": []}
+{"qid": "20260109_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not provided.", "doc_ids": []}
+{"qid": "20220805_23", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Alina Kabaeva", "doc_ids": []}
+{"qid": "20240621_21", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Eastern Copperhead", "doc_ids": []}
+{"qid": "20240322_28", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$7.5 million", "doc_ids": []}
+{"qid": "20250711_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Turkey", "doc_ids": []}
+{"qid": "20250627_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "N/A", "doc_ids": []}
+{"qid": "20250314_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Burning a letter.", "doc_ids": []}
+{"qid": "20240802_21", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "ChristianaCare Wilmington Hospital", "doc_ids": []}
+{"qid": "20260410_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Michael K. Williams", "doc_ids": []}
+{"qid": "20260612_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Cologne", "doc_ids": []}
+{"qid": "20230310_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "5 times", "doc_ids": []}
+{"qid": "20260313_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Wings", "doc_ids": []}
+{"qid": "20240531_20", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Illegal possession of a firearm.", "doc_ids": []}
+{"qid": "20260619_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Denver Nuggets", "doc_ids": []}
+{"qid": "20240510_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "R\u00f3mulo Roux", "doc_ids": []}
+{"qid": "20260220_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Mark Zuckerberg", "doc_ids": []}
+{"qid": "20260626_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Thomas Jefferson", "doc_ids": []}
+{"qid": "20260605_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Colombia", "doc_ids": []}
+{"qid": "20220819_27", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Helmet use", "doc_ids": []}
+{"qid": "20260116_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "California and New York.", "doc_ids": []}
+{"qid": "20260612_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "56%", "doc_ids": []}
+{"qid": "20240531_23", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Cape Henlopen High School", "doc_ids": []}
+{"qid": "20260515_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The Forbidden City", "doc_ids": []}
+{"qid": "20230908_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Texas", "doc_ids": []}
+{"qid": "20230224_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Tom Brady", "doc_ids": []}
+{"qid": "20220923_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"The pandemic is over.\"", "doc_ids": []}
+{"qid": "20230127_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Lindsey Vonn", "doc_ids": []}
+{"qid": "20260619_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "80", "doc_ids": []}
+{"qid": "20250411_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Wagner Group", "doc_ids": []}
+{"qid": "20231013_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Will Hurd", "doc_ids": []}
+{"qid": "20240906_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Hotels", "doc_ids": []}
+{"qid": "20260109_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Los Angeles", "doc_ids": []}
+{"qid": "20220902_20", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Jimmy Carter", "doc_ids": []}
+{"qid": "20240719_29", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Asheville and Charleston.", "doc_ids": []}
+{"qid": "20250314_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "unmarried", "doc_ids": []}
+{"qid": "20260410_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "20%", "doc_ids": []}
+{"qid": "20260306_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Type 2 diabetes", "doc_ids": []}
+{"qid": "20240816_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Organic molecules", "doc_ids": []}
+{"qid": "20260605_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Chicago", "doc_ids": []}
+{"qid": "20221021_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "United Kingdom", "doc_ids": []}
+{"qid": "20260703_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The crack.", "doc_ids": []}
+{"qid": "20250516_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "T-shirts", "doc_ids": []}
+{"qid": "20230224_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Zero", "doc_ids": []}
+{"qid": "20240419_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Notre-Dame Cathedral", "doc_ids": []}
+{"qid": "20230203_20", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Sea turtle", "doc_ids": []}
+{"qid": "20221104_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Dodgers", "doc_ids": []}
+{"qid": "20260424_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Michael Cohen", "doc_ids": []}
+{"qid": "20260501_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "North Carolina", "doc_ids": []}
+{"qid": "20230407_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Russia", "doc_ids": []}
+{"qid": "20250404_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "10 hours.", "doc_ids": []}
+{"qid": "20250815_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Health insurance", "doc_ids": []}
+{"qid": "20260116_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Golden Globe Awards", "doc_ids": []}
+{"qid": "20260227_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Mexico", "doc_ids": []}
+{"qid": "20220708_20", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "59", "doc_ids": []}
+{"qid": "20260508_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Dolphins", "doc_ids": []}
+{"qid": "20260213_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "New York City", "doc_ids": []}
+{"qid": "20220930_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Rising energy prices", "doc_ids": []}
+{"qid": "20260529_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Luce", "doc_ids": []}
+{"qid": "20240524_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Howard University", "doc_ids": []}
+{"qid": "20260206_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Quad God", "doc_ids": []}
+{"qid": "20240223_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Arizona", "doc_ids": []}
+{"qid": "20251205_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Winter storm", "doc_ids": []}
+{"qid": "20220930_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$1.50", "doc_ids": []}
+{"qid": "20240705_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Kenya", "doc_ids": []}
+{"qid": "20260313_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "40 minutes", "doc_ids": []}
+{"qid": "20240823_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Antony Blinken", "doc_ids": []}
+{"qid": "20230901_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Simone Biles", "doc_ids": []}
+{"qid": "20250815_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"American Morning\"", "doc_ids": []}
+{"qid": "20231027_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "About 50%", "doc_ids": []}
+{"qid": "20220826_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "16 years old.", "doc_ids": []}
+{"qid": "20241213_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Epic Games", "doc_ids": []}
+{"qid": "20260508_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Airline not specified.", "doc_ids": []}
+{"qid": "20260619_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Sushi", "doc_ids": []}
+{"qid": "20260522_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Coney Island", "doc_ids": []}
+{"qid": "20220715_25", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "A bill to raise the retirement age.", "doc_ids": []}
+{"qid": "20230428_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Conjunctivitis", "doc_ids": []}
+{"qid": "20260417_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "10 days", "doc_ids": []}
+{"qid": "20260227_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Snowstorm", "doc_ids": []}
+{"qid": "20260703_34", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Semiquincentennial", "doc_ids": []}
+{"qid": "20260227_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Child Tax Credit", "doc_ids": []}
+{"qid": "20250509_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Hamilton", "doc_ids": []}
+{"qid": "20260227_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "3 years", "doc_ids": []}
+{"qid": "20260501_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Apple and Epic Games", "doc_ids": []}
+{"qid": "20221125_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "77 inches", "doc_ids": []}
+{"qid": "20241101_25", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Black cat", "doc_ids": []}
+{"qid": "20250711_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "McLaren", "doc_ids": []}
+{"qid": "20220819_22", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Will Smith", "doc_ids": []}
+{"qid": "20250404_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Nintendo Switch 2", "doc_ids": []}
+{"qid": "20231117_29", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "A storm damaged the original tree.", "doc_ids": []}
+{"qid": "20260417_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "12 years", "doc_ids": []}
+{"qid": "20240105_29", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "$1.5 million", "doc_ids": []}
+{"qid": "20250221_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "7.1%", "doc_ids": []}
+{"qid": "20230120_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "California and Florida.", "doc_ids": []}
+{"qid": "20260522_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Death Valley", "doc_ids": []}
+{"qid": "20240105_25", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Princeton 81, Delaware 70", "doc_ids": []}
+{"qid": "20250905_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not available.", "doc_ids": []}
+{"qid": "20260612_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Larry Elder", "doc_ids": []}
+{"qid": "20260417_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Minnesota", "doc_ids": []}
+{"qid": "20240524_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Air Canada", "doc_ids": []}
+{"qid": "20240517_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Greece", "doc_ids": []}
+{"qid": "20240301_27", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The death of a student.", "doc_ids": []}
+{"qid": "20260501_19", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "United Airlines", "doc_ids": []}
+{"qid": "20260424_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Slovakia", "doc_ids": []}
+{"qid": "20240223_22", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "To improve educational outcomes for students in Wilmington.", "doc_ids": []}
+{"qid": "20260626_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "House of Representatives, Senate", "doc_ids": []}
+{"qid": "20240209_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Category 5", "doc_ids": []}
+{"qid": "20260605_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Access terminals.", "doc_ids": []}
+{"qid": "20260626_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "27", "doc_ids": []}
+{"qid": "20230811_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Dine and dash", "doc_ids": []}
+{"qid": "20260417_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Banksy", "doc_ids": []}
+{"qid": "20260626_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Greece", "doc_ids": []}
+{"qid": "20240426_20", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not provided.", "doc_ids": []}
+{"qid": "20240510_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Chimpanzee", "doc_ids": []}
+{"qid": "20240906_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Sonia Sotomayor", "doc_ids": []}
+{"qid": "20260508_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The Battle of Puebla.", "doc_ids": []}
+{"qid": "20260605_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "A Quiet Place Part II", "doc_ids": []}
+{"qid": "20220701_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Three", "doc_ids": []}
+{"qid": "20230224_6", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Severe winter storm", "doc_ids": []}
+{"qid": "20240614_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Healthcare facilities.", "doc_ids": []}
+{"qid": "20240816_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "University of California, Berkeley", "doc_ids": []}
+{"qid": "20240301_22", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Delaware Museum of Natural History", "doc_ids": []}
+{"qid": "20221118_20", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "United Arab Emirates", "doc_ids": []}
+{"qid": "20260116_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Dilbert", "doc_ids": []}
+{"qid": "20240503_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Fox News", "doc_ids": []}
+{"qid": "20220916_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Age 45", "doc_ids": []}
+{"qid": "20240809_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not yet announced.", "doc_ids": []}
+{"qid": "20260515_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Germany", "doc_ids": []}
+{"qid": "20241108_20", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "January 20, 2025", "doc_ids": []}
+{"qid": "20220819_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Raksha Bandhan", "doc_ids": []}
+{"qid": "20250801_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Germany", "doc_ids": []}
+{"qid": "20250718_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Snoopy", "doc_ids": []}
+{"qid": "20260130_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Donald Trump Jr.", "doc_ids": []}
+{"qid": "20250314_1", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "United Airlines", "doc_ids": []}
+{"qid": "20220902_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Edit button", "doc_ids": []}
+{"qid": "20260522_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "92%", "doc_ids": []}
+{"qid": "20221007_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "California", "doc_ids": []}
+{"qid": "20230331_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Starbucks", "doc_ids": []}
+{"qid": "20260626_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "July 4, 1776", "doc_ids": []}
+{"qid": "20260529_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Eid al-Fitr", "doc_ids": []}
+{"qid": "20260703_20", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Bison", "doc_ids": []}
+{"qid": "20260619_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Arlene", "doc_ids": []}
+{"qid": "20240726_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "1900", "doc_ids": []}
+{"qid": "20260612_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Virginia", "doc_ids": []}
+{"qid": "20260123_8", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Australia", "doc_ids": []}
+{"qid": "20230120_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "118 years old.", "doc_ids": []}
+{"qid": "20240209_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Valentine's Day", "doc_ids": []}
+{"qid": "20260501_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "U.S. currency", "doc_ids": []}
+{"qid": "20240906_27", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "2025", "doc_ids": []}
+{"qid": "20250328_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"disgraceful\"", "doc_ids": []}
+{"qid": "20221202_11", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "1984", "doc_ids": []}
+{"qid": "20250110_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Meta", "doc_ids": []}
+{"qid": "20240412_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Alaska Airlines", "doc_ids": []}
+{"qid": "20260508_2", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Tennessee Williams", "doc_ids": []}
+{"qid": "20260327_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Customs and Border Protection agents.", "doc_ids": []}
+{"qid": "20260522_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "The Ellen DeGeneres Show", "doc_ids": []}
+{"qid": "20240913_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Damar Hamlin", "doc_ids": []}
+{"qid": "20260227_9", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Australia", "doc_ids": []}
+{"qid": "20260417_17", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not available.", "doc_ids": []}
+{"qid": "20250815_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Helsinki, Finland", "doc_ids": []}
+{"qid": "20231208_23", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Dogfish Head Craft Brewery, 16 Mile Brewing Company", "doc_ids": []}
+{"qid": "20230421_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Fox News", "doc_ids": []}
+{"qid": "20260410_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Not provided.", "doc_ids": []}
+{"qid": "20250307_16", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "China, Canada, Mexico, EU.", "doc_ids": []}
+{"qid": "20260313_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"The Silence of the Lambs\"", "doc_ids": []}
+{"qid": "20230609_21", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Vision Pro", "doc_ids": []}
+{"qid": "20260529_18", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Rolls-Royce", "doc_ids": []}
+{"qid": "20241213_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Bridgit Mendler", "doc_ids": []}
+{"qid": "20260612_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Bill Gates", "doc_ids": []}
+{"qid": "20260417_5", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Australia", "doc_ids": []}
+{"qid": "20260703_0", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Emma Raducanu", "doc_ids": []}
+{"qid": "20230901_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "A new Wawa.", "doc_ids": []}
+{"qid": "20260206_14", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Medals not specified in the provided documents.", "doc_ids": []}
+{"qid": "20241129_7", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Pasta Hut", "doc_ids": []}
+{"qid": "20260612_12", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Ulm Minster", "doc_ids": []}
+{"qid": "20231020_25", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "November 5, 2023", "doc_ids": []}
+{"qid": "20260116_4", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Myanmar", "doc_ids": []}
+{"qid": "20250214_10", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Penny", "doc_ids": []}
+{"qid": "20250523_15", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "\"Jagged Little Pill\"", "doc_ids": []}
+{"qid": "20260612_13", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Alaska Airlines", "doc_ids": []}
+{"qid": "20251003_3", "condition": "closed_book", "model": "gpt-4o-mini", "prediction": "Chimpanzees", "doc_ids": []}

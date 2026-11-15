@@ -1,0 +1,10 @@
+{
+  "resumed_from_existing": 0,
+  "pilot_contexts": 50,
+  "seconds_per_context": 0.0442,
+  "estimated_hours_for_remaining": 0.053,
+  "max_hours": 2.0,
+  "mode": "full: every context of the stored sample relabelled",
+  "labelling_seconds": 94.5,
+  "n_contexts_labelled_600": 4390
+}

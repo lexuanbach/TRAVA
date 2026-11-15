@@ -1,0 +1,112 @@
+{
+  "scope": "Precision of the automatic `grounded_outdated` label against manual adjudication, and the corrected failure-level rate.",
+  "audited": {
+    "n": 90,
+    "counts": {
+      "echo": 41,
+      "superseded": 30,
+      "type_error": 10,
+      "non_answer": 9
+    }
+  },
+  "precision_of_automatic_label": {
+    "definition": "share of automatically-labelled grounded_outdated items that are genuinely superseded facts",
+    "point": 0.3333,
+    "wilson95": [
+      0.2445,
+      0.4358
+    ],
+    "k": 30,
+    "n": 90
+  },
+  "per_model_audit": {
+    "qwen3b": {
+      "echo": 16,
+      "type_error": 7,
+      "superseded": 8,
+      "non_answer": 2
+    },
+    "qwen32b": {
+      "superseded": 8,
+      "echo": 15,
+      "non_answer": 2,
+      "type_error": 2
+    },
+    "mistral_large": {
+      "superseded": 14,
+      "echo": 10,
+      "non_answer": 5,
+      "type_error": 1
+    }
+  },
+  "per_model_precision": {
+    "qwen3b": {
+      "k": 8,
+      "n": 33,
+      "point": 0.2424,
+      "wilson95": [
+        0.1283,
+        0.4102
+      ]
+    },
+    "qwen32b": {
+      "k": 8,
+      "n": 27,
+      "point": 0.2963,
+      "wilson95": [
+        0.1585,
+        0.4848
+      ]
+    },
+    "mistral_large": {
+      "k": 14,
+      "n": 30,
+      "point": 0.4667,
+      "wilson95": [
+        0.3023,
+        0.6386
+      ]
+    }
+  },
+  "corrected_rates": {
+    "qwen32b": {
+      "name": "Qwen2.5-32B",
+      "n_stale_failures": 140,
+      "automatic_grounded_outdated_pct": 53.6,
+      "precision_source": "own audit",
+      "precision_used": 0.2963,
+      "corrected_superseded_pct": 15.9,
+      "corrected_ci95_pct": [
+        8.5,
+        26.0
+      ]
+    },
+    "qwen3b": {
+      "name": "Qwen2.5-3B",
+      "n_stale_failures": 143,
+      "automatic_grounded_outdated_pct": 56.6,
+      "precision_source": "own audit",
+      "precision_used": 0.2424,
+      "corrected_superseded_pct": 13.7,
+      "corrected_ci95_pct": [
+        7.3,
+        23.2
+      ]
+    },
+    "mistral_large": {
+      "name": "Mistral-Large-2",
+      "n_stale_failures": 137,
+      "automatic_grounded_outdated_pct": 37.2,
+      "precision_source": "own audit",
+      "precision_used": 0.4667,
+      "corrected_superseded_pct": 17.4,
+      "corrected_ci95_pct": [
+        11.2,
+        23.8
+      ]
+    }
+  },
+  "precision_varies_by_generator": "The automatic label's precision is NOT constant across generators: it is 47% on mistral_large, 30% on qwen32b, 24% on qwen3b. The echo failure mode -- an answer lifted from stale news that was never correct -- is concentrated in the smaller models; when the 123B produces a grounded-looking wrong answer it is far more often a genuinely superseded fact. Correcting every generator by one pooled precision would therefore have been wrong, and we use each generator's own audited precision where one exists.",
+  "finding": "The automatic label is right about 30 of 90 sampled items (33%, 95% Wilson [24%, 44%]). The dominant error is what we call an ECHO: an answer pulled from the stale context that was never a correct answer to the question at any time (41 of 90), plus outright type errors (10) and non-answers (9). Correcting the automatic counts by this precision, faithful reporting of a superseded fact accounts for roughly 13.7-15.9-17.4% of stale-index failures, not the 37.2-53.6-56.6% the unaudited rule reports.",
+  "implication": "Both modes are dangerous and both are grounded in the retrieved text, but they call for different mitigations. A faithfully-read superseded fact is a freshness problem: the fix is recency-aware retrieval or date-conditioned generation. An echo is a grounding and calibration problem: the evidence does not support the answer at all, and the fix is abstention or answer-verification. Reporting them as one number, as the unaudited taxonomy did, points at the wrong fix for the majority of failures."
+}

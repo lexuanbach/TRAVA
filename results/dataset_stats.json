@@ -1,0 +1,26 @@
+{
+  "n_questions": 878,
+  "by_split": {
+    "note": "the 'split' field in questions.jsonl encodes the 2026 CALENDAR boundary; all results use the 2025 boundary",
+    "calendar_2026": {
+      "static": 532,
+      "fresh": 346
+    },
+    "boundary_2025": {
+      "static": 404,
+      "fresh": 474
+    }
+  },
+  "by_year": {
+    "2022": 150,
+    "2023": 131,
+    "2024": 123,
+    "2025": 128,
+    "2026": 346
+  },
+  "corpus_docs": 6692,
+  "avg_gold_docs_per_q": 8.13,
+  "knowledge_cutoff": "n/a -- see boundary",
+  "boundary": "2025-01-01 (shared)",
+  "corpus_docs_full": 26611
+}

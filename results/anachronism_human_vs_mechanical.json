@@ -1,0 +1,13 @@
+{
+  "scope": "human ANACHRONISTIC majority against the mechanical publication-date rule",
+  "n": 871,
+  "agreement": 0.9897,
+  "cohens_kappa": 0.9485,
+  "confusion": {
+    "human_yes_mech_yes": 94,
+    "human_yes_mech_no": 6,
+    "human_no_mech_yes": 3,
+    "both_no": 768
+  },
+  "reading": "This is the corroboration the paper needs: human-human reliability on the label says the construct is codable, not that humans agree with the mechanical audit. This compares the two directly."
+}

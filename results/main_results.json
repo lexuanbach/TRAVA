@@ -1,0 +1,432 @@
+{
+  "metric": "token_f1 / em / answer_coverage (%)",
+  "generator": "Qwen2.5-32B",
+  "effective_cutoff": "2025-01 (common Static/Fresh boundary; see boundary_sweep.json)",
+  "split_rule": "static = question_date < 2025-01; fresh = >= 2025-01",
+  "rows": [
+    {
+      "static": {
+        "n": 404,
+        "f1": 30.12,
+        "f1_ci95": [
+          25.95,
+          34.01
+        ],
+        "em": 22.03,
+        "answer_coverage": null,
+        "abstain_rate": 0.2,
+        "answered_f1": 30.19,
+        "n_answered": 403
+      },
+      "fresh": {
+        "n": 474,
+        "f1": 25.19,
+        "f1_ci95": [
+          21.68,
+          28.79
+        ],
+        "em": 19.41,
+        "answer_coverage": null,
+        "abstain_rate": 3.6,
+        "answered_f1": 26.08,
+        "n_answered": 457
+      },
+      "all": {
+        "n": 878,
+        "f1": 27.46,
+        "f1_ci95": [
+          24.81,
+          29.93
+        ],
+        "em": 20.62,
+        "answer_coverage": null,
+        "abstain_rate": 2.1,
+        "answered_f1": 28.01,
+        "n_answered": 860
+      },
+      "static_minus_fresh": {
+        "diff_f1": 4.93,
+        "ci95": [
+          -0.82,
+          10.14
+        ],
+        "one_sided_p": 0.049,
+        "cohens_d": 0.12,
+        "test": "unpaired two-sample bootstrap (Static/Fresh are disjoint sets)"
+      },
+      "delta_fresh_minus_static_f1": -4.93,
+      "condition": "closed_book"
+    },
+    {
+      "static": {
+        "n": 404,
+        "f1": 36.29,
+        "f1_ci95": [
+          32.17,
+          40.68
+        ],
+        "em": 28.47,
+        "answer_coverage": 23.51,
+        "abstain_rate": 16.6,
+        "answered_f1": 43.25,
+        "n_answered": 337
+      },
+      "fresh": {
+        "n": 474,
+        "f1": 35.77,
+        "f1_ci95": [
+          31.91,
+          39.79
+        ],
+        "em": 28.27,
+        "answer_coverage": 25.4,
+        "abstain_rate": 8.6,
+        "answered_f1": 39.03,
+        "n_answered": 433
+      },
+      "all": {
+        "n": 878,
+        "f1": 36.01,
+        "f1_ci95": [
+          32.78,
+          38.89
+        ],
+        "em": 28.36,
+        "answer_coverage": 24.53,
+        "abstain_rate": 12.3,
+        "answered_f1": 40.87,
+        "n_answered": 770
+      },
+      "static_minus_fresh": {
+        "diff_f1": 0.52,
+        "ci95": [
+          -5.38,
+          5.95
+        ],
+        "one_sided_p": 0.423,
+        "cohens_d": 0.012,
+        "test": "unpaired two-sample bootstrap (Static/Fresh are disjoint sets)"
+      },
+      "delta_fresh_minus_static_f1": -0.52,
+      "condition": "bm25"
+    },
+    {
+      "static": {
+        "n": 404,
+        "f1": 34.74,
+        "f1_ci95": [
+          30.55,
+          38.92
+        ],
+        "em": 27.72,
+        "answer_coverage": 22.18,
+        "abstain_rate": 17.3,
+        "answered_f1": 41.76,
+        "n_answered": 334
+      },
+      "fresh": {
+        "n": 474,
+        "f1": 34.03,
+        "f1_ci95": [
+          29.94,
+          38.15
+        ],
+        "em": 26.37,
+        "answer_coverage": 24.39,
+        "abstain_rate": 8.9,
+        "answered_f1": 37.19,
+        "n_answered": 432
+      },
+      "all": {
+        "n": 878,
+        "f1": 34.36,
+        "f1_ci95": [
+          31.33,
+          37.14
+        ],
+        "em": 26.99,
+        "answer_coverage": 23.37,
+        "abstain_rate": 12.8,
+        "answered_f1": 39.18,
+        "n_answered": 766
+      },
+      "static_minus_fresh": {
+        "diff_f1": 0.71,
+        "ci95": [
+          -4.92,
+          6.43
+        ],
+        "one_sided_p": 0.385,
+        "cohens_d": 0.016,
+        "test": "unpaired two-sample bootstrap (Static/Fresh are disjoint sets)"
+      },
+      "delta_fresh_minus_static_f1": -0.71,
+      "condition": "dpr"
+    },
+    {
+      "static": {
+        "n": 404,
+        "f1": 38.01,
+        "f1_ci95": [
+          34.09,
+          42.2
+        ],
+        "em": 28.96,
+        "answer_coverage": 22.87,
+        "abstain_rate": 12.4,
+        "answered_f1": 43.27,
+        "n_answered": 354
+      },
+      "fresh": {
+        "n": 474,
+        "f1": 38.02,
+        "f1_ci95": [
+          34.13,
+          42.3
+        ],
+        "em": 30.59,
+        "answer_coverage": 27.0,
+        "abstain_rate": 9.3,
+        "answered_f1": 41.85,
+        "n_answered": 430
+      },
+      "all": {
+        "n": 878,
+        "f1": 38.02,
+        "f1_ci95": [
+          34.76,
+          40.79
+        ],
+        "em": 29.84,
+        "answer_coverage": 25.1,
+        "abstain_rate": 10.7,
+        "answered_f1": 42.49,
+        "n_answered": 784
+      },
+      "static_minus_fresh": {
+        "diff_f1": -0.01,
+        "ci95": [
+          -5.66,
+          5.77
+        ],
+        "one_sided_p": 0.495,
+        "cohens_d": -0.0,
+        "test": "unpaired two-sample bootstrap (Static/Fresh are disjoint sets)"
+      },
+      "delta_fresh_minus_static_f1": 0.01,
+      "condition": "splade"
+    },
+    {
+      "static": {
+        "n": 404,
+        "f1": 38.62,
+        "f1_ci95": [
+          34.19,
+          42.73
+        ],
+        "em": 29.21,
+        "answer_coverage": 22.57,
+        "abstain_rate": 12.4,
+        "answered_f1": 43.84,
+        "n_answered": 354
+      },
+      "fresh": {
+        "n": 474,
+        "f1": 38.17,
+        "f1_ci95": [
+          34.0,
+          42.34
+        ],
+        "em": 30.17,
+        "answer_coverage": 26.62,
+        "abstain_rate": 8.4,
+        "answered_f1": 41.55,
+        "n_answered": 434
+      },
+      "all": {
+        "n": 878,
+        "f1": 38.38,
+        "f1_ci95": [
+          35.3,
+          41.38
+        ],
+        "em": 29.73,
+        "answer_coverage": 24.76,
+        "abstain_rate": 10.3,
+        "answered_f1": 42.58,
+        "n_answered": 788
+      },
+      "static_minus_fresh": {
+        "diff_f1": 0.45,
+        "ci95": [
+          -5.52,
+          6.4
+        ],
+        "one_sided_p": 0.428,
+        "cohens_d": 0.01,
+        "test": "unpaired two-sample bootstrap (Static/Fresh are disjoint sets)"
+      },
+      "delta_fresh_minus_static_f1": -0.45,
+      "condition": "colbert"
+    },
+    {
+      "static": {
+        "n": 404,
+        "f1": 36.5,
+        "f1_ci95": [
+          32.16,
+          40.95
+        ],
+        "em": 27.48,
+        "answer_coverage": 23.81,
+        "abstain_rate": 13.9,
+        "answered_f1": 42.2,
+        "n_answered": 348
+      },
+      "fresh": {
+        "n": 474,
+        "f1": 39.17,
+        "f1_ci95": [
+          34.93,
+          43.29
+        ],
+        "em": 31.43,
+        "answer_coverage": 27.72,
+        "abstain_rate": 8.0,
+        "answered_f1": 42.51,
+        "n_answered": 436
+      },
+      "all": {
+        "n": 878,
+        "f1": 37.94,
+        "f1_ci95": [
+          34.99,
+          40.91
+        ],
+        "em": 29.61,
+        "answer_coverage": 25.92,
+        "abstain_rate": 10.7,
+        "answered_f1": 42.37,
+        "n_answered": 784
+      },
+      "static_minus_fresh": {
+        "diff_f1": -2.66,
+        "ci95": [
+          -8.99,
+          3.21
+        ],
+        "one_sided_p": 0.816,
+        "cohens_d": -0.059,
+        "test": "unpaired two-sample bootstrap (Static/Fresh are disjoint sets)"
+      },
+      "delta_fresh_minus_static_f1": 2.67,
+      "condition": "bge"
+    },
+    {
+      "static": {
+        "n": 404,
+        "f1": 38.84,
+        "f1_ci95": [
+          34.52,
+          43.33
+        ],
+        "em": 30.2,
+        "answer_coverage": 24.21,
+        "abstain_rate": 11.1,
+        "answered_f1": 43.55,
+        "n_answered": 359
+      },
+      "fresh": {
+        "n": 474,
+        "f1": 39.11,
+        "f1_ci95": [
+          35.07,
+          43.48
+        ],
+        "em": 31.86,
+        "answer_coverage": 28.14,
+        "abstain_rate": 8.6,
+        "answered_f1": 42.71,
+        "n_answered": 433
+      },
+      "all": {
+        "n": 878,
+        "f1": 38.99,
+        "f1_ci95": [
+          35.72,
+          42.02
+        ],
+        "em": 31.09,
+        "answer_coverage": 26.33,
+        "abstain_rate": 9.8,
+        "answered_f1": 43.09,
+        "n_answered": 792
+      },
+      "static_minus_fresh": {
+        "diff_f1": -0.27,
+        "ci95": [
+          -6.32,
+          5.63
+        ],
+        "one_sided_p": 0.536,
+        "cohens_d": -0.006,
+        "test": "unpaired two-sample bootstrap (Static/Fresh are disjoint sets)"
+      },
+      "delta_fresh_minus_static_f1": 0.27,
+      "condition": "hybrid"
+    },
+    {
+      "static": {
+        "n": 404,
+        "f1": 36.2,
+        "f1_ci95": [
+          32.12,
+          40.56
+        ],
+        "em": 27.72,
+        "answer_coverage": 22.48,
+        "abstain_rate": 18.1,
+        "answered_f1": 43.98,
+        "n_answered": 331
+      },
+      "fresh": {
+        "n": 474,
+        "f1": 35.91,
+        "f1_ci95": [
+          31.69,
+          40.08
+        ],
+        "em": 28.48,
+        "answer_coverage": 24.81,
+        "abstain_rate": 12.2,
+        "answered_f1": 40.72,
+        "n_answered": 416
+      },
+      "all": {
+        "n": 878,
+        "f1": 36.04,
+        "f1_ci95": [
+          33.02,
+          38.97
+        ],
+        "em": 28.13,
+        "answer_coverage": 23.74,
+        "abstain_rate": 14.9,
+        "answered_f1": 42.17,
+        "n_answered": 747
+      },
+      "static_minus_fresh": {
+        "diff_f1": 0.29,
+        "ci95": [
+          -5.78,
+          5.85
+        ],
+        "one_sided_p": 0.442,
+        "cohens_d": 0.006,
+        "test": "unpaired two-sample bootstrap (Static/Fresh are disjoint sets)"
+      },
+      "delta_fresh_minus_static_f1": -0.29,
+      "condition": "oracle"
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "scope": "Partition of stale-index failures by what the retrieved stale context actually contained. A failure is an item where the stale index scores at least --fail-margin F1 below the live index.",
+  "fail_margin_f1": 10.0,
+  "categories": {
+    "abstained": "model declined to answer",
+    "answer_present": "gold string was in the stale context and the model still missed it (reading failure, not staleness)",
+    "grounded_outdated": "gold absent from context; answer traceable to the stale context (faithful reading of superseded evidence)",
+    "ungrounded": "gold absent from context; answer not traceable to it (parametric fallback or fabrication)"
+  },
+  "models": {
+    "qwen32b": {
+      "name": "Qwen2.5-32B",
+      "n_stale_failures": 140,
+      "counts": {
+        "grounded_outdated": 75,
+        "answer_present": 34,
+        "abstained": 22,
+        "ungrounded": 9
+      },
+      "pct": {
+        "grounded_outdated": 53.6,
+        "answer_present": 24.3,
+        "abstained": 15.7,
+        "ungrounded": 6.4
+      },
+      "n_fresh_failures": 134,
+      "fresh_counts": {
+        "grounded_outdated": 73,
+        "answer_present": 31,
+        "abstained": 22,
+        "ungrounded": 8
+      },
+      "fresh_pct": {
+        "grounded_outdated": 54.5,
+        "answer_present": 23.1,
+        "abstained": 16.4,
+        "ungrounded": 6.0
+      },
+      "grounded_outdated_examples": [
+        {
+          "qid": "20260515_12",
+          "question": "How much has the war in Iran cost Americans so far?",
+          "gold": "$29 billion",
+          "stale_prediction": "No casualties.\nIt was a warning shot,\nTrump spoke of \"minimal damage\" and \"Iran standing down\" in a relatively restrained retaliation\n\nNone of the pro",
+          "live_f1": 50.0,
+          "stale_f1": 0.0
+        },
+        {
+          "qid": "20250718_14",
+          "question": "President Trump has threatened to revoke which celebrity\u2019s US citizenship?",
+          "gold": "Rosie O\u2019Donnell",
+          "stale_prediction": "Nick Cannon",
+          "live_f1": 50.0,
+          "stale_f1": 0.0
+        },
+        {
+          "qid": "20250214_14",
+          "question": "Which type of dog breed won the highest honor at the 149th Westminster Kennel Club Dog Show?",
+          "gold": "Giant Schnauzer",
+          "stale_prediction": "TobyKeith",
+          "live_f1": 100.0,
+          "stale_f1": 0.0
+        },
+        {
+          "qid": "20260508_5",
+          "question": "Which tech company was sued by a group including five major publishers for copyright infringement?",
+          "gold": "Meta",
+          "stale_prediction": "Google",
+          "live_f1": 66.7,
+          "stale_f1": 0.0
+        },
+        {
+          "qid": "20260612_18",
+          "question": "Which AI company may be headed for one of the most anticipated stock market debuts in recent history?",
+          "gold": "OpenAI",
+          "stale_prediction": "Trump Media & Technology Group",
+          "live_f1": 100.0,
+          "stale_f1": 0.0
+        }
+      ],
+      "strict_span_rule": {
+        "rule": "answer must appear as a contiguous normalised span in the retrieved context",
+        "counts": {
+          "ungrounded": 11,
+          "answer_present": 34,
+          "grounded_outdated": 73,
+          "abstained": 22
+        },
+        "pct": {
+          "ungrounded": 7.9,
+          "answer_present": 24.3,
+          "grounded_outdated": 52.1,
+          "abstained": 15.7
+        }
+      },
+      "threshold_sweep_grounded_pct": {
+        "0.3": 55.0,
+        "0.4": 53.6,
+        "0.5": 53.6,
+        "0.6": 52.9,
+        "0.7": 52.1,
+        "0.8": 51.4
+      }
+    },
+    "qwen3b": {
+      "name": "Qwen2.5-3B",
+      "n_stale_failures": 143,
+      "counts": {
+        "ungrounded": 14,
+        "answer_present": 46,
+        "grounded_outdated": 81,
+        "abstained": 2
+      },
+      "pct": {
+        "ungrounded": 9.8,
+        "answer_present": 32.2,
+        "grounded_outdated": 56.6,
+        "abstained": 1.4
+      },
+      "n_fresh_failures": 132,
+      "fresh_counts": {
+        "ungrounded": 13,
+        "answer_present": 41,
+        "grounded_outdated": 76,
+        "abstained": 2
+      },
+      "fresh_pct": {
+        "ungrounded": 9.8,
+        "answer_present": 31.1,
+        "grounded_outdated": 57.6,
+        "abstained": 1.5
+      },
+      "grounded_outdated_examples": [
+        {
+          "qid": "20250718_14",
+          "question": "President Trump has threatened to revoke which celebrity\u2019s US citizenship?",
+          "gold": "Rosie O\u2019Donnell",
+          "stale_prediction": "14th Amendment",
+          "live_f1": 50.0,
+          "stale_f1": 0.0
+        },
+        {
+          "qid": "20250214_14",
+          "question": "Which type of dog breed won the highest honor at the 149th Westminster Kennel Club Dog Show?",
+          "gold": "Giant Schnauzer",
+          "stale_prediction": "toy fox terrier",
+          "live_f1": 100.0,
+          "stale_f1": 0.0
+        },
+        {
+          "qid": "20260508_5",
+          "question": "Which tech company was sued by a group including five major publishers for copyright infringement?",
+          "gold": "Meta",
+          "stale_prediction": "Google",
+          "live_f1": 50.0,
+          "stale_f1": 0.0
+        },
+        {
+          "qid": "20260612_18",
+          "question": "Which AI company may be headed for one of the most anticipated stock market debuts in recent history?",
+          "gold": "OpenAI",
+          "stale_prediction": "Donald Trump Media & Technology Group",
+          "live_f1": 100.0,
+          "stale_f1": 0.0
+        },
+        {
+          "qid": "20250328_10",
+          "question": "Top members of President Donald Trump\u2019s Cabinet recently sent detailed operational plans and other likely classified information about US military str",
+          "gold": "Signal",
+          "stale_prediction": "Truth Social",
+          "live_f1": 100.0,
+          "stale_f1": 0.0
+        }
+      ],
+      "strict_span_rule": {
+        "rule": "answer must appear as a contiguous normalised span in the retrieved context",
+        "counts": {
+          "grounded_outdated": 86,
+          "answer_present": 46,
+          "ungrounded": 9,
+          "abstained": 2
+        },
+        "pct": {
+          "grounded_outdated": 60.1,
+          "answer_present": 32.2,
+          "ungrounded": 6.3,
+          "abstained": 1.4
+        }
+      },
+      "threshold_sweep_grounded_pct": {
+        "0.3": 56.6,
+        "0.4": 56.6,
+        "0.5": 56.6,
+        "0.6": 56.6,
+        "0.7": 55.9,
+        "0.8": 55.2
+      }
+    },
+    "mistral_large": {
+      "name": "Mistral-Large-2",
+      "n_stale_failures": 137,
+      "counts": {
+        "abstained": 42,
+        "answer_present": 30,
+        "ungrounded": 14,
+        "grounded_outdated": 51
+      },
+      "pct": {
+        "abstained": 30.7,
+        "answer_present": 21.9,
+        "ungrounded": 10.2,
+        "grounded_outdated": 37.2
+      },
+      "n_fresh_failures": 130,
+      "fresh_counts": {
+        "abstained": 40,
+        "answer_present": 28,
+        "ungrounded": 14,
+        "grounded_outdated": 48
+      },
+      "fresh_pct": {
+        "abstained": 30.8,
+        "answer_present": 21.5,
+        "ungrounded": 10.8,
+        "grounded_outdated": 36.9
+      },
+      "grounded_outdated_examples": [
+        {
+          "qid": "20260508_5",
+          "question": "Which tech company was sued by a group including five major publishers for copyright infringement?",
+          "gold": "Meta",
+          "stale_prediction": "Google",
+          "live_f1": 100.0,
+          "stale_f1": 0.0
+        },
+        {
+          "qid": "20260227_8",
+          "question": "How many moons does Saturn have?",
+          "gold": "274",
+          "stale_prediction": "82 moons",
+          "live_f1": 100.0,
+          "stale_f1": 0.0
+        },
+        {
+          "qid": "20260612_18",
+          "question": "Which AI company may be headed for one of the most anticipated stock market debuts in recent history?",
+          "gold": "OpenAI",
+          "stale_prediction": "Trump Media & Technology Group",
+          "live_f1": 100.0,
+          "stale_f1": 0.0
+        },
+        {
+          "qid": "20260403_8",
+          "question": "Golfer Tiger Woods was involved in a rollover crash in which state?",
+          "gold": "Florida",
+          "stale_prediction": "California",
+          "live_f1": 100.0,
+          "stale_f1": 0.0
+        },
+        {
+          "qid": "20260320_6",
+          "question": "Who is the White House chief of staff?",
+          "gold": "Susie Wiles",
+          "stale_prediction": "Ron Klain",
+          "live_f1": 100.0,
+          "stale_f1": 0.0
+        }
+      ],
+      "strict_span_rule": {
+        "rule": "answer must appear as a contiguous normalised span in the retrieved context",
+        "counts": {
+          "abstained": 42,
+          "answer_present": 30,
+          "ungrounded": 26,
+          "grounded_outdated": 39
+        },
+        "pct": {
+          "abstained": 30.7,
+          "answer_present": 21.9,
+          "ungrounded": 19.0,
+          "grounded_outdated": 28.5
+        }
+      },
+      "threshold_sweep_grounded_pct": {
+        "0.3": 38.0,
+        "0.4": 37.2,
+        "0.5": 37.2,
+        "0.6": 35.8,
+        "0.7": 35.8,
+        "0.8": 34.3
+      }
+    }
+  },
+  "interpretation": "THIS IS A LEXICAL HEURISTIC, NOT AN ADJUDICATED LABEL. 'grounded' is content-word overlap between the answer and the retrieved text. It cannot distinguish a faithfully-read superseded fact from a coincidental lexical match, and it cannot check that the answer is actually the OUTDATED version of the fact rather than an unrelated string that happens to appear in a news article. The headline share should therefore be read as an UPPER BOUND on faithful-stale-reading and a LOWER BOUND on the complementary hallucination share. We report two sensitivity analyses in place of the human audit this needs: a threshold sweep over the overlap cutoff, and a strict contiguous-span rule that is a different notion of grounding rather than a tighter version of the same one. The answer_present category is the internal control: items in it are reading failures rather than staleness failures, so the staleness categories are not inflated by generic model error.",
+  "validation_status": "NOT VALIDATED AGAINST HUMAN JUDGEMENT. A blinded audit of a random sample is required before any specific percentage is quoted as the rate of faithful stale reading."
+}

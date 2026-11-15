@@ -1,0 +1,135 @@
+{
+  "condition": "hybrid_masked",
+  "n": 20,
+  "exact_match": 20,
+  "seconds": 307.7,
+  "env": {
+    "llama_cpp": "0.3.34",
+    "n_ctx": 2048,
+    "backend": "metal",
+    "max_tokens": 32,
+    "temperature": 0.0
+  },
+  "rows": [
+    {
+      "qid": "20250214_0",
+      "frozen": "Javier Milei",
+      "now": "Javier Milei",
+      "match": true
+    },
+    {
+      "qid": "20220923_27",
+      "frozen": "The documents provided do not contain information about the percentage of Northern Ireland residents who are Catholic according to the latest census data.",
+      "now": "The documents provided do not contain information about the percentage of Northern Ireland residents who are Catholic according to the latest census data.",
+      "match": true
+    },
+    {
+      "qid": "20260501_8",
+      "frozen": "Adele",
+      "now": "Adele",
+      "match": true
+    },
+    {
+      "qid": "20241101_24",
+      "frozen": "PSL",
+      "now": "PSL",
+      "match": true
+    },
+    {
+      "qid": "20221104_29",
+      "frozen": "Rishi Sunak",
+      "now": "Rishi Sunak",
+      "match": true
+    },
+    {
+      "qid": "20260508_12",
+      "frozen": "hantavirus",
+      "now": "hantavirus",
+      "match": true
+    },
+    {
+      "qid": "20220729_26",
+      "frozen": "Kyushu",
+      "now": "Kyushu",
+      "match": true
+    },
+    {
+      "qid": "20220805_2",
+      "frozen": "The documents provided do not contain information about Alex Jones or the lawsuits against him.",
+      "now": "The documents provided do not contain information about Alex Jones or the lawsuits against him.",
+      "match": true
+    },
+    {
+      "qid": "20220624_28",
+      "frozen": "Moldova",
+      "now": "Moldova",
+      "match": true
+    },
+    {
+      "qid": "20240315_6",
+      "frozen": "None of the provided documents mention a suspended Conservative Party MP defecting to Reform UK.",
+      "now": "None of the provided documents mention a suspended Conservative Party MP defecting to Reform UK.",
+      "match": true
+    },
+    {
+      "qid": "20230512_6",
+      "frozen": "New York",
+      "now": "New York",
+      "match": true
+    },
+    {
+      "qid": "20260220_2",
+      "frozen": "King Charles III",
+      "now": "King Charles III",
+      "match": true
+    },
+    {
+      "qid": "20250314_6",
+      "frozen": "None of the provided documents mention a country's constitutional court kicking the front-runner off the ballot for May's presidential election.",
+      "now": "None of the provided documents mention a country's constitutional court kicking the front-runner off the ballot for May's presidential election.",
+      "match": true
+    },
+    {
+      "qid": "20221216_4",
+      "frozen": "The documents provided do not mention any specific grocery item that people are panic buying across China.",
+      "now": "The documents provided do not mention any specific grocery item that people are panic buying across China.",
+      "match": true
+    },
+    {
+      "qid": "20220909_12",
+      "frozen": "iPhone 11",
+      "now": "iPhone 11",
+      "match": true
+    },
+    {
+      "qid": "20251017_1",
+      "frozen": "Space Launch System",
+      "now": "Space Launch System",
+      "match": true
+    },
+    {
+      "qid": "20221202_11",
+      "frozen": "1984",
+      "now": "1984",
+      "match": true
+    },
+    {
+      "qid": "20260410_18",
+      "frozen": "The documents do not provide the exact amount the fertility rate has dropped over the past 20 years.",
+      "now": "The documents do not provide the exact amount the fertility rate has dropped over the past 20 years.",
+      "match": true
+    },
+    {
+      "qid": "20230901_10",
+      "frozen": "The documents provided do not contain information about a planned development across from Helen's Sausage House near Smyrna on Route 13.",
+      "now": "The documents provided do not contain information about a planned development across from Helen's Sausage House near Smyrna on Route 13.",
+      "match": true
+    },
+    {
+      "qid": "20260410_3",
+      "frozen": "Kim Kardashian",
+      "now": "Kim Kardashian",
+      "match": true
+    }
+  ]
+}

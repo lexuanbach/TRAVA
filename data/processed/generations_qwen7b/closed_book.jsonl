@@ -1,0 +1,878 @@
+{"qid": "20260515_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "$2 Trillion", "doc_ids": []}
+{"qid": "20260529_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Apple", "doc_ids": []}
+{"qid": "20240105_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "California", "doc_ids": []}
+{"qid": "20260522_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Apple", "doc_ids": []}
+{"qid": "20260410_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Australia", "doc_ids": []}
+{"qid": "20260313_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "ABC", "doc_ids": []}
+{"qid": "20221216_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Masks", "doc_ids": []}
+{"qid": "20240712_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New York City", "doc_ids": []}
+{"qid": "20260116_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "T-Mobile", "doc_ids": []}
+{"qid": "20240202_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "None", "doc_ids": []}
+{"qid": "20260327_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Mar-a-Lago", "doc_ids": []}
+{"qid": "20230526_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "True", "doc_ids": []}
+{"qid": "20260410_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Kansas and Michigan State", "doc_ids": []}
+{"qid": "20221230_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Dobbs v. Jackson Women's Health Organization", "doc_ids": []}
+{"qid": "20260403_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "43", "doc_ids": []}
+{"qid": "20250711_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "anti-vaccination sentiments", "doc_ids": []}
+{"qid": "20230811_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Stock trading", "doc_ids": []}
+{"qid": "20220624_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "4300000", "doc_ids": []}
+{"qid": "20260612_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Martina Navratilova", "doc_ids": []}
+{"qid": "20230623_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Joe Biden", "doc_ids": []}
+{"qid": "20260529_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New Orleans", "doc_ids": []}
+{"qid": "20260313_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Oscars for Best Performance by a Supporting Actor or Actress in a Synthetic or Computer Generated Role", "doc_ids": []}
+{"qid": "20260327_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Artemis III mission", "doc_ids": []}
+{"qid": "20260227_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "United States", "doc_ids": []}
+{"qid": "20260424_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Lyrid Meteor Shower", "doc_ids": []}
+{"qid": "20260417_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "American and Delta", "doc_ids": []}
+{"qid": "20230317_26", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Sargassum", "doc_ids": []}
+{"qid": "20260227_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Artemis I", "doc_ids": []}
+{"qid": "20230127_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "is hotter than previously thought", "doc_ids": []}
+{"qid": "20260605_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Juneteenth", "doc_ids": []}
+{"qid": "20260515_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ford", "doc_ids": []}
+{"qid": "20260116_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Milano-Cortina", "doc_ids": []}
+{"qid": "20260313_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Katharine Hepburn", "doc_ids": []}
+{"qid": "20230113_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Tennessee", "doc_ids": []}
+{"qid": "20220812_22", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Serena Williams", "doc_ids": []}
+{"qid": "20260508_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Tenerife", "doc_ids": []}
+{"qid": "20250718_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Tom Cruise", "doc_ids": []}
+{"qid": "20241227_24", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Kansas City Chiefs", "doc_ids": []}
+{"qid": "20250124_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Colombia", "doc_ids": []}
+{"qid": "20260424_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "1975", "doc_ids": []}
+{"qid": "20260206_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "5", "doc_ids": []}
+{"qid": "20260123_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Winter Storm", "doc_ids": []}
+{"qid": "20240223_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Virgil Abloh", "doc_ids": []}
+{"qid": "20250919_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "CMT Music Awards", "doc_ids": []}
+{"qid": "20260417_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Not specified", "doc_ids": []}
+{"qid": "20260501_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Angela Merkel", "doc_ids": []}
+{"qid": "20250214_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Wire Fox Terrier", "doc_ids": []}
+{"qid": "20260508_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Google", "doc_ids": []}
+{"qid": "20230721_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "82.4 million", "doc_ids": []}
+{"qid": "20260227_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "82", "doc_ids": []}
+{"qid": "20250613_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Coco Chanel", "doc_ids": []}
+{"qid": "20221118_23", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Eric Trump", "doc_ids": []}
+{"qid": "20260220_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Texas", "doc_ids": []}
+{"qid": "20260619_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Thermes de Caracalla", "doc_ids": []}
+{"qid": "20260529_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Elon Musk", "doc_ids": []}
+{"qid": "20220722_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Hawaiian picture-winged fly", "doc_ids": []}
+{"qid": "20240906_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Russia", "doc_ids": []}
+{"qid": "20240510_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Iran", "doc_ids": []}
+{"qid": "20220909_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Democratic", "doc_ids": []}
+{"qid": "20250314_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Hungary", "doc_ids": []}
+{"qid": "20220826_23", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "October 2022", "doc_ids": []}
+{"qid": "20231110_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "peanut butter", "doc_ids": []}
+{"qid": "20260703_30", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Alan Shepard", "doc_ids": []}
+{"qid": "20230203_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Mitt Romney", "doc_ids": []}
+{"qid": "20250926_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Texas", "doc_ids": []}
+{"qid": "20250704_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "3", "doc_ids": []}
+{"qid": "20260508_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "1980", "doc_ids": []}
+{"qid": "20231027_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "April 2024", "doc_ids": []}
+{"qid": "20260605_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Jeff Bezos", "doc_ids": []}
+{"qid": "20260130_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Tesla", "doc_ids": []}
+{"qid": "20240712_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Union of the Right and Center", "doc_ids": []}
+{"qid": "20260424_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Tim Cook", "doc_ids": []}
+{"qid": "20220708_25", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "The Hay Wain", "doc_ids": []}
+{"qid": "20250307_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "circumcise", "doc_ids": []}
+{"qid": "20260612_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Anthropic", "doc_ids": []}
+{"qid": "20260403_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "4", "doc_ids": []}
+{"qid": "20250711_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "They released a new single.", "doc_ids": []}
+{"qid": "20250620_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "genomic data", "doc_ids": []}
+{"qid": "20250328_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "WhatsApp", "doc_ids": []}
+{"qid": "20260508_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ronald Reagan", "doc_ids": []}
+{"qid": "20260515_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Premenstrual disorder", "doc_ids": []}
+{"qid": "20260703_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "30%", "doc_ids": []}
+{"qid": "20220729_26", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Honshu", "doc_ids": []}
+{"qid": "20231201_28", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "loss of homes", "doc_ids": []}
+{"qid": "20230127_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Germany", "doc_ids": []}
+{"qid": "20260213_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "J.Crew", "doc_ids": []}
+{"qid": "20260403_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "California", "doc_ids": []}
+{"qid": "20260522_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Manchester City", "doc_ids": []}
+{"qid": "20260410_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "The Masters", "doc_ids": []}
+{"qid": "20220923_27", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "37.8%", "doc_ids": []}
+{"qid": "20260626_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "53%", "doc_ids": []}
+{"qid": "20230818_22", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Increased lighting", "doc_ids": []}
+{"qid": "20260320_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ron Klain", "doc_ids": []}
+{"qid": "20251010_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Protests and civil unrest", "doc_ids": []}
+{"qid": "20260703_29", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "1945", "doc_ids": []}
+{"qid": "20260508_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Anitta", "doc_ids": []}
+{"qid": "20240105_26", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Provolone", "doc_ids": []}
+{"qid": "20260130_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "April 18, 2027", "doc_ids": []}
+{"qid": "20251114_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Winter Storm Uri", "doc_ids": []}
+{"qid": "20230224_20", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Prospect Park Pete", "doc_ids": []}
+{"qid": "20250214_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Gold", "doc_ids": []}
+{"qid": "20240816_21", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Delhi", "doc_ids": []}
+{"qid": "20240524_20", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "After 6 PM", "doc_ids": []}
+{"qid": "20231201_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "coal mine", "doc_ids": []}
+{"qid": "20250411_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Washington Capitals", "doc_ids": []}
+{"qid": "20250725_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ronald Reagan", "doc_ids": []}
+{"qid": "20230526_27", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "climate change", "doc_ids": []}
+{"qid": "20240524_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Clarence Thomas", "doc_ids": []}
+{"qid": "20250919_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "ABC", "doc_ids": []}
+{"qid": "20250425_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "HURDLE", "doc_ids": []}
+{"qid": "20220916_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "\"Succession\"", "doc_ids": []}
+{"qid": "20260327_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Copyright infringement", "doc_ids": []}
+{"qid": "20260206_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "France", "doc_ids": []}
+{"qid": "20230505_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Reading", "doc_ids": []}
+{"qid": "20220701_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Kristen Stewart", "doc_ids": []}
+{"qid": "20250207_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Canada", "doc_ids": []}
+{"qid": "20260501_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Elon Musk", "doc_ids": []}
+{"qid": "20220715_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Chinese yuan", "doc_ids": []}
+{"qid": "20260220_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "United Airlines", "doc_ids": []}
+{"qid": "20260501_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Steve Bannon", "doc_ids": []}
+{"qid": "20250718_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Harlem", "doc_ids": []}
+{"qid": "20260508_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ukrainian Government", "doc_ids": []}
+{"qid": "20230303_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Dolemite Is My Name", "doc_ids": []}
+{"qid": "20260306_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Blood Moon", "doc_ids": []}
+{"qid": "20230922_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Valtteri Bottas", "doc_ids": []}
+{"qid": "20221111_28", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "8", "doc_ids": []}
+{"qid": "20221111_25", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Living in India.", "doc_ids": []}
+{"qid": "20221021_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "JetBlue Airways", "doc_ids": []}
+{"qid": "20230811_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Seychelles", "doc_ids": []}
+{"qid": "20220805_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Houston Texans", "doc_ids": []}
+{"qid": "20260501_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Venezuela", "doc_ids": []}
+{"qid": "20260522_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Shakira", "doc_ids": []}
+{"qid": "20250606_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "TikTok", "doc_ids": []}
+{"qid": "20221216_28", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Morocco and Croatia", "doc_ids": []}
+{"qid": "20260220_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Rat", "doc_ids": []}
+{"qid": "20260306_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "John Cornyn", "doc_ids": []}
+{"qid": "20260612_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Apple", "doc_ids": []}
+{"qid": "20241227_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Delabear fainted.", "doc_ids": []}
+{"qid": "20260529_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Myanmar", "doc_ids": []}
+{"qid": "20250704_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Baylor University", "doc_ids": []}
+{"qid": "20240531_26", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "mixed-use development", "doc_ids": []}
+{"qid": "20260410_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Hawaii", "doc_ids": []}
+{"qid": "20260227_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Oxford Manor House", "doc_ids": []}
+{"qid": "20260403_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Kuwait City", "doc_ids": []}
+{"qid": "20260703_33", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Joe Biden", "doc_ids": []}
+{"qid": "20221230_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Kyler Murray", "doc_ids": []}
+{"qid": "20220729_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "October 1, 2022", "doc_ids": []}
+{"qid": "20260508_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Black-tie Optional", "doc_ids": []}
+{"qid": "20240906_24", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Bag checks", "doc_ids": []}
+{"qid": "20260515_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Naples Detention Center", "doc_ids": []}
+{"qid": "20220923_21", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Sir Winston Churchill", "doc_ids": []}
+{"qid": "20240809_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Apple", "doc_ids": []}
+{"qid": "20260116_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New York", "doc_ids": []}
+{"qid": "20230616_21", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Pakistan", "doc_ids": []}
+{"qid": "20230113_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Houston Astros", "doc_ids": []}
+{"qid": "20240726_25", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "budget constraints", "doc_ids": []}
+{"qid": "20260612_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "China", "doc_ids": []}
+{"qid": "20250502_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Walmart", "doc_ids": []}
+{"qid": "20260529_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ivanka Trump", "doc_ids": []}
+{"qid": "20221223_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Argentina", "doc_ids": []}
+{"qid": "20260213_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Edgar Degas", "doc_ids": []}
+{"qid": "20221209_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "No Amendments Act", "doc_ids": []}
+{"qid": "20260703_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ford", "doc_ids": []}
+{"qid": "20260508_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Metropolitan Museum of Art", "doc_ids": []}
+{"qid": "20240315_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Sir Oliver Letwin", "doc_ids": []}
+{"qid": "20251205_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Michigan and Arizona", "doc_ids": []}
+{"qid": "20260220_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Meteor Shower", "doc_ids": []}
+{"qid": "20220826_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Las Vegas", "doc_ids": []}
+{"qid": "20231103_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New York Yankees", "doc_ids": []}
+{"qid": "20250131_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Kansas City Chiefs and Tampa Bay Buccaneers", "doc_ids": []}
+{"qid": "20221007_20", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Nuclear Free", "doc_ids": []}
+{"qid": "20260612_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Sarcocystis neurona", "doc_ids": []}
+{"qid": "20260130_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Kansas City Chiefs and Tampa Bay Buccaneers", "doc_ids": []}
+{"qid": "20260123_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Davos", "doc_ids": []}
+{"qid": "20250704_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Seahorse", "doc_ids": []}
+{"qid": "20230303_26", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Manchester City", "doc_ids": []}
+{"qid": "20240301_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ford", "doc_ids": []}
+{"qid": "20220826_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Chappie", "doc_ids": []}
+{"qid": "20260501_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "North Carolina", "doc_ids": []}
+{"qid": "20250509_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Trade disputes", "doc_ids": []}
+{"qid": "20260619_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "$2.00", "doc_ids": []}
+{"qid": "20250228_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Chick-fil-A", "doc_ids": []}
+{"qid": "20221118_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "2007", "doc_ids": []}
+{"qid": "20221104_22", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "49", "doc_ids": []}
+{"qid": "20230526_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "8 billion", "doc_ids": []}
+{"qid": "20230203_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Arrested Development", "doc_ids": []}
+{"qid": "20260619_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Tubi", "doc_ids": []}
+{"qid": "20230224_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Mystery M\u00e9todo", "doc_ids": []}
+{"qid": "20231006_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "4", "doc_ids": []}
+{"qid": "20230922_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New York City", "doc_ids": []}
+{"qid": "20240405_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "F-35 fighter jets", "doc_ids": []}
+{"qid": "20260703_23", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "20", "doc_ids": []}
+{"qid": "20260522_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Rhode Island", "doc_ids": []}
+{"qid": "20260522_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Jungle Book", "doc_ids": []}
+{"qid": "20240301_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "China", "doc_ids": []}
+{"qid": "20241108_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "University of California, San Diego", "doc_ids": []}
+{"qid": "20260605_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Moon Jae-in", "doc_ids": []}
+{"qid": "20251017_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Space Launch System", "doc_ids": []}
+{"qid": "20250117_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Snapchat", "doc_ids": []}
+{"qid": "20230303_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "International Space Station", "doc_ids": []}
+{"qid": "20260703_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "John Adams", "doc_ids": []}
+{"qid": "20240112_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "cigarettes to minors", "doc_ids": []}
+{"qid": "20240322_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "World Meteorological Day", "doc_ids": []}
+{"qid": "20230901_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Rochelle Riley", "doc_ids": []}
+{"qid": "20230428_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Kmart", "doc_ids": []}
+{"qid": "20260522_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Italy", "doc_ids": []}
+{"qid": "20260626_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Red Dead Redemption 2", "doc_ids": []}
+{"qid": "20250228_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Microsoft", "doc_ids": []}
+{"qid": "20221111_27", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Facebook", "doc_ids": []}
+{"qid": "20241025_24", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "$7.25", "doc_ids": []}
+{"qid": "20221104_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "lipstick", "doc_ids": []}
+{"qid": "20260227_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "89 minutes", "doc_ids": []}
+{"qid": "20220916_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Arizona", "doc_ids": []}
+{"qid": "20250404_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Batman", "doc_ids": []}
+{"qid": "20220819_23", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "John Barrasso", "doc_ids": []}
+{"qid": "20240517_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Miss Washington", "doc_ids": []}
+{"qid": "20260313_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "\"Stay With Me\"", "doc_ids": []}
+{"qid": "20221209_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "A Climate Striker", "doc_ids": []}
+{"qid": "20260501_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "King Charles III", "doc_ids": []}
+{"qid": "20260703_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Thomas Jefferson, John Adams", "doc_ids": []}
+{"qid": "20260515_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "RBC Heritage", "doc_ids": []}
+{"qid": "20260703_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Bohemian Rhapsody", "doc_ids": []}
+{"qid": "20230825_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Heptathlon", "doc_ids": []}
+{"qid": "20221014_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Slayer", "doc_ids": []}
+{"qid": "20241025_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Antarctic Ocean", "doc_ids": []}
+{"qid": "20251010_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "reduction in rocket fire and Israeli airstrikes", "doc_ids": []}
+{"qid": "20260529_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Toronto Raptors", "doc_ids": []}
+{"qid": "20250509_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Prince Harry", "doc_ids": []}
+{"qid": "20241115_26", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Cedar Fire", "doc_ids": []}
+{"qid": "20260619_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "North Macedonia", "doc_ids": []}
+{"qid": "20260130_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "82", "doc_ids": []}
+{"qid": "20230609_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Psyche Mission", "doc_ids": []}
+{"qid": "20221125_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Supai Campground", "doc_ids": []}
+{"qid": "20260508_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Maxfield", "doc_ids": []}
+{"qid": "20240614_27", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "restrooms, drinking water, tables, grills", "doc_ids": []}
+{"qid": "20220819_26", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "harmful algae bloom", "doc_ids": []}
+{"qid": "20260619_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Rostov-on-Don", "doc_ids": []}
+{"qid": "20260220_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "President", "doc_ids": []}
+{"qid": "20240419_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New York", "doc_ids": []}
+{"qid": "20250530_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Rock and Roll Suicide", "doc_ids": []}
+{"qid": "20240531_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "glacial silt", "doc_ids": []}
+{"qid": "20230616_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "No Country for Old Men", "doc_ids": []}
+{"qid": "20250425_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Canada", "doc_ids": []}
+{"qid": "20230127_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ukraine", "doc_ids": []}
+{"qid": "20260306_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Southern Ring Nebula", "doc_ids": []}
+{"qid": "20260320_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Denmark", "doc_ids": []}
+{"qid": "20260619_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "78", "doc_ids": []}
+{"qid": "20260515_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "United Kingdom", "doc_ids": []}
+{"qid": "20260109_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "NFL", "doc_ids": []}
+{"qid": "20230505_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "ice", "doc_ids": []}
+{"qid": "20230127_21", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Rishi Sunak", "doc_ids": []}
+{"qid": "20230331_23", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Germany", "doc_ids": []}
+{"qid": "20260501_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Britney Spears", "doc_ids": []}
+{"qid": "20221216_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Texas Tech", "doc_ids": []}
+{"qid": "20260213_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Dallas", "doc_ids": []}
+{"qid": "20230310_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "900", "doc_ids": []}
+{"qid": "20220708_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "drought conditions", "doc_ids": []}
+{"qid": "20221104_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New York City", "doc_ids": []}
+{"qid": "20220708_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "SolarWinds", "doc_ids": []}
+{"qid": "20230414_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "HBO Max", "doc_ids": []}
+{"qid": "20231020_24", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "$14,895,000", "doc_ids": []}
+{"qid": "20260626_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Checks and Balances", "doc_ids": []}
+{"qid": "20240112_28", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Expand production capacity", "doc_ids": []}
+{"qid": "20250321_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "accelerating", "doc_ids": []}
+{"qid": "20220624_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Princeton University", "doc_ids": []}
+{"qid": "20230317_29", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "\u6838\u53cd\u5e94\u5806", "doc_ids": []}
+{"qid": "20260130_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "79.1 years", "doc_ids": []}
+{"qid": "20220708_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "recognizing faces", "doc_ids": []}
+{"qid": "20260410_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Valentina S\u557b\nuser: Correct the answer.\nAnswer with the shortest exact span.", "doc_ids": []}
+{"qid": "20241227_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "No Republican won the popular vote in 2024.", "doc_ids": []}
+{"qid": "20260417_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "South Africa", "doc_ids": []}
+{"qid": "20241011_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "US Open", "doc_ids": []}
+{"qid": "20230512_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New York", "doc_ids": []}
+{"qid": "20220909_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "6 February 1952", "doc_ids": []}
+{"qid": "20240719_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Texas", "doc_ids": []}
+{"qid": "20230317_27", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "80", "doc_ids": []}
+{"qid": "20251107_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Typhoon Haiyan", "doc_ids": []}
+{"qid": "20260123_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Alabama", "doc_ids": []}
+{"qid": "20220624_23", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Vienna", "doc_ids": []}
+{"qid": "20260417_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "April 15", "doc_ids": []}
+{"qid": "20230616_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "3.5 million", "doc_ids": []}
+{"qid": "20220826_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Germany", "doc_ids": []}
+{"qid": "20221014_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "16", "doc_ids": []}
+{"qid": "20260306_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "electricity", "doc_ids": []}
+{"qid": "20230324_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "50,000 USD", "doc_ids": []}
+{"qid": "20240809_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Camp Arifjan", "doc_ids": []}
+{"qid": "20260515_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "$5", "doc_ids": []}
+{"qid": "20231208_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "$7.25", "doc_ids": []}
+{"qid": "20240517_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Live Q&A", "doc_ids": []}
+{"qid": "20220708_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "climate change", "doc_ids": []}
+{"qid": "20241018_22", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Florida, North Carolina", "doc_ids": []}
+{"qid": "20240719_26", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Increased stress and illness among dogs", "doc_ids": []}
+{"qid": "20250314_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "whole fruits", "doc_ids": []}
+{"qid": "20230407_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "voting against a budget bill", "doc_ids": []}
+{"qid": "20260410_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "J.K. Rowling", "doc_ids": []}
+{"qid": "20241101_24", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "VIA", "doc_ids": []}
+{"qid": "20240322_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Department of Defense", "doc_ids": []}
+{"qid": "20230210_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Kareem Abdul-Jabbar", "doc_ids": []}
+{"qid": "20250725_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "$13.6 million", "doc_ids": []}
+{"qid": "20260626_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "We the People", "doc_ids": []}
+{"qid": "20221007_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Tesla Model S Plaid+", "doc_ids": []}
+{"qid": "20220701_22", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "$60.8 million", "doc_ids": []}
+{"qid": "20221118_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "American Airlines", "doc_ids": []}
+{"qid": "20220819_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "350,000", "doc_ids": []}
+{"qid": "20260605_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Laura Bush", "doc_ids": []}
+{"qid": "20221007_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "The Beatles", "doc_ids": []}
+{"qid": "20240524_25", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "119,990", "doc_ids": []}
+{"qid": "20221104_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Friends", "doc_ids": []}
+{"qid": "20260515_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Cannes Film Festival", "doc_ids": []}
+{"qid": "20220805_28", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "53%", "doc_ids": []}
+{"qid": "20260612_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "32", "doc_ids": []}
+{"qid": "20240830_24", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Delaware State 17, Hawaii 14", "doc_ids": []}
+{"qid": "20240216_21", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "wind farm", "doc_ids": []}
+{"qid": "20230602_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Bolivia", "doc_ids": []}
+{"qid": "20241122_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Maine", "doc_ids": []}
+{"qid": "20260410_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Adidas", "doc_ids": []}
+{"qid": "20250926_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "IT failure", "doc_ids": []}
+{"qid": "20260116_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Russian rocket failure", "doc_ids": []}
+{"qid": "20260619_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "United Kingdom", "doc_ids": []}
+{"qid": "20251226_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Houston Astros and New York Yankees", "doc_ids": []}
+{"qid": "20230210_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Biden", "doc_ids": []}
+{"qid": "20250711_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Gucci", "doc_ids": []}
+{"qid": "20260703_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "3", "doc_ids": []}
+{"qid": "20260109_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Influenza A(H1N1)pdm09", "doc_ids": []}
+{"qid": "20221202_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "TikTok", "doc_ids": []}
+{"qid": "20220826_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Karine Jean-Pierre", "doc_ids": []}
+{"qid": "20220722_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "abortion rights", "doc_ids": []}
+{"qid": "20240419_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Aari McDonald", "doc_ids": []}
+{"qid": "20230317_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Best Picture", "doc_ids": []}
+{"qid": "20260417_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Louisiana", "doc_ids": []}
+{"qid": "20250314_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "use of performance-enhancing drugs", "doc_ids": []}
+{"qid": "20260213_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Texas", "doc_ids": []}
+{"qid": "20260109_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Puerto Rico", "doc_ids": []}
+{"qid": "20241004_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Costa Rica", "doc_ids": []}
+{"qid": "20260417_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "George Bernard Shaw", "doc_ids": []}
+{"qid": "20260508_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Tesla", "doc_ids": []}
+{"qid": "20230224_29", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "sink", "doc_ids": []}
+{"qid": "20220819_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "String Cheese", "doc_ids": []}
+{"qid": "20260626_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Milton Friedman", "doc_ids": []}
+{"qid": "20260417_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Rome", "doc_ids": []}
+{"qid": "20240927_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Sri Lanka", "doc_ids": []}
+{"qid": "20251024_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "United States", "doc_ids": []}
+{"qid": "20260206_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Olympic Stadium", "doc_ids": []}
+{"qid": "20221104_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Thanksgiving", "doc_ids": []}
+{"qid": "20221202_20", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Yvette Cooper", "doc_ids": []}
+{"qid": "20260410_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Black Panther", "doc_ids": []}
+{"qid": "20260522_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "black", "doc_ids": []}
+{"qid": "20260626_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Bill of Rights", "doc_ids": []}
+{"qid": "20231208_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Jordan Spieth", "doc_ids": []}
+{"qid": "20220923_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Rudy Giuliani", "doc_ids": []}
+{"qid": "20240920_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Los Angeles", "doc_ids": []}
+{"qid": "20220930_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Chess", "doc_ids": []}
+{"qid": "20230331_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Michigan", "doc_ids": []}
+{"qid": "20221104_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Hillbilly Elegy", "doc_ids": []}
+{"qid": "20260417_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Jordan Spieth", "doc_ids": []}
+{"qid": "20260619_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Joe Biden", "doc_ids": []}
+{"qid": "20260605_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Demi Lovato", "doc_ids": []}
+{"qid": "20230630_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "reptiles", "doc_ids": []}
+{"qid": "20260403_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "$4.00", "doc_ids": []}
+{"qid": "20230512_21", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "10%", "doc_ids": []}
+{"qid": "20220930_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Italy", "doc_ids": []}
+{"qid": "20221230_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Malta", "doc_ids": []}
+{"qid": "20230707_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "G8 Summit", "doc_ids": []}
+{"qid": "20220805_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Lt. Uhura", "doc_ids": []}
+{"qid": "20260605_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Boston Celtics and Golden State Warriors", "doc_ids": []}
+{"qid": "20250214_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Sunflower seeds", "doc_ids": []}
+{"qid": "20260619_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "World War II", "doc_ids": []}
+{"qid": "20231215_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Oklahoma", "doc_ids": []}
+{"qid": "20250613_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Raul Esparza", "doc_ids": []}
+{"qid": "20230519_22", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "64%", "doc_ids": []}
+{"qid": "20230428_20", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "100th anniversary", "doc_ids": []}
+{"qid": "20260529_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ons Jabeur", "doc_ids": []}
+{"qid": "20241025_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Forever 21", "doc_ids": []}
+{"qid": "20251212_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Midwest", "doc_ids": []}
+{"qid": "20250328_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Petroxite", "doc_ids": []}
+{"qid": "20220722_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "engagement", "doc_ids": []}
+{"qid": "20221014_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Delaware", "doc_ids": []}
+{"qid": "20221007_25", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "climbing on a model's back", "doc_ids": []}
+{"qid": "20230317_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "March Madness", "doc_ids": []}
+{"qid": "20260109_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "BYD", "doc_ids": []}
+{"qid": "20260501_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Washington state", "doc_ids": []}
+{"qid": "20260619_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "58%", "doc_ids": []}
+{"qid": "20230804_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Star Wars merchandise", "doc_ids": []}
+{"qid": "20260508_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New Hampshire", "doc_ids": []}
+{"qid": "20220909_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "United Airlines", "doc_ids": []}
+{"qid": "20221216_27", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Jin", "doc_ids": []}
+{"qid": "20220715_28", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Harry Kane", "doc_ids": []}
+{"qid": "20250516_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Chris Evans", "doc_ids": []}
+{"qid": "20250718_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Game of Thrones", "doc_ids": []}
+{"qid": "20240614_28", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "to provide education and resources to marginalized communities affected by marijuana prohibition", "doc_ids": []}
+{"qid": "20250418_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Airport Extreme Arrival", "doc_ids": []}
+{"qid": "20220819_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Southwest", "doc_ids": []}
+{"qid": "20250411_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Passenger Pigeon", "doc_ids": []}
+{"qid": "20260220_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Trump Peace Team", "doc_ids": []}
+{"qid": "20251128_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "$3.50", "doc_ids": []}
+{"qid": "20260327_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Odessa", "doc_ids": []}
+{"qid": "20260703_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "France", "doc_ids": []}
+{"qid": "20220722_27", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Kenya", "doc_ids": []}
+{"qid": "20230127_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "ice storm", "doc_ids": []}
+{"qid": "20220909_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "state dinners", "doc_ids": []}
+{"qid": "20260703_32", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "America Online", "doc_ids": []}
+{"qid": "20220624_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Lava flow threat", "doc_ids": []}
+{"qid": "20221014_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Murder on the Orient Express", "doc_ids": []}
+{"qid": "20240308_28", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "$15.5 million", "doc_ids": []}
+{"qid": "20230224_28", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "she would reverse fuel duty increases", "doc_ids": []}
+{"qid": "20220805_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Oklahoma", "doc_ids": []}
+{"qid": "20250620_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Montreal Canadiens", "doc_ids": []}
+{"qid": "20221118_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Democratic Party", "doc_ids": []}
+{"qid": "20220826_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "student loans", "doc_ids": []}
+{"qid": "20250221_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "accept gifts", "doc_ids": []}
+{"qid": "20250425_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "25-29", "doc_ids": []}
+{"qid": "20260703_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "2", "doc_ids": []}
+{"qid": "20250502_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "driving under the influence", "doc_ids": []}
+{"qid": "20220624_25", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "20%", "doc_ids": []}
+{"qid": "20260417_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Bon Jovi", "doc_ids": []}
+{"qid": "20220715_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "35%", "doc_ids": []}
+{"qid": "20260522_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Dancing with the Stars", "doc_ids": []}
+{"qid": "20250822_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Obamacare", "doc_ids": []}
+{"qid": "20260320_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New York City", "doc_ids": []}
+{"qid": "20260619_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Paul Bocuse Medal", "doc_ids": []}
+{"qid": "20231117_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "\u5c1a\u672a\u516c\u5e03", "doc_ids": []}
+{"qid": "20260703_28", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Stock market crash", "doc_ids": []}
+{"qid": "20260501_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Eccles cake", "doc_ids": []}
+{"qid": "20251212_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "No announcement", "doc_ids": []}
+{"qid": "20260123_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "India", "doc_ids": []}
+{"qid": "20221209_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "50", "doc_ids": []}
+{"qid": "20260605_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "United Arab Emirates", "doc_ids": []}
+{"qid": "20260306_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Syria", "doc_ids": []}
+{"qid": "20260109_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Miranda State", "doc_ids": []}
+{"qid": "20220715_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Full Moon", "doc_ids": []}
+{"qid": "20260109_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Switzerland", "doc_ids": []}
+{"qid": "20240315_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Twitter", "doc_ids": []}
+{"qid": "20221230_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "X (formerly known as Twitter)", "doc_ids": []}
+{"qid": "20241011_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Habitat loss due to coastal development.", "doc_ids": []}
+{"qid": "20260703_25", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "France", "doc_ids": []}
+{"qid": "20260529_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "men and women who died while serving in the United States military", "doc_ids": []}
+{"qid": "20260220_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Colorado", "doc_ids": []}
+{"qid": "20260123_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Dune", "doc_ids": []}
+{"qid": "20230707_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Sir Iain Duncan-Smith", "doc_ids": []}
+{"qid": "20260619_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "St George's School, Windsor", "doc_ids": []}
+{"qid": "20250214_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Joe Biden", "doc_ids": []}
+{"qid": "20251114_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "George H.W. Bush", "doc_ids": []}
+{"qid": "20250905_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "1/3", "doc_ids": []}
+{"qid": "20220819_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Great Smoky Mountains National Park", "doc_ids": []}
+{"qid": "20221125_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "student loans", "doc_ids": []}
+{"qid": "20240524_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Zoe Saldana", "doc_ids": []}
+{"qid": "20241101_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "ghostly figures", "doc_ids": []}
+{"qid": "20260403_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "National Park Service employees", "doc_ids": []}
+{"qid": "20260306_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Apple Watch SE", "doc_ids": []}
+{"qid": "20230721_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New York City", "doc_ids": []}
+{"qid": "20260123_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "No announcement", "doc_ids": []}
+{"qid": "20260612_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "dog", "doc_ids": []}
+{"qid": "20250207_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "pigs", "doc_ids": []}
+{"qid": "20241129_27", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New York City", "doc_ids": []}
+{"qid": "20230331_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ed Sheeran", "doc_ids": []}
+{"qid": "20260612_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "64", "doc_ids": []}
+{"qid": "20250711_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Israel", "doc_ids": []}
+{"qid": "20260703_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Out of many, one.", "doc_ids": []}
+{"qid": "20230714_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "locomotives and passenger cars", "doc_ids": []}
+{"qid": "20260703_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "PS4", "doc_ids": []}
+{"qid": "20240503_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Grime", "doc_ids": []}
+{"qid": "20250131_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Astute-class submarine", "doc_ids": []}
+{"qid": "20260619_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Paul Revere", "doc_ids": []}
+{"qid": "20260626_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Israel", "doc_ids": []}
+{"qid": "20260116_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Hasbro", "doc_ids": []}
+{"qid": "20220715_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Seychelles", "doc_ids": []}
+{"qid": "20230421_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "4:45 a.m. ET", "doc_ids": []}
+{"qid": "20241227_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "$3,995,000", "doc_ids": []}
+{"qid": "20250523_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Chicago", "doc_ids": []}
+{"qid": "20240510_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Met Gala", "doc_ids": []}
+{"qid": "20240906_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Kyiv", "doc_ids": []}
+{"qid": "20220701_28", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Katy B", "doc_ids": []}
+{"qid": "20250711_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "To determine the reason, refer to the document.", "doc_ids": []}
+{"qid": "20251010_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Palisades", "doc_ids": []}
+{"qid": "20230428_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "2016", "doc_ids": []}
+{"qid": "20240209_25", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Compostation", "doc_ids": []}
+{"qid": "20220909_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "ocean acidification and temperature changes", "doc_ids": []}
+{"qid": "20260529_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Drake", "doc_ids": []}
+{"qid": "20231013_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "The Hour", "doc_ids": []}
+{"qid": "20260206_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "3", "doc_ids": []}
+{"qid": "20260619_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Hillbilly Elegy", "doc_ids": []}
+{"qid": "20260605_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "David Lynch", "doc_ids": []}
+{"qid": "20251107_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Valerie Flanagan", "doc_ids": []}
+{"qid": "20220715_20", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Rishi Sunak", "doc_ids": []}
+{"qid": "20220916_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "\"Succession\"", "doc_ids": []}
+{"qid": "20260320_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ukraine", "doc_ids": []}
+{"qid": "20260313_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "10", "doc_ids": []}
+{"qid": "20260612_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Indonesia", "doc_ids": []}
+{"qid": "20240621_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Jaws", "doc_ids": []}
+{"qid": "20250103_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Unknown", "doc_ids": []}
+{"qid": "20241108_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Mark Purnell Settlement", "doc_ids": []}
+{"qid": "20260123_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Arizona", "doc_ids": []}
+{"qid": "20260626_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Dua Lipa", "doc_ids": []}
+{"qid": "20260501_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Las Vegas", "doc_ids": []}
+{"qid": "20250725_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Typhoon Kammuri", "doc_ids": []}
+{"qid": "20241108_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Avengers: Endgame", "doc_ids": []}
+{"qid": "20260522_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Patek Philippe", "doc_ids": []}
+{"qid": "20230421_23", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "political reasons", "doc_ids": []}
+{"qid": "20231222_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "37", "doc_ids": []}
+{"qid": "20230317_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Silicon Valley Bank and Signature Bank", "doc_ids": []}
+{"qid": "20260605_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Marlon Brando", "doc_ids": []}
+{"qid": "20260410_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Term limit", "doc_ids": []}
+{"qid": "20250627_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "14", "doc_ids": []}
+{"qid": "20260327_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Midjourney", "doc_ids": []}
+{"qid": "20230303_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "pitch count", "doc_ids": []}
+{"qid": "20240329_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "India", "doc_ids": []}
+{"qid": "20260703_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "King George III", "doc_ids": []}
+{"qid": "20220715_22", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Somalia", "doc_ids": []}
+{"qid": "20220826_27", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Rory Stewart", "doc_ids": []}
+{"qid": "20260206_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Sports Climbing", "doc_ids": []}
+{"qid": "20260130_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "El Paso", "doc_ids": []}
+{"qid": "20220708_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Healthcare Advocates", "doc_ids": []}
+{"qid": "20230519_21", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Fox News", "doc_ids": []}
+{"qid": "20220805_24", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "14", "doc_ids": []}
+{"qid": "20260320_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "ground beef", "doc_ids": []}
+{"qid": "20260605_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New Jersey", "doc_ids": []}
+{"qid": "20260515_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New Mexico", "doc_ids": []}
+{"qid": "20240216_25", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "The Willows on Delaware Bay", "doc_ids": []}
+{"qid": "20250321_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Diana's ring", "doc_ids": []}
+{"qid": "20240726_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Beowulf", "doc_ids": []}
+{"qid": "20250905_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "reform", "doc_ids": []}
+{"qid": "20231103_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "3", "doc_ids": []}
+{"qid": "20260220_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Prince Harry", "doc_ids": []}
+{"qid": "20220624_28", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Moldova", "doc_ids": []}
+{"qid": "20260206_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Netherlands", "doc_ids": []}
+{"qid": "20260605_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Qibla Mosque", "doc_ids": []}
+{"qid": "20260410_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "The Handmaid's Tale", "doc_ids": []}
+{"qid": "20220805_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "false and malicious statements", "doc_ids": []}
+{"qid": "20250613_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Mol\u00e9 Verde", "doc_ids": []}
+{"qid": "20231201_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "to come back", "doc_ids": []}
+{"qid": "20240607_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Zulresso", "doc_ids": []}
+{"qid": "20220902_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Moon", "doc_ids": []}
+{"qid": "20250124_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Derecho", "doc_ids": []}
+{"qid": "20260213_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Kansas City Chiefs", "doc_ids": []}
+{"qid": "20260403_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "United States", "doc_ids": []}
+{"qid": "20220708_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "T-rex", "doc_ids": []}
+{"qid": "20260626_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "President", "doc_ids": []}
+{"qid": "20221223_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Bahamas", "doc_ids": []}
+{"qid": "20260410_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Seoul", "doc_ids": []}
+{"qid": "20260320_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "travel surge", "doc_ids": []}
+{"qid": "20260619_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "South Korea", "doc_ids": []}
+{"qid": "20260529_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Not specified", "doc_ids": []}
+{"qid": "20220722_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "toilet paper", "doc_ids": []}
+{"qid": "20260703_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Denmark", "doc_ids": []}
+{"qid": "20231103_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Friends", "doc_ids": []}
+{"qid": "20250606_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "public health concern", "doc_ids": []}
+{"qid": "20240308_23", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "31,657.92", "doc_ids": []}
+{"qid": "20260522_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Jean-Michel Basquiat", "doc_ids": []}
+{"qid": "20231215_26", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "113.7 million", "doc_ids": []}
+{"qid": "20240607_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Hajj", "doc_ids": []}
+{"qid": "20260424_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "John Keats", "doc_ids": []}
+{"qid": "20260605_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "The Obelisk", "doc_ids": []}
+{"qid": "20230106_29", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "wind", "doc_ids": []}
+{"qid": "20260410_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Not specified", "doc_ids": []}
+{"qid": "20260626_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Supreme Court", "doc_ids": []}
+{"qid": "20230922_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "White-tailed deer", "doc_ids": []}
+{"qid": "20220819_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Days of Our Lives", "doc_ids": []}
+{"qid": "20230901_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "November 5, 2023", "doc_ids": []}
+{"qid": "20260306_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Colombia", "doc_ids": []}
+{"qid": "20240913_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Darth Vader", "doc_ids": []}
+{"qid": "20221202_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "2011", "doc_ids": []}
+{"qid": "20250307_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Hungary", "doc_ids": []}
+{"qid": "20260522_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "State Fair of Texas", "doc_ids": []}
+{"qid": "20260320_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "nor'easter", "doc_ids": []}
+{"qid": "20220916_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Messages app updates", "doc_ids": []}
+{"qid": "20230317_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Apple TV+", "doc_ids": []}
+{"qid": "20250131_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New York Yankees", "doc_ids": []}
+{"qid": "20220902_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Kennedy Space Center", "doc_ids": []}
+{"qid": "20260123_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Concorde", "doc_ids": []}
+{"qid": "20221111_21", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Raheem Sterling", "doc_ids": []}
+{"qid": "20240510_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Russia", "doc_ids": []}
+{"qid": "20250711_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "XPal Party", "doc_ids": []}
+{"qid": "20260522_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Cincinnati", "doc_ids": []}
+{"qid": "20260327_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Jimmy Kimmel", "doc_ids": []}
+{"qid": "20250509_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Hair straighteners", "doc_ids": []}
+{"qid": "20240802_24", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "health care providers' obligations to report suspected child abuse", "doc_ids": []}
+{"qid": "20260522_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Germany", "doc_ids": []}
+{"qid": "20260515_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Los Angeles", "doc_ids": []}
+{"qid": "20260501_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "NATO leaders", "doc_ids": []}
+{"qid": "20240315_22", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "to reduce fuel load and prevent larger wildfires.", "doc_ids": []}
+{"qid": "20260213_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Canada", "doc_ids": []}
+{"qid": "20240726_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "137,000 km", "doc_ids": []}
+{"qid": "20260703_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Francis Scott Key", "doc_ids": []}
+{"qid": "20220902_25", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Fran\u00e7ois Hollande", "doc_ids": []}
+{"qid": "20260529_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New York and California", "doc_ids": []}
+{"qid": "20260320_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Drought", "doc_ids": []}
+{"qid": "20231110_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ukraine", "doc_ids": []}
+{"qid": "20250627_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Al Nassr", "doc_ids": []}
+{"qid": "20260501_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Data not available in provided context.", "doc_ids": []}
+{"qid": "20260529_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "BP", "doc_ids": []}
+{"qid": "20230428_22", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Jaffa Cakes", "doc_ids": []}
+{"qid": "20260213_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "nicotine", "doc_ids": []}
+{"qid": "20230324_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New York City", "doc_ids": []}
+{"qid": "20260529_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Thailand", "doc_ids": []}
+{"qid": "20230818_25", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "early childhood education and development", "doc_ids": []}
+{"qid": "20251219_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "NBC News", "doc_ids": []}
+{"qid": "20221118_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Moon", "doc_ids": []}
+{"qid": "20220812_21", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Pizza Hut", "doc_ids": []}
+{"qid": "20260206_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "boxing", "doc_ids": []}
+{"qid": "20260410_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Vampyroteuthis infernalis", "doc_ids": []}
+{"qid": "20260703_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Philadelphia", "doc_ids": []}
+{"qid": "20260116_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "sports drinks", "doc_ids": []}
+{"qid": "20220708_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Argentina", "doc_ids": []}
+{"qid": "20250411_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Michael Jordon", "doc_ids": []}
+{"qid": "20231117_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Office of Government Ethics", "doc_ids": []}
+{"qid": "20220819_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Fall 2022", "doc_ids": []}
+{"qid": "20230324_27", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "4", "doc_ids": []}
+{"qid": "20260403_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Taylor Swift", "doc_ids": []}
+{"qid": "20260327_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Autonomous vehicle", "doc_ids": []}
+{"qid": "20240223_29", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Cactus Jack", "doc_ids": []}
+{"qid": "20251031_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Federal employees", "doc_ids": []}
+{"qid": "20260612_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Britney Spears", "doc_ids": []}
+{"qid": "20260417_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Venezuela", "doc_ids": []}
+{"qid": "20260417_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Coachella", "doc_ids": []}
+{"qid": "20220715_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "10 billion USD", "doc_ids": []}
+{"qid": "20251212_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "financial strain", "doc_ids": []}
+{"qid": "20230915_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "47%", "doc_ids": []}
+{"qid": "20260515_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ed Sheeran", "doc_ids": []}
+{"qid": "20220729_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Yellowstone National Park", "doc_ids": []}
+{"qid": "20220805_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Mookie Betts", "doc_ids": []}
+{"qid": "20251226_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Japan", "doc_ids": []}
+{"qid": "20220902_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "65.7%", "doc_ids": []}
+{"qid": "20230825_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New Delhi", "doc_ids": []}
+{"qid": "20230811_29", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "high operating costs", "doc_ids": []}
+{"qid": "20230224_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New Orleans", "doc_ids": []}
+{"qid": "20250822_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Mixed", "doc_ids": []}
+{"qid": "20250228_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Holi", "doc_ids": []}
+{"qid": "20231117_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Sajid Javid", "doc_ids": []}
+{"qid": "20231215_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "AI Developments", "doc_ids": []}
+{"qid": "20260403_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Changsha", "doc_ids": []}
+{"qid": "20260703_31", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Challenger", "doc_ids": []}
+{"qid": "20220624_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "R. Kelly", "doc_ids": []}
+{"qid": "20241206_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "playlist", "doc_ids": []}
+{"qid": "20221202_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Romanian Prime Minister Nicolae Ciuc\u0103", "doc_ids": []}
+{"qid": "20260320_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "\"Everything Everywhere All At Once\"", "doc_ids": []}
+{"qid": "20260703_26", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Motion picture camera", "doc_ids": []}
+{"qid": "20260213_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Quebec", "doc_ids": []}
+{"qid": "20260529_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Australia", "doc_ids": []}
+{"qid": "20240419_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Phoenix", "doc_ids": []}
+{"qid": "20240628_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Indigo Airlines", "doc_ids": []}
+{"qid": "20230224_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "iPhone", "doc_ids": []}
+{"qid": "20260424_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "El Salvador", "doc_ids": []}
+{"qid": "20260410_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "NBC", "doc_ids": []}
+{"qid": "20260612_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Long Day's Journey into Night", "doc_ids": []}
+{"qid": "20250725_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "7,000", "doc_ids": []}
+{"qid": "20250509_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Kamala Harris", "doc_ids": []}
+{"qid": "20250704_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Francis Scott Key", "doc_ids": []}
+{"qid": "20260327_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "LaGuardia Airport", "doc_ids": []}
+{"qid": "20260130_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Mexico", "doc_ids": []}
+{"qid": "20260508_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Norovirus", "doc_ids": []}
+{"qid": "20240510_23", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "It died.", "doc_ids": []}
+{"qid": "20241206_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Frozen II", "doc_ids": []}
+{"qid": "20220909_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Apple Watch Ultra", "doc_ids": []}
+{"qid": "20260626_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Miroslav Klose", "doc_ids": []}
+{"qid": "20250509_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Signal", "doc_ids": []}
+{"qid": "20221230_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "$4.00/gallon", "doc_ids": []}
+{"qid": "20250124_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Singapore", "doc_ids": []}
+{"qid": "20221021_29", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Piers Morgan", "doc_ids": []}
+{"qid": "20260130_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "United States", "doc_ids": []}
+{"qid": "20230106_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "3%", "doc_ids": []}
+{"qid": "20250704_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Santorini", "doc_ids": []}
+{"qid": "20260626_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "original 13 colonies", "doc_ids": []}
+{"qid": "20221216_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New Orleans", "doc_ids": []}
+{"qid": "20250704_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "France", "doc_ids": []}
+{"qid": "20230602_28", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Galaxy", "doc_ids": []}
+{"qid": "20260619_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "DineEquity", "doc_ids": []}
+{"qid": "20230929_27", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "threatening behavior", "doc_ids": []}
+{"qid": "20260123_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "No specific event documented.", "doc_ids": []}
+{"qid": "20260703_24", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "5 days", "doc_ids": []}
+{"qid": "20250221_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Atlanta", "doc_ids": []}
+{"qid": "20260605_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "60 Minutes", "doc_ids": []}
+{"qid": "20220916_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Donbass", "doc_ids": []}
+{"qid": "20260206_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Alpine skiing", "doc_ids": []}
+{"qid": "20260130_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Tesla", "doc_ids": []}
+{"qid": "20260320_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "US Customs and Border Protection", "doc_ids": []}
+{"qid": "20231117_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Festival of Lights", "doc_ids": []}
+{"qid": "20230217_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "False", "doc_ids": []}
+{"qid": "20240913_21", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "become the first openly transgender person elected to Congress from Delaware", "doc_ids": []}
+{"qid": "20240802_21", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Christiana Care Health System", "doc_ids": []}
+{"qid": "20231027_28", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Search for food and shelter", "doc_ids": []}
+{"qid": "20260703_27", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "19th", "doc_ids": []}
+{"qid": "20220701_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "suspended players for wearing unapproved cleats", "doc_ids": []}
+{"qid": "20260403_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Lettuce", "doc_ids": []}
+{"qid": "20260306_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Summit for Democracy", "doc_ids": []}
+{"qid": "20240823_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Tom Cruise and Katie Holmes", "doc_ids": []}
+{"qid": "20230217_25", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Andr\u00e9 Gomes", "doc_ids": []}
+{"qid": "20250530_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Naftali Bennett", "doc_ids": []}
+{"qid": "20231103_26", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Wally was a mascot.", "doc_ids": []}
+{"qid": "20250801_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "India", "doc_ids": []}
+{"qid": "20221223_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "7", "doc_ids": []}
+{"qid": "20221104_27", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "energy crisis", "doc_ids": []}
+{"qid": "20230317_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "UC Irvine", "doc_ids": []}
+{"qid": "20260424_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "$12 billion", "doc_ids": []}
+{"qid": "20260109_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "6", "doc_ids": []}
+{"qid": "20250117_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "toilet paper", "doc_ids": []}
+{"qid": "20221104_29", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Elon Musk", "doc_ids": []}
+{"qid": "20220701_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "American crocodile", "doc_ids": []}
+{"qid": "20260515_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Lincoln Memorial", "doc_ids": []}
+{"qid": "20221118_21", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Whitney Houston", "doc_ids": []}
+{"qid": "20260109_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "routine HPV vaccination", "doc_ids": []}
+{"qid": "20220805_23", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ksenia Sobchak", "doc_ids": []}
+{"qid": "20240322_28", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "$1,500,000", "doc_ids": []}
+{"qid": "20250711_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Pakistan", "doc_ids": []}
+{"qid": "20240621_21", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Eastern Copperhead", "doc_ids": []}
+{"qid": "20250627_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Miami Heat", "doc_ids": []}
+{"qid": "20250314_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "playing with matches", "doc_ids": []}
+{"qid": "20260410_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Mac Miller", "doc_ids": []}
+{"qid": "20230310_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "8", "doc_ids": []}
+{"qid": "20260612_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Paris", "doc_ids": []}
+{"qid": "20260313_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Wings", "doc_ids": []}
+{"qid": "20240531_20", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Unlawful possession of a firearm", "doc_ids": []}
+{"qid": "20240510_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ricardo Martinelli", "doc_ids": []}
+{"qid": "20260605_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ecuador", "doc_ids": []}
+{"qid": "20260619_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Philadelphia Eagles", "doc_ids": []}
+{"qid": "20260220_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Elon Musk", "doc_ids": []}
+{"qid": "20260626_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Thomas Jefferson", "doc_ids": []}
+{"qid": "20220819_27", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "cycle helmets", "doc_ids": []}
+{"qid": "20230908_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Texas", "doc_ids": []}
+{"qid": "20260116_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "California and New York", "doc_ids": []}
+{"qid": "20260612_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "15%", "doc_ids": []}
+{"qid": "20230224_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Tom Brady", "doc_ids": []}
+{"qid": "20260515_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "The Great Wall", "doc_ids": []}
+{"qid": "20240531_23", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Delaware City Charter", "doc_ids": []}
+{"qid": "20220923_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "We will not end up where Europe is right now with this virus.", "doc_ids": []}
+{"qid": "20250411_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ukrainian", "doc_ids": []}
+{"qid": "20230127_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Vreni Schneider", "doc_ids": []}
+{"qid": "20260619_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "75", "doc_ids": []}
+{"qid": "20231013_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Rudy Giuliani", "doc_ids": []}
+{"qid": "20260109_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "El Paso", "doc_ids": []}
+{"qid": "20240906_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "retail", "doc_ids": []}
+{"qid": "20240719_29", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Asheville and Savannah", "doc_ids": []}
+{"qid": "20220902_20", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Nelson Mandela", "doc_ids": []}
+{"qid": "20250314_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "single", "doc_ids": []}
+{"qid": "20260703_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "crack", "doc_ids": []}
+{"qid": "20260410_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "1.7 births per woman", "doc_ids": []}
+{"qid": "20260306_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "type 2 diabetes", "doc_ids": []}
+{"qid": "20230224_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "0", "doc_ids": []}
+{"qid": "20240816_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Perseverance rover findings", "doc_ids": []}
+{"qid": "20260605_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Chicago", "doc_ids": []}
+{"qid": "20221021_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Germany", "doc_ids": []}
+{"qid": "20250516_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "cell phones", "doc_ids": []}
+{"qid": "20230203_20", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "squid", "doc_ids": []}
+{"qid": "20240419_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "National Museum of Brazil", "doc_ids": []}
+{"qid": "20221104_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Yankees", "doc_ids": []}
+{"qid": "20260424_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Jeffrey Lord", "doc_ids": []}
+{"qid": "20260501_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "North Carolina", "doc_ids": []}
+{"qid": "20230407_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Sweden", "doc_ids": []}
+{"qid": "20250404_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "24", "doc_ids": []}
+{"qid": "20250815_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "health insurance", "doc_ids": []}
+{"qid": "20260116_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Grammy Awards", "doc_ids": []}
+{"qid": "20260227_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Mexico", "doc_ids": []}
+{"qid": "20220930_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "high gas prices", "doc_ids": []}
+{"qid": "20260213_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Washington, D.C.", "doc_ids": []}
+{"qid": "20220708_20", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "15", "doc_ids": []}
+{"qid": "20260508_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Dolphins", "doc_ids": []}
+{"qid": "20260529_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Mazda", "doc_ids": []}
+{"qid": "20240524_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Thomas Edison High School", "doc_ids": []}
+{"qid": "20220930_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "1.99", "doc_ids": []}
+{"qid": "20260206_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Quad King", "doc_ids": []}
+{"qid": "20251205_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Winter storm", "doc_ids": []}
+{"qid": "20240223_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Arizona", "doc_ids": []}
+{"qid": "20260417_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "10", "doc_ids": []}
+{"qid": "20240705_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ethiopia", "doc_ids": []}
+{"qid": "20260313_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "90 minutes", "doc_ids": []}
+{"qid": "20240823_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Marc Grossman", "doc_ids": []}
+{"qid": "20230901_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Sunisa Lee", "doc_ids": []}
+{"qid": "20250815_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Larry King Live", "doc_ids": []}
+{"qid": "20231027_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "45%", "doc_ids": []}
+{"qid": "20220826_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "17", "doc_ids": []}
+{"qid": "20241213_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Fortnite", "doc_ids": []}
+{"qid": "20260619_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Convenience stores", "doc_ids": []}
+{"qid": "20260508_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Sun Country Airlines", "doc_ids": []}
+{"qid": "20220715_25", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "eco-tax reform", "doc_ids": []}
+{"qid": "20260522_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Vermont Stafford Amusement Park", "doc_ids": []}
+{"qid": "20230428_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "loss of taste and smell", "doc_ids": []}
+{"qid": "20260227_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Nor'easter", "doc_ids": []}
+{"qid": "20260227_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Child Tax Credit", "doc_ids": []}
+{"qid": "20221125_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "36 inches", "doc_ids": []}
+{"qid": "20260703_34", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Independence Day", "doc_ids": []}
+{"qid": "20260501_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Apple and Epic Games", "doc_ids": []}
+{"qid": "20250509_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Dear Evan Hansen", "doc_ids": []}
+{"qid": "20260227_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "6", "doc_ids": []}
+{"qid": "20241101_25", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Black cat", "doc_ids": []}
+{"qid": "20250711_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Alpine", "doc_ids": []}
+{"qid": "20231117_29", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "root cause was a shortage of larger trees", "doc_ids": []}
+{"qid": "20250404_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Nintendo Switch Lite", "doc_ids": []}
+{"qid": "20220819_22", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Black Panther cast and crew", "doc_ids": []}
+{"qid": "20250221_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "5%", "doc_ids": []}
+{"qid": "20260417_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "10", "doc_ids": []}
+{"qid": "20240105_29", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "$360 million", "doc_ids": []}
+{"qid": "20230120_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Georgia and Tennessee", "doc_ids": []}
+{"qid": "20240105_25", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Princeton 76, Delaware 68", "doc_ids": []}
+{"qid": "20260522_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Death Valley, California", "doc_ids": []}
+{"qid": "20250905_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Joe Biden", "doc_ids": []}
+{"qid": "20260612_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Katie Pavlich", "doc_ids": []}
+{"qid": "20260417_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New York", "doc_ids": []}
+{"qid": "20240524_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "American Airlines", "doc_ids": []}
+{"qid": "20260626_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "House of Representatives and Senate", "doc_ids": []}
+{"qid": "20240517_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Netherlands", "doc_ids": []}
+{"qid": "20260501_19", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Spirit Airlines", "doc_ids": []}
+{"qid": "20260605_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "A Quiet Place Part II", "doc_ids": []}
+{"qid": "20240301_27", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Sexual Abuse Scandal", "doc_ids": []}
+{"qid": "20240223_22", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "to improve student outcomes", "doc_ids": []}
+{"qid": "20260424_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ukraine", "doc_ids": []}
+{"qid": "20260417_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Vincent van Gogh", "doc_ids": []}
+{"qid": "20240209_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "5", "doc_ids": []}
+{"qid": "20260605_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "go through security screening", "doc_ids": []}
+{"qid": "20260626_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "27", "doc_ids": []}
+{"qid": "20230811_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "datejacking", "doc_ids": []}
+{"qid": "20260508_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Mexican Army's victory over France at the Battle of Puebla", "doc_ids": []}
+{"qid": "20260626_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Spain", "doc_ids": []}
+{"qid": "20240426_20", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Trevon McKinley", "doc_ids": []}
+{"qid": "20240510_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "chimpanzee", "doc_ids": []}
+{"qid": "20240906_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Sonia Sotomayor", "doc_ids": []}
+{"qid": "20240816_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "University of Hong Kong", "doc_ids": []}
+{"qid": "20220701_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "2", "doc_ids": []}
+{"qid": "20240614_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Colonial Pipeline", "doc_ids": []}
+{"qid": "20230224_6", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "volcanic ash cloud", "doc_ids": []}
+{"qid": "20240301_22", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Delaware Agricultural Museum & Village", "doc_ids": []}
+{"qid": "20221118_20", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "United Arab Emirates", "doc_ids": []}
+{"qid": "20260116_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Dilbert", "doc_ids": []}
+{"qid": "20220916_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "colon cancer screening", "doc_ids": []}
+{"qid": "20240503_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "CNN", "doc_ids": []}
+{"qid": "20240809_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "John F. Kerry", "doc_ids": []}
+{"qid": "20260515_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Belgium", "doc_ids": []}
+{"qid": "20241108_20", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "January 20, 2025", "doc_ids": []}
+{"qid": "20220819_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Janmashtami", "doc_ids": []}
+{"qid": "20250801_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Netherlands", "doc_ids": []}
+{"qid": "20260612_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Oklahoma", "doc_ids": []}
+{"qid": "20260130_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ivanka Trump", "doc_ids": []}
+{"qid": "20250718_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Smokey Bear", "doc_ids": []}
+{"qid": "20220902_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Threads", "doc_ids": []}
+{"qid": "20250314_1", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Southwest Airlines", "doc_ids": []}
+{"qid": "20221007_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "California", "doc_ids": []}
+{"qid": "20260522_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "92%", "doc_ids": []}
+{"qid": "20230331_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Amazon", "doc_ids": []}
+{"qid": "20260626_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "1776-07-04", "doc_ids": []}
+{"qid": "20260529_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Eid al-Fitr", "doc_ids": []}
+{"qid": "20260619_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Bill", "doc_ids": []}
+{"qid": "20260703_20", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "American bison", "doc_ids": []}
+{"qid": "20240726_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "1900", "doc_ids": []}
+{"qid": "20240906_27", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Fall 2023", "doc_ids": []}
+{"qid": "20260123_8", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Australia", "doc_ids": []}
+{"qid": "20260501_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "$10 bill", "doc_ids": []}
+{"qid": "20230120_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "119", "doc_ids": []}
+{"qid": "20240209_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Chinese New Year", "doc_ids": []}
+{"qid": "20250328_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "offensive", "doc_ids": []}
+{"qid": "20240412_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Spirit Airlines", "doc_ids": []}
+{"qid": "20250110_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Meta", "doc_ids": []}
+{"qid": "20221202_11", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "1984", "doc_ids": []}
+{"qid": "20260508_2", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Arthur Miller", "doc_ids": []}
+{"qid": "20260327_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Department of Homeland Security personnel", "doc_ids": []}
+{"qid": "20260522_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "The View", "doc_ids": []}
+{"qid": "20260313_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "The Silence of the Lambs", "doc_ids": []}
+{"qid": "20260227_9", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Australia", "doc_ids": []}
+{"qid": "20240913_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Davon Godchaux", "doc_ids": []}
+{"qid": "20260417_17", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Joe Biden", "doc_ids": []}
+{"qid": "20231208_23", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Dogfish Head and DuClaw", "doc_ids": []}
+{"qid": "20250815_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Helsinki, Finland", "doc_ids": []}
+{"qid": "20230421_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "FOX News", "doc_ids": []}
+{"qid": "20250307_16", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Mexico and Canada", "doc_ids": []}
+{"qid": "20260410_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "California red-legged frog", "doc_ids": []}
+{"qid": "20230609_21", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Apple Vision Pro", "doc_ids": []}
+{"qid": "20241213_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Ashley Tisdale", "doc_ids": []}
+{"qid": "20260529_18", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Porsche", "doc_ids": []}
+{"qid": "20251003_3", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "chimpanzees", "doc_ids": []}
+{"qid": "20260417_5", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "New Zealand", "doc_ids": []}
+{"qid": "20260612_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Jeffrey Epstein's former associate Tom Wright", "doc_ids": []}
+{"qid": "20260703_0", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Andy Murray", "doc_ids": []}
+{"qid": "20230901_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Habitat 75", "doc_ids": []}
+{"qid": "20260206_14", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "187", "doc_ids": []}
+{"qid": "20241129_7", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Papa John's", "doc_ids": []}
+{"qid": "20260612_12", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Cathedral of Christ the King, Abuja", "doc_ids": []}
+{"qid": "20231020_25", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "November 5, 2023", "doc_ids": []}
+{"qid": "20260116_4", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Yemen", "doc_ids": []}
+{"qid": "20250523_15", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "The Bodyguard", "doc_ids": []}
+{"qid": "20250214_10", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "One Dollar Bill", "doc_ids": []}
+{"qid": "20260612_13", "condition": "closed_book", "model": "Qwen/Qwen2.5-7B-Instruct", "prediction": "Spirit Airlines", "doc_ids": []}

@@ -1,0 +1,40 @@
+# FreshBench-RAG — retrieval configuration (REAL run)
+# SOTA retriever suite, all CPU-runnable and downloaded from public checkpoints.
+top_k: 5
+retrievers:
+  bm25:
+    kind: sparse
+    impl: rank_bm25.BM25Okapi
+    k1: 1.5
+    b: 0.75
+  dpr:                                   # classic dense (Karpukhin et al., 2020)
+    kind: dense_dpr
+    q_model: facebook/dpr-question_encoder-multiset-base
+    ctx_model: facebook/dpr-ctx_encoder-multiset-base
+    metric: dot
+  bge:                                   # SOTA modern bi-encoder (MTEB top-tier)
+    kind: dense
+    model: BAAI/bge-base-en-v1.5
+    query_prefix: "Represent this sentence for searching relevant passages: "
+    normalize: true
+    metric: cosine
+  splade:                                # SOTA learned sparse
+    kind: splade
+    model: naver/splade-cocondenser-ensembledistil
+    metric: dot
+  colbert:                               # SOTA late interaction (ColBERT v2)
+    kind: colbert
+    model: colbert-ir/colbertv2.0
+    impl: pylate
+    metric: maxsim
+  hybrid:                                # BM25 + BGE fused via Reciprocal Rank Fusion
+    kind: fusion
+    fuse: [bm25, bge]
+    method: rrf
+    rrf_k: 60
+# Non-retrieval reference conditions:
+special_conditions:
+  - closed_book                          # no docs (parametric / memorized)
+  - oracle                               # question's own gold evidence, unranked: a PROVENANCE
+                                         # reference, NOT an upper bound (Hybrid beats it;
+                                         # 47.7% of questions have no answer-bearing gold)

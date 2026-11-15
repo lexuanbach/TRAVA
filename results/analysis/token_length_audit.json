@@ -1,0 +1,1711 @@
+{
+  "scope": "What did each generator actually see? Prompt-length audit of every cached",
+  "hf_max_length": 1536,
+  "gguf_n_ctx": 2048,
+  "gguf_max_tokens": 32,
+  "llama_cpp_behaviour": {
+    "llama_cpp_python_version": "0.3.34",
+    "source_file": "/opt/homebrew/lib/python3.14/site-packages/llama_cpp/llama.py",
+    "dist_info": "/opt/homebrew/lib/python3.14/site-packages/llama_cpp_python-0.3.34.dist-info",
+    "dist_info_mtime": "2026-07-13T04:37",
+    "over_length_prompt": "RAISES ValueError('Requested tokens (N) exceed context window of 2048') in Llama._create_completion when len(prompt_tokens) >= n_ctx; it does NOT silently truncate the prompt.",
+    "raise_line": 1339,
+    "raise_snippet": "\n        if len(prompt_tokens) >= self._n_ctx:\n            raise ValueError(\n                f\"Requested tokens ({len(prompt_tokens)}) exceed context window of {llama_cpp.llama_n_ctx(self.ctx)}\"\n            )",
+    "near_limit": "If len(prompt_tokens) + max_tokens >= n_ctx, max_tokens is silently reduced to n_ctx - len(prompt_tokens) (answer length cap, prompt intact). With max_tokens=32 this applies to prompts of 2016-2047 tokens.",
+    "clip_line": 1346,
+    "clip_snippet": "        # Truncate max_tokens if requested tokens would exceed the context window\n        max_tokens = (\n            max_tokens\n            if max_tokens + len(prompt_tokens) < self._n_ctx\n            else (self._n_ctx - len(prompt_tokens))\n        )",
+    "script_consequence": "local_generate_gguf.py and gen_gguf_ranked.py call create_chat_completion without try/except, so an over-length prompt would abort the run at that question; the resume logic would hit it again. Every GGUF ranked cache is complete (878 rows), consistent with the counts below."
+  },
+  "tokenizers": {
+    "Qwen/Qwen2.5-7B-Instruct": {
+      "kind": "HF (exact for Qwen; proxy for API models)",
+      "cache": "external-model-cache/hub",
+      "class": "Qwen2Tokenizer",
+      "truncation_side": "right"
+    },
+    "NousResearch/Meta-Llama-3-8B-Instruct": {
+      "kind": "HF (exact)",
+      "cache": "external-model-cache/hub",
+      "class": "TokenizersBackend",
+      "truncation_side": "right"
+    },
+    "lmstudio-community/Mistral-Large-Instruct-2407-GGUF": {
+      "kind": "GGUF vocab via llama_cpp (exact)",
+      "gguf_file": "external-model-cache/hub/models--lmstudio-community--Mistral-Large-Instruct-2407-GGUF/snapshots/e0b81849619f12013742b7b930207f8664b26c6e/Mistral-Large-Instruct-2407-Q4_K_M-00001-of-00002.gguf",
+      "chat_format": "llama-2",
+      "gguf_has_tokenizer_chat_template": false,
+      "rendered_toy_prompt": "<s>[INST] <<SYS>>\n<SYS>\n<</SYS>> <USER> [/INST]",
+      "n_ctx": 2048,
+      "note": "GGUF metadata has no tokenizer.chat_template, so llama-cpp-python fell back to its 'llama-2' chat format ([INST] <<SYS>>..<</SYS>> .. [/INST]) rather than the model's native template. Not a truncation issue, but a prompt-format deviation affecting every llama.cpp generation with this file (closed-book included)."
+    },
+    "Qwen/Qwen2.5-0.5B-Instruct": {
+      "kind": "HF (exact)",
+      "cache": "external-model-cache/hub",
+      "class": "Qwen2Tokenizer",
+      "truncation_side": "right"
+    },
+    "Qwen/Qwen2.5-1.5B-Instruct": {
+      "kind": "HF (exact)",
+      "cache": "external-model-cache/hub",
+      "class": "Qwen2Tokenizer",
+      "truncation_side": "right"
+    },
+    "Qwen/Qwen2.5-32B-Instruct-GGUF": {
+      "kind": "GGUF vocab via llama_cpp (exact)",
+      "gguf_file": "external-model-cache/hub/models--Qwen--Qwen2.5-32B-Instruct-GGUF/snapshots/a15e3cc10f8bbb2c0af6f8f1f34a32e3b060c09d/qwen2.5-32b-instruct-q4_k_m-00001-of-00005.gguf",
+      "chat_format": "chat_template.default",
+      "gguf_has_tokenizer_chat_template": true,
+      "rendered_toy_prompt": "<|im_start|>system\n<SYS><|im_end|>\n<|im_start|>user\n<USER><|im_end|>\n<|im_start|>assistant\n",
+      "n_ctx": 2048
+    },
+    "Qwen/Qwen2.5-3B-Instruct": {
+      "kind": "HF (exact)",
+      "cache": "external-model-cache/hub",
+      "class": "Qwen2Tokenizer",
+      "truncation_side": "right"
+    },
+    "Qwen/Qwen2.5-72B-Instruct-GGUF": {
+      "kind": "GGUF vocab via llama_cpp (exact)",
+      "gguf_file": "external-model-cache/hub/models--Qwen--Qwen2.5-72B-Instruct-GGUF/snapshots/7ca3bc388f97b264c4283bc9bf1055e2abc38441/qwen2.5-72b-instruct-q4_k_m-00001-of-00012.gguf",
+      "chat_format": "chat_template.default",
+      "gguf_has_tokenizer_chat_template": true,
+      "rendered_toy_prompt": "<|im_start|>system\n<SYS><|im_end|>\n<|im_start|>user\n<USER><|im_end|>\n<|im_start|>assistant\n",
+      "n_ctx": 2048
+    }
+  },
+  "conditions": {
+    "haiku/bge": {
+      "generator": "haiku",
+      "condition": "bge",
+      "script": "pipeline/generate.py",
+      "script_evidence": "API model id in rows",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "7985fd8de012fd3d3f02f06c064192c9a64a0abafdef1953435eea7d84141eff",
+      "path": "API",
+      "tokenizer": "PROXY Qwen/Qwen2.5-7B-Instruct",
+      "count_kind": "proxy",
+      "tokens": {
+        "n": 878,
+        "median": 861.0,
+        "p90": 940.0,
+        "max": 1053,
+        "min": 672,
+        "limit": 200000,
+        "n_over_limit": 0,
+        "limit_note": "provider context window"
+      }
+    },
+    "haiku/bm25": {
+      "generator": "haiku",
+      "condition": "bm25",
+      "script": "pipeline/generate.py",
+      "script_evidence": "API model id in rows",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "10e18695f741eec8347734837bd3fb0dfcd2b4c02c112410f908560e6e487f9b",
+      "path": "API",
+      "tokenizer": "PROXY Qwen/Qwen2.5-7B-Instruct",
+      "count_kind": "proxy",
+      "tokens": {
+        "n": 878,
+        "median": 861.0,
+        "p90": 935.0,
+        "max": 1028,
+        "min": 690,
+        "limit": 200000,
+        "n_over_limit": 0,
+        "limit_note": "provider context window"
+      }
+    },
+    "haiku/colbert": {
+      "generator": "haiku",
+      "condition": "colbert",
+      "script": "pipeline/generate.py",
+      "script_evidence": "API model id in rows",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "ad82e1cae5220b44b7bfa5aad19ad680aeb2bbcb2de9aa9d610b02162c9214ab",
+      "path": "API",
+      "tokenizer": "PROXY Qwen/Qwen2.5-7B-Instruct",
+      "count_kind": "proxy",
+      "tokens": {
+        "n": 878,
+        "median": 854.0,
+        "p90": 935.3000000000001,
+        "max": 1047,
+        "min": 672,
+        "limit": 200000,
+        "n_over_limit": 0,
+        "limit_note": "provider context window"
+      }
+    },
+    "haiku/dpr": {
+      "generator": "haiku",
+      "condition": "dpr",
+      "script": "pipeline/generate.py",
+      "script_evidence": "API model id in rows",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "5549f2431393ec858bf5b0b1a161053a18f3b604d2f7ff5b1370a1dcc3e10c95",
+      "path": "API",
+      "tokenizer": "PROXY Qwen/Qwen2.5-7B-Instruct",
+      "count_kind": "proxy",
+      "tokens": {
+        "n": 878,
+        "median": 859.0,
+        "p90": 936.0,
+        "max": 1018,
+        "min": 747,
+        "limit": 200000,
+        "n_over_limit": 0,
+        "limit_note": "provider context window"
+      }
+    },
+    "haiku/hybrid": {
+      "generator": "haiku",
+      "condition": "hybrid",
+      "script": "pipeline/generate.py",
+      "script_evidence": "API model id in rows",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "7ea075c906cb00d72d68b35de12a188da85f6be1783facc64703779e22eb5933",
+      "path": "API",
+      "tokenizer": "PROXY Qwen/Qwen2.5-7B-Instruct",
+      "count_kind": "proxy",
+      "tokens": {
+        "n": 878,
+        "median": 859.5,
+        "p90": 938.0,
+        "max": 1053,
+        "min": 672,
+        "limit": 200000,
+        "n_over_limit": 0,
+        "limit_note": "provider context window"
+      }
+    },
+    "haiku/hybrid_masked": {
+      "generator": "haiku",
+      "condition": "hybrid_masked",
+      "script": "pipeline/generate.py",
+      "script_evidence": "API model id in rows",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "42d60919b698f3d8089839b788821db99a01605017b0676714dd3c1964c303ed",
+      "path": "API",
+      "tokenizer": "PROXY Qwen/Qwen2.5-7B-Instruct",
+      "count_kind": "proxy",
+      "tokens": {
+        "n": 878,
+        "median": 856.0,
+        "p90": 935.0,
+        "max": 1053,
+        "min": 672,
+        "limit": 200000,
+        "n_over_limit": 0,
+        "limit_note": "provider context window"
+      }
+    },
+    "haiku/oracle": {
+      "generator": "haiku",
+      "condition": "oracle",
+      "script": "pipeline/generate.py",
+      "script_evidence": "API model id in rows",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 704,
+        "3": 28,
+        "1": 70,
+        "4": 28,
+        "2": 48
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3465,
+      "prompts_sha256": "c0177aaf7637dcb56cbfbbfa1e7d60768baf61d2706fca05143a23cb9f1fbc3e",
+      "path": "API",
+      "tokenizer": "PROXY Qwen/Qwen2.5-7B-Instruct",
+      "count_kind": "proxy",
+      "tokens": {
+        "n": 878,
+        "median": 831.0,
+        "p90": 928.0,
+        "max": 1043,
+        "min": 210,
+        "limit": 200000,
+        "n_over_limit": 0,
+        "limit_note": "provider context window"
+      }
+    },
+    "haiku/splade": {
+      "generator": "haiku",
+      "condition": "splade",
+      "script": "pipeline/generate.py",
+      "script_evidence": "API model id in rows",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "70da99e63edd8a413d91004bb8f4221158fab6290256612fbebff8f7f6058932",
+      "path": "API",
+      "tokenizer": "PROXY Qwen/Qwen2.5-7B-Instruct",
+      "count_kind": "proxy",
+      "tokens": {
+        "n": 878,
+        "median": 854.0,
+        "p90": 934.0,
+        "max": 1046,
+        "min": 671,
+        "limit": 200000,
+        "n_over_limit": 0,
+        "limit_note": "provider context window"
+      }
+    },
+    "gpt4omini/hybrid": {
+      "generator": "gpt4omini",
+      "condition": "hybrid",
+      "script": "pipeline/gen_openai.py",
+      "script_evidence": "API model id in rows",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "gpt-4o-mini"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "113ee16bf9f11c74ba013037d25c0caa08a5befd8be55e356d0a062f05547abf",
+      "path": "API",
+      "tokenizer": "PROXY Qwen/Qwen2.5-7B-Instruct",
+      "count_kind": "proxy",
+      "tokens": {
+        "n": 878,
+        "median": 856.5,
+        "p90": 935.0,
+        "max": 1050,
+        "min": 669,
+        "limit": 128000,
+        "n_over_limit": 0,
+        "limit_note": "provider context window"
+      }
+    },
+    "gpt4omini/hybrid_masked": {
+      "generator": "gpt4omini",
+      "condition": "hybrid_masked",
+      "script": "pipeline/gen_openai.py",
+      "script_evidence": "API model id in rows",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "gpt-4o-mini"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "5cb6f55f4ae0d46aa93e3d4fa78c7f532ffee3869084d44e08d15485a1cf7774",
+      "path": "API",
+      "tokenizer": "PROXY Qwen/Qwen2.5-7B-Instruct",
+      "count_kind": "proxy",
+      "tokens": {
+        "n": 878,
+        "median": 853.0,
+        "p90": 932.0,
+        "max": 1050,
+        "min": 669,
+        "limit": 128000,
+        "n_over_limit": 0,
+        "limit_note": "provider context window"
+      }
+    },
+    "llama3_8b/hybrid": {
+      "generator": "llama3_8b",
+      "condition": "hybrid",
+      "script": "pipeline/local_generate.py",
+      "script_evidence": "HF model id in rows; scripts/run_ladder.sh, run_masked_panel.sh, finish_masked_panel.sh, run_k_ablation.sh, run_extension.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "NousResearch/Meta-Llama-3-8B-Instruct"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "7ea075c906cb00d72d68b35de12a188da85f6be1783facc64703779e22eb5933",
+      "path": "HF transformers",
+      "tokenizer": "NousResearch/Meta-Llama-3-8B-Instruct",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 812.0,
+        "p90": 876.0,
+        "max": 989,
+        "min": 626,
+        "limit": 1536,
+        "n_over_limit": 0,
+        "pct_over_limit": 0.0,
+        "over_limit_behaviour": "silent right truncation (question/assistant turn removed)",
+        "n_over_limit_question_fully_cut": 0
+      },
+      "prediction_words_mean": {
+        "within_limit": 2.33,
+        "over_limit": null
+      }
+    },
+    "llama3_8b/hybrid_masked": {
+      "generator": "llama3_8b",
+      "condition": "hybrid_masked",
+      "script": "pipeline/local_generate.py",
+      "script_evidence": "HF model id in rows; scripts/run_ladder.sh, run_masked_panel.sh, finish_masked_panel.sh, run_k_ablation.sh, run_extension.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "NousResearch/Meta-Llama-3-8B-Instruct"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "42d60919b698f3d8089839b788821db99a01605017b0676714dd3c1964c303ed",
+      "path": "HF transformers",
+      "tokenizer": "NousResearch/Meta-Llama-3-8B-Instruct",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 808.0,
+        "p90": 873.0,
+        "max": 989,
+        "min": 626,
+        "limit": 1536,
+        "n_over_limit": 0,
+        "pct_over_limit": 0.0,
+        "over_limit_behaviour": "silent right truncation (question/assistant turn removed)",
+        "n_over_limit_question_fully_cut": 0
+      },
+      "prediction_words_mean": {
+        "within_limit": 2.38,
+        "over_limit": null
+      }
+    },
+    "mistral_large/hybrid": {
+      "generator": "mistral_large",
+      "condition": "hybrid",
+      "script": "pipeline/gen_gguf_ranked.py",
+      "script_evidence": "scripts/run_mistral_hybrid.sh, run_mistral_controls.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "lmstudio-community/Mistral-Large-Instruct-2407-GGUF"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "7ea075c906cb00d72d68b35de12a188da85f6be1783facc64703779e22eb5933",
+      "path": "llama.cpp",
+      "tokenizer": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 976.0,
+        "p90": 1056.3000000000002,
+        "max": 1182,
+        "min": 746,
+        "limit": 2048,
+        "n_over_limit_would_raise": 0,
+        "n_max_tokens_silently_clipped": 0
+      }
+    },
+    "mistral_large/hybrid_loo": {
+      "generator": "mistral_large",
+      "condition": "hybrid_loo",
+      "script": "pipeline/gen_gguf_ranked.py",
+      "script_evidence": "scripts/run_mistral_hybrid.sh, run_mistral_controls.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "lmstudio-community/Mistral-Large-Instruct-2407-GGUF"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "371f1be5d33b51420a8a0f894c4253b695786a301e248a5c71fa8b9e4e77a01d",
+      "path": "llama.cpp",
+      "tokenizer": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 976.0,
+        "p90": 1051.0,
+        "max": 1181,
+        "min": 840,
+        "limit": 2048,
+        "n_over_limit_would_raise": 0,
+        "n_max_tokens_silently_clipped": 0
+      }
+    },
+    "mistral_large/hybrid_masked": {
+      "generator": "mistral_large",
+      "condition": "hybrid_masked",
+      "script": "pipeline/local_generate_gguf.py",
+      "script_evidence": "GGUF repo id in rows; data/generate_32b*.log, generate_72b*.log, scripts/run_masked_panel.sh, finish_masked_panel.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "lmstudio-community/Mistral-Large-Instruct-2407-GGUF"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "42d60919b698f3d8089839b788821db99a01605017b0676714dd3c1964c303ed",
+      "path": "llama.cpp",
+      "tokenizer": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 971.5,
+        "p90": 1053.0,
+        "max": 1182,
+        "min": 746,
+        "limit": 2048,
+        "n_over_limit_would_raise": 0,
+        "n_max_tokens_silently_clipped": 0
+      }
+    },
+    "mistral_large/hybrid_stale": {
+      "generator": "mistral_large",
+      "condition": "hybrid_stale",
+      "script": "pipeline/gen_gguf_ranked.py",
+      "script_evidence": "scripts/run_mistral_hybrid.sh, run_mistral_controls.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "lmstudio-community/Mistral-Large-Instruct-2407-GGUF"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "43e675ab853bb1f1711bc6c2268c95c84fbeb5d9e4e527045bb581603369221a",
+      "path": "llama.cpp",
+      "tokenizer": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 963.0,
+        "p90": 1041.0,
+        "max": 1182,
+        "min": 746,
+        "limit": 2048,
+        "n_over_limit_would_raise": 0,
+        "n_max_tokens_silently_clipped": 0
+      }
+    },
+    "qwen/bm25": {
+      "generator": "qwen",
+      "condition": "bm25",
+      "script": "pipeline/local_generate.py",
+      "script_evidence": "HF model id in rows; scripts/run_ladder.sh, run_masked_panel.sh, finish_masked_panel.sh, run_k_ablation.sh, run_extension.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-0.5B-Instruct"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "10e18695f741eec8347734837bd3fb0dfcd2b4c02c112410f908560e6e487f9b",
+      "path": "HF transformers",
+      "tokenizer": "Qwen/Qwen2.5-0.5B-Instruct",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 858.0,
+        "p90": 932.0,
+        "max": 1025,
+        "min": 687,
+        "limit": 1536,
+        "n_over_limit": 0,
+        "pct_over_limit": 0.0,
+        "over_limit_behaviour": "silent right truncation (question/assistant turn removed)",
+        "n_over_limit_question_fully_cut": 0
+      },
+      "prediction_words_mean": {
+        "within_limit": 2.33,
+        "over_limit": null
+      }
+    },
+    "qwen1_5b/hybrid": {
+      "generator": "qwen1_5b",
+      "condition": "hybrid",
+      "script": "pipeline/local_generate.py",
+      "script_evidence": "HF model id in rows; scripts/run_ladder.sh, run_masked_panel.sh, finish_masked_panel.sh, run_k_ablation.sh, run_extension.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-1.5B-Instruct"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "7ea075c906cb00d72d68b35de12a188da85f6be1783facc64703779e22eb5933",
+      "path": "HF transformers",
+      "tokenizer": "Qwen/Qwen2.5-1.5B-Instruct",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 856.5,
+        "p90": 935.0,
+        "max": 1050,
+        "min": 669,
+        "limit": 1536,
+        "n_over_limit": 0,
+        "pct_over_limit": 0.0,
+        "over_limit_behaviour": "silent right truncation (question/assistant turn removed)",
+        "n_over_limit_question_fully_cut": 0
+      },
+      "prediction_words_mean": {
+        "within_limit": 2.09,
+        "over_limit": null
+      }
+    },
+    "qwen1_5b/hybrid_masked": {
+      "generator": "qwen1_5b",
+      "condition": "hybrid_masked",
+      "script": "pipeline/local_generate.py",
+      "script_evidence": "HF model id in rows; scripts/run_ladder.sh, run_masked_panel.sh, finish_masked_panel.sh, run_k_ablation.sh, run_extension.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-1.5B-Instruct"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "42d60919b698f3d8089839b788821db99a01605017b0676714dd3c1964c303ed",
+      "path": "HF transformers",
+      "tokenizer": "Qwen/Qwen2.5-1.5B-Instruct",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 853.0,
+        "p90": 932.0,
+        "max": 1050,
+        "min": 669,
+        "limit": 1536,
+        "n_over_limit": 0,
+        "pct_over_limit": 0.0,
+        "over_limit_behaviour": "silent right truncation (question/assistant turn removed)",
+        "n_over_limit_question_fully_cut": 0
+      },
+      "prediction_words_mean": {
+        "within_limit": 2.07,
+        "over_limit": null
+      }
+    },
+    "qwen1_5b/hybrid_masked_k10": {
+      "generator": "qwen1_5b",
+      "condition": "hybrid_masked_k10",
+      "script": "pipeline/local_generate.py",
+      "script_evidence": "HF model id in rows; scripts/run_ladder.sh, run_masked_panel.sh, finish_masked_panel.sh, run_k_ablation.sh, run_extension.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-1.5B-Instruct"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "10": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 6694,
+      "prompts_sha256": "f29fcb59fd2a835a1c617f19ce009bb94820bf214628ef2f64f3e4121f98c054",
+      "path": "HF transformers",
+      "tokenizer": "Qwen/Qwen2.5-1.5B-Instruct",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 1594.0,
+        "p90": 1734.6000000000001,
+        "max": 1968,
+        "min": 1271,
+        "limit": 1536,
+        "n_over_limit": 639,
+        "pct_over_limit": 72.8,
+        "over_limit_behaviour": "silent right truncation (question/assistant turn removed)",
+        "n_over_limit_question_fully_cut": 480
+      },
+      "prediction_words_mean": {
+        "within_limit": 2.47,
+        "over_limit": 18.98
+      }
+    },
+    "qwen1_5b/hybrid_masked_k3": {
+      "generator": "qwen1_5b",
+      "condition": "hybrid_masked_k3",
+      "script": "pipeline/local_generate.py",
+      "script_evidence": "HF model id in rows; scripts/run_ladder.sh, run_masked_panel.sh, finish_masked_panel.sh, run_k_ablation.sh, run_extension.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-1.5B-Instruct"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "3": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 2360,
+      "prompts_sha256": "bcc38ace424c2f24a76931ebfe316d1708a6a50571e9dbea074ff71d7443f0e9",
+      "path": "HF transformers",
+      "tokenizer": "Qwen/Qwen2.5-1.5B-Instruct",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 557.0,
+        "p90": 609.0,
+        "max": 697,
+        "min": 426,
+        "limit": 1536,
+        "n_over_limit": 0,
+        "pct_over_limit": 0.0,
+        "over_limit_behaviour": "silent right truncation (question/assistant turn removed)",
+        "n_over_limit_question_fully_cut": 0
+      },
+      "prediction_words_mean": {
+        "within_limit": 1.94,
+        "over_limit": null
+      }
+    },
+    "qwen32b/bge": {
+      "generator": "qwen32b",
+      "condition": "bge",
+      "script": "pipeline/local_generate_gguf.py",
+      "script_evidence": "GGUF repo id in rows; data/generate_32b*.log, generate_72b*.log, scripts/run_masked_panel.sh, finish_masked_panel.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-32B-Instruct-GGUF"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "7985fd8de012fd3d3f02f06c064192c9a64a0abafdef1953435eea7d84141eff",
+      "path": "llama.cpp",
+      "tokenizer": "Qwen/Qwen2.5-32B-Instruct-GGUF",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 858.0,
+        "p90": 937.0,
+        "max": 1050,
+        "min": 669,
+        "limit": 2048,
+        "n_over_limit_would_raise": 0,
+        "n_max_tokens_silently_clipped": 0
+      }
+    },
+    "qwen32b/bm25": {
+      "generator": "qwen32b",
+      "condition": "bm25",
+      "script": "pipeline/local_generate_gguf.py",
+      "script_evidence": "GGUF repo id in rows; data/generate_32b*.log, generate_72b*.log, scripts/run_masked_panel.sh, finish_masked_panel.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-32B-Instruct-GGUF"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "10e18695f741eec8347734837bd3fb0dfcd2b4c02c112410f908560e6e487f9b",
+      "path": "llama.cpp",
+      "tokenizer": "Qwen/Qwen2.5-32B-Instruct-GGUF",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 858.0,
+        "p90": 932.0,
+        "max": 1025,
+        "min": 687,
+        "limit": 2048,
+        "n_over_limit_would_raise": 0,
+        "n_max_tokens_silently_clipped": 0
+      }
+    },
+    "qwen32b/bm25_full": {
+      "generator": "qwen32b",
+      "condition": "bm25_full",
+      "script": "pipeline/gen_gguf_ranked.py",
+      "script_evidence": "scripts/run_distractor_32b.sh (--corpus corpus_full.jsonl)",
+      "corpus": "corpus_full.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-32B-Instruct-GGUF"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "9b2547258946ec0a3b73ae780364f60bb805cf0a91adaee8aea3aaf96aee22d2",
+      "path": "llama.cpp",
+      "tokenizer": "Qwen/Qwen2.5-32B-Instruct-GGUF",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 842.0,
+        "p90": 910.0,
+        "max": 1024,
+        "min": 705,
+        "limit": 2048,
+        "n_over_limit_would_raise": 0,
+        "n_max_tokens_silently_clipped": 0
+      }
+    },
+    "qwen32b/colbert": {
+      "generator": "qwen32b",
+      "condition": "colbert",
+      "script": "pipeline/local_generate_gguf.py",
+      "script_evidence": "GGUF repo id in rows; data/generate_32b*.log, generate_72b*.log, scripts/run_masked_panel.sh, finish_masked_panel.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-32B-Instruct-GGUF"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "ad82e1cae5220b44b7bfa5aad19ad680aeb2bbcb2de9aa9d610b02162c9214ab",
+      "path": "llama.cpp",
+      "tokenizer": "Qwen/Qwen2.5-32B-Instruct-GGUF",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 851.0,
+        "p90": 933.3000000000001,
+        "max": 1044,
+        "min": 669,
+        "limit": 2048,
+        "n_over_limit_would_raise": 0,
+        "n_max_tokens_silently_clipped": 0
+      }
+    },
+    "qwen32b/dpr": {
+      "generator": "qwen32b",
+      "condition": "dpr",
+      "script": "pipeline/local_generate_gguf.py",
+      "script_evidence": "GGUF repo id in rows; data/generate_32b*.log, generate_72b*.log, scripts/run_masked_panel.sh, finish_masked_panel.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-32B-Instruct-GGUF"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "5549f2431393ec858bf5b0b1a161053a18f3b604d2f7ff5b1370a1dcc3e10c95",
+      "path": "llama.cpp",
+      "tokenizer": "Qwen/Qwen2.5-32B-Instruct-GGUF",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 856.0,
+        "p90": 933.0,
+        "max": 1015,
+        "min": 746,
+        "limit": 2048,
+        "n_over_limit_would_raise": 0,
+        "n_max_tokens_silently_clipped": 0
+      }
+    },
+    "qwen32b/hybrid": {
+      "generator": "qwen32b",
+      "condition": "hybrid",
+      "script": "pipeline/local_generate_gguf.py",
+      "script_evidence": "GGUF repo id in rows; data/generate_32b*.log, generate_72b*.log, scripts/run_masked_panel.sh, finish_masked_panel.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-32B-Instruct-GGUF"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "7ea075c906cb00d72d68b35de12a188da85f6be1783facc64703779e22eb5933",
+      "path": "llama.cpp",
+      "tokenizer": "Qwen/Qwen2.5-32B-Instruct-GGUF",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 857.0,
+        "p90": 935.0,
+        "max": 1050,
+        "min": 669,
+        "limit": 2048,
+        "n_over_limit_would_raise": 0,
+        "n_max_tokens_silently_clipped": 0
+      }
+    },
+    "qwen32b/hybrid_full": {
+      "generator": "qwen32b",
+      "condition": "hybrid_full",
+      "script": "pipeline/gen_gguf_ranked.py",
+      "script_evidence": "scripts/run_distractor_32b.sh (--corpus corpus_full.jsonl)",
+      "corpus": "corpus_full.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-32B-Instruct-GGUF"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "4d5ea2394e0bd5dc7bca02c65bbb363ca2a466db95d8788ea3e30d68e4a3cadf",
+      "path": "llama.cpp",
+      "tokenizer": "Qwen/Qwen2.5-32B-Instruct-GGUF",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 845.0,
+        "p90": 914.3000000000001,
+        "max": 1012,
+        "min": 669,
+        "limit": 2048,
+        "n_over_limit_would_raise": 0,
+        "n_max_tokens_silently_clipped": 0
+      }
+    },
+    "qwen32b/hybrid_loo": {
+      "generator": "qwen32b",
+      "condition": "hybrid_loo",
+      "script": "pipeline/gen_gguf_ranked.py",
+      "script_evidence": "data/gen_32b_controls.log ('loaded <repo>', '[cond] todo=')",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-32B-Instruct-GGUF"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "371f1be5d33b51420a8a0f894c4253b695786a301e248a5c71fa8b9e4e77a01d",
+      "path": "llama.cpp",
+      "tokenizer": "Qwen/Qwen2.5-32B-Instruct-GGUF",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 858.0,
+        "p90": 929.3000000000001,
+        "max": 1036,
+        "min": 745,
+        "limit": 2048,
+        "n_over_limit_would_raise": 0,
+        "n_max_tokens_silently_clipped": 0
+      }
+    },
+    "qwen32b/hybrid_masked": {
+      "generator": "qwen32b",
+      "condition": "hybrid_masked",
+      "script": "pipeline/local_generate_gguf.py",
+      "script_evidence": "GGUF repo id in rows; data/generate_32b*.log, generate_72b*.log, scripts/run_masked_panel.sh, finish_masked_panel.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-32B-Instruct-GGUF"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "42d60919b698f3d8089839b788821db99a01605017b0676714dd3c1964c303ed",
+      "path": "llama.cpp",
+      "tokenizer": "Qwen/Qwen2.5-32B-Instruct-GGUF",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 853.0,
+        "p90": 932.3000000000001,
+        "max": 1050,
+        "min": 669,
+        "limit": 2048,
+        "n_over_limit_would_raise": 0,
+        "n_max_tokens_silently_clipped": 0
+      }
+    },
+    "qwen32b/hybrid_stale": {
+      "generator": "qwen32b",
+      "condition": "hybrid_stale",
+      "script": "pipeline/gen_gguf_ranked.py",
+      "script_evidence": "data/gen_32b_controls.log ('loaded <repo>', '[cond] todo=')",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-32B-Instruct-GGUF"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "43e675ab853bb1f1711bc6c2268c95c84fbeb5d9e4e527045bb581603369221a",
+      "path": "llama.cpp",
+      "tokenizer": "Qwen/Qwen2.5-32B-Instruct-GGUF",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 845.0,
+        "p90": 921.3000000000001,
+        "max": 1050,
+        "min": 669,
+        "limit": 2048,
+        "n_over_limit_would_raise": 0,
+        "n_max_tokens_silently_clipped": 0
+      }
+    },
+    "qwen32b/oracle": {
+      "generator": "qwen32b",
+      "condition": "oracle",
+      "script": "pipeline/local_generate_gguf.py",
+      "script_evidence": "GGUF repo id in rows; data/generate_32b*.log, generate_72b*.log, scripts/run_masked_panel.sh, finish_masked_panel.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-32B-Instruct-GGUF"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 704,
+        "3": 28,
+        "1": 70,
+        "4": 28,
+        "2": 48
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3465,
+      "prompts_sha256": "c0177aaf7637dcb56cbfbbfa1e7d60768baf61d2706fca05143a23cb9f1fbc3e",
+      "path": "llama.cpp",
+      "tokenizer": "Qwen/Qwen2.5-32B-Instruct-GGUF",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 828.0,
+        "p90": 925.3000000000001,
+        "max": 1040,
+        "min": 207,
+        "limit": 2048,
+        "n_over_limit_would_raise": 0,
+        "n_max_tokens_silently_clipped": 0
+      }
+    },
+    "qwen32b/oracle_real": {
+      "generator": "qwen32b",
+      "condition": "oracle_real",
+      "script": "pipeline/gen_gguf_ranked.py",
+      "script_evidence": "scripts/run_distractor_32b.sh (--corpus corpus_full.jsonl)",
+      "corpus": "corpus_full.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-32B-Instruct-GGUF"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "0": 419,
+        "4": 42,
+        "1": 156,
+        "2": 102,
+        "3": 53,
+        "5": 106
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3465,
+      "prompts_sha256": "fdea03d412ac5a9558adf3ede9f05f51666546849d549290de70a306c9a50be4",
+      "path": "llama.cpp",
+      "tokenizer": "Qwen/Qwen2.5-32B-Instruct-GGUF",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 245.5,
+        "p90": 805.3000000000001,
+        "max": 1119,
+        "min": 85,
+        "limit": 2048,
+        "n_over_limit_would_raise": 0,
+        "n_max_tokens_silently_clipped": 0
+      }
+    },
+    "qwen32b/splade": {
+      "generator": "qwen32b",
+      "condition": "splade",
+      "script": "pipeline/local_generate_gguf.py",
+      "script_evidence": "GGUF repo id in rows; data/generate_32b*.log, generate_72b*.log, scripts/run_masked_panel.sh, finish_masked_panel.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-32B-Instruct-GGUF"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "70da99e63edd8a413d91004bb8f4221158fab6290256612fbebff8f7f6058932",
+      "path": "llama.cpp",
+      "tokenizer": "Qwen/Qwen2.5-32B-Instruct-GGUF",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 851.5,
+        "p90": 931.3000000000001,
+        "max": 1043,
+        "min": 668,
+        "limit": 2048,
+        "n_over_limit_would_raise": 0,
+        "n_max_tokens_silently_clipped": 0
+      }
+    },
+    "qwen3b/hybrid": {
+      "generator": "qwen3b",
+      "condition": "hybrid",
+      "script": "pipeline/local_generate.py",
+      "script_evidence": "HF model id in rows; scripts/run_ladder.sh, run_masked_panel.sh, finish_masked_panel.sh, run_k_ablation.sh, run_extension.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-3B-Instruct"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "7ea075c906cb00d72d68b35de12a188da85f6be1783facc64703779e22eb5933",
+      "path": "HF transformers",
+      "tokenizer": "Qwen/Qwen2.5-3B-Instruct",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 856.5,
+        "p90": 935.0,
+        "max": 1050,
+        "min": 669,
+        "limit": 1536,
+        "n_over_limit": 0,
+        "pct_over_limit": 0.0,
+        "over_limit_behaviour": "silent right truncation (question/assistant turn removed)",
+        "n_over_limit_question_fully_cut": 0
+      },
+      "prediction_words_mean": {
+        "within_limit": 2.49,
+        "over_limit": null
+      }
+    },
+    "qwen3b/hybrid_loo": {
+      "generator": "qwen3b",
+      "condition": "hybrid_loo",
+      "script": "pipeline/loo_control.py",
+      "script_evidence": "rows carry no model field; loo_control.generate writes generations_qwen3b/hybrid_loo.jsonl (scripts/run_loo.sh)",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "None"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "371f1be5d33b51420a8a0f894c4253b695786a301e248a5c71fa8b9e4e77a01d",
+      "path": "HF transformers",
+      "tokenizer": "Qwen/Qwen2.5-3B-Instruct",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 858.0,
+        "p90": 929.0,
+        "max": 1036,
+        "min": 745,
+        "limit": 1536,
+        "n_over_limit": 0,
+        "pct_over_limit": 0.0,
+        "over_limit_behaviour": "silent right truncation (question/assistant turn removed)",
+        "n_over_limit_question_fully_cut": 0
+      },
+      "prediction_words_mean": {
+        "within_limit": 2.16,
+        "over_limit": null
+      }
+    },
+    "qwen3b/hybrid_masked": {
+      "generator": "qwen3b",
+      "condition": "hybrid_masked",
+      "script": "pipeline/local_generate.py",
+      "script_evidence": "HF model id in rows; scripts/run_ladder.sh, run_masked_panel.sh, finish_masked_panel.sh, run_k_ablation.sh, run_extension.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-3B-Instruct"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "42d60919b698f3d8089839b788821db99a01605017b0676714dd3c1964c303ed",
+      "path": "HF transformers",
+      "tokenizer": "Qwen/Qwen2.5-3B-Instruct",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 853.0,
+        "p90": 932.0,
+        "max": 1050,
+        "min": 669,
+        "limit": 1536,
+        "n_over_limit": 0,
+        "pct_over_limit": 0.0,
+        "over_limit_behaviour": "silent right truncation (question/assistant turn removed)",
+        "n_over_limit_question_fully_cut": 0
+      },
+      "prediction_words_mean": {
+        "within_limit": 2.48,
+        "over_limit": null
+      }
+    },
+    "qwen3b/hybrid_masked_k10": {
+      "generator": "qwen3b",
+      "condition": "hybrid_masked_k10",
+      "script": "pipeline/local_generate.py",
+      "script_evidence": "HF model id in rows; scripts/run_ladder.sh, run_masked_panel.sh, finish_masked_panel.sh, run_k_ablation.sh, run_extension.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-3B-Instruct"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "10": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 6694,
+      "prompts_sha256": "f29fcb59fd2a835a1c617f19ce009bb94820bf214628ef2f64f3e4121f98c054",
+      "path": "HF transformers",
+      "tokenizer": "Qwen/Qwen2.5-3B-Instruct",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 1594.0,
+        "p90": 1734.6000000000001,
+        "max": 1968,
+        "min": 1271,
+        "limit": 1536,
+        "n_over_limit": 639,
+        "pct_over_limit": 72.8,
+        "over_limit_behaviour": "silent right truncation (question/assistant turn removed)",
+        "n_over_limit_question_fully_cut": 480
+      },
+      "prediction_words_mean": {
+        "within_limit": 3.28,
+        "over_limit": 17.87
+      }
+    },
+    "qwen3b/hybrid_masked_k3": {
+      "generator": "qwen3b",
+      "condition": "hybrid_masked_k3",
+      "script": "pipeline/local_generate.py",
+      "script_evidence": "HF model id in rows; scripts/run_ladder.sh, run_masked_panel.sh, finish_masked_panel.sh, run_k_ablation.sh, run_extension.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-3B-Instruct"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "3": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 2360,
+      "prompts_sha256": "bcc38ace424c2f24a76931ebfe316d1708a6a50571e9dbea074ff71d7443f0e9",
+      "path": "HF transformers",
+      "tokenizer": "Qwen/Qwen2.5-3B-Instruct",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 557.0,
+        "p90": 609.0,
+        "max": 697,
+        "min": 426,
+        "limit": 1536,
+        "n_over_limit": 0,
+        "pct_over_limit": 0.0,
+        "over_limit_behaviour": "silent right truncation (question/assistant turn removed)",
+        "n_over_limit_question_fully_cut": 0
+      },
+      "prediction_words_mean": {
+        "within_limit": 2.41,
+        "over_limit": null
+      }
+    },
+    "qwen3b/hybrid_stale": {
+      "generator": "qwen3b",
+      "condition": "hybrid_stale",
+      "script": "pipeline/heldout_index.py",
+      "script_evidence": "scripts/run_heldout.sh --phase generate --conditions hybrid_stale --gen-tag qwen3b",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-3B-Instruct"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "43e675ab853bb1f1711bc6c2268c95c84fbeb5d9e4e527045bb581603369221a",
+      "path": "HF transformers",
+      "tokenizer": "Qwen/Qwen2.5-3B-Instruct",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 845.0,
+        "p90": 921.3000000000001,
+        "max": 1050,
+        "min": 669,
+        "limit": 1536,
+        "n_over_limit": 0,
+        "pct_over_limit": 0.0,
+        "over_limit_behaviour": "silent right truncation (question/assistant turn removed)",
+        "n_over_limit_question_fully_cut": 0
+      },
+      "prediction_words_mean": {
+        "within_limit": 2.46,
+        "over_limit": null
+      }
+    },
+    "qwen72b/hybrid": {
+      "generator": "qwen72b",
+      "condition": "hybrid",
+      "script": "pipeline/local_generate_gguf.py",
+      "script_evidence": "GGUF repo id in rows; data/generate_32b*.log, generate_72b*.log, scripts/run_masked_panel.sh, finish_masked_panel.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-72B-Instruct-GGUF"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "7ea075c906cb00d72d68b35de12a188da85f6be1783facc64703779e22eb5933",
+      "path": "llama.cpp",
+      "tokenizer": "Qwen/Qwen2.5-72B-Instruct-GGUF",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 857.0,
+        "p90": 935.0,
+        "max": 1050,
+        "min": 669,
+        "limit": 2048,
+        "n_over_limit_would_raise": 0,
+        "n_max_tokens_silently_clipped": 0
+      }
+    },
+    "qwen72b/hybrid_masked": {
+      "generator": "qwen72b",
+      "condition": "hybrid_masked",
+      "script": "pipeline/local_generate_gguf.py",
+      "script_evidence": "GGUF repo id in rows; data/generate_32b*.log, generate_72b*.log, scripts/run_masked_panel.sh, finish_masked_panel.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-72B-Instruct-GGUF"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "42d60919b698f3d8089839b788821db99a01605017b0676714dd3c1964c303ed",
+      "path": "llama.cpp",
+      "tokenizer": "Qwen/Qwen2.5-72B-Instruct-GGUF",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 853.0,
+        "p90": 932.3000000000001,
+        "max": 1050,
+        "min": 669,
+        "limit": 2048,
+        "n_over_limit_would_raise": 0,
+        "n_max_tokens_silently_clipped": 0
+      }
+    },
+    "qwen7b/hybrid": {
+      "generator": "qwen7b",
+      "condition": "hybrid",
+      "script": "pipeline/local_generate.py",
+      "script_evidence": "HF model id in rows; scripts/run_ladder.sh, run_masked_panel.sh, finish_masked_panel.sh, run_k_ablation.sh, run_extension.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-7B-Instruct"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "7ea075c906cb00d72d68b35de12a188da85f6be1783facc64703779e22eb5933",
+      "path": "HF transformers",
+      "tokenizer": "Qwen/Qwen2.5-7B-Instruct",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 856.5,
+        "p90": 935.0,
+        "max": 1050,
+        "min": 669,
+        "limit": 1536,
+        "n_over_limit": 0,
+        "pct_over_limit": 0.0,
+        "over_limit_behaviour": "silent right truncation (question/assistant turn removed)",
+        "n_over_limit_question_fully_cut": 0
+      },
+      "prediction_words_mean": {
+        "within_limit": 2.64,
+        "over_limit": null
+      }
+    },
+    "qwen7b/hybrid_masked": {
+      "generator": "qwen7b",
+      "condition": "hybrid_masked",
+      "script": "pipeline/local_generate.py",
+      "script_evidence": "HF model id in rows; scripts/run_ladder.sh, run_masked_panel.sh, finish_masked_panel.sh, run_k_ablation.sh, run_extension.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-7B-Instruct"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "42d60919b698f3d8089839b788821db99a01605017b0676714dd3c1964c303ed",
+      "path": "HF transformers",
+      "tokenizer": "Qwen/Qwen2.5-7B-Instruct",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 853.0,
+        "p90": 932.0,
+        "max": 1050,
+        "min": 669,
+        "limit": 1536,
+        "n_over_limit": 0,
+        "pct_over_limit": 0.0,
+        "over_limit_behaviour": "silent right truncation (question/assistant turn removed)",
+        "n_over_limit_question_fully_cut": 0
+      },
+      "prediction_words_mean": {
+        "within_limit": 2.78,
+        "over_limit": null
+      }
+    },
+    "qwen7b/hybrid_masked_k10": {
+      "generator": "qwen7b",
+      "condition": "hybrid_masked_k10",
+      "script": "pipeline/local_generate.py",
+      "script_evidence": "HF model id in rows; scripts/run_ladder.sh, run_masked_panel.sh, finish_masked_panel.sh, run_k_ablation.sh, run_extension.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-7B-Instruct"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "10": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 6694,
+      "prompts_sha256": "f29fcb59fd2a835a1c617f19ce009bb94820bf214628ef2f64f3e4121f98c054",
+      "path": "HF transformers",
+      "tokenizer": "Qwen/Qwen2.5-7B-Instruct",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 1594.0,
+        "p90": 1734.6000000000001,
+        "max": 1968,
+        "min": 1271,
+        "limit": 1536,
+        "n_over_limit": 639,
+        "pct_over_limit": 72.8,
+        "over_limit_behaviour": "silent right truncation (question/assistant turn removed)",
+        "n_over_limit_question_fully_cut": 480
+      },
+      "prediction_words_mean": {
+        "within_limit": 2.7,
+        "over_limit": 18.59
+      }
+    },
+    "qwen7b/hybrid_masked_k3": {
+      "generator": "qwen7b",
+      "condition": "hybrid_masked_k3",
+      "script": "pipeline/local_generate.py",
+      "script_evidence": "HF model id in rows; scripts/run_ladder.sh, run_masked_panel.sh, finish_masked_panel.sh, run_k_ablation.sh, run_extension.sh",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "Qwen/Qwen2.5-7B-Instruct"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "3": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 2360,
+      "prompts_sha256": "bcc38ace424c2f24a76931ebfe316d1708a6a50571e9dbea074ff71d7443f0e9",
+      "path": "HF transformers",
+      "tokenizer": "Qwen/Qwen2.5-7B-Instruct",
+      "count_kind": "exact",
+      "tokens": {
+        "n": 878,
+        "median": 557.0,
+        "p90": 609.0,
+        "max": 697,
+        "min": 426,
+        "limit": 1536,
+        "n_over_limit": 0,
+        "pct_over_limit": 0.0,
+        "over_limit_behaviour": "silent right truncation (question/assistant turn removed)",
+        "n_over_limit_question_fully_cut": 0
+      },
+      "prediction_words_mean": {
+        "within_limit": 2.74,
+        "over_limit": null
+      }
+    },
+    "sonnet/bm25": {
+      "generator": "sonnet",
+      "condition": "bm25",
+      "script": "pipeline/generate.py",
+      "script_evidence": "API model id in rows",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "claude-sonnet-4-5-20250929"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "10e18695f741eec8347734837bd3fb0dfcd2b4c02c112410f908560e6e487f9b",
+      "path": "API",
+      "tokenizer": "PROXY Qwen/Qwen2.5-7B-Instruct",
+      "count_kind": "proxy",
+      "tokens": {
+        "n": 878,
+        "median": 861.0,
+        "p90": 935.0,
+        "max": 1028,
+        "min": 690,
+        "limit": 200000,
+        "n_over_limit": 0,
+        "limit_note": "provider context window"
+      }
+    },
+    "sonnet/hybrid": {
+      "generator": "sonnet",
+      "condition": "hybrid",
+      "script": "pipeline/generate.py",
+      "script_evidence": "API model id in rows",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "claude-sonnet-4-5-20250929"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "7ea075c906cb00d72d68b35de12a188da85f6be1783facc64703779e22eb5933",
+      "path": "API",
+      "tokenizer": "PROXY Qwen/Qwen2.5-7B-Instruct",
+      "count_kind": "proxy",
+      "tokens": {
+        "n": 878,
+        "median": 859.5,
+        "p90": 938.0,
+        "max": 1053,
+        "min": 672,
+        "limit": 200000,
+        "n_over_limit": 0,
+        "limit_note": "provider context window"
+      }
+    },
+    "sonnet/hybrid_masked": {
+      "generator": "sonnet",
+      "condition": "hybrid_masked",
+      "script": "pipeline/generate.py",
+      "script_evidence": "API model id in rows",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "claude-sonnet-4-5-20250929"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 878
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3598,
+      "prompts_sha256": "42d60919b698f3d8089839b788821db99a01605017b0676714dd3c1964c303ed",
+      "path": "API",
+      "tokenizer": "PROXY Qwen/Qwen2.5-7B-Instruct",
+      "count_kind": "proxy",
+      "tokens": {
+        "n": 878,
+        "median": 856.0,
+        "p90": 935.0,
+        "max": 1053,
+        "min": 672,
+        "limit": 200000,
+        "n_over_limit": 0,
+        "limit_note": "provider context window"
+      }
+    },
+    "sonnet/oracle": {
+      "generator": "sonnet",
+      "condition": "oracle",
+      "script": "pipeline/generate.py",
+      "script_evidence": "API model id in rows",
+      "corpus": "corpus.jsonl",
+      "model_field": [
+        "claude-sonnet-4-5-20250929"
+      ],
+      "n_rows": 878,
+      "k_distribution": {
+        "5": 704,
+        "3": 28,
+        "1": 70,
+        "4": 28,
+        "2": 48
+      },
+      "doc_ids_missing_from_corpus": 0,
+      "user_prompt_chars_max": 3465,
+      "prompts_sha256": "c0177aaf7637dcb56cbfbbfa1e7d60768baf61d2706fca05143a23cb9f1fbc3e",
+      "path": "API",
+      "tokenizer": "PROXY Qwen/Qwen2.5-7B-Instruct",
+      "count_kind": "proxy",
+      "tokens": {
+        "n": 878,
+        "median": 831.0,
+        "p90": 928.0,
+        "max": 1043,
+        "min": 210,
+        "limit": 200000,
+        "n_over_limit": 0,
+        "limit_note": "provider context window"
+      }
+    }
+  },
+  "caveats": [
+    "Token counts use tokenizer/llama_cpp versions installed now (transformers 5.11.0, llama_cpp_python 0.3.34); generation-time versions are not recorded in the caches.",
+    "HF over-limit rows: 'question_fully_cut' counts prompts whose text before the final '\\n\\nQuestion (' marker already reaches 1536 tokens (prefix tokenised separately; boundary effects of +-1 token possible).",
+    "API rows (Claude Haiku/Sonnet, gpt-4o-mini) are PROXY counts with the Qwen/Qwen2.5-7B-Instruct tokenizer and chat template; the provider tokenizers are not available offline. Provider context windows are not binding."
+  ],
+  "summary": {
+    "conditions_audited": 50,
+    "conditions_with_any_over_limit": [
+      "qwen1_5b/hybrid_masked_k10",
+      "qwen3b/hybrid_masked_k10",
+      "qwen7b/hybrid_masked_k10"
+    ],
+    "conditions_with_max_tokens_clipped": []
+  }
+}

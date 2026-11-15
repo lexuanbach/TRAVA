@@ -1,0 +1,398 @@
+{
+  "primary_generator": "Qwen2.5-32B",
+  "did": {
+    "note": "DiD>0 means retrieval offsets the cutoff collapse more than closed-book; tests the interaction, not two marginal tests.",
+    "conditions": {
+      "bm25": {
+        "ci95": [
+          -2.16,
+          11.33
+        ],
+        "p": 0.0965,
+        "n_a": 404,
+        "n_b": 474,
+        "did_f1": 4.41
+      },
+      "dpr": {
+        "ci95": [
+          -2.29,
+          10.93
+        ],
+        "p": 0.1015,
+        "n_a": 404,
+        "n_b": 474,
+        "did_f1": 4.22
+      },
+      "splade": {
+        "ci95": [
+          -1.66,
+          11.58
+        ],
+        "p": 0.068,
+        "n_a": 404,
+        "n_b": 474,
+        "did_f1": 4.94
+      },
+      "colbert": {
+        "ci95": [
+          -2.24,
+          11.06
+        ],
+        "p": 0.0895,
+        "n_a": 404,
+        "n_b": 474,
+        "did_f1": 4.48
+      },
+      "bge": {
+        "ci95": [
+          0.82,
+          14.34
+        ],
+        "p": 0.015,
+        "n_a": 404,
+        "n_b": 474,
+        "did_f1": 7.59
+      },
+      "hybrid": {
+        "ci95": [
+          -1.57,
+          12.05
+        ],
+        "p": 0.064,
+        "n_a": 404,
+        "n_b": 474,
+        "did_f1": 5.2
+      },
+      "oracle": {
+        "ci95": [
+          -2.35,
+          11.48
+        ],
+        "p": 0.093,
+        "n_a": 404,
+        "n_b": 474,
+        "did_f1": 4.64
+      }
+    }
+  },
+  "paired_rcb": {
+    "bm25": {
+      "static": {
+        "gain_f1": 6.17,
+        "p": 0.005,
+        "n": 404
+      },
+      "fresh": {
+        "gain_f1": 10.58,
+        "p": 0.0,
+        "n": 474
+      }
+    },
+    "hybrid": {
+      "static": {
+        "gain_f1": 8.72,
+        "p": 0.0,
+        "n": 404
+      },
+      "fresh": {
+        "gain_f1": 13.92,
+        "p": 0.0,
+        "n": 474
+      }
+    },
+    "oracle": {
+      "static": {
+        "gain_f1": 6.08,
+        "p": 0.009,
+        "n": 404
+      },
+      "fresh": {
+        "gain_f1": 10.72,
+        "p": 0.0,
+        "n": 474
+      }
+    }
+  },
+  "difficulty": {
+    "note": "closed-book F1 minus a reference that has the evidence; the Static-Fresh differential is the memorization signal net of intrinsic question difficulty.",
+    "closedbook_minus_oracle": {
+      "by_year": {
+        "2022": -8.9,
+        "2023": -8.2,
+        "2024": -0.5,
+        "2025": -12.3,
+        "2026": -10.1
+      },
+      "static": -6.1,
+      "fresh": -10.7,
+      "static_minus_fresh": 4.6
+    },
+    "closedbook_minus_hybrid": {
+      "by_year": {
+        "2022": -12.0,
+        "2023": -11.2,
+        "2024": -2.1,
+        "2025": -10.9,
+        "2026": -15.0
+      },
+      "static": -8.7,
+      "fresh": -13.9,
+      "static_minus_fresh": 5.2
+    }
+  },
+  "cutoff_robust": {
+    "qwen32b": {
+      "crossfit": {
+        "cutoff_estimated_on_odd_weeks": null,
+        "gap_measured_on_even_weeks": {
+          "diff": 5.65,
+          "ci95": [
+            -2.15,
+            13.5
+          ],
+          "p": 0.077,
+          "n_a": 208,
+          "n_b": 224
+        }
+      },
+      "permutation_null": {
+        "observed_max_drop": 7.9,
+        "p": 0.195
+      },
+      "threshold_sensitivity": {
+        "5": {
+          "cutoff": 2025,
+          "max_drop": 7.9
+        },
+        "8": {
+          "cutoff": null,
+          "max_drop": 7.9
+        },
+        "12": {
+          "cutoff": null,
+          "max_drop": 7.9
+        }
+      }
+    },
+    "haiku": {
+      "crossfit": {
+        "cutoff_estimated_on_odd_weeks": 2025,
+        "gap_measured_on_even_weeks": {
+          "diff": 19.54,
+          "ci95": [
+            12.05,
+            27.12
+          ],
+          "p": 0.0,
+          "n_a": 208,
+          "n_b": 224
+        }
+      },
+      "permutation_null": {
+        "observed_max_drop": 17.1,
+        "p": 0.001
+      },
+      "threshold_sensitivity": {
+        "5": {
+          "cutoff": 2025,
+          "max_drop": 17.1
+        },
+        "8": {
+          "cutoff": 2025,
+          "max_drop": 17.1
+        },
+        "12": {
+          "cutoff": 2025,
+          "max_drop": 17.1
+        }
+      }
+    },
+    "sonnet": {
+      "crossfit": {
+        "cutoff_estimated_on_odd_weeks": 2025,
+        "gap_measured_on_even_weeks": {
+          "diff": 25.18,
+          "ci95": [
+            17.44,
+            32.39
+          ],
+          "p": 0.0,
+          "n_a": 208,
+          "n_b": 224
+        }
+      },
+      "permutation_null": {
+        "observed_max_drop": 31.3,
+        "p": 0.0
+      },
+      "threshold_sensitivity": {
+        "5": {
+          "cutoff": 2025,
+          "max_drop": 31.3
+        },
+        "8": {
+          "cutoff": 2025,
+          "max_drop": 31.3
+        },
+        "12": {
+          "cutoff": 2025,
+          "max_drop": 31.3
+        }
+      }
+    }
+  },
+  "power": {
+    "note": "MDE at 80% power, alpha=0.05 two-sided, for the retriever Static-Fresh comparison at the observed n and pooled SD.",
+    "retrievers": {
+      "bm25": {
+        "observed_diff_f1": 0.52,
+        "mde_f1_80pct": 8.5,
+        "n_static": 404,
+        "n_fresh": 474
+      },
+      "dpr": {
+        "observed_diff_f1": 0.71,
+        "mde_f1_80pct": 8.4,
+        "n_static": 404,
+        "n_fresh": 474
+      },
+      "splade": {
+        "observed_diff_f1": -0.01,
+        "mde_f1_80pct": 8.5,
+        "n_static": 404,
+        "n_fresh": 474
+      },
+      "colbert": {
+        "observed_diff_f1": 0.45,
+        "mde_f1_80pct": 8.5,
+        "n_static": 404,
+        "n_fresh": 474
+      },
+      "bge": {
+        "observed_diff_f1": -2.66,
+        "mde_f1_80pct": 8.5,
+        "n_static": 404,
+        "n_fresh": 474
+      },
+      "hybrid": {
+        "observed_diff_f1": -0.27,
+        "mde_f1_80pct": 8.6,
+        "n_static": 404,
+        "n_fresh": 474
+      }
+    }
+  },
+  "mc": {
+    "note": "MC-proxy: free-form answer mapped to the choice with highest token-F1; correct if it matches gold_answer_idx. Random baseline 25%.",
+    "models": {
+      "qwen": {
+        "name": "Qwen2.5-0.5B",
+        "closed_book": {
+          "fresh": 10.8,
+          "all": 11.3,
+          "static": 11.9
+        },
+        "hybrid": null
+      },
+      "qwen1_5b": {
+        "name": "Qwen2.5-1.5B",
+        "closed_book": {
+          "fresh": 17.9,
+          "all": 17.1,
+          "static": 16.1
+        },
+        "hybrid": {
+          "fresh": 36.3,
+          "all": 37.4,
+          "static": 38.6
+        }
+      },
+      "qwen3b": {
+        "name": "Qwen2.5-3B",
+        "closed_book": {
+          "fresh": 17.3,
+          "all": 16.3,
+          "static": 15.1
+        },
+        "hybrid": {
+          "fresh": 38.6,
+          "all": 39.5,
+          "static": 40.6
+        }
+      },
+      "qwen7b": {
+        "name": "Qwen2.5-7B",
+        "closed_book": {
+          "fresh": 22.6,
+          "all": 23.5,
+          "static": 24.5
+        },
+        "hybrid": {
+          "fresh": 40.1,
+          "all": 40.7,
+          "static": 41.3
+        }
+      },
+      "qwen32b": {
+        "name": "Qwen2.5-32B",
+        "closed_book": {
+          "fresh": 26.6,
+          "all": 30.3,
+          "static": 34.7
+        },
+        "hybrid": {
+          "fresh": 43.5,
+          "all": 44.1,
+          "static": 44.8
+        }
+      },
+      "qwen72b": {
+        "name": "Qwen2.5-72B",
+        "closed_book": {
+          "fresh": 31.4,
+          "all": 35.3,
+          "static": 39.9
+        },
+        "hybrid": {
+          "fresh": 43.0,
+          "all": 44.3,
+          "static": 45.8
+        }
+      },
+      "haiku": {
+        "name": "Claude Haiku 4.5",
+        "closed_book": {
+          "fresh": 18.8,
+          "all": 27.4,
+          "static": 37.6
+        },
+        "hybrid": {
+          "fresh": 40.7,
+          "all": 42.4,
+          "static": 44.3
+        }
+      },
+      "sonnet": {
+        "name": "Claude Sonnet 4.5",
+        "closed_book": {
+          "fresh": 17.7,
+          "all": 33.6,
+          "static": 52.2
+        },
+        "hybrid": {
+          "fresh": 42.0,
+          "all": 44.1,
+          "static": 46.5
+        }
+      }
+    }
+  },
+  "stale_vs_cb": {
+    "closed_book_fresh_f1": 15.76,
+    "stale_hybrid_fresh_f1": 13.65,
+    "diff_cb_minus_stale": 2.11,
+    "one_sided_p_cb_gt_stale": 0.114,
+    "n": 474,
+    "note": "paired over same Fresh questions (Qwen-3B)"
+  }
+}

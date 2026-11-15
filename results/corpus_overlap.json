@@ -1,0 +1,7 @@
+{
+  "corpus_docs": 6692,
+  "docs_serving_multiple_questions": 320,
+  "gold_links": 7137,
+  "n_questions": 878,
+  "note": "Only these docs compete across questions; the rest are each tied to one question."
+}

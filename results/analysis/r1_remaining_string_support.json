@@ -1,0 +1,1469 @@
+{
+  "step": "R1 coverage sweep -- remaining full-text / 1500-char support labels rerun at 600 chars",
+  "meta": {
+    "generated": "2026-11-14T18:32:04+0700",
+    "git_head": "440cb32609d0d337efed939c1dec59c62444c7a0",
+    "git_worktree_note": "working tree has uncommitted edits to other files; pipeline modules used here were imported unmodified and patched in memory only",
+    "python": "3.14.6",
+    "input_sha256": {
+      "data/processed/questions.jsonl": "4190e39f17151d210ffd9247ddb3ad4784c51dd90026a1d76414d2c1515a450e",
+      "data/processed/corpus.jsonl": "9372af0f2833835b0715e9ecd8d6b1d664f7222a3da227d1195fc05bba15c863",
+      "results/analysis/nli_support_labels_600.jsonl": "4c83c9df6cd66f4bcf9e14e87cc8493bad8e247dbb613508153348beb20cd680"
+    }
+  },
+  "reproduction_of_stored_results": {
+    "support_endpoint_robustness.py": {
+      "compared": "entire output JSON",
+      "reproduced_exactly": true,
+      "n_mismatches": 0,
+      "first_mismatches": []
+    },
+    "mask_null_mechanism.py": {
+      "compared": "entire output JSON",
+      "reproduced_exactly": true,
+      "n_mismatches": 0,
+      "first_mismatches": []
+    },
+    "nli_support.py": {
+      "compared": "entire output JSON except the 'nli_model' string, which echoes the in-memory NLI_NAME patched to an invalid id so that no model could be loaded",
+      "reproduced_exactly": true,
+      "n_mismatches": 0,
+      "first_mismatches": []
+    }
+  },
+  "runtimes_sec": {
+    "ser_full": 9.0,
+    "ser_600": 6.3,
+    "mnm_full": 2.9,
+    "mnm_600": 1.7,
+    "ns_stored": 13.4,
+    "ns_600": 9.6
+  },
+  "support_endpoint_robustness": {
+    "script": "pipeline/support_endpoint_robustness.py",
+    "condition": "hybrid_masked top-5, Static",
+    "seed": 20260804,
+    "B": 5000,
+    "weighting": "QUESTION-POOLED arm means; quiz-cluster bootstrap CI",
+    "per_model": {
+      "qwen1_5b": {
+        "token_f1": {
+          "old_fulltext": {
+            "interaction": 35.83,
+            "ci95": [
+              26.911,
+              44.562
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 208,
+            "n_unsupported": 196
+          },
+          "new_visible600": {
+            "interaction": 48.939,
+            "ci95": [
+              39.989,
+              57.609
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 162,
+            "n_unsupported": 242
+          },
+          "change": 13.109
+        },
+        "choice_grounded": {
+          "old_fulltext": {
+            "interaction": 32.732,
+            "ci95": [
+              21.761,
+              43.028
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 208,
+            "n_unsupported": 196
+          },
+          "new_visible600": {
+            "interaction": 49.776,
+            "ci95": [
+              38.864,
+              60.237
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 162,
+            "n_unsupported": 242
+          },
+          "change": 17.044
+        }
+      },
+      "qwen3b": {
+        "token_f1": {
+          "old_fulltext": {
+            "interaction": 36.525,
+            "ci95": [
+              27.491,
+              45.391
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 208,
+            "n_unsupported": 196
+          },
+          "new_visible600": {
+            "interaction": 48.973,
+            "ci95": [
+              40.194,
+              57.416
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 162,
+            "n_unsupported": 242
+          },
+          "change": 12.448
+        },
+        "choice_grounded": {
+          "old_fulltext": {
+            "interaction": 35.587,
+            "ci95": [
+              25.157,
+              45.98
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 208,
+            "n_unsupported": 196
+          },
+          "new_visible600": {
+            "interaction": 49.561,
+            "ci95": [
+              39.925,
+              58.831
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 162,
+            "n_unsupported": 242
+          },
+          "change": 13.974
+        }
+      },
+      "qwen7b": {
+        "token_f1": {
+          "old_fulltext": {
+            "interaction": 32.578,
+            "ci95": [
+              24.312,
+              41.118
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 208,
+            "n_unsupported": 196
+          },
+          "new_visible600": {
+            "interaction": 48.882,
+            "ci95": [
+              40.37,
+              57.637
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 162,
+            "n_unsupported": 242
+          },
+          "change": 16.304
+        },
+        "choice_grounded": {
+          "old_fulltext": {
+            "interaction": 31.191,
+            "ci95": [
+              20.939,
+              41.624
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 208,
+            "n_unsupported": 196
+          },
+          "new_visible600": {
+            "interaction": 50.837,
+            "ci95": [
+              41.143,
+              60.95
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 162,
+            "n_unsupported": 242
+          },
+          "change": 19.646
+        }
+      },
+      "llama3_8b": {
+        "token_f1": {
+          "old_fulltext": {
+            "interaction": 26.241,
+            "ci95": [
+              16.534,
+              36.061
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 208,
+            "n_unsupported": 196
+          },
+          "new_visible600": {
+            "interaction": 38.038,
+            "ci95": [
+              27.633,
+              48.596
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 162,
+            "n_unsupported": 242
+          },
+          "change": 11.797
+        },
+        "choice_grounded": {
+          "old_fulltext": {
+            "interaction": 27.335,
+            "ci95": [
+              16.366,
+              37.946
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 208,
+            "n_unsupported": 196
+          },
+          "new_visible600": {
+            "interaction": 40.986,
+            "ci95": [
+              29.959,
+              51.76
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 162,
+            "n_unsupported": 242
+          },
+          "change": 13.651
+        }
+      },
+      "qwen32b": {
+        "token_f1": {
+          "old_fulltext": {
+            "interaction": 30.942,
+            "ci95": [
+              21.76,
+              40.422
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 208,
+            "n_unsupported": 196
+          },
+          "new_visible600": {
+            "interaction": 44.697,
+            "ci95": [
+              34.928,
+              54.828
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 162,
+            "n_unsupported": 242
+          },
+          "change": 13.755
+        },
+        "choice_grounded": {
+          "old_fulltext": {
+            "interaction": 30.131,
+            "ci95": [
+              19.169,
+              41.476
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 208,
+            "n_unsupported": 196
+          },
+          "new_visible600": {
+            "interaction": 46.332,
+            "ci95": [
+              35.272,
+              57.77
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 162,
+            "n_unsupported": 242
+          },
+          "change": 16.201
+        }
+      },
+      "qwen72b": {
+        "token_f1": {
+          "old_fulltext": {
+            "interaction": 30.813,
+            "ci95": [
+              20.484,
+              40.925
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 208,
+            "n_unsupported": 196
+          },
+          "new_visible600": {
+            "interaction": 46.59,
+            "ci95": [
+              36.168,
+              56.871
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 162,
+            "n_unsupported": 242
+          },
+          "change": 15.777
+        },
+        "choice_grounded": {
+          "old_fulltext": {
+            "interaction": 29.405,
+            "ci95": [
+              16.616,
+              41.991
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 208,
+            "n_unsupported": 196
+          },
+          "new_visible600": {
+            "interaction": 47.587,
+            "ci95": [
+              35.187,
+              59.543
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 162,
+            "n_unsupported": 242
+          },
+          "change": 18.182
+        }
+      },
+      "mistral_large": {
+        "token_f1": {
+          "old_fulltext": {
+            "interaction": 26.442,
+            "ci95": [
+              17.885,
+              35.521
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 208,
+            "n_unsupported": 196
+          },
+          "new_visible600": {
+            "interaction": 37.705,
+            "ci95": [
+              28.75,
+              47.287
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 162,
+            "n_unsupported": 242
+          },
+          "change": 11.263
+        },
+        "choice_grounded": {
+          "old_fulltext": {
+            "interaction": 24.411,
+            "ci95": [
+              14.066,
+              34.935
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 208,
+            "n_unsupported": 196
+          },
+          "new_visible600": {
+            "interaction": 37.726,
+            "ci95": [
+              27.303,
+              47.939
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 162,
+            "n_unsupported": 242
+          },
+          "change": 13.315
+        }
+      },
+      "haiku": {
+        "token_f1": {
+          "old_fulltext": {
+            "interaction": 21.189,
+            "ci95": [
+              11.335,
+              30.941
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 208,
+            "n_unsupported": 196
+          },
+          "new_visible600": {
+            "interaction": 35.796,
+            "ci95": [
+              24.724,
+              46.574
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 162,
+            "n_unsupported": 242
+          },
+          "change": 14.607
+        },
+        "choice_grounded": {
+          "old_fulltext": {
+            "interaction": 19.947,
+            "ci95": [
+              9.171,
+              30.705
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 208,
+            "n_unsupported": 196
+          },
+          "new_visible600": {
+            "interaction": 38.103,
+            "ci95": [
+              26.152,
+              49.217
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 162,
+            "n_unsupported": 242
+          },
+          "change": 18.156
+        }
+      },
+      "sonnet": {
+        "token_f1": {
+          "old_fulltext": {
+            "interaction": 19.677,
+            "ci95": [
+              9.948,
+              29.054
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 208,
+            "n_unsupported": 196
+          },
+          "new_visible600": {
+            "interaction": 31.793,
+            "ci95": [
+              21.962,
+              41.194
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 162,
+            "n_unsupported": 242
+          },
+          "change": 12.116
+        },
+        "choice_grounded": {
+          "old_fulltext": {
+            "interaction": 24.647,
+            "ci95": [
+              13.346,
+              35.457
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 208,
+            "n_unsupported": 196
+          },
+          "new_visible600": {
+            "interaction": 41.246,
+            "ci95": [
+              29.858,
+              52.324
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 162,
+            "n_unsupported": 242
+          },
+          "change": 16.599
+        }
+      },
+      "gpt4omini": {
+        "token_f1": {
+          "old_fulltext": {
+            "interaction": 30.598,
+            "ci95": [
+              20.399,
+              40.579
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 208,
+            "n_unsupported": 196
+          },
+          "new_visible600": {
+            "interaction": 38.608,
+            "ci95": [
+              27.815,
+              49.462
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 162,
+            "n_unsupported": 242
+          },
+          "change": 8.01
+        },
+        "choice_grounded": {
+          "old_fulltext": {
+            "interaction": 31.741,
+            "ci95": [
+              19.639,
+              43.431
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 208,
+            "n_unsupported": 196
+          },
+          "new_visible600": {
+            "interaction": 41.016,
+            "ci95": [
+              28.553,
+              53.459
+            ],
+            "p_plus_one": 0.0004,
+            "excludes_zero": true,
+            "n_supported": 162,
+            "n_unsupported": 242
+          },
+          "change": 9.275
+        }
+      }
+    },
+    "summary": {
+      "old_fulltext": {
+        "n_models": 10,
+        "n_excluding_zero_token_f1": 10,
+        "n_excluding_zero_choice_grounded": 10,
+        "n_sign_agrees": 10,
+        "verdict": "The interaction survives the strict endpoint"
+      },
+      "new_visible600": {
+        "n_models": 10,
+        "n_excluding_zero_token_f1": 10,
+        "n_excluding_zero_choice_grounded": 10,
+        "n_sign_agrees": 10,
+        "verdict": "The interaction survives the strict endpoint"
+      }
+    },
+    "paper_macros": {
+      "old_fulltext": {
+        "CgInterMin": "+19.9",
+        "CgInterMax": "+35.6",
+        "CgInterSig": "10",
+        "CgInterN": "10"
+      },
+      "new_visible600": {
+        "CgInterMin": "+37.7",
+        "CgInterMax": "+50.8",
+        "CgInterSig": "10",
+        "CgInterN": "10"
+      }
+    }
+  },
+  "mask_null_mechanism": {
+    "script": "pipeline/mask_null_mechanism.py",
+    "label": "answer-bearing passage = gold string in passage",
+    "old_fulltext": {
+      "question": "Is the near-zero Delta_mask an artifact of pooling only the sampled questions' own evidence, or a property of the displaced evidence?",
+      "design": "Answer coverage before and after the per-query mask, split on whether the mask changed the context set, plus what the displaced and substituted passages carried.",
+      "grace_days": 3,
+      "n_questions": 878,
+      "n_context_sets_changed": 334,
+      "displaced_passages": {
+        "n": 569,
+        "n_answer_bearing": 89,
+        "share_answer_bearing": 0.1564
+      },
+      "substituted_passages": {
+        "n": 569,
+        "n_answer_bearing": 66,
+        "share_answer_bearing": 0.116
+      },
+      "coverage_delta_all_questions": {
+        "mean": -0.0052,
+        "ci95": [
+          -0.0101,
+          -0.0007
+        ],
+        "n": 878,
+        "n_quizzes": 199
+      },
+      "coverage_delta_changed_only": {
+        "mean": -0.0138,
+        "ci95": [
+          -0.0263,
+          -0.0018
+        ],
+        "n": 334,
+        "n_quizzes": 162
+      },
+      "per_slice": {
+        "static": {
+          "n": 404,
+          "n_changed": 238,
+          "coverage_unmasked": 0.2421,
+          "coverage_masked": 0.2342
+        },
+        "fresh": {
+          "n": 474,
+          "n_changed": 96,
+          "coverage_unmasked": 0.2814,
+          "coverage_masked": 0.2785
+        }
+      },
+      "index_sizes": {
+        "main": {
+          "n_documents": 6692
+        },
+        "full": {
+          "n_documents": 26611
+        }
+      },
+      "verdict": "INERTNESS: the displaced passages were largely not answer-bearing, so there was little for the mask to remove.",
+      "reading": "15.6% of displaced passages carried the gold span against 11.6% of their substitutes."
+    },
+    "new_visible600": {
+      "question": "Is the near-zero Delta_mask an artifact of pooling only the sampled questions' own evidence, or a property of the displaced evidence?",
+      "design": "Answer coverage before and after the per-query mask, split on whether the mask changed the context set, plus what the displaced and substituted passages carried.",
+      "grace_days": 3,
+      "n_questions": 878,
+      "n_context_sets_changed": 334,
+      "displaced_passages": {
+        "n": 569,
+        "n_answer_bearing": 45,
+        "share_answer_bearing": 0.0791
+      },
+      "substituted_passages": {
+        "n": 569,
+        "n_answer_bearing": 36,
+        "share_answer_bearing": 0.0633
+      },
+      "coverage_delta_all_questions": {
+        "mean": -0.0021,
+        "ci95": [
+          -0.0055,
+          0.0012
+        ],
+        "n": 878,
+        "n_quizzes": 199
+      },
+      "coverage_delta_changed_only": {
+        "mean": -0.0054,
+        "ci95": [
+          -0.0146,
+          0.0034
+        ],
+        "n": 334,
+        "n_quizzes": 162
+      },
+      "per_slice": {
+        "static": {
+          "n": 404,
+          "n_changed": 238,
+          "coverage_unmasked": 0.1653,
+          "coverage_masked": 0.1604
+        },
+        "fresh": {
+          "n": 474,
+          "n_changed": 96,
+          "coverage_unmasked": 0.1848,
+          "coverage_masked": 0.1852
+        }
+      },
+      "index_sizes": {
+        "main": {
+          "n_documents": 6692
+        },
+        "full": {
+          "n_documents": 26611
+        }
+      },
+      "verdict": "INERTNESS: the displaced passages were largely not answer-bearing, so there was little for the mask to remove.",
+      "reading": "7.9% of displaced passages carried the gold span against 6.3% of their substitutes."
+    }
+  },
+  "nli_support": {
+    "script": "pipeline/nli_support.py",
+    "condition": "hybrid (unmasked) top-5 contexts, 878 questions",
+    "label_windows": {
+      "old": "string full text; NLI text[:1500]",
+      "new": "string text[:600]; NLI text[:600]"
+    },
+    "gain_given_support_weighting": "QUESTION-POOLED binary-correct (F1>=0.5) difference; i.i.d. question bootstrap",
+    "cache_complete_no_inference": {
+      "stored": true,
+      "vis600": true
+    },
+    "old": {
+      "context_level_agreement": {
+        "both_support": 832,
+        "string_only": 324,
+        "nli_only": 658,
+        "neither": 2576,
+        "raw_agreement": 0.7763,
+        "string_supported_but_not_entailed": 0.2803,
+        "entailed_but_no_string": 0.2035
+      },
+      "nli_label_distribution": {
+        "entailment": 1490,
+        "neutral": 1964,
+        "contradiction": 936
+      },
+      "contradiction_inside_string_support": 0.1176,
+      "verdict": {
+        "mechanism_survives_semantic_relabel": true,
+        "reading": "If the Static gain given support stays non-negative for the strong models under the entailment label as well as the string label, the paper's descriptive claim -- harm is concentrated in the unsupported subset -- does not depend on which support definition is used. If it flips, the claim was an artifact of string matching."
+      }
+    },
+    "new": {
+      "context_level_agreement": {
+        "both_support": 580,
+        "string_only": 192,
+        "nli_only": 404,
+        "neither": 3214,
+        "raw_agreement": 0.8642,
+        "string_supported_but_not_entailed": 0.2487,
+        "entailed_but_no_string": 0.1117
+      },
+      "nli_label_distribution": {
+        "entailment": 984,
+        "neutral": 2243,
+        "contradiction": 1163
+      },
+      "contradiction_inside_string_support": 0.1114,
+      "verdict": {
+        "mechanism_survives_semantic_relabel": true,
+        "reading": "If the Static gain given support stays non-negative for the strong models under the entailment label as well as the string label, the paper's descriptive claim -- harm is concentrated in the unsupported subset -- does not depend on which support definition is used. If it flips, the claim was an artifact of string matching."
+      }
+    },
+    "gain_given_support_by_label": {
+      "old": {
+        "gpt4omini": {
+          "string_static": {
+            "mean": 9.346,
+            "ci95": [
+              1.869,
+              16.822
+            ],
+            "p_plus_one": 0.0156,
+            "n": 214
+          },
+          "string_fresh": {
+            "mean": 24.621,
+            "ci95": [
+              17.424,
+              32.197
+            ],
+            "p_plus_one": 0.0004,
+            "n": 264
+          },
+          "nli_static": {
+            "mean": 4.844,
+            "ci95": [
+              -1.384,
+              11.073
+            ],
+            "p_plus_one": 0.12637,
+            "n": 289
+          },
+          "nli_fresh": {
+            "mean": 19.54,
+            "ci95": [
+              13.218,
+              25.575
+            ],
+            "p_plus_one": 0.0004,
+            "n": 348
+          }
+        },
+        "llama3_8b": {
+          "string_static": {
+            "mean": 19.159,
+            "ci95": [
+              10.748,
+              27.57
+            ],
+            "p_plus_one": 0.0004,
+            "n": 214
+          },
+          "string_fresh": {
+            "mean": 28.409,
+            "ci95": [
+              21.212,
+              35.606
+            ],
+            "p_plus_one": 0.0004,
+            "n": 264
+          },
+          "nli_static": {
+            "mean": 14.187,
+            "ci95": [
+              7.958,
+              20.761
+            ],
+            "p_plus_one": 0.0008,
+            "n": 289
+          },
+          "nli_fresh": {
+            "mean": 23.276,
+            "ci95": [
+              17.241,
+              29.31
+            ],
+            "p_plus_one": 0.0004,
+            "n": 348
+          }
+        },
+        "mistral_large": {
+          "string_static": {
+            "mean": 6.075,
+            "ci95": [
+              -1.402,
+              13.551
+            ],
+            "p_plus_one": 0.11598,
+            "n": 214
+          },
+          "string_fresh": {
+            "mean": 25.758,
+            "ci95": [
+              18.561,
+              33.333
+            ],
+            "p_plus_one": 0.0004,
+            "n": 264
+          },
+          "nli_static": {
+            "mean": 1.73,
+            "ci95": [
+              -4.498,
+              7.958
+            ],
+            "p_plus_one": 0.61428,
+            "n": 289
+          },
+          "nli_fresh": {
+            "mean": 18.391,
+            "ci95": [
+              12.069,
+              24.713
+            ],
+            "p_plus_one": 0.0004,
+            "n": 348
+          }
+        },
+        "qwen1_5b": {
+          "string_static": {
+            "mean": 36.916,
+            "ci95": [
+              28.972,
+              44.86
+            ],
+            "p_plus_one": 0.0004,
+            "n": 214
+          },
+          "string_fresh": {
+            "mean": 30.682,
+            "ci95": [
+              23.485,
+              37.5
+            ],
+            "p_plus_one": 0.0004,
+            "n": 264
+          },
+          "nli_static": {
+            "mean": 30.45,
+            "ci95": [
+              24.221,
+              37.024
+            ],
+            "p_plus_one": 0.0004,
+            "n": 289
+          },
+          "nli_fresh": {
+            "mean": 25.575,
+            "ci95": [
+              19.54,
+              31.609
+            ],
+            "p_plus_one": 0.0004,
+            "n": 348
+          }
+        },
+        "qwen32b": {
+          "string_static": {
+            "mean": 22.43,
+            "ci95": [
+              14.486,
+              30.841
+            ],
+            "p_plus_one": 0.0004,
+            "n": 214
+          },
+          "string_fresh": {
+            "mean": 29.167,
+            "ci95": [
+              21.591,
+              36.742
+            ],
+            "p_plus_one": 0.0004,
+            "n": 264
+          },
+          "nli_static": {
+            "mean": 15.917,
+            "ci95": [
+              9.343,
+              23.183
+            ],
+            "p_plus_one": 0.0004,
+            "n": 289
+          },
+          "nli_fresh": {
+            "mean": 24.713,
+            "ci95": [
+              18.391,
+              31.322
+            ],
+            "p_plus_one": 0.0004,
+            "n": 348
+          }
+        },
+        "qwen3b": {
+          "string_static": {
+            "mean": 42.056,
+            "ci95": [
+              34.112,
+              49.533
+            ],
+            "p_plus_one": 0.0004,
+            "n": 214
+          },
+          "string_fresh": {
+            "mean": 34.848,
+            "ci95": [
+              27.273,
+              42.424
+            ],
+            "p_plus_one": 0.0004,
+            "n": 264
+          },
+          "nli_static": {
+            "mean": 34.602,
+            "ci95": [
+              28.374,
+              40.83
+            ],
+            "p_plus_one": 0.0004,
+            "n": 289
+          },
+          "nli_fresh": {
+            "mean": 29.598,
+            "ci95": [
+              23.276,
+              35.92
+            ],
+            "p_plus_one": 0.0004,
+            "n": 348
+          }
+        },
+        "qwen72b": {
+          "string_static": {
+            "mean": 19.159,
+            "ci95": [
+              11.682,
+              27.103
+            ],
+            "p_plus_one": 0.0004,
+            "n": 214
+          },
+          "string_fresh": {
+            "mean": 22.348,
+            "ci95": [
+              15.152,
+              29.924
+            ],
+            "p_plus_one": 0.0004,
+            "n": 264
+          },
+          "nli_static": {
+            "mean": 11.073,
+            "ci95": [
+              4.498,
+              17.647
+            ],
+            "p_plus_one": 0.002,
+            "n": 289
+          },
+          "nli_fresh": {
+            "mean": 18.103,
+            "ci95": [
+              11.782,
+              24.425
+            ],
+            "p_plus_one": 0.0004,
+            "n": 348
+          }
+        },
+        "qwen7b": {
+          "string_static": {
+            "mean": 28.037,
+            "ci95": [
+              20.093,
+              36.449
+            ],
+            "p_plus_one": 0.0004,
+            "n": 214
+          },
+          "string_fresh": {
+            "mean": 30.303,
+            "ci95": [
+              22.727,
+              37.5
+            ],
+            "p_plus_one": 0.0004,
+            "n": 264
+          },
+          "nli_static": {
+            "mean": 21.453,
+            "ci95": [
+              14.879,
+              28.374
+            ],
+            "p_plus_one": 0.0004,
+            "n": 289
+          },
+          "nli_fresh": {
+            "mean": 25.575,
+            "ci95": [
+              19.253,
+              31.897
+            ],
+            "p_plus_one": 0.0004,
+            "n": 348
+          }
+        },
+        "sonnet": {
+          "string_static": {
+            "mean": 1.402,
+            "ci95": [
+              -6.075,
+              9.346
+            ],
+            "p_plus_one": 0.75465,
+            "n": 214
+          },
+          "string_fresh": {
+            "mean": 30.303,
+            "ci95": [
+              22.348,
+              37.879
+            ],
+            "p_plus_one": 0.0004,
+            "n": 264
+          },
+          "nli_static": {
+            "mean": 0.0,
+            "ci95": [
+              -6.574,
+              6.574
+            ],
+            "p_plus_one": 0.94981,
+            "n": 289
+          },
+          "nli_fresh": {
+            "mean": 25.0,
+            "ci95": [
+              18.966,
+              31.322
+            ],
+            "p_plus_one": 0.0004,
+            "n": 348
+          }
+        }
+      },
+      "new": {
+        "gpt4omini": {
+          "string_static": {
+            "mean": 19.162,
+            "ci95": [
+              11.377,
+              26.946
+            ],
+            "p_plus_one": 0.0004,
+            "n": 167
+          },
+          "string_fresh": {
+            "mean": 35.577,
+            "ci95": [
+              27.404,
+              43.75
+            ],
+            "p_plus_one": 0.0004,
+            "n": 208
+          },
+          "nli_static": {
+            "mean": 14.493,
+            "ci95": [
+              7.246,
+              21.739
+            ],
+            "p_plus_one": 0.0004,
+            "n": 207
+          },
+          "nli_fresh": {
+            "mean": 30.451,
+            "ci95": [
+              22.932,
+              37.594
+            ],
+            "p_plus_one": 0.0004,
+            "n": 266
+          }
+        },
+        "llama3_8b": {
+          "string_static": {
+            "mean": 31.737,
+            "ci95": [
+              22.754,
+              40.719
+            ],
+            "p_plus_one": 0.0004,
+            "n": 167
+          },
+          "string_fresh": {
+            "mean": 37.981,
+            "ci95": [
+              29.808,
+              46.154
+            ],
+            "p_plus_one": 0.0004,
+            "n": 208
+          },
+          "nli_static": {
+            "mean": 25.121,
+            "ci95": [
+              17.391,
+              32.85
+            ],
+            "p_plus_one": 0.0004,
+            "n": 207
+          },
+          "nli_fresh": {
+            "mean": 30.827,
+            "ci95": [
+              23.308,
+              37.97
+            ],
+            "p_plus_one": 0.0004,
+            "n": 266
+          }
+        },
+        "mistral_large": {
+          "string_static": {
+            "mean": 19.162,
+            "ci95": [
+              11.976,
+              26.347
+            ],
+            "p_plus_one": 0.0004,
+            "n": 167
+          },
+          "string_fresh": {
+            "mean": 35.096,
+            "ci95": [
+              26.442,
+              43.75
+            ],
+            "p_plus_one": 0.0004,
+            "n": 208
+          },
+          "nli_static": {
+            "mean": 11.594,
+            "ci95": [
+              4.348,
+              18.841
+            ],
+            "p_plus_one": 0.0016,
+            "n": 207
+          },
+          "nli_fresh": {
+            "mean": 30.075,
+            "ci95": [
+              22.932,
+              37.594
+            ],
+            "p_plus_one": 0.0004,
+            "n": 266
+          }
+        },
+        "qwen1_5b": {
+          "string_static": {
+            "mean": 50.898,
+            "ci95": [
+              42.515,
+              59.281
+            ],
+            "p_plus_one": 0.0004,
+            "n": 167
+          },
+          "string_fresh": {
+            "mean": 40.865,
+            "ci95": [
+              33.173,
+              48.558
+            ],
+            "p_plus_one": 0.0004,
+            "n": 208
+          },
+          "nli_static": {
+            "mean": 45.411,
+            "ci95": [
+              37.681,
+              52.657
+            ],
+            "p_plus_one": 0.0004,
+            "n": 207
+          },
+          "nli_fresh": {
+            "mean": 34.962,
+            "ci95": [
+              27.82,
+              42.105
+            ],
+            "p_plus_one": 0.0004,
+            "n": 266
+          }
+        },
+        "qwen32b": {
+          "string_static": {
+            "mean": 35.329,
+            "ci95": [
+              26.347,
+              44.311
+            ],
+            "p_plus_one": 0.0004,
+            "n": 167
+          },
+          "string_fresh": {
+            "mean": 42.308,
+            "ci95": [
+              34.135,
+              50.481
+            ],
+            "p_plus_one": 0.0004,
+            "n": 208
+          },
+          "nli_static": {
+            "mean": 28.502,
+            "ci95": [
+              20.773,
+              36.715
+            ],
+            "p_plus_one": 0.0004,
+            "n": 207
+          },
+          "nli_fresh": {
+            "mean": 36.842,
+            "ci95": [
+              29.323,
+              43.985
+            ],
+            "p_plus_one": 0.0004,
+            "n": 266
+          }
+        },
+        "qwen3b": {
+          "string_static": {
+            "mean": 55.09,
+            "ci95": [
+              46.707,
+              63.473
+            ],
+            "p_plus_one": 0.0004,
+            "n": 167
+          },
+          "string_fresh": {
+            "mean": 47.115,
+            "ci95": [
+              38.942,
+              55.288
+            ],
+            "p_plus_one": 0.0004,
+            "n": 208
+          },
+          "nli_static": {
+            "mean": 48.309,
+            "ci95": [
+              40.58,
+              56.039
+            ],
+            "p_plus_one": 0.0004,
+            "n": 207
+          },
+          "nli_fresh": {
+            "mean": 41.729,
+            "ci95": [
+              34.586,
+              48.496
+            ],
+            "p_plus_one": 0.0004,
+            "n": 266
+          }
+        },
+        "qwen72b": {
+          "string_static": {
+            "mean": 32.335,
+            "ci95": [
+              23.952,
+              40.719
+            ],
+            "p_plus_one": 0.0004,
+            "n": 167
+          },
+          "string_fresh": {
+            "mean": 33.173,
+            "ci95": [
+              24.519,
+              41.827
+            ],
+            "p_plus_one": 0.0004,
+            "n": 208
+          },
+          "nli_static": {
+            "mean": 22.705,
+            "ci95": [
+              14.976,
+              30.435
+            ],
+            "p_plus_one": 0.0004,
+            "n": 207
+          },
+          "nli_fresh": {
+            "mean": 28.571,
+            "ci95": [
+              21.053,
+              36.09
+            ],
+            "p_plus_one": 0.0004,
+            "n": 266
+          }
+        },
+        "qwen7b": {
+          "string_static": {
+            "mean": 44.311,
+            "ci95": [
+              36.527,
+              52.096
+            ],
+            "p_plus_one": 0.0004,
+            "n": 167
+          },
+          "string_fresh": {
+            "mean": 41.827,
+            "ci95": [
+              33.173,
+              50.0
+            ],
+            "p_plus_one": 0.0004,
+            "n": 208
+          },
+          "nli_static": {
+            "mean": 33.333,
+            "ci95": [
+              25.604,
+              41.546
+            ],
+            "p_plus_one": 0.0004,
+            "n": 207
+          },
+          "nli_fresh": {
+            "mean": 35.714,
+            "ci95": [
+              28.195,
+              42.857
+            ],
+            "p_plus_one": 0.0004,
+            "n": 266
+          }
+        },
+        "sonnet": {
+          "string_static": {
+            "mean": 10.778,
+            "ci95": [
+              2.395,
+              19.162
+            ],
+            "p_plus_one": 0.0176,
+            "n": 167
+          },
+          "string_fresh": {
+            "mean": 42.308,
+            "ci95": [
+              34.135,
+              50.481
+            ],
+            "p_plus_one": 0.0004,
+            "n": 208
+          },
+          "nli_static": {
+            "mean": 12.077,
+            "ci95": [
+              4.348,
+              19.807
+            ],
+            "p_plus_one": 0.0036,
+            "n": 207
+          },
+          "nli_fresh": {
+            "mean": 36.842,
+            "ci95": [
+              29.323,
+              43.985
+            ],
+            "p_plus_one": 0.0004,
+            "n": 266
+          }
+        }
+      }
+    }
+  },
+  "runtime_total_sec": 43.0
+}

@@ -1,0 +1,2415 @@
+{
+  "scope": "Same-question counterfactual: Hybrid retrieval re-ranked under the per-query temporal mask, against the shipped rankings.",
+  "estimands": {
+    "delta_mask": "F1(masked RAG) - F1(unmasked RAG), paired within question",
+    "delta_rag_masked": "F1(masked RAG) - F1(closed-book), paired within question",
+    "delta_rag_unmasked": "F1(unmasked RAG) - F1(closed-book), paired within question"
+  },
+  "why": "The selected-subset analysis compared different questions (179/404 Static retained against 398/474 Fresh) and so could not identify the mask's effect. These contrasts are within question.",
+  "coverage": {
+    "regenerated": [
+      "qwen1_5b",
+      "qwen3b",
+      "qwen7b",
+      "llama3_8b",
+      "qwen32b",
+      "qwen72b",
+      "mistral_large",
+      "",
+      "sonnet",
+      "gpt4omini"
+    ],
+    "api_only_not_regenerated": [],
+    "incomplete_excluded": []
+  },
+  "per_model": {
+    "qwen1_5b": {
+      "n_questions": 878,
+      "all": {
+        "delta_mask": {
+          "delta": 0.814,
+          "ci95": [
+            -0.89,
+            2.642
+          ],
+          "p_plus_one": 0.36313,
+          "question_weighted": {
+            "delta": 0.081,
+            "ci95": [
+              -1.091,
+              1.268
+            ],
+            "p_plus_one": 0.87463
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "delta_rag_masked": {
+          "delta": 15.69,
+          "ci95": [
+            11.182,
+            20.074
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 18.052,
+            "ci95": [
+              14.407,
+              21.572
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "delta_rag_unmasked": {
+          "delta": 14.876,
+          "ci95": [
+            10.36,
+            19.241
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 17.971,
+            "ci95": [
+              14.183,
+              21.623
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "n": 878
+      },
+      "static": {
+        "delta_mask": {
+          "delta": 1.009,
+          "ci95": [
+            -1.508,
+            3.681
+          ],
+          "p_plus_one": 0.42791,
+          "question_weighted": {
+            "delta": -0.187,
+            "ci95": [
+              -2.384,
+              1.911
+            ],
+            "p_plus_one": 0.87582
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "delta_rag_masked": {
+          "delta": 15.127,
+          "ci95": [
+            9.387,
+            20.707
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 19.381,
+            "ci95": [
+              14.767,
+              23.719
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "delta_rag_unmasked": {
+          "delta": 14.119,
+          "ci95": [
+            8.527,
+            19.516
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 19.568,
+            "ci95": [
+              14.759,
+              24.005
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "n": 404
+      },
+      "fresh": {
+        "delta_mask": {
+          "delta": 0.486,
+          "ci95": [
+            -1.079,
+            2.519
+          ],
+          "p_plus_one": 0.59948,
+          "question_weighted": {
+            "delta": 0.309,
+            "ci95": [
+              -0.725,
+              1.465
+            ],
+            "p_plus_one": 0.56629
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "delta_rag_masked": {
+          "delta": 16.641,
+          "ci95": [
+            9.501,
+            23.962
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 16.92,
+            "ci95": [
+              11.404,
+              22.43
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "delta_rag_unmasked": {
+          "delta": 16.156,
+          "ci95": [
+            9.244,
+            23.347
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 16.611,
+            "ci95": [
+              10.917,
+              22.384
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "n": 474
+      },
+      "context_set_changed": 334,
+      "pct_context_set_changed": 38.0
+    },
+    "qwen3b": {
+      "n_questions": 878,
+      "all": {
+        "delta_mask": {
+          "delta": 0.127,
+          "ci95": [
+            -1.029,
+            1.21
+          ],
+          "p_plus_one": 0.79104,
+          "question_weighted": {
+            "delta": 0.166,
+            "ci95": [
+              -0.882,
+              1.192
+            ],
+            "p_plus_one": 0.73825
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "delta_rag_masked": {
+          "delta": 18.72,
+          "ci95": [
+            14.709,
+            22.74
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 20.923,
+            "ci95": [
+              17.195,
+              24.499
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "delta_rag_unmasked": {
+          "delta": 18.593,
+          "ci95": [
+            14.501,
+            22.623
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 20.757,
+            "ci95": [
+              17.032,
+              24.235
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "n": 878
+      },
+      "static": {
+        "delta_mask": {
+          "delta": -0.223,
+          "ci95": [
+            -1.985,
+            1.324
+          ],
+          "p_plus_one": 0.82823,
+          "question_weighted": {
+            "delta": -0.3,
+            "ci95": [
+              -2.099,
+              1.364
+            ],
+            "p_plus_one": 0.76945
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "delta_rag_masked": {
+          "delta": 19.843,
+          "ci95": [
+            14.889,
+            25.068
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 21.99,
+            "ci95": [
+              17.245,
+              26.72
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "delta_rag_unmasked": {
+          "delta": 20.067,
+          "ci95": [
+            15.161,
+            25.362
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 22.29,
+            "ci95": [
+              17.534,
+              27.02
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "n": 404
+      },
+      "fresh": {
+        "delta_mask": {
+          "delta": 0.718,
+          "ci95": [
+            -0.27,
+            2.004
+          ],
+          "p_plus_one": 0.18596,
+          "question_weighted": {
+            "delta": 0.563,
+            "ci95": [
+              -0.475,
+              1.847
+            ],
+            "p_plus_one": 0.32513
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "delta_rag_masked": {
+          "delta": 16.821,
+          "ci95": [
+            10.909,
+            23.186
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 20.013,
+            "ci95": [
+              14.569,
+              25.261
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "delta_rag_unmasked": {
+          "delta": 16.103,
+          "ci95": [
+            9.935,
+            22.604
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 19.45,
+            "ci95": [
+              14.016,
+              24.579
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "n": 474
+      },
+      "context_set_changed": 334,
+      "pct_context_set_changed": 38.0
+    },
+    "qwen7b": {
+      "n_questions": 878,
+      "all": {
+        "delta_mask": {
+          "delta": 0.495,
+          "ci95": [
+            -0.672,
+            1.937
+          ],
+          "p_plus_one": 0.46871,
+          "question_weighted": {
+            "delta": -0.019,
+            "ci95": [
+              -0.954,
+              0.858
+            ],
+            "p_plus_one": 0.9954
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "delta_rag_masked": {
+          "delta": 11.589,
+          "ci95": [
+            7.233,
+            15.752
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 14.648,
+            "ci95": [
+              10.949,
+              18.052
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "delta_rag_unmasked": {
+          "delta": 11.094,
+          "ci95": [
+            6.925,
+            15.037
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 14.667,
+            "ci95": [
+              10.925,
+              18.135
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "n": 878
+      },
+      "static": {
+        "delta_mask": {
+          "delta": 0.311,
+          "ci95": [
+            -1.439,
+            2.5
+          ],
+          "p_plus_one": 0.79664,
+          "question_weighted": {
+            "delta": -1.016,
+            "ci95": [
+              -2.713,
+              0.6
+            ],
+            "p_plus_one": 0.23355
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "delta_rag_masked": {
+          "delta": 9.442,
+          "ci95": [
+            4.569,
+            14.489
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 13.295,
+            "ci95": [
+              8.881,
+              17.809
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "delta_rag_unmasked": {
+          "delta": 9.131,
+          "ci95": [
+            4.493,
+            13.885
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 14.311,
+            "ci95": [
+              9.922,
+              18.551
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "n": 404
+      },
+      "fresh": {
+        "delta_mask": {
+          "delta": 0.805,
+          "ci95": [
+            0.117,
+            1.909
+          ],
+          "p_plus_one": 0.0052,
+          "question_weighted": {
+            "delta": 0.832,
+            "ci95": [
+              0.116,
+              1.748
+            ],
+            "p_plus_one": 0.016
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "delta_rag_masked": {
+          "delta": 15.214,
+          "ci95": [
+            8.093,
+            22.542
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 15.802,
+            "ci95": [
+              9.925,
+              21.18
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "delta_rag_unmasked": {
+          "delta": 14.409,
+          "ci95": [
+            7.279,
+            21.92
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 14.97,
+            "ci95": [
+              9.018,
+              20.518
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "n": 474
+      },
+      "context_set_changed": 334,
+      "pct_context_set_changed": 38.0
+    },
+    "llama3_8b": {
+      "n_questions": 878,
+      "all": {
+        "delta_mask": {
+          "delta": -0.418,
+          "ci95": [
+            -1.769,
+            0.941
+          ],
+          "p_plus_one": 0.5247,
+          "question_weighted": {
+            "delta": -0.658,
+            "ci95": [
+              -1.771,
+              0.384
+            ],
+            "p_plus_one": 0.20436
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "delta_rag_masked": {
+          "delta": 6.26,
+          "ci95": [
+            1.955,
+            10.426
+          ],
+          "p_plus_one": 0.0048,
+          "question_weighted": {
+            "delta": 10.259,
+            "ci95": [
+              6.525,
+              13.736
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "delta_rag_unmasked": {
+          "delta": 6.678,
+          "ci95": [
+            2.483,
+            10.786
+          ],
+          "p_plus_one": 0.0024,
+          "question_weighted": {
+            "delta": 10.917,
+            "ci95": [
+              7.406,
+              14.189
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "n": 878
+      },
+      "static": {
+        "delta_mask": {
+          "delta": -0.478,
+          "ci95": [
+            -2.507,
+            1.637
+          ],
+          "p_plus_one": 0.67027,
+          "question_weighted": {
+            "delta": -1.25,
+            "ci95": [
+              -3.384,
+              0.801
+            ],
+            "p_plus_one": 0.24275
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "delta_rag_masked": {
+          "delta": 3.174,
+          "ci95": [
+            -1.799,
+            8.307
+          ],
+          "p_plus_one": 0.20916,
+          "question_weighted": {
+            "delta": 5.734,
+            "ci95": [
+              0.917,
+              10.568
+            ],
+            "p_plus_one": 0.0172
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "delta_rag_unmasked": {
+          "delta": 3.651,
+          "ci95": [
+            -1.322,
+            8.734
+          ],
+          "p_plus_one": 0.14877,
+          "question_weighted": {
+            "delta": 6.984,
+            "ci95": [
+              2.66,
+              11.332
+            ],
+            "p_plus_one": 0.0032
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "n": 404
+      },
+      "fresh": {
+        "delta_mask": {
+          "delta": -0.318,
+          "ci95": [
+            -1.386,
+            0.602
+          ],
+          "p_plus_one": 0.55629,
+          "question_weighted": {
+            "delta": -0.153,
+            "ci95": [
+              -0.975,
+              0.754
+            ],
+            "p_plus_one": 0.70466
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "delta_rag_masked": {
+          "delta": 11.473,
+          "ci95": [
+            4.808,
+            18.335
+          ],
+          "p_plus_one": 0.0012,
+          "question_weighted": {
+            "delta": 14.116,
+            "ci95": [
+              8.855,
+              19.013
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "delta_rag_unmasked": {
+          "delta": 11.791,
+          "ci95": [
+            5.203,
+            18.694
+          ],
+          "p_plus_one": 0.0012,
+          "question_weighted": {
+            "delta": 14.269,
+            "ci95": [
+              9.26,
+              19.022
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "n": 474
+      },
+      "context_set_changed": 334,
+      "pct_context_set_changed": 38.0
+    },
+    "qwen32b": {
+      "n_questions": 878,
+      "all": {
+        "delta_mask": {
+          "delta": -0.52,
+          "ci95": [
+            -1.498,
+            0.462
+          ],
+          "p_plus_one": 0.29634,
+          "question_weighted": {
+            "delta": -0.62,
+            "ci95": [
+              -1.445,
+              0.169
+            ],
+            "p_plus_one": 0.12478
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "delta_rag_masked": {
+          "delta": 8.066,
+          "ci95": [
+            3.749,
+            12.362
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 10.909,
+            "ci95": [
+              6.87,
+              14.762
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "delta_rag_unmasked": {
+          "delta": 8.586,
+          "ci95": [
+            4.193,
+            12.914
+          ],
+          "p_plus_one": 0.0008,
+          "question_weighted": {
+            "delta": 11.529,
+            "ci95": [
+              7.577,
+              15.339
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "n": 878
+      },
+      "static": {
+        "delta_mask": {
+          "delta": -0.419,
+          "ci95": [
+            -1.71,
+            0.947
+          ],
+          "p_plus_one": 0.5047,
+          "question_weighted": {
+            "delta": -1.297,
+            "ci95": [
+              -2.773,
+              0.016
+            ],
+            "p_plus_one": 0.05399
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "delta_rag_masked": {
+          "delta": 4.823,
+          "ci95": [
+            -0.244,
+            9.697
+          ],
+          "p_plus_one": 0.06359,
+          "question_weighted": {
+            "delta": 7.427,
+            "ci95": [
+              2.834,
+              11.996
+            ],
+            "p_plus_one": 0.004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "delta_rag_unmasked": {
+          "delta": 5.242,
+          "ci95": [
+            0.057,
+            10.167
+          ],
+          "p_plus_one": 0.04879,
+          "question_weighted": {
+            "delta": 8.724,
+            "ci95": [
+              4.036,
+              13.12
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "n": 404
+      },
+      "fresh": {
+        "delta_mask": {
+          "delta": -0.692,
+          "ci95": [
+            -2.485,
+            0.612
+          ],
+          "p_plus_one": 0.40992,
+          "question_weighted": {
+            "delta": -0.043,
+            "ci95": [
+              -0.958,
+              0.873
+            ],
+            "p_plus_one": 0.91462
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "delta_rag_masked": {
+          "delta": 13.544,
+          "ci95": [
+            6.206,
+            21.043
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 13.878,
+            "ci95": [
+              7.475,
+              19.919
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "delta_rag_unmasked": {
+          "delta": 14.236,
+          "ci95": [
+            7.175,
+            21.639
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 13.92,
+            "ci95": [
+              7.524,
+              20.1
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "n": 474
+      },
+      "context_set_changed": 334,
+      "pct_context_set_changed": 38.0
+    },
+    "qwen72b": {
+      "n_questions": 878,
+      "all": {
+        "delta_mask": {
+          "delta": -0.563,
+          "ci95": [
+            -1.782,
+            0.522
+          ],
+          "p_plus_one": 0.31634,
+          "question_weighted": {
+            "delta": -0.577,
+            "ci95": [
+              -1.57,
+              0.284
+            ],
+            "p_plus_one": 0.20516
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "delta_rag_masked": {
+          "delta": 5.46,
+          "ci95": [
+            1.379,
+            9.598
+          ],
+          "p_plus_one": 0.0088,
+          "question_weighted": {
+            "delta": 6.668,
+            "ci95": [
+              2.905,
+              10.39
+            ],
+            "p_plus_one": 0.0016
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "delta_rag_unmasked": {
+          "delta": 6.022,
+          "ci95": [
+            1.768,
+            10.207
+          ],
+          "p_plus_one": 0.0044,
+          "question_weighted": {
+            "delta": 7.245,
+            "ci95": [
+              3.365,
+              11.003
+            ],
+            "p_plus_one": 0.0012
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "n": 878
+      },
+      "static": {
+        "delta_mask": {
+          "delta": -0.675,
+          "ci95": [
+            -2.557,
+            0.991
+          ],
+          "p_plus_one": 0.45591,
+          "question_weighted": {
+            "delta": -0.724,
+            "ci95": [
+              -2.615,
+              0.949
+            ],
+            "p_plus_one": 0.42871
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "delta_rag_masked": {
+          "delta": 2.447,
+          "ci95": [
+            -2.734,
+            7.471
+          ],
+          "p_plus_one": 0.34313,
+          "question_weighted": {
+            "delta": 3.807,
+            "ci95": [
+              -0.941,
+              8.572
+            ],
+            "p_plus_one": 0.11038
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "delta_rag_unmasked": {
+          "delta": 3.122,
+          "ci95": [
+            -2.122,
+            8.194
+          ],
+          "p_plus_one": 0.24915,
+          "question_weighted": {
+            "delta": 4.531,
+            "ci95": [
+              -0.436,
+              9.351
+            ],
+            "p_plus_one": 0.07359
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "n": 404
+      },
+      "fresh": {
+        "delta_mask": {
+          "delta": -0.373,
+          "ci95": [
+            -1.132,
+            0.324
+          ],
+          "p_plus_one": 0.29834,
+          "question_weighted": {
+            "delta": -0.45,
+            "ci95": [
+              -1.207,
+              0.219
+            ],
+            "p_plus_one": 0.20556
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "delta_rag_masked": {
+          "delta": 10.549,
+          "ci95": [
+            4.179,
+            17.339
+          ],
+          "p_plus_one": 0.0012,
+          "question_weighted": {
+            "delta": 9.108,
+            "ci95": [
+              3.592,
+              14.632
+            ],
+            "p_plus_one": 0.002
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "delta_rag_unmasked": {
+          "delta": 10.922,
+          "ci95": [
+            4.535,
+            17.798
+          ],
+          "p_plus_one": 0.0012,
+          "question_weighted": {
+            "delta": 9.558,
+            "ci95": [
+              3.913,
+              15.308
+            ],
+            "p_plus_one": 0.0028
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "n": 474
+      },
+      "context_set_changed": 334,
+      "pct_context_set_changed": 38.0
+    },
+    "mistral_large": {
+      "n_questions": 878,
+      "all": {
+        "delta_mask": {
+          "delta": -0.017,
+          "ci95": [
+            -1.18,
+            1.116
+          ],
+          "p_plus_one": 0.95341,
+          "question_weighted": {
+            "delta": -0.124,
+            "ci95": [
+              -0.876,
+              0.653
+            ],
+            "p_plus_one": 0.72026
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "delta_rag_masked": {
+          "delta": 0.286,
+          "ci95": [
+            -4.204,
+            4.594
+          ],
+          "p_plus_one": 0.91022,
+          "question_weighted": {
+            "delta": 3.422,
+            "ci95": [
+              -0.297,
+              7.09
+            ],
+            "p_plus_one": 0.07119
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "delta_rag_unmasked": {
+          "delta": 0.303,
+          "ci95": [
+            -4.295,
+            4.617
+          ],
+          "p_plus_one": 0.88462,
+          "question_weighted": {
+            "delta": 3.546,
+            "ci95": [
+              -0.258,
+              7.298
+            ],
+            "p_plus_one": 0.07199
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "n": 878
+      },
+      "static": {
+        "delta_mask": {
+          "delta": -0.116,
+          "ci95": [
+            -1.901,
+            1.592
+          ],
+          "p_plus_one": 0.91382,
+          "question_weighted": {
+            "delta": -0.033,
+            "ci95": [
+              -1.499,
+              1.466
+            ],
+            "p_plus_one": 0.9802
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "delta_rag_masked": {
+          "delta": -5.143,
+          "ci95": [
+            -10.121,
+            -0.333
+          ],
+          "p_plus_one": 0.03599,
+          "question_weighted": {
+            "delta": -3.923,
+            "ci95": [
+              -8.234,
+              0.544
+            ],
+            "p_plus_one": 0.08598
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "delta_rag_unmasked": {
+          "delta": -5.027,
+          "ci95": [
+            -9.889,
+            -0.295
+          ],
+          "p_plus_one": 0.03679,
+          "question_weighted": {
+            "delta": -3.891,
+            "ci95": [
+              -8.01,
+              0.459
+            ],
+            "p_plus_one": 0.08038
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "n": 404
+      },
+      "fresh": {
+        "delta_mask": {
+          "delta": 0.151,
+          "ci95": [
+            -0.527,
+            1.172
+          ],
+          "p_plus_one": 0.81064,
+          "question_weighted": {
+            "delta": -0.203,
+            "ci95": [
+              -0.826,
+              0.453
+            ],
+            "p_plus_one": 0.4987
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "delta_rag_masked": {
+          "delta": 9.458,
+          "ci95": [
+            1.887,
+            17.461
+          ],
+          "p_plus_one": 0.0136,
+          "question_weighted": {
+            "delta": 9.683,
+            "ci95": [
+              4.264,
+              14.98
+            ],
+            "p_plus_one": 0.0008
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "delta_rag_unmasked": {
+          "delta": 9.307,
+          "ci95": [
+            1.573,
+            17.466
+          ],
+          "p_plus_one": 0.0176,
+          "question_weighted": {
+            "delta": 9.885,
+            "ci95": [
+              4.284,
+              15.331
+            ],
+            "p_plus_one": 0.0012
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "n": 474
+      },
+      "context_set_changed": 334,
+      "pct_context_set_changed": 38.0
+    },
+    "": {
+      "n_questions": 878,
+      "all": {
+        "delta_mask": {
+          "delta": -0.039,
+          "ci95": [
+            -1.062,
+            0.968
+          ],
+          "p_plus_one": 0.92661,
+          "question_weighted": {
+            "delta": -0.036,
+            "ci95": [
+              -0.909,
+              0.803
+            ],
+            "p_plus_one": 0.92501
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "delta_rag_masked": {
+          "delta": 6.557,
+          "ci95": [
+            1.931,
+            10.927
+          ],
+          "p_plus_one": 0.0048,
+          "question_weighted": {
+            "delta": 10.174,
+            "ci95": [
+              4.828,
+              14.952
+            ],
+            "p_plus_one": 0.0008
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "delta_rag_unmasked": {
+          "delta": 6.595,
+          "ci95": [
+            2.085,
+            10.948
+          ],
+          "p_plus_one": 0.004,
+          "question_weighted": {
+            "delta": 10.21,
+            "ci95": [
+              4.936,
+              14.939
+            ],
+            "p_plus_one": 0.0008
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "n": 878
+      },
+      "static": {
+        "delta_mask": {
+          "delta": -0.11,
+          "ci95": [
+            -1.638,
+            1.354
+          ],
+          "p_plus_one": 0.86463,
+          "question_weighted": {
+            "delta": -0.139,
+            "ci95": [
+              -1.832,
+              1.455
+            ],
+            "p_plus_one": 0.84943
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "delta_rag_masked": {
+          "delta": -0.063,
+          "ci95": [
+            -6.234,
+            6.007
+          ],
+          "p_plus_one": 0.9766,
+          "question_weighted": {
+            "delta": 2.278,
+            "ci95": [
+              -3.15,
+              7.742
+            ],
+            "p_plus_one": 0.41432
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "delta_rag_unmasked": {
+          "delta": 0.046,
+          "ci95": [
+            -6.109,
+            5.931
+          ],
+          "p_plus_one": 0.9874,
+          "question_weighted": {
+            "delta": 2.416,
+            "ci95": [
+              -2.829,
+              7.568
+            ],
+            "p_plus_one": 0.36273
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "n": 404
+      },
+      "fresh": {
+        "delta_mask": {
+          "delta": 0.081,
+          "ci95": [
+            -1.106,
+            1.269
+          ],
+          "p_plus_one": 0.85663,
+          "question_weighted": {
+            "delta": 0.051,
+            "ci95": [
+              -0.721,
+              0.878
+            ],
+            "p_plus_one": 0.87862
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "delta_rag_masked": {
+          "delta": 17.739,
+          "ci95": [
+            12.291,
+            23.511
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 16.904,
+            "ci95": [
+              8.209,
+              24.146
+            ],
+            "p_plus_one": 0.0012
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "delta_rag_unmasked": {
+          "delta": 17.658,
+          "ci95": [
+            11.981,
+            23.578
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 16.853,
+            "ci95": [
+              8.065,
+              24.301
+            ],
+            "p_plus_one": 0.0012
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "n": 474
+      },
+      "context_set_changed": 334,
+      "pct_context_set_changed": 38.0
+    },
+    "sonnet": {
+      "n_questions": 878,
+      "all": {
+        "delta_mask": {
+          "delta": 0.823,
+          "ci95": [
+            -0.085,
+            1.843
+          ],
+          "p_plus_one": 0.07918,
+          "question_weighted": {
+            "delta": 0.274,
+            "ci95": [
+              -0.546,
+              1.129
+            ],
+            "p_plus_one": 0.4931
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "delta_rag_masked": {
+          "delta": 1.914,
+          "ci95": [
+            -2.786,
+            6.289
+          ],
+          "p_plus_one": 0.40552,
+          "question_weighted": {
+            "delta": 7.4,
+            "ci95": [
+              2.423,
+              12.079
+            ],
+            "p_plus_one": 0.0032
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "delta_rag_unmasked": {
+          "delta": 1.091,
+          "ci95": [
+            -3.521,
+            5.413
+          ],
+          "p_plus_one": 0.62747,
+          "question_weighted": {
+            "delta": 7.127,
+            "ci95": [
+              2.123,
+              11.752
+            ],
+            "p_plus_one": 0.0048
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "n": 878
+      },
+      "static": {
+        "delta_mask": {
+          "delta": 0.195,
+          "ci95": [
+            -0.669,
+            1.069
+          ],
+          "p_plus_one": 0.63347,
+          "question_weighted": {
+            "delta": -0.119,
+            "ci95": [
+              -1.411,
+              1.099
+            ],
+            "p_plus_one": 0.89622
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "delta_rag_masked": {
+          "delta": -7.722,
+          "ci95": [
+            -13.578,
+            -2.012
+          ],
+          "p_plus_one": 0.006,
+          "question_weighted": {
+            "delta": -5.087,
+            "ci95": [
+              -10.277,
+              -0.005
+            ],
+            "p_plus_one": 0.04999
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "delta_rag_unmasked": {
+          "delta": -7.918,
+          "ci95": [
+            -13.783,
+            -2.146
+          ],
+          "p_plus_one": 0.0056,
+          "question_weighted": {
+            "delta": -4.969,
+            "ci95": [
+              -10.206,
+              0.1
+            ],
+            "p_plus_one": 0.05559
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "n": 404
+      },
+      "fresh": {
+        "delta_mask": {
+          "delta": 1.883,
+          "ci95": [
+            0.142,
+            4.106
+          ],
+          "p_plus_one": 0.03039,
+          "question_weighted": {
+            "delta": 0.608,
+            "ci95": [
+              -0.379,
+              1.739
+            ],
+            "p_plus_one": 0.23835
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "delta_rag_masked": {
+          "delta": 18.191,
+          "ci95": [
+            12.801,
+            23.903
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 18.044,
+            "ci95": [
+              10.841,
+              24.409
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "delta_rag_unmasked": {
+          "delta": 16.308,
+          "ci95": [
+            10.922,
+            21.989
+          ],
+          "p_plus_one": 0.0004,
+          "question_weighted": {
+            "delta": 17.436,
+            "ci95": [
+              10.169,
+              23.839
+            ],
+            "p_plus_one": 0.0004
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "n": 474
+      },
+      "context_set_changed": 334,
+      "pct_context_set_changed": 38.0
+    },
+    "gpt4omini": {
+      "n_questions": 878,
+      "all": {
+        "delta_mask": {
+          "delta": -0.121,
+          "ci95": [
+            -1.17,
+            1.207
+          ],
+          "p_plus_one": 0.79264,
+          "question_weighted": {
+            "delta": -0.655,
+            "ci95": [
+              -1.54,
+              0.153
+            ],
+            "p_plus_one": 0.11918
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "delta_rag_masked": {
+          "delta": -1.84,
+          "ci95": [
+            -6.236,
+            2.549
+          ],
+          "p_plus_one": 0.41112,
+          "question_weighted": {
+            "delta": 2.717,
+            "ci95": [
+              -1.122,
+              6.419
+            ],
+            "p_plus_one": 0.15957
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "delta_rag_unmasked": {
+          "delta": -1.719,
+          "ci95": [
+            -6.308,
+            2.668
+          ],
+          "p_plus_one": 0.44511,
+          "question_weighted": {
+            "delta": 3.372,
+            "ci95": [
+              -0.421,
+              6.98
+            ],
+            "p_plus_one": 0.07798
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 878,
+          "n_quizzes": 199
+        },
+        "n": 878
+      },
+      "static": {
+        "delta_mask": {
+          "delta": -0.391,
+          "ci95": [
+            -2.014,
+            1.706
+          ],
+          "p_plus_one": 0.59468,
+          "question_weighted": {
+            "delta": -1.655,
+            "ci95": [
+              -3.259,
+              -0.083
+            ],
+            "p_plus_one": 0.03759
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "delta_rag_masked": {
+          "delta": -7.755,
+          "ci95": [
+            -12.727,
+            -2.85
+          ],
+          "p_plus_one": 0.0012,
+          "question_weighted": {
+            "delta": -4.992,
+            "ci95": [
+              -9.447,
+              -0.443
+            ],
+            "p_plus_one": 0.03039
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "delta_rag_unmasked": {
+          "delta": -7.364,
+          "ci95": [
+            -12.616,
+            -2.25
+          ],
+          "p_plus_one": 0.0036,
+          "question_weighted": {
+            "delta": -3.337,
+            "ci95": [
+              -7.769,
+              1.34
+            ],
+            "p_plus_one": 0.15517
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 404,
+          "n_quizzes": 125
+        },
+        "n": 404
+      },
+      "fresh": {
+        "delta_mask": {
+          "delta": 0.334,
+          "ci95": [
+            -0.278,
+            1.322
+          ],
+          "p_plus_one": 0.4987,
+          "question_weighted": {
+            "delta": 0.198,
+            "ci95": [
+              -0.394,
+              0.863
+            ],
+            "p_plus_one": 0.53589
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "delta_rag_masked": {
+          "delta": 8.151,
+          "ci95": [
+            0.561,
+            15.886
+          ],
+          "p_plus_one": 0.03399,
+          "question_weighted": {
+            "delta": 9.289,
+            "ci95": [
+              4.009,
+              14.4
+            ],
+            "p_plus_one": 0.0016
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "delta_rag_unmasked": {
+          "delta": 7.817,
+          "ci95": [
+            0.156,
+            15.711
+          ],
+          "p_plus_one": 0.04719,
+          "question_weighted": {
+            "delta": 9.091,
+            "ci95": [
+              3.772,
+              14.269
+            ],
+            "p_plus_one": 0.0016
+          },
+          "weighting": "quiz-mean (primary); question-pooled under question_weighted",
+          "n_questions": 474,
+          "n_quizzes": 74
+        },
+        "n": 474
+      },
+      "context_set_changed": 334,
+      "pct_context_set_changed": 38.0
+    }
+  },
+  "static_harm_under_mask": {
+    "per_model": {
+      "qwen1_5b": {
+        "delta": 15.127,
+        "ci95": [
+          9.387,
+          20.707
+        ]
+      },
+      "qwen3b": {
+        "delta": 19.843,
+        "ci95": [
+          14.889,
+          25.068
+        ]
+      },
+      "qwen7b": {
+        "delta": 9.442,
+        "ci95": [
+          4.569,
+          14.489
+        ]
+      },
+      "llama3_8b": {
+        "delta": 3.174,
+        "ci95": [
+          -1.799,
+          8.307
+        ]
+      },
+      "qwen32b": {
+        "delta": 4.823,
+        "ci95": [
+          -0.244,
+          9.697
+        ]
+      },
+      "qwen72b": {
+        "delta": 2.447,
+        "ci95": [
+          -2.734,
+          7.471
+        ]
+      },
+      "mistral_large": {
+        "delta": -5.143,
+        "ci95": [
+          -10.121,
+          -0.333
+        ]
+      },
+      "": {
+        "delta": -0.063,
+        "ci95": [
+          -6.234,
+          6.007
+        ]
+      },
+      "sonnet": {
+        "delta": -7.722,
+        "ci95": [
+          -13.578,
+          -2.012
+        ]
+      },
+      "gpt4omini": {
+        "delta": -7.755,
+        "ci95": [
+          -12.727,
+          -2.85
+        ]
+      }
+    },
+    "n_harmed_ci_excludes_zero": 3,
+    "n_models": 10
+  },
+  "support_interaction_masked": {
+    "string": {
+      "qwen1_5b": {
+        "gain_supported": 36.764,
+        "gain_unsupported": 0.933,
+        "interaction": 35.83,
+        "n_supported": 208,
+        "n_unsupported": 196,
+        "ci95": [
+          26.987,
+          44.939
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125
+      },
+      "qwen3b": {
+        "gain_supported": 39.71,
+        "gain_unsupported": 3.185,
+        "interaction": 36.525,
+        "n_supported": 208,
+        "n_unsupported": 196,
+        "ci95": [
+          27.452,
+          45.58
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125
+      },
+      "qwen7b": {
+        "gain_supported": 29.1,
+        "gain_unsupported": -3.478,
+        "interaction": 32.578,
+        "n_supported": 208,
+        "n_unsupported": 196,
+        "ci95": [
+          24.442,
+          41.058
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125
+      },
+      "llama3_8b": {
+        "gain_supported": 18.465,
+        "gain_unsupported": -7.776,
+        "interaction": 26.241,
+        "n_supported": 208,
+        "n_unsupported": 196,
+        "ci95": [
+          16.188,
+          36.205
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125
+      },
+      "qwen32b": {
+        "gain_supported": 22.438,
+        "gain_unsupported": -8.504,
+        "interaction": 30.942,
+        "n_supported": 208,
+        "n_unsupported": 196,
+        "ci95": [
+          21.455,
+          40.021
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125
+      },
+      "qwen72b": {
+        "gain_supported": 18.755,
+        "gain_unsupported": -12.057,
+        "interaction": 30.813,
+        "n_supported": 208,
+        "n_unsupported": 196,
+        "ci95": [
+          20.365,
+          41.202
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125
+      },
+      "mistral_large": {
+        "gain_supported": 8.905,
+        "gain_unsupported": -17.537,
+        "interaction": 26.442,
+        "n_supported": 208,
+        "n_unsupported": 196,
+        "ci95": [
+          18.026,
+          35.181
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125
+      },
+      "": {
+        "gain_supported": 12.558,
+        "gain_unsupported": -8.632,
+        "interaction": 21.189,
+        "n_supported": 208,
+        "n_unsupported": 196,
+        "ci95": [
+          11.286,
+          30.797
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125
+      },
+      "sonnet": {
+        "gain_supported": 4.459,
+        "gain_unsupported": -15.218,
+        "interaction": 19.677,
+        "n_supported": 208,
+        "n_unsupported": 196,
+        "ci95": [
+          9.891,
+          29.15
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125
+      },
+      "gpt4omini": {
+        "gain_supported": 9.852,
+        "gain_unsupported": -20.746,
+        "interaction": 30.598,
+        "n_supported": 208,
+        "n_unsupported": 196,
+        "ci95": [
+          20.137,
+          40.707
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125
+      }
+    },
+    "nli": {
+      "qwen1_5b": {
+        "gain_supported": 29.401,
+        "gain_unsupported": -5.802,
+        "interaction": 35.203,
+        "n_supported": 289,
+        "n_unsupported": 115,
+        "ci95": [
+          26.858,
+          43.906
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125
+      },
+      "qwen3b": {
+        "gain_supported": 31.054,
+        "gain_unsupported": -0.79,
+        "interaction": 31.844,
+        "n_supported": 289,
+        "n_unsupported": 115,
+        "ci95": [
+          24.202,
+          39.413
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125
+      },
+      "qwen7b": {
+        "gain_supported": 20.355,
+        "gain_unsupported": -4.449,
+        "interaction": 24.804,
+        "n_supported": 289,
+        "n_unsupported": 115,
+        "ci95": [
+          16.786,
+          33.018
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125
+      },
+      "llama3_8b": {
+        "gain_supported": 12.872,
+        "gain_unsupported": -12.203,
+        "interaction": 25.075,
+        "n_supported": 289,
+        "n_unsupported": 115,
+        "ci95": [
+          16.04,
+          34.786
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125
+      },
+      "qwen32b": {
+        "gain_supported": 14.244,
+        "gain_unsupported": -9.706,
+        "interaction": 23.949,
+        "n_supported": 289,
+        "n_unsupported": 115,
+        "ci95": [
+          14.819,
+          33.185
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125
+      },
+      "qwen72b": {
+        "gain_supported": 10.517,
+        "gain_unsupported": -13.058,
+        "interaction": 23.575,
+        "n_supported": 289,
+        "n_unsupported": 115,
+        "ci95": [
+          14.635,
+          33.053
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125
+      },
+      "mistral_large": {
+        "gain_supported": 1.972,
+        "gain_unsupported": -18.74,
+        "interaction": 20.712,
+        "n_supported": 289,
+        "n_unsupported": 115,
+        "ci95": [
+          13.033,
+          28.682
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125
+      },
+      "": {
+        "gain_supported": 8.68,
+        "gain_unsupported": -13.813,
+        "interaction": 22.493,
+        "n_supported": 289,
+        "n_unsupported": 115,
+        "ci95": [
+          12.343,
+          33.157
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125
+      },
+      "sonnet": {
+        "gain_supported": 1.418,
+        "gain_unsupported": -21.436,
+        "interaction": 22.854,
+        "n_supported": 289,
+        "n_unsupported": 115,
+        "ci95": [
+          14.078,
+          31.846
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125
+      },
+      "gpt4omini": {
+        "gain_supported": 2.503,
+        "gain_unsupported": -23.83,
+        "interaction": 26.333,
+        "n_supported": 289,
+        "n_unsupported": 115,
+        "ci95": [
+          16.886,
+          36.487
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": 125
+      }
+    }
+  },
+  "support_interaction_mask_sensitivity": {
+    "string": {
+      "qwen1_5b": {
+        "interaction_unmasked": 37.071,
+        "interaction_masked": 35.83,
+        "shift": -1.241,
+        "unsupported_unmasked": -0.068,
+        "unsupported_masked": 0.933
+      },
+      "qwen3b": {
+        "interaction_unmasked": 35.947,
+        "interaction_masked": 36.525,
+        "shift": 0.578,
+        "unsupported_unmasked": 3.248,
+        "unsupported_masked": 3.185
+      },
+      "qwen7b": {
+        "interaction_unmasked": 31.283,
+        "interaction_masked": 32.578,
+        "shift": 1.295,
+        "unsupported_unmasked": -2.259,
+        "unsupported_masked": -3.478
+      },
+      "llama3_8b": {
+        "interaction_unmasked": 23.765,
+        "interaction_masked": 26.241,
+        "shift": 2.476,
+        "unsupported_unmasked": -5.604,
+        "unsupported_masked": -7.776
+      },
+      "qwen32b": {
+        "interaction_unmasked": 29.428,
+        "interaction_masked": 30.942,
+        "shift": 1.514,
+        "unsupported_unmasked": -6.864,
+        "unsupported_masked": -8.504
+      },
+      "qwen72b": {
+        "interaction_unmasked": 31.909,
+        "interaction_masked": 30.813,
+        "shift": -1.096,
+        "unsupported_unmasked": -12.372,
+        "unsupported_masked": -12.057
+      },
+      "mistral_large": {
+        "interaction_unmasked": 21.278,
+        "interaction_masked": 26.442,
+        "shift": 5.164,
+        "unsupported_unmasked": -15.162,
+        "unsupported_masked": -17.537
+      },
+      "sonnet": {
+        "interaction_unmasked": 17.379,
+        "interaction_masked": 19.677,
+        "shift": 2.298,
+        "unsupported_unmasked": -14.175,
+        "unsupported_masked": -15.218
+      },
+      "gpt4omini": {
+        "interaction_unmasked": 24.964,
+        "interaction_masked": 30.598,
+        "shift": 5.634,
+        "unsupported_unmasked": -16.561,
+        "unsupported_masked": -20.746
+      }
+    },
+    "nli": {
+      "qwen1_5b": {
+        "interaction_unmasked": 34.558,
+        "interaction_masked": 35.203,
+        "shift": 0.645,
+        "unsupported_unmasked": -5.153,
+        "unsupported_masked": -5.802
+      },
+      "qwen3b": {
+        "interaction_unmasked": 33.03,
+        "interaction_masked": 31.844,
+        "shift": -1.186,
+        "unsupported_unmasked": -1.338,
+        "unsupported_masked": -0.79
+      },
+      "qwen7b": {
+        "interaction_unmasked": 26.518,
+        "interaction_masked": 24.804,
+        "shift": -1.714,
+        "unsupported_unmasked": -4.658,
+        "unsupported_masked": -4.449
+      },
+      "llama3_8b": {
+        "interaction_unmasked": 24.77,
+        "interaction_masked": 25.075,
+        "shift": 0.305,
+        "unsupported_unmasked": -10.735,
+        "unsupported_masked": -12.203
+      },
+      "qwen32b": {
+        "interaction_unmasked": 25.552,
+        "interaction_masked": 23.949,
+        "shift": -1.603,
+        "unsupported_unmasked": -9.555,
+        "unsupported_masked": -9.706
+      },
+      "qwen72b": {
+        "interaction_unmasked": 23.706,
+        "interaction_masked": 23.575,
+        "shift": -0.131,
+        "unsupported_unmasked": -12.427,
+        "unsupported_masked": -13.058
+      },
+      "mistral_large": {
+        "interaction_unmasked": 19.404,
+        "interaction_masked": 20.712,
+        "shift": 1.308,
+        "unsupported_unmasked": -17.772,
+        "unsupported_masked": -18.74
+      },
+      "sonnet": {
+        "interaction_unmasked": 22.6,
+        "interaction_masked": 22.854,
+        "shift": 0.254,
+        "unsupported_unmasked": -21.136,
+        "unsupported_masked": -21.436
+      },
+      "gpt4omini": {
+        "interaction_unmasked": 26.187,
+        "interaction_masked": 26.333,
+        "shift": 0.146,
+        "unsupported_unmasked": -22.07,
+        "unsupported_masked": -23.83
+      }
+    }
+  },
+  "unsupported_cost_vs_scale_masked": {
+    "string": {
+      "slope_per_decade": -9.89,
+      "p_exact": 0.00556,
+      "n_rungs": 6,
+      "points": [
+        {
+          "params_B": 1.5,
+          "gain_unsupported": 0.933
+        },
+        {
+          "params_B": 3.0,
+          "gain_unsupported": 3.185
+        },
+        {
+          "params_B": 7.0,
+          "gain_unsupported": -3.478
+        },
+        {
+          "params_B": 32.0,
+          "gain_unsupported": -8.504
+        },
+        {
+          "params_B": 72.0,
+          "gain_unsupported": -12.057
+        },
+        {
+          "params_B": 123.0,
+          "gain_unsupported": -17.537
+        }
+      ]
+    },
+    "nli": {
+      "slope_per_decade": -7.429,
+      "p_exact": 0.02222,
+      "n_rungs": 6,
+      "points": [
+        {
+          "params_B": 1.5,
+          "gain_unsupported": -5.802
+        },
+        {
+          "params_B": 3.0,
+          "gain_unsupported": -0.79
+        },
+        {
+          "params_B": 7.0,
+          "gain_unsupported": -4.449
+        },
+        {
+          "params_B": 32.0,
+          "gain_unsupported": -9.706
+        },
+        {
+          "params_B": 72.0,
+          "gain_unsupported": -13.058
+        },
+        {
+          "params_B": 123.0,
+          "gain_unsupported": -18.74
+        }
+      ]
+    }
+  }
+}

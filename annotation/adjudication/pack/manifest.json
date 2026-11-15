@@ -1,0 +1,20 @@
+{
+  "source_pack": "pack_2026-08-02",
+  "excluded_fields": {
+    "freshness": "alpha 0.47, below threshold; needs a re-pilot"
+  },
+  "fields": {
+    "verdict": {
+      "file": "adjudicate_verdict.csv",
+      "n_contested": 34,
+      "n_total": 395,
+      "pct_contested": 8.6
+    },
+    "supports": {
+      "file": "adjudicate_supports.csv",
+      "n_contested": 168,
+      "n_total": 900,
+      "pct_contested": 18.7
+    }
+  }
+}

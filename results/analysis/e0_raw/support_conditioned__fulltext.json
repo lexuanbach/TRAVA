@@ -1,0 +1,793 @@
+{
+  "scope": "Retrieval gains decomposed by whether the retrieved context actually contained the answer.",
+  "support_definition": "a context is answer-bearing if the gold answer string appears in at least one retrieved document",
+  "correct_threshold": 0.5,
+  "retrieval_condition": "hybrid",
+  "models": {
+    "gpt4omini": {
+      "static": {
+        "n_questions": 404,
+        "support_rate": 0.5297,
+        "acc_given_support": {
+          "mean": 65.258,
+          "ci95": [
+            57.411,
+            72.899
+          ],
+          "n": 96
+        },
+        "acc_given_no_support": {
+          "mean": 12.5,
+          "ci95": [
+            7.398,
+            18.197
+          ],
+          "n": 98
+        },
+        "closed_book_acc": {
+          "mean": 44.194,
+          "ci95": [
+            38.443,
+            49.954
+          ],
+          "n": 125
+        },
+        "override_rate": 0.1559,
+        "rescue_rate": 0.1312,
+        "override_when_unsupported": 0.2105,
+        "override_when_supported": 0.1075,
+        "synthesis_failure_rate": 0.3037,
+        "paired_gain_given_support": {
+          "mean": 9.346,
+          "ci95": [
+            2.336,
+            16.822
+          ],
+          "p_plus_one": 0.0104,
+          "n": 214
+        }
+      },
+      "fresh": {
+        "n_questions": 474,
+        "support_rate": 0.557,
+        "acc_given_support": {
+          "mean": 59.78,
+          "ci95": [
+            50.331,
+            68.674
+          ],
+          "n": 61
+        },
+        "acc_given_no_support": {
+          "mean": 13.021,
+          "ci95": [
+            8.731,
+            17.603
+          ],
+          "n": 61
+        },
+        "closed_book_acc": {
+          "mean": 27.891,
+          "ci95": [
+            22.123,
+            34.007
+          ],
+          "n": 74
+        },
+        "override_rate": 0.1139,
+        "rescue_rate": 0.2278,
+        "override_when_unsupported": 0.1286,
+        "override_when_supported": 0.1023,
+        "synthesis_failure_rate": 0.3636,
+        "paired_gain_given_support": {
+          "mean": 24.621,
+          "ci95": [
+            17.045,
+            32.197
+          ],
+          "p_plus_one": 0.0004,
+          "n": 264
+        }
+      }
+    },
+    "llama3_8b": {
+      "static": {
+        "n_questions": 404,
+        "support_rate": 0.5297,
+        "acc_given_support": {
+          "mean": 56.664,
+          "ci95": [
+            48.281,
+            64.635
+          ],
+          "n": 96
+        },
+        "acc_given_no_support": {
+          "mean": 8.588,
+          "ci95": [
+            4.422,
+            13.605
+          ],
+          "n": 98
+        },
+        "closed_book_acc": {
+          "mean": 29.032,
+          "ci95": [
+            23.684,
+            34.424
+          ],
+          "n": 125
+        },
+        "override_rate": 0.1139,
+        "rescue_rate": 0.1856,
+        "override_when_unsupported": 0.1105,
+        "override_when_supported": 0.1168,
+        "synthesis_failure_rate": 0.3832,
+        "paired_gain_given_support": {
+          "mean": 19.159,
+          "ci95": [
+            10.748,
+            27.57
+          ],
+          "p_plus_one": 0.0004,
+          "n": 214
+        }
+      },
+      "fresh": {
+        "n_questions": 474,
+        "support_rate": 0.557,
+        "acc_given_support": {
+          "mean": 57.175,
+          "ci95": [
+            48.432,
+            65.814
+          ],
+          "n": 61
+        },
+        "acc_given_no_support": {
+          "mean": 12.929,
+          "ci95": [
+            8.554,
+            17.679
+          ],
+          "n": 61
+        },
+        "closed_book_acc": {
+          "mean": 21.018,
+          "ci95": [
+            16.135,
+            26.501
+          ],
+          "n": 74
+        },
+        "override_rate": 0.0823,
+        "rescue_rate": 0.2342,
+        "override_when_unsupported": 0.0857,
+        "override_when_supported": 0.0795,
+        "synthesis_failure_rate": 0.4129,
+        "paired_gain_given_support": {
+          "mean": 28.409,
+          "ci95": [
+            21.212,
+            35.606
+          ],
+          "p_plus_one": 0.0004,
+          "n": 264
+        }
+      }
+    },
+    "mistral_large": {
+      "static": {
+        "n_questions": 404,
+        "support_rate": 0.5297,
+        "acc_given_support": {
+          "mean": 66.213,
+          "ci95": [
+            58.279,
+            73.594
+          ],
+          "n": 96
+        },
+        "acc_given_no_support": {
+          "mean": 14.626,
+          "ci95": [
+            9.184,
+            20.578
+          ],
+          "n": 98
+        },
+        "closed_book_acc": {
+          "mean": 44.97,
+          "ci95": [
+            39.215,
+            50.574
+          ],
+          "n": 125
+        },
+        "override_rate": 0.1584,
+        "rescue_rate": 0.1139,
+        "override_when_unsupported": 0.2,
+        "override_when_supported": 0.1215,
+        "synthesis_failure_rate": 0.2897,
+        "paired_gain_given_support": {
+          "mean": 6.075,
+          "ci95": [
+            -1.402,
+            13.551
+          ],
+          "p_plus_one": 0.11798,
+          "n": 214
+        }
+      },
+      "fresh": {
+        "n_questions": 474,
+        "support_rate": 0.557,
+        "acc_given_support": {
+          "mean": 62.394,
+          "ci95": [
+            53.247,
+            71.605
+          ],
+          "n": 61
+        },
+        "acc_given_no_support": {
+          "mean": 13.67,
+          "ci95": [
+            9.005,
+            18.313
+          ],
+          "n": 61
+        },
+        "closed_book_acc": {
+          "mean": 28.241,
+          "ci95": [
+            22.758,
+            33.916
+          ],
+          "n": 74
+        },
+        "override_rate": 0.1245,
+        "rescue_rate": 0.23,
+        "override_when_unsupported": 0.1524,
+        "override_when_supported": 0.1023,
+        "synthesis_failure_rate": 0.3523,
+        "paired_gain_given_support": {
+          "mean": 25.758,
+          "ci95": [
+            18.182,
+            33.333
+          ],
+          "p_plus_one": 0.0004,
+          "n": 264
+        }
+      }
+    },
+    "qwen1_5b": {
+      "static": {
+        "n_questions": 404,
+        "support_rate": 0.5297,
+        "acc_given_support": {
+          "mean": 56.205,
+          "ci95": [
+            47.939,
+            64.102
+          ],
+          "n": 96
+        },
+        "acc_given_no_support": {
+          "mean": 10.289,
+          "ci95": [
+            5.697,
+            15.561
+          ],
+          "n": 98
+        },
+        "closed_book_acc": {
+          "mean": 17.772,
+          "ci95": [
+            13.11,
+            22.674
+          ],
+          "n": 125
+        },
+        "override_rate": 0.0619,
+        "rescue_rate": 0.2649,
+        "override_when_unsupported": 0.0579,
+        "override_when_supported": 0.0654,
+        "synthesis_failure_rate": 0.3925,
+        "paired_gain_given_support": {
+          "mean": 36.916,
+          "ci95": [
+            28.972,
+            44.86
+          ],
+          "p_plus_one": 0.0004,
+          "n": 214
+        }
+      },
+      "fresh": {
+        "n_questions": 474,
+        "support_rate": 0.557,
+        "acc_given_support": {
+          "mean": 56.898,
+          "ci95": [
+            47.924,
+            65.965
+          ],
+          "n": 61
+        },
+        "acc_given_no_support": {
+          "mean": 11.847,
+          "ci95": [
+            7.077,
+            17.102
+          ],
+          "n": 61
+        },
+        "closed_book_acc": {
+          "mean": 15.485,
+          "ci95": [
+            10.874,
+            20.7
+          ],
+          "n": 74
+        },
+        "override_rate": 0.0675,
+        "rescue_rate": 0.2468,
+        "override_when_unsupported": 0.0667,
+        "override_when_supported": 0.0682,
+        "synthesis_failure_rate": 0.4583,
+        "paired_gain_given_support": {
+          "mean": 30.682,
+          "ci95": [
+            23.485,
+            37.879
+          ],
+          "p_plus_one": 0.0004,
+          "n": 264
+        }
+      }
+    },
+    "qwen32b": {
+      "static": {
+        "n_questions": 404,
+        "support_rate": 0.5297,
+        "acc_given_support": {
+          "mean": 61.959,
+          "ci95": [
+            53.785,
+            69.598
+          ],
+          "n": 96
+        },
+        "acc_given_no_support": {
+          "mean": 12.755,
+          "ci95": [
+            7.653,
+            18.707
+          ],
+          "n": 98
+        },
+        "closed_book_acc": {
+          "mean": 30.162,
+          "ci95": [
+            25.016,
+            35.609
+          ],
+          "n": 125
+        },
+        "override_rate": 0.1188,
+        "rescue_rate": 0.2079,
+        "override_when_unsupported": 0.1368,
+        "override_when_supported": 0.1028,
+        "synthesis_failure_rate": 0.3364,
+        "paired_gain_given_support": {
+          "mean": 22.43,
+          "ci95": [
+            14.019,
+            30.841
+          ],
+          "p_plus_one": 0.0004,
+          "n": 214
+        }
+      },
+      "fresh": {
+        "n_questions": 474,
+        "support_rate": 0.557,
+        "acc_given_support": {
+          "mean": 61.344,
+          "ci95": [
+            52.708,
+            69.831
+          ],
+          "n": 61
+        },
+        "acc_given_no_support": {
+          "mean": 14.641,
+          "ci95": [
+            9.922,
+            19.654
+          ],
+          "n": 61
+        },
+        "closed_book_acc": {
+          "mean": 22.772,
+          "ci95": [
+            17.586,
+            28.378
+          ],
+          "n": 74
+        },
+        "override_rate": 0.1118,
+        "rescue_rate": 0.2616,
+        "override_when_unsupported": 0.119,
+        "override_when_supported": 0.1061,
+        "synthesis_failure_rate": 0.3636,
+        "paired_gain_given_support": {
+          "mean": 29.167,
+          "ci95": [
+            21.212,
+            37.121
+          ],
+          "p_plus_one": 0.0004,
+          "n": 264
+        }
+      }
+    },
+    "qwen3b": {
+      "static": {
+        "n_questions": 404,
+        "support_rate": 0.5297,
+        "acc_given_support": {
+          "mean": 59.695,
+          "ci95": [
+            51.562,
+            67.726
+          ],
+          "n": 96
+        },
+        "acc_given_no_support": {
+          "mean": 11.99,
+          "ci95": [
+            7.058,
+            17.687
+          ],
+          "n": 98
+        },
+        "closed_book_acc": {
+          "mean": 14.147,
+          "ci95": [
+            10.216,
+            18.356
+          ],
+          "n": 125
+        },
+        "override_rate": 0.047,
+        "rescue_rate": 0.2896,
+        "override_when_unsupported": 0.0526,
+        "override_when_supported": 0.0421,
+        "synthesis_failure_rate": 0.3738,
+        "paired_gain_given_support": {
+          "mean": 42.056,
+          "ci95": [
+            34.112,
+            49.533
+          ],
+          "p_plus_one": 0.0004,
+          "n": 214
+        }
+      },
+      "fresh": {
+        "n_questions": 474,
+        "support_rate": 0.557,
+        "acc_given_support": {
+          "mean": 53.802,
+          "ci95": [
+            44.324,
+            62.982
+          ],
+          "n": 61
+        },
+        "acc_given_no_support": {
+          "mean": 10.992,
+          "ci95": [
+            6.92,
+            15.345
+          ],
+          "n": 61
+        },
+        "closed_book_acc": {
+          "mean": 13.933,
+          "ci95": [
+            9.715,
+            18.685
+          ],
+          "n": 74
+        },
+        "override_rate": 0.0696,
+        "rescue_rate": 0.2827,
+        "override_when_unsupported": 0.0571,
+        "override_when_supported": 0.0795,
+        "synthesis_failure_rate": 0.4242,
+        "paired_gain_given_support": {
+          "mean": 34.848,
+          "ci95": [
+            27.652,
+            42.045
+          ],
+          "p_plus_one": 0.0004,
+          "n": 264
+        }
+      }
+    },
+    "qwen72b": {
+      "static": {
+        "n_questions": 404,
+        "support_rate": 0.5297,
+        "acc_given_support": {
+          "mean": 66.352,
+          "ci95": [
+            58.281,
+            73.884
+          ],
+          "n": 96
+        },
+        "acc_given_no_support": {
+          "mean": 10.374,
+          "ci95": [
+            5.782,
+            15.306
+          ],
+          "n": 98
+        },
+        "closed_book_acc": {
+          "mean": 35.477,
+          "ci95": [
+            30.109,
+            40.994
+          ],
+          "n": 125
+        },
+        "override_rate": 0.1361,
+        "rescue_rate": 0.1782,
+        "override_when_unsupported": 0.1842,
+        "override_when_supported": 0.0935,
+        "synthesis_failure_rate": 0.2944,
+        "paired_gain_given_support": {
+          "mean": 19.159,
+          "ci95": [
+            11.682,
+            27.103
+          ],
+          "p_plus_one": 0.0004,
+          "n": 214
+        }
+      },
+      "fresh": {
+        "n_questions": 474,
+        "support_rate": 0.557,
+        "acc_given_support": {
+          "mean": 58.567,
+          "ci95": [
+            49.903,
+            67.152
+          ],
+          "n": 61
+        },
+        "acc_given_no_support": {
+          "mean": 13.385,
+          "ci95": [
+            8.977,
+            17.907
+          ],
+          "n": 61
+        },
+        "closed_book_acc": {
+          "mean": 25.76,
+          "ci95": [
+            20.144,
+            31.69
+          ],
+          "n": 74
+        },
+        "override_rate": 0.1224,
+        "rescue_rate": 0.2215,
+        "override_when_unsupported": 0.1286,
+        "override_when_supported": 0.1174,
+        "synthesis_failure_rate": 0.375,
+        "paired_gain_given_support": {
+          "mean": 22.348,
+          "ci95": [
+            14.773,
+            29.924
+          ],
+          "p_plus_one": 0.0004,
+          "n": 264
+        }
+      }
+    },
+    "qwen7b": {
+      "static": {
+        "n_questions": 404,
+        "support_rate": 0.5297,
+        "acc_given_support": {
+          "mean": 55.873,
+          "ci95": [
+            47.406,
+            64.028
+          ],
+          "n": 96
+        },
+        "acc_given_no_support": {
+          "mean": 12.585,
+          "ci95": [
+            7.143,
+            18.367
+          ],
+          "n": 98
+        },
+        "closed_book_acc": {
+          "mean": 25.004,
+          "ci95": [
+            19.664,
+            30.529
+          ],
+          "n": 125
+        },
+        "override_rate": 0.0817,
+        "rescue_rate": 0.2203,
+        "override_when_unsupported": 0.0737,
+        "override_when_supported": 0.0888,
+        "synthesis_failure_rate": 0.3738,
+        "paired_gain_given_support": {
+          "mean": 28.037,
+          "ci95": [
+            20.093,
+            35.981
+          ],
+          "p_plus_one": 0.0004,
+          "n": 214
+        }
+      },
+      "fresh": {
+        "n_questions": 474,
+        "support_rate": 0.557,
+        "acc_given_support": {
+          "mean": 56.417,
+          "ci95": [
+            47.369,
+            64.887
+          ],
+          "n": 61
+        },
+        "acc_given_no_support": {
+          "mean": 12.337,
+          "ci95": [
+            8.046,
+            16.88
+          ],
+          "n": 61
+        },
+        "closed_book_acc": {
+          "mean": 18.091,
+          "ci95": [
+            12.932,
+            23.834
+          ],
+          "n": 74
+        },
+        "override_rate": 0.0928,
+        "rescue_rate": 0.2532,
+        "override_when_unsupported": 0.1,
+        "override_when_supported": 0.0871,
+        "synthesis_failure_rate": 0.4205,
+        "paired_gain_given_support": {
+          "mean": 30.303,
+          "ci95": [
+            23.106,
+            37.879
+          ],
+          "p_plus_one": 0.0004,
+          "n": 264
+        }
+      }
+    },
+    "sonnet": {
+      "static": {
+        "n_questions": 404,
+        "support_rate": 0.5297,
+        "acc_given_support": {
+          "mean": 51.778,
+          "ci95": [
+            43.542,
+            59.72
+          ],
+          "n": 96
+        },
+        "acc_given_no_support": {
+          "mean": 8.929,
+          "ci95": [
+            4.592,
+            13.861
+          ],
+          "n": 98
+        },
+        "closed_book_acc": {
+          "mean": 39.609,
+          "ci95": [
+            33.586,
+            45.456
+          ],
+          "n": 125
+        },
+        "override_rate": 0.1782,
+        "rescue_rate": 0.1163,
+        "override_when_unsupported": 0.2,
+        "override_when_supported": 0.1589,
+        "synthesis_failure_rate": 0.4206,
+        "paired_gain_given_support": {
+          "mean": 1.402,
+          "ci95": [
+            -6.075,
+            9.346
+          ],
+          "p_plus_one": 0.76385,
+          "n": 214
+        }
+      },
+      "fresh": {
+        "n_questions": 474,
+        "support_rate": 0.557,
+        "acc_given_support": {
+          "mean": 47.764,
+          "ci95": [
+            38.104,
+            57.482
+          ],
+          "n": 61
+        },
+        "acc_given_no_support": {
+          "mean": 7.717,
+          "ci95": [
+            4.279,
+            11.526
+          ],
+          "n": 61
+        },
+        "closed_book_acc": {
+          "mean": 9.626,
+          "ci95": [
+            5.786,
+            14.214
+          ],
+          "n": 74
+        },
+        "override_rate": 0.0738,
+        "rescue_rate": 0.2511,
+        "override_when_unsupported": 0.0524,
+        "override_when_supported": 0.0909,
+        "synthesis_failure_rate": 0.5076,
+        "paired_gain_given_support": {
+          "mean": 30.303,
+          "ci95": [
+            22.348,
+            37.879
+          ],
+          "p_plus_one": 0.0004,
+          "n": 264
+        }
+      }
+    }
+  },
+  "mechanism": {
+    "strong_models": [
+      "mistral_large",
+      "sonnet",
+      "gpt4omini"
+    ],
+    "mean_override_rate_static_strong": 0.1642,
+    "mean_override_rate_fresh_strong": 0.1041,
+    "mean_support_conditioned_gain_static": 20.509,
+    "reading": "OVERRIDE is the rate at which a model that was right closed-book becomes wrong once evidence is supplied. If Static-side harm is evidence displacing correct parametric knowledge, the override rate should be high on Static and low on Fresh for the strong models -- and the harm should persist even when the evidence IS answer-bearing, which is what the support-conditioned gain tests."
+  }
+}

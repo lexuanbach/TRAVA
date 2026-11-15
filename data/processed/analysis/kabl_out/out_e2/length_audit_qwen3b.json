@@ -1,0 +1,24 @@
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "max_length": 4096,
+  "arms": {
+    "closed_book": {
+      "n": 1678,
+      "max": 160,
+      "median": 96,
+      "n_over_limit": 0
+    },
+    "hybrid_full_masked": {
+      "n": 1678,
+      "max": 1012,
+      "median": 835,
+      "n_over_limit": 0
+    },
+    "hybrid_full_unmasked": {
+      "n": 1678,
+      "max": 1012,
+      "median": 837,
+      "n_over_limit": 0
+    }
+  }
+}

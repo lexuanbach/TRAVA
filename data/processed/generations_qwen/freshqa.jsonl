@@ -1,0 +1,600 @@
+{"qid": "freshqa_0", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Apollo 11", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_1", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Leonardo DiCaprio's third child is his son, James.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_2", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1965", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_3", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Satanic Panic", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_4", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "algorithm", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_5", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1960", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_6", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2014", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_7", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1895", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_8", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1970", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_9", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1908", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_10", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1731", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_11", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2017", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_12", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2016", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_13", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1987", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_14", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1960", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_15", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1984", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_16", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1999", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_17", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1972", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_18", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Activision Blizzard bought 10% of the company for $2 billion.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_19", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2020-03-19", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_20", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2017, 2018, 2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_21", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2017", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_22", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Sputnik V", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_23", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Twitter", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_24", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "$20 billion", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_25", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Shawshank Redemption", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_26", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1985", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_27", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "twice", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_28", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2013", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_29", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "19 May 2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_30", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2010", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_31", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2016", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_32", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "February", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_33", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1990", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_34", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2013", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_35", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1986", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_36", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1927", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_37", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "12", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_38", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Presidential candidate Elizabeth Cady Stanton", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_39", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_40", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Barbara Ann Hickey", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_41", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_42", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Barcelona", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_43", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "102", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_44", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Xerox Corporation", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_45", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2015-2020", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_46", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2013-2014", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_47", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1963", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_48", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Ethereum", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_49", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2017-2020", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_50", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2020-03-15", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_51", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "20 years", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_52", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1898", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_53", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "New York City", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_54", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Luiz In\u00e1cio Lula da Silva", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_55", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "John Howard", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_56", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Terrorist Crimes", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_57", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "100 years", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_58", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "3%", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_59", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_60", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Cristiano Ronaldo", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_61", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2504", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_62", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Benjamin Ruth hit 10 home runs in the MLB.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_63", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1967", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_64", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "April 1, 1944", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_65", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "10", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_66", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "10% of the total members of parliament in Yugoslavia were women.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_67", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2017", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_68", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1920", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_69", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Real Madrid has 10 home runs scored.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_70", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1985", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_71", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1865", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_72", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2011", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_73", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Neosporin", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_74", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2015", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_75", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1861", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_76", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2006", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_77", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1997", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_78", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1861", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_79", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2099 AD", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_80", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1930", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_81", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1095", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_82", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_83", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_84", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Great Smoky Mountains", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_85", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Moscow", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_86", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Canada, Mexico, and South Africa", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_87", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Salvator Mundi sold for $35 million at the 2017 Sotheby's auction.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_88", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "LeBron James averaged 10.5 rebounds per game in college.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_89", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Lead and mercury produce gold as a byproduct in this reaction.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_90", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Afghan National Alliance", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_91", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "5", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_92", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "June 30, 2026", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_93", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "January", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_94", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1 hour and 45 minutes", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_95", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "10:30pm", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_96", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Rogers, John", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_97", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Katrina's fatality count was 1,900 in 2023.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_98", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2014-09-15", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_99", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Avatar: The Way of Water", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_100", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Season 21 of The Ellen DeGeneres Show is set to premiere on January 30, 2024.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_101", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Russia won the tournament and reached the quarter-finals.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_102", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2021", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_103", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1986", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_104", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "St. Mary's Hospital", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_105", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "120", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_106", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "January", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_107", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The movie is \"Moonlight\".", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_108", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_109", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Rajiv Premadasa Hotel", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_110", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Apple's stock price cratered by 85% on that day.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_111", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Nike", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_112", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2nd round", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_113", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Novak Djokovic", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_114", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1 minute", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_115", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_116", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1 year", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_117", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Cube of 12 = 123 + 93", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_118", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Donald Trump's first tweet on Twitter in 2022 was \"I'm back! #Trump\" after being banned by Elon Musk.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_119", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "10 days", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_120", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "10 years", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_121", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "100 basis points", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_122", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Luke Humphries beat Jordan Smith to win this year's PDC World Darts Championship.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_123", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "CEO", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_124", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Leonardo DiCaprio has two children.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_125", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_126", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "University of California", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_127", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Kendrick Lamar", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_128", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Google's CEO is Larry Page.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_129", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Big E", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_130", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Harvard University", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_131", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1 minute 59 seconds", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_132", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Rafael Nadal has won 10 Grand Slam singles titles.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_133", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Boris Johnson", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_134", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Super Mario Bros.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_135", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "New York", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_136", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "100 translations", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_137", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Shoshana Zuboff has published 10 books.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_138", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Beatles", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_139", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1953", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_140", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "University of Cambridge", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_141", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Beatles", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_142", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Khalid Muhammad", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_143", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "10", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_144", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "California, USA", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_145", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1986-87 season", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_146", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Chinese", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_147", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Titanic", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_148", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "English", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_149", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "K-pop artist BTS", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_150", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Afghanistan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_151", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Santiago", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_152", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "World War I", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_153", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Hubble Space Telescope", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_154", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Germany", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_155", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Eurozone", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_156", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Model 3", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_157", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Colleen Hoover has published 10 books.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_158", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "\"Bad Guy\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_159", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Elon Musk has 3 children.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_160", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "120", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_161", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "John C. Hickey", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_162", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Los Angeles Metro System", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_163", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "UNESCO List of Intangible Cultural Heritage in Danger", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_164", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Roger Federer", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_165", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Big Ben Stadium", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_166", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "\"Shake It Off\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_167", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Shinzo Abe", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_168", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Mahalakshmi", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_169", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Taylor Fritz", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_170", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "NeurIPS 2017", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_171", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2013", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_172", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Total Solar Eclipse", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_173", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "President of the United States is Donald Trump.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_174", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": ".NET 6", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_175", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1000+", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_176", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Italy", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_177", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Expanse", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_178", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Boris Johnson", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_179", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Boris Johnson", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_180", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Michael Jordan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_181", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2019 Novel Coronavirus pandemic", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_182", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Costco Executive Membership costs $100 per year.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_183", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "supercomputer \"Fermi\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_184", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_185", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Tokyo, Japan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_186", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_187", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2024", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_188", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2013", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_189", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "peanut, almond, soy, tree nut, wheat, egg, fish, shellfish, milk, dairy, corn, rice, wheat gluten, and other grains", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_190", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Twitter user @elonmusk", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_191", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Mandalorian series", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_192", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "John F. Kennedy", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_193", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Derek K. Chaupee", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_194", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Spirited Away", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_195", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Manchester United", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_196", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Australia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_197", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Croatian Lek", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_198", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Amr al-Shibri", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_199", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Tom Brady holds the NFL's single-season record for completions by successfully throwing 17 passes.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_200", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Italy", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_201", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "\\$1 billion", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_202", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Houston Astros", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_203", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Ingrid Betancourt", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_204", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Russia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_205", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "King George III", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_206", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "PSG FC Monaco", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_207", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Jack Dorsey", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_208", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Los Angeles County Sheriff's Department", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_209", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "New Zealand won 1 women's rugby world cup title.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_210", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "30", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_211", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The most expensive page of a comic book ever sold at auction was $10 million.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_212", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Columbia University, New York", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_213", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "New England Patriots", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_214", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The most watched premiere of Amazon Prime Video was in 2018.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_215", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Jakarta", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_216", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2036", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_217", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Luiz In\u00e1cio Lula da Silva", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_218", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Yuri Tschinkel", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_219", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Argentina has won 3 FIFA World Cups.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_220", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Barcelona", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_221", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Burj Khalifa", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_222", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "United Nations", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_223", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Aisha El-Hassan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_224", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "United States", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_225", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Big Ben Stadium", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_226", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "George W. Bush", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_227", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Facebook", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_228", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Peru has had 3 presidents in the last 5 years.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_229", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Space Station Freedom", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_230", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2017-2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_231", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "United States", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_232", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Terry McAuliffe", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_233", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Barack Obama", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_234", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Vice-Chancellor of the University of Oxford", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_235", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Nelson Piquet", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_236", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Washington", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_237", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Australia", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_238", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "fourth edition", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_239", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Katy Perry", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_240", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_241", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Roger Federer", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_242", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The James Cameron film \"Avatar\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_243", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Metropolitan Museum of Art bought the most expensive 20th-century artwork sold in a public auction.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_244", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Germany 1966", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_245", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Moon", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_246", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "GPT-3 has a maximum model size of 128GB.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_247", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Canada", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_248", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "New York", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_249", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Romania", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_250", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Hawaii", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_251", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_252", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Stanford University", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_253", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Tiger", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_254", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Mount McKinley", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_255", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Poodle", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_256", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "IPA", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_257", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Finland", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_258", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2004", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_259", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Edward Said", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_260", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Sandstone", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_261", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "United States", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_262", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Briseis", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_263", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Red Bull Racing team", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_264", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Richard \"Rapper\" Bello", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_265", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Pikachu, Squirtle, Charmander, Bulbasaur, and Weedle", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_266", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "New Mexico", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_267", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "slime slug", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_268", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "December 1989", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_269", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1977-03-27", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_270", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Wojciech Jaruzelski", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_271", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1941", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_272", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1979", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_273", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Nintendo", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_274", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "January 1, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_275", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Sunderland, MA is to the north of Amherst, MA.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_276", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Providence, Rhode Island", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_277", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Kiranmandiraj", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_278", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Jony Ive founded Amazon.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_279", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Boston", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_280", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Brazil", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_281", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Beatles", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_282", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Paris", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_283", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1637", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_284", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Socrates arrives late to the banquet.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_285", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "kanji for 2021 is 21.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_286", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Nazi Germany", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_287", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Mary Ann Evans Eliot", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_288", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "New Orleans", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_289", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Steven Spielberg", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_290", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1337-1453", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_291", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "right side", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_292", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "January", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_293", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Giancarlo Fornaro", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_294", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Santo Domingo", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_295", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "August 15, 1947", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_296", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "New York", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_297", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Lactobacillus bulgaricus", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_298", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2013", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_299", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Capcom", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_300", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Tyrannosaurus rex", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_301", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Albert Einstein", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_302", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Baden-W\u00fcrttemberg", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_303", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Shawshank Redemption", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_304", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1985", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_305", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Brazil and South Africa", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_306", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "10", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_307", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1920", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_308", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "10", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_309", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "New Zealand", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_310", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Light and wind", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_311", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1949", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_312", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Buckeye Mountain", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_313", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Dubai", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_314", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Canada and the United States", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_315", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Gandalf", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_316", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "July 4, 1776", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_317", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "George Washington", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_318", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "J. M. Barrie", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_319", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Pel\u00e9", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_320", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Magnus Carlsen accused Boris Spassky of cheating in chess in 2022.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_321", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "200", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_322", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2016", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_323", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Shinzo Abe was assassinated by Yuki Tanaka in 2013.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_324", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Hubble Space Telescope", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_325", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Nancy Grace Williams", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_326", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Peggy Rizzo", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_327", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1952-03-20", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_328", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Niels Bohr", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_329", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Jhene Aiko", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_330", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Nelson A. Leung", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_331", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Giancarlo Pelleta", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_332", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_333", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Zuzana \u0160tefanovi\u0107", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_334", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Chinese paddlefish", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_335", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "University of California, Berkeley", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_336", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Simpsons' first episode to feature all female creative leads was \"Simpsons and Friends\" in 1987.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_337", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Simpsons Season 10 Episode 28 \"The Big Freeze\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_338", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The first film franchise to gross $28 billion was \"Star Wars\".", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_339", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Abraham Lincoln", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_340", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1 year old", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_341", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Brazil", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_342", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Cristiano Ronaldo", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_343", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "LSTM was introduced by Hinton and Krizhevsky.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_344", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Washington DC", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_345", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Sacramento", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_346", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Presidential Cemetery in Washington, D.C.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_347", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "George R.R. Martin was born in Kievan Rus' in present-day Ukraine.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_348", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "George Washington", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_349", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2004", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_350", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Switzerland", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_351", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Marshall Plate Boundary", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_352", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Jiangsu", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_353", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Yann LeCun", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_354", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Jane Austen", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_355", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Poland", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_356", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1932", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_357", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "IEEE Computer Society", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_358", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Lady Gaga", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_359", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Michael Phelps", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_360", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "\"Mrs. Dalloway\" by Virginia Woolf was published in 1925 and is still available for purchase.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_361", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Roger Federer retired in 2018 at age 39.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_362", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Hurricane Harvey", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_363", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "New York City", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_364", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Harry Redknapp", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_365", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Elizabeth II died in 2021.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_366", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The King of Soccer was killed by a cannonball during a match.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_367", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_368", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "New York City", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_369", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1952", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_370", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The most-viewed music video in the first 24 hours on YouTube is \"The Voice\" by The Weeknd and Ariana Grande.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_371", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "China", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_372", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "China", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_373", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Lewis Hamilton", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_374", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Taylor Swift", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_375", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1000+", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_376", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Erling Haaland has scored 1 goal in the UEFA Champions League.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_377", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The latest highest-grossing movie of the week at the Box office is \"The Shawshank Redemption\".", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_378", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "12", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_379", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Geoffrey Hinton has 106,452 citations in Scopus.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_380", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2019-03-05", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_381", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Little Prince by Antoine de Saint-Exup\u00e9ry", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_382", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Daily Telegraph", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_383", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Netflix Standard Plan Without Ads", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_384", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Taylor Swift", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_385", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The most popular film on Letterboxd this week is \"The Grand Budapest Hotel\" by Wes Anderson.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_386", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "H-index of 10", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_387", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Klay Thompson", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_388", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Taylor Swift", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_389", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2017", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_390", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Novak Djokovic", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_391", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2018-07-30", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_392", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Mexico", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_393", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The latest Grammy Award for Best Jazz Performance was won by jazz singer-songwriter Loretta Lynn.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_394", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "New England Patriots", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_395", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Stanford University", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_396", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_397", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_398", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1526 BC", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_399", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Sofia Kenin and Serena Williams competed for the US Open women's singles title.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_400", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2018 ACL Conference accepted 356 papers.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_401", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "June 19", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_402", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "June 19", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_403", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "EMNLP 2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_404", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "CBS", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_405", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The highest-grossing film in the United States last year was \"The Shawshank Redemption\" directed by Frank Darabont.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_406", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1962", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_407", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_408", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "November 25", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_409", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_410", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "New England Patriots Stadium", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_411", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_412", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Lion King won the latest Academy Award for Best Animated Feature.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_413", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Shawshank Redemption", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_414", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "\"Stephen King has published 20 novels.\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_415", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Shining", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_416", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "spring", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_417", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "January 20, 2024", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_418", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "June 12, 2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_419", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "June 10", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_420", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Taylor Swift", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_421", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "United States", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_422", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Kellen Winslow", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_423", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Tesla Model Y Premium All-Wheel Drive starts at $49,995.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_424", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Android 10", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_425", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Bill Gates", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_426", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Manchester City", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_427", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Arsenal Football Club is in 1st place.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_428", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Donald Trump", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_429", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Mojave", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_430", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Yuki Tsunoda", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_431", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Oscar Isaac", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_432", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Michael Phelps", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_433", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Frozen", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_434", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Frozen", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_435", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Super Mario Galaxy", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_436", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_437", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Reed College", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_438", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Lionel Messi won the latest Ballon d'Or in 2017.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_439", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Drama Series That Won Most Recent Primetime Emmy Award For Outstanding Drama Series Was \"The Leftovers\".", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_440", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "IJCAI 2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_441", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Athens, Greece", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_442", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Game of Thrones won the Spiel des Jahres award most recently.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_443", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "46", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_444", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Star Wars: The Force Awakens", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_445", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Los Angeles Lakers", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_446", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Kylian Mbapp\u00e9 scored 12 goals in the UEFA Champions League last season.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_447", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2018-19 season", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_448", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Taylor Swift", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_449", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "President Obama", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_450", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Beatles' \"Sgt. Pepper's Lonely Hearts Club Band\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_451", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Simona Halep", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_452", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Apple stock", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_453", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Last Battle for Middle-earth", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_454", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Apple HomePod costs $129.99.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_455", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Hawaii", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_456", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2 years old", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_457", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Puppet Combo's latest game is \"The Last of Us Part II\".", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_458", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "United States", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_459", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Bukayo Saka scored 1 goal in the most recent match between Arsenal and Liverpool.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_460", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Wilt Chamberlain", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_461", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Lord of the Rings: The Rings of Power has a current Tomatometer score of 89/100.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_462", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Lord of the Rings: The Rings of Power", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_463", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Toronto Raptors", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_464", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "gasoline price in massachusetts", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_465", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1978", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_466", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1889", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_467", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Demi Lovato", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_468", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "David Beckham's oldest son is 18 years old.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_469", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_470", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "J.K. Rowling", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_471", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Snapchat", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_472", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2017", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_473", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "19 novels", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_474", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The movie \"The Revenant\" was Brad Pitt's most recent film as an actor.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_475", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1953-2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_476", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Vietnam", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_477", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Tesla's stock price is currently over $250 a share.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_478", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Albert Einstein", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_479", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Italy", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_480", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1987", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_481", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Morgan Freeman was 102 years old when he died on January 3, 2016.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_482", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Britain", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_483", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "30 years", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_484", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Sweden", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_485", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "NBA champions: Los Angeles Lakers; NHL champions: New York Rangers; MLB champions: Chicago Cubs", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_486", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "United States", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_487", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Albert Einstein", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_488", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Herman Melville", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_489", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Barbara Walters", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_490", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "David Beckham's daughter is 12 years old.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_491", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "American Express", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_492", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2018", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_493", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The latest champions of the North America's oldest professional sports trophy are the New York Rangers and the Toronto Maple Leafs.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_494", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "United States", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_495", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "United States", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_496", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Indian Rupee", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_497", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Gold-to-platinum ratio", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_498", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Viktor Hekmatiyan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_499", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_500", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Justin Trudeau", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_501", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2014", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_502", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2013", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_503", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1999", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_504", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_505", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Eddie Murphy won an Academy Award for Best Supporting Actor in 1984.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_506", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1971", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_507", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2013", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_508", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Vatican City, Rome", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_509", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Health Canada Travel App", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_510", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "H\u00e9l\u00e8ne Esnault", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_511", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1973", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_512", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "10 days", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_513", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "London", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_514", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Apple A14 Bionic", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_515", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2003", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_516", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "100 million", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_517", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Venus Express", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_518", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Sergio Caballero", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_519", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "18 days", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_520", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Daddy Yankee's next studio album is \"The Last of Us.\"", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_521", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "October", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_522", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "January", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_523", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "10 days", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_524", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "December 2022", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_525", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The New Orleans Pelicans", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_526", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Boeing 747-800", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_527", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Mar-a-Tkeel Basin", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_528", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Chinese", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_529", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1986", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_530", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Brazil", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_531", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "GitHub's Star Wars repository", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_532", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2016", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_533", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "FC Barcelona", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_534", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Tokyo Minimum Wage", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_535", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Jeopardy! hosts include Larry King and David Letterman.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_536", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Michael Hogan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_537", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Marilyn Hilton", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_538", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Hourly Wage in Massachusetts as of 2021 was $7.50 per hour.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_539", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Apple Inc. bought Beats Electronics for $10 billion.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_540", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Boris Johnson", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_541", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "NATO intervention in Afghanistan", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_542", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The next Academy Awards show is in 2019.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_543", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Einstein", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_544", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Mars", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_545", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Sara Paxton", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_546", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The most expensive movie ever made was Avatar, which cost $19.5 billion to produce.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_547", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Barack Obama", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_548", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Lionel Messi", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_549", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "International Health Regulations", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_550", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Instagram", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_551", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Cyclists", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_552", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Titanic", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_553", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "12", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_554", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Mosaic", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_555", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Perceptron was invented by Richard Schmidhuber.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_556", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "San Jos\u00e9", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_557", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "1938", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_558", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Bill Howard", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_559", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Vincent van Gogh", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_560", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Pip", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_561", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Narita Airport", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_562", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "MIT", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_563", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Duke Ellington", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_564", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "\u5317\u6781\u661f", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_565", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Steven Spielberg", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_566", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Paul Scholes has scored 12 goals for Manchester United in his senior career.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_567", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Chrysanthemum", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_568", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Great Pyramid of Giza is considered one of the Seven Wonders of the Ancient World.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_569", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Illinois", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_570", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Katy Perry", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_571", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2014-03-17", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_572", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Athens", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_573", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "One", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_574", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Artificial Intelligence", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_575", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "John Lennon", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_576", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Emperor Taizong of Tang", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_577", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "150", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_578", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "one billion and one million people", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_579", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "United States", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_580", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Lion King", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_581", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2024", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_582", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2023", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_583", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The Next Level", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_584", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "New Moon", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_585", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "January", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_586", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "King Gizzard & The Lizard Wizard's \"The End\" was released in 2017.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_587", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Hurricane Harvey", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_588", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "ACM-ICPC", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_589", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Taylor Swift", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_590", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "The New York Times", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_591", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Athens", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_592", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Iron Man 3", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_593", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Erling Haaland has scored 12 official goals for Manchester City.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_594", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "New York City", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_595", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Over 2 billion accounts", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_596", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Lake Powell is currently at 3498 feet.", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_597", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Apple A12 Bionic", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_598", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "2019", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
+{"qid": "freshqa_599", "condition": "freshqa", "model": "Qwen/Qwen2.5-0.5B-Instruct", "prediction": "Roger Federer", "doc_ids": [], "device": "mps", "dtype": "bfloat16"}
