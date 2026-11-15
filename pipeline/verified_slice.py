@@ -70,8 +70,10 @@ CUTOFF_EVIDENCE = {
                                "cutoff January 2025. 2025 questions are NOT "
                                "guaranteed post-training."),
     "haiku":         dict(name="Claude-Haiku-4.5",  evidence_class="disclosed_range",
-                          training_data_through="2025-02", reliable_knowledge="2025-02",
-                          note="Training data through February 2025; reliable-knowledge "
+                          training_data_through="2025-07", reliable_knowledge="2025-02",
+                          public_internet_through_system_card="2025-02",
+                          source="https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+                          note="Overall training data through July 2025 in model specifications; public-Internet data through February in the original system card; reliable-knowledge "
                                "cutoff February 2025. 2025 questions are NOT "
                                "guaranteed post-training."),
 }

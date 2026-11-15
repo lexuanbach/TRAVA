@@ -2443,5 +2443,9 @@
    "string_slope": -9.89,
    "nli_slope": -7.429
   }
- }
+ },
+ "model_key_aliases": {
+  "": "haiku"
+ },
+ "model_key_note": "The empty model key denotes the historical unsuffixed generations/ cache for Claude Haiku 4.5. Resolve through model_key_aliases in per_model and support_interaction_masked. Retained for compatibility."
 }

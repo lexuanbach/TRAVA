@@ -29,8 +29,8 @@
     },
     {
       "path": "DATA_LICENSE.md",
-      "bytes": 2125,
-      "sha256": "093136b8383eb5fede1b65f7e4a08b2a8ffe61560fadf052aac64062c1ba67c0"
+      "bytes": 2364,
+      "sha256": "16e2476c970f7d874ad691406d1fdbe93880ecafe8bd6f27ebf9cb625f32ec5d"
     },
     {
       "path": "LICENSE",
@@ -1224,13 +1224,13 @@
     },
     {
       "path": "docs/corrections.md",
-      "bytes": 3747,
-      "sha256": "a394211a973ed83494b381cff1031709fd6dd0e6ae4c97605573b40b824a6084"
+      "bytes": 3876,
+      "sha256": "80ca03702484b72eabe12e8811a62130cd1769a2923ff73c2351e44a58c34384"
     },
     {
       "path": "docs/model_inventory.json",
-      "bytes": 16816,
-      "sha256": "ef21750a893efa1ebdf9159c0cc290a4deb6a5b68f0f43d831fe92f53a640e3a"
+      "bytes": 18405,
+      "sha256": "e878029381eaeff2d54e215f177780bfdb603ec59c1a166e7b17959cfbd7b7c9"
     },
     {
       "path": "docs/protocols/masked_support.md",
@@ -1241,6 +1241,11 @@
       "path": "docs/protocols/primary_analyses.md",
       "bytes": 9533,
       "sha256": "962566a1a794d8b303c846403f73f90f6e8a3c379eee30db1ed3109be4d4adf7"
+    },
+    {
+      "path": "docs/provider_cutoffs.md",
+      "bytes": 1769,
+      "sha256": "de041bb661aa0431f362bc47a3f6e126f0cc4db185ec69dcf8ee9dc55ab4d1ca"
     },
     {
       "path": "pipeline/adaptive_policy.py",
@@ -1474,8 +1479,8 @@
     },
     {
       "path": "pipeline/cutoff_relative.py",
-      "bytes": 12357,
-      "sha256": "2536f3d71c2ae78117b36b102dbaeea6da3ca9e931b4726e1181d5025d5eacce"
+      "bytes": 12737,
+      "sha256": "16f6aa3f62dae940a61be03e92477efa5b8a0e7b1e9a7dc80b8244cb87c2d28e"
     },
     {
       "path": "pipeline/dedupe_caches.py",
@@ -1739,8 +1744,8 @@
     },
     {
       "path": "pipeline/verified_slice.py",
-      "bytes": 9352,
-      "sha256": "a9c13b13db3c66c786cde90901125c8e340390789ac8926780a181bc6428e346"
+      "bytes": 9618,
+      "sha256": "d0b060e3860cbcaa8fe39175ab4fc9e845ed7b6c977deb81d68d943b6464e1e2"
     },
     {
       "path": "pipeline/why_null.py",
@@ -1934,8 +1939,8 @@
     },
     {
       "path": "results/analysis/masked_counterfactual__vis600.json",
-      "bytes": 50691,
-      "sha256": "c6931f05a19d99eb6deb97b3829bcd6679dcda7defb672383b958fb27deb6b42"
+      "bytes": 50957,
+      "sha256": "72fe67823feff8c40b0baaffbf81b01a9ff9d8b693a3cc9e8ca198ee92bfb81c"
     },
     {
       "path": "results/analysis/masked_reporting_values.json",
@@ -2189,8 +2194,8 @@
     },
     {
       "path": "results/claim_ledger.csv",
-      "bytes": 13261120,
-      "sha256": "20cb5cd58ea277df3de5e9803b441386ad7e68209b0d5f8fde275e86beedf383"
+      "bytes": 13261158,
+      "sha256": "873486c622b96c2411ed506bffbdf104547aa0f4a46e8652d0018bb93e55d745"
     },
     {
       "path": "results/cluster_robust.json",
@@ -2219,8 +2224,8 @@
     },
     {
       "path": "results/cutoff_relative.json",
-      "bytes": 7530,
-      "sha256": "3c2b5f1db4f8a61d5309fcbe3bfa9e8c777522f98d010a8acb05195ae0c122f3"
+      "bytes": 7958,
+      "sha256": "a2b65de28646f29c45daf894b72d06961151e1da53762c1d94770114ca0a2f10"
     },
     {
       "path": "results/dataset_stats.json",
@@ -2489,8 +2494,8 @@
     },
     {
       "path": "results/verified_slice.json",
-      "bytes": 5563,
-      "sha256": "29e0e9ebf6b2e0189fcb33460cd8c8a6bd94f2e519f6a7d1657bb6761ba15a46"
+      "bytes": 5795,
+      "sha256": "046cf9cfc493b7908ec3c49b66fa8d216b9673228d3f897eb638a6543b68a879"
     },
     {
       "path": "results/why_null.json",
@@ -2499,8 +2504,8 @@
     },
     {
       "path": "scripts/build_model_inventory.py",
-      "bytes": 5740,
-      "sha256": "bf893966a1a8c9772559cf1cc2a20af432c36dfc2db8a4066f41356533b2bec9"
+      "bytes": 5739,
+      "sha256": "ac8f1617f037ab278717feb89fe32f39b1525ea2dbf55a967168eee891304a47"
     },
     {
       "path": "scripts/compare_results.py",
@@ -2538,9 +2543,15 @@
       "sha256": "6a34af46eb0170db6335dc61b830a58bc82098452a91ed89f4c2f783b8769865"
     },
     {
+      "path": "tests/test_provider_and_panels.py",
+      "bytes": 2215,
+      "sha256": "0c084898033832220deb3595467502291559db5fd4c89a408cac6e422738b9a4"
+    },
+    {
       "path": "tests/test_reporting.py",
-      "bytes": 5950,
-      "sha256": "6ae9877d473c140582ea4d23ea16be0a01220ac5da9c7e4427b8d32a52c974e4"
+      "bytes": 6071,
+      "sha256": "bb410172638d4169db621706b0a93fdabeda42f1d94c5073136be734809c4961"
     }
-  ]
+  ],
+  "release": "2026-11-15-reconciled-provider-evidence"
 }

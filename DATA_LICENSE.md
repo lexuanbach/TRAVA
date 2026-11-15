@@ -12,7 +12,7 @@ News article bodies and excerpts are separate third-party content. The datasheet
 
 Anonymous annotator IDs A/B/C identify response columns, not named individuals. Blinding metadata is supplied to reproduce estimates, and must be withheld from raters in any future blinded study. Existing annotations are not a new 600-character annotation collection.
 
-Model responses and classifier outputs are frozen scientific observations. The code license does not override the original model or service terms. Checkpoint names and provider snapshots are recorded in `configs/` and `results/environment_manifest.json`; weights and credentials are not distributed.
+Model responses and classifier outputs are frozen scientific observations. The code license does not override the original model or service terms. Recorded checkpoint names and generation settings appear in `configs/` and `docs/model_inventory.json`. Missing historical checkpoint revisions and API-served snapshots are explicitly null. `results/environment_manifest.json` describes the cached-analysis replay environment and the recorded NLI revision, not the original generation environment. Weights and credentials are not distributed.
 
 ## Citation
 

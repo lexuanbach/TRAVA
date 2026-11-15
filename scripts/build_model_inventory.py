@@ -55,6 +55,10 @@ ANALYSES = [
      ["closed_book", "hybrid", "hybrid_masked"], N_MAIN),
     ("Support (string/NLI)", r"$\Delta_{\text{sup}}$, masked", HYBRID,
      ["closed_book", "hybrid_masked"], N_MAIN),
+    ("Unmasked support", r"$\Delta_{\text{sup}}$, string/NLI", [m for m in HYBRID if m],
+     ["closed_book", "hybrid"], N_MAIN),
+    ("Decision", "held-out policy gain", [m for m in HYBRID if m],
+     ["closed_book", "hybrid", "hybrid_masked"], N_MAIN),
     ("Cutoff--scale", "joint slope", ["qwen", "qwen1_5b", "qwen3b", "qwen7b", "qwen32b", "qwen72b", "mistral_large"], ["closed_book"], N_MAIN),
     ("Support--scale", "unsupported gain slope", ["qwen1_5b", "qwen3b", "qwen7b", "qwen32b", "qwen72b", "mistral_large"], ["closed_book", "hybrid_masked"], N_MAIN),
     ("Item-level fit", "capability interaction", ["qwen1_5b", "qwen3b", "qwen7b", "qwen32b", "qwen72b", "mistral_large"], ["closed_book", "hybrid"], N_MAIN)
@@ -84,7 +88,6 @@ def main():
  panels=[]
  for label,estimand,members,conditions,n in ANALYSES:
   panels.append({'name':label,'estimand':estimand,'expected_questions':n,'conditions':conditions,'members':[{'model':m or 'haiku','coverage':{c:rows_in(m,c) for c in conditions}} for m in members]})
- panels.append({'name':'Decision','expected_questions':N_MAIN,'conditions':['closed_book','hybrid','hybrid_masked'],'members':[{'model':m or 'haiku','coverage':{c:rows_in(m,c) for c in ['closed_book','hybrid','hybrid_masked']}} for m in HYBRID if m!='']})
  models={}
  for m in PRETTY:
   q='Qwen/Qwen2.5-'+PRETTY[m]+'-Instruct'

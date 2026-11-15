@@ -100,6 +100,8 @@ def test_routing_interval_and_holm_distinction():
 
 def test_provider_cutoff_metadata_distinguishes_haiku_and_sonnet():
  d=json.loads((ROOT/'results/verified_slice.json').read_text())['cutoff_evidence']
- assert d['haiku']['training_data_through']=='2025-02'
+ assert d['haiku']['training_data_through']=='2025-07'
+ assert d['haiku']['reliable_knowledge']=='2025-02'
+ assert d['haiku']['public_internet_through_system_card']=='2025-02'
  assert d['sonnet']['training_data_through']=='2025-07'
  assert d['sonnet']['reliable_knowledge']=='2025-01'

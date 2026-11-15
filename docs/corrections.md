@@ -14,11 +14,11 @@ Three annotators and a separate adjudicator volunteered without monetary compens
 
 The ledger command rebuilds result-derived numerical rows and checks the stored CSV byte for byte. Historical support-dependent entries retain their superseded status. Public result paths replace earlier local paths without changing the underlying scientific evidence.
 
-## Provider cutoff correction (15 November 2026)
+## Provider cutoff records (15 November 2026, reconciled)
 
-The Claude Haiku 4.5 system card states a February 2025 training-data cutoff. The earlier July entry conflated Haiku with Sonnet 4.5. The verified-slice and cutoff-relative analysis entry points now use February for Haiku. Of the 474 Fresh questions, 23 predate this cutoff, compared with 95 before Sonnet's July cutoff. The uncertainty band around a cutoff is an analyst sensitivity range, not a provider-certified range. Generator outputs remain unchanged.
+An earlier correction used February 2025 from page 5 of the original Haiku 4.5 system card. That passage explicitly concerns public-Internet data. The current model specifications separately list July 2025 for the overall training-data cutoff and February for reliable knowledge. These records differ in scope, so February must not replace the overall training-data date. Both are retained in `docs/provider_cutoffs.md`.
 
-Source: [Haiku 4.5 system card, page 5](https://assets.anthropic.com/m/99128ddd009bdcb/original/Claude-Haiku-4-5-System-Card.pdf). Sonnet's reliable-knowledge cutoff is January 2025 and its training-data cutoff is July 2025, as distinguished by the [Anthropic Transparency Hub](https://www.anthropic.com/transparency).
+The primary cutoff-relative analysis uses July 2025. Its analyst-chosen sensitivity band is April–October, and an explicit February alternative preserves the original system-card interpretation. Of 474 Fresh question dates, 95 fall through July and 23 through February. These counts do not establish training membership. The 2023/2026 slice, stored model answers and human labels are unchanged. Derived cutoff-relative summaries and the ledger are rebuilt from those caches.
 
 The historical choice-audit summary juxtaposed a 2025-boundary token-F1 slope with a 2023/2026 choice-accuracy slope. That record now names the estimands and directs readers to the aligned comparison in `results/reporting_summary.json`. The choice result is positive but does not establish metric independence.
 

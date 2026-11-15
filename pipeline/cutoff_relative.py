@@ -64,8 +64,8 @@ CUTOFFS = {
                       "source": "Meta Llama 3 8B model card"},
     "gpt4omini":     {"point": "2023-10", "lo": "2023-07", "hi": "2023-12",
                       "source": "OpenAI model card"},
-    "haiku":         {"point": "2025-02", "lo": "2024-11", "hi": "2025-05",
-                      "source": "Anthropic Haiku 4.5 system card, p.5: public Internet data through February 2025; sensitivity band is analyst-chosen +/-3 months"},
+    "haiku":         {"point": "2025-07", "lo": "2025-04", "hi": "2025-10",
+                      "source": "Anthropic Haiku 4.5 model specifications: overall training data through July 2025; reliable knowledge February 2025; analyst sensitivity +/-3 months"},
     "sonnet":        {"point": "2025-07", "lo": "2025-01", "hi": "2025-07",
                       "source": "Anthropic docs: public-Internet data through Jul 2025"},
 }
@@ -212,6 +212,13 @@ def main() -> int:
                "sensitivity_over_cutoff_interval": band,
                "curve_by_months_since_cutoff": bucket_curve(sc, qs, meta["point"]),
                "params_B": PARAMS_B.get(m)}
+        if m == "haiku":
+            aa, bb = pre_post_gap(sc, qs, "2025-02")
+            rec["public_internet_date_sensitivity"] = {
+                "cutoff": "2025-02",
+                "source": "Original October 2025 Haiku system card, p.5, public-Internet data date",
+                "own_boundary": unpaired_boot(aa, bb, args.B, args.seed),
+            }
         out["per_model"][m] = rec
         if own and shared:
             own_gaps.append(own["gap"]); shared_gaps.append(shared["gap"])

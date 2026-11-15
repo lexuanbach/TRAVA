@@ -499,6 +499,164 @@
       ]
     },
     {
+      "name": "Unmasked support",
+      "estimand": "$\\Delta_{\\text{sup}}$, string/NLI",
+      "expected_questions": 878,
+      "conditions": [
+        "closed_book",
+        "hybrid"
+      ],
+      "members": [
+        {
+          "model": "qwen1_5b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "qwen3b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "qwen7b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "llama3_8b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "qwen32b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "qwen72b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "mistral_large",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "sonnet",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "gpt4omini",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        }
+      ]
+    },
+    {
+      "name": "Decision",
+      "estimand": "held-out policy gain",
+      "expected_questions": 878,
+      "conditions": [
+        "closed_book",
+        "hybrid",
+        "hybrid_masked"
+      ],
+      "members": [
+        {
+          "model": "qwen1_5b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "qwen3b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "qwen7b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "llama3_8b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "qwen32b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "qwen72b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "mistral_large",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "sonnet",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "gpt4omini",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        }
+      ]
+    },
+    {
       "name": "Cutoff--scale",
       "estimand": "joint slope",
       "expected_questions": 878,
@@ -652,89 +810,6 @@
           "coverage": {
             "closed_book": 878,
             "hybrid": 878
-          }
-        }
-      ]
-    },
-    {
-      "name": "Decision",
-      "expected_questions": 878,
-      "conditions": [
-        "closed_book",
-        "hybrid",
-        "hybrid_masked"
-      ],
-      "members": [
-        {
-          "model": "qwen1_5b",
-          "coverage": {
-            "closed_book": 878,
-            "hybrid": 878,
-            "hybrid_masked": 878
-          }
-        },
-        {
-          "model": "qwen3b",
-          "coverage": {
-            "closed_book": 878,
-            "hybrid": 878,
-            "hybrid_masked": 878
-          }
-        },
-        {
-          "model": "qwen7b",
-          "coverage": {
-            "closed_book": 878,
-            "hybrid": 878,
-            "hybrid_masked": 878
-          }
-        },
-        {
-          "model": "llama3_8b",
-          "coverage": {
-            "closed_book": 878,
-            "hybrid": 878,
-            "hybrid_masked": 878
-          }
-        },
-        {
-          "model": "qwen32b",
-          "coverage": {
-            "closed_book": 878,
-            "hybrid": 878,
-            "hybrid_masked": 878
-          }
-        },
-        {
-          "model": "qwen72b",
-          "coverage": {
-            "closed_book": 878,
-            "hybrid": 878,
-            "hybrid_masked": 878
-          }
-        },
-        {
-          "model": "mistral_large",
-          "coverage": {
-            "closed_book": 878,
-            "hybrid": 878,
-            "hybrid_masked": 878
-          }
-        },
-        {
-          "model": "sonnet",
-          "coverage": {
-            "closed_book": 878,
-            "hybrid": 878,
-            "hybrid_masked": 878
-          }
-        },
-        {
-          "model": "gpt4omini",
-          "coverage": {
-            "closed_book": 878,
-            "hybrid": 878,
-            "hybrid_masked": 878
           }
         }
       ]
