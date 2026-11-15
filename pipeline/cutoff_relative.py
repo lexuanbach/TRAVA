@@ -64,9 +64,9 @@ CUTOFFS = {
                       "source": "Meta Llama 3 8B model card"},
     "gpt4omini":     {"point": "2023-10", "lo": "2023-07", "hi": "2023-12",
                       "source": "OpenAI model card"},
-    "haiku":         {"point": "2025-07", "lo": "2025-02", "hi": "2025-07",
-                      "source": "Anthropic docs: public-Internet data through Jul 2025"},
-    "sonnet":        {"point": "2025-07", "lo": "2025-02", "hi": "2025-07",
+    "haiku":         {"point": "2025-02", "lo": "2024-11", "hi": "2025-05",
+                      "source": "Anthropic Haiku 4.5 system card, p.5: public Internet data through February 2025; sensitivity band is analyst-chosen +/-3 months"},
+    "sonnet":        {"point": "2025-07", "lo": "2025-01", "hi": "2025-07",
                       "source": "Anthropic docs: public-Internet data through Jul 2025"},
 }
 PARAMS_B = {"qwen": 0.5, "qwen1_5b": 1.5, "qwen3b": 3.0, "qwen7b": 7.0,
@@ -92,7 +92,7 @@ def load_questions():
 
 
 def load_scores(model, qs):
-    f = PROC / f"generations_{model}" / "closed_book.jsonl"
+    f = PROC / ("generations" if model == "haiku" else f"generations_{model}") / "closed_book.jsonl"
     if not f.is_file():
         return None
     out = {}

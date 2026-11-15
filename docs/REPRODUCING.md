@@ -12,7 +12,7 @@ The tested environment is Python 3.14 with the versions in `requirements.txt`, o
 | Computational checks | `python -m pytest tests -q` | The tested counting, weighting, alignment and clustering invariants hold |
 | Cached analysis | `python scripts/reproduce.py --suite full --output outputs/full` | Listed analysis stages can recompute their outputs from this repository alone |
 
-The seven-stage core suite is a shorter entry point. The full suite uses the native default bootstrap budgets, including 5,000 draws for most sensitivity analyses and 1,000 outer bootstrap draws with five selection refits for the policy analysis. These defaults are in the scripts and output metadata. Do not reduce them when comparing manuscript intervals.
+The eight-stage core suite is a shorter entry point. The full suite uses the native default bootstrap budgets, including 5,000 draws for most sensitivity analyses and 1,000 outer bootstrap draws with five selection refits for the policy analysis. These defaults are in the scripts and output metadata. Do not reduce them when comparing manuscript intervals.
 
 ## Run isolation and outputs
 
@@ -43,4 +43,6 @@ The comparison ignores timing/provenance metadata, including stored-result compa
 
 ## Validation of this package
 
-On 15 November 2026, all 20 full-suite cached-analysis stages completed on macOS arm64 with the pinned CPU environment. Three external-resource activities were explicitly skipped: fresh tokenization, model generation and human collection. The 15 computational tests passed. The numerical comparison covered the 19 JSON outputs named by the stage manifest; the mention-example stage produces JSONL rather than a numerical summary. This validation does not claim that fresh retrieval or model generation was repeated.
+On 15 November 2026, all 22 full-suite cached-analysis stages completed on macOS arm64 with the pinned CPU environment. Three external-resource activities were explicitly skipped: fresh tokenization, model generation and human collection. The 25 computational tests passed. The numerical comparison covered the 21 JSON outputs named by the stage manifest; the mention-example stage produces JSONL rather than a numerical summary. This validation does not claim that fresh retrieval or model generation was repeated.
+
+The deterministic ledger check is `python pipeline/rebuild_ledger.py --check`. It validates the released result paths and compares the stored CSV with a fresh byte-for-byte rebuild. The November replay comparison covers 45,144 numeric fields with zero differences.

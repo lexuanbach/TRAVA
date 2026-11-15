@@ -1,5 +1,5 @@
 {
-  "prereg": "results/analysis/PREREG_E2_E3_E6.md#E2",
+  "prereg": "docs/protocols/primary_analyses.md#E2",
   "seed": 20260917,
   "B": 5000,
   "primary": "quiz_weighted, original_common vs new, 90% CI inside margin",

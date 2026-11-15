@@ -150,8 +150,9 @@ def main() -> int:
     adjudicated = list(csv.DictReader((PACK / "task_a_correctness__adjudicated.csv").open(encoding="utf-8")))
     overrides = {r["item_id"]: r["adjudicated"].strip().upper() for r in adjudicated if r["adjudicated"].strip()}
     assert set(overrides) <= set(lab), "Adjudication must refer to sampled items"
+    n_changed = sum(lab[k] != value for k, value in overrides.items())
     lab.update(overrides)
-    basis = f"majority of {len(per)} with {len(overrides)} adjudication overrides"
+    basis = f"majority of {len(per)} with {len(overrides)} adjudicated items ({n_changed} labels changed)"
     print(f"basis: {basis}")
 
     rows = []
@@ -235,7 +236,10 @@ def main() -> int:
     out = {
         "scope": "Thresholded token-F1 errors against adjudicated human correctness labels.",
         "analysis_version": "writing-revision-2026-11-15",
-        "n_items": len(rows), "n_adjudication_overrides": len(overrides),
+        "n_items": len(rows), "n_adjudicated_items": len(overrides),
+        "n_labels_changed_by_adjudication": n_changed,
+        "n_adjudication_overrides": len(overrides),
+        "legacy_field_note": "n_adjudication_overrides is a compatibility alias for n_adjudicated_items, not the number of changed labels",
         "threshold": 0.5, "bootstrap": {"replicates": args.B, "seed": args.seed,
             "unit": "answer item, sampled within original strata", "interval": "percentile 95%",
             "shared_draws": True},

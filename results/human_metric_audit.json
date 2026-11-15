@@ -2,7 +2,10 @@
   "scope": "Thresholded token-F1 errors against adjudicated human correctness labels.",
   "analysis_version": "writing-revision-2026-11-15",
   "n_items": 395,
+  "n_adjudicated_items": 34,
+  "n_labels_changed_by_adjudication": 18,
   "n_adjudication_overrides": 34,
+  "legacy_field_note": "n_adjudication_overrides is a compatibility alias for n_adjudicated_items, not the number of changed labels",
   "threshold": 0.5,
   "bootstrap": {
     "replicates": 5000,
@@ -183,7 +186,7 @@
     }
   },
   "provisional": false,
-  "label_basis": "majority of 3 with 34 adjudication overrides",
+  "label_basis": "majority of 3 with 34 adjudicated items (18 labels changed)",
   "n_disagreements_dropped": 0,
   "why_provisional": null,
   "does_metric_error_cancel_across_the_boundary": {

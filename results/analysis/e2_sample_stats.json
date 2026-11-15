@@ -1,5 +1,5 @@
 {
-  "design": "results/analysis/PREREG_E2_E3_E6.md section E2 (Phase A, no generation)",
+  "design": "docs/protocols/primary_analyses.md section E2 (Phase A, no generation)",
   "sampling": {
     "seed": 20260917,
     "per_year": 200,

@@ -81,3 +81,9 @@ Contact: **Xuan-Bach Le**, [lexuanbach@hcmut.edu.vn](mailto:lexuanbach@hcmut.edu
 ## License
 
 TRAVA code is available under the [MIT License](LICENSE). Questions, news excerpts, model outputs and external checkpoints are **not relicensed by that code license**. Read [DATA_LICENSE.md](DATA_LICENSE.md) for attribution, upstream terms and the status of article-text redistribution.
+
+### Numerical provenance
+
+Run `python pipeline/rebuild_ledger.py --check` to verify the stored claim ledger against the current result files. Run without `--check` to rebuild it after an intentional result update. `python pipeline/reporting_summary.py` recomputes the common-sample choice scores, matched scale contrast and frozen-panel equivalence check from cached answers.
+
+`docs/model_inventory.json` lists analysis panels, checkpoint identifiers and unavailable historical settings. `docs/protocols/` and `docs/corrections.md` document scientific provenance. They are retrospective publication of dated local records, not independently authenticated preregistrations.

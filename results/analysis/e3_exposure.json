@@ -1,5 +1,5 @@
 {
-  "design": "results/analysis/PREREG_E2_E3_E6.md section E3",
+  "design": "docs/protocols/primary_analyses.md section E3",
   "definitions": {
     "ctx_after_q_date_plusL": "share of shown (qid, doc) contexts with publish_date > q_date + L days",
     "questions_any_after_q_date_plusL": "share of questions with >= 1 such shown doc",

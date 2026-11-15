@@ -1,34 +1,12 @@
 #!/usr/bin/env python3
-"""Is token-F1 measuring correctness? A metric audit with an objective referee.
+"""Score cached free-form answers against RealTimeQA multiple-choice options.
 
-Review 2 asked for a blinded multi-annotator audit of free-form correctness --
-aliases, abstentions, and the F1/EM disagreements that decide the Mistral-Large-2
-result. We have no annotators, and we will not dress up an automatic check as a
-human one. But RealTimeQA is natively MULTIPLE CHOICE, and every one of the 4176
-questions carries its distractors and a gold index that our free-form protocol
-throws away. That gives a referee that is objective, needs no annotator, and is
-robust to exactly the failure token-F1 is accused of:
-
-    score a prediction by WHICH CHOICE it is closest to, and count it correct
-    only when that is the gold choice.
-
-An alias ("Squid Game" for "“Squid Game”", "two trillion" for "$2 trillion") is
-still nearest its own gold choice, so it scores correct where EM scores zero. A
-prediction with high token overlap that actually names a distractor scores zero,
-where partial F1 would have given it credit. Abstentions ("I don't know") match
-no choice and are separated out rather than silently scored.
-
-This does three things:
-
-  1. Quantifies the metric's error rate: how often F1 credits an answer the
-     choice referee rejects, and how often it penalises a correct alias.
-  2. Re-runs the paper's headline contrasts under choice-grounded accuracy, so
-     every claim can be checked against a metric that does not use partial
-     token overlap at all.
-  3. Reports abstention rates by model and year, which the paper treats as
-     zero-score answers without ever counting them.
-
-Outputs results/choice_grounded_audit.json.
+Uses the fixed 878-question sample and an explicitly named closed-book panel.
+Exact and unique-containment matches precede token-F1 matching. Ties and
+unmatched answers score zero. Detected abstentions are counted separately,
+without overriding the matching rule. This automatic sensitivity analysis
+complements, and does not replace, the adjudicated human metric-error study.
+No model answers or labels are generated.
 """
 
 from __future__ import annotations
@@ -90,7 +68,7 @@ def nearest_choice(pred: str, choices):
 
 def load_questions():
     qs = {}
-    with open(ROOT / "data/processed/questions_full.jsonl", encoding="utf-8") as fh:
+    with open(ROOT / "data/processed/questions.jsonl", encoding="utf-8") as fh:
         for line in fh:
             d = json.loads(line)
             qs[d["qid"]] = d
@@ -99,11 +77,13 @@ def load_questions():
 
 def load_predictions(condition="closed_book"):
     out = {}
-    for d in sorted((ROOT / "data/processed").glob("generations_*")):
+    panel = ["qwen", "qwen1_5b", "qwen3b", "qwen7b", "qwen32b", "qwen72b",
+             "mistral_large", "haiku", "sonnet", "llama3_8b", "gpt4omini"]
+    for key in panel:
+        d = ROOT / "data/processed" / ("generations" if key == "haiku" else "generations_" + key)
         f = d / f"{condition}.jsonl"
         if not f.is_file():
             continue
-        key = d.name.replace("generations_", "")
         recs = {}
         with open(f, encoding="utf-8") as fh:
             for line in fh:
@@ -140,24 +120,14 @@ def main() -> int:
 
     qs = load_questions()
     preds = load_predictions()
+    assert all(set(rows) == set(qs) for rows in preds.values())
     out = {
-        "scope": "An objective, alias-robust correctness referee built from "
-                 "RealTimeQA's own multiple-choice gold, used to audit the "
-                 "token-F1 metric the paper scores with.",
-        "referee": "a prediction is CORRECT iff the choice it is closest to is "
-                   "the gold choice. A prediction matching NO choice scores 0 "
-                   "rather than being dropped -- on a 4-way item an answer that "
-                   "resembles none of the options is not the gold one, and "
-                   "excluding those would selectively inflate weak models, "
-                   "which produce most of them. Abstentions likewise score 0 "
-                   "(as they do under F1) and are reported separately.",
-        "not_a_human_audit": "This substitutes for the blinded annotator study "
-                             "the review asked for on the CORRECTNESS-METRIC "
-                             "question only. It cannot judge whether a gold "
-                             "answer is itself right, whether a question is "
-                             "ambiguous, or anything about the stale-evidence "
-                             "labels.",
+        "scope": "Nearest-option sensitivity on the fixed 878-question closed-book sample",
+        "referee": "Exact and unique containment matches precede token-F1 matching. Ties and unmatched answers score zero. Detected abstentions are counted separately and do not override matching.",
+        "not_a_human_audit": "An automatic scoring sensitivity, not a replacement for the adjudicated human study. It does not establish gold validity, question clarity or temporal correctness.",
         "n_questions": len(qs),
+        "panel": list(preds),
+        "inference": {"B": args.B, "seed": args.seed, "boundary_contrast": "2023 minus 2026", "weighting": "equal quiz means"},
     }
 
     # ------------------------------------------- 1. metric disagreement rates
@@ -221,8 +191,7 @@ def main() -> int:
         "reading": "The first rate is F1's false-credit rate: answers scoring "
                    "at least 0.5 token-F1 that in fact name a distractor. The "
                    "second is the alias rate that exact match alone would "
-                   "discard. Both bound how much the headline numbers depend "
-                   "on the scoring function.",
+                   "discard. These descriptive disagreement rates are not bounds on human correctness.",
         "examples": examples,
     }
     out["per_model"] = per_model
@@ -301,9 +270,9 @@ def main() -> int:
             "exact_permutation_p": round(n_ge / tot_p, 6),
             "n_permutations": tot_p,
             "per_model": {p[0]: p[2] for p in pts},
-            "reading": "The scale association is reproduced by a metric that "
-                       "uses no partial token overlap, so it is not an artifact "
-                       "of F1 crediting near-misses.",
+            "reading": "The positive 2023/2026 quiz-weighted estimate is imprecise. "
+                       "The exact model-level permutation test does not reject zero. "
+                       "This result does not establish metric independence.",
         }
         print(f"\nscale slope under the choice referee: {slope:.3f} pts/decade, "
               f"exact p={n_ge/tot_p:.4f} (n={len(pts)})")
@@ -326,17 +295,12 @@ def main() -> int:
             "all_positive": all(v["slope"] is not None and v["slope"] > 0
                                 for v in rows.values()),
             "significant_under": sig,
-            "reading": (
-                "The association points the same way under every metric, but it "
-                "clears significance only under token-F1 and exact match. The "
-                "choice-grounded slope is attenuated roughly two-fold and its "
-                "exact permutation p is far from 0.05. Two readings are "
-                "consistent with this and we cannot separate them at n=7: the "
-                "choice referee is a coarse 0/1 outcome and simply has less "
-                "power, or part of the F1 slope reflects large models producing "
-                "more PARTIALLY correct answers before the boundary rather than "
-                "more correct ones. Either way the scale claim should be stated "
-                "as metric-dependent, which the paper now does."),
+            "comparison_scope": "Historical juxtaposition of different estimands, not an aligned metric comparison",
+            "estimands": {
+                "token_f1": "2025 boundary, seven-model ladder",
+                "exact_match": "2025 boundary, seven-model ladder",
+                "choice_grounded": "2023 minus 2026, equal quiz means, seven-model ladder"},
+            "reading": "These slopes change both metric and temporal contrast. Use results/reporting_summary.json matched_scale_contrast for the aligned 2023/2026 token-F1 and choice-accuracy comparison.",
         }
         print(f"\nscale slope by metric: " + ", ".join(
             f"{k}={v['slope']} (p={v['p_exact']})" for k, v in rows.items()))

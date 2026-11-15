@@ -1,0 +1,743 @@
+{
+  "scope": "Recorded identifiers and cache coverage, not a reconstruction of missing historical metadata",
+  "missing_value": "null means unavailable, not a default or inferred revision",
+  "sources": [
+    "pipeline/controlled_cutoff.py",
+    "pipeline/gen_openai.py",
+    "configs/models.yaml"
+  ],
+  "models": {
+    "qwen": {
+      "checkpoint": "Qwen/Qwen2.5-0.5B-Instruct",
+      "temperature": 0,
+      "runtime": "local",
+      "revision": null,
+      "tokenizer_revision": null,
+      "precision": "not retained for original small-Qwen runs"
+    },
+    "qwen1_5b": {
+      "checkpoint": "Qwen/Qwen2.5-1.5B-Instruct",
+      "temperature": 0,
+      "runtime": "local",
+      "revision": null,
+      "tokenizer_revision": null,
+      "precision": "not retained for original small-Qwen runs"
+    },
+    "qwen3b": {
+      "checkpoint": "Qwen/Qwen2.5-3B-Instruct",
+      "temperature": 0,
+      "runtime": "local",
+      "revision": null,
+      "tokenizer_revision": null,
+      "precision": "not retained for original small-Qwen runs"
+    },
+    "qwen7b": {
+      "checkpoint": "Qwen/Qwen2.5-7B-Instruct",
+      "temperature": 0,
+      "runtime": "local",
+      "revision": null,
+      "tokenizer_revision": null,
+      "precision": "not retained for original small-Qwen runs"
+    },
+    "llama3_8b": {
+      "runtime": "local",
+      "temperature": 0,
+      "checkpoint": "NousResearch/Meta-Llama-3-8B-Instruct",
+      "precision": "bfloat16",
+      "cutoff": "2023-03",
+      "revision": null,
+      "tokenizer_revision": null
+    },
+    "qwen32b": {
+      "checkpoint": "Qwen/Qwen2.5-32B-Instruct-GGUF",
+      "temperature": 0,
+      "runtime": "local",
+      "revision": null,
+      "tokenizer_revision": null,
+      "precision": "Q4_K_M"
+    },
+    "qwen72b": {
+      "checkpoint": "Qwen/Qwen2.5-72B-Instruct-GGUF",
+      "temperature": 0,
+      "runtime": "local",
+      "revision": null,
+      "tokenizer_revision": null,
+      "precision": "Q4_K_M"
+    },
+    "mistral_large": {
+      "checkpoint": "lmstudio-community/Mistral-Large-Instruct-2407-GGUF",
+      "temperature": 0,
+      "runtime": "local",
+      "revision": null,
+      "tokenizer_revision": null,
+      "precision": "Q4_K_M"
+    },
+    "haiku": {
+      "checkpoint": "claude-haiku-4-5-20251001",
+      "temperature": 0,
+      "runtime": "API",
+      "revision": null,
+      "tokenizer_revision": null,
+      "precision": null,
+      "provider": "Anthropic",
+      "max_tokens": 64,
+      "served_snapshot": null
+    },
+    "sonnet": {
+      "checkpoint": "claude-sonnet-4-5-20250929",
+      "temperature": 0,
+      "runtime": "API",
+      "revision": null,
+      "tokenizer_revision": null,
+      "precision": null,
+      "provider": "Anthropic",
+      "max_tokens": 64,
+      "served_snapshot": null
+    },
+    "gpt4omini": {
+      "checkpoint": "gpt-4o-mini",
+      "temperature": 0,
+      "runtime": "API",
+      "revision": null,
+      "tokenizer_revision": null,
+      "precision": null,
+      "provider": "OpenAI",
+      "max_tokens": 32,
+      "served_snapshot": null
+    },
+    "llama31_8b": {
+      "runtime": "local",
+      "temperature": 0,
+      "checkpoint": "NousResearch/Meta-Llama-3.1-8B-Instruct",
+      "precision": "bfloat16",
+      "cutoff": "2023-12",
+      "revision": null,
+      "tokenizer_revision": null
+    },
+    "llama32_1b": {
+      "runtime": "local",
+      "temperature": 0,
+      "checkpoint": "unsloth/Llama-3.2-1B-Instruct",
+      "precision": "bfloat16",
+      "cutoff": "2023-12",
+      "revision": null,
+      "tokenizer_revision": null
+    },
+    "llama32_3b": {
+      "runtime": "local",
+      "temperature": 0,
+      "checkpoint": "unsloth/Llama-3.2-3B-Instruct",
+      "precision": "bfloat16",
+      "cutoff": "2023-12",
+      "revision": null,
+      "tokenizer_revision": null
+    },
+    "llama31_8b_q4": {
+      "runtime": "local",
+      "temperature": 0,
+      "checkpoint": "lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF (Q4_K_M)",
+      "precision": "Q4_K_M",
+      "cutoff": "2023-12",
+      "revision": null,
+      "tokenizer_revision": null
+    },
+    "llama31_70b": {
+      "runtime": "local",
+      "temperature": 0,
+      "checkpoint": "lmstudio-community/Meta-Llama-3.1-70B-Instruct-GGUF (Q4_K_M)",
+      "precision": "Q4_K_M",
+      "cutoff": "2023-12",
+      "revision": null,
+      "tokenizer_revision": null
+    }
+  },
+  "panels": [
+    {
+      "name": "Cutoff panel",
+      "estimand": "$\\Delta_{\\text{cut}}$ at 2025",
+      "expected_questions": 878,
+      "conditions": [
+        "closed_book"
+      ],
+      "members": [
+        {
+          "model": "qwen",
+          "coverage": {
+            "closed_book": 878
+          }
+        },
+        {
+          "model": "qwen1_5b",
+          "coverage": {
+            "closed_book": 878
+          }
+        },
+        {
+          "model": "qwen3b",
+          "coverage": {
+            "closed_book": 878
+          }
+        },
+        {
+          "model": "qwen7b",
+          "coverage": {
+            "closed_book": 878
+          }
+        },
+        {
+          "model": "qwen32b",
+          "coverage": {
+            "closed_book": 878
+          }
+        },
+        {
+          "model": "qwen72b",
+          "coverage": {
+            "closed_book": 878
+          }
+        },
+        {
+          "model": "mistral_large",
+          "coverage": {
+            "closed_book": 878
+          }
+        },
+        {
+          "model": "haiku",
+          "coverage": {
+            "closed_book": 878
+          }
+        },
+        {
+          "model": "sonnet",
+          "coverage": {
+            "closed_book": 878
+          }
+        }
+      ]
+    },
+    {
+      "name": "Full-scale closed-book",
+      "estimand": "$\\Delta_{\\text{cut}}$, no per-year cap",
+      "expected_questions": 4176,
+      "conditions": [
+        "closed_book_full"
+      ],
+      "members": [
+        {
+          "model": "qwen32b",
+          "coverage": {
+            "closed_book_full": 4176
+          }
+        },
+        {
+          "model": "qwen72b",
+          "coverage": {
+            "closed_book_full": 4176
+          }
+        },
+        {
+          "model": "gpt4omini",
+          "coverage": {
+            "closed_book_full": 4176
+          }
+        }
+      ]
+    },
+    {
+      "name": "Unmasked Hybrid",
+      "estimand": "$\\Delta_{\\text{RAG}}$",
+      "expected_questions": 878,
+      "conditions": [
+        "closed_book",
+        "hybrid"
+      ],
+      "members": [
+        {
+          "model": "qwen1_5b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "qwen3b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "qwen7b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "llama3_8b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "qwen32b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "qwen72b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "mistral_large",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "haiku",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "sonnet",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "gpt4omini",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        }
+      ]
+    },
+    {
+      "name": "Masked Hybrid (paired)",
+      "estimand": "$\\Delta_{\\text{mask}}$",
+      "expected_questions": 878,
+      "conditions": [
+        "closed_book",
+        "hybrid",
+        "hybrid_masked"
+      ],
+      "members": [
+        {
+          "model": "qwen1_5b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "qwen3b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "qwen7b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "llama3_8b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "qwen32b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "qwen72b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "mistral_large",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "haiku",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "sonnet",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "gpt4omini",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        }
+      ]
+    },
+    {
+      "name": "Support (string/NLI)",
+      "estimand": "$\\Delta_{\\text{sup}}$, masked",
+      "expected_questions": 878,
+      "conditions": [
+        "closed_book",
+        "hybrid_masked"
+      ],
+      "members": [
+        {
+          "model": "qwen1_5b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "qwen3b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "qwen7b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "llama3_8b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "qwen32b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "qwen72b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "mistral_large",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "haiku",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "sonnet",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "gpt4omini",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid_masked": 878
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cutoff--scale",
+      "estimand": "joint slope",
+      "expected_questions": 878,
+      "conditions": [
+        "closed_book"
+      ],
+      "members": [
+        {
+          "model": "qwen",
+          "coverage": {
+            "closed_book": 878
+          }
+        },
+        {
+          "model": "qwen1_5b",
+          "coverage": {
+            "closed_book": 878
+          }
+        },
+        {
+          "model": "qwen3b",
+          "coverage": {
+            "closed_book": 878
+          }
+        },
+        {
+          "model": "qwen7b",
+          "coverage": {
+            "closed_book": 878
+          }
+        },
+        {
+          "model": "qwen32b",
+          "coverage": {
+            "closed_book": 878
+          }
+        },
+        {
+          "model": "qwen72b",
+          "coverage": {
+            "closed_book": 878
+          }
+        },
+        {
+          "model": "mistral_large",
+          "coverage": {
+            "closed_book": 878
+          }
+        }
+      ]
+    },
+    {
+      "name": "Support--scale",
+      "estimand": "unsupported gain slope",
+      "expected_questions": 878,
+      "conditions": [
+        "closed_book",
+        "hybrid_masked"
+      ],
+      "members": [
+        {
+          "model": "qwen1_5b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "qwen3b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "qwen7b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "qwen32b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "qwen72b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "mistral_large",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid_masked": 878
+          }
+        }
+      ]
+    },
+    {
+      "name": "Item-level fit",
+      "estimand": "capability interaction",
+      "expected_questions": 878,
+      "conditions": [
+        "closed_book",
+        "hybrid"
+      ],
+      "members": [
+        {
+          "model": "qwen1_5b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "qwen3b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "qwen7b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "qwen32b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "qwen72b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
+          "model": "mistral_large",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        }
+      ]
+    },
+    {
+      "name": "Decision",
+      "expected_questions": 878,
+      "conditions": [
+        "closed_book",
+        "hybrid",
+        "hybrid_masked"
+      ],
+      "members": [
+        {
+          "model": "qwen1_5b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "qwen3b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "qwen7b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "llama3_8b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "qwen32b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "qwen72b",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "mistral_large",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "sonnet",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        },
+        {
+          "model": "gpt4omini",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878,
+            "hybrid_masked": 878
+          }
+        }
+      ]
+    }
+  ]
+}

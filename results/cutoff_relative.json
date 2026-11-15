@@ -15,14 +15,14 @@
       "source": "OpenAI model card"
     },
     "haiku": {
-      "point": "2025-07",
-      "lo": "2025-02",
-      "hi": "2025-07",
-      "source": "Anthropic docs: public-Internet data through Jul 2025"
+      "point": "2025-02",
+      "lo": "2024-11",
+      "hi": "2025-05",
+      "source": "Anthropic Haiku 4.5 system card, p.5: public Internet data through February 2025; sensitivity band is analyst-chosen +/-3 months"
     },
     "sonnet": {
       "point": "2025-07",
-      "lo": "2025-02",
+      "lo": "2025-01",
       "hi": "2025-07",
       "source": "Anthropic docs: public-Internet data through Jul 2025"
     }
@@ -126,6 +126,50 @@
       },
       "params_B": null
     },
+    "haiku": {
+      "cutoff": "2025-02",
+      "cutoff_source": "Anthropic Haiku 4.5 system card, p.5: public Internet data through February 2025; sensitivity band is analyst-chosen +/-3 months",
+      "own_boundary": {
+        "gap": 17.395,
+        "ci95": [
+          9.269,
+          25.113
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": [
+          118,
+          52
+        ]
+      },
+      "shared_2025_boundary": {
+        "gap": 19.387,
+        "ci95": [
+          12.094,
+          26.187
+        ],
+        "p_plus_one": 0.0004,
+        "n_quizzes": [
+          125,
+          69
+        ]
+      },
+      "sensitivity_over_cutoff_interval": {
+        "2024-11": 18.076,
+        "2025-05": 14.324
+      },
+      "curve_by_months_since_cutoff": {
+        "-36": 31.878306878306876,
+        "-30": 40.77208861874559,
+        "-24": 30.092424717166566,
+        "-18": 21.72900940679302,
+        "-12": 23.056899894877038,
+        "-6": 30.65031927072061,
+        "0": 3.9355343824406717,
+        "6": 12.245322938719164,
+        "12": 16.071072773477006
+      },
+      "params_B": null
+    },
     "sonnet": {
       "cutoff": "2025-07",
       "cutoff_source": "Anthropic docs: public-Internet data through Jul 2025",
@@ -154,7 +198,7 @@
         ]
       },
       "sensitivity_over_cutoff_interval": {
-        "2025-02": 26.515,
+        "2025-01": 25.867,
         "2025-07": 21.775
       },
       "curve_by_months_since_cutoff": {
@@ -183,6 +227,12 @@
       "shared_gap": 16.345,
       "difference": 6.033
     },
+    "haiku": {
+      "months_cutoff_minus_shared_boundary": 1,
+      "own_gap": 17.395,
+      "shared_gap": 19.387,
+      "difference": -1.992
+    },
     "sonnet": {
       "months_cutoff_minus_shared_boundary": 6,
       "own_gap": 21.775,
@@ -191,15 +241,14 @@
     }
   },
   "misattribution_slope": {
-    "slope_gap_difference_per_month_of_cutoff_offset": 0.5764,
-    "n_models": 3,
+    "slope_gap_difference_per_month_of_cutoff_offset": 0.3657,
+    "n_models": 4,
     "reading": "How much the shared-boundary estimate understates a model's own-boundary gap, per month that its cutoff sits away from the shared boundary. A nonzero slope means the shared-boundary design measures cutoff-offset, not just scale."
   },
   "scale_within_matched_cutoff": {
     "note": "Only the two Claude models share a disclosed cutoff, so a scale slope at matched cutoff offset is not estimable on this roster. This is the concrete data requirement for identifying scale: several families, disclosed cutoffs, matched offsets.",
     "matched_groups": {
       "2025-07": [
-        "haiku",
         "sonnet"
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "prereg": "results/analysis/PREREG_E2_E3_E6.md#E3",
+  "prereg": "docs/protocols/primary_analyses.md#E3",
   "seed": 20260917,
   "B": 5000,
   "equivalence_margin_f1": 2.0,

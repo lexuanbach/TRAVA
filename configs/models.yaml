@@ -1,4 +1,4 @@
-# FreshBench-RAG — generator configuration (REAL run)
+# TRAVA — generator configuration (REAL run)
 #
 generator:
   provider: anthropic

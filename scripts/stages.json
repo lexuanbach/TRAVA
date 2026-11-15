@@ -246,5 +246,30 @@
       "full",
       "core"
     ]
+  },
+  {
+    "id": "choice_scoring",
+    "title": "Common-panel nearest-option sensitivity",
+    "script": "pipeline/choice_grounded_audit.py",
+    "args": [],
+    "results": [
+      "results/choice_grounded_audit.json"
+    ],
+    "suites": [
+      "full"
+    ]
+  },
+  {
+    "id": "reporting",
+    "title": "Common-sample reporting summaries",
+    "script": "pipeline/reporting_summary.py",
+    "args": [],
+    "results": [
+      "results/reporting_summary.json"
+    ],
+    "suites": [
+      "core",
+      "full"
+    ]
   }
 ]

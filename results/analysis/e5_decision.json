@@ -1,6 +1,6 @@
 {
   "experiment": "E5",
-  "prereg": "results/analysis/PREREG_E2_E3_E6.md#e5",
+  "prereg": "docs/protocols/primary_analyses.md#e5",
   "design": {
     "generators": [
       "qwen1_5b",

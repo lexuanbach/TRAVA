@@ -34,3 +34,11 @@ The following independent analyses are included as reference results and impleme
 Report both the estimate and its interval from the same weighting/conditioning field. `question_pooled` and `quiz_weighted` are different estimands. `old_fulltext` and `new_visible600` are different label conditions. A nonzero-interval marker is not automatically Holm-adjusted significance.
 
 `results/human_metric_audit.json` is the common-basis metric-error summary. `results/human_validation.json` retains the earlier report and should not be used to replace the common-basis intervals. `results/masked_human_support.json` distinguishes the 200-question weighted population estimate from 210-question unweighted interactions.
+
+## Common-sample reporting checks
+
+`results/reporting_summary.json` records nearest-option accuracy on the fixed 878-question sample for eleven closed-book and ten unmasked-Hybrid generators. It retains numerators, denominators, detected abstentions and unmatched answers for each condition and temporal slice. Its scale comparison aligns both metrics on the same seven-rung, quiz-weighted 2023/2026 contrast. It also reports the frozen 1.5B masking interval, using the original quiz-bootstrap seed and ordering. Recompute with `python pipeline/reporting_summary.py`.
+
+`results/choice_grounded_audit.json` separately provides the explicit eleven-generator closed-book sensitivity, including per-model 2023/2026 intervals. Recompute with `python pipeline/choice_grounded_audit.py`.
+
+`docs/model_inventory.json` records verified cache coverage and retained generation settings. Missing historical revisions are explicit nulls. Rebuild it with `python scripts/build_model_inventory.py`. `docs/protocols/` and `docs/corrections.md` document chronology and retrospective corrections. The corrected ledger resolves every provenance path within this repository and is checked with `python pipeline/rebuild_ledger.py --check`.

@@ -1,5 +1,5 @@
 {
-  "prereg": "results/analysis/PREREG_E2_E3_E6.md#E6",
+  "prereg": "docs/protocols/primary_analyses.md#E6",
   "seed": 20260917,
   "B": 5000,
   "support_label": "gold string in first 600 chars of any shown passage",
