@@ -295,5 +295,29 @@
     "suites": [
       "full"
     ]
+  },
+  {
+    "id": "paired_labels",
+    "title": "Paired support-label agreement",
+    "script": "pipeline/paired_label_comparison.py",
+    "args": [],
+    "results": [
+      "results/paired_label_comparison.json"
+    ],
+    "suites": [
+      "full"
+    ]
+  },
+  {
+    "id": "controlled_cutoff",
+    "title": "Llama cutoff and scale controls",
+    "script": "pipeline/controlled_cutoff.py",
+    "args": [],
+    "results": [
+      "results/controlled_cutoff.json"
+    ],
+    "suites": [
+      "full"
+    ]
   }
 ]

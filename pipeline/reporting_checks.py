@@ -9,6 +9,15 @@ def rows(p,key):return {x[key]:x for x in map(json.loads,p.read_text().splitline
 def main():
  qs=rows(P/'questions.jsonl','qid');ds=rows(P/'corpus.jsonl','doc_id');ret=read(P/'retrieval_stale.json')['hybrid_stale'];qrels=read(P/'qrels.json');fresh=[q for q in qs if qs[q]['date']>='2025-01-01'];hits=[q for q in fresh if set(ret[q])&set(qrels[q])];linked=[(q,d) for q in hits for d in ret[q] if d in qrels[q]]
  out={'stale':{'definition':'document publish_date before 2025-01-01','latest_retrieved_publish_date':max(ds[d]['publish_date'] for v in ret.values() for d in v),'fresh_linked_hit_questions':len(hits),'fresh_questions':len(fresh),'fresh_hit_at_5':len(hits)/len(fresh),'linked_passages':len(linked),'linked_passages_with_shown_gold_string':sum(gold_in_text(qs[q]['gold_answer'],ds[d]['text'][:600]) for q,d in linked),'note':'Link membership and gold-string occurrence are not adjudicated answer support.'}}
+ from datetime import date,timedelta
+ stale_exposure={}
+ for regime,is_fresh in [('static',False),('fresh',True)]:
+  ids=[q for q in qs if (qs[q]['date']>='2025-01-01')==is_fresh]
+  late={q:sum(bool(ds[d].get('publish_date')) and ds[d]['publish_date']>str(date.fromisoformat(qs[q]['date'][:10])+timedelta(days=3)) for d in ret[q]) for q in ids}
+  n=sum(len(ret[q]) for q in ids)
+  stale_exposure[regime]={'questions':len(ids),'contexts':n,'late_contexts':sum(late.values()),'questions_with_late_context':sum(x>0 for x in late.values()),'late_context_fraction':sum(late.values())/n}
+ out['stale']['query_grace_window_exposure']=stale_exposure
+ out['undated_documents']={name:sum(not d.get('publish_date') for d in rows(P/name,'doc_id').values()) for name in ['corpus.jsonl','corpus_full.jsonl']}
  e=read(R/'analysis/e2_sample_stats.json');out['exposure']={'corpus':'corpus_full.jsonl, 26611 documents','original_common_years':e['exposure']['original']['hybrid_full_unmasked']['common_years_2022_2025'],'new_sample':e['exposure']['new']['hybrid_full_unmasked']['all'],'original_all_years':e['exposure']['original']['hybrid_full_unmasked']['all']}
  early=[q for q in qs if qs[q]['date']<'2022-07-01'];equiz={q.split('_')[0] for q in early};quiz=sorted({q.split('_')[0] for q in qs});fits=read(R/'analysis/e5_decision.json')['generators']['qwen32b']['fits'];count=0;heldout=[]
  for f in fits:

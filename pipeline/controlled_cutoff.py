@@ -238,12 +238,11 @@ def boundary_split(qs, ids, cutoff, guard=GUARD_MONTHS):
 def slope_boot(gaps_by_model, params, B, seed):
     """Quiz-clustered bootstrap CI for the slope across rungs.
 
-    With three or four rungs the exact permutation test cannot reach p<0.05 at
-    all -- its resolution floor is 2/3! = 0.33 and 2/4! = 0.083 -- so a
-    permutation result alone would be uninformative by construction. This
+    With three rungs the exact permutation test cannot reach p<0.05.
+    The exhaustive floor depends on ties in absolute slope. This bootstrap
     resamples the QUIZZES jointly, recomputing every rung's Static-Fresh gap and
     refitting the slope inside each draw, which is the same "conditional on this
-    ladder" target the main analysis uses and is far better powered.
+    ladder" target the main analysis uses. It does not sample new model rungs.
 
     gaps_by_model: tag -> (static_quiz_means, fresh_quiz_means) keyed by quiz id
     so the same resampled quizzes are used for every rung.
@@ -314,14 +313,17 @@ def slope_with_perm(points):
                          for a, b in zip(x, yy)) / sxx
     obs = fit(y)
     ge = tot = 0
+    magnitudes = []
     for perm in itertools.permutations(y):
         tot += 1
+        magnitudes.append(abs(fit(list(perm))))
         if abs(fit(list(perm))) >= abs(obs) - 1e-12:
             ge += 1
+    floor = sum(v >= max(magnitudes) - 1e-12 for v in magnitudes) / tot
     return {"slope_per_decade": round(obs, 3), "p_exact": round(ge / tot, 5),
             "n_permutations": tot, "n_rungs": len(y),
-            "p_resolution_floor": round(2.0 / tot, 5),
-            "underpowered_by_construction": (2.0 / tot) > 0.05,
+            "p_resolution_floor": round(floor, 5),
+            "underpowered_by_construction": floor > 0.05,
             "points": [{"params_B": p, "gap_f1": round(v, 3)} for p, v in pts]}
 
 
@@ -354,8 +356,8 @@ def main() -> int:
         "scope": "One model family with provider-disclosed cutoffs, used to vary "
                  "cutoff at fixed size and size at fixed cutoff.",
         "why": ("Elsewhere in this paper parameter count is confounded with "
-                "family, recipe and cutoff. These two arms break that "
-                "confound apart within a single family."),
+                "family, recipe and cutoff. These two arms compare models "
+                "within one family while holding size or the reported cutoff fixed."),
         "cutoffs_are_provider_claims": (
             "Cutoff dates are taken from Meta's model cards. They are claims by "
             "the provider, not measurements; our own attempt to estimate an "
@@ -422,17 +424,16 @@ def main() -> int:
             w > arm_a[c]["delta"] for c in
             ("before_both_cutoffs", "after_both_cutoffs") if c in arm_a)
         arm_a["controls_reading"] = (
-            "BEFORE both cutoffs both models have the knowledge, so the delta "
-            "there is release quality. AFTER both cutoffs neither does. The "
-            "cutoff effect is the window's excess over these; reporting both "
-            "controls prevents reading a general quality improvement as a "
-            "cutoff effect.")
+            "The before-both and after-both date groups provide comparison "
+            "contrasts for the between-cutoff group. Provider cutoff dates "
+            "do not establish which answers either model knows. Training "
+            "differences remain confounded with release dates.")
     arm_a["gap_change"] = {
         t: {"cutoff": FAMILY[t]["cutoff"], "gap_at_own_cutoff": own[t]["gap"],
             "ci95": own[t]["ci95"]} for t in ARM_A if t in own}
     arm_a["reading"] = (
-        "Same size, same family, 9 months of extra pretraining data. Any "
-        "difference here is a cutoff effect and cannot be a scale effect.")
+        "Same size and family, with different provider-reported cutoffs. "
+        "The contrasts do not isolate a causal cutoff effect.")
     out["arm_a_cutoff_varies_size_fixed"] = arm_a
 
     # ---------- ARM B: size varies, cutoff fixed ---------------------------
@@ -557,12 +558,10 @@ def main() -> int:
                  and (arm_b["slope"]["ci95"][0] > 0
                       or arm_b["slope"]["ci95"][1] < 0)),
         "reading": (
-            "Arm A isolates a cutoff effect with size held fixed; Arm B isolates "
-            "a scale slope with cutoff held fixed. Reporting both is the "
-            "identification claim: whatever survives Arm B is scale, not "
-            "horizon. Neither arm licenses a causal statement about parameter "
-            "count -- the models still differ in training procedure -- and Arm B "
-            "has three rungs."),
+            "Arm A holds size fixed and Arm B holds the reported cutoff fixed. "
+            "Training differences remain. The three-rung Arm B bootstrap is "
+            "conditional on this roster and is driven by the 8B point. Its "
+            "exhaustive size-label permutation p is 4/6, with floor 1/6."),
     }
 
     print(f"{'model':13s}{'params':>8s}{'cutoff':>10s}{'gap@own':>10s}"

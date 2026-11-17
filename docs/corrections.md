@@ -31,3 +31,11 @@ The retrospective extension in [reporting_estimands.md](reporting_estimands.md) 
 ## Bootstrap zero ties, 17 November 2026
 
 Strict cross-platform replay exposed small differences in bootstrap tail counts when algebraic zeros acquired opposite floating-point signs on macOS and Linux. The shared `pipeline/analysis/analysis_common.py` helper now includes residuals within 1e-12 of zero in both tails. This arithmetic tolerance is separate from statistical significance thresholds and does not alter point estimates or intervals. Cached analyses were replayed, affected p-values refreshed, and a signed-residual regression check added. Original model answers and labels remain unchanged. The comparison utility prints all differing JSON pointers and retains its strict 1e-8 comparison tolerance.
+
+## 2026-11-17: paired agreement and inference scope
+
+We added a retrospective paired comparison of support labelers on existing adjudicated passage rows. Earlier prose said all Task B agreement intervals overlapped. The string interval lies below the NLI and judge intervals. Shared quiz resampling now quantifies the differences. No human labels or model outputs changed.
+
+We corrected the three-rung absolute-slope permutation floor from 2/6 to 1/6. The existing exact p remains 4/6. We also counted late Static contexts in the stale index and clarified that the stale filter does not imply a per-query mask on Static questions. Historical input records and protocol dates are preserved. The new numerical ledger entries are additive.
+
+The historical max-drop permutation and odd/even-day split tests do not test the same boundary contrast as the quiz bootstrap. The 32B split has a fallback boundary and Mistral selects 2024. Current documentation distinguishes these tests and the nine-model adjustment family.

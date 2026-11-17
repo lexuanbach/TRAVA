@@ -1,6 +1,6 @@
 {
   "scope": "One model family with provider-disclosed cutoffs, used to vary cutoff at fixed size and size at fixed cutoff.",
-  "why": "Elsewhere in this paper parameter count is confounded with family, recipe and cutoff. These two arms break that confound apart within a single family.",
+  "why": "Elsewhere in this paper parameter count is confounded with family, recipe and cutoff. These two arms compare models within one family while holding size or the reported cutoff fixed.",
   "cutoffs_are_provider_claims": "Cutoff dates are taken from Meta's model cards. They are claims by the provider, not measurements; our own attempt to estimate an effective cutoff from accuracy curves failed (see the estimator negative result).",
   "family": {
     "llama3_8b": {
@@ -205,7 +205,7 @@
     "did_window_minus_before": -0.77,
     "did_window_minus_after": 1.71,
     "exceeds_both_controls": false,
-    "controls_reading": "BEFORE both cutoffs both models have the knowledge, so the delta there is release quality. AFTER both cutoffs neither does. The cutoff effect is the window's excess over these; reporting both controls prevents reading a general quality improvement as a cutoff effect.",
+    "controls_reading": "The before-both and after-both date groups provide comparison contrasts for the between-cutoff group. Provider cutoff dates do not establish which answers either model knows. Training differences remain confounded with release dates.",
     "gap_change": {
       "llama3_8b": {
         "cutoff": "2023-03",
@@ -224,7 +224,7 @@
         ]
       }
     },
-    "reading": "Same size, same family, 9 months of extra pretraining data. Any difference here is a cutoff effect and cannot be a scale effect."
+    "reading": "Same size and family, with different provider-reported cutoffs. The contrasts do not isolate a causal cutoff effect."
   },
   "arm_b_size_varies_cutoff_fixed": {
     "shared_cutoff": "2023-12",
@@ -313,7 +313,7 @@
       "p_exact": 0.66667,
       "n_permutations": 6,
       "n_rungs": 3,
-      "p_resolution_floor": 0.33333,
+      "p_resolution_floor": 0.16667,
       "underpowered_by_construction": true,
       "points": [
         {
@@ -359,8 +359,8 @@
         "p_exact": 0.08333,
         "n_permutations": 24,
         "n_rungs": 4,
-        "p_resolution_floor": 0.08333,
-        "underpowered_by_construction": true,
+        "p_resolution_floor": 0.04167,
+        "underpowered_by_construction": false,
         "points": [
           {
             "params_B": 1.0,
@@ -454,6 +454,6 @@
       19.742
     ],
     "scale_slope_excludes_zero_at_fixed_cutoff": true,
-    "reading": "Arm A isolates a cutoff effect with size held fixed; Arm B isolates a scale slope with cutoff held fixed. Reporting both is the identification claim: whatever survives Arm B is scale, not horizon. Neither arm licenses a causal statement about parameter count -- the models still differ in training procedure -- and Arm B has three rungs."
+    "reading": "Arm A holds size fixed and Arm B holds the reported cutoff fixed. Training differences remain. The three-rung Arm B bootstrap is conditional on this roster and is driven by the 8B point. Its exhaustive size-label permutation p is 4/6, with floor 1/6."
   }
 }

@@ -1,6 +1,6 @@
 {
   "snapshot": "v2026-07",
-  "analysis_version": "2026-11-17-aligned-estimands",
+  "analysis_version": "2026-11-17-paired-inference",
   "files": [
     {
       "path": ".gitattributes",
@@ -1209,8 +1209,8 @@
     },
     {
       "path": "docs/METHODS.md",
-      "bytes": 3299,
-      "sha256": "aa281dd3853ada13a419998114343791d286d7fd4505cf72095dff466c15c0e9"
+      "bytes": 5040,
+      "sha256": "dbeb71e4193892e646494767d0d779dea76c941a754d2eff842c3880c38b46b0"
     },
     {
       "path": "docs/REPRODUCING.md",
@@ -1219,13 +1219,13 @@
     },
     {
       "path": "docs/RESULTS.md",
-      "bytes": 5944,
-      "sha256": "a6540cc2e07e244a737298bd1f8da32fa74f42eb4b567cc03af944a98f3bfb2d"
+      "bytes": 6692,
+      "sha256": "f39085f61d3c9e1aedfce9aa3489a32764e50e2016c75049e5a2c3b142a9ef98"
     },
     {
       "path": "docs/corrections.md",
-      "bytes": 5077,
-      "sha256": "7bf1c111c692b71e18ffd8c08c30393382c447ca278e533df36f0cfb17544781"
+      "bytes": 6093,
+      "sha256": "bfa5a84ad5690f97f664def257eb7c01340f6c360234ccd253fb5fe1cf816ea2"
     },
     {
       "path": "docs/model_inventory.json",
@@ -1479,8 +1479,8 @@
     },
     {
       "path": "pipeline/controlled_cutoff.py",
-      "bytes": 29228,
-      "sha256": "c8a0edc6a162e4c5464c49d89bb96add4cdbf449c9abd791e8f2214a199b9b7a"
+      "bytes": 29141,
+      "sha256": "f7d17a7e20ef64dd0b3be5b6a56ffc8f3052c749b03f1361918b483f1f859152"
     },
     {
       "path": "pipeline/corrected_ledger.py",
@@ -1638,6 +1638,11 @@
       "sha256": "3b30d5f6deb700cd68ab7b414163a4d1d041f30dd3565ea9bc61d71b095d97bb"
     },
     {
+      "path": "pipeline/paired_label_comparison.py",
+      "bytes": 3649,
+      "sha256": "b60ebba068a75f4ba6ea0e8bffe0be5026173b690ef37edfb7c2c214a2e17d0b"
+    },
+    {
       "path": "pipeline/quarterly_cutoff.py",
       "bytes": 6690,
       "sha256": "c019a4e2da583ade809c54cb9d58321d4282458d635cd2842f2d5d60a2ef565d"
@@ -1649,13 +1654,13 @@
     },
     {
       "path": "pipeline/rebuild_ledger.py",
-      "bytes": 48789,
-      "sha256": "d493a061fb614184847c3782115d599e73dee9499c38db5883129ec0b59dbe11"
+      "bytes": 49829,
+      "sha256": "851a3027659298708f76966fac621250e0bdf51fda7c354b0b61b7b8007c159b"
     },
     {
       "path": "pipeline/reporting_checks.py",
-      "bytes": 5064,
-      "sha256": "46f7ddfaf60b247d3f0b10d3273a74a5182fc8a15581dd14841fa4a0645bb22f"
+      "bytes": 5859,
+      "sha256": "799bc79651bc1a84884648193f162952df2945c1531d1818a08bba16f2e16c42"
     },
     {
       "path": "pipeline/reporting_summary.py",
@@ -2214,8 +2219,8 @@
     },
     {
       "path": "results/claim_ledger.csv",
-      "bytes": 13304607,
-      "sha256": "bb00b57c4923601f766cb003ba9bad2c428a5d66c4d1b69e03450f6ff318fa6d"
+      "bytes": 13308385,
+      "sha256": "383159ea228a398964f735b149c037cca64709b54be9e9fb628025cf1ebabee2"
     },
     {
       "path": "results/cluster_robust.json",
@@ -2224,8 +2229,8 @@
     },
     {
       "path": "results/controlled_cutoff.json",
-      "bytes": 13388,
-      "sha256": "e34c4947001d877a86d433107a7eb966445c3509af51494917bea47c8cf33660"
+      "bytes": 13288,
+      "sha256": "e45966de9808f37b3bd17e8bd4a1d8bbdcf204d868514424e5caa1eff505bc2e"
     },
     {
       "path": "results/corpus_overlap.json",
@@ -2378,6 +2383,11 @@
       "sha256": "bc7905d31a14fdb438d31f0d2655d862ae666a85471896f152bfea6b3e6fd988"
     },
     {
+      "path": "results/paired_label_comparison.json",
+      "bytes": 6986,
+      "sha256": "9d337e75301ab4f19c2c8c9429fabe2613b7d8306a71678739f397ff3d04e1f4"
+    },
+    {
       "path": "results/quarterly_cutoff.json",
       "bytes": 5036,
       "sha256": "5ab18faf9e08fcee13dfffeffbdb4db2bbcf4f3f31f95239650c60a5657bfec1"
@@ -2389,8 +2399,8 @@
     },
     {
       "path": "results/reporting_checks.json",
-      "bytes": 19272,
-      "sha256": "71a1d84a08e3d75d31f39b1551e0688f20d399d1bbb3ceb2568f50716bcc3a2d"
+      "bytes": 19786,
+      "sha256": "bbba0c91cc67c0218f62d838a313c20fcde766cec4cf8fd211e4778af089b8c0"
     },
     {
       "path": "results/reporting_summary.json",
@@ -2544,8 +2554,8 @@
     },
     {
       "path": "scripts/stages.json",
-      "bytes": 6432,
-      "sha256": "4f678c6f850836924ea8c7da5b7e29357179a011c03c7de3f211975684505c1d"
+      "bytes": 6937,
+      "sha256": "315ed51e80a34ca8152b86c8267a90c6a98d86549661bfaed5d4b4b98e44242e"
     },
     {
       "path": "scripts/verify_snapshot.py",
@@ -2571,6 +2581,11 @@
       "path": "tests/test_measurement.py",
       "bytes": 4274,
       "sha256": "6a34af46eb0170db6335dc61b830a58bc82098452a91ed89f4c2f783b8769865"
+    },
+    {
+      "path": "tests/test_paired_labels_and_controls.py",
+      "bytes": 2746,
+      "sha256": "7b429348dba9bddc5e4cd1fd637e033171bdc81bad6f1a475361df3cf7b5aeae"
     },
     {
       "path": "tests/test_provider_and_panels.py",

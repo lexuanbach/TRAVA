@@ -1,0 +1,160 @@
+{
+  "basis": "Strict YES, unit passage-row weights, legacy 700-character human excerpts versus cached 600-character automatic labels. Three paired contrasts form a Holm family within each pack. Quiz-cluster bootstrap. Retrospective sensitivity, not exact-input validation.",
+  "task_b": {
+    "n_rows": 900,
+    "n_questions": 254,
+    "n_quizzes": 132,
+    "seed": 20260803,
+    "B": 5000,
+    "labels": {
+      "string600": {
+        "estimate": 0.6464257123372966,
+        "ci95": [
+          0.5544748876108644,
+          0.7281399046104927
+        ],
+        "valid_draws": 5000
+      },
+      "nli600": {
+        "estimate": 0.8004366514293513,
+        "ci95": [
+          0.7436836937519459,
+          0.8515541264737407
+        ],
+        "valid_draws": 5000
+      },
+      "judge600": {
+        "estimate": 0.7925013228513114,
+        "ci95": [
+          0.7370931677018634,
+          0.8411624296076569
+        ],
+        "valid_draws": 5000
+      }
+    },
+    "paired_differences": {
+      "nli600_minus_string600": {
+        "estimate": 0.15401093909205466,
+        "ci95": [
+          0.05869926926189095,
+          0.2583308927822858
+        ],
+        "valid_draws": 5000,
+        "two_sided_p_plus_one": 0.001999600079984003,
+        "holm_p_three_comparisons_within_pack": 0.00599880023995201
+      },
+      "judge600_minus_string600": {
+        "estimate": 0.14607561051401474,
+        "ci95": [
+          0.05160740741813685,
+          0.24829616947236632
+        ],
+        "valid_draws": 5000,
+        "two_sided_p_plus_one": 0.001999600079984003,
+        "holm_p_three_comparisons_within_pack": 0.00599880023995201
+      },
+      "nli600_minus_judge600": {
+        "estimate": 0.007935328578039913,
+        "ci95": [
+          -0.058816746147624666,
+          0.07630015347581798
+        ],
+        "valid_draws": 5000,
+        "two_sided_p_plus_one": 0.7646470705858828,
+        "holm_p_three_comparisons_within_pack": 0.7646470705858828
+      }
+    }
+  },
+  "masked_pack": {
+    "n_rows": 630,
+    "n_questions": 210,
+    "n_quizzes": 116,
+    "seed": 20260804,
+    "B": 5000,
+    "labels": {
+      "string600": {
+        "estimate": 0.744289123764064,
+        "ci95": [
+          0.661633493479753,
+          0.8175487916259125
+        ],
+        "valid_draws": 5000
+      },
+      "nli600": {
+        "estimate": 0.7248500999333777,
+        "ci95": [
+          0.6414511533085709,
+          0.8012806920826089
+        ],
+        "valid_draws": 5000
+      },
+      "judge600": {
+        "estimate": 0.8336824893975778,
+        "ci95": [
+          0.7737943987184444,
+          0.8884588091090898
+        ],
+        "valid_draws": 5000
+      }
+    },
+    "paired_differences": {
+      "nli600_minus_string600": {
+        "estimate": -0.019439023830686297,
+        "ci95": [
+          -0.11959613434687388,
+          0.0820809914943832
+        ],
+        "valid_draws": 5000,
+        "two_sided_p_plus_one": 0.712257548490302,
+        "holm_p_three_comparisons_within_pack": 0.712257548490302
+      },
+      "judge600_minus_string600": {
+        "estimate": 0.08939336563351385,
+        "ci95": [
+          0.013181552137280117,
+          0.16909775405508332
+        ],
+        "valid_draws": 5000,
+        "two_sided_p_plus_one": 0.02519496100779844,
+        "holm_p_three_comparisons_within_pack": 0.05038992201559688
+      },
+      "nli600_minus_judge600": {
+        "estimate": -0.10883238946420015,
+        "ci95": [
+          -0.18870865351848132,
+          -0.0346195830199012
+        ],
+        "valid_draws": 5000,
+        "two_sided_p_plus_one": 0.00599880023995201,
+        "holm_p_three_comparisons_within_pack": 0.01799640071985603
+      }
+    }
+  },
+  "input_sha256": {
+    "annotation/adjudication/pack/adjudicate_supports.csv": "06e00d44e1a7913fc8a6074ad599577fc07220572a318b05c323343cb77b3a85",
+    "annotation/adjudication/pack/adjudicate_verdict.csv": "75251918690d12c4dfffe4607586f5c3e0af18bb4ce6d5d6969ebe17d4111363",
+    "annotation/adjudication/pack/adjudication_metadata.jsonl": "ebb2909c8ff70d54049557d6eb4aa78cfe39b125986368a83ed7f380d35676b3",
+    "annotation/masked_support_2026-08-04/disagreements_for_adjudication.csv": "052e7e1a78af3183cb119ff3f4a56ed406f23086136a67d7d67f5c70c12f87a7",
+    "annotation/masked_support_2026-08-04/item_metadata.jsonl": "87732b02df2c6a0e9b9a83964b33a9074b259a24574831d56f8622bbc94a7280",
+    "annotation/masked_support_2026-08-04/task_support_masked.csv": "5f777f3c0ff8d8c4d97a6ac17f638cd7032edfb004664d1a96e83501079e968c",
+    "annotation/masked_support_2026-08-04/task_support_masked__annotatorA.csv": "f010eaaac14446c078b22287328d3c158a2e06b5d9817c33f48c4d77c0f2bbbd",
+    "annotation/masked_support_2026-08-04/task_support_masked__annotatorB.csv": "416859ca20c25548d929ac9285c3423834629d1e3207a41a6c32d58af3ec53e6",
+    "annotation/masked_support_2026-08-04/task_support_masked__annotatorC.csv": "1681658f1448ab43ed6158bf9fbbf56b867bfc1edd7f297b0912228f913acdcc",
+    "annotation/pack_2026-08-02/disagreements_for_adjudication.csv": "3bbb2e544b3a0e481b5013b7e48d3eeaca3cdc95507d2fcaedeb487689beab18",
+    "annotation/pack_2026-08-02/item_metadata.jsonl": "de71489511ae2dac900d9220e84be49c5781d1205001a1c3e666a6d1d184c1a6",
+    "annotation/pack_2026-08-02/task_a_correctness.csv": "c155a699227c7c28c4352e4b2664cd24e6c94546af6c4876b66930cc99a1fd3a",
+    "annotation/pack_2026-08-02/task_a_correctness__adjudicated.csv": "51b3af0510414cb70dadcbcd7afea842fbb93e3bac2ec0d30b4965ed5a74f6f4",
+    "annotation/pack_2026-08-02/task_a_correctness__annotatorA.csv": "ec0706eca8a274d31b664bc30da7c510e079e9103f1c41200cacb4f47c043e5a",
+    "annotation/pack_2026-08-02/task_a_correctness__annotatorB.csv": "275c233749ea67bbaf54bbc18611c5362565a6fdd353ca0551828443900484ef",
+    "annotation/pack_2026-08-02/task_a_correctness__annotatorC.csv": "c01b3394ac6dedf7effc9770a1558f31831a2ae444fa6f9a76431db2f92c9ece",
+    "annotation/pack_2026-08-02/task_b_evidence.csv": "825ca961c97290978ffa675e4e4190851b9787f4929ba0367cc51e0721360575",
+    "annotation/pack_2026-08-02/task_b_evidence__annotatorA.csv": "26fbb191e8ec449953352cbe7845d23cba800edc7b6de2dea6179df601e73744",
+    "annotation/pack_2026-08-02/task_b_evidence__annotatorB.csv": "7f396ebad5b658e2c7f19c0fbb1eeb0cabbb6cb3343aa6c270d1666d84cd153e",
+    "annotation/pack_2026-08-02/task_b_evidence__annotatorC.csv": "07a15c2edcbd72e139d9f44915b5bda0d4d66b4d387bf3ed6e448feb9f42cfcc",
+    "data/processed/corpus.jsonl": "9372af0f2833835b0715e9ecd8d6b1d664f7222a3da227d1195fc05bba15c863",
+    "data/processed/questions.jsonl": "4190e39f17151d210ffd9247ddb3ad4784c51dd90026a1d76414d2c1515a450e",
+    "results/analysis/nli_support_labels_600.jsonl": "4c83c9df6cd66f4bcf9e14e87cc8493bad8e247dbb613508153348beb20cd680",
+    "results/analysis/r1_raw/server_out/undated600.jsonl": "9053edd3f112b5baaf7007c868fe88f1d5a3d4875d9da73fe7d2ef7675c19249",
+    "results/analysis/r8_judge_labels.jsonl": "ae4a3e8adec5f76aaf24ed1ddec455944cd464eb6e24ac82f43d44cd4c258e21"
+  }
+}

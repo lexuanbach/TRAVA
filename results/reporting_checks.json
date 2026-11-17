@@ -7,7 +7,27 @@
     "fresh_hit_at_5": 0.6075949367088608,
     "linked_passages": 639,
     "linked_passages_with_shown_gold_string": 79,
-    "note": "Link membership and gold-string occurrence are not adjudicated answer support."
+    "note": "Link membership and gold-string occurrence are not adjudicated answer support.",
+    "query_grace_window_exposure": {
+      "static": {
+        "questions": 404,
+        "contexts": 2020,
+        "late_contexts": 216,
+        "questions_with_late_context": 141,
+        "late_context_fraction": 0.10693069306930693
+      },
+      "fresh": {
+        "questions": 474,
+        "contexts": 2370,
+        "late_contexts": 0,
+        "questions_with_late_context": 0,
+        "late_context_fraction": 0.0
+      }
+    }
+  },
+  "undated_documents": {
+    "corpus.jsonl": 0,
+    "corpus_full.jsonl": 0
   },
   "exposure": {
     "corpus": "corpus_full.jsonl, 26611 documents",

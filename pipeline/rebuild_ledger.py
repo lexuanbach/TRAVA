@@ -802,6 +802,21 @@ def rows_from_json() -> tuple[list[list[str]], list[str]]:
         for regime,value in d["haiku_unmasked_nli"]["per_slice"].items():
             add("haiku_unmasked_visible_nli_"+regime,value["interaction"],f"95% CI {value['ci95']}",
                 "app:panels",f"results/reporting_checks.json:haiku_unmasked_nli.per_slice.{regime}")
+    pc = RESULTS / "paired_label_comparison.json"
+    if pc.exists():
+        d = json.loads(pc.read_text())
+        for pack in ("task_b", "masked_pack"):
+            for contrast, v in d[pack]["paired_differences"].items():
+                add("paired_kappa_" + pack + "_" + contrast, v["estimate"],
+                    f"95% CI {v['ci95']}, Holm p={v['holm_p_three_comparisons_within_pack']}, unit passage weights, quiz bootstrap",
+                    "app:paired-kappa", f"results/paired_label_comparison.json:{pack}.paired_differences.{contrast}")
+    if rc.exists():
+        for regime, v in json.loads(rc.read_text())["stale"]["query_grace_window_exposure"].items():
+            for key, value in v.items():
+                if isinstance(value, (int, float)):
+                    add("stale_late_" + regime + "_" + key, value,
+                        "Document date exceeds query date plus three days", "app:evidencequality",
+                        f"results/reporting_checks.json:stale.query_grace_window_exposure.{regime}.{key}")
     return rows, notes
 
 

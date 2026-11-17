@@ -50,3 +50,9 @@ Report both the estimate and its interval from the same weighting/conditioning f
 ## Aligned temporal comparisons
 
 The [estimand guide](reporting_estimands.md) defines the retrospective reporting extension. `results/aligned_contrasts.json` compares both temporal splits with common questions, two endpoints, two weighting schemes and seven-rung or six-Qwen model panels. It also provides the mean across eight half-year boundaries. `results/reporting_checks.json` records the matched exposure counts, stale-index link audit, policy-fold check and Haiku unmasked-NLI extension. Run the matching `pipeline/aligned_contrasts.py` and `pipeline/reporting_checks.py` entry points, or use the full runner. Historical summaries remain available with their original scope.
+
+### Paired support-label comparison
+
+`python pipeline/paired_label_comparison.py` recomputes agreement differences from the existing adjudicated labels and cached NLI/judge outputs. `results/paired_label_comparison.json` includes input hashes, row and quiz counts, seeds, paired 95% intervals, plus-one tail probabilities and within-pack Holm corrections. Passage rows have unit weights. This differs from population-weighted correctness agreement in `human_metric_audit.json`.
+
+`python pipeline/controlled_cutoff.py` reports the exact permutation resolution from the actual size spacing. `results/controlled_cutoff.json` preserves historical numeric fields and corrects their interpretation. Both commands are included in the full cached replay.
