@@ -2,9 +2,9 @@
 
 ## Three layers, four stages
 
-The three layers concern question time, evidence time and evidence content. The operational stages construct questions/corpora, retrieve passages, generate answers and then score/analyze the frozen outputs. They describe different aspects of the same workflow.
+The three layers define what we audit: question time, evidence time and evidence content. We organize the evaluation into four stages. Stages 1 and 2 construct dated question groups and choose the calendar split. Stage 3 compares closed-book performance, and stage 4 evaluates evidence timing and support. The released replay recomputes these analyses from frozen answers and labels.
 
-**Question time:** Static means a question date before 2025-01-01; Fresh means on or after 2025-01-01. Membership is descriptive, not evidence of pretraining inclusion. The stored sampling split uses a different boundary. Closed-book contrasts remain uncertain and sensitive to year composition and boundary selection.
+**Question time:** Static means a question date before 2025-01-01. Fresh means on or after that date. Membership describes question dates and does not establish pretraining inclusion. The stored sampling split uses a different boundary. Several larger models have statistically resolved closed-book gaps. Mistral and both Claude models retain their 2025-boundary contrasts under BH-adjusted and cross-fitted checks. Gap magnitudes depend on question cohorts, weighting, scoring metric and boundary selection. These performance differences do not identify knowledge cutoffs. The [result guide](RESULTS.md) identifies the corresponding records and analysis conditions.
 
 **Evidence time:** the principal admissibility rule is publication date no later than question date plus three days. This grace window permits some post-question publication; it does not prove availability at question time. Zero-, one- and seven-day windows are examined separately.
 

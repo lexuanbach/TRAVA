@@ -72,7 +72,7 @@ The main panel contains **878 questions**. The uncapped question file contains *
 
 ## Citation and contact
 
-Authors: **Xuan-Bach Le\*, Phat T. Tran-Truong\*, Minh-Hieu Le\*, Duy Nguyen, Son Ha Xuan**. The first three authors contributed equally. Xuan-Bach Le is the corresponding author.
+Authors: **Xuan-Bach Le\*, Phat T. Tran-Truong\*, Minh-Hieu Le, Duy Nguyen, Son Ha Xuan**. Xuan-Bach Le and Phat T. Tran-Truong contributed equally. Xuan-Bach Le is the corresponding author.
 
 Please cite the TRAVA paper and the upstream RealTimeQA dataset when using this artifact. Machine-readable citation metadata is in [CITATION.cff](CITATION.cff); the paper is accepted and does not yet have a proceedings DOI in this package.
 

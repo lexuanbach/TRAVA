@@ -20,7 +20,7 @@
     {
       "path": "CITATION.cff",
       "bytes": 1603,
-      "sha256": "973721af070baed73accc477839ebcb2c41cc9a0d3ba3b379b0555cfc71b6fa6"
+      "sha256": "be45b375b5e8f2ce5de3e561c9db59c28df8478705b56bad4b76fc654d3f78cb"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -39,8 +39,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6449,
-      "sha256": "9078f8ddbc2c25033786d7abc3377db66477be3a7a22fc19c5b2dd8c3ee7160e"
+      "bytes": 6460,
+      "sha256": "5d7c01c6ef4a56e85bdbd433fbea2ab0a2866e19c2228abe02bf74b951b495d8"
     },
     {
       "path": "annotation/GUIDELINES.md",
@@ -1209,8 +1209,8 @@
     },
     {
       "path": "docs/METHODS.md",
-      "bytes": 2828,
-      "sha256": "ed0835aae9e93902aef912511f4163d6753cf0e642bd9cfea204174d27561e75"
+      "bytes": 3299,
+      "sha256": "aa281dd3853ada13a419998114343791d286d7fd4505cf72095dff466c15c0e9"
     },
     {
       "path": "docs/REPRODUCING.md",

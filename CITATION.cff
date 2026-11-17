@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the TRAVA paper and the upstream RealTimeQA dataset."
 title: "TRAVA: A Temporal RAG Validity Audit of Knowledge Cutoffs and Evidence Support"
 type: software
-version: "v2026-07-analysis-2026-11-15"
+version: "v2026-07-analysis-2026-11-17"
 authors:
   - family-names: "Le"
     given-names: "Xuan-Bach"
