@@ -24,10 +24,14 @@ Use the `results/analysis/` records for visible-prefix sensitivity analyses. Roo
 | `judge_interaction` | Cached judge-conditioned interactions | `results/analysis/r8_judge_interaction.json` |
 | `metric_errors` | Common-basis adjudicated metric errors | `results/human_metric_audit.json` |
 | `masked_human` | Weighted masked human-support estimates | `results/masked_human_support.json` |
+| `choice_scoring` | Common-panel nearest-option sensitivity | `results/choice_grounded_audit.json` |
+| `reporting` | Common-sample reporting summaries | `results/reporting_summary.json` |
+| `aligned_contrasts` | Matched endpoints, weights, rosters and half-year boundaries | `results/aligned_contrasts.json` |
+| `reporting_checks` | Index dates, exposure populations, policy folds and Haiku panel completion | `results/reporting_checks.json` |
 
 ## Additional cached results
 
-The following independent analyses are included as reference results and implementation code, but are not recomputed by the 20-stage full runner: `results/loo_control.json` (leave-one-out control), `joint_slope.json` (joint capability trend), `multilevel_capability.json` (capability regression), `fullscale.json` (uncapped panel), `controlled_cutoff.json` (same-family comparison), and `heldout_future.json` (future held-out questions). Their original entry points are under `pipeline/`; inspect `--help` and the result metadata before running them. Some original scripts combine retrieval or generation with analysis.
+The following independent analyses are included as reference results and implementation code, but are not recomputed by the 24-stage full runner: `results/loo_control.json` (leave-one-out control), `joint_slope.json` (joint capability trend), `multilevel_capability.json` (capability regression), `fullscale.json` (uncapped panel), `controlled_cutoff.json` (same-family comparison), and `heldout_future.json` (future held-out questions). Their original entry points are under `pipeline/`; inspect `--help` and the result metadata before running them. Some original scripts combine retrieval or generation with analysis.
 
 ## Reading uncertainty
 
@@ -42,3 +46,7 @@ Report both the estimate and its interval from the same weighting/conditioning f
 `results/choice_grounded_audit.json` separately provides the explicit eleven-generator closed-book sensitivity, including per-model 2023/2026 intervals. Recompute with `python pipeline/choice_grounded_audit.py`.
 
 `docs/model_inventory.json` records verified cache coverage and retained generation settings. Missing historical revisions are explicit nulls. Rebuild it with `python scripts/build_model_inventory.py`. `docs/protocols/` and `docs/corrections.md` document chronology and retrospective corrections. The corrected ledger resolves every provenance path within this repository and is checked with `python pipeline/rebuild_ledger.py --check`.
+
+## Aligned temporal comparisons
+
+The [estimand guide](reporting_estimands.md) defines the retrospective reporting extension. `results/aligned_contrasts.json` compares both temporal splits with common questions, two endpoints, two weighting schemes and seven-rung or six-Qwen model panels. It also provides the mean across eight half-year boundaries. `results/reporting_checks.json` records the matched exposure counts, stale-index link audit, policy-fold check and Haiku unmasked-NLI extension. Run the matching `pipeline/aligned_contrasts.py` and `pipeline/reporting_checks.py` entry points, or use the full runner. Historical summaries remain available with their original scope.
