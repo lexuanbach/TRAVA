@@ -2534,8 +2534,8 @@
     },
     {
       "path": "scripts/compare_results.py",
-      "bytes": 2543,
-      "sha256": "af2df73ff4b3c6e84b1d5d0f0864d76daa1fbcc371c5a381d8853d0e3fa5089d"
+      "bytes": 2708,
+      "sha256": "e3df1c47619837f77b5107a05351a7baedcb3aee302353667cfddac9ea1606f6"
     },
     {
       "path": "scripts/reproduce.py",

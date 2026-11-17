@@ -35,5 +35,8 @@ def main():
     result = {"absolute_tolerance": args.atol, "files": records, "difference_count": sum(len(x["differences"]) for x in records)}
     (args.run / "comparison.json").write_text(json.dumps(result, indent=2) + "\n")
     print(json.dumps({"files": len(records), "numeric_fields": sum(x["numeric_fields"] for x in records), "differences": result["difference_count"]}, indent=2))
+    for record in records:
+        if record["differences"]:
+            print(json.dumps({"file": record["file"], "differences": record["differences"]}, indent=2))
     return int(result["difference_count"] > 0)
 if __name__ == "__main__": raise SystemExit(main())
