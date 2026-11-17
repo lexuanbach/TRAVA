@@ -1097,7 +1097,7 @@
                   8.41
                 ],
                 "se_boot": 7.47,
-                "p_two_sided_boot": 0.40072,
+                "p_two_sided_boot": 0.40112,
                 "ci_excludes_zero": false,
                 "n_questions": 56,
                 "n_quizzes": 33
@@ -1363,7 +1363,7 @@
                   2.73
                 ],
                 "se_boot": 5.46,
-                "p_two_sided_boot": 0.14837,
+                "p_two_sided_boot": 0.14877,
                 "ci_excludes_zero": false,
                 "n_questions": 47,
                 "n_quizzes": 40
@@ -2631,7 +2631,7 @@
                   -6.93
                 ],
                 "se_boot": 6.03,
-                "p_two_sided_boot": 0.0016,
+                "p_two_sided_boot": 0.002,
                 "ci_excludes_zero": true,
                 "n_questions": 56,
                 "n_quizzes": 33
@@ -3883,7 +3883,7 @@
                   8.14
                 ],
                 "se_boot": 7.61,
-                "p_two_sided_boot": 0.35473,
+                "p_two_sided_boot": 0.35513,
                 "ci_excludes_zero": false,
                 "n_questions": 56,
                 "n_quizzes": 33
@@ -5794,7 +5794,7 @@
                   8.93
                 ],
                 "se_boot": 7.55,
-                "p_two_sided_boot": 0.42272,
+                "p_two_sided_boot": 0.42312,
                 "ci_excludes_zero": false,
                 "n_questions": 56,
                 "n_quizzes": 33
@@ -8580,7 +8580,7 @@
                   8.14
                 ],
                 "se_boot": 7.61,
-                "p_two_sided_boot": 0.35473,
+                "p_two_sided_boot": 0.35513,
                 "ci_excludes_zero": false,
                 "n_questions": 56,
                 "n_quizzes": 33

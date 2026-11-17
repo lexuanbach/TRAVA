@@ -40,3 +40,20 @@ def test_masked_harm_and_haiku_completion():
  for s,x in d['haiku_unmasked_nli']['per_slice'].items():assert x['n_supported']+x['n_unsupported']==(404 if s=='static' else 474);assert x['ci95'][0]>0
  assert d['haiku_admissible_subset']['results']['admissible']['n_questions']==179
  assert d['stale_wilson']['ci95']==pytest.approx([.2444,.4358],abs=.0003)
+
+
+def test_bootstrap_zero_ties_are_platform_stable():
+ import sys
+ import numpy as np
+ sys.path.insert(0, str(R / 'pipeline' / 'analysis'))
+ from analysis_common import summarize
+ # Exact zeros and small signed summation residuals represent the same ties.
+ base = np.array([-1.0] * 60 + [0.0] * 20 + [1.0] * 120)
+ perturbed = base.copy()
+ perturbed[60:80] = np.tile([-1e-15, 1e-15], 10)
+ expected = 2 * (80 + 1) / 201
+ assert summarize(0.3, base)['p_two_sided_boot'] == round(expected, 5)
+ assert summarize(0.3, perturbed)['p_two_sided_boot'] == round(expected, 5)
+ # A genuine small nonzero draw must retain its direction.
+ perturbed[60:80] = 1e-9
+ assert summarize(0.3, perturbed)['p_two_sided_boot'] == round(2 * 61 / 201, 5)

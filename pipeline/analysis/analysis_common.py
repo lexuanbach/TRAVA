@@ -145,8 +145,11 @@ def summarize(obs: float, draws, nd: int = 2, extra: dict | None = None) -> dict
     out = {"estimate": round(float(obs), nd)}
     if len(ok) >= 100:
         lo, hi = np.percentile(ok, [2.5, 97.5])
-        le = int((ok <= 0).sum())
-        ge = int((ok >= 0).sum())
+        # Algebraic zero can differ by a few ulps across BLAS implementations.
+        # Include numerical ties in both tails, without changing estimates or CIs.
+        zero_tolerance = 1e-12
+        le = int((ok <= zero_tolerance).sum())
+        ge = int((ok >= -zero_tolerance).sum())
         p = min(1.0, 2.0 * min(le + 1, ge + 1) / (len(ok) + 1))
         out.update({"ci95": [round(float(lo), nd), round(float(hi), nd)],
                     "se_boot": round(float(ok.std()), nd),

@@ -302,7 +302,7 @@
               2.01
             ],
             "se_boot": 0.74,
-            "p_two_sided_boot": 0.5115,
+            "p_two_sided_boot": 0.5127,
             "ci_excludes_zero": false
           }
         },
@@ -2773,7 +2773,7 @@
                 0.88
               ],
               "se_boot": 0.46,
-              "p_two_sided_boot": 0.94141,
+              "p_two_sided_boot": 0.94181,
               "ci_excludes_zero": false
             }
           },
@@ -2911,7 +2911,7 @@
                 0.44
               ],
               "se_boot": 0.32,
-              "p_two_sided_boot": 0.5231,
+              "p_two_sided_boot": 0.5239,
               "ci_excludes_zero": false
             }
           },

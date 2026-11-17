@@ -27,3 +27,7 @@ The nearest-option entry point now fixes the 878-question, eleven-generator clos
 ## 17 November 2026: aligned estimands and reporting
 
 The retrospective extension in [reporting_estimands.md](reporting_estimands.md) adds consistently weighted kappa, aligned endpoint/weighting contrasts, a within-Qwen slope, a boundary-average sensitivity and explicit index/fold coverage checks. It corrects the mixed-population exposure comparison and completes previously omitted Haiku summaries from existing caches. Historical protocols and model/annotation inputs are unchanged.
+
+## Bootstrap zero ties, 17 November 2026
+
+Strict cross-platform replay exposed small differences in bootstrap tail counts when algebraic zeros acquired opposite floating-point signs on macOS and Linux. The shared `pipeline/analysis/analysis_common.py` helper now includes residuals within 1e-12 of zero in both tails. This arithmetic tolerance is separate from statistical significance thresholds and does not alter point estimates or intervals. Cached analyses were replayed, affected p-values refreshed, and a signed-residual regression check added. Original model answers and labels remain unchanged. The comparison utility prints all differing JSON pointers and retains its strict 1e-8 comparison tolerance.

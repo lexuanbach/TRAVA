@@ -1214,8 +1214,8 @@
     },
     {
       "path": "docs/REPRODUCING.md",
-      "bytes": 4866,
-      "sha256": "32f2db6b84de5d133004c11a224f2447d0661abfd7585bcc6e93ae00f9a6d4a3"
+      "bytes": 5217,
+      "sha256": "8b78cebf8dd548cd976375012b621b4bf7985e5310c9b6f92f36dfed1b447ad6"
     },
     {
       "path": "docs/RESULTS.md",
@@ -1224,8 +1224,8 @@
     },
     {
       "path": "docs/corrections.md",
-      "bytes": 4364,
-      "sha256": "78aa9f9f44ed3f0896e3cd6eeb8d1ef24e416c0f16d255375f30d00653f8fdeb"
+      "bytes": 5077,
+      "sha256": "7bf1c111c692b71e18ffd8c08c30393382c447ca278e533df36f0cfb17544781"
     },
     {
       "path": "docs/model_inventory.json",
@@ -1274,8 +1274,8 @@
     },
     {
       "path": "pipeline/analysis/analysis_common.py",
-      "bytes": 6184,
-      "sha256": "035430047f254de64c164438a4cad7abb96b8635d4aeae511f94baf51a147845"
+      "bytes": 6404,
+      "sha256": "391153948406051b2c3997f30acf8568fc69bd13e67a3dee4096188c6c221986"
     },
     {
       "path": "pipeline/analysis/e0_human_alignment.py",
@@ -1944,13 +1944,13 @@
     },
     {
       "path": "results/analysis/e6_kablation.json",
-      "bytes": 81369,
-      "sha256": "811aa540cbec049a5e5d9388d37d732f5b9dfb458b9ce0d6573717efb7345159"
+      "bytes": 81370,
+      "sha256": "67575a028027e221fc3c2cfd18e0bc4c6af05042d7236e2847e94e0ecab0faf8"
     },
     {
       "path": "results/analysis/hidden_answer_contrast.json",
-      "bytes": 279277,
-      "sha256": "8c5f9c62c62b7f6b20002147217e54f3d855f537d0e1c7f7651ab122432cfc42"
+      "bytes": 279276,
+      "sha256": "d4a5e5d716592d4ad43ed6dcda03365adc44320c5cec3280caf776a4c8b7993a"
     },
     {
       "path": "results/analysis/l1_gap_differences.json",
@@ -2135,7 +2135,7 @@
     {
       "path": "results/analysis/r3_r5_checks.json",
       "bytes": 83548,
-      "sha256": "ac0eb33f91fcd1dbd789bf73de36d703a7ae20797ad655e3d3dd93990c56d57f"
+      "sha256": "e6c73bd1e7ccb4f9d961c5f58a2554fb636623f4073f6e0f81a3b680de35cf31"
     },
     {
       "path": "results/analysis/r4_e5_outer.json",
@@ -2214,8 +2214,8 @@
     },
     {
       "path": "results/claim_ledger.csv",
-      "bytes": 13304608,
-      "sha256": "e6a6cdc12db4fa7d6ed212ab0d1040bbd0658a209af519dc631c7d4c2c2895cd"
+      "bytes": 13304607,
+      "sha256": "bb00b57c4923601f766cb003ba9bad2c428a5d66c4d1b69e03450f6ff318fa6d"
     },
     {
       "path": "results/cluster_robust.json",
@@ -2554,8 +2554,8 @@
     },
     {
       "path": "tests/test_aligned_reporting.py",
-      "bytes": 3399,
-      "sha256": "29d624b33b0bcc253ca30b090e2898dde99f10081f0089669f9f4ca4ac07a041"
+      "bytes": 4128,
+      "sha256": "34b480b5131d9064e632b4e4701706d560a7ef08a1fc152c7519833a060fd246"
     },
     {
       "path": "tests/test_clusters.py",

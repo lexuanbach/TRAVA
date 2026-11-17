@@ -1,5 +1,5 @@
 {
-  "prereg": "docs/protocols/primary_analyses.md#E6",
+  "prereg": "results/analysis/PREREG_E2_E3_E6.md#E6",
   "seed": 20260917,
   "B": 5000,
   "support_label": "gold string in first 600 chars of any shown passage",
@@ -259,7 +259,7 @@
                 1.72
               ],
               "se_boot": 0.61,
-              "p_two_sided_boot": 0.41872,
+              "p_two_sided_boot": 0.41912,
               "ci_excludes_zero": false
             },
             "fresh": {
@@ -269,7 +269,7 @@
                 0.88
               ],
               "se_boot": 0.73,
-              "p_two_sided_boot": 0.4991,
+              "p_two_sided_boot": 0.5007,
               "ci_excludes_zero": false
             },
             "pooled": {
@@ -279,7 +279,7 @@
                 0.89
               ],
               "se_boot": 0.48,
-              "p_two_sided_boot": 0.94581,
+              "p_two_sided_boot": 0.94621,
               "ci_excludes_zero": false
             }
           }
