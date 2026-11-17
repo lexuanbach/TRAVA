@@ -23,3 +23,7 @@ The primary cutoff-relative analysis uses July 2025. Its analyst-chosen sensitiv
 The historical choice-audit summary juxtaposed a 2025-boundary token-F1 slope with a 2023/2026 choice-accuracy slope. That record now names the estimands and directs readers to the aligned comparison in `results/reporting_summary.json`. The choice result is positive but does not establish metric independence.
 
 The nearest-option entry point now fixes the 878-question, eleven-generator closed-book panel explicitly, including the unsuffixed Haiku cache. This replaces an open-ended directory glob. The cutoff-relative loader likewise recognizes the unsuffixed Haiku cache. These repairs change analysis coverage, not stored answers.
+
+## 17 November 2026: aligned estimands and reporting
+
+The retrospective extension in [reporting_estimands.md](reporting_estimands.md) adds consistently weighted kappa, aligned endpoint/weighting contrasts, a within-Qwen slope, a boundary-average sensitivity and explicit index/fold coverage checks. It corrects the mixed-population exposure comparison and completes previously omitted Haiku summaries from existing caches. Historical protocols and model/annotation inputs are unchanged.

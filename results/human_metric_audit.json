@@ -1,6 +1,6 @@
 {
   "scope": "Thresholded token-F1 errors against adjudicated human correctness labels.",
-  "analysis_version": "writing-revision-2026-11-15",
+  "analysis_version": "consistent-kappa-2026-11-17",
   "n_items": 395,
   "n_adjudicated_items": 34,
   "n_labels_changed_by_adjudication": 18,
@@ -17,6 +17,14 @@
   "weighting": "sampling_manifest.task_a.strata.weight_to_population; calibration included",
   "consistent_summaries": {
     "overall": {
+      "cohens_kappa": {
+        "estimate": 0.7450959569195867,
+        "ci95": [
+          0.5768224078593087,
+          0.877460701164716
+        ],
+        "valid_draws": 5000
+      },
       "human_correct_rate": {
         "estimate": 0.3911305076755822,
         "ci95": [
@@ -59,6 +67,14 @@
       }
     },
     "Static": {
+      "cohens_kappa": {
+        "estimate": 0.662508660255897,
+        "ci95": [
+          0.3844955843537741,
+          0.8952172666588306
+        ],
+        "valid_draws": 5000
+      },
       "human_correct_rate": {
         "estimate": 0.48391734467819025,
         "ci95": [
@@ -101,6 +117,14 @@
       }
     },
     "Fresh": {
+      "cohens_kappa": {
+        "estimate": 0.8495170726175101,
+        "ci95": [
+          0.7679152961738769,
+          0.8947700750043067
+        ],
+        "valid_draws": 5000
+      },
       "human_correct_rate": {
         "estimate": 0.2848958887154947,
         "ci95": [
@@ -143,6 +167,14 @@
       }
     },
     "Static_minus_Fresh": {
+      "cohens_kappa": {
+        "estimate": -0.18700841236161303,
+        "ci95": [
+          -0.47342306630941267,
+          0.07094985503930729
+        ],
+        "valid_draws": 5000
+      },
       "human_correct_rate": {
         "estimate": 0.19902145596269555,
         "ci95": [
@@ -185,6 +217,41 @@
       }
     }
   },
+  "unweighted_summaries": {
+    "overall": {
+      "cohens_kappa": 0.35642167113551526,
+      "human_correct_rate": 0.49873417721518987,
+      "miss_prevalence": 0.2430379746835443,
+      "conditional_miss_rate": 0.4873096446700508,
+      "false_credit_rate": 0.15656565656565657,
+      "agreement": 0.6784810126582279
+    },
+    "Static": {
+      "cohens_kappa": 0.351988944822821,
+      "human_correct_rate": 0.4900990099009901,
+      "miss_prevalence": 0.24257425742574257,
+      "conditional_miss_rate": 0.494949494949495,
+      "false_credit_rate": 0.1553398058252427,
+      "agreement": 0.6782178217821782
+    },
+    "Fresh": {
+      "cohens_kappa": 0.36065398589442177,
+      "human_correct_rate": 0.5077720207253886,
+      "miss_prevalence": 0.24352331606217617,
+      "conditional_miss_rate": 0.47959183673469385,
+      "false_credit_rate": 0.15789473684210525,
+      "agreement": 0.6787564766839378
+    },
+    "Static_minus_Fresh": {
+      "cohens_kappa": -0.008665041071600765,
+      "human_correct_rate": -0.01767301082439854,
+      "miss_prevalence": -0.0009490586364336029,
+      "conditional_miss_rate": 0.015357658214801118,
+      "false_credit_rate": -0.0025549310168625494,
+      "agreement": -0.0005386549017596387
+    }
+  },
+  "kappa_basis": "Binary metric-versus-adjudicated-human correctness, using the same design weights and bootstrap draws as agreement; unweighted estimates are separate.",
   "provisional": false,
   "label_basis": "majority of 3 with 34 adjudicated items (18 labels changed)",
   "n_disagreements_dropped": 0,

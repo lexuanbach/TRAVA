@@ -43,6 +43,6 @@ The comparison ignores timing/provenance metadata, including stored-result compa
 
 ## Validation of this package
 
-On 15 November 2026, all 22 full-suite cached-analysis stages completed on macOS arm64 with the pinned CPU environment. Three external-resource activities were explicitly skipped: fresh tokenization, model generation and human collection. The 25 computational tests passed. The numerical comparison covered the 21 JSON outputs named by the stage manifest; the mention-example stage produces JSONL rather than a numerical summary. This validation does not claim that fresh retrieval or model generation was repeated.
+On 17 November 2026, all 24 full-suite cached-analysis stages completed on macOS arm64 with the pinned CPU environment. Three external-resource activities were explicitly skipped: fresh tokenization, model generation and human collection. The 34 computational tests passed. The numerical comparison covered the 23 JSON outputs named by the stage manifest; the mention-example stage produces JSONL rather than a numerical summary. This validation does not claim that fresh retrieval or model generation was repeated.
 
-The deterministic ledger check is `python pipeline/rebuild_ledger.py --check`. It validates the released result paths and compares the stored CSV with a fresh byte-for-byte rebuild. The November replay comparison covers 45,144 numeric fields with zero differences.
+The deterministic ledger check is `python pipeline/rebuild_ledger.py --check`. It validates the released result paths and compares the stored CSV with a fresh byte-for-byte rebuild. The November replay comparison covers 47,029 numeric fields with zero differences.

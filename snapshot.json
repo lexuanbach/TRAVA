@@ -1,6 +1,6 @@
 {
   "snapshot": "v2026-07",
-  "analysis_version": "2026-11-15-audit-corrections",
+  "analysis_version": "2026-11-17-aligned-estimands",
   "files": [
     {
       "path": ".gitattributes",
@@ -9,8 +9,8 @@
     },
     {
       "path": ".github/workflows/tests.yml",
-      "bytes": 491,
-      "sha256": "ada2d38465dbd7e9740b44c6d3a291d9b03ba87f7e237ceca0eb38d3ef51f994"
+      "bytes": 633,
+      "sha256": "2353ec8e65c7dfe232b8dd7b06ecb77a55c6127daf18742b379c42ae406ecd8c"
     },
     {
       "path": ".gitignore",
@@ -1215,7 +1215,7 @@
     {
       "path": "docs/REPRODUCING.md",
       "bytes": 4866,
-      "sha256": "9dd43ba8a8224abd5130b325f65105b4ad5b3e5ca2e4621bb55389ae3516d372"
+      "sha256": "32f2db6b84de5d133004c11a224f2447d0661abfd7585bcc6e93ae00f9a6d4a3"
     },
     {
       "path": "docs/RESULTS.md",
@@ -1224,13 +1224,13 @@
     },
     {
       "path": "docs/corrections.md",
-      "bytes": 3876,
-      "sha256": "80ca03702484b72eabe12e8811a62130cd1769a2923ff73c2351e44a58c34384"
+      "bytes": 4364,
+      "sha256": "78aa9f9f44ed3f0896e3cd6eeb8d1ef24e416c0f16d255375f30d00653f8fdeb"
     },
     {
       "path": "docs/model_inventory.json",
-      "bytes": 18405,
-      "sha256": "e878029381eaeff2d54e215f177780bfdb603ec59c1a166e7b17959cfbd7b7c9"
+      "bytes": 18548,
+      "sha256": "fb42b630d0a0691411fff828d93b78710dbd5ff1571b15b479904743958bf51e"
     },
     {
       "path": "docs/protocols/masked_support.md",
@@ -1248,6 +1248,11 @@
       "sha256": "de041bb661aa0431f362bc47a3f6e126f0cc4db185ec69dcf8ee9dc55ab4d1ca"
     },
     {
+      "path": "docs/reporting_estimands.md",
+      "bytes": 4157,
+      "sha256": "17bec4ae5ef29f7a79c092dda10978447a8cb1a4f42006c851f00ab5bea42be6"
+    },
+    {
       "path": "pipeline/adaptive_policy.py",
       "bytes": 6744,
       "sha256": "6ae320870be22ab2910c4e8c914e34eacb3904173481abb85447081b970b3627"
@@ -1256,6 +1261,11 @@
       "path": "pipeline/aggregate.py",
       "bytes": 17569,
       "sha256": "7227246ca9f0b6fa337edd8cf9e764d6344fae8fecd68ed675551a07b3c52cd2"
+    },
+    {
+      "path": "pipeline/aligned_contrasts.py",
+      "bytes": 4902,
+      "sha256": "63ecaa4822b5eb7a7a672d4a82a0b531941bf44c2a48455e93406ff0fe2daa2b"
     },
     {
       "path": "pipeline/analysis/_e0util.py",
@@ -1549,8 +1559,8 @@
     },
     {
       "path": "pipeline/human_metric_audit.py",
-      "bytes": 14590,
-      "sha256": "44bba8cb2f6adaa4f70a98b9fd00c76a0fa30a1d355b06ae7c3504f55845fce7"
+      "bytes": 15134,
+      "sha256": "6435ab74785dbabe3244af54bc3a74919e342de5fbc0677ba2961ae53c5d58d7"
     },
     {
       "path": "pipeline/human_support_interaction.py",
@@ -1639,8 +1649,13 @@
     },
     {
       "path": "pipeline/rebuild_ledger.py",
-      "bytes": 46876,
-      "sha256": "a6fe6e76be5192e58fb50feea9c78dd7cb5599e4931d0b074a001f4907ea8e46"
+      "bytes": 48789,
+      "sha256": "d493a061fb614184847c3782115d599e73dee9499c38db5883129ec0b59dbe11"
+    },
+    {
+      "path": "pipeline/reporting_checks.py",
+      "bytes": 5064,
+      "sha256": "46f7ddfaf60b247d3f0b10d3273a74a5182fc8a15581dd14841fa4a0645bb22f"
     },
     {
       "path": "pipeline/reporting_summary.py",
@@ -1776,6 +1791,11 @@
       "path": "results/adjudication.json",
       "bytes": 2300,
       "sha256": "a9c6172900bce0a189314add01d16671d8e2b6b76d957a14bdbdbec1d72e4f0d"
+    },
+    {
+      "path": "results/aligned_contrasts.json",
+      "bytes": 106845,
+      "sha256": "64460118e46bcbee9a40c24cf12c05abfe25ce8299ecd2bfa8257d6c8745757c"
     },
     {
       "path": "results/anachronism_human_vs_mechanical.json",
@@ -2194,8 +2214,8 @@
     },
     {
       "path": "results/claim_ledger.csv",
-      "bytes": 13261158,
-      "sha256": "873486c622b96c2411ed506bffbdf104547aa0f4a46e8652d0018bb93e55d745"
+      "bytes": 13304608,
+      "sha256": "e6a6cdc12db4fa7d6ed212ab0d1040bbd0658a209af519dc631c7d4c2c2895cd"
     },
     {
       "path": "results/cluster_robust.json",
@@ -2274,8 +2294,8 @@
     },
     {
       "path": "results/human_metric_audit.json",
-      "bytes": 8096,
-      "sha256": "af7c28231bcb17d2814c82f4a4b23170a857fa163f0f62fbb7ee1eaf95bd8bf4"
+      "bytes": 10271,
+      "sha256": "b0b4b29275b93afdbc6efbcb51e91f622b450dcaf278f90607cf1af38108713c"
     },
     {
       "path": "results/human_support_interaction.json",
@@ -2366,6 +2386,11 @@
       "path": "results/rcb_all.json",
       "bytes": 2097,
       "sha256": "633a7a54d4275eb1820765b6dc5a87630001e4023d9c99542c03d826643bcef5"
+    },
+    {
+      "path": "results/reporting_checks.json",
+      "bytes": 19272,
+      "sha256": "71a1d84a08e3d75d31f39b1551e0688f20d399d1bbb3ceb2568f50716bcc3a2d"
     },
     {
       "path": "results/reporting_summary.json",
@@ -2504,8 +2529,8 @@
     },
     {
       "path": "scripts/build_model_inventory.py",
-      "bytes": 5739,
-      "sha256": "ac8f1617f037ab278717feb89fe32f39b1525ea2dbf55a967168eee891304a47"
+      "bytes": 5721,
+      "sha256": "cb36870903a6a5ae5a10329b2cbb3672fb6e5f9f58977881771428133611633a"
     },
     {
       "path": "scripts/compare_results.py",
@@ -2519,13 +2544,18 @@
     },
     {
       "path": "scripts/stages.json",
-      "bytes": 5890,
-      "sha256": "4b612da71e9d60c24b26ef528f336bf051d1ec70fe21c0e316c0615b8bbb356d"
+      "bytes": 6432,
+      "sha256": "4f678c6f850836924ea8c7da5b7e29357179a011c03c7de3f211975684505c1d"
     },
     {
       "path": "scripts/verify_snapshot.py",
       "bytes": 835,
       "sha256": "a0ef6b45aabb1d592dd2fc4650ecc5510f65543db42acdd5cd64ec840394e185"
+    },
+    {
+      "path": "tests/test_aligned_reporting.py",
+      "bytes": 3399,
+      "sha256": "29d624b33b0bcc253ca30b090e2898dde99f10081f0089669f9f4ca4ac07a041"
     },
     {
       "path": "tests/test_clusters.py",
@@ -2544,8 +2574,8 @@
     },
     {
       "path": "tests/test_provider_and_panels.py",
-      "bytes": 2215,
-      "sha256": "0c084898033832220deb3595467502291559db5fd4c89a408cac6e422738b9a4"
+      "bytes": 2336,
+      "sha256": "45da7fd5faa2f05f27e00c2f7445d7881e9f26ae19b6de328f9715e714b4142d"
     },
     {
       "path": "tests/test_reporting.py",

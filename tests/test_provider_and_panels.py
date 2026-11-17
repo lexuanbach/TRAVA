@@ -27,12 +27,14 @@ def test_inventory_separates_support_and_decision_panels():
     d=read('docs/model_inventory.json')['panels']
     assert len({p['name'] for p in d})==len(d)
     panels={p['name']:p for p in d}
-    for name in ['Decision','Unmasked support']:
+    for name in ['Decision']:
         p=panels[name]
         assert len(p['members'])==9
         assert 'haiku' not in {m['model'] for m in p['members']}
         assert all(n==878 for m in p['members'] for n in m['coverage'].values())
     assert len(panels['Support (string/NLI)']['members'])==10
+    assert len(panels['Unmasked support']['members'])==10
+    assert 'haiku' in {m['model'] for m in panels['Unmasked support']['members']}
 
 def test_legacy_haiku_key_has_explicit_identity():
     d=read('results/analysis/masked_counterfactual__vis600.json')

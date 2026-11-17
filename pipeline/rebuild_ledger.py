@@ -777,6 +777,31 @@ def rows_from_json() -> tuple[list[list[str]], list[str]]:
     sys.path.insert(0, str(ROOT / "pipeline"))
     from corrected_ledger import reconcile
     rows = reconcile(rows, ROOT)
+    # Retrospective aligned-estimand extension. Existing claim IDs remain intact.
+    ac = RESULTS / "aligned_contrasts.json"
+    if ac.exists():
+        d = json.loads(ac.read_text())
+        for contrast, c in d["contrasts"].items():
+            for weight, wd in c["results"].items():
+                for endpoint, ed in wd.items():
+                    for panel, value in ed["slopes"].items():
+                        add("aligned_" + "_".join([contrast,weight,endpoint,panel]), value["estimate"],
+                            f"95% CI {value['ci95']}; model-permutation p={value['p_model_permutation']}",
+                            "tab:aligned-slopes", f"results/aligned_contrasts.json:contrasts.{contrast}.results.{weight}.{endpoint}.slopes.{panel}")
+                    for model, value in ed["per_model"].items():
+                        add("aligned_gap_" + "_".join([contrast,weight,endpoint,model]),value["estimate"],
+                            f"95% CI {value['ci95']}", "tab:aligned-endpoints",
+                            f"results/aligned_contrasts.json:contrasts.{contrast}.results.{weight}.{endpoint}.per_model.{model}")
+        for weight, wd in d["half_year_sensitivity"].items():
+            for model,value in wd["mean_across_valid_boundaries"].items():
+                add("boundary_mean_"+weight+"_"+model,value["estimate"],f"95% CI {value['ci95']}; retrospective",
+                    "tab:boundary-average",f"results/aligned_contrasts.json:half_year_sensitivity.{weight}.mean_across_valid_boundaries.{model}")
+    rc = RESULTS / "reporting_checks.json"
+    if rc.exists():
+        d=json.loads(rc.read_text())
+        for regime,value in d["haiku_unmasked_nli"]["per_slice"].items():
+            add("haiku_unmasked_visible_nli_"+regime,value["interaction"],f"95% CI {value['ci95']}",
+                "app:panels",f"results/reporting_checks.json:haiku_unmasked_nli.per_slice.{regime}")
     return rows, notes
 
 

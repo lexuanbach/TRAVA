@@ -271,5 +271,29 @@
       "core",
       "full"
     ]
+  },
+  {
+    "id": "aligned_contrasts",
+    "title": "Aligned endpoints, model rosters and half-year boundaries",
+    "script": "pipeline/aligned_contrasts.py",
+    "args": [],
+    "results": [
+      "results/aligned_contrasts.json"
+    ],
+    "suites": [
+      "full"
+    ]
+  },
+  {
+    "id": "reporting_checks",
+    "title": "Index dates, fold actions and Haiku panel completion",
+    "script": "pipeline/reporting_checks.py",
+    "args": [],
+    "results": [
+      "results/reporting_checks.json"
+    ],
+    "suites": [
+      "full"
+    ]
   }
 ]

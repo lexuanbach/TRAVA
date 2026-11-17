@@ -173,7 +173,11 @@ def main() -> int:
         correct = sum(r["w"] for r in sel if r["human_ok"])
         missed = sum(r["w"] for r in sel if r["human_ok"] and not r["f1_ok"])
         credited = sum(r["w"] for r in sel if not r["human_ok"] and r["f1_ok"])
+        predicted = sum(r["w"] for r in sel if r["f1_ok"])
+        agreement = 1 - (missed + credited) / total
+        chance = (correct * predicted + (total - correct) * (total - predicted)) / total**2
         return {
+            "cohens_kappa": (agreement - chance) / (1 - chance) if chance < 1 else None,
             "human_correct_rate": correct / total,
             "miss_prevalence": missed / total,
             "conditional_miss_rate": missed / correct if correct else None,
@@ -235,7 +239,7 @@ def main() -> int:
 
     out = {
         "scope": "Thresholded token-F1 errors against adjudicated human correctness labels.",
-        "analysis_version": "writing-revision-2026-11-15",
+        "analysis_version": "consistent-kappa-2026-11-17",
         "n_items": len(rows), "n_adjudicated_items": len(overrides),
         "n_labels_changed_by_adjudication": n_changed,
         "n_adjudication_overrides": len(overrides),
@@ -245,6 +249,8 @@ def main() -> int:
             "shared_draws": True},
         "weighting": "sampling_manifest.task_a.strata.weight_to_population; calibration included",
         "consistent_summaries": summaries,
+        "unweighted_summaries": summarize([dict(r, w=1.0) for r in rows]),
+        "kappa_basis": "Binary metric-versus-adjudicated-human correctness, using the same design weights and bootstrap draws as agreement; unweighted estimates are separate.",
         "provisional": len(per) < 3,
         "label_basis": basis,
         "n_disagreements_dropped": n_dropped,

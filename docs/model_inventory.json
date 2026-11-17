@@ -557,6 +557,13 @@
           }
         },
         {
+          "model": "haiku",
+          "coverage": {
+            "closed_book": 878,
+            "hybrid": 878
+          }
+        },
+        {
           "model": "sonnet",
           "coverage": {
             "closed_book": 878,

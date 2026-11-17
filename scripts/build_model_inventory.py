@@ -55,7 +55,7 @@ ANALYSES = [
      ["closed_book", "hybrid", "hybrid_masked"], N_MAIN),
     ("Support (string/NLI)", r"$\Delta_{\text{sup}}$, masked", HYBRID,
      ["closed_book", "hybrid_masked"], N_MAIN),
-    ("Unmasked support", r"$\Delta_{\text{sup}}$, string/NLI", [m for m in HYBRID if m],
+    ("Unmasked support", r"$\Delta_{\text{sup}}$, string/NLI", HYBRID,
      ["closed_book", "hybrid"], N_MAIN),
     ("Decision", "held-out policy gain", [m for m in HYBRID if m],
      ["closed_book", "hybrid", "hybrid_masked"], N_MAIN),
